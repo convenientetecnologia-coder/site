@@ -154,7 +154,6 @@ function renderBody(city, data) {
         </ol>
         <div class="ctaRow">
           <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Pedir orçamento no WhatsApp</a>
-          <a class="btn secondary" href="/cidades/">Ver cidades</a>
         </div>
       </section>
 

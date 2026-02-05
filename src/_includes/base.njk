@@ -27,9 +27,8 @@
       <div class="wrap">
         <a class="brand" href="/">{{ site.brandName }}</a>
         {% set t = pageMeta.type or '' %}
-        {% if t == "home" or t == "cidades" %}
+        {% if t == "home" or t == "cidades" or t == "legal_privacy" or t == "legal_terms" %}
           <nav class="nav">
-            <a href="/cidades/">Cidades</a>
             <a href="#contato">Contato</a>
           </nav>
         {% else %}
