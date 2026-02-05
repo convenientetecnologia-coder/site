@@ -44,6 +44,13 @@ function extractOne(html, re) {
   return m ? String(m[1] || "").trim() : "";
 }
 
+function extractBodyAttr(html, name) {
+  const n = String(name || "").trim();
+  if (!n) return "";
+  const re = new RegExp(`<body[^>]*\\s${n}=["']([^"']*)["']`, "i");
+  return extractOne(html, re);
+}
+
 function deaccent(s) {
   const str = String(s || "");
   try {
@@ -157,6 +164,9 @@ function main() {
     const h1 = extractOne(html, /<h1[^>]*>([\s\S]*?)<\/h1>/i).replace(/<[^>]+>/g, "").trim();
     const text = stripTags(html);
     const words = text ? text.split(" ").filter(Boolean).length : 0;
+    const pageType = extractBodyAttr(html, "data-page-type");
+    const isCityPage = pageType === "fretes" || pageType === "mudancas" || pageType === "urgente" ||
+      /\/(fretes-em-|mudancas-em-|frete-urgente-em-)/i.test(rel);
 
     if (!title) { fail(`Sem <title> em ${rel}`); bad++; continue; }
     if (!h1) { fail(`Sem <h1> em ${rel}`); bad++; continue; }
@@ -185,16 +195,18 @@ function main() {
       }
     }
 
-    // gate de palavras
-    if (publishMode === "production") {
-      if (words < minWordsProduction) {
-        fail(`Poucas palavras em modo production (${words} < ${minWordsProduction}) em ${rel}`);
-        bad++; wordHardFail++;
-      }
-    } else {
-      if (words < minWordsDraftWarn) {
-        console.warn(`[validate] WARN: poucas palavras (${words}) em ${rel}`);
-        wordLow++;
+    // gate de palavras: só aplica para páginas de cidade (fretes/mudanças/urgente)
+    if (isCityPage) {
+      if (publishMode === "production") {
+        if (words < minWordsProduction) {
+          fail(`Poucas palavras em modo production (${words} < ${minWordsProduction}) em ${rel}`);
+          bad++; wordHardFail++;
+        }
+      } else {
+        if (words < minWordsDraftWarn) {
+          console.warn(`[validate] WARN: poucas palavras (${words}) em ${rel}`);
+          wordLow++;
+        }
       }
     }
 

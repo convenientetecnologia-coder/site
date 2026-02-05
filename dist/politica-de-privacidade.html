@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Política de Privacidade | Fretes e Mudanças</title>
+    <meta name="description" content="Entenda como tratamos dados (ex.: telefone e cidade) no atendimento de fretes e mudanças, de acordo com a LGPD." />
+    <link rel="canonical" href="https://www.fretesoumudancas.com.br/politica-de-privacidade.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Política de Privacidade | Fretes e Mudanças" />
+    <meta property="og:description" content="Entenda como tratamos dados (ex.: telefone e cidade) no atendimento de fretes e mudanças, de acordo com a LGPD." />
+    <meta property="og:url" content="https://www.fretesoumudancas.com.br/politica-de-privacidade.html" />
+    <meta property="og:image" content="/assets/og-default.svg" />
+
+    
+      <meta name="robots" content="noindex,nofollow" />
+    
+
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/site.css" />
+  </head>
+  <body data-page-type="legal_privacy" data-city-slug="">
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="/">Fretes e Mudanças</a>
+        <nav class="nav">
+          <a href="/cidades/">Cidades</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      
+<div class="wrap">
+  <section class="card">
+    <div class="kicker">Transparência • LGPD • Privacidade</div>
+    <h1>Política de Privacidade</h1>
+    <p class="muted">Última atualização: 2026-02-05</p>
+
+    <h2>1) O que esta política cobre</h2>
+    <p>Esta Política explica como tratamos dados quando você usa nosso site para solicitar atendimento de <b>fretes</b> e <b>mudanças</b>.</p>
+
+    <h2>2) Quais dados podem ser coletados</h2>
+    <ul class="list">
+      <li><b>Telefone</b> (para retorno/atendimento)</li>
+      <li><b>Cidade/UF</b> (para direcionar o atendimento)</li>
+      <li><b>Informações do pedido</b> (ex.: bairro de saída/destino, local de saída/destino, descrição do que será transportado)</li>
+      <li><b>Dados técnicos</b> (ex.: página acessada e cliques no botão de WhatsApp, para métricas de engajamento)</li>
+    </ul>
+
+    <h2>3) Para que usamos esses dados</h2>
+    <ul class="list">
+      <li>Atender sua solicitação e viabilizar o contato pelo WhatsApp.</li>
+      <li>Organizar e priorizar o atendimento (logística).</li>
+      <li>Medir performance do site (ex.: acessos e cliques no WhatsApp) para melhorar o atendimento.</li>
+    </ul>
+
+    <h2>4) Compartilhamento</h2>
+    <p>Podemos compartilhar os dados do pedido com prestadores/parceiros responsáveis pelo atendimento na sua região, apenas para executar o serviço solicitado.</p>
+
+    <h2>5) Cookies e métricas</h2>
+    <p>Podemos usar identificadores locais (ex.: armazenamento do navegador) para contabilizar acessos e cliques, sem expor segredos e sem publicar dados pessoais.</p>
+
+    <h2>6) Segurança</h2>
+    <p>Adotamos medidas técnicas e organizacionais para reduzir riscos de acesso não autorizado, alteração ou perda de dados.</p>
+
+    <h2>7) Seus direitos</h2>
+    <p>Você pode solicitar informações, correções e exclusão de dados, conforme a LGPD, por meio do nosso canal de atendimento.</p>
+
+    <h2>8) Alterações</h2>
+    <p>Esta política pode ser atualizada para refletir melhorias no serviço e requisitos legais. A data de atualização será ajustada nesta página.</p>
+  </section>
+</div>
+
+
+    </main>
+
+    <footer class="footer" id="contato">
+      <div class="wrap">
+        <div class="muted">©  Fretes e Mudanças.</div>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        try {
+          const endpoint = "https://c0nv3n13nt3t3cn0l0g14jesus.sa.ngrok.io/convenientetecnologia/api/site/event";
+          if (!endpoint || !/^https?:\/\//i.test(endpoint)) return;
+
+          const pageType = document.body.getAttribute("data-page-type") || "";
+          const citySlug = document.body.getAttribute("data-city-slug") || "";
+          const sidKey = "ct_site_sid_v1";
+          let sid = "";
+          try {
+            sid = localStorage.getItem(sidKey) || "";
+            if (!sid) {
+              sid = (Math.random().toString(16).slice(2) + Date.now().toString(16)).slice(0, 48);
+              localStorage.setItem(sidKey, sid);
+            }
+          } catch {}
+
+          function beacon(event, extra) {
+            try {
+              const payload = Object.assign({
+                v: 1,
+                event,
+                ts: Date.now(),
+                sid,
+                pageType,
+                citySlug,
+                path: location.pathname || "",
+                ref: document.referrer || ""
+              }, (extra || {}));
+              const blob = new Blob([JSON.stringify(payload)], { type: "text/plain;charset=UTF-8" });
+              navigator.sendBeacon(endpoint, blob);
+            } catch {}
+          }
+
+          // pageview (sem bloquear a navegação)
+          beacon("pageview");
+
+          // whatsapp click (captura)
+          document.addEventListener("click", (ev) => {
+            const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[data-ct-wa='1']") : null;
+            if (!a) return;
+            beacon("whatsapp_click", {
+              href: a.getAttribute("href") || "",
+              waKind: a.getAttribute("data-wa-kind") || ""
+            });
+          }, { capture: true });
+        } catch {}
+      })();
+    </script>
+  </body>
+</html>
+

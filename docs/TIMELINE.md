@@ -39,6 +39,20 @@ Regra: toda mudança relevante entra aqui com:
 - **Impacto**: o Git Deploy no Hostinger pode apontar para `public_html` sem apagar o auto atendimento (ele está dentro do build).
 - **Rollback**: reverter commits do repo `site` e republicar versão anterior.
 
+#### 2026-02-05 — [SITE] Páginas legais (política/termos) dentro do Git + gate de palavras só para páginas de cidade
+
+- **O que**:
+  - Criadas páginas canônicas:
+    - `/politica-de-privacidade.html`
+    - `/termos-de-uso.html`
+  - Ajustado o `validate` para aplicar o gate de **>=1200 palavras em production** somente em páginas de cidade (fretes/mudanças/urgente).
+- **Por quê**: manter conformidade e não travar produção por páginas institucionais curtas.
+- **Evidência**:
+  - `C:\site\src\politica-de-privacidade.njk`
+  - `C:\site\src\termos-de-uso.njk`
+  - `C:\site\scripts\validate.js`
+- **Rollback**: reverter commit do repo `site`.
+
 #### 2026-02-05 — [SITE] Bootstrap do projeto (Eleventy + docs canônicos)
 
 - **O que**:
