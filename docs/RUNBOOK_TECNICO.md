@@ -19,6 +19,7 @@ Este arquivo é o manual de operação do projeto em `C:\site`.
   - `npm run audit:testimonials` (gera `docs/AUDITORIA_DEPOIMENTOS.md` e acusa duplicados)
 - Preparar deploy (Hostinger Git Deploy):
   - `npm run deploy:prepare` (build + validate + copia `dist/` para a raiz do repo como webroot)
+  - Regra: **sempre** rodar `deploy:prepare` antes de `git push` (para o `index.html`/assets do webroot estarem atualizados)
 
 Importante: **não existe servidor Node rodando em produção** neste padrão. O Node é só ferramenta de build.
 
@@ -61,6 +62,7 @@ Para automatizar:
 Regra de segurança (docs):
 
 - Não colar a URL do webhook em docs/repo. Tratar como dado operacional sensível.
+  - Evidência de que está funcionando: `robots.txt` e `index.html` atualizam sem clicar em “Implantar”.
 
 #### Política de publicação
 
@@ -108,7 +110,7 @@ Objetivo: nunca deixar o Google indexar páginas rascunho.
 
 - **DRAFT** (padrão antes do primeiro deploy):
   - gera somente o que está habilitado (ou pode gerar zero cidades)
-  - `robots.txt` bloqueia crawl
+  - `robots.txt` bloqueia crawl **(mas permite `/sitemap.xml` e `/robots.txt` para o GSC buscar)**
   - meta robots usa `noindex,nofollow`
 - **PRODUCTION**:
   - gera e lista no sitemap apenas páginas habilitadas

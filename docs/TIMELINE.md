@@ -17,6 +17,24 @@ Regra: toda mudança relevante entra aqui com:
 - **Próximo passo**: enviar `sitemap.xml` no GSC (1 vez) e manter rollout `draft → production` conforme playbook.
 - **Rollback**: remover o TXT do DNS (não recomendado; só se precisar trocar de conta).
 
+#### 2026-02-05 — [SITE] GSC: sitemap enviado + ajuste do robots em draft para permitir fetch do sitemap
+
+- **O que**:
+  - Sitemap enviado no GSC: `https://www.fretesoumudancas.com.br/sitemap.xml`
+  - Em `draft`, `robots.txt` ganhou allowlist para o GSC buscar o sitemap: `Allow: /sitemap.xml` e `Allow: /robots.txt`
+- **Por quê**: manter anti-queima (sem indexação) e ainda permitir que o GSC valide/consuma o sitemap.
+- **Evidência**:
+  - `https://www.fretesoumudancas.com.br/robots.txt` (Allowlist)
+  - `https://www.fretesoumudancas.com.br/sitemap.xml` (HTTP 200)
+- **Rollback**: reverter commit do repo `site`.
+
+#### 2026-02-05 — [SITE] Webhook do GitHub configurado e validado (push → deploy automático)
+
+- **O que**: webhook do Hostinger foi configurado no GitHub para disparar deploy automático a cada `push` no branch `main`.
+- **Por quê**: eliminar deploy manual (“Implantar”) e reduzir risco operacional.
+- **Evidência**: atualização automática de arquivos públicos após `git push` (ex.: `robots.txt`).
+- **Rollback**: desativar/remover o webhook no GitHub.
+
 #### 2026-02-05 — [SITE] Hostinger Git Deploy conectado (public_html zerado → site no ar)
 
 - **O que**: Git Deploy do Hostinger foi configurado apontando para o repositório do site (branch `main`) com `public_html` vazio.
