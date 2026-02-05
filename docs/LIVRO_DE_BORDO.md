@@ -35,6 +35,12 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **São Paulo (SP)** — publicado em 2026-02-05
+  - `/fretes-em-sao-paulo/`
+  - `/mudancas-em-sao-paulo/`
+  - `/frete-urgente-em-sao-paulo/`
+  - Commit: `15492be`
+
 - **Florianópolis (SC)** — publicado em 2026-02-05
   - `/fretes-em-florianopolis/`
   - `/mudancas-em-florianopolis/`

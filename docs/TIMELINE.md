@@ -9,6 +9,24 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-05 — [SITE] São Paulo (SP): 3 páginas publicadas em production
+
+- **O que**: criadas e publicadas as 3 páginas de São Paulo:
+  - `/fretes-em-sao-paulo/` (~2560 palavras)
+  - `/mudancas-em-sao-paulo/` (~2773 palavras)
+  - `/frete-urgente-em-sao-paulo/` (~2704 palavras)
+  - Conteúdo GPT gerado, 45 bairros divididos em 3 blocos, 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+- **Por quê**: segunda cidade publicada seguindo o protocolo enterprise completo.
+- **Evidência**:
+  - Commit: `15492be` (repo `site`)
+  - `src/_data/publish_config.json` (sao-paulo habilitado em production)
+  - `src/_data/city_content/sao-paulo.json` (conteúdo GPT)
+  - `src/_data/neighborhoods.json` (bairros atualizados)
+  - `src/_data/testimonials.json` (depoimentos atualizados)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit `15492be` ou desabilitar cidade no `publish_config.json`.
+
 #### 2026-02-05 — [SITE] Protocolo enterprise: criação automática de páginas (criar → validar → commit → push → avisar)
 
 - **O que**: estabelecido protocolo ultra enterprise para criação de páginas de cidade:
