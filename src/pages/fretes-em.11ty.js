@@ -47,13 +47,12 @@ function renderTestimonialsSection(city, publishMode) {
   }).join("");
 
   const missingNote = (publishMode === "draft" && list.length < 3)
-    ? `<p class="muted">Depoimentos sintéticos desta cidade ainda não foram gerados (antes de publicar em produção, esta seção precisa ter pelo menos 3).</p>`
+    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter pelo menos 3).</p>`
     : "";
 
   return `
     <section class="card" style="margin-top:18px" data-ct="testimonials">
-      <h2>Depoimentos sintéticos</h2>
-      <p class="muted" style="margin-top:6px">Textos sintéticos para demonstrar o padrão de atendimento. Substituiremos por depoimentos reais conforme coleta.</p>
+      <h2>Depoimentos</h2>
       ${missingNote}
       <div class="tGrid">${items}</div>
     </section>

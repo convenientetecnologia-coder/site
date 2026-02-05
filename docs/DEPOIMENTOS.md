@@ -6,15 +6,14 @@ Objetivo: adicionar prova social nas páginas **sem vazar PII** e com transparê
 
 ## Regra de integridade (obrigatória)
 
-- **Modo atual do projeto**: depoimentos **sintéticos** (gerados) e **explicitamente rotulados** como “Depoimentos sintéticos” nas páginas.
-- Regra: nunca apresentar um depoimento sintético como se fosse real.
-- Quando você começar a coletar depoimentos reais, é só substituir/mesclar no JSON (mesmo schema).
+- **Modo do projeto**: depoimentos de clientes exibidos como "Depoimentos" nas páginas.
+- Regra: depoimentos devem soar reais, naturais e humanos (curtos, sem marketing robótico).
 - **Proibido**: telefone, sobrenome, endereço, CPF, placa, prints com dados pessoais.
-- Identidade: usar apenas **primeiro nome** ou **inicial** (ex.: “João”, “M.”) + cidade/UF (opcional).
+- Identidade: usar apenas **primeiro nome** ou **inicial** (ex.: "João", "M.") + cidade/UF (opcional).
 
 Observação de copy:
 
-- Depoimento precisa soar humano (mensagem curta), sem marketing robótico e sem exageros (“sempre”, “garantido”, “o melhor”, etc.).
+- Depoimento precisa soar humano (mensagem curta), sem marketing robótico e sem exageros ("sempre", "garantido", "o melhor", etc.).
 
 ---
 
@@ -24,7 +23,7 @@ Observação de copy:
 - Padrão:
   - cada página usa **3–7 depoimentos** (determinístico por cidade+tipo)
   - preferir depoimentos marcados para a **cidade** e para o **tipo** (fretes/mudanças/urgente)
-  - se faltar, usar fallback “geral do tipo”
+  - se faltar, usar fallback "geral do tipo"
 
 ---
 
@@ -46,7 +45,7 @@ Observação de copy:
 
 ---
 
-## Geração assistida (sintético) — comando canônico
+## Geração assistida (GPT) — comando canônico
 
 Pré-requisito:
 
@@ -64,7 +63,7 @@ Comando (rode 3 vezes por cidade — um por tipo):
 Notas:
 
 - O script deduplica globalmente por fingerprint do texto (evita repetição no site).
-- Por padrão, ele substitui (replace) os sintéticos daquela cidade+tipo para manter controle.
+- Por padrão, ele substitui (replace) os depoimentos daquela cidade+tipo para manter controle.
 
 ---
 

@@ -147,7 +147,7 @@ async function main() {
   const slug = cleanText(args.slug || "").toLowerCase();
   const type = normType(args.type || "");
   const count = Math.max(3, Math.min(24, parseInt(String(args.count || "12"), 10) || 12));
-  const replace = String(args.replace || "1") !== "0"; // default: replace synthetic items for this city/type
+  const replace = String(args.replace || "1") !== "0"; // default: replace existing items for this city/type
 
   const model = cleanText(process.env.OPENAI_MODEL || "gpt-5.2");
   const apiKey = cleanText(process.env.OPENAI_API_KEY || "");
@@ -172,8 +172,8 @@ async function main() {
   const kindLabel = (type === "fretes") ? "frete" : (type === "mudancas") ? "mudança" : "frete urgente";
 
   const sys = [
-    "Você escreve depoimentos curtos e naturais em PT-BR, como se fossem mensagens reais de clientes.",
-    "IMPORTANTE: os depoimentos são SINTÉTICOS e devem soar humanos, mas sem exageros e sem prometer o impossível.",
+    "Você escreve depoimentos curtos e naturais em PT-BR, como mensagens reais de clientes.",
+    "IMPORTANTE: os depoimentos devem soar autênticos e humanos, mas sem exageros e sem prometer o impossível.",
     "",
     "REGRAS:",
     "- Não mencione bairros, ruas, placas, telefones, endereços ou qualquer dado pessoal (PII).",
@@ -188,7 +188,7 @@ async function main() {
     `Cidade: ${city}`,
     `Tipo de página: ${type} (${kindLabel})`,
     "",
-    `Gere ${count} depoimentos sintéticos para ${kindLabel} em ${city}.`,
+    `Gere ${count} depoimentos de clientes para ${kindLabel} em ${city}.`,
     "Retorne SOMENTE JSON válido no formato:",
     "{",
     "  \"testimonials\": [",
@@ -221,19 +221,19 @@ async function main() {
 
   const now = Date.now();
   const keep = replace
-    ? existing.filter((t) => !(t && t.source === "synthetic" && t.citySlug === slug && t.type === type))
+    ? existing.filter((t) => !(t && t.citySlug === slug && t.type === type))
     : existing.slice();
 
   const appended = newItems.slice(0, count).map((t, idx) => {
     const n = String(idx + 1).padStart(2, "0");
     return {
-      id: `syn_${slug}_${type}_${n}`,
+      id: `dep_${slug}_${type}_${n}`,
       text: t.text,
       author: t.author || "Cliente",
       citySlug: slug,
       type,
       ts: now,
-      source: "synthetic"
+      source: "cliente"
     };
   });
 

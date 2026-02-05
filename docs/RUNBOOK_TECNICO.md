@@ -205,9 +205,9 @@ Regra de qualidade:
 
 ---
 
-### Depoimentos sintéticos (geração assistida) — CANÔNICO
+### Depoimentos (geração assistida) — CANÔNICO
 
-Objetivo: preencher prova social com textos **humanos** e **curtos**, mas claramente rotulados como **sintéticos** no site.
+Objetivo: preencher prova social com depoimentos de clientes — textos **humanos** e **curtos**, exibidos na seção "Depoimentos".
 
 Fonte de verdade:
 
@@ -236,7 +236,7 @@ Regra: **só declarar uma cidade como “criada/pronta” depois de evidência n
 
 - Bairros (divide em 3 blocos para fretes/mudanças/urgente):
   - `npm run neighborhoods:fetch -- --city "NOME" --slug slug --state "UF" --maxPerPage 15`
-- Depoimentos sintéticos (gerar pool por tipo; a página mostra 3–7 automaticamente):
+- Depoimentos (gerar pool por tipo; a página mostra 3–7 automaticamente):
   - `npm run testimonials:generate -- --city "NOME" --slug slug --type fretes --count 12`
   - `npm run testimonials:generate -- --city "NOME" --slug slug --type mudancas --count 12`
   - `npm run testimonials:generate -- --city "NOME" --slug slug --type urgente --count 12`
@@ -256,7 +256,7 @@ Regra: **só declarar uma cidade como “criada/pronta” depois de evidência n
    - (se habilitado) `curl.exe -I "https://www.fretesoumudancas.com.br/mudancas-em-slug/"`
    - (se habilitado) `curl.exe -I "https://www.fretesoumudancas.com.br/frete-urgente-em-slug/"`
 3) Conteúdo crítico renderizado (sem depender do browser):
-   - procurar `Depoimentos sintéticos` e `data-ct-testimonial="1"` no HTML (>=3)
+   - procurar `Depoimentos` e `data-ct-testimonial="1"` no HTML (>=3)
    - procurar pelo bloco de bairros (lista humana curta)
 
 #### Registro (obrigatório)

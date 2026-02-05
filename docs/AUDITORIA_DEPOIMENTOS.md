@@ -1,6 +1,6 @@
 ### Auditoria de depoimentos — SITE (gerado)
 
-Gerado em: `2026-02-05T16:05:49.125Z`
+Gerado em: `2026-02-05T21:27:52.078Z`
 
 Fonte de verdade: `src/_data/testimonials.json` (via `src/_data/testimonials.js`).
 

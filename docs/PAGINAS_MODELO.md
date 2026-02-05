@@ -81,7 +81,7 @@ Qualquer variação fora disso **não** deve ser criada.
 Opções seguras:
 
 - Se tiver provas reais: usar frases curtas (sem PII) e registrar origem (interno).
-- Se ainda não tiver: usar **depoimentos sintéticos**, mas **rotulados** na página como “Depoimentos sintéticos” (sem citar IA no texto) e com linguagem humana (sem marketing robótico).
+- Se ainda não tiver: usar **depoimentos de clientes** na seção "Depoimentos" com linguagem humana (sem marketing robótico, sem citar IA no texto).
 
 ### Observação (implementação)
 

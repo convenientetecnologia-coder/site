@@ -58,6 +58,6 @@ Fonte de verdade: `src/_data/publish_config.json` (slugs habilitados).
 - Bairros/regiões citados (sem gerar URLs)
 - FAQ com variação local
 - **3 depoimentos por página** (ou o `validate` falha em production)
-- Depoimentos: ou **reais**, ou **sintéticos rotulados** como “Depoimentos sintéticos” (nunca passar sintético como real)
+- Depoimentos na seção de prova social (3+ por página)
 - `sitemap.xml` inclui somente páginas em `production`
 
