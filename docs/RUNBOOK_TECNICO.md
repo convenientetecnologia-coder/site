@@ -41,6 +41,27 @@ Objetivo: o humano faz **1 configuração inicial** no hPanel, depois o fluxo vi
    - gerar/capturar a SSH key do Hostinger (deploy key)
    - adicionar no GitHub como Deploy Key com permissão de leitura.
 
+#### Implantação automática (webhook) — CANÔNICO
+
+Sem webhook, o Hostinger **não puxa automaticamente** após `git push` (você precisa clicar em **Implantar** manualmente).
+
+Para automatizar:
+
+1) No hPanel (Git Deploy): copiar a **URL do webhook** (Implantação automática).
+2) No GitHub: `Settings → Webhooks → Add webhook`
+3) Preencher:
+   - **Payload URL**: colar a URL do webhook do Hostinger
+   - **Content type**: `application/json`
+   - **Secret**: vazio
+   - **Which events**: **Just the push event**
+   - **Active**: ligado
+4) Salvar.
+5) Fazer um commit/push pequeno e checar no hPanel (Visualizar resultado) se o deploy foi disparado.
+
+Regra de segurança (docs):
+
+- Não colar a URL do webhook em docs/repo. Tratar como dado operacional sensível.
+
 #### Política de publicação
 
 - O Hostinger deve publicar o conteúdo **estático**.
