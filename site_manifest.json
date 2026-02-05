@@ -1,15 +1,7 @@
 {
   "ok": true,
   "mode": "draft",
-  "generatedAt": "2026-02-05T19:59:24.577Z",
+  "generatedAt": "2026-02-05T20:01:36.915Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
-  "cities": [
-    {
-      "slug": "florianopolis",
-      "name": "Florianópolis",
-      "links": {
-        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-florianopolis/"
-      }
-    }
-  ]
+  "cities": []
 }
