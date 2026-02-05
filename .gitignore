@@ -8,4 +8,5 @@ yarn-error.log*
 # Secrets (NUNCA versionar)
 .env
 .env.*
+local.env
 

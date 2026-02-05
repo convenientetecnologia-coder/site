@@ -4,6 +4,16 @@ const fs = require("fs");
 const path = require("path");
 const https = require("https");
 
+// Carrega variáveis locais sem versionar secrets:
+// - preferencial: `local.env` na raiz do projeto
+// - fallback: `.env` (se o usuário optar por usar)
+try {
+  // eslint-disable-next-line global-require
+  const dotenv = require("dotenv");
+  try { dotenv.config({ path: path.join(__dirname, "..", "local.env") }); } catch {}
+  try { dotenv.config(); } catch {}
+} catch {}
+
 function parseArgs(argv) {
   const out = {};
   for (let i = 2; i < argv.length; i++) {
