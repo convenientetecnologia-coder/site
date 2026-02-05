@@ -38,13 +38,6 @@ p{color:rgba(230,237,247,.92);line-height:1.65}
 .footer{border-top:1px solid var(--border);padding:18px 0;margin-top:20px}
 #contato{scroll-margin-top:80px}
 
-.heroImg{width:100%;height:auto;border-radius:16px;border:1px solid var(--border);display:block}
-.imgGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
-@media (max-width:900px){.imgGrid{grid-template-columns:1fr}}
-.imgItem{border:1px solid var(--border);border-radius:16px;overflow:hidden;background:rgba(255,255,255,.02)}
-.imgItem img{width:100%;height:auto;display:block}
-.imgCap{padding:10px 12px;color:var(--muted);font-weight:900;font-size:13px}
-
 .waDock{position:fixed;left:0;right:0;bottom:0;padding:10px 0;background:rgba(11,18,32,.92);backdrop-filter:blur(10px);border-top:1px solid var(--border);z-index:20}
 .waDockInner{display:flex;justify-content:center}
 .waDockBtn{width:min(520px,100%)}

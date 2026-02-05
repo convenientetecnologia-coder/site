@@ -132,7 +132,6 @@ function renderBody(city, data) {
             ${hasUrgente ? `<div class="ctaRow"><a class="btn secondary" href="/frete-urgente-em-${encodeURIComponent(city.slug)}/">Ver frete urgente</a></div>` : ""}
           </div>
           <div class="card" style="padding:14px">
-            <img class="heroImg" src="/assets/placeholder-bg.svg" alt="Fretes em ${escapeHtml(city.name)}" loading="lazy" />
             <h2 style="margin-top:0">Tipos de frete</h2>
             <ul class="list">
               ${types.map(t => `<li>${escapeHtml(t.replaceAll("{CITY}", city.name))}</li>`).join("")}
@@ -163,16 +162,6 @@ function renderBody(city, data) {
         <ul class="list">
           ${scenarios.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
         </ul>
-      </section>
-
-      <section class="card" style="margin-top:18px">
-        <h2>Nossa frota e cuidado</h2>
-        <p class="muted">Imagens ilustrativas. Vamos substituir por fotos reais assim que definirmos o pacote final (frota, proteção e execução).</p>
-        <div class="imgGrid">
-          <div class="imgItem"><img src="/assets/placeholder-1.svg" alt="Frete com cuidado e organização" loading="lazy" /><div class="imgCap">Organização e proteção</div></div>
-          <div class="imgItem"><img src="/assets/placeholder-2.svg" alt="Fretes e mudanças com agilidade" loading="lazy" /><div class="imgCap">Agilidade (conforme disponibilidade)</div></div>
-          <div class="imgItem"><img src="/assets/placeholder-3.svg" alt="Atendimento por WhatsApp" loading="lazy" /><div class="imgCap">Atendimento por WhatsApp</div></div>
-        </div>
       </section>
 
       <section class="card" style="margin-top:18px">
