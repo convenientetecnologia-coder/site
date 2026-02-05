@@ -121,7 +121,11 @@ module.exports = class {
     return {
       layout: "base.njk",
       pagination: { data: "publishedCities", size: 1, alias: "city" },
-      permalink: (data) => `/mudancas-em-${data.city.slug}/`,
+      permalink: (data) => {
+        const types = (data && data.publish && Array.isArray(data.publish.enabledTypes)) ? data.publish.enabledTypes : [];
+        if (!types.includes("mudancas")) return false;
+        return `/mudancas-em-${data.city.slug}/`;
+      },
       eleventyComputed: {
         pageMeta: (data) => ({ type: "mudancas", citySlug: data.city.slug }),
         seo: (data) => {
