@@ -1,6 +1,7 @@
 "use strict";
 
 const all = require("./testimonials.json");
+const variants = require("./variants");
 
 /**
  * Schema (cada item):
@@ -40,6 +41,19 @@ function normItem(x) {
 
 const items = (Array.isArray(all) ? all : []).map(normItem).filter(Boolean);
 
+function seededOrder(pool, seed) {
+  const arr = Array.isArray(pool) ? pool.slice() : [];
+  if (arr.length <= 1) return arr;
+  return arr.sort((a, b) => {
+    const ka = `${a && (a.id || "")}::${a && a.text}`;
+    const kb = `${b && (b.id || "")}::${b && b.text}`;
+    const ha = variants.hash32(`${seed}::${ka}`);
+    const hb = variants.hash32(`${seed}::${kb}`);
+    if (ha === hb) return 0;
+    return ha < hb ? -1 : 1;
+  });
+}
+
 function pickFor({ citySlug, type, limit = 3 }) {
   const wantType = normType(type);
   const slug = String(citySlug || "").trim();
@@ -59,7 +73,9 @@ function pickFor({ citySlug, type, limit = 3 }) {
 
   const out = [];
   const seen = new Set();
-  for (const pool of pools) {
+  const seed = `pick::${slug}::${wantType}`;
+  for (let i = 0; i < pools.length; i++) {
+    const pool = seededOrder(pools[i], `${seed}::p${i}`);
     for (const t of pool) {
       const key = (t.id || "") + "::" + t.text;
       if (seen.has(key)) continue;

@@ -44,8 +44,13 @@ function cleanText(s) {
 }
 
 function cleanAuthor(s) {
-  const t = cleanText(s || "Cliente");
-  return (t || "Cliente").slice(0, 32);
+  const t = cleanText(s || "");
+  if (!t) return "Cliente";
+  // somente primeiro nome (sem "M.", "P.", etc.)
+  const firstRaw = String(t.split(" ")[0] || "").trim();
+  const first = firstRaw.replace(/[^A-Za-zÀ-ÿ-]/g, "");
+  if (!first) return "Cliente";
+  return first.slice(0, 1).toUpperCase() + first.slice(1).toLowerCase();
 }
 
 function normType(v) {
@@ -176,7 +181,7 @@ async function main() {
     "- Não repita frases/padrões. Cada depoimento deve ser claramente diferente.",
     "- Evite claims absolutos: não diga “sempre”, “garantido”, “o melhor”, “24h garantido”. Use termos humanos tipo “foi tranquilo”, “bem combinado”, “respondeu rápido”.",
     "- 1 a 2 frases por depoimento. Máximo 240 caracteres.",
-    "- Gere também um \"author\" curto (ex.: \"Aline M.\", \"Rafael P.\", \"Cliente\"). Só primeiro nome + inicial, sem sobrenome completo."
+    "- Gere também um \"author\" com APENAS o primeiro nome (ex.: \"Aline\", \"Rafael\", \"Cliente\"). Não use iniciais, ponto ou sobrenome."
   ].join("\n");
 
   const usr = [
