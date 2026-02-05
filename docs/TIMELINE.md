@@ -9,6 +9,18 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-05 — [SITE] Hostinger Git Deploy conectado (public_html zerado → site no ar)
+
+- **O que**: Git Deploy do Hostinger foi configurado apontando para o repositório do site (branch `main`) com `public_html` vazio.
+- **Por quê**: centralizar 100% do conteúdo do domínio no Git (deploy automático via `git push`).
+- **Evidência (produção)**:
+  - `curl.exe -I https://www.fretesoumudancas.com.br/` → `HTTP/1.1 200 OK`
+  - `curl.exe -I https://www.fretesoumudancas.com.br/cidades/` → `HTTP/1.1 200 OK`
+  - `https://www.fretesoumudancas.com.br/robots.txt` gerado pelo modo atual (`draft`).
+  - `https://www.fretesoumudancas.com.br/site_manifest.json` disponível para o CT.
+- **Impacto**: qualquer commit/push do repo publica no Hostinger automaticamente.
+- **Rollback**: desativar Git Deploy no hPanel ou reverter commits (git revert) e fazer push.
+
 #### 2026-02-05 — [SITE] CTA WhatsApp real + métricas (pageview + clique) integradas ao CT
 
 - **O que**:

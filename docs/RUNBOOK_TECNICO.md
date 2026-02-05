@@ -69,6 +69,18 @@ Este projeto está configurado no modo “`dist/` versionado” para simplificar
 
 ---
 
+### Validação pós-deploy (CANÔNICO)
+
+No Windows/PowerShell, use `curl.exe` (não `curl`, que é alias do `Invoke-WebRequest`).
+
+Checklist mínimo (depois do deploy):
+
+- `curl.exe -I "https://www.fretesoumudancas.com.br/"` → `HTTP/1.1 200 OK`
+- `curl.exe -I "https://www.fretesoumudancas.com.br/cidades/"` → `HTTP/1.1 200 OK`
+- `curl.exe -s "https://www.fretesoumudancas.com.br/robots.txt"` (confere draft vs production)
+- `curl.exe -s "https://www.fretesoumudancas.com.br/sitemap.xml"`
+- `curl.exe -s "https://www.fretesoumudancas.com.br/site_manifest.json"`
+
 ### Modo DRAFT vs PRODUCTION (CANÔNICO)
 
 Objetivo: nunca deixar o Google indexar páginas rascunho.
