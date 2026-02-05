@@ -11,6 +11,15 @@ Escalar para centenas de páginas **sem queimar o domínio**. Isso exige:
 - rollout controlado (não publicar 200 rascunhos de uma vez),
 - checklist + validação automática antes de entrar em produção.
 
+### Garantias (controle automático)
+
+Antes de qualquer cidade entrar em `production`, o `npm run validate` garante:
+
+- `title` e `h1` **não duplicam**
+- conteúdo mínimo **>= 1200 palavras** (em production)
+- **anti-página-igual**: fingerprint do texto visível **não pode repetir**
+- **depoimentos**: 3 por página e **sem texto duplicado** (em production)
+
 ### Tipos de páginas permitidas (oficiais)
 
 Para cada cidade, somente:

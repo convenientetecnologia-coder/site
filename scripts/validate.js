@@ -76,6 +76,7 @@ function main() {
 
   const titles = new Map(); // title -> file
   const h1s = new Map(); // h1 -> file
+  const contentFpToFile = new Map(); // fingerprint(texto_visivel) -> file
 
   // páginas esperadas: 1 home + (3 por cidade habilitada)
   let enabledCities = 0;
@@ -144,6 +145,24 @@ function main() {
 
     if (h1s.has(h1)) { fail(`H1 duplicado: "${h1}" em ${rel} (já existe em ${h1s.get(h1)})`); bad++; }
     else h1s.set(h1, rel);
+
+    // gate anti "páginas iguais": fingerprint do texto visível não pode repetir
+    // Em draft: WARN. Em production: FAIL.
+    const contentFp = fingerprintText(text);
+    if (contentFp) {
+      if (contentFpToFile.has(contentFp)) {
+        const first = contentFpToFile.get(contentFp);
+        const msg = `Conteúdo visível idêntico entre páginas: ${rel} e ${first}`;
+        if (publishMode === "production") {
+          fail(msg);
+          bad++;
+        } else {
+          console.warn("[validate] WARN:", msg);
+        }
+      } else {
+        contentFpToFile.set(contentFp, rel);
+      }
+    }
 
     // gate de palavras
     if (publishMode === "production") {

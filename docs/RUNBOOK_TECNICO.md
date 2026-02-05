@@ -15,6 +15,8 @@ Este arquivo é o manual de operação do projeto em `C:\site`.
   - `npm run build` (gera estático em `dist/`; faz clean automático antes do build)
 - Quality gate:
   - `npm run validate` (falha se tiver títulos/H1 repetidos, páginas faltando, etc.)
+- Auditoria de depoimentos:
+  - `npm run audit:testimonials` (gera registro humano e acusa duplicados)
 
 Importante: **não existe servidor Node rodando em produção** neste padrão. O Node é só ferramenta de build.
 
