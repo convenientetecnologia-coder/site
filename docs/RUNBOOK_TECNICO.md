@@ -228,6 +228,44 @@ Notas:
 
 ---
 
+### Workflow canônico: “Cidade X pronta” (anti-achismo) — CANÔNICO
+
+Regra: **só declarar uma cidade como “criada/pronta” depois de evidência no ar + registro nos livros**.
+
+#### Preparar dados (local)
+
+- Bairros (divide em 3 blocos para fretes/mudanças/urgente):
+  - `npm run neighborhoods:fetch -- --city "NOME" --slug slug --state "UF" --maxPerPage 15`
+- Depoimentos sintéticos (gerar pool por tipo; a página mostra 3–7 automaticamente):
+  - `npm run testimonials:generate -- --city "NOME" --slug slug --type fretes --count 12`
+  - `npm run testimonials:generate -- --city "NOME" --slug slug --type mudancas --count 12`
+  - `npm run testimonials:generate -- --city "NOME" --slug slug --type urgente --count 12`
+
+#### Publicar (Hostinger Git Deploy)
+
+- `npm run deploy:prepare`
+- `git push`
+
+#### Evidência no ar (obrigatório antes de dizer “pronto”)
+
+1) Manifest (fonte de verdade do que está publicado):
+   - `curl.exe -s "https://www.fretesoumudancas.com.br/site_manifest.json"`
+   - Verificar que o `slug` aparece e que os links batem.
+2) Página(s) respondem:
+   - `curl.exe -I "https://www.fretesoumudancas.com.br/fretes-em-slug/"`
+   - (se habilitado) `curl.exe -I "https://www.fretesoumudancas.com.br/mudancas-em-slug/"`
+   - (se habilitado) `curl.exe -I "https://www.fretesoumudancas.com.br/frete-urgente-em-slug/"`
+3) Conteúdo crítico renderizado (sem depender do browser):
+   - procurar `Depoimentos sintéticos` e `data-ct-testimonial="1"` no HTML (>=3)
+   - procurar pelo bloco de bairros (lista humana curta)
+
+#### Registro (obrigatório)
+
+- Atualizar `docs/LIVRO_DE_BORDO.md` (estado atual / cidade publicada)
+- Atualizar `docs/TIMELINE.md` (o que mudou + commit)
+
+---
+
 ### Rollback (CANÔNICO)
 
 - Reverter commit no GitHub (ex.: `git revert`) e fazer `push`.

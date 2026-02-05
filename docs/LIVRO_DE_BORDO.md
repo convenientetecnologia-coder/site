@@ -16,6 +16,7 @@ Regras:
 - **Regra de operação (ultra enterprise)**: toda melhoria/mudança relevante deve atualizar **Runbook + Timeline** automaticamente.
 - **Política de mídia (padrão canônico)**: **sem imagens** nas páginas de cidade (mais rápido, limpo, sem “foto de produto” para serviço). Se um dia voltar a usar imagem, só com fotos reais e otimizadas.
 - **Política de CTA WhatsApp (padrão canônico)**: **todo botão/atalho de WhatsApp deve abrir o WhatsApp com mensagem pré-preenchida** (link `wa.me` + `?text=`). Nunca depender do tracking para funcionar.
+- **Regra operacional (anti-achismo)**: **só declarar “Cidade X pronta/criada” após evidência no ar (`site_manifest.json` + curl das URLs) e após registrar no Livro/Timeline** (ver Runbook).
 
 ---
 
