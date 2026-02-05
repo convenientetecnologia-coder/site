@@ -44,6 +44,24 @@ function extractOne(html, re) {
   return m ? String(m[1] || "").trim() : "";
 }
 
+function deaccent(s) {
+  const str = String(s || "");
+  try {
+    return str.normalize("NFD").replace(/\p{Diacritic}/gu, "");
+  } catch {
+    return str;
+  }
+}
+
+function fingerprintText(s) {
+  const t = deaccent(String(s || "").toLowerCase());
+  return t
+    .replace(/["'“”‘’`´^~]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function main() {
   if (!fs.existsSync(DIST)) {
     fail(`dist/ não existe: ${DIST}. Rode npm run build antes.`);
@@ -80,6 +98,35 @@ function main() {
 
   const minWordsDraftWarn = 250;
   const minWordsProduction = 1200;
+
+  // gate global: depoimentos não podem ter texto duplicado (fingerprint igual)
+  // Em draft: WARN. Em production: FAIL.
+  try {
+    const tmod = require(path.join(ROOT, "src", "_data", "testimonials"));
+    const items = Array.isArray(tmod && tmod.items) ? tmod.items : [];
+    const seen = new Map(); // fp -> first item
+    let dupGroups = 0;
+    for (const t of items) {
+      const fp = fingerprintText(t && t.text);
+      if (!fp) continue;
+      if (!seen.has(fp)) {
+        seen.set(fp, t);
+        continue;
+      }
+      const first = seen.get(fp);
+      dupGroups++;
+      const msg = `Depoimento duplicado (texto igual). type=${t.type}, city=${t.citySlug || "null"} author=${t.author}. Primeiro: type=${first.type}, city=${first.citySlug || "null"} author=${first.author}.`;
+      if (publishMode === "production") {
+        fail(msg);
+        bad++;
+      } else {
+        console.warn("[validate] WARN:", msg);
+      }
+    }
+    if (dupGroups && publishMode !== "production") {
+      console.warn(`[validate] WARN: ${dupGroups} duplicados detectados em src/_data/testimonials.json (corrigir antes de production).`);
+    }
+  } catch {}
 
   for (const fp of htmlFiles) {
     const rel = fp.slice(DIST.length).replace(/\\\\/g, "/");

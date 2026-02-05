@@ -35,6 +35,8 @@ Objetivo: adicionar prova social nas páginas **sem vazar PII** e sem inventar f
 
 - Fonte: `src/_data/testimonials.json`
 - Seleção automática: `src/_data/testimonials.js`
+- Modelos (estrutura/copy): `docs/DEPOIMENTOS_MODELOS.md`
+- Auditoria/registro humano (gerado): `docs/AUDITORIA_DEPOIMENTOS.md` (rodar `npm run audit:testimonials`)
 
 ---
 
