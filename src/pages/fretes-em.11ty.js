@@ -3,6 +3,7 @@
 const variants = require("../_data/variants");
 const testimonials = require("../_data/testimonials");
 const neighborhoods = require("../_data/neighborhoods");
+const cityContent = require("../_data/city_content");
 
 function wordsCount(s) {
   const t = String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
@@ -59,7 +60,7 @@ function renderTestimonialsSection(city, publishMode) {
   }).join("");
 
   const missingNote = (publishMode === "draft" && list.length < 3)
-    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter pelo menos 3).</p>`
+    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados. Execute city:publish para gerar.</p>`
     : "";
 
   return `
@@ -95,6 +96,31 @@ function renderBody(city, data) {
   const hasMudancas = enabledTypes.includes("mudancas");
   const hasUrgente = enabledTypes.includes("urgente");
 
+  const cc = cityContent.getType(city.slug, "fretes");
+  const contentSource = cc ? "city_content" : "template";
+  if (publishMode === "production") {
+    const missing = [];
+    if (!cc) missing.push("city_content");
+    else {
+      if (!Array.isArray(cc.introParagraphs) || cc.introParagraphs.length < 1) missing.push("introParagraphs");
+      if (!Array.isArray(cc.guideParagraphs) || cc.guideParagraphs.length < 10) missing.push("guideParagraphs");
+      if (!Array.isArray(cc.howSteps) || cc.howSteps.length < 5) missing.push("howSteps");
+      if (!Array.isArray(cc.priceFactors) || cc.priceFactors.length < 5) missing.push("priceFactors");
+      if (!Array.isArray(cc.prepChecklist) || cc.prepChecklist.length < 5) missing.push("prepChecklist");
+      if (!Array.isArray(cc.scenarios) || cc.scenarios.length < 5) missing.push("scenarios");
+      if (!Array.isArray(cc.faq) || cc.faq.length < 8) missing.push("faq");
+    }
+    if (missing.length) {
+      throw new Error(`[gpt-only] fretes: conteúdo GPT obrigatório ausente/incompleto para ${city.slug}: ${missing.join(", ")}`);
+    }
+  }
+  const introParas = (cc && Array.isArray(cc.introParagraphs) && cc.introParagraphs.length)
+    ? cc.introParagraphs
+    : [p1, p2, p3, p4];
+  const guideParas = (cc && Array.isArray(cc.guideParagraphs) && cc.guideParagraphs.length)
+    ? cc.guideParagraphs
+    : [p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16];
+
   const nbh = neighborhoods.listForCityType(city.slug, "fretes");
   const nbhPick = nbh.length ? nbh.slice(0, 10) : [];
   const nbhMore = nbh.length ? nbh.slice(10, 20) : [];
@@ -121,6 +147,7 @@ function renderBody(city, data) {
     "Confirmamos disponibilidade e combinamos o melhor encaixe logístico.",
     "Execução com cuidado e comunicação até a finalização."
   ];
+  const howSteps = (cc && Array.isArray(cc.howSteps) && cc.howSteps.length) ? cc.howSteps : how;
 
   const scenarios = [
     "Frete para apartamento com elevador: alinhamos tamanho/volume e horários de portaria.",
@@ -129,6 +156,7 @@ function renderBody(city, data) {
     "Itens volumosos (ex.: sofá, geladeira, máquina): conferimos medidas e rota de passagem.",
     "Frete comercial: priorizamos pontualidade e comunicação para não atrapalhar operação."
   ];
+  const scenariosList = (cc && Array.isArray(cc.scenarios) && cc.scenarios.length) ? cc.scenarios : scenarios;
 
   const prep = [
     "Separe o que é frágil e sinalize antes (vidro, eletrônicos, cantos sensíveis).",
@@ -140,6 +168,7 @@ function renderBody(city, data) {
     "Tenha um plano simples de prioridade: o que vai primeiro e o que vai por último.",
     "Combine o ponto exato de encontro (sem dados pessoais) e deixe contato disponível."
   ];
+  const prepList = (cc && Array.isArray(cc.prepChecklist) && cc.prepChecklist.length) ? cc.prepChecklist : prep;
 
   const faq = [
     { q: `Quanto custa um frete em ${city.name}?`, a: "O valor depende de distância, volume, acesso (escadas/elevador), itens frágeis e janela de horário. Pelo WhatsApp conseguimos estimar rápido com base nas informações básicas." },
@@ -148,9 +177,10 @@ function renderBody(city, data) {
     { q: "Como garantir que não vai danificar?", a: "A segurança depende de proteção e organização de carga. Itens frágeis e cantos sensíveis devem ser informados para definir proteção/posicionamento adequados." },
     { q: "Preciso informar o que antes do atendimento?", a: "Origem e destino (bairro), lista resumida de itens/volume, tipo de acesso e horário desejado. Com isso conseguimos alinhar o melhor caminho." }
   ];
+  const faqList = (cc && Array.isArray(cc.faq) && cc.faq.length) ? cc.faq : faq;
 
   const html = `
-    <div class="wrap">
+    <div class="wrap" data-content-source="${contentSource}">
       <section class="card">
         <div class="grid">
           <div>
@@ -160,16 +190,9 @@ function renderBody(city, data) {
               <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Chamar no WhatsApp</a>
               <a class="btn secondary" href="#como-funciona">Como funciona</a>
             </div>
-            <p>${escapeHtml(p1)}</p>
-            <p>${escapeHtml(p2)}</p>
-            <p>${escapeHtml(p3)}</p>
-            <p>${escapeHtml(p4)}</p>
-            <p>${escapeHtml(p5)}</p>
-            <p>${escapeHtml(p6)}</p>
-            <p>${escapeHtml(p7)}</p>
-            <p>${escapeHtml(p8)}</p>
             <p><b>Urgência:</b> ${escapeHtml(urg)}</p>
             ${hasUrgente ? `<div class="ctaRow"><a class="btn secondary" href="/frete-urgente-em-${encodeURIComponent(city.slug)}/">Ver frete urgente</a></div>` : ""}
+            ${introParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
           </div>
           <div class="card" style="padding:14px">
             <h2 style="margin-top:0">Tipos de frete</h2>
@@ -189,7 +212,7 @@ function renderBody(city, data) {
         <h2>Como funciona o frete em ${escapeHtml(city.name)}</h2>
         <p class="muted">Processo simples, com confirmação de detalhes para reduzir imprevistos e garantir execução organizada.</p>
         <ol class="list">
-          ${how.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${howSteps.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ol>
         <div class="ctaRow">
           <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Pedir orçamento no WhatsApp</a>
@@ -199,14 +222,14 @@ function renderBody(city, data) {
       <section class="card" style="margin-top:18px">
         <h2>Guia completo do frete em ${escapeHtml(city.name)}</h2>
         <p class="muted">Conteúdo mais detalhado para alinhar expectativa, evitar imprevistos e acelerar a confirmação de disponibilidade.</p>
-        ${[p9, p10, p11, p12, p13, p14, p15, p16].map(p => `<p>${escapeHtml(p)}</p>`).join("")}
+        ${guideParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
       </section>
 
       <section class="card" style="margin-top:18px">
         <h2>Como se preparar para o frete</h2>
         <p class="muted">Pequenos ajustes antes do atendimento deixam tudo mais rápido e reduzem risco de dano.</p>
         <ul class="list">
-          ${prep.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${prepList.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
       </section>
 
@@ -214,7 +237,7 @@ function renderBody(city, data) {
         <h2>Casos comuns (residencial e comercial)</h2>
         <p class="muted">Exemplos reais do dia a dia que ajudam a alinhar expectativas e evitar atraso por falta de informação.</p>
         <ul class="list">
-          ${scenarios.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${scenariosList.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ul>
       </section>
 
@@ -234,7 +257,7 @@ function renderBody(city, data) {
         <h2>Perguntas frequentes (FAQ)</h2>
         <div class="muted">Respostas objetivas para as dúvidas mais comuns.</div>
         <div style="margin-top:12px; display:grid; gap:10px">
-          ${faq.map(f => `
+          ${faqList.map(f => `
             <div class="card" style="padding:14px">
               <div style="font-weight:900">${escapeHtml(f.q)}</div>
               <div class="muted" style="margin-top:6px">${escapeHtml(f.a)}</div>

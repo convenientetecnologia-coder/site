@@ -76,12 +76,7 @@ Qualquer variação fora disso **não** deve ser criada.
 
 ### Prova social (regra de integridade)
 
-**Não apresentar depoimento como real quando não for.** Isso é risco legal e de confiança.
-
-Opções seguras:
-
-- Se tiver provas reais: usar frases curtas (sem PII) e registrar origem (interno).
-- Se ainda não tiver: usar **depoimentos de clientes** na seção "Depoimentos" com linguagem humana (sem marketing robótico, sem citar IA no texto).
+- A seção **"Depoimentos"** exibe depoimentos de clientes com linguagem humana (sem PII, sem marketing robótico).
 
 ### Observação (implementação)
 

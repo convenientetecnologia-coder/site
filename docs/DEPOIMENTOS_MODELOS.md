@@ -1,13 +1,13 @@
 ## Modelos de depoimentos — SITE (CANÔNICO)
 
-Objetivo: você usar estes modelos como **roteiro** para pedir/receber depoimentos reais dos motoristas/clientes, mantendo:
+Objetivo: usar estes modelos como **roteiro de estilo** para depoimentos na seção "Depoimentos", mantendo:
 
 - **sem PII** (nada de telefone, sobrenome, endereço completo, placa, CPF)
 - **claros e úteis**
 - **naturais** (parece humano, não “texto de marketing”)
 - **com variação** (para evitar duplicidade)
 
-> Importante: estes são **modelos com placeholders**. No modo atual do projeto, o site exibe a seção **"Depoimentos"** — use estes modelos como roteiro canônico para depoimentos reais de clientes.
+> O site exibe a seção **"Depoimentos"** com textos que seguem este roteiro canônico.
 
 ---
 

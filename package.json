@@ -8,18 +8,21 @@
     "prebuild": "node scripts/clean.js",
     "build": "eleventy",
     "validate": "node scripts/validate.js",
+    "city:generate": "node scripts/generate_city_content_openai.js",
+    "city:publish": "node scripts/city_publish.js",
     "neighborhoods:fetch": "node scripts/fetch_neighborhoods_openai.js",
     "testimonials:generate": "node scripts/generate_testimonials_openai.js",
     "audit:testimonials": "node scripts/audit_testimonials.js",
     "deploy:root": "node scripts/deploy_root.js",
-    "deploy:prepare": "npm run build && npm run validate && npm run deploy:root",
-    "test": "npm run build && npm run validate"
+    "deploy:prepare": "node scripts/run_seq.js build validate deploy:root",
+    "test": "node scripts/run_seq.js build validate"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "openai": "^6.18.0"
   }
 }

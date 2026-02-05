@@ -24,7 +24,7 @@ Fonte de verdade: `src/_data/publish_config.json` (slugs habilitados).
 ## Passo a passo (primeira cidade)
 
 1) Escolher 1 cidade (ex.: `florianopolis`) e preencher conteúdo completo (3 páginas).
-   - **Regra**: depoimentos ainda podem faltar nesta fase (modo draft).
+   - Em modo draft: depoimentos são gerados/habilitados junto com o conteúdo da cidade.
 2) Rodar:
    - `npm run build`
    - `npm run validate`

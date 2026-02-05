@@ -172,13 +172,13 @@ async function main() {
   const kindLabel = (type === "fretes") ? "frete" : (type === "mudancas") ? "mudança" : "frete urgente";
 
   const sys = [
-    "Você escreve depoimentos curtos e naturais em PT-BR, como mensagens reais de clientes.",
+    "Você escreve depoimentos curtos e naturais em PT-BR, no estilo de mensagens de clientes (prova social).",
     "IMPORTANTE: os depoimentos devem soar autênticos e humanos, mas sem exageros e sem prometer o impossível.",
     "",
     "REGRAS:",
     "- Não mencione bairros, ruas, placas, telefones, endereços ou qualquer dado pessoal (PII).",
     "- Não use linguagem de robô, nem formal demais; pode ser simples e direta.",
-    "- Não repita frases/padrões. Cada depoimento deve ser claramente diferente.",
+    "- Não repita frases/padrões. Cada depoimento deve ser claramente diferente e exclusivo.",
     "- Evite claims absolutos: não diga “sempre”, “garantido”, “o melhor”, “24h garantido”. Use termos humanos tipo “foi tranquilo”, “bem combinado”, “respondeu rápido”.",
     "- 1 a 2 frases por depoimento. Máximo 240 caracteres.",
     "- Gere também um \"author\" com APENAS o primeiro nome (ex.: \"Aline\", \"Rafael\", \"Cliente\"). Não use iniciais, ponto ou sobrenome."
@@ -188,7 +188,7 @@ async function main() {
     `Cidade: ${city}`,
     `Tipo de página: ${type} (${kindLabel})`,
     "",
-    `Gere ${count} depoimentos de clientes para ${kindLabel} em ${city}.`,
+    `Gere ${count} depoimentos únicos e exclusivos de clientes para ${kindLabel} em ${city}. Cada depoimento deve ser claramente distinto dos demais e adequado ao tipo de serviço (${kindLabel}).`,
     "Retorne SOMENTE JSON válido no formato:",
     "{",
     "  \"testimonials\": [",

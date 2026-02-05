@@ -3,6 +3,7 @@
 const variants = require("../_data/variants");
 const testimonials = require("../_data/testimonials");
 const neighborhoods = require("../_data/neighborhoods");
+const cityContent = require("../_data/city_content");
 
 function escapeHtml(s) {
   return String(s || "")
@@ -38,7 +39,7 @@ function renderTestimonialsSection(city, publishMode) {
   }).join("");
 
   const missingNote = (publishMode === "draft" && list.length < 3)
-    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter pelo menos 3).</p>`
+    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados. Execute city:publish para gerar.</p>`
     : "";
 
   return `
@@ -56,6 +57,23 @@ function renderBody(city, data) {
   const nbh = neighborhoods.listForCityType(city.slug, "urgente");
   const nbhPick = nbh.length ? nbh.slice(0, 12) : [];
   const nbhMore = nbh.length ? nbh.slice(12, 24) : [];
+  const cc = cityContent.getType(city.slug, "urgente");
+  const contentSource = cc ? "city_content" : "template";
+  if (publishMode === "production") {
+    const missing = [];
+    if (!cc) missing.push("city_content");
+    else {
+      if (!Array.isArray(cc.introParagraphs) || cc.introParagraphs.length < 1) missing.push("introParagraphs");
+      if (!Array.isArray(cc.guideParagraphs) || cc.guideParagraphs.length < 10) missing.push("guideParagraphs");
+      if (!Array.isArray(cc.howSteps) || cc.howSteps.length < 5) missing.push("howSteps");
+      if (!Array.isArray(cc.priceFactors) || cc.priceFactors.length < 5) missing.push("priceFactors");
+      if (!Array.isArray(cc.prepChecklist) || cc.prepChecklist.length < 5) missing.push("prepChecklist");
+      if (!Array.isArray(cc.faq) || cc.faq.length < 8) missing.push("faq");
+    }
+    if (missing.length) {
+      throw new Error(`[gpt-only] urgente: conteúdo GPT obrigatório ausente/incompleto para ${city.slug}: ${missing.join(", ")}`);
+    }
+  }
   const open = variants.pick([
     "Precisa de frete urgente em {CITY}? Trabalhamos com atendimento imediato para situações que exigem rapidez.",
     "Frete urgente em {CITY} com foco em agilidade e resposta rápida — consulte disponibilidade agora.",
@@ -126,6 +144,14 @@ function renderBody(city, data) {
     { q: "Como agilizar o atendimento?", a: "Mande bairro (origem/destino), janela de horário e lista curta de itens. Se puder, inclua acesso (escadas/elevador)." }
   ];
 
+  const introParas = (cc && Array.isArray(cc.introParagraphs) && cc.introParagraphs.length)
+    ? cc.introParagraphs
+    : [open, open2];
+  const howSteps = (cc && Array.isArray(cc.howSteps) && cc.howSteps.length) ? cc.howSteps : how;
+  const priceFactors = (cc && Array.isArray(cc.priceFactors) && cc.priceFactors.length) ? cc.priceFactors : pricing;
+  const sendChecklist = (cc && Array.isArray(cc.prepChecklist) && cc.prepChecklist.length) ? cc.prepChecklist : whatToSend;
+  const faqList = (cc && Array.isArray(cc.faq) && cc.faq.length) ? cc.faq : faq;
+
   const deepPool = [
     "Frete urgente em {CITY} não é mágica — é logística. O que faz dar certo é a clareza: origem, destino, janela de horário e volume. Quando isso vem bem definido, a gente decide rápido se existe encaixe imediato ou se a melhor saída é um horário ainda hoje. Esse alinhamento evita promessas irreais e mantém execução rápida sem perder cuidado.",
     "A urgência normalmente quebra quando faltam detalhes de acesso. Escadas, elevador indisponível, portaria com horário restrito ou distância grande até a porta mudam muito o tempo de execução. Por isso, informar o tipo de acesso antes é essencial. Em {CITY}, condomínios e prédios são comuns e as regras variam: quanto mais cedo você informa, mais fácil ajustar o plano.",
@@ -148,6 +174,8 @@ function renderBody(city, data) {
   const deep = Array.from({ length: 18 }, (_, i) => variants.pick(deepPool, seed, 20 + i))
     .map(p => String(p || "").replaceAll("{CITY}", city.name));
 
+  const guideParas = (cc && Array.isArray(cc.guideParagraphs) && cc.guideParagraphs.length) ? cc.guideParagraphs : deep;
+
   const common = [
     "Retirada e entrega no mesmo dia com janela de horário curta (quando há encaixe).",
     "Itens volumosos (sofá, geladeira, máquina): checar medidas e acesso antes evita travar no caminho.",
@@ -158,14 +186,13 @@ function renderBody(city, data) {
   ];
 
   return `
-    <div class="wrap">
+    <div class="wrap" data-content-source="${contentSource}">
       <section class="card">
         <div class="grid">
           <div>
             <div class="kicker">Alta conversão • Urgência • ${escapeHtml(city.name)}</div>
             <h1>Frete Urgente em ${escapeHtml(city.name)}</h1>
-            <p>${escapeHtml(open)}</p>
-            <p>${escapeHtml(open2)}</p>
+            ${introParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
             <p class="muted"><b>Termos de urgência:</b> ${escapeHtml(t2)}, ${escapeHtml(t3)}, atendimento rápido.</p>
             <div class="ctaRow">
               <a class="btn primary" data-ct-wa="1" data-wa-kind="urgente" href="${whatsLink({ data, city, kind: "urgente" })}">Chamar no WhatsApp agora</a>
@@ -187,7 +214,7 @@ function renderBody(city, data) {
         <h2>Como funciona o frete urgente em ${escapeHtml(city.name)}</h2>
         <p class="muted">Objetivo: confirmar encaixe rápido e executar com cuidado, sem prometer o impossível.</p>
         <ol class="list">
-          ${how.map(x => `<li>${escapeHtml(x.replaceAll("{CITY}", city.name))}</li>`).join("")}
+          ${howSteps.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ol>
       </section>
 
@@ -195,7 +222,7 @@ function renderBody(city, data) {
         <h2>O que enviar no WhatsApp para agilizar</h2>
         <p class="muted">Quanto mais objetivo você for, mais rápido a gente confirma disponibilidade.</p>
         <ul class="list">
-          ${whatToSend.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${sendChecklist.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
       </section>
 
@@ -223,13 +250,13 @@ function renderBody(city, data) {
         <h2>Preço: o que mais influencia no urgente</h2>
         <p class="muted">O valor é composto por rota, volume e tempo de execução. A urgência entra como encaixe conforme disponibilidade.</p>
         <ul class="list">
-          ${pricing.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${priceFactors.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
       </section>
 
       <section class="card" style="margin-top:18px">
         <h2>Guia completo do frete urgente</h2>
-        ${deep.map(p => `<p>${escapeHtml(p)}</p>`).join("")}
+        ${guideParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
         <h3 style="margin-top:10px">Cenários comuns</h3>
         <p class="muted">Exemplos reais de situações de urgência (ajuda a alinhar expectativa e acelerar a confirmação).</p>
         <ul class="list">
@@ -241,7 +268,7 @@ function renderBody(city, data) {
         <h2>Perguntas frequentes (FAQ)</h2>
         <div class="muted">Respostas diretas para dúvidas comuns de urgência.</div>
         <div style="margin-top:12px; display:grid; gap:10px">
-          ${faq.map(f => `
+          ${faqList.map(f => `
             <div class="card" style="padding:14px">
               <div style="font-weight:900">${escapeHtml(f.q)}</div>
               <div class="muted" style="margin-top:6px">${escapeHtml(f.a)}</div>

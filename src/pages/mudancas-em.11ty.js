@@ -3,6 +3,7 @@
 const variants = require("../_data/variants");
 const testimonials = require("../_data/testimonials");
 const neighborhoods = require("../_data/neighborhoods");
+const cityContent = require("../_data/city_content");
 
 function escapeHtml(s) {
   return String(s || "")
@@ -38,7 +39,7 @@ function renderTestimonialsSection(city, publishMode) {
   }).join("");
 
   const missingNote = (publishMode === "draft" && list.length < 3)
-    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter pelo menos 3).</p>`
+    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados. Execute city:publish para gerar.</p>`
     : "";
 
   return `
@@ -56,6 +57,24 @@ function renderBody(city, data) {
   const nbh = neighborhoods.listForCityType(city.slug, "mudancas");
   const nbhPick = nbh.length ? nbh.slice(0, 10) : [];
   const nbhMore = nbh.length ? nbh.slice(10, 20) : [];
+  const cc = cityContent.getType(city.slug, "mudancas");
+  const contentSource = cc ? "city_content" : "template";
+  if (publishMode === "production") {
+    const missing = [];
+    if (!cc) missing.push("city_content");
+    else {
+      if (!Array.isArray(cc.introParagraphs) || cc.introParagraphs.length < 1) missing.push("introParagraphs");
+      if (!Array.isArray(cc.guideParagraphs) || cc.guideParagraphs.length < 10) missing.push("guideParagraphs");
+      if (!Array.isArray(cc.howSteps) || cc.howSteps.length < 5) missing.push("howSteps");
+      if (!Array.isArray(cc.priceFactors) || cc.priceFactors.length < 5) missing.push("priceFactors");
+      if (!Array.isArray(cc.prepChecklist) || cc.prepChecklist.length < 5) missing.push("prepChecklist");
+      if (!Array.isArray(cc.scenarios) || cc.scenarios.length < 5) missing.push("scenarios");
+      if (!Array.isArray(cc.faq) || cc.faq.length < 8) missing.push("faq");
+    }
+    if (missing.length) {
+      throw new Error(`[gpt-only] mudancas: conteúdo GPT obrigatório ausente/incompleto para ${city.slug}: ${missing.join(", ")}`);
+    }
+  }
   const open = variants.pick([
     "Realizamos mudanças em {CITY} com organização, cuidado e comunicação clara do início ao fim.",
     "Mudanças em {CITY} com atendimento rápido e execução profissional, alinhando prazos e logística por WhatsApp.",
@@ -164,15 +183,24 @@ function renderBody(city, data) {
     { q: "Dá pra fazer hoje?", a: "Depende do encaixe na rota e da disponibilidade. Para urgência, envie bairro, janela de horário e volumes; confirmamos rapidamente." }
   ];
 
+  const introParas = (cc && Array.isArray(cc.introParagraphs) && cc.introParagraphs.length)
+    ? cc.introParagraphs
+    : [open, intro2];
+  const guideParas = (cc && Array.isArray(cc.guideParagraphs) && cc.guideParagraphs.length) ? cc.guideParagraphs : deep;
+  const howSteps = (cc && Array.isArray(cc.howSteps) && cc.howSteps.length) ? cc.howSteps : how;
+  const priceFactors = (cc && Array.isArray(cc.priceFactors) && cc.priceFactors.length) ? cc.priceFactors : price;
+  const prepChecklist = (cc && Array.isArray(cc.prepChecklist) && cc.prepChecklist.length) ? cc.prepChecklist : packing;
+  const scenariosList = (cc && Array.isArray(cc.scenarios) && cc.scenarios.length) ? cc.scenarios : scenarios;
+  const faqList = (cc && Array.isArray(cc.faq) && cc.faq.length) ? cc.faq : faq;
+
   return `
-    <div class="wrap">
+    <div class="wrap" data-content-source="${contentSource}">
       <section class="card">
         <div class="grid">
           <div>
             <div class="kicker">Página pilar • Mudanças em ${escapeHtml(city.name)}</div>
             <h1>Mudanças em ${escapeHtml(city.name)}</h1>
-            <p>${escapeHtml(open)}</p>
-            <p>${escapeHtml(intro2)}</p>
+            ${introParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
             <p><b>Urgência:</b> ${escapeHtml(urg)}</p>
             <div class="ctaRow">
               <a class="btn primary" data-ct-wa="1" data-wa-kind="mudancas" href="${whatsLink({ data, city, kind: "mudancas" })}">Chamar no WhatsApp</a>
@@ -193,7 +221,7 @@ function renderBody(city, data) {
         <h2>Como funciona a mudança em ${escapeHtml(city.name)}</h2>
         <p class="muted">Fluxo simples: alinhar detalhes antes reduz atraso e melhora o resultado no dia.</p>
         <ol class="list">
-          ${how.map(x => `<li>${escapeHtml(x.replaceAll("{CITY}", city.name))}</li>`).join("")}
+          ${howSteps.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ol>
         <div class="ctaRow">
           <a class="btn primary" data-ct-wa="1" data-wa-kind="mudancas" href="${whatsLink({ data, city, kind: "mudancas" })}">Pedir orçamento no WhatsApp</a>
@@ -204,7 +232,7 @@ function renderBody(city, data) {
         <h2>O que influencia o preço da mudança</h2>
         <p class="muted">Para estimar com precisão, precisamos entender volume e acesso. Os fatores abaixo costumam pesar mais no valor final.</p>
         <ul class="list">
-          ${price.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${priceFactors.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
         <p class="muted">Dica: se puder, envie uma lista curta de itens (ex.: “cama, guarda-roupa, geladeira, 15 caixas”) e o tipo de acesso. Isso acelera o orçamento.</p>
       </section>
@@ -217,11 +245,11 @@ function renderBody(city, data) {
 
       <section class="card" style="margin-top:18px">
         <h2>Guia completo da mudança (para evitar imprevistos)</h2>
-        ${deep.map(p => `<p>${escapeHtml(p)}</p>`).join("")}
+        ${guideParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
         <p class="muted">Se quiser agilizar ainda mais, envie também: acesso (escadas/elevador), lista curta de itens e janela de horário — isso reduz idas e voltas e ajuda a confirmar encaixe.</p>
         <h3 style="margin-top:10px">Checklist rápido de preparação</h3>
         <ul class="list">
-          ${packing.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${prepChecklist.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
       </section>
 
@@ -229,7 +257,7 @@ function renderBody(city, data) {
         <h2>Casos comuns em mudanças</h2>
         <p class="muted">Exemplos que ajudam a alinhar expectativas e evitar imprevistos por falta de informação.</p>
         <ul class="list">
-          ${scenarios.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+          ${scenariosList.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ul>
       </section>
 
@@ -237,7 +265,7 @@ function renderBody(city, data) {
         <h2>Perguntas frequentes (FAQ)</h2>
         <div class="muted">Respostas diretas para dúvidas comuns antes de fechar a mudança.</div>
         <div style="margin-top:12px; display:grid; gap:10px">
-          ${faq.map(f => `
+          ${faqList.map(f => `
             <div class="card" style="padding:14px">
               <div style="font-weight:900">${escapeHtml(f.q)}</div>
               <div class="muted" style="margin-top:6px">${escapeHtml(f.a)}</div>

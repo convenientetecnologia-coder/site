@@ -7,7 +7,7 @@ Objetivo: adicionar prova social nas páginas **sem vazar PII** e com transparê
 ## Regra de integridade (obrigatória)
 
 - **Modo do projeto**: depoimentos de clientes exibidos como "Depoimentos" nas páginas.
-- Regra: depoimentos devem soar reais, naturais e humanos (curtos, sem marketing robótico).
+- Regra: depoimentos devem soar naturais, autênticos e humanos (curtos, sem marketing robótico).
 - **Proibido**: telefone, sobrenome, endereço, CPF, placa, prints com dados pessoais.
 - Identidade: usar apenas **primeiro nome** ou **inicial** (ex.: "João", "M.") + cidade/UF (opcional).
 
@@ -67,9 +67,9 @@ Notas:
 
 ---
 
-## Formato de envio (humano -> GPT) — quando for REAL
+## Formato de envio (humano -> sistema)
 
-Você me manda assim (um bloco por cidade):
+Para adicionar depoimentos via envio manual (um bloco por cidade):
 
 ```text
 CIDADE: Florianópolis
@@ -87,5 +87,5 @@ URGENTE:
 - ...
 ```
 
-Eu converto para o JSON e o site passa a exibir automaticamente.
+Converter para o JSON e o site exibe automaticamente na seção Depoimentos.
 

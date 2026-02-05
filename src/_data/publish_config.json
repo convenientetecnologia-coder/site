@@ -1,6 +1,11 @@
 {
-  "mode": "draft",
-  "enabledCitySlugs": [],
-  "enabledTypes": ["fretes", "mudancas", "urgente"]
+  "mode": "production",
+  "enabledCitySlugs": [
+    "florianopolis"
+  ],
+  "enabledTypes": [
+    "fretes",
+    "mudancas",
+    "urgente"
+  ]
 }
-
