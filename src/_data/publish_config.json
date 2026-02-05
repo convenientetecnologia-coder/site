@@ -1,7 +1,8 @@
 {
   "mode": "production",
   "enabledCitySlugs": [
-    "florianopolis"
+    "florianopolis",
+    "sao-paulo"
   ],
   "enabledTypes": [
     "fretes",
