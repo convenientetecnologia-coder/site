@@ -13,4 +13,5 @@ Regras:
 - **Sem duplicar texto** entre cidades (anti-spam).
 - **Deploy** tem que ser “commit -> publish” (via Git Deploy no Hostinger).
 - **Sem secrets** em docs/repo. Só nomes e onde configurar.
+- **Regra de operação (ultra enterprise)**: toda melhoria/mudança relevante deve atualizar **Runbook + Timeline** automaticamente.
 

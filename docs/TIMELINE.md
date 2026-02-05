@@ -9,6 +9,23 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-05 — [SITE] CTA WhatsApp real + métricas (pageview + clique) integradas ao CT
+
+- **O que**:
+  - CTA WhatsApp passou a gerar link real `wa.me` por tipo (fretes/mudanças/urgente) com texto pré-preenchido por cidade.
+  - Telemetria adicionada (sem bloquear navegação): `pageview` + `whatsapp_click` via `sendBeacon`.
+  - Manifest público do site criado (`/site_manifest.json`) para o CT listar cidades no ar e links oficiais.
+- **Por quê**: aumentar conversão e medir engajamento com controle enterprise (quantos acessos e quantos cliques WhatsApp por cidade/página).
+- **Evidência**:
+  - `C:\site\src/_data/site.json` (WhatsApp + trackingEndpoint)
+  - `C:\site\src/_includes/base.njk` (beacon)
+  - `C:\site\src/site_manifest.json.11ty.js`
+  - (CT) `C:\sitechatbot\convenientetecnologia/index.js` e `C:\sitechatbot\convenientetecnologia/public/site.html`
+- **Impacto**:
+  - Em `production`, o `npm run validate` falha se WhatsApp/tracking não estiverem configurados.
+  - Métricas ficam em `C:\sitechatbot\dados\site_metrics.json`.
+- **Rollback**: reverter commit do repo `site` e remover rotas `/api/site/*` do CT se necessário.
+
 #### 2026-02-05 — [SITE] Bootstrap do projeto (Eleventy + docs canônicos)
 
 - **O que**:

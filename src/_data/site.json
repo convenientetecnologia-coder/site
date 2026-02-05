@@ -2,14 +2,14 @@
   "brandName": "Fretes e Mudanças",
   "domain": "www.FretesOuMudancas.com.br",
   "siteUrl": "https://www.FretesOuMudancas.com.br",
-  "whatsAppNumberE164": "",
+  "whatsAppNumberE164": "555181861260",
   "whatsAppDefaultText": "Olá! Quero um orçamento de frete/mudança.",
   "whatsAppTemplates": {
     "fretes": "Olá! Quero um orçamento de frete em {CITY}.",
     "mudancas": "Olá! Quero um orçamento de mudança em {CITY}.",
     "urgente": "Olá! Preciso de frete urgente em {CITY} (atendimento hoje/agora, se possível)."
   },
-  "trackingEndpoint": "",
+  "trackingEndpoint": "https://c0nv3n13nt3t3cn0l0g14jesus.sa.ngrok.io/convenientetecnologia/api/site/event",
   "defaultOgImage": "/assets/og-default.svg"
 }
 
