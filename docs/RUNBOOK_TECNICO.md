@@ -98,6 +98,27 @@ Configuração: `src/_data/publish_config.json`
 
 ---
 
+### Google Search Console (GSC) (CANÔNICO)
+
+Objetivo: dar visibilidade/controle de indexação e saúde do site para o Google.
+
+Configuração recomendada (1 vez): **verificação por DNS** (TXT).
+
+Passo a passo:
+
+1) No GSC: adicionar propriedade do tipo **Domínio**: `fretesoumudancas.com.br`
+2) Copiar o TXT `google-site-verification=...`
+3) No hPanel (DNS): criar registro TXT para o domínio (host `@` ou vazio) com o valor do GSC
+4) Voltar no GSC e clicar **Verificar**
+5) Enviar sitemap (1 vez): `sitemap.xml` (fica em `https://www.fretesoumudancas.com.br/sitemap.xml`)
+
+Observação importante:
+
+- Enquanto `publish.mode=draft`, o `robots.txt` está com `Disallow: /` e o Google não deve indexar (intencional).
+- Depois que entrar em `production` e habilitar cidades, o sitemap passa a ser o canal principal para descoberta automática de novas URLs.
+
+---
+
 ### WhatsApp (CTA) + métricas (CANÔNICO)
 
 O CTA de WhatsApp é gerado por página usando `wa.me` e texto pré-preenchido.

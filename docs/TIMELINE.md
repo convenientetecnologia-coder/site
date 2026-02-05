@@ -9,6 +9,14 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-05 — [SITE] Google Search Console verificado (DNS TXT)
+
+- **O que**: propriedade do domínio `fretesoumudancas.com.br` foi verificada no Google Search Console via registro TXT (DNS).
+- **Por quê**: habilitar controle/visibilidade de indexação, cobertura e alertas técnicos do Google.
+- **Evidência**: verificação concluída no GSC (método DNS TXT).
+- **Próximo passo**: enviar `sitemap.xml` no GSC (1 vez) e manter rollout `draft → production` conforme playbook.
+- **Rollback**: remover o TXT do DNS (não recomendado; só se precisar trocar de conta).
+
 #### 2026-02-05 — [SITE] Hostinger Git Deploy conectado (public_html zerado → site no ar)
 
 - **O que**: Git Deploy do Hostinger foi configurado apontando para o repositório do site (branch `main`) com `public_html` vazio.
