@@ -1,14 +1,20 @@
 ### Depoimentos (prova social) — SITE (CANÔNICO)
 
-Objetivo: adicionar prova social nas páginas **sem vazar PII** e sem inventar fatos.
+Objetivo: adicionar prova social nas páginas **sem vazar PII** e com transparência.
 
 ---
 
 ## Regra de integridade (obrigatória)
 
-- Depoimentos devem ser **reais** e enviados por você (coletados com motoristas/clientes).
+- **Modo atual do projeto**: depoimentos **sintéticos** (gerados) e **explicitamente rotulados** como “Depoimentos sintéticos” nas páginas.
+- Regra: nunca apresentar um depoimento sintético como se fosse real.
+- Quando você começar a coletar depoimentos reais, é só substituir/mesclar no JSON (mesmo schema).
 - **Proibido**: telefone, sobrenome, endereço, CPF, placa, prints com dados pessoais.
 - Identidade: usar apenas **primeiro nome** ou **inicial** (ex.: “João”, “M.”) + cidade/UF (opcional).
+
+Observação de copy:
+
+- Depoimento precisa soar humano (mensagem curta), sem marketing robótico e sem exageros (“sempre”, “garantido”, “o melhor”, etc.).
 
 ---
 
@@ -16,7 +22,7 @@ Objetivo: adicionar prova social nas páginas **sem vazar PII** e sem inventar f
 
 - Não precisa ser 100% único por página, mas **é melhor variar**.
 - Padrão:
-  - cada página usa **3 depoimentos**
+  - cada página usa **3–7 depoimentos** (determinístico por cidade+tipo)
   - preferir depoimentos marcados para a **cidade** e para o **tipo** (fretes/mudanças/urgente)
   - se faltar, usar fallback “geral do tipo”
 
@@ -40,7 +46,29 @@ Objetivo: adicionar prova social nas páginas **sem vazar PII** e sem inventar f
 
 ---
 
-## Formato de envio (humano -> GPT)
+## Geração assistida (sintético) — comando canônico
+
+Pré-requisito:
+
+- `OPENAI_API_KEY` em `local.env` (arquivo ignorado pelo Git)
+
+Comando (rode 3 vezes por cidade — um por tipo):
+
+- Fretes:
+  - `npm run testimonials:generate -- --city "Florianópolis" --slug florianopolis --type fretes --count 12`
+- Mudanças:
+  - `npm run testimonials:generate -- --city "Florianópolis" --slug florianopolis --type mudancas --count 12`
+- Urgente:
+  - `npm run testimonials:generate -- --city "Florianópolis" --slug florianopolis --type urgente --count 12`
+
+Notas:
+
+- O script deduplica globalmente por fingerprint do texto (evita repetição no site).
+- Por padrão, ele substitui (replace) os sintéticos daquela cidade+tipo para manter controle.
+
+---
+
+## Formato de envio (humano -> GPT) — quando for REAL
 
 Você me manda assim (um bloco por cidade):
 

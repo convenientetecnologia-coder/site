@@ -34,6 +34,19 @@ Regra: toda mudança relevante entra aqui com:
 - **Impacto**: cada página mostra ~15 bairros diferentes (quando disponíveis).
 - **Rollback**: reverter commits e voltar a usar lista fixa/única (não recomendado).
 
+#### 2026-02-05 — [SITE] Depoimentos sintéticos: geração assistida + 3–7 por página (rotulado)
+
+- **O que**:
+  - Adicionado comando local `npm run testimonials:generate` para gerar depoimentos sintéticos via OpenAI e salvar em `src/_data/testimonials.json`.
+  - Páginas passaram a exibir **3–7** depoimentos (determinístico por cidade+tipo) com o título **“Depoimentos sintéticos”**.
+- **Por quê**: prova social inicial sem depender de coleta imediata, mantendo transparência e linguagem humana (anti-robô).
+- **Evidência**:
+  - `C:\site\scripts\generate_testimonials_openai.js`
+  - `C:\site\src\pages\fretes-em.11ty.js`, `mudancas-em.11ty.js`, `frete-urgente-em.11ty.js`
+  - `C:\site\docs\DEPOIMENTOS.md`
+- **Impacto**: em `production`, validate continua exigindo >=3 e bloqueando duplicados; em `draft` pode ficar vazio sem travar.
+- **Rollback**: remover o bloco/rotulagem nas páginas e voltar ao modo “sem depoimentos” até coletar reais (reverter commit).
+
 #### 2026-02-05 — [SITE] Google Search Console verificado (DNS TXT)
 
 - **O que**: propriedade do domínio `fretesoumudancas.com.br` foi verificada no Google Search Console via registro TXT (DNS).

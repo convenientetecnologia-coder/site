@@ -9,6 +9,7 @@
     "build": "eleventy",
     "validate": "node scripts/validate.js",
     "neighborhoods:fetch": "node scripts/fetch_neighborhoods_openai.js",
+    "testimonials:generate": "node scripts/generate_testimonials_openai.js",
     "audit:testimonials": "node scripts/audit_testimonials.js",
     "deploy:root": "node scripts/deploy_root.js",
     "deploy:prepare": "npm run build && npm run validate && npm run deploy:root",

@@ -28,7 +28,8 @@ function whatsLink({ data, city, kind }) {
 }
 
 function renderTestimonialsSection(city, publishMode) {
-  const list = testimonials.pickFor({ citySlug: city.slug, type: "mudancas", limit: 3 });
+  const limit = 3 + (variants.hash32(`t::mudancas::${city.slug}`) % 5); // 3..7 (determinístico)
+  const list = testimonials.pickFor({ citySlug: city.slug, type: "mudancas", limit });
   const items = list.map((t) => {
     return `<div class="tItem" data-ct-testimonial="1">
       <div class="tText">“${escapeHtml(t.text)}”</div>
@@ -37,12 +38,13 @@ function renderTestimonialsSection(city, publishMode) {
   }).join("");
 
   const missingNote = (publishMode === "draft" && list.length < 3)
-    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter 3 depoimentos).</p>`
+    ? `<p class="muted">Depoimentos sintéticos desta cidade ainda não foram gerados (antes de publicar em produção, esta seção precisa ter pelo menos 3).</p>`
     : "";
 
   return `
     <section class="card" style="margin-top:18px" data-ct="testimonials">
-      <h2>Depoimentos</h2>
+      <h2>Depoimentos sintéticos</h2>
+      <p class="muted" style="margin-top:6px">Textos sintéticos para demonstrar o padrão de atendimento. Substituiremos por depoimentos reais conforme coleta.</p>
       ${missingNote}
       <div class="tGrid">${items}</div>
     </section>

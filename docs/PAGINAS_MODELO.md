@@ -76,12 +76,12 @@ Qualquer variação fora disso **não** deve ser criada.
 
 ### Prova social (regra de integridade)
 
-**Não inventar depoimentos/reviews como se fossem reais.** Isso é risco legal e de confiança.
+**Não apresentar depoimento como real quando não for.** Isso é risco legal e de confiança.
 
 Opções seguras:
 
 - Se tiver provas reais: usar frases curtas (sem PII) e registrar origem (interno).
-- Se não tiver: usar “compromissos de serviço” (ex.: pontualidade, cuidado, comunicação) e um bloco “Como funciona / O que você pode esperar”.
+- Se ainda não tiver: usar **depoimentos sintéticos**, mas **rotulados** na página como “Depoimentos sintéticos” (sem citar IA no texto) e com linguagem humana (sem marketing robótico).
 
 ### Observação (implementação)
 

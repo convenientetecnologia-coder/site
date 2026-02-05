@@ -7,7 +7,7 @@ Objetivo: você usar estes modelos como **roteiro** para pedir/receber depoiment
 - **naturais** (parece humano, não “texto de marketing”)
 - **com variação** (para evitar duplicidade)
 
-> Importante: estes são **modelos com placeholders**. O depoimento que entra no site precisa ser **real** e enviado por você.
+> Importante: estes são **modelos com placeholders**. No modo atual do projeto, o site exibe **“Depoimentos sintéticos”** (gerados e rotulados). Quando você enviar depoimentos reais, estes modelos viram o roteiro canônico para coletar textos humanos de verdade.
 
 ---
 

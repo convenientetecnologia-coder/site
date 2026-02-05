@@ -38,6 +38,10 @@ Regras:
   - Fonte canônica: `src/_data/neighborhoods.json`
   - Cada cidade é dividida em 3 blocos (~15) para as páginas `fretes/mudancas/urgente` (evita repetição entre URLs).
   - Comando local para gerar/atualizar via OpenAI: `npm run neighborhoods:fetch` (chave via ambiente; nunca no Git).
+- **Depoimentos (prova social)**:
+  - Modo atual: **“Depoimentos sintéticos”** (rotulado na página; linguagem humana).
+  - Fonte canônica: `src/_data/testimonials.json`
+  - Comando local para gerar por cidade+tipo: `npm run testimonials:generate` (chave via `local.env`, nunca no Git).
 
 ---
 
@@ -52,6 +56,7 @@ Regras:
 ## Regras de copy (não-negociáveis)
 
 - **Proibido** colocar “marcação” no texto tipo: “gerado por IA”, “fictício”, “exemplo”, etc.
+  - Exceção controlada: a seção pode ser rotulada como **“Depoimentos sintéticos”** (transparência), mas o texto do depoimento deve continuar humano e natural.
 - **Proibido** claims absolutos sem base (“melhor preço”, “24h garantido”, “sempre imediato”). Usar:
   - “conforme disponibilidade”, “avaliamos encaixes”, “horários estendidos quando possível”, etc.
 

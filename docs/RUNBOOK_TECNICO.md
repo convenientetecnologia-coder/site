@@ -205,6 +205,29 @@ Regra de qualidade:
 
 ---
 
+### Depoimentos sintéticos (geração assistida) — CANÔNICO
+
+Objetivo: preencher prova social com textos **humanos** e **curtos**, mas claramente rotulados como **sintéticos** no site.
+
+Fonte de verdade:
+
+- `src/_data/testimonials.json`
+
+Comando canônico (local):
+
+- Pré-requisito: `OPENAI_API_KEY` no `local.env` (arquivo ignorado pelo Git)
+- Rodar (um tipo por vez):
+  - `npm run testimonials:generate -- --city "Florianópolis" --slug florianopolis --type fretes --count 12`
+  - `npm run testimonials:generate -- --city "Florianópolis" --slug florianopolis --type mudancas --count 12`
+  - `npm run testimonials:generate -- --city "Florianópolis" --slug florianopolis --type urgente --count 12`
+
+Notas:
+
+- As páginas exibem **3–7** depoimentos por cidade+tipo de forma determinística (não muda a cada build).
+- Em `production`, o validate exige **>=3** depoimentos por página de cidade.
+
+---
+
 ### Rollback (CANÔNICO)
 
 - Reverter commit no GitHub (ex.: `git revert`) e fazer `push`.
