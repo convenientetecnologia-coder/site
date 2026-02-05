@@ -62,17 +62,24 @@ function main() {
   // páginas esperadas: 1 home + (3 por cidade habilitada)
   let enabledCities = 0;
   let enabledTypes = 3;
+  let publishMode = "draft";
   try {
     const pubCfg = require(path.join(ROOT, "src", "_data", "publish"));
     const list = require(path.join(ROOT, "src", "_data", "publishedCities"));
     enabledCities = Array.isArray(list) ? list.length : 0;
     const types = Array.isArray(pubCfg && pubCfg.enabledTypes) ? pubCfg.enabledTypes : [];
     enabledTypes = Math.max(0, types.length || 3);
+    publishMode = String((pubCfg && pubCfg.mode) || "draft");
   } catch {}
   const expectedMinPages = Math.max(1, 1 + (enabledCities * enabledTypes));
 
   let bad = 0;
   let wordLow = 0;
+  let wordHardFail = 0;
+  let testimonialsFail = 0;
+
+  const minWordsDraftWarn = 250;
+  const minWordsProduction = 1200;
 
   for (const fp of htmlFiles) {
     const rel = fp.slice(DIST.length).replace(/\\\\/g, "/");
@@ -91,10 +98,30 @@ function main() {
     if (h1s.has(h1)) { fail(`H1 duplicado: "${h1}" em ${rel} (já existe em ${h1s.get(h1)})`); bad++; }
     else h1s.set(h1, rel);
 
-    // gate básico (vamos calibrar depois): 250 palavras mínimo inicial
-    if (words < 250) {
-      console.warn(`[validate] WARN: poucas palavras (${words}) em ${rel}`);
-      wordLow++;
+    // gate de palavras
+    if (publishMode === "production") {
+      if (words < minWordsProduction) {
+        fail(`Poucas palavras em modo production (${words} < ${minWordsProduction}) em ${rel}`);
+        bad++; wordHardFail++;
+      }
+    } else {
+      if (words < minWordsDraftWarn) {
+        console.warn(`[validate] WARN: poucas palavras (${words}) em ${rel}`);
+        wordLow++;
+      }
+    }
+
+    // gate de depoimentos (somente em production): 3 itens por página de cidade
+    // Regra: se a página tem o bloco data-ct="testimonials", ela precisa ter 3 cards.
+    if (publishMode === "production") {
+      const hasBlock = /data-ct=["']testimonials["']/i.test(html);
+      if (hasBlock) {
+        const count = (html.match(/data-ct-testimonial=["']1["']/gi) || []).length;
+        if (count < 3) {
+          fail(`Poucos depoimentos (${count} < 3) em ${rel}`);
+          bad++; testimonialsFail++;
+        }
+      }
     }
   }
 
@@ -106,7 +133,14 @@ function main() {
   }
 
   ok(`Titles únicos: ${titles.size}. H1 únicos: ${h1s.size}.`);
-  if (wordLow) console.warn(`[validate] WARN: ${wordLow} páginas com <250 palavras (gate provisório).`);
+  if (wordLow) console.warn(`[validate] WARN: ${wordLow} páginas com <${minWordsDraftWarn} palavras (draft).`);
+  if (publishMode === "production") {
+    ok(`Modo: production. Gates: palavras>=${minWordsProduction}; depoimentos>=3 nas páginas de cidade.`);
+    if (wordHardFail) console.warn(`[validate] WARN: ${wordHardFail} falharam por palavras.`);
+    if (testimonialsFail) console.warn(`[validate] WARN: ${testimonialsFail} falharam por depoimentos.`);
+  } else {
+    ok(`Modo: ${publishMode}. Gates: WARN palavras<${minWordsDraftWarn}.`);
+  }
 
   if (bad) {
     fail(`Falhas: ${bad}.`);

@@ -1,6 +1,7 @@
 "use strict";
 
 const variants = require("../_data/variants");
+const testimonials = require("../_data/testimonials");
 
 function escapeHtml(s) {
   return String(s || "")
@@ -13,8 +14,31 @@ function escapeHtml(s) {
 
 function whatsLink() { return "/#contato"; }
 
-function renderBody(city) {
+function renderTestimonialsSection(city, publishMode) {
+  const list = testimonials.pickFor({ citySlug: city.slug, type: "urgente", limit: 3 });
+  const items = list.map((t) => {
+    return `<div class="tItem" data-ct-testimonial="1">
+      <div class="tText">“${escapeHtml(t.text)}”</div>
+      <div class="tBy">— ${escapeHtml(t.author || "Cliente")}</div>
+    </div>`;
+  }).join("");
+
+  const missingNote = (publishMode === "draft" && list.length < 3)
+    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter 3 depoimentos).</p>`
+    : "";
+
+  return `
+    <section class="card" style="margin-top:18px" data-ct="testimonials">
+      <h2>Depoimentos</h2>
+      ${missingNote}
+      <div class="tGrid">${items}</div>
+    </section>
+  `;
+}
+
+function renderBody(city, data) {
   const seed = `urgente::${city.slug}`;
+  const publishMode = (data && data.publish && data.publish.mode) ? String(data.publish.mode) : "draft";
   const open = variants.pick([
     "Precisa de frete urgente em {CITY}? Trabalhamos com atendimento imediato para situações que exigem rapidez.",
     "Frete urgente em {CITY} com foco em agilidade e resposta rápida — consulte disponibilidade agora.",
@@ -67,6 +91,8 @@ function renderBody(city) {
           <a class="chip" href="/assets/placeholder-3.svg">Imagem 3</a>
         </div>
       </section>
+
+      ${renderTestimonialsSection(city, publishMode)}
     </div>
   `;
 }
@@ -90,7 +116,7 @@ module.exports = class {
   }
 
   render(data) {
-    return renderBody(data.city);
+    return renderBody(data.city, data);
   }
 };
 

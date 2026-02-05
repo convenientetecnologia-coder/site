@@ -1,6 +1,7 @@
 "use strict";
 
 const variants = require("../_data/variants");
+const testimonials = require("../_data/testimonials");
 
 function wordsCount(s) {
   const t = String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
@@ -25,11 +26,34 @@ function urgentLine(seed, idx) {
   ], seed, idx);
 }
 
-function renderBody(city) {
+function renderTestimonialsSection(city, publishMode) {
+  const list = testimonials.pickFor({ citySlug: city.slug, type: "fretes", limit: 3 });
+  const items = list.map((t) => {
+    return `<div class="tItem" data-ct-testimonial="1">
+      <div class="tText">“${escapeHtml(t.text)}”</div>
+      <div class="tBy">— ${escapeHtml(t.author || "Cliente")}</div>
+    </div>`;
+  }).join("");
+
+  const missingNote = (publishMode === "draft" && list.length < 3)
+    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter 3 depoimentos).</p>`
+    : "";
+
+  return `
+    <section class="card" style="margin-top:18px" data-ct="testimonials">
+      <h2>Depoimentos</h2>
+      ${missingNote}
+      <div class="tGrid">${items}</div>
+    </section>
+  `;
+}
+
+function renderBody(city, data) {
   const seed = `fretes::${city.slug}`;
   const p1 = paragraph(seed, 1).replaceAll("{CITY}", city.name);
   const p2 = paragraph(seed, 2).replaceAll("{CITY}", city.name);
   const urg = urgentLine(seed, 3);
+  const publishMode = (data && data.publish && data.publish.mode) ? String(data.publish.mode) : "draft";
 
   const types = [
     "Frete pequeno (itens leves e poucos volumes)",
@@ -94,6 +118,8 @@ function renderBody(city) {
           <a class="btn secondary" href="/mudancas-em-${encodeURIComponent(city.slug)}/">Ver mudanças</a>
         </div>
       </section>
+
+      ${renderTestimonialsSection(city, publishMode)}
     </div>
   `;
   return html;
@@ -133,7 +159,7 @@ module.exports = class {
   }
 
   render(data) {
-    const body = renderBody(data.city);
+    const body = renderBody(data.city, data);
     const wc = wordsCount(body);
     return `<!-- words=${wc} -->\n` + body;
   }

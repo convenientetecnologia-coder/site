@@ -14,8 +14,8 @@ Objetivo: publicar em produção **sem queimar SEO** e sem “doorway pages”.
 
 ## Estados do rollout (por cidade)
 
-- **draft**: página pode existir no repo, mas não deve ser rastreável/indexável.
-- **live**: página é gerada e entra no sitemap.
+- **draft**: páginas podem existir no repo/build, mas devem ficar com `noindex` e `Disallow: /`.
+- **production**: páginas entram no `sitemap.xml` e ficam indexáveis.
 
 Fonte de verdade: `src/_data/publish_config.json` (slugs habilitados).
 
@@ -24,10 +24,12 @@ Fonte de verdade: `src/_data/publish_config.json` (slugs habilitados).
 ## Passo a passo (primeira cidade)
 
 1) Escolher 1 cidade (ex.: `florianopolis`) e preencher conteúdo completo (3 páginas).
+   - **Regra**: depoimentos ainda podem faltar nesta fase (modo draft).
 2) Rodar:
    - `npm run build`
    - `npm run validate`
-3) Mudar modo para `production` e habilitar a cidade no `publish_config.json`.
+3) Inserir **3 depoimentos por página** (fretes/mudanças/urgente) para a cidade.
+4) Mudar modo para `production` e habilitar a cidade no `publish_config.json`.
 4) Commit/push.
 5) Só então conectar o Git Deploy no Hostinger.
 6) Validar visualmente (humano):
@@ -55,6 +57,7 @@ Fonte de verdade: `src/_data/publish_config.json` (slugs habilitados).
 - CTA WhatsApp com número real e texto correto
 - Bairros/regiões citados (sem gerar URLs)
 - FAQ com variação local
+- **3 depoimentos por página** (ou o `validate` falha em production)
 - Sem claims falsos / sem depoimentos inventados
-- `sitemap.xml` inclui somente páginas live
+- `sitemap.xml` inclui somente páginas em `production`
 

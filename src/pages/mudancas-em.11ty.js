@@ -1,6 +1,7 @@
 "use strict";
 
 const variants = require("../_data/variants");
+const testimonials = require("../_data/testimonials");
 
 function escapeHtml(s) {
   return String(s || "")
@@ -13,8 +14,31 @@ function escapeHtml(s) {
 
 function whatsLink() { return "/#contato"; }
 
-function renderBody(city) {
+function renderTestimonialsSection(city, publishMode) {
+  const list = testimonials.pickFor({ citySlug: city.slug, type: "mudancas", limit: 3 });
+  const items = list.map((t) => {
+    return `<div class="tItem" data-ct-testimonial="1">
+      <div class="tText">“${escapeHtml(t.text)}”</div>
+      <div class="tBy">— ${escapeHtml(t.author || "Cliente")}</div>
+    </div>`;
+  }).join("");
+
+  const missingNote = (publishMode === "draft" && list.length < 3)
+    ? `<p class="muted">Depoimentos desta cidade ainda não foram adicionados (antes de publicar em produção, esta seção precisa ter 3 depoimentos).</p>`
+    : "";
+
+  return `
+    <section class="card" style="margin-top:18px" data-ct="testimonials">
+      <h2>Depoimentos</h2>
+      ${missingNote}
+      <div class="tGrid">${items}</div>
+    </section>
+  `;
+}
+
+function renderBody(city, data) {
   const seed = `mudancas::${city.slug}`;
+  const publishMode = (data && data.publish && data.publish.mode) ? String(data.publish.mode) : "draft";
   const open = variants.pick([
     "Realizamos mudanças em {CITY} com organização, cuidado e comunicação clara do início ao fim.",
     "Mudanças em {CITY} com atendimento rápido e execução profissional, alinhando prazos e logística por WhatsApp.",
@@ -74,6 +98,8 @@ function renderBody(city) {
         <h2>Bairros atendidos em ${escapeHtml(city.name)}</h2>
         <p class="muted">Atendemos todos os bairros de ${escapeHtml(city.name)}. Confirme detalhes (origem/destino) no WhatsApp para logística.</p>
       </section>
+
+      ${renderTestimonialsSection(city, publishMode)}
     </div>
   `;
 }
@@ -97,7 +123,7 @@ module.exports = class {
   }
 
   render(data) {
-    return renderBody(data.city);
+    return renderBody(data.city, data);
   }
 };
 
