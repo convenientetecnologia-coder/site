@@ -120,17 +120,19 @@ function renderBody(city, data) {
           <div>
             <div class="kicker">Página pilar • Fretes em ${escapeHtml(city.name)}</div>
             <h1>Fretes em ${escapeHtml(city.name)}</h1>
+            <div class="ctaRow" style="margin-top:10px">
+              <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Chamar no WhatsApp</a>
+              <a class="btn secondary" href="#como-funciona">Como funciona</a>
+            </div>
             <p>${escapeHtml(p1)}</p>
             <p>${escapeHtml(p2)}</p>
             <p>${escapeHtml(p3)}</p>
             <p>${escapeHtml(p4)}</p>
             <p><b>Urgência:</b> ${escapeHtml(urg)}</p>
-            <div class="ctaRow">
-              <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Chamar no WhatsApp</a>
-              ${hasUrgente ? `<a class="btn secondary" href="/frete-urgente-em-${encodeURIComponent(city.slug)}/">Ver frete urgente</a>` : ""}
-            </div>
+            ${hasUrgente ? `<div class="ctaRow"><a class="btn secondary" href="/frete-urgente-em-${encodeURIComponent(city.slug)}/">Ver frete urgente</a></div>` : ""}
           </div>
           <div class="card" style="padding:14px">
+            <img class="heroImg" src="/assets/placeholder-bg.svg" alt="Fretes em ${escapeHtml(city.name)}" loading="lazy" />
             <h2 style="margin-top:0">Tipos de frete</h2>
             <ul class="list">
               ${types.map(t => `<li>${escapeHtml(t.replaceAll("{CITY}", city.name))}</li>`).join("")}
@@ -144,7 +146,7 @@ function renderBody(city, data) {
         </div>
       </section>
 
-      <section class="card" style="margin-top:18px">
+      <section class="card" style="margin-top:18px" id="como-funciona">
         <h2>Como funciona o frete em ${escapeHtml(city.name)}</h2>
         <p class="muted">Processo simples, com confirmação de detalhes para reduzir imprevistos e garantir execução organizada.</p>
         <ol class="list">
@@ -165,13 +167,12 @@ function renderBody(city, data) {
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Imagens (exemplos)</h2>
-        <p class="muted">Placeholder (vamos substituir por imagens reais por cidade quando definirmos o pacote final).</p>
-        <div class="chips">
-          <a class="chip" href="/assets/placeholder-bg.svg">Fundo</a>
-          <a class="chip" href="/assets/placeholder-1.svg">Imagem 1</a>
-          <a class="chip" href="/assets/placeholder-2.svg">Imagem 2</a>
-          <a class="chip" href="/assets/placeholder-3.svg">Imagem 3</a>
+        <h2>Nossa frota e cuidado</h2>
+        <p class="muted">Imagens ilustrativas. Vamos substituir por fotos reais assim que definirmos o pacote final (frota, proteção e execução).</p>
+        <div class="imgGrid">
+          <div class="imgItem"><img src="/assets/placeholder-1.svg" alt="Frete com cuidado e organização" loading="lazy" /><div class="imgCap">Organização e proteção</div></div>
+          <div class="imgItem"><img src="/assets/placeholder-2.svg" alt="Fretes e mudanças com agilidade" loading="lazy" /><div class="imgCap">Agilidade (conforme disponibilidade)</div></div>
+          <div class="imgItem"><img src="/assets/placeholder-3.svg" alt="Atendimento por WhatsApp" loading="lazy" /><div class="imgCap">Atendimento por WhatsApp</div></div>
         </div>
       </section>
 

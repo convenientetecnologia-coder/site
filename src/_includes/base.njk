@@ -26,10 +26,17 @@
     <header class="top">
       <div class="wrap">
         <a class="brand" href="/">{{ site.brandName }}</a>
-        <nav class="nav">
-          <a href="/cidades/">Cidades</a>
-          <a href="#contato">Contato</a>
-        </nav>
+        {% set t = pageMeta.type or '' %}
+        {% if t == "home" or t == "cidades" %}
+          <nav class="nav">
+            <a href="/cidades/">Cidades</a>
+            <a href="#contato">Contato</a>
+          </nav>
+        {% else %}
+          <nav class="nav">
+            <a class="navCta" data-ct-wa="1" data-wa-kind="topbar" href="https://wa.me/{{ site.whatsAppNumberE164 | replace('+','') | replace(' ','') }}">WhatsApp</a>
+          </nav>
+        {% endif %}
       </div>
     </header>
 
@@ -42,6 +49,14 @@
         <div class="muted">© {{ ("" | toISODate) | slice(0,4) }} {{ site.brandName }}.</div>
       </div>
     </footer>
+
+    {% if (pageMeta.type == "fretes" or pageMeta.type == "mudancas" or pageMeta.type == "urgente") %}
+      <div class="waDock" id="ctWaDock" aria-label="Atalho WhatsApp">
+        <div class="wrap waDockInner">
+          <a class="btn primary waDockBtn" data-ct-wa="1" data-wa-kind="dock" href="/#contato">Chamar no WhatsApp</a>
+        </div>
+      </div>
+    {% endif %}
 
     <script>
       (() => {
@@ -90,6 +105,27 @@
               waKind: a.getAttribute("data-wa-kind") || ""
             });
           }, { capture: true });
+
+          // dock: usa o melhor link de WhatsApp da página (primeiro botão da página)
+          try {
+            const dock = document.getElementById("ctWaDock");
+            if (dock) {
+              const best = document.querySelector("a[data-ct-wa='1'][data-wa-kind='fretes'], a[data-ct-wa='1'][data-wa-kind='mudancas'], a[data-ct-wa='1'][data-wa-kind='urgente'], a[data-ct-wa='1']");
+              const dockA = dock.querySelector("a");
+              if (best && dockA && best.getAttribute("href")) dockA.setAttribute("href", best.getAttribute("href"));
+            }
+          } catch {}
+
+          // âncora contato: scroll suave e previsível
+          try {
+            document.addEventListener("click", (ev) => {
+              const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[href='#contato']") : null;
+              if (!a) return;
+              ev.preventDefault();
+              const el = document.getElementById("contato");
+              if (el && el.scrollIntoView) el.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+          } catch {}
         } catch {}
       })();
     </script>

@@ -24,10 +24,13 @@
     <header class="top">
       <div class="wrap">
         <a class="brand" href="/">Fretes e Mudanças</a>
-        <nav class="nav">
-          <a href="/cidades/">Cidades</a>
-          <a href="#contato">Contato</a>
-        </nav>
+        
+        
+          <nav class="nav">
+            <a href="/cidades/">Cidades</a>
+            <a href="#contato">Contato</a>
+          </nav>
+        
       </div>
     </header>
 
@@ -62,6 +65,8 @@
         <div class="muted">©  Fretes e Mudanças.</div>
       </div>
     </footer>
+
+    
 
     <script>
       (() => {
@@ -110,6 +115,27 @@
               waKind: a.getAttribute("data-wa-kind") || ""
             });
           }, { capture: true });
+
+          // dock: usa o melhor link de WhatsApp da página (primeiro botão da página)
+          try {
+            const dock = document.getElementById("ctWaDock");
+            if (dock) {
+              const best = document.querySelector("a[data-ct-wa='1'][data-wa-kind='fretes'], a[data-ct-wa='1'][data-wa-kind='mudancas'], a[data-ct-wa='1'][data-wa-kind='urgente'], a[data-ct-wa='1']");
+              const dockA = dock.querySelector("a");
+              if (best && dockA && best.getAttribute("href")) dockA.setAttribute("href", best.getAttribute("href"));
+            }
+          } catch {}
+
+          // âncora contato: scroll suave e previsível
+          try {
+            document.addEventListener("click", (ev) => {
+              const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[href='#contato']") : null;
+              if (!a) return;
+              ev.preventDefault();
+              const el = document.getElementById("contato");
+              if (el && el.scrollIntoView) el.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+          } catch {}
         } catch {}
       })();
     </script>
