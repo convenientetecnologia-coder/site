@@ -5,6 +5,8 @@ eleventyExcludeFromCollections: true
 User-agent: *
 {% if publish.mode != "production" %}
 Disallow: /
+Allow: /robots.txt
+Allow: /sitemap.xml
 {% else %}
 Allow: /
 {% endif %}

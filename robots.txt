@@ -1,6 +1,8 @@
 User-agent: *
 
 Disallow: /
+Allow: /robots.txt
+Allow: /sitemap.xml
 
 
 Sitemap: https://www.fretesoumudancas.com.br/sitemap.xml
