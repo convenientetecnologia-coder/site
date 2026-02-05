@@ -9,6 +9,16 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-05 — [SITE] WhatsApp: todos os CTAs garantidos com mensagem pré-preenchida (topo + dock)
+
+- **O que**: corrigidos os CTAs de WhatsApp que abriam sem mensagem automática no **topo** e no **dock inferior**.
+- **Por quê**: conversão/UX; nenhum botão pode “parecer quebrado” e a mensagem deve estar sempre pronta.
+- **Evidência**:
+  - `C:\site\src\_includes\base.njk` (topbar/dock com `?text=` e “fiação” de CTA independente do tracking)
+  - commit do repo `site`: `7fe6edf`
+- **Impacto**: todos os botões/atalhos WA abrem `wa.me` com `?text=` (mensagem pré-preenchida).
+- **Rollback**: reverter o commit `7fe6edf` no repo do site.
+
 #### 2026-02-05 — [SITE] Google Search Console verificado (DNS TXT)
 
 - **O que**: propriedade do domínio `fretesoumudancas.com.br` foi verificada no Google Search Console via registro TXT (DNS).

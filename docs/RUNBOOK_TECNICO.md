@@ -161,6 +161,17 @@ Gates:
 
 - Em `production`, `npm run validate` **falha** se `whatsAppNumberE164` ou `trackingEndpoint` estiverem vazios/ inválidos.
 
+#### Regra crítica (UX / conversão) — CANÔNICO
+
+- **Todo CTA de WhatsApp** (topo, botões no conteúdo e dock mobile) deve abrir o WhatsApp com **mensagem pré-preenchida**:
+  - padrão: `https://wa.me/<numero>?text=<texto_urlencoded>`
+- **Nunca** depender do tracking para isso funcionar.
+  - Motivo: tracking pode ser bloqueado (rede, bloqueador, endpoint inválido), mas o CTA deve continuar perfeito.
+
+Evidência técnica:
+
+- Implementação canônica em `src/_includes/base.njk` (topbar + dock com `?text=`; “fiação” de CTA separada do tracking).
+
 ---
 
 ### Rollback (CANÔNICO)

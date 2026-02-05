@@ -37,6 +37,8 @@ Qualquer variação fora disso **não** deve ser criada.
 - Conteúdo alvo: **~1500 palavras** (mínimo recomendado: **1200**).
 - Bairros citados no corpo (não como URL).
 - CTA WhatsApp funcionando.
+- **Padrão canônico: sem imagens** nas páginas de cidade (mais rápido, mais limpo, sem “cara de produto”). Se um dia usar imagens, só reais e otimizadas.
+- **CTA WhatsApp**: todo botão/atalho deve abrir com **mensagem pré-preenchida** (`wa.me` + `?text=`).
 
 ### Estrutura obrigatória (por tipo)
 

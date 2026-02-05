@@ -14,6 +14,8 @@ Regras:
 - **Deploy** tem que ser “commit -> publish” (via Git Deploy no Hostinger).
 - **Sem secrets** em docs/repo. Só nomes e onde configurar.
 - **Regra de operação (ultra enterprise)**: toda melhoria/mudança relevante deve atualizar **Runbook + Timeline** automaticamente.
+- **Política de mídia (padrão canônico)**: **sem imagens** nas páginas de cidade (mais rápido, limpo, sem “foto de produto” para serviço). Se um dia voltar a usar imagem, só com fotos reais e otimizadas.
+- **Política de CTA WhatsApp (padrão canônico)**: **todo botão/atalho de WhatsApp deve abrir o WhatsApp com mensagem pré-preenchida** (link `wa.me` + `?text=`). Nunca depender do tracking para funcionar.
 
 ---
 
@@ -32,6 +34,15 @@ Regras:
 - **Métricas internas (CT)**:
   - `pageview` + `whatsapp_click` enviados via `sendBeacon` para o CT
   - painel no CT: Menu **Site** (cidades no ar + cliques WhatsApp por cidade/página)
+
+---
+
+## Últimas correções aplicadas (base estabilizada)
+
+- **WhatsApp (CTA)**: corrigido caso em que **2 botões não abriam com mensagem automática** (topo e dock inferior).
+  - Regra agora: topbar/dock sempre usam o “melhor link de WhatsApp” da página, e sempre com `?text=`.
+  - Evidência: ajuste em `src/_includes/base.njk` (commit `7fe6edf` no repo do site).
+- **Imagens**: consolidado padrão canônico “sem imagens” nas páginas de cidade (performance + clareza + menos fricção).
 
 ## Regras de copy (não-negociáveis)
 
