@@ -32,6 +32,14 @@ Regras:
 - **SEO safety**:
   - `draft`: `noindex` + `robots.txt` bloqueia crawl (mas permite buscar `sitemap.xml`).
   - `production`: indexável + sitemap com páginas habilitadas.
+
+### Cidades publicadas (production)
+
+- **Florianópolis (SC)** — publicado em 2026-02-05
+  - `/fretes-em-florianopolis/`
+  - `/mudancas-em-florianopolis/`
+  - `/frete-urgente-em-florianopolis/`
+  - Commit: `3719b35`
 - **Métricas internas (CT)**:
   - `pageview` + `whatsapp_click` enviados via `sendBeacon` para o CT
   - painel no CT: Menu **Site** (cidades no ar + cliques WhatsApp por cidade/página)

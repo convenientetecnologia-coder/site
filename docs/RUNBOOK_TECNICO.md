@@ -228,41 +228,85 @@ Notas:
 
 ---
 
-### Workflow canônico: “Cidade X pronta” (anti-achismo) — CANÔNICO
+### Workflow canônico: “Criar páginas da cidade X” (ULTRA ENTERPRISE) — CANÔNICO
 
-Regra: **só declarar uma cidade como “criada/pronta” depois de evidência no ar + registro nos livros**.
+**Regra mestra**: quando o humano pedir "criar páginas da cidade X", o GPT deve executar **TUDO** automaticamente:
+1. Gerar conteúdo GPT (3 páginas)
+2. Gerar bairros (divididos em 3 blocos)
+3. Gerar depoimentos (12 por tipo)
+4. Habilitar cidade em `production`
+5. Build + validate
+6. **Commit + push para GitHub** (sem perguntar)
+7. Avisar o humano: "Páginas criadas e publicadas. Pronto para próxima cidade."
 
-#### Preparar dados (local)
+**Sem exceções**: não parar no meio, não pedir confirmação, não deixar pendente.
 
-- Bairros (divide em 3 blocos para fretes/mudanças/urgente):
-  - `npm run neighborhoods:fetch -- --city "NOME" --slug slug --state "UF" --maxPerPage 15`
-- Depoimentos (gerar pool por tipo; a página mostra 3–7 automaticamente):
-  - `npm run testimonials:generate -- --city "NOME" --slug slug --type fretes --count 12`
-  - `npm run testimonials:generate -- --city "NOME" --slug slug --type mudancas --count 12`
-  - `npm run testimonials:generate -- --city "NOME" --slug slug --type urgente --count 12`
+#### Passo a passo automático (GPT executa tudo)
 
-#### Publicar (Hostinger Git Deploy)
+**1) Gerar páginas completas:**
+```powershell
+cd C:\site
+npm run city:publish -- --city "NOME_DA_CIDADE" --slug slug_da_cidade --state "UF" --production 1
+```
 
-- `npm run deploy:prepare`
-- `git push`
+Este comando faz **TUDO** automaticamente:
+- Gera conteúdo GPT para as 3 páginas (fretes/mudanças/urgente)
+- Busca bairros via OpenAI e divide em 3 blocos
+- Gera 12 depoimentos por tipo (36 no total)
+- Habilita cidade em `publish_config.json` em modo `production`
+- Executa `deploy:prepare` (build + validate + copia para raiz)
 
-#### Evidência no ar (obrigatório antes de dizer “pronto”)
+**2) Commit e push automático (obrigatório):**
+```powershell
+cd C:\site
+git add .
+git commit -m "feat: publica paginas de NOME_DA_CIDADE (fretes/mudancas/urgente) em production" -m "Paginas geradas com conteudo GPT, bairros e depoimentos unicos. Modo production ativado para indexacao."
+git push origin main
+```
 
-1) Manifest (fonte de verdade do que está publicado):
+**3) Atualizar documentação (obrigatório):**
+- Atualizar `docs/LIVRO_DE_BORDO.md` (adicionar cidade na lista de publicadas)
+- Atualizar `docs/TIMELINE.md` (registrar publicação com commit hash)
+
+**4) Commit da documentação (obrigatório):**
+```powershell
+cd C:\site
+git add docs/
+git commit -m "docs: atualiza livros apos publicacao de NOME_DA_CIDADE"
+git push origin main
+```
+
+**5) Avisar o humano:**
+- "✅ Páginas de [CIDADE] criadas e publicadas no GitHub."
+- "📦 Commit: [hash]"
+- "🌐 Aguardando deploy automático do Hostinger (1-2 minutos)."
+- "✅ Pronto para próxima cidade."
+
+#### Validação automática (gate de qualidade)
+
+O `npm run city:publish` já executa `deploy:prepare` que inclui:
+- `npm run build` (gera HTML estático)
+- `npm run validate` (quality gate: palavras >=1200, depoimentos >=3, titles/H1 únicos, sem duplicatas)
+
+**Se o validate falhar**, o processo para e o GPT deve:
+1. Corrigir o problema
+2. Re-executar `npm run city:publish`
+3. Só então fazer commit/push
+
+#### Evidência no ar (verificação pós-deploy — opcional para GPT)
+
+Após o deploy automático do Hostinger (1-2 minutos), pode verificar:
+
+1) Manifest (fonte de verdade):
    - `curl.exe -s "https://www.fretesoumudancas.com.br/site_manifest.json"`
    - Verificar que o `slug` aparece e que os links batem.
-2) Página(s) respondem:
+
+2) Páginas respondem:
    - `curl.exe -I "https://www.fretesoumudancas.com.br/fretes-em-slug/"`
-   - (se habilitado) `curl.exe -I "https://www.fretesoumudancas.com.br/mudancas-em-slug/"`
-   - (se habilitado) `curl.exe -I "https://www.fretesoumudancas.com.br/frete-urgente-em-slug/"`
-3) Conteúdo crítico renderizado (sem depender do browser):
-   - procurar `Depoimentos` e `data-ct-testimonial="1"` no HTML (>=3)
-   - procurar pelo bloco de bairros (lista humana curta)
+   - `curl.exe -I "https://www.fretesoumudancas.com.br/mudancas-em-slug/"`
+   - `curl.exe -I "https://www.fretesoumudancas.com.br/frete-urgente-em-slug/"`
 
-#### Registro (obrigatório)
-
-- Atualizar `docs/LIVRO_DE_BORDO.md` (estado atual / cidade publicada)
-- Atualizar `docs/TIMELINE.md` (o que mudou + commit)
+**Nota**: o GPT não precisa esperar o deploy para avisar o humano. O importante é que o commit/push foi feito e a documentação atualizada.
 
 ---
 

@@ -9,6 +9,38 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-05 — [SITE] Protocolo enterprise: criação automática de páginas (criar → validar → commit → push → avisar)
+
+- **O que**: estabelecido protocolo ultra enterprise para criação de páginas de cidade:
+  - Comando único: `npm run city:publish` gera tudo (conteúdo GPT, bairros, depoimentos, habilita production)
+  - Commit + push automático (sem perguntar ao humano)
+  - Atualização automática de documentação (LIVRO + TIMELINE)
+  - Aviso claro ao humano: "Pronto para próxima cidade"
+- **Por quê**: garantir que qualquer GPT consiga criar páginas de forma consistente, sem deixar pendências, sem perder tempo.
+- **Evidência**:
+  - `C:\site\docs\RUNBOOK_TECNICO.md` (seção "Workflow canônico: Criar páginas da cidade X")
+  - `C:\site\scripts\city_publish.js` (orquestra tudo)
+- **Impacto**: processo 100% automatizado; humano só precisa pedir "criar páginas da cidade X".
+- **Rollback**: reverter commits e voltar ao processo manual (não recomendado).
+
+#### 2026-02-05 — [SITE] Florianópolis (SC): 3 páginas publicadas em production
+
+- **O que**: criadas e publicadas as 3 páginas de Florianópolis:
+  - `/fretes-em-florianopolis/` (~2877 palavras)
+  - `/mudancas-em-florianopolis/`
+  - `/frete-urgente-em-florianopolis/`
+  - Conteúdo GPT gerado, 45 bairros divididos em 3 blocos, 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+- **Por quê**: primeira cidade publicada seguindo o protocolo enterprise completo.
+- **Evidência**:
+  - Commit: `3719b35` (repo `site`)
+  - `src/_data/publish_config.json` (florianopolis habilitado em production)
+  - `src/_data/city_content/florianopolis.json` (conteúdo GPT)
+  - `src/_data/neighborhoods.json` (bairros)
+  - `src/_data/testimonials.json` (depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit `3719b35` ou desabilitar cidade no `publish_config.json`.
+
 #### 2026-02-05 — [SITE] WhatsApp: todos os CTAs garantidos com mensagem pré-preenchida (topo + dock)
 
 - **O que**: corrigidos os CTAs de WhatsApp que abriam sem mensagem automática no **topo** e no **dock inferior**.
