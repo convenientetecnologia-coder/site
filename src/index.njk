@@ -23,19 +23,19 @@ eleventyExcludeFromCollections: false
   {% endif %}
 
   <style>
-    body, html {
+    html, body {
       font-family: Arial, sans-serif;
       height: 100%;
       margin: 0;
       background-color: #e5ddd5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       overflow: hidden;
+      -webkit-text-size-adjust: 100%;
     }
+    body { display: block; }
     .chat-container {
       width: 100%;
-      height: 100vh;
+      /* mobile-first: evita bug do 100vh em iOS/Android com barras/teclado */
+      height: calc(var(--vh, 1vh) * 100);
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
@@ -46,7 +46,7 @@ eleventyExcludeFromCollections: false
     .barra-superior {
       background-color: #075e54;
       color: white;
-      padding: 10px;
+      padding: calc(10px + env(safe-area-inset-top, 0px)) 10px 10px 10px;
       text-align: center;
       font-size: 24px;
       position: fixed;
@@ -61,7 +61,7 @@ eleventyExcludeFromCollections: false
       padding: 10px;
       display: flex;
       flex-direction: column;
-      height: calc(100vh - 160px);
+      height: calc((var(--vh, 1vh) * 100) - 160px);
       margin-top: 60px;
       margin-bottom: 10px;
       flex-grow: 1;
@@ -132,7 +132,8 @@ eleventyExcludeFromCollections: false
       flex-wrap: wrap;
       justify-content: center;
       padding: 10px;
-      margin-bottom: 50px;
+      margin-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+      touch-action: manipulation;
     }
     .btn, .confirm-btn {
       padding: 10px;
@@ -196,6 +197,26 @@ eleventyExcludeFromCollections: false
   </style>
 </head>
 <body>
+  <script>
+    // mobile-first: estabiliza viewport height (iOS/Android) e teclado
+    (() => {
+      function setVh() {
+        try {
+          const h = (window.visualViewport && window.visualViewport.height) ? window.visualViewport.height : window.innerHeight;
+          const vh = Math.max(200, Math.floor(h)) * 0.01;
+          document.documentElement.style.setProperty("--vh", `${vh}px`);
+        } catch {}
+      }
+      setVh();
+      try {
+        window.addEventListener("resize", setVh, { passive: true });
+        if (window.visualViewport) {
+          window.visualViewport.addEventListener("resize", setVh, { passive: true });
+          window.visualViewport.addEventListener("scroll", setVh, { passive: true });
+        }
+      } catch {}
+    })();
+  </script>
   <div class="loading" id="loading">
     <div class="truck-animation">
       <img src="https://i.imgur.com/4JLgWQN.png" alt="Carregando">

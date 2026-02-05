@@ -21,6 +21,13 @@ Regra: toda mudança relevante entra aqui com:
 - **Impacto**: qualquer commit/push do repo publica no Hostinger automaticamente.
 - **Rollback**: desativar Git Deploy no hPanel ou reverter commits (git revert) e fazer push.
 
+#### 2026-02-05 — [SITE] Home legado (autoatendimento) ajustada para mobile-first (viewport/teclado)
+
+- **O que**: ajustes de CSS/JS na home legado (`/`) para estabilizar altura em mobile (iOS/Android) e evitar bugs do `100vh` com barras/teclado.
+- **Por quê**: melhorar UX mobile-first sem alterar o fluxo do autoatendimento (conversão e confiança).
+- **Evidência**: `C:\site\src\index.njk` (uso de `--vh` via `visualViewport`).
+- **Rollback**: reverter commit do repo `site`.
+
 #### 2026-02-05 — [SITE] CTA WhatsApp real + métricas (pageview + clique) integradas ao CT
 
 - **O que**:
