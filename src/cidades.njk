@@ -1,0 +1,37 @@
+---
+layout: base.njk
+permalink: /cidades/
+eleventyExcludeFromCollections: false
+seo:
+  title: "Cidades atendidas | Fretes e Mudanças por WhatsApp"
+  description: "Veja as cidades com páginas oficiais (fretes, mudanças e frete urgente) e chame no WhatsApp com atendimento rápido."
+  canonical: "https://www.fretesoumudancas.com.br/cidades/"
+  ogImage: "/assets/og-default.svg"
+pageMeta:
+  type: "cidades"
+  citySlug: ""
+---
+
+<div class="wrap">
+  <section class="card hero">
+    <div class="kicker">Páginas por cidade • Atendimento por WhatsApp • Anti-spam</div>
+    <h1>Cidades atendidas</h1>
+    <p class="muted">Escolha sua cidade e acesse as páginas oficiais: fretes, mudanças e frete urgente — com clareza, conteúdo único e CTA direto.</p>
+  </section>
+
+  <section class="card" style="margin-top:18px" id="cidades">
+    <h2>Lista</h2>
+    {% if publishedCities and publishedCities.length %}
+      <p class="muted">Selecione uma cidade e escolha o tipo de página.</p>
+    {% else %}
+      <p class="muted"><b>Em construção:</b> ainda não há cidades “live”. Isso é intencional (anti-queima). Publique a 1ª cidade no <code>publish_config.json</code>.</p>
+    {% endif %}
+
+    <div class="chips">
+      {% for c in publishedCities %}
+        <a class="chip" href="/fretes-em-{{ c.slug }}/">{{ c.name }}</a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+

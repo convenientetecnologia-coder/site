@@ -44,6 +44,11 @@ Objetivo: o humano faz **1 configuração inicial** no hPanel, depois o fluxo vi
 - O Hostinger deve publicar o conteúdo **estático**.
 - Fonte de verdade do build: `dist/`.
 
+Regra para não quebrar clientes antigos:
+
+- A home (`/`) permanece como **auto atendimento legado** (fluxo existente).
+- O “hub SEO / lista de cidades” fica em: `/cidades/`.
+
 **IMPORTANTE (Hostinger Git Deploy):** o Hostinger normalmente **não executa** `npm run build`.
 Ele só copia os arquivos do repositório para o `public_html`.
 

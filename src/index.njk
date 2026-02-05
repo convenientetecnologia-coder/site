@@ -1,40 +1,623 @@
 ---
-layout: base.njk
+layout: false
 permalink: /
 eleventyExcludeFromCollections: false
-seo:
-  title: "Fretes e Mudanças | Atendimento rápido por WhatsApp"
-  description: "Fretes e mudanças com atendimento rápido, seguro e profissional. Escolha sua cidade e chame no WhatsApp."
-  canonical: "https://www.FretesOuMudancas.com.br/"
-  ogImage: "/assets/og-default.svg"
-pageMeta:
-  type: "home"
-  citySlug: ""
 ---
 
-<div class="wrap">
-  <section class="card hero">
-    <div class="kicker">Padrão SEO • Páginas por cidade • Atendimento rápido</div>
-    <h1>Fretes e Mudanças com atendimento rápido</h1>
-    <p class="muted">Escolha sua cidade e veja as páginas oficiais: fretes, mudanças e frete urgente — sem spam e com clareza.</p>
-    <div class="ctaRow">
-      <a class="btn secondary" href="#cidades">Ver cidades</a>
-    </div>
-  </section>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.brandName }}</title>
+  <meta property="og:title" content="{{ site.brandName }}">
+  <meta property="og:description" content="Serviço de fretes e mudanças rápido e seguro.">
+  <meta property="og:image" content="https://i.imgur.com/4JLgWQN.png">
+  <meta property="og:url" content="{{ site.siteUrl }}">
+  <meta property="og:type" content="website">
 
-  <section class="card" style="margin-top:18px" id="cidades">
-    <h2>Cidades atendidas</h2>
-    {% if publishedCities and publishedCities.length %}
-      <p class="muted">Selecione uma cidade e escolha o tipo de página.</p>
-    {% else %}
-      <p class="muted"><b>Em construção:</b> ainda não há cidades “live”. Isso é intencional (anti-queima). Publique a 1ª cidade no `publish_config.json`.</p>
-    {% endif %}
+  {% if publish.mode != "production" %}
+    <meta name="robots" content="noindex,nofollow" />
+  {% else %}
+    <meta name="robots" content="index,follow" />
+  {% endif %}
 
-    <div class="chips">
-      {% for c in publishedCities %}
-        <a class="chip" href="/fretes-em-{{ c.slug }}/">{{ c.name }}</a>
-      {% endfor %}
+  <style>
+    body, html {
+      font-family: Arial, sans-serif;
+      height: 100%;
+      margin: 0;
+      background-color: #e5ddd5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .chat-container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-color: #e5ddd5;
+      background-image: url('https://web.whatsapp.com/img/bg-chat-tile_aa7fd7a2a0f05f5e5a6e9808b55e0e28.png');
+      visibility: hidden;
+    }
+    .barra-superior {
+      background-color: #075e54;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      z-index: 1;
+    }
+    .mensagens {
+      overflow-y: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 160px);
+      margin-top: 60px;
+      margin-bottom: 10px;
+      flex-grow: 1;
+      padding-top: 35px;
+      padding-bottom: calc(32px + env(safe-area-inset-bottom, 16px));
+    }
+    .chat-message {
+      margin: 5px 0;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 18px;
+      max-width: 80%;
+      word-wrap: break-word;
+      position: relative;
+    }
+    .chat-bot {
+      background-color: #dcf8c6;
+      color: #000;
+      align-self: flex-start;
+    }
+    .chat-user {
+      background-color: #25d366;
+      color: white;
+      align-self: flex-end;
+    }
+    .chat-message::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+    }
+    .chat-bot::after {
+      left: -10px;
+      border-right-color: #dcf8c6;
+    }
+    .chat-user::after {
+      right: -10px;
+      border-left-color: #25d366;
+    }
+    .typing-indicator {
+      display: flex;
+      justify-content: space-between;
+      align-self: flex-start;
+      background-color: #dcf8c6;
+      padding: 5px;
+      border-radius: 10px;
+      margin: 5px 0;
+      width: 60px;
+    }
+    .typing-indicator div {
+      width: 10px;
+      height: 10px;
+      background-color: #000;
+      border-radius: 50%;
+      animation: typing 1.5s infinite;
+    }
+    .typing-indicator div:nth-child(2) { animation-delay: 0.3s; }
+    .typing-indicator div:nth-child(3) { animation-delay: 0.6s; }
+    @keyframes typing {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+    .btn-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+      margin-bottom: 50px;
+    }
+    .btn, .confirm-btn {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      margin: 10px auto;
+      cursor: pointer;
+      box-sizing: border-box;
+      background-color: #25d366;
+      color: white;
+      width: 150px;
+      display: block;
+      text-align: center;
+    }
+    .btn:hover { opacity: 0.9; }
+    .dropdown, .telefone, .input-text {
+      font-size: 18px;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+      width: calc(100% - 40px);
+      background-color: #25d366;
+      color: white;
+      border: none;
+    }
+    .telefone::placeholder, .input-text::placeholder { color: white; }
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: #e5ddd5;
+      position: absolute;
+      top: 0;
+      z-index: 2;
+    }
+    .truck-animation {
+      position: absolute;
+      bottom: 50%;
+      left: 0;
+      width: 50px;
+      transform: scaleX(-1);
+      animation: drive 3s infinite linear;
+    }
+    @keyframes drive {
+      0% { left: -50px; }
+      100% { left: 100vw; }
+    }
+    .progress-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 5px;
+      background-color: #3498db;
+      transition: width 2s;
+      z-index: 3;
+    }
+  </style>
+</head>
+<body>
+  <div class="loading" id="loading">
+    <div class="truck-animation">
+      <img src="https://i.imgur.com/4JLgWQN.png" alt="Carregando">
     </div>
-  </section>
-</div>
+  </div>
+  <div class="progress-bar" id="progress-bar"></div>
+  <div class="chat-container" id="chat">
+    <div class="barra-superior">
+      <h1 style="margin:0; font-size:24px; font-weight:700; line-height:1.1">Fretes e Mudanças</h1>
+    </div>
+    <div id="mensagens" class="mensagens"></div>
+    <div id="estado-container" class="btn-container" style="display: none;">
+      <select id="estado-dropdown" class="dropdown" onchange="habilitarConfirmacao()">
+        <option value="">Selecione um estado</option>
+      </select>
+      <div class="confirm-btn" id="confirma-estado" onclick="confirmarEstado()">Confirmar</div>
+    </div>
+    <div id="cidade-container" class="btn-container" style="display: none;">
+      <select id="cidade-dropdown" class="dropdown" onchange="habilitarConfirmacaoCidade()">
+        <option value="">Selecione uma cidade</option>
+      </select>
+      <div class="confirm-btn" id="confirma-cidade" onclick="confirmarCidade()">Confirmar</div>
+    </div>
+    <div id="telefone-container" class="btn-container" style="display: none;">
+      <input type="tel" id="telefone-input" class="telefone" placeholder="(00) 00000-0000" inputmode="numeric" pattern="[0-9]*" autofocus>
+      <div class="confirm-btn" onclick="confirmarTelefone()">Confirmar</div>
+    </div>
+    <div id="ajudante-container" class="btn-container" style="display: none;">
+      <div class="btn" onclick="responderAjudante(true)">Sim</div>
+      <div class="btn" onclick="responderAjudante(false)">Não</div>
+    </div>
+    <div id="saida-container" class="btn-container" style="display: none;">
+      <select id="local-saida-dropdown" class="dropdown">
+        <option value="">Selecionar</option>
+        <option value="Casa">Casa</option>
+        <option value="Apartamento com elevador">Apartamento com elevador</option>
+        <option value="Apartamento sem elevador">Apartamento sem elevador</option>
+        <option value="Outros">Outros</option>
+      </select>
+      <div class="btn" onclick="confirmarLocalSaida()">Confirmar</div>
+    </div>
+    <div id="destino-container" class="btn-container" style="display: none;">
+      <select id="local-destino-dropdown" class="dropdown">
+        <option value="">Selecionar</option>
+        <option value="Casa">Casa</option>
+        <option value="Apartamento com elevador">Apartamento com elevador</option>
+        <option value="Apartamento sem elevador">Apartamento sem elevador</option>
+        <option value="Outros">Outros</option>
+      </select>
+      <div class="btn" onclick="confirmarLocalDestino()">Confirmar</div>
+    </div>
+    <div id="bairro-saida-container" class="btn-container" style="display: none;">
+      <input type="text" id="bairro-saida-input" class="input-text" placeholder="Digite o bairro de saída" autofocus>
+      <div class="btn" onclick="confirmarBairroSaida()">Confirmar</div>
+    </div>
+    <div id="bairro-destino-container" class="btn-container" style="display: none;">
+      <input type="text" id="bairro-destino-input" class="input-text" placeholder="Digite o bairro de destino" autofocus>
+      <div class="btn" onclick="confirmarBairroDestino()">Confirmar</div>
+    </div>
+    <div id="transporte-container" class="btn-container" style="display: none;">
+      <input type="text" id="transporte-input" class="input-text" placeholder="Digite o que você precisa transportar" autofocus>
+      <div class="btn" onclick="confirmarTransporte()">Confirmar</div>
+    </div>
+  </div>
+  <script>
+    const estados = ["AC", "AL", "AM", "AP", "BA", "CE", "DF", "ES", "GO", "MA", "MG", "MS", "MT", "PA", "PB", "PE", "PI", "PR", "RJ", "RN", "RO", "RR", "RS", "SC", "SE", "SP"];
+    const cidades = {
+      "AC": ["Bujari", "Rio Branco"],
+      "AL": ["Barra de Santo Antônio", "Coqueiro Seco", "Maceió", "Mal. Deodoro", "Paripueira", "Pilar", "Rio Largo", "Santa Luzia do Norte", "Satuba"],
+      "AM": ["Careiro", "Iranduba", "Manacapuru", "Manaquiri", "Manaus", "Pres. Figueiredo", "Rio Preto da Eva"],
+      "AP": ["Itaubal", "Macapá", "Mazagão"],
+      "BA": ["Anagé", "Barra do Choça", "Camaçari", "Candeias", "Itambé", "Juazeiro", "Lauro de Freitas", "Mata de São João", "Planalto", "Salvador", "São Sebastião do Passé", "Simões Filho", "Vitória da Conquista"],
+      "CE": ["Acarape", "Altaneira", "Aracoiaba", "Aratuba", "Aurora", "Barbalha", "Barreira", "Baturité", "Beberibe", "Caridade", "Caririaçu", "Chorozinho", "Crato", "Eusébio", "Farias Brito", "Fortaleza", "Granjeiro", "Guaramiranga", "Horizonte", "Juazeiro do Norte", "Maracanaú", "Missão Velha", "Nova Olinda", "Pacajus", "Paracuru", "Paraipaba", "Paramoti", "Pentecoste", "Pindoretama", "São Luís do Curu", "Umirim", "Várzea Alegre"],
+      "DF": ["Águas Lindas de Goiás", "Brasília", "Formosa", "Luziânia", "Planaltina", "Santo Antônio do Descoberto", "Valparaíso de Goiás"],
+      "ES": ["Cariacica", "Fundão", "Guarapari", "Santa Leopoldina", "Serra", "Viana", "Vila Velha", "Vitória"],
+      "GO": ["Abadiânia", "Acreúna", "Anápolis", "Aparecida de Goiânia", "Aparecida do Rio Doce", "Aragoiânia", "Brazabantes", "Caçu", "Caldazinha", "Campo Limpo de Goiás", "Caturaí", "Corumbá de Goiás", "Gameleira de Goiás", "Goianápolis", "Goiânia", "Goianira", "Guapó", "Hidrolândia", "Indiara", "Inhumas", "Itarumã", "Jataí", "Montividiu", "Nerópolis", "Nova Veneza", "Perolândia", "Pirenópolis", "Planalmira", "Quirinópolis", "Rio Verde", "Santa Helena de Goiás", "Santo Antônio da Barra", "Santo Antônio de Goiás", "Trindade"],
+      "MA": ["Bacabeira", "Buritirana", "Davinópolis", "Imperatriz", "João Lisboa", "Raposa", "São José de Ribamar", "São Luís", "Sen. La Rocque"],
+      "MG": ["Açucena", "Antônio Dias", "Araguari", "Belo Horizonte", "Belo Oriente", "Betim", "Bicas", "Caeté", "Cap. Andrade", "Caratinga", "Cel. Pacheco", "Chácara", "Dom Cavati", "Eng. Caldas", "Entre Folhas", "Ewbank da Câmara", "Goianá", "Gov. Valadares", "Iapu", "Ibirité", "Inhapim", "Ipaba", "Ipatinga", "Itanhomi", "Joanésia", "Juiz de Fora", "Juramento", "Mar de Espanha", "Mário Campos", "Maripá de Minas", "Matias Barbosa", "Montes Claros", "Naque", "Pequeri", "Piau", "Ribeirão das Neves", "Sabará", "Santa Luzia", "Santana do Paraíso", "São Sebastião do Anta", "Sarzedo", "Simão Pereira", "Tarumirim", "Timóteo", "Uberlândia"],
+      "MS": ["Campo Grande", "Jaraguari", "Ribas do Rio Pardo", "Rochedo", "Sidrolândia", "Terenos"],
+      "MT": ["Acorizal", "Cuiabá", "Jangada", "Nossa Sra. do Livramento", "Santo Antônio do Leverger", "Várzea Grande"],
+      "PA": ["Ananindeua", "Belém", "Benevides", "Canaã dos Carajás", "Curionópolis", "Eldorado do Carajás", "Itupiranga", "Marabá", "Nova Ipixuna", "Parauapebas", "Santa Izabel do Pará"],
+      "PB": ["Alagoa Nova", "Bayeux", "Campina Grande", "Conde", "João Pessoa", "Lagoa Seca", "Massaranduba", "Puxinanã", "Santa Rita", "São Sebastião de Lagoa de Roça", "Serra Redonda"],
+      "PE": ["Abreu e Lima", "Agrestina", "Altinho", "Brejo da Me. de Deus", "Cachoeirinha", "Camaragibe", "Camocim de São Félix", "Caruaru", "Gravatá", "Igarassu", "Jaboatão dos Guararapes", "Olinda", "Petrolina", "Recife", "Santa Cruz do Capibaribe", "São Lourenço da Mata", "Tacaimbó", "Taguaritinga do Norte", "Toritama"],
+      "PI": ["Alto Longá", "Altos", "Campo Maior", "Coivaras", "Curralinhos", "Demerval Lobão", "José de Freitas", "Lagoa Alegre", "Mosenhor Gil", "Pau D´Arco do Piauí", "Teresina", "União"],
+      "PR": ["Agudos do Sul", "Apucarana", "Arapongas", "Araucária", "Assis Chateaubriand", "Astorga", "Balsa Nova", "Cafelândia", "Cambé", "Campina da Lagoa", "Campo Largo", "Cap. Leônidas Marques", "Carambeí", "Cascavel", "Castro", "Colombo", "Contenda", "Corbélia", "Curitiba", "Dr. Camargo", "Fazenda Rio Grande", "Floresta", "Foz do Iguaçu", "Ibiporã", "Imbituva", "Ipiranga", "Itaipulândia", "Ivatuba", "Jataizinho", "Lapa", "Londrina", "Mal. Candido Rondon", "Mandaguaçu", "Mandirituba", "Marialva", "Maringá", "Matelândia", "Medianeira", "Missal", "Paiçandu", "Palmeira", "Palotina", "Piraquara", "Ponta Grossa", "Porto Amazonas", "Rio Branco do Sul", "Rolândia", "Santa Terezinha de Itaipu", "São José dos Pinhais", "São Miguel do Iguaçu", "Sarandi", "Serranópolis do Iguaçu", "Teixeira Soares", "Terra Roxa", "Tijucas do Sul", "Tunas do Paraná"],
+      "RJ": ["Caçador", "Campos dos Goytacazes", "Cardoso Moreira", "Conceição de Macabu", "Duque de Caxias", "Itaboraí", "Itaguaí", "Italva", "Magé", "Mesquita", "Nilópolis", "Niterói", "Nova Iguaçu", "Queimados", "Quissamã", "Rio de Janeiro", "Santa Maria Madalena", "São Francisco de Itabapoana", "São Gonçalo", "São João de Meriti", "Serrinha"],
+      "RN": ["Ceará-Mirim", "Extremoz", "Macaíba", "Natal", "Parnamirim", "São Gonçalo do Amarante"],
+      "RO": ["Ariquemes", "Buritis", "Cujubim", "Itapuã do Oeste", "Porto Velho"],
+      "RR": ["Alto Alegre", "Amajari", "Boa Vista", "Caracaraí", "Iracema", "Mucajaí", "Rorainópolis"],
+      "RS": ["Agudo", "Antônio Prado", "Cachoeirinha", "Campo Bom", "Canoas", "Caxias do Sul", "Dois Irmãos", "Eldorado do Sul", "Estância Velha", "Farroupilha", "Flores da Cunha", "Formigueiro", "Gravataí", "Itaara", "Ivoti", "Morro Reuter", "Nova Santa Rita", "Nova Pádua", "Nova Petrópolis", "Nova Roma do Sul", "Novo Hamburgo", "Portão", "Porto Alegre", "Restinga Sêca", "Santa Maria", "São João do Polêsine", "São Leopoldo", "São Marcos", "São Pedro do Sul", "São Sepé", "São Vendelino", "Sapiranga", "Sapucaia do Sul", "Silveira Martins", "Vale Real", "Viamão"],
+      "SC": ["Angelina", "Antônio Carlos", "Balneário Barra do Sul", "Balneário Camboriú", "Barra Velha", "Biguaçu", "Blumenau", "Bombinhas", "Brusque", "Camboriú", "Campo Alegre", "Corupá", "Florianópolis", "Garuva", "Gaspar", "Gov. Celso Ramos", "Ilhota", "Indaial", "Itajaí", "Itapema", "Itapoá", "Jaraguá do Sul", "Joinville", "Navegantes", "Palhoça", "Penha", "Porto Belo", "Rancho Queimado", "Rodeio", "Santo Amaro da Imperatriz", "São Bento do Sul", "São José", "São Pedro de Alcântara", "Schroeder", "Tijucas", "Timbó"],
+      "SE": ["Aracaju", "Itaporanga d´Ajuda", "Maruim", "Nossa Sra do Socorro", "Riachuelo", "Santo Amaro das Brotas", "São Cristóvão"],
+      "SP": ["Agudos", "Alumínio", "Araçoiaba da Serra", "Artur Nogueira", "Avaí", "Bady Bassitt", "Bálsamo", "Barrinha", "Barueri", "Batatais", "Bauru", "Bertioga", "Biritiba Mirim", "Brodowski", "Buritizal", "Caçapava", "Caieiras", "Cajamar", "Campinas", "Capela do Alto", "Capivari", "Cedral", "Charqueada", "Conchal", "Cosmópolis", "Cravinhos", "Cristais Paulista", "Cubatão", "Diadema", "Dumont", "Elias Fausto", "Eng. Coelho", "Franca", "Francisco Morato", "Franco da Rocha", "Guará", "Guararema", "Guarujá", "Holambra", "Hortolândia", "Ibirá", "Indaiatuba", "Iperó", "Ipiguá", "Itapecerica da Serra", "Itapevi", "Itaquaquecetuba", "Itatiba", "Itu", "Ituverava", "Jacareí", "Jaci", "Jardinópolis", "Jeriquara", "Jundiaí", "Lagoinha", "Limeira", "Mairiporã", "Mauá", "Mirassol", "Mirassolândia", "Mogi das Cruzes", "Mombuca", "Monte Aprazível", "Monteiro Lobato", "Nova Odessa", "Nuporanga", "Onda Verde", "Orlândia", "Osasco", "Paraibuna", "Patrocínio Paulista", "Paulínia", "Pedregulho", "Piedade", "Pindamonhangaba", "Piracicaba", "Pirajuí", "Piratininga", "Poá", "Pontal", "Potirendaba", "Pradópolis", "Praia Grande", "Pres. Alves", "Redenção da Serra", "Ribeirão Corrente", "Ribeirão Pires", "Rio Claro", "Rio Grande da Serra", "Roseira", "Sales Oliveira", "Salto de Pirapora", "Santa Bárbara d´Oeste", "Santa Branca", "Santos", "São Bernardo do Campo", "São Joaquim da Barra", "São José da Bela Vista", "São José do Rio Preto", "São José dos Campos", "São Luiz do Paraitinga", "São Paulo", "São Pedro", "São Roque", "São Simão", "São Vicente", "Serra Azul", "Serrana", "Sorocaba", "Sumaré", "Taboão da Serra", "Ribeirão Preto", "Taubaté", "Tremembé", "Uchoa", "Valinhos", "Vargem Grande Paulista", "Votorantim"]
+    };
+
+    let pedidoIdAtual = null;
+
+    window.onload = () => {
+      setTimeout(() => {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('chat').style.visibility = 'visible';
+        iniciarConversa();
+      }, 2000);
+      ativarConfirmacaoEnter();
+    };
+
+    function carregarEstados() {
+      const estadoDropdown = document.getElementById('estado-dropdown');
+      estados.forEach(estado => {
+        const option = document.createElement('option');
+        option.value = estado;
+        option.innerText = estado;
+        estadoDropdown.appendChild(option);
+      });
+      document.getElementById('estado-container').style.display = 'flex';
+    }
+
+    function carregarCidades(estadoSelecionado) {
+      criarMensagem("Agora, selecione a cidade:", 'chat-bot');
+      const cidadeDropdown = document.getElementById('cidade-dropdown');
+      cidadeDropdown.innerHTML = '<option value="">Selecione uma cidade</option>';
+      if (estadoSelecionado && cidades[estadoSelecionado]) {
+        cidades[estadoSelecionado].forEach(cidade => {
+          const option = document.createElement('option');
+          option.value = cidade;
+          option.innerText = cidade;
+          cidadeDropdown.appendChild(option);
+        });
+        document.getElementById('cidade-container').style.display = 'block';
+      }
+    }
+
+    const mensagens = [
+      "Receba o melhor orçamento em 1 minuto! 🚚",
+      "Digite seu número do Whatsapp com DDD: 📱",
+      "Qual seu estado?"
+    ];
+
+    let precisaAjudante = "";
+    let localSaida = "";
+    let localDestino = "";
+    let bairroSaida = "";
+    let bairroDestino = "";
+    let transporte = "";
+    let telefone = "";
+
+    function ativarConfirmacaoEnter() {
+      document.querySelectorAll('.input-text, #telefone-input').forEach(input => {
+        input.addEventListener('keydown', function(event) {
+          if (event.key === 'Enter' || event.key === 'Return') {
+            event.preventDefault();
+            if (input.id === 'telefone-input') {
+              confirmarTelefone();
+            } else if (input.id === 'bairro-saida-input') {
+              confirmarBairroSaida();
+            } else if (input.id === 'bairro-destino-input') {
+              confirmarBairroDestino();
+            } else if (input.id === 'transporte-input') {
+              confirmarTransporte();
+            }
+          }
+        });
+      });
+    }
+
+    function iniciarConversa() {
+      setTimeout(() => {
+        criarMensagem(mensagens[0], 'chat-bot');
+        adicionarIndicador();
+        setTimeout(() => {
+          removerIndicador();
+          criarMensagem(mensagens[1], 'chat-bot');
+          solicitarTelefone();
+        }, 4000);
+      }, 1000);
+    }
+
+    function solicitarTelefone() {
+      document.getElementById('telefone-container').style.display = 'flex';
+      document.getElementById('telefone-input').focus();
+    }
+
+    function confirmarTelefone() {
+      const input = document.getElementById('telefone-input');
+      const valorDigitado = input.value.trim();
+      const numeros = valorDigitado.replace(/\D/g, '');
+      if (numeros.length < 10) {
+        criarMensagem("Ops! O número parece incompleto. Por favor, digite o DDD + número completo (mínimo 10 dígitos).", 'chat-bot');
+        input.focus();
+        return;
+      }
+      telefone = valorDigitado;
+      criarMensagem(`Telefone: ${telefone}`, 'chat-user');
+      document.getElementById('telefone-container').style.display = 'none';
+      criarMensagem(mensagens[2], 'chat-bot');
+      mostrarEstados();
+    }
+
+    function adicionarIndicador() {
+      const indicador = document.createElement('div');
+      indicador.className = 'typing-indicator';
+      for (let i = 0; i < 3; i++) {
+        const dot = document.createElement('div');
+        indicador.appendChild(dot);
+      }
+      document.getElementById('mensagens').appendChild(indicador);
+      ajustarScroll();
+    }
+
+    function removerIndicador() {
+      const indicador = document.querySelector('.typing-indicator');
+      if (indicador) indicador.remove();
+    }
+
+    function mostrarEstados() { carregarEstados(); }
+
+    function habilitarConfirmacao() {
+      const estadoSelecionado = document.getElementById('estado-dropdown').value;
+      document.getElementById('confirma-estado').style.display = estadoSelecionado ? 'block' : 'none';
+    }
+
+    function mostrarCarregando() {
+      const progressBar = document.getElementById('progress-bar');
+      progressBar.style.width = '0%';
+      progressBar.style.display = 'block';
+      setTimeout(() => { progressBar.style.width = '100%'; }, 100);
+    }
+
+    function ocultarCarregando() {
+      const progressBar = document.getElementById('progress-bar');
+      setTimeout(() => { progressBar.style.display = 'none'; }, 2000);
+    }
+
+    function confirmarEstado() {
+      const estado = document.getElementById('estado-dropdown').value;
+      if (estado) {
+        criarMensagem(`Estado selecionado: ${estado}`, 'chat-user');
+        document.getElementById('estado-container').style.display = 'none';
+        carregarCidades(estado);
+      }
+    }
+
+    function habilitarConfirmacaoCidade() {
+      const cidadeSelecionada = document.getElementById('cidade-dropdown').value;
+      document.getElementById('confirma-cidade').style.display = cidadeSelecionada ? 'block' : 'none';
+    }
+
+    function confirmarCidade() {
+      const cidade = document.getElementById('cidade-dropdown').value;
+      const estado = document.getElementById('estado-dropdown').value;
+      if (cidade) {
+        criarMensagem(`Cidade selecionada: ${cidade}`, 'chat-user');
+        document.getElementById('cidade-container').style.display = 'none';
+
+        fetch('https://c0nv3n13nt3t3cn0l0g14jesus.sa.ngrok.io/registrarPedidoInicial', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ cidade, telefone, estado })
+        })
+        .then(response => {
+          if (!response.ok) throw new Error('Erro na resposta do servidor');
+          return response.json();
+        })
+        .then(data => {
+          pedidoIdAtual = data.pedidoId;
+          solicitarAjudante();
+        })
+        .catch(error => {
+          console.error('Erro ao registrar pedido:', error);
+          alert('Erro ao registrar pedido. Tente novamente.');
+        });
+      }
+    }
+
+    function solicitarAjudante() {
+      criarMensagem("Você precisa de ajudante?", 'chat-bot');
+      document.getElementById('ajudante-container').style.display = 'flex';
+    }
+
+    function registrarResposta(coluna, valor, finalizado = false) {
+      fetch('https://c0nv3n13nt3t3cn0l0g14jesus.sa.ngrok.io/registrarResposta', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pedidoId: pedidoIdAtual, coluna, valor, finalizado })
+      })
+      .then(response => {
+        if (!response.ok) throw new Error('Erro na resposta do servidor');
+        return response.json();
+      })
+      .then(() => {})
+      .catch(error => console.error('Erro ao registrar resposta:', error));
+    }
+
+    function responderAjudante(precisa) {
+      const resposta = precisa ? "Sim" : "Não";
+      criarMensagem(`Ajudante: ${resposta}`, 'chat-user');
+      registrarResposta('D', resposta);
+      document.getElementById('ajudante-container').style.display = 'none';
+      solicitarLocalSaida();
+    }
+
+    function solicitarLocalSaida() {
+      criarMensagem("Local de saída:", 'chat-bot');
+      document.getElementById('saida-container').style.display = 'flex';
+    }
+
+    function confirmarLocalSaida() {
+      const v = document.getElementById('local-saida-dropdown').value;
+      if (!v) return;
+      localSaida = v;
+      criarMensagem(`Saída: ${localSaida}`, 'chat-user');
+      registrarResposta('E', localSaida);
+      document.getElementById('saida-container').style.display = 'none';
+      solicitarLocalDestino();
+    }
+
+    function solicitarLocalDestino() {
+      criarMensagem("Local de destino:", 'chat-bot');
+      document.getElementById('destino-container').style.display = 'flex';
+    }
+
+    function confirmarLocalDestino() {
+      const v = document.getElementById('local-destino-dropdown').value;
+      if (!v) return;
+      localDestino = v;
+      criarMensagem(`Destino: ${localDestino}`, 'chat-user');
+      registrarResposta('F', localDestino);
+      document.getElementById('destino-container').style.display = 'none';
+      solicitarBairroSaida();
+    }
+
+    function solicitarBairroSaida() {
+      criarMensagem("Digite o bairro de saída:", 'chat-bot');
+      document.getElementById('bairro-saida-container').style.display = 'flex';
+      document.getElementById('bairro-saida-input').focus();
+    }
+
+    function confirmarBairroSaida() {
+      const v = document.getElementById('bairro-saida-input').value.trim();
+      if (!v) return;
+      bairroSaida = v;
+      criarMensagem(`Bairro de saída: ${bairroSaida}`, 'chat-user');
+      registrarResposta('G', bairroSaida);
+      document.getElementById('bairro-saida-container').style.display = 'none';
+      solicitarBairroDestino();
+    }
+
+    function solicitarBairroDestino() {
+      criarMensagem("Digite o bairro de destino:", 'chat-bot');
+      document.getElementById('bairro-destino-container').style.display = 'flex';
+      document.getElementById('bairro-destino-input').focus();
+    }
+
+    function confirmarBairroDestino() {
+      const v = document.getElementById('bairro-destino-input').value.trim();
+      if (!v) return;
+      bairroDestino = v;
+      criarMensagem(`Bairro de destino: ${bairroDestino}`, 'chat-user');
+      registrarResposta('H', bairroDestino);
+      document.getElementById('bairro-destino-container').style.display = 'none';
+      solicitarTransporte();
+    }
+
+    function solicitarTransporte() {
+      criarMensagem("O que você precisa transportar?", 'chat-bot');
+      document.getElementById('transporte-container').style.display = 'flex';
+      document.getElementById('transporte-input').focus();
+    }
+
+    function confirmarTransporte() {
+      const v = document.getElementById('transporte-input').value.trim();
+      if (!v) return;
+      transporte = v;
+      criarMensagem(`Transporte: ${transporte}`, 'chat-user');
+      registrarResposta('I', transporte, true);
+      document.getElementById('transporte-container').style.display = 'none';
+      criarMensagem("Pronto! Seu pedido foi registrado. Aguarde o atendimento.", 'chat-bot');
+    }
+
+    function criarMensagem(texto, classe) {
+      const div = document.createElement('div');
+      div.className = `chat-message ${classe}`;
+      div.innerText = texto;
+      document.getElementById('mensagens').appendChild(div);
+      ajustarScroll();
+    }
+
+    function ajustarScroll() {
+      const el = document.getElementById('mensagens');
+      el.scrollTop = el.scrollHeight;
+    }
+  </script>
+
+  <script>
+    (() => {
+      try {
+        const endpoint = "{{ site.trackingEndpoint }}";
+        if (!endpoint || !/^https?:\/\//i.test(endpoint)) return;
+        const sidKey = "ct_site_sid_v1";
+        let sid = "";
+        try {
+          sid = localStorage.getItem(sidKey) || "";
+          if (!sid) {
+            sid = (Math.random().toString(16).slice(2) + Date.now().toString(16)).slice(0, 48);
+            localStorage.setItem(sidKey, sid);
+          }
+        } catch {}
+        const payload = {
+          v: 1,
+          event: "pageview",
+          ts: Date.now(),
+          sid,
+          pageType: "legacy_auto",
+          citySlug: "",
+          path: location.pathname || "",
+          ref: document.referrer || ""
+        };
+        const blob = new Blob([JSON.stringify(payload)], { type: "text/plain;charset=UTF-8" });
+        navigator.sendBeacon(endpoint, blob);
+      } catch {}
+    })();
+  </script>
+</body>
+</html>
 

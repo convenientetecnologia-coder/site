@@ -26,6 +26,19 @@ Regra: toda mudança relevante entra aqui com:
   - Métricas ficam em `C:\sitechatbot\dados\site_metrics.json`.
 - **Rollback**: reverter commit do repo `site` e remover rotas `/api/site/*` do CT se necessário.
 
+#### 2026-02-05 — [SITE] Preservar auto atendimento no domínio principal (home legado) + hub SEO em `/cidades/`
+
+- **O que**:
+  - A home (`/`) passou a publicar o **auto atendimento legado** (para não quebrar clientes existentes).
+  - A lista/hub de cidades e páginas oficiais ficou em: `/cidades/`.
+- **Por quê**: manter o fluxo antigo funcionando enquanto o novo rollout SEO é feito de forma incremental e segura.
+- **Evidência**:
+  - `C:\site\src\index.njk` (home legado)
+  - `C:\site\src\cidades.njk` (hub)
+  - `C:\site\docs\RUNBOOK_TECNICO.md` (regra canônica de deploy)
+- **Impacto**: o Git Deploy no Hostinger pode apontar para `public_html` sem apagar o auto atendimento (ele está dentro do build).
+- **Rollback**: reverter commits do repo `site` e republicar versão anterior.
+
 #### 2026-02-05 — [SITE] Bootstrap do projeto (Eleventy + docs canônicos)
 
 - **O que**:

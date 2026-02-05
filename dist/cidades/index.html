@@ -3,29 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>{{ seo.title }}</title>
-    <meta name="description" content="{{ seo.description }}" />
-    <link rel="canonical" href="{{ seo.canonical }}" />
+    <title>Cidades atendidas | Fretes e Mudanças por WhatsApp</title>
+    <meta name="description" content="Veja as cidades com páginas oficiais (fretes, mudanças e frete urgente) e chame no WhatsApp com atendimento rápido." />
+    <link rel="canonical" href="https://www.fretesoumudancas.com.br/cidades/" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ seo.ogTitle or seo.title }}" />
-    <meta property="og:description" content="{{ seo.ogDescription or seo.description }}" />
-    <meta property="og:url" content="{{ seo.canonical }}" />
-    <meta property="og:image" content="{{ seo.ogImage or site.defaultOgImage }}" />
+    <meta property="og:title" content="Cidades atendidas | Fretes e Mudanças por WhatsApp" />
+    <meta property="og:description" content="Veja as cidades com páginas oficiais (fretes, mudanças e frete urgente) e chame no WhatsApp com atendimento rápido." />
+    <meta property="og:url" content="https://www.fretesoumudancas.com.br/cidades/" />
+    <meta property="og:image" content="/assets/og-default.svg" />
 
-    {% if publish.mode != "production" %}
+    
       <meta name="robots" content="noindex,nofollow" />
-    {% else %}
-      <meta name="robots" content="index,follow" />
-    {% endif %}
+    
 
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/assets/site.css" />
   </head>
-  <body data-page-type="{{ pageMeta.type or 'home' }}" data-city-slug="{{ pageMeta.citySlug or '' }}">
+  <body data-page-type="cidades" data-city-slug="">
     <header class="top">
       <div class="wrap">
-        <a class="brand" href="/">{{ site.brandName }}</a>
+        <a class="brand" href="/">Fretes e Mudanças</a>
         <nav class="nav">
           <a href="/cidades/">Cidades</a>
           <a href="#contato">Contato</a>
@@ -34,19 +32,39 @@
     </header>
 
     <main class="main">
-      {{ content | safe }}
+      
+<div class="wrap">
+  <section class="card hero">
+    <div class="kicker">Páginas por cidade • Atendimento por WhatsApp • Anti-spam</div>
+    <h1>Cidades atendidas</h1>
+    <p class="muted">Escolha sua cidade e acesse as páginas oficiais: fretes, mudanças e frete urgente — com clareza, conteúdo único e CTA direto.</p>
+  </section>
+
+  <section class="card" style="margin-top:18px" id="cidades">
+    <h2>Lista</h2>
+    
+      <p class="muted"><b>Em construção:</b> ainda não há cidades “live”. Isso é intencional (anti-queima). Publique a 1ª cidade no <code>publish_config.json</code>.</p>
+    
+
+    <div class="chips">
+      
+    </div>
+  </section>
+</div>
+
+
     </main>
 
     <footer class="footer" id="contato">
       <div class="wrap">
-        <div class="muted">© {{ ("" | toISODate) | slice(0,4) }} {{ site.brandName }}.</div>
+        <div class="muted">©  Fretes e Mudanças.</div>
       </div>
     </footer>
 
     <script>
       (() => {
         try {
-          const endpoint = "{{ site.trackingEndpoint }}";
+          const endpoint = "https://c0nv3n13nt3t3cn0l0g14jesus.sa.ngrok.io/convenientetecnologia/api/site/event";
           if (!endpoint || !/^https?:\/\//i.test(endpoint)) return;
 
           const pageType = document.body.getAttribute("data-page-type") || "";
