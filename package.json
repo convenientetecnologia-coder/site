@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve --port=8088",
+    "prebuild": "node scripts/clean.js",
     "build": "eleventy",
     "validate": "node scripts/validate.js",
     "test": "npm run build && npm run validate"

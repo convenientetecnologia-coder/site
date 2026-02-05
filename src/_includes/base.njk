@@ -13,7 +13,11 @@
     <meta property="og:url" content="{{ seo.canonical }}" />
     <meta property="og:image" content="{{ seo.ogImage or site.defaultOgImage }}" />
 
-    <meta name="robots" content="index,follow" />
+    {% if publish.mode != "production" %}
+      <meta name="robots" content="noindex,nofollow" />
+    {% else %}
+      <meta name="robots" content="index,follow" />
+    {% endif %}
 
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/assets/site.css" />

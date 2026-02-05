@@ -12,7 +12,7 @@ Este arquivo é o manual de operação do projeto em `C:\site`.
   - `npm run dev`
   - abre `http://127.0.0.1:8088`
 - Build:
-  - `npm run build` (gera estático em `dist/`)
+  - `npm run build` (gera estático em `dist/`; faz clean automático antes do build)
 - Quality gate:
   - `npm run validate` (falha se tiver títulos/H1 repetidos, páginas faltando, etc.)
 
@@ -42,9 +42,32 @@ Objetivo: o humano faz **1 configuração inicial** no hPanel, depois o fluxo vi
 - O Hostinger deve publicar o conteúdo **estático**.
 - Fonte de verdade do build: `dist/`.
 
-Nota: alguns planos do Hostinger fazem deploy do repo “como está”. Se for o seu caso, vamos ajustar para:
-- publicar `dist/` no root do repo **ou**
-- configurar o deploy para a pasta correta.
+**IMPORTANTE (Hostinger Git Deploy):** o Hostinger normalmente **não executa** `npm run build`.
+Ele só copia os arquivos do repositório para o `public_html`.
+
+Portanto o repositório do site deve conter o conteúdo pronto para servir:
+
+- `dist/` versionado (recomendado neste projeto) **ou**
+- publicar o build no root do repo (alternativa)
+
+Este projeto está configurado no modo “`dist/` versionado” para simplificar o deploy.
+
+---
+
+### Modo DRAFT vs PRODUCTION (CANÔNICO)
+
+Objetivo: nunca deixar o Google indexar páginas rascunho.
+
+- **DRAFT** (padrão antes do primeiro deploy):
+  - gera somente o que está habilitado (ou pode gerar zero cidades)
+  - `robots.txt` bloqueia crawl
+  - meta robots usa `noindex,nofollow`
+- **PRODUCTION**:
+  - gera e lista no sitemap apenas páginas habilitadas
+  - `robots.txt` libera crawl
+  - meta robots usa `index,follow`
+
+Configuração: `src/_data/publish_config.json`
 
 ---
 

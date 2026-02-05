@@ -21,10 +21,14 @@ seo:
 
   <section class="card" style="margin-top:18px" id="cidades">
     <h2>Cidades atendidas</h2>
-    <p class="muted">Selecione uma cidade e escolha o tipo de página.</p>
+    {% if publishedCities and publishedCities.length %}
+      <p class="muted">Selecione uma cidade e escolha o tipo de página.</p>
+    {% else %}
+      <p class="muted"><b>Em construção:</b> ainda não há cidades “live”. Isso é intencional (anti-queima). Publique a 1ª cidade no `publish_config.json`.</p>
+    {% endif %}
 
     <div class="chips">
-      {% for c in cities %}
+      {% for c in publishedCities %}
         <a class="chip" href="/fretes-em-{{ c.slug }}/">{{ c.name }}</a>
       {% endfor %}
     </div>

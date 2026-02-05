@@ -59,14 +59,17 @@ function main() {
   const titles = new Map(); // title -> file
   const h1s = new Map(); // h1 -> file
 
-  // páginas esperadas: 3 por cidade
-  const citiesDataPath = path.join(ROOT, "src", "_data", "cities_raw.json");
-  let cityCount = 0;
+  // páginas esperadas: 1 home + (3 por cidade habilitada)
+  let enabledCities = 0;
+  let enabledTypes = 3;
   try {
-    const raw = JSON.parse(fs.readFileSync(citiesDataPath, "utf8"));
-    cityCount = Array.isArray(raw) ? raw.length : 0;
+    const pubCfg = require(path.join(ROOT, "src", "_data", "publish"));
+    const list = require(path.join(ROOT, "src", "_data", "publishedCities"));
+    enabledCities = Array.isArray(list) ? list.length : 0;
+    const types = Array.isArray(pubCfg && pubCfg.enabledTypes) ? pubCfg.enabledTypes : [];
+    enabledTypes = Math.max(0, types.length || 3);
   } catch {}
-  const expectedMinPages = Math.max(1, cityCount * 3);
+  const expectedMinPages = Math.max(1, 1 + (enabledCities * enabledTypes));
 
   let bad = 0;
   let wordLow = 0;

@@ -3,7 +3,11 @@ permalink: /robots.txt
 eleventyExcludeFromCollections: true
 ---
 User-agent: *
+{% if publish.mode != "production" %}
+Disallow: /
+{% else %}
 Allow: /
+{% endif %}
 
 Sitemap: {{ site.siteUrl }}/sitemap.xml
 

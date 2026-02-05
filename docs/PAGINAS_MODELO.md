@@ -2,6 +2,15 @@
 
 **Regra mestra**: uma página = uma intenção principal. Todo o resto é suporte.
 
+### Objetivo (anti-spam / anti-queima)
+
+Escalar para centenas de páginas **sem queimar o domínio**. Isso exige:
+
+- conteúdo realmente útil (não “página vazia”),
+- conteúdo **único por página**,
+- rollout controlado (não publicar 200 rascunhos de uma vez),
+- checklist + validação automática antes de entrar em produção.
+
 ### Tipos de páginas permitidas (oficiais)
 
 Para cada cidade, somente:
@@ -15,12 +24,54 @@ Qualquer variação fora disso **não** deve ser criada.
 ### Regras absolutas (sem exceção)
 
 - Não criar URLs com: `agora`, `já`, `hoje`, `24h` (urgência fica no texto/título).
-- Não repetir texto entre cidades.
-- Conteúdo mínimo: 600–1.200 palavras.
+- Não repetir texto entre cidades (anti-spam).
+- Conteúdo alvo: **~1500 palavras** (mínimo recomendado: **1200**).
 - Bairros citados no corpo (não como URL).
 - CTA WhatsApp funcionando.
+
+### Estrutura obrigatória (por tipo)
+
+#### 1) `/fretes-em-{cidade}` (pilar)
+- Abertura (intenção clara: o que/onde/rapidez).
+- Tipos de frete (pequeno/médio/grande/local/intermunicipal ou interestadual quando fizer sentido).
+- Urgência integrada (texto; sem URL extra).
+- Serviços complementares (mudanças/carreto como suporte).
+- Bairros/regiões atendidas (sem virar URL).
+- CTA WhatsApp (botão + texto de urgência).
+- FAQ (3–6 perguntas com variação por cidade).
+
+#### 2) `/frete-urgente-em-{cidade}` (alta conversão)
+- Abertura focada em urgência.
+- Termos de urgência no texto (agora/hoje/imediato/24h) **sem criar URL**.
+- Tipos de demanda urgente (residencial/comercial/transporte rápido).
+- Cobertura (bairros/regiões).
+- CTA agressivo.
+- FAQ curto.
+
+#### 3) `/mudancas-em-{cidade}`
+- Mesma lógica do frete, com intenção principal “mudança”.
+- Fretes entram como suporte.
+- CTA + FAQ.
+
+### Prova social (regra de integridade)
+
+**Não inventar depoimentos/reviews como se fossem reais.** Isso é risco legal e de confiança.
+
+Opções seguras:
+
+- Se tiver provas reais: usar frases curtas (sem PII) e registrar origem (interno).
+- Se não tiver: usar “compromissos de serviço” (ex.: pontualidade, cuidado, comunicação) e um bloco “Como funciona / O que você pode esperar”.
 
 ### Observação (implementação)
 
 O gerador deve produzir variações **determinísticas** por cidade (não random) para evitar mudanças de conteúdo a cada build.
+
+### Rollout seguro (CANÔNICO)
+
+Antes de conectar no Hostinger e liberar indexação:
+
+- publicar 1 cidade (3 páginas) perfeita
+- validar visualmente (humano)
+- liberar mais cidades em lotes (ex.: 3 cidades/dia = 9 páginas/dia) e ajustar conforme confiança
+
 

@@ -82,7 +82,7 @@ module.exports = class {
   data() {
     return {
       layout: "base.njk",
-      pagination: { data: "cities", size: 1, alias: "city" },
+      pagination: { data: "publishedCities", size: 1, alias: "city" },
       permalink: (data) => `/mudancas-em-${data.city.slug}/`,
       eleventyComputed: {
         seo: (data) => {
