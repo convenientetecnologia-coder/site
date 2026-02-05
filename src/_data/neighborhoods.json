@@ -1,0 +1,64 @@
+{
+  "florianopolis": {
+    "city": "Florianópolis",
+    "state": "SC",
+    "all": [
+      "Centro",
+      "Agronômica",
+      "Trindade",
+      "Córrego Grande",
+      "Itacorubi",
+      "Santa Mônica",
+      "Lagoa da Conceição",
+      "Barra da Lagoa",
+      "Campeche",
+      "Rio Tavares",
+      "Armação",
+      "Pântano do Sul",
+      "Ribeirão da Ilha",
+      "Santo Antônio de Lisboa",
+      "Ingleses",
+      "Canasvieiras",
+      "Jurerê",
+      "Estreito",
+      "Coqueiros",
+      "Capoeiras"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Agronômica",
+        "Trindade",
+        "Córrego Grande",
+        "Itacorubi",
+        "Santa Mônica",
+        "Lagoa da Conceição"
+      ],
+      "mudancas": [
+        "Barra da Lagoa",
+        "Campeche",
+        "Rio Tavares",
+        "Armação",
+        "Pântano do Sul",
+        "Ribeirão da Ilha",
+        "Santo Antônio de Lisboa"
+      ],
+      "urgente": [
+        "Ingleses",
+        "Canasvieiras",
+        "Jurerê",
+        "Estreito",
+        "Coqueiros",
+        "Capoeiras"
+      ]
+    },
+    "meta": {
+      "source": "seed",
+      "model": "manual",
+      "ts": "2026-02-05T00:00:00.000Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
+  }
+}
+

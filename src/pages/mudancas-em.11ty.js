@@ -2,6 +2,7 @@
 
 const variants = require("../_data/variants");
 const testimonials = require("../_data/testimonials");
+const neighborhoods = require("../_data/neighborhoods");
 
 function escapeHtml(s) {
   return String(s || "")
@@ -51,6 +52,9 @@ function renderTestimonialsSection(city, publishMode) {
 function renderBody(city, data) {
   const seed = `mudancas::${city.slug}`;
   const publishMode = (data && data.publish && data.publish.mode) ? String(data.publish.mode) : "draft";
+  const nbh = neighborhoods.listForCityType(city.slug, "mudancas");
+  const nbhPick = nbh.length ? nbh.slice(0, 10) : [];
+  const nbhMore = nbh.length ? nbh.slice(10, 20) : [];
   const open = variants.pick([
     "Realizamos mudanças em {CITY} com organização, cuidado e comunicação clara do início ao fim.",
     "Mudanças em {CITY} com atendimento rápido e execução profissional, alinhando prazos e logística por WhatsApp.",
@@ -96,19 +100,14 @@ function renderBody(city, data) {
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Imagens (exemplos)</h2>
-        <p class="muted">Placeholder (vamos substituir por imagens reais por cidade quando definirmos o pacote final).</p>
-        <div class="chips">
-          <a class="chip" href="/assets/placeholder-bg.svg">Fundo</a>
-          <a class="chip" href="/assets/placeholder-1.svg">Imagem 1</a>
-          <a class="chip" href="/assets/placeholder-2.svg">Imagem 2</a>
-          <a class="chip" href="/assets/placeholder-3.svg">Imagem 3</a>
-        </div>
-      </section>
-
-      <section class="card" style="margin-top:18px">
         <h2>Bairros atendidos em ${escapeHtml(city.name)}</h2>
-        <p class="muted">Atendemos todos os bairros de ${escapeHtml(city.name)}. Confirme detalhes (origem/destino) no WhatsApp para logística.</p>
+        <p class="muted">Atendemos toda a cidade. Alguns bairros/regiões frequentemente atendidos:</p>
+        ${nbhPick.length ? `<p><b>${escapeHtml(nbhPick.join(", "))}</b></p>` : ""}
+        ${nbhMore.length ? `<p class="muted">${escapeHtml(nbhMore.join(", "))}</p>` : ""}
+        <p class="muted">Para logística e encaixe, confirme origem/destino e tipo de acesso (casa/condomínio/prédio) no WhatsApp.</p>
+        <div class="ctaRow">
+          <a class="btn primary" data-ct-wa="1" data-wa-kind="mudancas" href="${whatsLink({ data, city, kind: "mudancas" })}">Pedir orçamento no WhatsApp</a>
+        </div>
       </section>
 
       ${renderTestimonialsSection(city, publishMode)}

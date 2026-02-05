@@ -2,6 +2,7 @@
 
 const variants = require("../_data/variants");
 const testimonials = require("../_data/testimonials");
+const neighborhoods = require("../_data/neighborhoods");
 
 function escapeHtml(s) {
   return String(s || "")
@@ -51,6 +52,9 @@ function renderTestimonialsSection(city, publishMode) {
 function renderBody(city, data) {
   const seed = `urgente::${city.slug}`;
   const publishMode = (data && data.publish && data.publish.mode) ? String(data.publish.mode) : "draft";
+  const nbh = neighborhoods.listForCityType(city.slug, "urgente");
+  const nbhPick = nbh.length ? nbh.slice(0, 12) : [];
+  const nbhMore = nbh.length ? nbh.slice(12, 24) : [];
   const open = variants.pick([
     "Precisa de frete urgente em {CITY}? Trabalhamos com atendimento imediato para situações que exigem rapidez.",
     "Frete urgente em {CITY} com foco em agilidade e resposta rápida — consulte disponibilidade agora.",
@@ -88,19 +92,19 @@ function renderBody(city, data) {
               ${demands.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
             </ul>
             <h2>Cobertura</h2>
-            <p class="muted">Atendemos fretes urgentes em todos os bairros de ${escapeHtml(city.name)}, com prioridade conforme logística e localização.</p>
+            <p class="muted">Atendemos fretes urgentes em toda a cidade, com prioridade conforme logística e localização.</p>
           </div>
         </div>
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Imagens (exemplos)</h2>
-        <p class="muted">Placeholder (vamos substituir por imagens reais por cidade quando definirmos o pacote final).</p>
-        <div class="chips">
-          <a class="chip" href="/assets/placeholder-bg.svg">Fundo</a>
-          <a class="chip" href="/assets/placeholder-1.svg">Imagem 1</a>
-          <a class="chip" href="/assets/placeholder-2.svg">Imagem 2</a>
-          <a class="chip" href="/assets/placeholder-3.svg">Imagem 3</a>
+        <h2>Bairros com cobertura rápida em ${escapeHtml(city.name)}</h2>
+        <p class="muted">A urgência depende do encaixe. Alguns bairros/regiões frequentemente atendidos:</p>
+        ${nbhPick.length ? `<p><b>${escapeHtml(nbhPick.join(", "))}</b></p>` : ""}
+        ${nbhMore.length ? `<p class="muted">${escapeHtml(nbhMore.join(", "))}</p>` : ""}
+        <p class="muted">Para priorização, envie bairro (origem/destino), janela de horário e o que precisa transportar.</p>
+        <div class="ctaRow">
+          <a class="btn primary" data-ct-wa="1" data-wa-kind="urgente" href="${whatsLink({ data, city, kind: "urgente" })}">Pedir urgente no WhatsApp</a>
         </div>
       </section>
 

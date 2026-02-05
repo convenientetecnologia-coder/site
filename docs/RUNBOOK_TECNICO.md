@@ -174,6 +174,37 @@ Evidência técnica:
 
 ---
 
+### Bairros (geração assistida) — CANÔNICO
+
+Objetivo: para cada cidade, manter uma lista de bairros/regiões **curta, humana e não-spam**, e dividir em 3 blocos para as páginas:
+
+- `/fretes-em-{cidade}`: bloco `fretes` (~15)
+- `/mudancas-em-{cidade}`: bloco `mudancas` (~15)
+- `/frete-urgente-em-{cidade}`: bloco `urgente` (~15)
+
+Fonte de verdade no repo:
+
+- `src/_data/neighborhoods.json` (conteúdo estático; não chama API em produção)
+
+Comando canônico (local):
+
+- Preparar o ambiente (Windows PowerShell):
+  - definir `OPENAI_API_KEY` (NUNCA versionar em arquivo do repo)
+  - opcional: `OPENAI_MODEL` (padrão: `gpt-5.2`)
+- Rodar:
+  - `npm run neighborhoods:fetch -- --city "Florianópolis" --slug florianopolis --state "SC" --maxPerPage 15`
+
+Arquivo de exemplo (sem segredo):
+
+- `env.example` (referência; não é usado automaticamente)
+
+Regra de qualidade:
+
+- A lista deve conter itens de alta confiança; se houver dúvida, melhor omitir do que inventar.
+  - (O projeto prioriza integridade e anti-spam.)
+
+---
+
 ### Rollback (CANÔNICO)
 
 - Reverter commit no GitHub (ex.: `git revert`) e fazer `push`.

@@ -19,6 +19,21 @@ Regra: toda mudança relevante entra aqui com:
 - **Impacto**: todos os botões/atalhos WA abrem `wa.me` com `?text=` (mensagem pré-preenchida).
 - **Rollback**: reverter o commit `7fe6edf` no repo do site.
 
+#### 2026-02-05 — [SITE] Bairros: geração assistida + divisão em 3 blocos (~15 por página)
+
+- **O que**:
+  - Criado `src/_data/neighborhoods.json` como fonte canônica (conteúdo estático).
+  - Criado comando local `npm run neighborhoods:fetch` que consulta OpenAI, normaliza/deduplica e divide em 3 blocos (fretes/mudanças/urgente).
+  - Páginas passaram a consumir blocos por tipo para reduzir repetição entre URLs.
+- **Por quê**: manter conteúdo local (bairros) sem virar spam; e garantir diferenciação entre as 3 páginas da mesma cidade.
+- **Evidência**:
+  - `C:\site\scripts\fetch_neighborhoods_openai.js`
+  - `C:\site\src\_data\neighborhoods.json`
+  - `C:\site\src\_data\neighborhoods.js`
+  - `C:\site\src\pages\fretes-em.11ty.js`, `mudancas-em.11ty.js`, `frete-urgente-em.11ty.js`
+- **Impacto**: cada página mostra ~15 bairros diferentes (quando disponíveis).
+- **Rollback**: reverter commits e voltar a usar lista fixa/única (não recomendado).
+
 #### 2026-02-05 — [SITE] Google Search Console verificado (DNS TXT)
 
 - **O que**: propriedade do domínio `fretesoumudancas.com.br` foi verificada no Google Search Console via registro TXT (DNS).

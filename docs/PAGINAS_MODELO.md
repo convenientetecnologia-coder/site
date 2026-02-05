@@ -40,6 +40,16 @@ Qualquer variação fora disso **não** deve ser criada.
 - **Padrão canônico: sem imagens** nas páginas de cidade (mais rápido, mais limpo, sem “cara de produto”). Se um dia usar imagens, só reais e otimizadas.
 - **CTA WhatsApp**: todo botão/atalho deve abrir com **mensagem pré-preenchida** (`wa.me` + `?text=`).
 
+### Bairros (padrão definitivo)
+
+- **Não** listar “todos os bairros” (vira spam e piora leitura).
+- Alvo por página: **~15 bairros/regiões** (curto, humano, representativo) + “e demais bairros”.
+- Para cada cidade, a lista canônica é dividida em 3 blocos (para evitar repetição entre as 3 URLs):
+  - `fretes`: bloco A
+  - `mudancas`: bloco B
+  - `urgente`: bloco C
+- Fonte de verdade: `src/_data/neighborhoods.json`.
+
 ### Estrutura obrigatória (por tipo)
 
 #### 1) `/fretes-em-{cidade}` (pilar)

@@ -70,7 +70,7 @@ function renderBody(city, data) {
   const hasMudancas = enabledTypes.includes("mudancas");
   const hasUrgente = enabledTypes.includes("urgente");
 
-  const nbh = neighborhoods.listForCity(city.slug);
+  const nbh = neighborhoods.listForCityType(city.slug, "fretes");
   const nbhPick = nbh.length ? nbh.slice(0, 10) : [];
   const nbhMore = nbh.length ? nbh.slice(10, 20) : [];
 

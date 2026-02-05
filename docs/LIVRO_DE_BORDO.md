@@ -34,6 +34,10 @@ Regras:
 - **Métricas internas (CT)**:
   - `pageview` + `whatsapp_click` enviados via `sendBeacon` para o CT
   - painel no CT: Menu **Site** (cidades no ar + cliques WhatsApp por cidade/página)
+- **Bairros (conteúdo local)**:
+  - Fonte canônica: `src/_data/neighborhoods.json`
+  - Cada cidade é dividida em 3 blocos (~15) para as páginas `fretes/mudancas/urgente` (evita repetição entre URLs).
+  - Comando local para gerar/atualizar via OpenAI: `npm run neighborhoods:fetch` (chave via ambiente; nunca no Git).
 
 ---
 
@@ -43,6 +47,7 @@ Regras:
   - Regra agora: topbar/dock sempre usam o “melhor link de WhatsApp” da página, e sempre com `?text=`.
   - Evidência: ajuste em `src/_includes/base.njk` (commit `7fe6edf` no repo do site).
 - **Imagens**: consolidado padrão canônico “sem imagens” nas páginas de cidade (performance + clareza + menos fricção).
+- **Bairros**: padronizado fluxo “gerar → dividir em 3 → publicar” com arquivo canônico + comando local (ver Runbook).
 
 ## Regras de copy (não-negociáveis)
 
