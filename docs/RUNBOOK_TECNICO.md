@@ -112,6 +112,10 @@ Passo a passo:
 4) Voltar no GSC e clicar **Verificar**
 5) Enviar sitemap (1 vez): `sitemap.xml` (fica em `https://www.fretesoumudancas.com.br/sitemap.xml`)
 
+Regra de segurança (docs):
+
+- Não registrar o valor exato do TXT `google-site-verification=...` no repositório/docs. Registrar apenas que foi configurado no DNS.
+
 Observação importante:
 
 - Enquanto `publish.mode=draft`, o `robots.txt` está com `Disallow: /` e o Google não deve indexar (intencional).
