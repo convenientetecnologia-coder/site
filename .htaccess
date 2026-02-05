@@ -1,0 +1,11 @@
+# CANÔNICO (Hostinger): proteger o repositório quando o Git Deploy clona tudo no webroot.
+# Objetivo: expor apenas os arquivos estáticos gerados (index/assets/páginas) e bloquear o resto.
+
+RewriteEngine On
+
+# bloquear pastas internas (source/docs/scripts/dist)
+RewriteRule ^(src|docs|scripts|dist)/ - [F,L]
+
+# bloquear arquivos de projeto
+RewriteRule ^(\.eleventy\.js|package\.json|package-lock\.json|README\.md|\.gitignore|\.deploy_root_manifest\.json)$ - [F,L]
+

@@ -53,6 +53,18 @@ Regra: toda mudança relevante entra aqui com:
   - `C:\site\scripts\validate.js`
 - **Rollback**: reverter commit do repo `site`.
 
+#### 2026-02-05 — [SITE] Hostinger Git Deploy compatível (webroot na raiz + `.htaccess` de proteção)
+
+- **O que**:
+  - Criado `npm run deploy:prepare` que faz: build → validate → copia `dist/*` para a **raiz do repo** (webroot).
+  - Adicionado `.htaccess` bloqueando acesso público a `src/`, `docs/`, `scripts/`, `dist/` e arquivos internos.
+- **Por quê**: o Git Deploy da Hostinger clona o repo inteiro no `public_html` e não executa build — então precisamos de `index.html` na raiz e proteção do conteúdo interno.
+- **Evidência**:
+  - `C:\site\scripts\deploy_root.js`
+  - `C:\site\.htaccess`
+  - `C:\site\docs\RUNBOOK_TECNICO.md`
+- **Rollback**: reverter commit do repo `site` (remove webroot sync e `.htaccess`).
+
 #### 2026-02-05 — [SITE] Bootstrap do projeto (Eleventy + docs canônicos)
 
 - **O que**:

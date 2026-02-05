@@ -17,6 +17,8 @@ Este arquivo é o manual de operação do projeto em `C:\site`.
   - `npm run validate` (falha se tiver títulos/H1 repetidos, páginas faltando, etc.)
 - Auditoria de depoimentos:
   - `npm run audit:testimonials` (gera `docs/AUDITORIA_DEPOIMENTOS.md` e acusa duplicados)
+- Preparar deploy (Hostinger Git Deploy):
+  - `npm run deploy:prepare` (build + validate + copia `dist/` para a raiz do repo como webroot)
 
 Importante: **não existe servidor Node rodando em produção** neste padrão. O Node é só ferramenta de build.
 
@@ -43,6 +45,12 @@ Objetivo: o humano faz **1 configuração inicial** no hPanel, depois o fluxo vi
 
 - O Hostinger deve publicar o conteúdo **estático**.
 - Fonte de verdade do build: `dist/`.
+
+IMPORTANTE (Hostinger Git Deploy):
+
+- O Hostinger clona o repositório inteiro dentro do `public_html` e **não roda build**.
+- Portanto este projeto usa um passo canônico: `npm run deploy:prepare`, que copia `dist/*` para a **raiz** do repo (webroot).
+- Segurança: `.htaccess` bloqueia acesso público a `src/`, `docs/`, `scripts/`, `dist/` e arquivos do projeto.
 
 Regra para não quebrar clientes antigos:
 
