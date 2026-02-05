@@ -1,2 +1,110 @@
-[]
-
+[
+  {
+    "id": "syn_florianopolis_fretes_01",
+    "text": "Combinei o horário e chegou certinho. Frete tranquilo e sem dor de cabeça.",
+    "author": "Aline M.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_02",
+    "text": "Responderam rápido no Whats e o valor ficou bem justo. Recomendo pra mudanças pequenas.",
+    "author": "Rafael P.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_03",
+    "text": "Motorista educado e cuidadoso com as caixas. Deu tudo certo do início ao fim.",
+    "author": "Camila S.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_04",
+    "text": "Precisava levar um móvel e foi bem simples de agendar. Chegou sem arranhões.",
+    "author": "Bruno L.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_05",
+    "text": "Pontuais e organizados na hora de carregar. Serviço bem combinado.",
+    "author": "Fernanda G.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_06",
+    "text": "Fizeram o frete no mesmo dia e me avisaram quando estavam a caminho. Achei bem prático.",
+    "author": "Diego R.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_07",
+    "text": "Atendimento direto e sem enrolação. O frete saiu como combinado.",
+    "author": "Juliana T.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_08",
+    "text": "Transportaram meus eletros com cuidado e prenderam tudo direitinho. Fiquei tranquila.",
+    "author": "Marina C.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_09",
+    "text": "Preço ok e boa comunicação. Chegaram no horário que combinamos.",
+    "author": "Lucas F.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_10",
+    "text": "Equipe prestativa e rápida pra carregar e descarregar. Valeu a ajuda.",
+    "author": "Patrícia N.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_11",
+    "text": "Consegui ajustar o horário sem complicação. Frete eficiente e bem feito.",
+    "author": "Gustavo A.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_florianopolis_fretes_12",
+    "text": "Foi minha primeira vez contratando e deu tudo certo. Passaram confiança.",
+    "author": "Renata V.",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770321794087,
+    "source": "synthetic"
+  }
+]

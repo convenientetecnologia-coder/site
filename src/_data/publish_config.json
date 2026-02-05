@@ -1,6 +1,6 @@
 {
   "mode": "draft",
-  "enabledCitySlugs": [],
+  "enabledCitySlugs": ["florianopolis"],
   "enabledTypes": ["fretes"]
 }
 
