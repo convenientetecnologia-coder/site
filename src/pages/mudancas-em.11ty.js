@@ -68,12 +68,100 @@ function renderBody(city, data) {
     "Em casos de urgência, buscamos solução rápida com alinhamento direto no WhatsApp."
   ], seed, 2);
 
+  const intro2 = variants.pick([
+    "Uma mudança bem feita começa antes do caminhão encostar. Por isso, confirmamos acesso, volumes e janela de horário para reduzir retrabalho, atrasos e surpresas na hora da carga.",
+    "O segredo de uma mudança tranquila é alinhar detalhes: quantos volumes, itens frágeis, acesso (elevador/escadas) e restrições do local. Com isso, a execução fica organizada e rápida.",
+    "Mudança não é só transporte: é proteção, organização e cumprimento do combinado. Quando as informações estão claras, a operação flui e você evita stress desnecessário."
+  ], seed, 3);
+
   const checklist = [
     "Planejamento de horário e rota",
     "Proteção de móveis e itens frágeis",
     "Carga e descarga com cuidado",
     "Organização para reduzir tempo de execução",
     "Alinhamento de acesso (elevador/escadas) quando necessário"
+  ];
+
+  const how = [
+    "Você envia origem, destino (bairro) e a janela de horário preferida.",
+    "Lista resumida de itens/volumes (móveis, caixas, eletros) e se há itens frágeis.",
+    "Informações de acesso: casa, condomínio, prédio com elevador/escadas e regras de portaria.",
+    "Confirmamos disponibilidade e o melhor encaixe logístico conforme rota do dia.",
+    "Proteção e organização de carga conforme os itens (priorizando o que é mais sensível).",
+    "Execução com comunicação clara até finalizar no destino.",
+    "Fechamento: conferência final e orientação rápida do que ficou pendente (se houver)."
+  ];
+
+  const price = [
+    "Distância e rota (origem → destino)",
+    "Quantidade de volumes e tamanho dos móveis",
+    "Tipo de acesso (escadas, elevador, vaga, distância até a porta)",
+    "Itens frágeis e necessidade de proteção extra",
+    "Janelas de horário e restrições de portaria/condomínio",
+    "Necessidade de desmontagem/montagem (quando combinado)",
+    "Urgência (encaixe no dia / hoje) conforme disponibilidade",
+    "Tempo estimado de carga/descarga",
+    "Trechos de difícil acesso (rampa, corredor estreito, lances longos)",
+    "Quantidade de paradas (se houver)"
+  ];
+
+  const careP = variants.pick([
+    "Para reduzir risco de avaria, organizamos a carga por prioridade: itens frágeis e cantos sensíveis vão protegidos e posicionados de forma segura. Caixas pesadas ficam na base; itens leves, por cima.",
+    "Se houver eletros ou itens com vidro, é importante avisar antes. A proteção adequada e a ordem de carregamento fazem diferença para chegar tudo inteiro e sem arranhões.",
+    "Mudança em prédio exige alinhamento de elevador/escadas e horários de portaria. Com essas informações antecipadas, a execução fica mais rápida e evita tempo parado."
+  ], seed, 4);
+
+  const deepPool = [
+    "Em {CITY}, a diferença entre uma mudança tranquila e uma mudança estressante costuma estar no planejamento. Quando você informa volume e acesso com clareza, dá para ajustar rota e tempo de execução. Isso evita atrasos por falta de elevador, restrição de portaria ou corredor estreito, e reduz o risco de dano porque a equipe consegue organizar a carga com calma.",
+    "Mudanças em {CITY} frequentemente envolvem condomínios com regras. Confirmar janela de carga/descarga e disponibilidade de elevador faz parte do básico. Se você tiver itens grandes, vale conferir medidas de portas e corredores. Esse cuidado simples evita improvisos no meio da operação e deixa a execução mais rápida e segura.",
+    "Se a mudança tem itens frágeis (vidro, eletrônicos) ou itens com cantos sensíveis, avise antes. A organização de carga é feita por prioridade: proteção, posicionamento e fixação. Quando isso está combinado, você reduz a chance de arranhões e evita aquela sensação de “correria” no final.",
+    "Para preparar a mudança, pense em categorias: caixas leves, caixas pesadas, itens frágeis e itens grandes. Separar por cômodo e identificar as caixas principais ajuda muito no destino. Em {CITY}, esse detalhe é o que faz a descarga ficar organizada e evita perda de tempo procurando o que vai para cada ambiente.",
+    "Se houver escadas, informe quantos lances e se existe corrimão/apoio. Isso muda o tempo de execução e o planejamento de proteção. Para prédio com elevador, informe se é elevador social ou de serviço e se há reserva. Quanto mais objetivo, mais previsível e rápido o atendimento.",
+    "Quando a mudança envolve duas paradas, alinhar a sequência antes evita confusão. Uma lista curta do que vai em cada local resolve isso. É simples, mas faz diferença no resultado.",
+    "Em mudanças, o que mais causa atraso é falta de acesso: elevador ocupado, portaria com regra rígida, vaga distante, corredor estreito. Informar isso antes muda o planejamento e evita tempo parado.",
+    "Uma mudança segura depende de proteção e organização de carga. Caixas pesadas vão na base; itens frágeis protegidos e posicionados de forma estável. Esse padrão reduz risco de dano e acelera a descarga no destino.",
+    "Se você está com prazo apertado em {CITY}, o ideal é escolher uma janela realista e estar pronto no horário combinado. Urgência é encaixe; quanto mais claro você for, mais rápido dá para confirmar disponibilidade.",
+    "Separar uma “caixa do primeiro dia” ajuda muito: itens essenciais, carregadores, documentos e o que você não quer procurar depois. Avise para não ir no fundo da carga.",
+    "Para mudanças com crianças ou pets, planeje para não cruzar com a área de carga/descarga. Isso melhora segurança e reduz interrupções durante a execução.",
+    "Se houver móveis que precisam desmontar, avise antes. Mesmo uma desmontagem simples exige tempo e muda a estimativa. Com isso combinado, o dia flui sem improviso.",
+    "Mudança comercial pede comunicação e pontualidade. Informe horários de recebimento, restrições do local e prioridade de itens. Isso evita travar operação e mantém a entrega organizada.",
+    "Em {CITY}, o trânsito e a logística variam. Em vez de promessa rígida, uma janela bem combinada permite execução mais segura e com menos stress."
+  ];
+
+  const deep = Array.from({ length: 18 }, (_, i) => variants.pick(deepPool, seed, 20 + i))
+    .map(p => String(p || "").replaceAll("{CITY}", city.name));
+
+  const packing = [
+    "Use caixas menores para itens pesados (livros, ferramentas).",
+    "Identifique caixas por cômodo e destaque as mais importantes.",
+    "Separe itens frágeis e avise antes para definir proteção e posição na carga.",
+    "Deixe o caminho livre (corredores/portas) para agilizar carga e descarga.",
+    "Confirme regras de condomínio/portaria e janela de carga/descarga.",
+    "Se houver elevador, informe se é social/serviço e se precisa de reserva.",
+    "Guarde parafusos/peças pequenas em um saquinho identificado (se houver desmontagem).",
+    "Deixe uma “caixa do primeiro dia” separada (carregador, itens essenciais).",
+    "Se tiver pets/crianças, organize para não cruzar com a área de carga.",
+    "Combine ponto de encontro e melhor local de parada (sem dados pessoais)."
+  ];
+
+  const scenarios = [
+    "Mudança de apartamento: confirmar elevador, horário de carga/descarga e regras do condomínio.",
+    "Mudança com escadas: informar quantos lances e se há pontos de apoio para proteção.",
+    "Mudança pequena (poucos móveis e caixas): foco em rapidez e organização.",
+    "Mudança com itens volumosos (sofá, geladeira, máquina): checar medidas e rota de passagem.",
+    "Mudança em dia de chuva: reforçar proteção e planejamento de entrada/saída.",
+    "Mudança comercial: priorizar pontualidade para não travar operação da empresa.",
+    "Mudança com prazo apertado: avaliar encaixe e janela de horário realista.",
+    "Mudança com duas paradas: alinhar sequência e o que vai em cada destino."
+  ];
+
+  const faq = [
+    { q: `Quanto custa uma mudança em ${city.name}?`, a: "O valor depende de distância, volume, acesso (escadas/elevador), itens frágeis e janela de horário. Pelo WhatsApp, com essas informações básicas, dá pra estimar rápido." },
+    { q: "Vocês fazem mudança pequena?", a: "Sim. Mudanças pequenas e parciais são comuns. O ideal é enviar uma lista resumida do que vai para alinhar o melhor encaixe logístico." },
+    { q: "Precisa desmontar móveis?", a: "Quando combinado, podemos orientar o que precisa ser desmontado e o que vai inteiro. Informe antes para alinhar tempo e segurança." },
+    { q: "Como evitar danos?", a: "O principal é proteção + organização de carga. Avise sobre itens frágeis (vidro, eletrônicos, cantos sensíveis) para definirmos a melhor forma de acomodar." },
+    { q: "Atendem condomínio e prédio?", a: "Sim. Para não atrasar, informe regras de portaria, janela de carga/descarga e se há elevador disponível." },
+    { q: "Dá pra fazer hoje?", a: "Depende do encaixe na rota e da disponibilidade. Para urgência, envie bairro, janela de horário e volumes; confirmamos rapidamente." }
   ];
 
   return `
@@ -84,6 +172,7 @@ function renderBody(city, data) {
             <div class="kicker">Página pilar • Mudanças em ${escapeHtml(city.name)}</div>
             <h1>Mudanças em ${escapeHtml(city.name)}</h1>
             <p>${escapeHtml(open)}</p>
+            <p>${escapeHtml(intro2)}</p>
             <p><b>Urgência:</b> ${escapeHtml(urg)}</p>
             <div class="ctaRow">
               <a class="btn primary" data-ct-wa="1" data-wa-kind="mudancas" href="${whatsLink({ data, city, kind: "mudancas" })}">Chamar no WhatsApp</a>
@@ -97,6 +186,63 @@ function renderBody(city, data) {
             </ul>
             <div class="muted" style="margin-top:10px">Observação: esta página é focada em <b>mudança</b>. Fretes aparecem como suporte.</div>
           </div>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:18px" id="como-funciona">
+        <h2>Como funciona a mudança em ${escapeHtml(city.name)}</h2>
+        <p class="muted">Fluxo simples: alinhar detalhes antes reduz atraso e melhora o resultado no dia.</p>
+        <ol class="list">
+          ${how.map(x => `<li>${escapeHtml(x.replaceAll("{CITY}", city.name))}</li>`).join("")}
+        </ol>
+        <div class="ctaRow">
+          <a class="btn primary" data-ct-wa="1" data-wa-kind="mudancas" href="${whatsLink({ data, city, kind: "mudancas" })}">Pedir orçamento no WhatsApp</a>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:18px" id="preco">
+        <h2>O que influencia o preço da mudança</h2>
+        <p class="muted">Para estimar com precisão, precisamos entender volume e acesso. Os fatores abaixo costumam pesar mais no valor final.</p>
+        <ul class="list">
+          ${price.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+        </ul>
+        <p class="muted">Dica: se puder, envie uma lista curta de itens (ex.: “cama, guarda-roupa, geladeira, 15 caixas”) e o tipo de acesso. Isso acelera o orçamento.</p>
+      </section>
+
+      <section class="card" style="margin-top:18px" id="cuidados">
+        <h2>Cuidados, proteção e itens frágeis</h2>
+        <p>${escapeHtml(careP)}</p>
+        <p class="muted">Se você tiver itens muito sensíveis (vidro, eletrônicos, instrumentos), avise antes para definirmos proteção, posicionamento e prioridade de carregamento.</p>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Guia completo da mudança (para evitar imprevistos)</h2>
+        ${deep.map(p => `<p>${escapeHtml(p)}</p>`).join("")}
+        <p class="muted">Se quiser agilizar ainda mais, envie também: acesso (escadas/elevador), lista curta de itens e janela de horário — isso reduz idas e voltas e ajuda a confirmar encaixe.</p>
+        <h3 style="margin-top:10px">Checklist rápido de preparação</h3>
+        <ul class="list">
+          ${packing.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+        </ul>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Casos comuns em mudanças</h2>
+        <p class="muted">Exemplos que ajudam a alinhar expectativas e evitar imprevistos por falta de informação.</p>
+        <ul class="list">
+          ${scenarios.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+        </ul>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Perguntas frequentes (FAQ)</h2>
+        <div class="muted">Respostas diretas para dúvidas comuns antes de fechar a mudança.</div>
+        <div style="margin-top:12px; display:grid; gap:10px">
+          ${faq.map(f => `
+            <div class="card" style="padding:14px">
+              <div style="font-weight:900">${escapeHtml(f.q)}</div>
+              <div class="muted" style="margin-top:6px">${escapeHtml(f.a)}</div>
+            </div>
+          `).join("")}
         </div>
       </section>
 

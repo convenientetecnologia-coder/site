@@ -1,6 +1,6 @@
 {
   "mode": "draft",
   "enabledCitySlugs": [],
-  "enabledTypes": ["fretes"]
+  "enabledTypes": ["fretes", "mudancas", "urgente"]
 }
 

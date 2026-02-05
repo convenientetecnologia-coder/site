@@ -28,6 +28,18 @@ function paragraphLong(seed, idx) {
   return a;
 }
 
+function paragraphXL(seed, idx) {
+  const a = variants.pick([
+    "Fretes em {CITY} variam muito de acordo com acesso e volume. Para evitar “vai e volta” de mensagens, o ideal é enviar logo de início: bairro de origem e destino, janela de horário, lista curta de itens e se existe escada/elevador. Com essas informações, conseguimos indicar disponibilidade e orientar o melhor encaixe logístico, reduzindo espera e aumentando a chance de atendimento no mesmo dia.",
+    "Quando o frete envolve itens frágeis ou volumosos, vale combinar antes como será a proteção e a ordem de carregamento. Vidro, eletrônicos e cantos sensíveis precisam de atenção extra; caixas pesadas devem ir na base; itens leves por cima. Esse cuidado simples diminui risco de avaria e evita que o transporte vire correria. Em {CITY}, é comum haver restrições de condomínio, então confirmar portaria e horário ajuda muito.",
+    "Um frete profissional não é só chegar rápido: é chegar com clareza, executar com organização e manter comunicação até a finalização. A maior parte dos atrasos vem de detalhes não informados: número de lances de escada, ausência de elevador, corredor estreito, distância até a porta, ou regras de carga/descarga. Se você sinaliza isso antes, a logística se ajusta e o serviço fica mais previsível em {CITY}.",
+    "Para quem precisa de frete com urgência em {CITY}, o ponto central é a janela de horário. “Agora” pode ser possível quando a rota tem encaixe; em outros casos, a melhor saída é escolher um horário ainda hoje que respeite a operação do dia. A comunicação objetiva faz diferença: diga a janela realista e o que será transportado. Assim, a confirmação de disponibilidade é mais rápida, sem promessas irreais.",
+    "Se o seu frete envolve mudança parcial, pense em três blocos: itens grandes (móveis/eletros), caixas e itens sensíveis. O transporte fica melhor quando você separa o que é prioridade e deixa o acesso liberado para carregar. Em {CITY}, isso evita tempo parado e reduz custo por execução. Também ajuda informar se há necessidade de desmontar algo, mesmo que seja só uma etapa rápida combinada antes.",
+    "Um bom orçamento de frete é aquele que considera o que realmente influencia tempo e risco: rota, volume, acesso e restrições do local. Por isso, pedimos informações objetivas e sem dados pessoais: bairro, tipo de acesso e lista curta de itens. Com isso, o atendimento fica mais eficiente e você sabe o que esperar do começo ao fim. Em {CITY}, esse alinhamento é o que mais reduz imprevistos."
+  ], seed, idx);
+  return a;
+}
+
 function urgentLine(seed, idx) {
   return variants.pick([
     "Para situações urgentes, oferecemos atendimento para hoje e agora conforme disponibilidade operacional.",
@@ -65,6 +77,18 @@ function renderBody(city, data) {
   const p2 = paragraph(seed, 2).replaceAll("{CITY}", city.name);
   const p3 = paragraphLong(seed, 3);
   const p4 = paragraphLong(seed, 4);
+  const p5 = paragraphXL(seed, 5).replaceAll("{CITY}", city.name);
+  const p6 = paragraphXL(seed, 6).replaceAll("{CITY}", city.name);
+  const p7 = paragraphXL(seed, 7).replaceAll("{CITY}", city.name);
+  const p8 = paragraphXL(seed, 8).replaceAll("{CITY}", city.name);
+  const p9 = paragraphXL(seed, 9).replaceAll("{CITY}", city.name);
+  const p10 = paragraphXL(seed, 10).replaceAll("{CITY}", city.name);
+  const p11 = paragraphXL(seed, 11).replaceAll("{CITY}", city.name);
+  const p12 = paragraphXL(seed, 12).replaceAll("{CITY}", city.name);
+  const p13 = paragraphXL(seed, 13).replaceAll("{CITY}", city.name);
+  const p14 = paragraphXL(seed, 14).replaceAll("{CITY}", city.name);
+  const p15 = paragraphXL(seed, 15).replaceAll("{CITY}", city.name);
+  const p16 = paragraphXL(seed, 16).replaceAll("{CITY}", city.name);
   const urg = urgentLine(seed, 3);
   const publishMode = (data && data.publish && data.publish.mode) ? String(data.publish.mode) : "draft";
   const enabledTypes = (data && data.publish && Array.isArray(data.publish.enabledTypes)) ? data.publish.enabledTypes : [];
@@ -106,6 +130,17 @@ function renderBody(city, data) {
     "Frete comercial: priorizamos pontualidade e comunicação para não atrapalhar operação."
   ];
 
+  const prep = [
+    "Separe o que é frágil e sinalize antes (vidro, eletrônicos, cantos sensíveis).",
+    "Deixe o caminho livre (corredores, portas, elevador) para agilizar carga e descarga.",
+    "Agrupe caixas por cômodo e identifique as principais (ex.: cozinha, quarto).",
+    "Se houver escadas, informe quantos lances e se existe corrimão/apoio.",
+    "Se for condomínio, confirme janela de carga/descarga e regras de portaria.",
+    "Avise sobre itens volumosos (sofá, geladeira, máquina) e possíveis restrições de passagem.",
+    "Tenha um plano simples de prioridade: o que vai primeiro e o que vai por último.",
+    "Combine o ponto exato de encontro (sem dados pessoais) e deixe contato disponível."
+  ];
+
   const faq = [
     { q: `Quanto custa um frete em ${city.name}?`, a: "O valor depende de distância, volume, acesso (escadas/elevador), itens frágeis e janela de horário. Pelo WhatsApp conseguimos estimar rápido com base nas informações básicas." },
     { q: "Vocês atendem urgência (hoje / agora)?", a: "Sim, quando há encaixe logístico. Para urgência, envie bairro, horário e o que precisa transportar; confirmamos disponibilidade conforme a operação." },
@@ -129,6 +164,10 @@ function renderBody(city, data) {
             <p>${escapeHtml(p2)}</p>
             <p>${escapeHtml(p3)}</p>
             <p>${escapeHtml(p4)}</p>
+            <p>${escapeHtml(p5)}</p>
+            <p>${escapeHtml(p6)}</p>
+            <p>${escapeHtml(p7)}</p>
+            <p>${escapeHtml(p8)}</p>
             <p><b>Urgência:</b> ${escapeHtml(urg)}</p>
             ${hasUrgente ? `<div class="ctaRow"><a class="btn secondary" href="/frete-urgente-em-${encodeURIComponent(city.slug)}/">Ver frete urgente</a></div>` : ""}
           </div>
@@ -155,6 +194,20 @@ function renderBody(city, data) {
         <div class="ctaRow">
           <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Pedir orçamento no WhatsApp</a>
         </div>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Guia completo do frete em ${escapeHtml(city.name)}</h2>
+        <p class="muted">Conteúdo mais detalhado para alinhar expectativa, evitar imprevistos e acelerar a confirmação de disponibilidade.</p>
+        ${[p9, p10, p11, p12, p13, p14, p15, p16].map(p => `<p>${escapeHtml(p)}</p>`).join("")}
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Como se preparar para o frete</h2>
+        <p class="muted">Pequenos ajustes antes do atendimento deixam tudo mais rápido e reduzem risco de dano.</p>
+        <ul class="list">
+          ${prep.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+        </ul>
       </section>
 
       <section class="card" style="margin-top:18px">

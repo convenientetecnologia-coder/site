@@ -62,6 +62,12 @@ function renderBody(city, data) {
     "Atendimento para frete urgente em {CITY}: priorização logística e comunicação direta no WhatsApp."
   ], seed, 1).replaceAll("{CITY}", city.name);
 
+  const open2 = variants.pick([
+    "Para ser realmente urgente, a gente precisa de poucas informações bem claras: bairro (origem/destino), o que vai transportar, e a janela de horário. Com isso, confirmamos encaixe e seguimos.",
+    "Urgência é encaixe logístico. Quando a rota permite, atendemos rápido. Quando não permite, avisamos de forma direta e sugerimos o melhor horário disponível.",
+    "Frete urgente dá certo quando a comunicação é objetiva. Envie o essencial e a gente retorna com disponibilidade e estimativa conforme a operação do dia."
+  ], seed, 4);
+
   const terms = ["agora", "hoje", "imediato", "24 horas", "prioridade"];
   const t2 = variants.pick(terms, seed, 2);
   const t3 = variants.pick(terms, seed, 3);
@@ -73,6 +79,84 @@ function renderBody(city, data) {
     "Atendimento imediato quando possível"
   ];
 
+  const how = [
+    "Envie origem e destino (bairro) e diga se é para “agora” ou “hoje” (qual janela de horário).",
+    "Descreva o que será transportado (quantidade/itens) e se há algo frágil.",
+    "Informe o tipo de acesso (casa/condomínio/prédio, elevador/escadas) e regras do local.",
+    "Confirmamos encaixe conforme rota e retornamos com estimativa de chegada.",
+    "Execução rápida com cuidado e comunicação até finalizar."
+  ];
+
+  const whatToSend = [
+    "Bairro de origem e destino (ou ponto de referência sem dados pessoais)",
+    "Janela de horário (ex.: “até 2h”, “entre 14–16h”, “hoje à noite”)",
+    "Lista curta de itens/volume (ex.: “10 caixas + 1 geladeira”)",
+    "Acesso: escadas/elevador, distância até a porta, restrição de portaria",
+    "Se tem itens frágeis (vidro, eletrônico, cantos sensíveis)"
+  ];
+
+  const whenYes = [
+    "Quando a rota do dia tem espaço para encaixe",
+    "Quando origem/destino estão em regiões próximas do trajeto atual",
+    "Quando o volume é compatível com o tempo disponível",
+    "Quando o acesso é simples (sem muitas restrições)"
+  ];
+
+  const whenNo = [
+    "Quando a operação está com agenda cheia no momento",
+    "Quando há restrição pesada de horário/portaria sem flexibilidade",
+    "Quando o volume exige planejamento maior do que a janela permite",
+    "Quando origem/destino estão fora do raio viável para encaixe imediato"
+  ];
+
+  const pricing = [
+    "Distância e rota (origem → destino)",
+    "Volume/quantidade de itens",
+    "Acesso (escadas/elevador/condomínio) e tempo de carga/descarga",
+    "Urgência (encaixe imediato) conforme disponibilidade",
+    "Itens frágeis e necessidade de proteção extra"
+  ];
+
+  const faq = [
+    { q: `Quanto custa um frete urgente em ${city.name}?`, a: "Depende de distância, volume e acesso. A urgência é encaixe logístico: com bairro (origem/destino) e lista curta de itens, conseguimos estimar rapidamente." },
+    { q: "Vocês atendem agora?", a: "Quando há disponibilidade e a rota permite encaixe imediato. Envie bairro, janela de horário e o que precisa transportar; confirmamos na hora." },
+    { q: "Preciso informar itens frágeis?", a: "Sim. Isso muda proteção e posicionamento na carga. Avise antes para reduzir risco de avaria." },
+    { q: "Atende condomínio/prédio?", a: "Sim. Informe regras de portaria, elevador e janela de carga/descarga para evitar atraso." },
+    { q: "Posso agendar ainda hoje?", a: "Na maioria dos casos, sim, se houver encaixe. Quanto mais cedo enviar as informações, maior a chance de horário bom." },
+    { q: "Como agilizar o atendimento?", a: "Mande bairro (origem/destino), janela de horário e lista curta de itens. Se puder, inclua acesso (escadas/elevador)." }
+  ];
+
+  const deepPool = [
+    "Frete urgente em {CITY} não é mágica — é logística. O que faz dar certo é a clareza: origem, destino, janela de horário e volume. Quando isso vem bem definido, a gente decide rápido se existe encaixe imediato ou se a melhor saída é um horário ainda hoje. Esse alinhamento evita promessas irreais e mantém execução rápida sem perder cuidado.",
+    "A urgência normalmente quebra quando faltam detalhes de acesso. Escadas, elevador indisponível, portaria com horário restrito ou distância grande até a porta mudam muito o tempo de execução. Por isso, informar o tipo de acesso antes é essencial. Em {CITY}, condomínios e prédios são comuns e as regras variam: quanto mais cedo você informa, mais fácil ajustar o plano.",
+    "Mesmo em atendimento rápido, a segurança continua. Itens frágeis (vidro, eletrônicos, cantos sensíveis) precisam de proteção e posicionamento certo para não “chacoalhar” durante o trajeto. Caixas pesadas vão na base; volumes leves por cima. Esses cuidados parecem detalhes, mas são o que diferencia um transporte organizado de um transporte apressado.",
+    "Se você quer aumentar a chance de atendimento imediato em {CITY}, ajude a operação: envie uma lista curta de itens, indique a janela realista e esteja pronto para liberar acesso no momento combinado. Urgência costuma falhar quando a pessoa ainda está embalando ou quando o local não permite carga/descarga no horário. Ajustar isso antes acelera muito.",
+    "Quando não dá para atender “agora”, o melhor caminho é escolher um horário viável ainda hoje. Uma janela de 2–3 horas costuma ser mais realista do que um horário cravado, porque depende do trânsito e da sequência de atendimentos. Se você tiver flexibilidade mínima, a chance de encaixe sobe bastante.",
+    "Para urgências comerciais em {CITY}, a prioridade costuma ser pontualidade e comunicação. Enviar o essencial (rota, volume, janela) e definir o ponto de encontro evita perda de tempo. Se houver restrição de entrega/retirada, informe antes. O foco é resolver rápido sem criar um problema maior.",
+    "O termo “urgente” cobre muita coisa: desde um item único até vários volumes. O que define o atendimento não é a palavra, e sim o cenário. Um sofá pode ser mais complexo que 10 caixas, dependendo de acesso e medidas. Se você descreve o cenário com objetividade, a confirmação vem mais rápida e o orçamento fica mais justo.",
+    "Para frete urgente com chuva, escadas ou acesso difícil, a execução precisa ser ainda mais organizada. Em vez de pressa cega, o melhor é proteção e sequência correta de carga/descarga. Isso reduz risco de danos e evita retrabalho no final.",
+    "Se o seu frete urgente é para hoje em {CITY}, evite mensagens longas. Envie 5 itens: origem (bairro), destino (bairro), janela, lista curta de itens e acesso. Só isso. A partir daí, a confirmação de disponibilidade e a orientação do próximo passo acontecem rápido.",
+    "Se você mora em prédio, confirme se o elevador pode ser usado e em qual horário. Se mora em casa com escadas ou corredor estreito, avise antes. Isso não é burocracia: é o que define tempo de execução. Quanto melhor esse alinhamento, mais rápido e previsível fica o urgente.",
+    "Em urgente, a melhor forma de reduzir custo é reduzir tempo parado. Acesso liberado, itens minimamente organizados e janela realista fazem o serviço fluir. Em {CITY}, essa combinação aumenta a chance de encaixe no mesmo dia.",
+    "Para itens volumosos, o ponto crítico é rota de passagem: portas, corredores e curvas. Se houver dúvida, informe logo. Esse cuidado evita travar no meio do caminho e mantém a execução rápida com segurança.",
+    "Se você tem restrição de horário (ex.: até 17h), avise logo. Em urgente, essa informação muda tudo: pode ser que dê encaixe, pode ser que a melhor janela seja um pouco depois. Com transparência, a decisão é rápida e você não perde tempo esperando retorno sem contexto.",
+    "Em {CITY}, o trânsito pode mudar a rota em poucos minutos. Por isso, em vez de promessa rígida, trabalhamos com estimativa e comunicação. Quando você tem uma janela razoável, dá pra executar com menos stress e com mais chance de atender no mesmo dia.",
+    "Para melhorar a experiência, deixe pronto o que depende de você: acesso liberado, itens organizados e ponto de encontro claro. Isso reduz o tempo de carga/descarga e ajuda a operação a cumprir a urgência sem sacrificar cuidado.",
+    "Se o frete urgente é recorrente (empresa, loja, operação), dá para padronizar as informações: origem/destino, janela e descrição de volume. Esse padrão acelera atendimentos futuros e reduz ruído na comunicação."
+  ];
+
+  const deep = Array.from({ length: 18 }, (_, i) => variants.pick(deepPool, seed, 20 + i))
+    .map(p => String(p || "").replaceAll("{CITY}", city.name));
+
+  const common = [
+    "Retirada e entrega no mesmo dia com janela de horário curta (quando há encaixe).",
+    "Itens volumosos (sofá, geladeira, máquina): checar medidas e acesso antes evita travar no caminho.",
+    "Condomínio com regras: confirmar portaria e elevador reduz atraso e tempo parado.",
+    "Escadas: informar lances e pontos de apoio ajuda a planejar proteção e execução.",
+    "Frete comercial urgente: priorizar pontualidade e comunicação para não travar operação.",
+    "Mudança parcial urgente: separar itens por prioridade e deixar o caminho livre agiliza."
+  ];
+
   return `
     <div class="wrap">
       <section class="card">
@@ -81,6 +165,7 @@ function renderBody(city, data) {
             <div class="kicker">Alta conversão • Urgência • ${escapeHtml(city.name)}</div>
             <h1>Frete Urgente em ${escapeHtml(city.name)}</h1>
             <p>${escapeHtml(open)}</p>
+            <p>${escapeHtml(open2)}</p>
             <p class="muted"><b>Termos de urgência:</b> ${escapeHtml(t2)}, ${escapeHtml(t3)}, atendimento rápido.</p>
             <div class="ctaRow">
               <a class="btn primary" data-ct-wa="1" data-wa-kind="urgente" href="${whatsLink({ data, city, kind: "urgente" })}">Chamar no WhatsApp agora</a>
@@ -95,6 +180,73 @@ function renderBody(city, data) {
             <h2>Cobertura</h2>
             <p class="muted">Atendemos fretes urgentes em toda a cidade, com prioridade conforme logística e localização.</p>
           </div>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:18px" id="como-funciona">
+        <h2>Como funciona o frete urgente em ${escapeHtml(city.name)}</h2>
+        <p class="muted">Objetivo: confirmar encaixe rápido e executar com cuidado, sem prometer o impossível.</p>
+        <ol class="list">
+          ${how.map(x => `<li>${escapeHtml(x.replaceAll("{CITY}", city.name))}</li>`).join("")}
+        </ol>
+      </section>
+
+      <section class="card" style="margin-top:18px" id="o-que-enviar">
+        <h2>O que enviar no WhatsApp para agilizar</h2>
+        <p class="muted">Quanto mais objetivo você for, mais rápido a gente confirma disponibilidade.</p>
+        <ul class="list">
+          ${whatToSend.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+        </ul>
+      </section>
+
+      <section class="card" style="margin-top:18px" id="disponibilidade">
+        <h2>Disponibilidade: quando dá (e quando pode não dar)</h2>
+        <p class="muted">Urgência é logística. Abaixo, exemplos comuns de cenário.</p>
+        <div class="grid" style="gap:12px">
+          <div class="card" style="padding:14px">
+            <div style="font-weight:900">Quando costuma dar certo</div>
+            <ul class="list" style="margin-top:10px">
+              ${whenYes.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+            </ul>
+          </div>
+          <div class="card" style="padding:14px">
+            <div style="font-weight:900">Quando pode não dar na hora</div>
+            <ul class="list" style="margin-top:10px">
+              ${whenNo.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+            </ul>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:10px">Mesmo quando não dá “agora”, normalmente conseguimos sugerir a melhor janela ainda hoje, conforme a operação.</p>
+      </section>
+
+      <section class="card" style="margin-top:18px" id="preco">
+        <h2>Preço: o que mais influencia no urgente</h2>
+        <p class="muted">O valor é composto por rota, volume e tempo de execução. A urgência entra como encaixe conforme disponibilidade.</p>
+        <ul class="list">
+          ${pricing.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+        </ul>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Guia completo do frete urgente</h2>
+        ${deep.map(p => `<p>${escapeHtml(p)}</p>`).join("")}
+        <h3 style="margin-top:10px">Cenários comuns</h3>
+        <p class="muted">Exemplos reais de situações de urgência (ajuda a alinhar expectativa e acelerar a confirmação).</p>
+        <ul class="list">
+          ${common.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+        </ul>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Perguntas frequentes (FAQ)</h2>
+        <div class="muted">Respostas diretas para dúvidas comuns de urgência.</div>
+        <div style="margin-top:12px; display:grid; gap:10px">
+          ${faq.map(f => `
+            <div class="card" style="padding:14px">
+              <div style="font-weight:900">${escapeHtml(f.q)}</div>
+              <div class="muted" style="margin-top:6px">${escapeHtml(f.a)}</div>
+            </div>
+          `).join("")}
         </div>
       </section>
 
