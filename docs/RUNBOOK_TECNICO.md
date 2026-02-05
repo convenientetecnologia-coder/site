@@ -16,7 +16,7 @@ Este arquivo é o manual de operação do projeto em `C:\site`.
 - Quality gate:
   - `npm run validate` (falha se tiver títulos/H1 repetidos, páginas faltando, etc.)
 - Auditoria de depoimentos:
-  - `npm run audit:testimonials` (gera registro humano e acusa duplicados)
+  - `npm run audit:testimonials` (gera `docs/AUDITORIA_DEPOIMENTOS.md` e acusa duplicados)
 
 Importante: **não existe servidor Node rodando em produção** neste padrão. O Node é só ferramenta de build.
 
@@ -70,6 +70,23 @@ Objetivo: nunca deixar o Google indexar páginas rascunho.
   - meta robots usa `index,follow`
 
 Configuração: `src/_data/publish_config.json`
+
+---
+
+### WhatsApp (CTA) + métricas (CANÔNICO)
+
+O CTA de WhatsApp é gerado por página usando `wa.me` e texto pré-preenchido.
+
+Configuração (fonte de verdade): `src/_data/site.json`
+
+- `whatsAppNumberE164`: número em E.164 **somente dígitos** (ex.: `5548999999999`)
+- `whatsAppTemplates`: textos por tipo (usa `{CITY}`)
+- `trackingEndpoint`: endpoint público HTTPS do CT para telemetria (pageview + clique WhatsApp)
+  - exemplo de formato: `https://SEU_CT_DOMINIO/convenientetecnologia/api/site/event`
+
+Gates:
+
+- Em `production`, `npm run validate` **falha** se `whatsAppNumberE164` ou `trackingEndpoint` estiverem vazios/ inválidos.
 
 ---
 

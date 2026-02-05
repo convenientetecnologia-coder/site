@@ -22,7 +22,7 @@
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/assets/site.css" />
   </head>
-  <body>
+  <body data-page-type="{{ pageMeta.type or 'home' }}" data-city-slug="{{ pageMeta.citySlug or '' }}">
     <header class="top">
       <div class="wrap">
         <a class="brand" href="/">{{ site.brandName }}</a>
@@ -42,6 +42,57 @@
         <div class="muted">© {{ ("" | toISODate) | slice(0,4) }} {{ site.brandName }}.</div>
       </div>
     </footer>
+
+    <script>
+      (() => {
+        try {
+          const endpoint = "{{ site.trackingEndpoint }}";
+          if (!endpoint || !/^https?:\/\//i.test(endpoint)) return;
+
+          const pageType = document.body.getAttribute("data-page-type") || "";
+          const citySlug = document.body.getAttribute("data-city-slug") || "";
+          const sidKey = "ct_site_sid_v1";
+          let sid = "";
+          try {
+            sid = localStorage.getItem(sidKey) || "";
+            if (!sid) {
+              sid = (Math.random().toString(16).slice(2) + Date.now().toString(16)).slice(0, 48);
+              localStorage.setItem(sidKey, sid);
+            }
+          } catch {}
+
+          function beacon(event, extra) {
+            try {
+              const payload = Object.assign({
+                v: 1,
+                event,
+                ts: Date.now(),
+                sid,
+                pageType,
+                citySlug,
+                path: location.pathname || "",
+                ref: document.referrer || ""
+              }, (extra || {}));
+              const blob = new Blob([JSON.stringify(payload)], { type: "text/plain;charset=UTF-8" });
+              navigator.sendBeacon(endpoint, blob);
+            } catch {}
+          }
+
+          // pageview (sem bloquear a navegação)
+          beacon("pageview");
+
+          // whatsapp click (captura)
+          document.addEventListener("click", (ev) => {
+            const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[data-ct-wa='1']") : null;
+            if (!a) return;
+            beacon("whatsapp_click", {
+              href: a.getAttribute("href") || "",
+              waKind: a.getAttribute("data-wa-kind") || ""
+            });
+          }, { capture: true });
+        } catch {}
+      })();
+    </script>
   </body>
 </html>
 

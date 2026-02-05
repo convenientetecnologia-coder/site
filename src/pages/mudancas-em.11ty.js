@@ -12,7 +12,19 @@ function escapeHtml(s) {
     .replaceAll("'", "&#39;");
 }
 
-function whatsLink() { return "/#contato"; }
+function whatsText({ data, city, kind }) {
+  const tplMap = (data && data.site && data.site.whatsAppTemplates) ? data.site.whatsAppTemplates : null;
+  const tpl = tplMap && tplMap[kind] ? String(tplMap[kind]) : String((data && data.site && data.site.whatsAppDefaultText) || "");
+  return tpl.replaceAll("{CITY}", city.name);
+}
+
+function whatsLink({ data, city, kind }) {
+  const raw = String((data && data.site && data.site.whatsAppNumberE164) || "").trim();
+  const digits = raw.replace(/\D/g, "");
+  if (!digits) return "/#contato";
+  const text = whatsText({ data, city, kind });
+  return `https://wa.me/${digits}?text=${encodeURIComponent(text)}`;
+}
 
 function renderTestimonialsSection(city, publishMode) {
   const list = testimonials.pickFor({ citySlug: city.slug, type: "mudancas", limit: 3 });
@@ -69,7 +81,7 @@ function renderBody(city, data) {
             <p>${escapeHtml(open)}</p>
             <p><b>Urgência:</b> ${escapeHtml(urg)}</p>
             <div class="ctaRow">
-              <a class="btn primary" href="${whatsLink()}">Chamar no WhatsApp</a>
+              <a class="btn primary" data-ct-wa="1" data-wa-kind="mudancas" href="${whatsLink({ data, city, kind: "mudancas" })}">Chamar no WhatsApp</a>
               <a class="btn secondary" href="/fretes-em-${encodeURIComponent(city.slug)}/">Ver fretes</a>
             </div>
           </div>
@@ -111,6 +123,7 @@ module.exports = class {
       pagination: { data: "publishedCities", size: 1, alias: "city" },
       permalink: (data) => `/mudancas-em-${data.city.slug}/`,
       eleventyComputed: {
+        pageMeta: (data) => ({ type: "mudancas", citySlug: data.city.slug }),
         seo: (data) => {
           const city = data.city;
           const title = `Mudanças em ${city.name} | Atendimento Rápido e Profissional`;

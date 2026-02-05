@@ -100,6 +100,27 @@ function main() {
   const minWordsDraftWarn = 250;
   const minWordsProduction = 1200;
 
+  // gate de configuração (produção): WhatsApp e tracking devem estar configurados.
+  if (publishMode === "production") {
+    try {
+      const siteCfg = require(path.join(ROOT, "src", "_data", "site.json"));
+      const raw = String(siteCfg && siteCfg.whatsAppNumberE164 || "").trim();
+      const digits = raw.replace(/\D/g, "");
+      if (!digits || digits.length < 10) {
+        fail("Config inválida: src/_data/site.json: whatsAppNumberE164 vazio/curto (use E.164 somente dígitos, ex.: 5548999999999).");
+        bad++;
+      }
+      const endpoint = String(siteCfg && siteCfg.trackingEndpoint || "").trim();
+      if (!endpoint || !/^https:\/\//i.test(endpoint)) {
+        fail("Config inválida: src/_data/site.json: trackingEndpoint vazio ou não-HTTPS (necessário para métricas enterprise).");
+        bad++;
+      }
+    } catch {
+      fail("Falha ao ler src/_data/site.json para validar config de produção (WhatsApp/tracking).");
+      bad++;
+    }
+  }
+
   // gate global: depoimentos não podem ter texto duplicado (fingerprint igual)
   // Em draft: WARN. Em production: FAIL.
   try {

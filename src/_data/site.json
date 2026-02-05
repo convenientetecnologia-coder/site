@@ -4,6 +4,12 @@
   "siteUrl": "https://www.FretesOuMudancas.com.br",
   "whatsAppNumberE164": "",
   "whatsAppDefaultText": "Olá! Quero um orçamento de frete/mudança.",
+  "whatsAppTemplates": {
+    "fretes": "Olá! Quero um orçamento de frete em {CITY}.",
+    "mudancas": "Olá! Quero um orçamento de mudança em {CITY}.",
+    "urgente": "Olá! Preciso de frete urgente em {CITY} (atendimento hoje/agora, se possível)."
+  },
+  "trackingEndpoint": "",
   "defaultOgImage": "/assets/og-default.svg"
 }
 

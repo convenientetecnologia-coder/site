@@ -81,7 +81,7 @@ function renderBody(city, data) {
             <p>${escapeHtml(p2)}</p>
             <p><b>Urgência:</b> ${escapeHtml(urg)}</p>
             <div class="ctaRow">
-              <a class="btn primary" href="${whatsLink()}">Chamar no WhatsApp</a>
+              <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Chamar no WhatsApp</a>
               <a class="btn secondary" href="/frete-urgente-em-${encodeURIComponent(city.slug)}/">Ver frete urgente</a>
             </div>
           </div>
@@ -114,7 +114,7 @@ function renderBody(city, data) {
         <h2>Bairros atendidos em ${escapeHtml(city.name)}</h2>
         <p class="muted">Atendemos todos os bairros de ${escapeHtml(city.name)}. Confirme sua localização no WhatsApp para priorização logística.</p>
         <div class="ctaRow">
-          <a class="btn primary" href="${whatsLink()}">Pedir orçamento rápido</a>
+          <a class="btn primary" data-ct-wa="1" data-wa-kind="fretes" href="${whatsLink({ data, city, kind: "fretes" })}">Pedir orçamento rápido</a>
           <a class="btn secondary" href="/mudancas-em-${encodeURIComponent(city.slug)}/">Ver mudanças</a>
         </div>
       </section>
@@ -134,10 +134,18 @@ function escapeHtml(s) {
     .replaceAll("'", "&#39;");
 }
 
-function whatsLink() {
-  // placeholder: configurar em src/_data/site.json
-  // sem número, aponta para a home por enquanto (evita link quebrado em publish acidental)
-  return "/#contato";
+function whatsText({ data, city, kind }) {
+  const tplMap = (data && data.site && data.site.whatsAppTemplates) ? data.site.whatsAppTemplates : null;
+  const tpl = tplMap && tplMap[kind] ? String(tplMap[kind]) : String((data && data.site && data.site.whatsAppDefaultText) || "");
+  return tpl.replaceAll("{CITY}", city.name);
+}
+
+function whatsLink({ data, city, kind }) {
+  const raw = String((data && data.site && data.site.whatsAppNumberE164) || "").trim();
+  const digits = raw.replace(/\D/g, "");
+  if (!digits) return "/#contato";
+  const text = whatsText({ data, city, kind });
+  return `https://wa.me/${digits}?text=${encodeURIComponent(text)}`;
 }
 
 module.exports = class {
@@ -147,6 +155,7 @@ module.exports = class {
       pagination: { data: "publishedCities", size: 1, alias: "city" },
       permalink: (data) => `/fretes-em-${data.city.slug}/`,
       eleventyComputed: {
+        pageMeta: (data) => ({ type: "fretes", citySlug: data.city.slug }),
         seo: (data) => {
           const city = data.city;
           const title = `Fretes em ${city.name} | Atendimento Rápido e Profissional`;

@@ -12,7 +12,19 @@ function escapeHtml(s) {
     .replaceAll("'", "&#39;");
 }
 
-function whatsLink() { return "/#contato"; }
+function whatsText({ data, city, kind }) {
+  const tplMap = (data && data.site && data.site.whatsAppTemplates) ? data.site.whatsAppTemplates : null;
+  const tpl = tplMap && tplMap[kind] ? String(tplMap[kind]) : String((data && data.site && data.site.whatsAppDefaultText) || "");
+  return tpl.replaceAll("{CITY}", city.name);
+}
+
+function whatsLink({ data, city, kind }) {
+  const raw = String((data && data.site && data.site.whatsAppNumberE164) || "").trim();
+  const digits = raw.replace(/\D/g, "");
+  if (!digits) return "/#contato";
+  const text = whatsText({ data, city, kind });
+  return `https://wa.me/${digits}?text=${encodeURIComponent(text)}`;
+}
 
 function renderTestimonialsSection(city, publishMode) {
   const list = testimonials.pickFor({ citySlug: city.slug, type: "urgente", limit: 3 });
@@ -66,7 +78,7 @@ function renderBody(city, data) {
             <p>${escapeHtml(open)}</p>
             <p class="muted"><b>Termos de urgência:</b> ${escapeHtml(t2)}, ${escapeHtml(t3)}, atendimento rápido.</p>
             <div class="ctaRow">
-              <a class="btn primary" href="${whatsLink()}">Chamar no WhatsApp agora</a>
+              <a class="btn primary" data-ct-wa="1" data-wa-kind="urgente" href="${whatsLink({ data, city, kind: "urgente" })}">Chamar no WhatsApp agora</a>
               <a class="btn secondary" href="/fretes-em-${encodeURIComponent(city.slug)}/">Ver fretes</a>
             </div>
           </div>
@@ -104,6 +116,7 @@ module.exports = class {
       pagination: { data: "publishedCities", size: 1, alias: "city" },
       permalink: (data) => `/frete-urgente-em-${data.city.slug}/`,
       eleventyComputed: {
+        pageMeta: (data) => ({ type: "urgente", citySlug: data.city.slug }),
         seo: (data) => {
           const city = data.city;
           const title = `Frete Urgente em ${city.name} | Hoje, Agora e Atendimento Imediato`;
