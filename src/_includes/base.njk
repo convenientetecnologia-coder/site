@@ -33,7 +33,7 @@
           </nav>
         {% else %}
           <nav class="nav">
-            <a class="navCta" data-ct-wa="1" data-wa-kind="topbar" href="https://wa.me/{{ site.whatsAppNumberE164 | replace('+','') | replace(' ','') }}">WhatsApp</a>
+            <a class="navCta" data-ct-wa="1" data-wa-kind="topbar" href="https://wa.me/{{ site.whatsAppNumberE164 | replace('+','') | replace(' ','') | replace('-','') | replace('(','') | replace(')','') }}?text={{ (site.whatsAppDefaultText or '') | urlencode }}">WhatsApp</a>
           </nav>
         {% endif %}
       </div>
@@ -52,7 +52,7 @@
     {% if (pageMeta.type == "fretes" or pageMeta.type == "mudancas" or pageMeta.type == "urgente") %}
       <div class="waDock" id="ctWaDock" aria-label="Atalho WhatsApp">
         <div class="wrap waDockInner">
-          <a class="btn primary waDockBtn" data-ct-wa="1" data-wa-kind="dock" href="/#contato">Chamar no WhatsApp</a>
+          <a class="btn primary waDockBtn" data-ct-wa="1" data-wa-kind="dock" href="https://wa.me/{{ site.whatsAppNumberE164 | replace('+','') | replace(' ','') | replace('-','') | replace('(','') | replace(')','') }}?text={{ (site.whatsAppDefaultText or '') | urlencode }}">Chamar no WhatsApp</a>
         </div>
       </div>
     {% endif %}
@@ -60,6 +60,36 @@
     <script>
       (() => {
         try {
+          // ===== UX wiring (sempre) =====
+          // âncora contato: scroll suave e previsível
+          try {
+            document.addEventListener("click", (ev) => {
+              const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[href='#contato']") : null;
+              if (!a) return;
+              ev.preventDefault();
+              const el = document.getElementById("contato");
+              if (el && el.scrollIntoView) el.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+          } catch {}
+
+          // força topbar/dock a usar o melhor link WA da página (com mensagem automática)
+          function bestWhatsHref() {
+            const best = document.querySelector("a[data-ct-wa='1'][data-wa-kind='fretes'], a[data-ct-wa='1'][data-wa-kind='mudancas'], a[data-ct-wa='1'][data-wa-kind='urgente'], a[data-ct-wa='1']");
+            const href = best && best.getAttribute ? (best.getAttribute("href") || "") : "";
+            return href;
+          }
+          try {
+            const href = bestWhatsHref();
+            if (href) {
+              const top = document.querySelector("a[data-wa-kind='topbar']");
+              if (top) top.setAttribute("href", href);
+              const dock = document.getElementById("ctWaDock");
+              const dockA = dock ? dock.querySelector("a") : null;
+              if (dockA) dockA.setAttribute("href", href);
+            }
+          } catch {}
+
+          // ===== Tracking (somente se endpoint válido) =====
           const endpoint = "{{ site.trackingEndpoint }}";
           if (!endpoint || !/^https?:\/\//i.test(endpoint)) return;
 
@@ -104,27 +134,6 @@
               waKind: a.getAttribute("data-wa-kind") || ""
             });
           }, { capture: true });
-
-          // dock: usa o melhor link de WhatsApp da página (primeiro botão da página)
-          try {
-            const dock = document.getElementById("ctWaDock");
-            if (dock) {
-              const best = document.querySelector("a[data-ct-wa='1'][data-wa-kind='fretes'], a[data-ct-wa='1'][data-wa-kind='mudancas'], a[data-ct-wa='1'][data-wa-kind='urgente'], a[data-ct-wa='1']");
-              const dockA = dock.querySelector("a");
-              if (best && dockA && best.getAttribute("href")) dockA.setAttribute("href", best.getAttribute("href"));
-            }
-          } catch {}
-
-          // âncora contato: scroll suave e previsível
-          try {
-            document.addEventListener("click", (ev) => {
-              const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[href='#contato']") : null;
-              if (!a) return;
-              ev.preventDefault();
-              const el = document.getElementById("contato");
-              if (el && el.scrollIntoView) el.scrollIntoView({ behavior: "smooth", block: "start" });
-            });
-          } catch {}
         } catch {}
       })();
     </script>

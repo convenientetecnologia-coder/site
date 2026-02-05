@@ -27,7 +27,7 @@
         
         
           <nav class="nav">
-            <a class="navCta" data-ct-wa="1" data-wa-kind="topbar" href="https://wa.me/555181861260">WhatsApp</a>
+            <a class="navCta" data-ct-wa="1" data-wa-kind="topbar" href="https://wa.me/555181861260?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20frete%2Fmudan%C3%A7a.">WhatsApp</a>
           </nav>
         
       </div>
@@ -151,7 +151,7 @@
     
       <div class="waDock" id="ctWaDock" aria-label="Atalho WhatsApp">
         <div class="wrap waDockInner">
-          <a class="btn primary waDockBtn" data-ct-wa="1" data-wa-kind="dock" href="/#contato">Chamar no WhatsApp</a>
+          <a class="btn primary waDockBtn" data-ct-wa="1" data-wa-kind="dock" href="https://wa.me/555181861260?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20frete%2Fmudan%C3%A7a.">Chamar no WhatsApp</a>
         </div>
       </div>
     
@@ -159,6 +159,36 @@
     <script>
       (() => {
         try {
+          // ===== UX wiring (sempre) =====
+          // âncora contato: scroll suave e previsível
+          try {
+            document.addEventListener("click", (ev) => {
+              const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[href='#contato']") : null;
+              if (!a) return;
+              ev.preventDefault();
+              const el = document.getElementById("contato");
+              if (el && el.scrollIntoView) el.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+          } catch {}
+
+          // força topbar/dock a usar o melhor link WA da página (com mensagem automática)
+          function bestWhatsHref() {
+            const best = document.querySelector("a[data-ct-wa='1'][data-wa-kind='fretes'], a[data-ct-wa='1'][data-wa-kind='mudancas'], a[data-ct-wa='1'][data-wa-kind='urgente'], a[data-ct-wa='1']");
+            const href = best && best.getAttribute ? (best.getAttribute("href") || "") : "";
+            return href;
+          }
+          try {
+            const href = bestWhatsHref();
+            if (href) {
+              const top = document.querySelector("a[data-wa-kind='topbar']");
+              if (top) top.setAttribute("href", href);
+              const dock = document.getElementById("ctWaDock");
+              const dockA = dock ? dock.querySelector("a") : null;
+              if (dockA) dockA.setAttribute("href", href);
+            }
+          } catch {}
+
+          // ===== Tracking (somente se endpoint válido) =====
           const endpoint = "https://c0nv3n13nt3t3cn0l0g14jesus.sa.ngrok.io/convenientetecnologia/api/site/event";
           if (!endpoint || !/^https?:\/\//i.test(endpoint)) return;
 
@@ -203,27 +233,6 @@
               waKind: a.getAttribute("data-wa-kind") || ""
             });
           }, { capture: true });
-
-          // dock: usa o melhor link de WhatsApp da página (primeiro botão da página)
-          try {
-            const dock = document.getElementById("ctWaDock");
-            if (dock) {
-              const best = document.querySelector("a[data-ct-wa='1'][data-wa-kind='fretes'], a[data-ct-wa='1'][data-wa-kind='mudancas'], a[data-ct-wa='1'][data-wa-kind='urgente'], a[data-ct-wa='1']");
-              const dockA = dock.querySelector("a");
-              if (best && dockA && best.getAttribute("href")) dockA.setAttribute("href", best.getAttribute("href"));
-            }
-          } catch {}
-
-          // âncora contato: scroll suave e previsível
-          try {
-            document.addEventListener("click", (ev) => {
-              const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[href='#contato']") : null;
-              if (!a) return;
-              ev.preventDefault();
-              const el = document.getElementById("contato");
-              if (el && el.scrollIntoView) el.scrollIntoView({ behavior: "smooth", block: "start" });
-            });
-          } catch {}
         } catch {}
       })();
     </script>
