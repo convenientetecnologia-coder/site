@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Fretes e Mudanças">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25d366"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#0b1220"/>
+  <path d="M56 152c0-40 32-72 72-72h22c28 0 50 22 50 50v22c0 28-22 50-50 50h-22c-40 0-72-32-72-72z" fill="url(#g)"/>
+  <path d="M92 148h72" stroke="#07120c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M116 120h24" stroke="#07120c" stroke-width="18" stroke-linecap="round"/>
+</svg>
+

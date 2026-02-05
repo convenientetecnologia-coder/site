@@ -1,0 +1,33 @@
+---
+layout: base.njk
+permalink: /
+eleventyExcludeFromCollections: false
+seo:
+  title: "Fretes e Mudanças | Atendimento rápido por WhatsApp"
+  description: "Fretes e mudanças com atendimento rápido, seguro e profissional. Escolha sua cidade e chame no WhatsApp."
+  canonical: "https://www.FretesOuMudancas.com.br/"
+  ogImage: "/assets/og-default.svg"
+---
+
+<div class="wrap">
+  <section class="card hero">
+    <div class="kicker">Padrão SEO • Páginas por cidade • Atendimento rápido</div>
+    <h1>Fretes e Mudanças com atendimento rápido</h1>
+    <p class="muted">Escolha sua cidade e veja as páginas oficiais: fretes, mudanças e frete urgente — sem spam e com clareza.</p>
+    <div class="ctaRow">
+      <a class="btn secondary" href="#cidades">Ver cidades</a>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:18px" id="cidades">
+    <h2>Cidades atendidas</h2>
+    <p class="muted">Selecione uma cidade e escolha o tipo de página.</p>
+
+    <div class="chips">
+      {% for c in cities %}
+        <a class="chip" href="/fretes-em-{{ c.slug }}/">{{ c.name }}</a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
