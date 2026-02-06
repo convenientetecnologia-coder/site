@@ -1,0 +1,24 @@
+### Research — Porto Alegre (RS)
+
+Gerado em: 2026-02-06T01:01:25.530Z
+
+## Sources
+- EPTC | Prefeitura de Porto Alegre: https://prefeitura.poa.br/eptc
+- Novos acessos de entrada e saída da Capital são liberados nesta sexta-feira | Prefeitura de Porto Alegre: https://prefeitura.poa.br/eptc/noticias/novos-acessos-de-entrada-e-saida-da-capital-sao-liberados-nesta-sexta-feira
+- Prefeitura mantém tabela especial do transporte coletivo em dias úteis | Prefeitura de Porto Alegre: https://prefeitura.poa.br/eptc/noticias/prefeitura-mantem-tabela-especial-do-transporte-coletivo-em-dias-uteis
+- Perguntas Frequentes — Trensurb (gov.br): https://www.gov.br/trensurb/pt-br/acesso-a-informacao/perguntas-frequentes
+- PF fiscaliza Aeroporto Internacional Salgado Filho/RS para a reabertura — Polícia Federal: https://www.gov.br/pf/pt-br/assuntos/noticias/2024/10/pf-fiscaliza-aeroporto-internacional-salgado-filho-rs-para-a-reabertura
+- Aeroporto Salgado Filho volta a operar depois de meses fechado por causa das enchentes — Secretaria de Comunicação Social (gov.br): https://www.gov.br/secom/pt-br/assuntos/noticias/2024/10/aeroporto-salgado-filho-volta-a-operar-depois-de-meses-fechado-por-causa-das-enchentes
+- Voos internacionais quase triplicam após reabertura do Salgado Filho e fortalecem turismo e negócios no Estado - Portal do Estado do Rio Grande do Sul: https://estado.rs.gov.br/voos-internacionais-quase-triplicam-apos-reabertura-do-salgado-filho-e-fortalecem-turismo-e-negocios-no-estado
+
+## Notes (high confidence)
+- Para páginas locais de fretes/mudanças em Porto Alegre, vale referenciar a EPTC como órgão municipal gestor do trânsito e mobilidade (útil para orientar clientes sobre planejamento de acesso, bloqueios e regras locais), e indicar os canais públicos de contato/atendimento (incluindo o 156 como central municipal).
+- Use a noção ampla de macro-regiões para roteirização e copy local (ex.: região Central, Zona Norte, Região Leste e Zona Sul), evitando prometer cobertura por bairros específicos sem checagem; a própria Prefeitura menciona essas regiões em comunicados operacionais de trânsito/acessos.
+- Logística de chegada/saída por rodovias: comunicados da Prefeitura citam acessos ligados a BR-290 e BR-448 e orientações de conexão com avenidas urbanas (ex.: Sertório e Terceira Perimetral), o que pode virar texto genérico do tipo “acessos pela BR-290/BR-448 e distribuição pela Terceira Perimetral, conforme condições de trânsito”.
+- Alerta de sazonalidade/contingência: a Prefeitura já publicou notas com bloqueios por acúmulo de água e impacto em regiões como Centro, 4º Distrito, Cidade Baixa e Menino Deus durante a enchente de maio de 2024; em conteúdo local, trate isso como contexto histórico de eventos climáticos e recomende sempre confirmar condições de via no dia da mudança (sem afirmar que há bloqueio atualmente).
+- Mobilidade urbana e horários: em cenários de operação especial (ex.: eventos extremos), a Prefeitura já adotou tabela especial do transporte coletivo e liberou circulação de carros em faixas exclusivas; em páginas de serviço, isso pode virar orientação genérica para flexibilidade de janelas (manhã/tarde) e checagem prévia do tráfego.
+- Para conexões com aeroporto (útil em mudanças corporativas/transferências): fontes oficiais registram que o Aeroporto Salgado Filho foi interditado após enchentes de maio de 2024 e voltou a operar a partir de outubro de 2024, com retomada completa citada para dezembro de 2024; use como contexto (sem citar status atual de voos) e prefira frase do tipo “após a enchente de 2024, houve retomada gradual das operações”.
+- Intermodalidade aeroporto–metrô: a Trensurb descreve o aeromóvel ligando a Estação Aeroporto do metrô até a Estação Salgado Filho junto ao terminal; isso pode embasar uma dica genérica de acesso para clientes/colaboradores (“há conexão por trem + aeromóvel”), sem entrar em estimativas de tempo.
+- Evite afirmar regras específicas de restrição de caminhões (peso, horários, perímetros) sem fonte municipal direta e atual; em vez disso, use formulações seguras: “pode haver regras/monitoramento de circulação e áreas de carga/descarga, especialmente na área central; consulte a EPTC/Prefeitura para orientações vigentes”.
+- Linguagem local recomendada para copy: mencionar ‘Centro Histórico’ e ‘Capital’ (termos usados em comunicados da Prefeitura) e referências a grandes eixos (ex.: Terceira Perimetral, Sertório) como descritores de deslocamento, sem fazer promessas de rotas fixas.
+- Boa prática para páginas locais: incluir um bloco “planejamento de acesso” com checklist neutro (endereço completo, presença de elevador, restrição de estacionamento, necessidade de vaga para carga/descarga, horário preferencial), e um aviso de que rotas e janelas podem ser ajustadas conforme orientações/condições publicadas por órgãos oficiais (Prefeitura/EPTC).

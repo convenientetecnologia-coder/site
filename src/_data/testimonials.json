@@ -646,5 +646,329 @@
     "type": "urgente",
     "ts": 1770338980760,
     "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_01",
+    "text": "Combinei o frete pelo Whats e deu tudo certo. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Camila",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_02",
+    "text": "Precisei transportar umas caixas e foi bem tranquilo. Preço justo e atendimento bem direto.",
+    "author": "Bruno",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_03",
+    "text": "O motorista respondeu rápido e explicou tudo certinho. A entrega foi sem dor de cabeça.",
+    "author": "Renata",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_04",
+    "text": "Fizeram o carregamento com cuidado e sem pressa. Gostei da organização e pontualidade.",
+    "author": "Diego",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_05",
+    "text": "Tive uma mudança pequena e resolveu meu problema. Foram educados e cuidadosos com as coisas.",
+    "author": "Juliana",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_06",
+    "text": "Agendamento fácil e sem enrolação. O frete chegou no destino no tempo combinado.",
+    "author": "Marcos",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_07",
+    "text": "Precisava de ajuda pra levar um eletro e deu certo. Manusearam direitinho e sem arranhões.",
+    "author": "Patricia",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_08",
+    "text": "Gostei porque foram claros no orçamento e não mudaram o combinado. Serviço bem caprichado.",
+    "author": "Felipe",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_09",
+    "text": "Contratei pra buscar umas compras grandes e foi rápido. Comunicação boa do começo ao fim.",
+    "author": "Larissa",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_10",
+    "text": "Vieram com cuidado pra não bater nas paredes e embalaram o que precisava. Recomendo pra quem quer praticidade.",
+    "author": "Rafael",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_11",
+    "text": "O frete foi bem ágil e o pessoal foi gente boa. Ajudaram a acomodar tudo direitinho no veículo.",
+    "author": "Aline",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_fretes_12",
+    "text": "Eu estava com pouco tempo e eles facilitaram bastante. Cumpriram o combinado e foram bem profissionais.",
+    "author": "Sergio",
+    "citySlug": "porto-alegre",
+    "type": "fretes",
+    "ts": 1770340111158,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_01",
+    "text": "Minha mudança em Porto Alegre foi bem tranquila. A equipe chegou no horário e cuidou direitinho dos móveis.",
+    "author": "Marina",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_02",
+    "text": "Gostei da organização e do cuidado com as caixas. Tudo veio certinho, sem estresse.",
+    "author": "Rafael",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_03",
+    "text": "Responderam rápido no orçamento e combinaram tudo direitinho. No dia, foi bem ágil e sem bagunça.",
+    "author": "Camila",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_04",
+    "text": "Tinha medo de arranharem meus móveis, mas embalaram bem e foram bem cuidadosos. Recomendo.",
+    "author": "Diego",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_05",
+    "text": "Mudança de apartamento e deu tudo certo. Foram educados e deixaram tudo no lugar combinado.",
+    "author": "Fernanda",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_06",
+    "text": "Achei o serviço bem honesto e prático. A comunicação foi fácil do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_07",
+    "text": "Vieram com tudo preparado e não enrolaram. Em poucas horas já estava com as coisas na casa nova.",
+    "author": "Juliana",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_08",
+    "text": "Cuidaram bem dos itens frágeis e avisaram cada etapa. Me senti bem segura durante a mudança.",
+    "author": "Patricia",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_09",
+    "text": "Pontuais e prestativos. Até ajudaram com um móvel mais chato de desmontar, sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_10",
+    "text": "Foi minha primeira mudança e eu estava bem perdida. Eles orientaram direitinho e deu tudo certo.",
+    "author": "Aline",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_11",
+    "text": "Preço combinado e serviço entregue como prometido. Chegou tudo inteiro e bem acomodado no caminhão.",
+    "author": "Lucas",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_mudancas_12",
+    "text": "Equipe cuidadosa e rápida, sem correria desnecessária. Minha mudança em Porto Alegre foi bem mais leve assim.",
+    "author": "Renata",
+    "citySlug": "porto-alegre",
+    "type": "mudancas",
+    "ts": 1770340122398,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_01",
+    "text": "Precisava entregar ainda hoje e deu tudo certo. Responderam rápido e o frete chegou no horário combinado.",
+    "author": "Marina",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_02",
+    "text": "Chamei em cima da hora e mesmo assim conseguiram encaixar. Atendimento direto e sem enrolação.",
+    "author": "Diego",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_03",
+    "text": "Foi bem ágil do começo ao fim. Pegaram a encomenda rápido e me avisaram quando entregou.",
+    "author": "Camila",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_04",
+    "text": "Frete urgente que realmente ajudou numa emergência. Preço combinado e serviço tranquilo.",
+    "author": "Rafael",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_05",
+    "text": "Eu tava com medo de atrasar, mas chegou antes do que eu esperava. Comunicação bem clara.",
+    "author": "Juliana",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_06",
+    "text": "Solicitei de manhã e no mesmo dia já estava entregue. Muito prático pra quem tá na correria.",
+    "author": "Bruno",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_07",
+    "text": "Resolveram meu envio de última hora sem complicação. Gostei da rapidez e da atenção.",
+    "author": "Aline",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_08",
+    "text": "Precisava de um frete rápido pra um documento importante e foi super tranquilo. Passaram confiança.",
+    "author": "Fernando",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_09",
+    "text": "Atenderam na hora e já foram buscar. Chegou certinho e sem dor de cabeça.",
+    "author": "Patricia",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_10",
+    "text": "Combinei o horário e cumpriram direitinho. Ótima opção quando a entrega não pode esperar.",
+    "author": "Lucas",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_11",
+    "text": "Tudo bem organizado, sem atrasos e com retorno rápido. Vou chamar de novo quando precisar.",
+    "author": "Renata",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-alegre_urgente_12",
+    "text": "Eu precisava mandar uma peça urgente e foi resolvido rapidinho. Atendimento simples e eficiente.",
+    "author": "Gustavo",
+    "citySlug": "porto-alegre",
+    "type": "urgente",
+    "ts": 1770340132851,
+    "source": "cliente"
   }
 ]

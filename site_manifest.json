@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T00:49:43.739Z",
+  "generatedAt": "2026-02-06T01:08:55.062Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -11,6 +11,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-florianopolis/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-florianopolis/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-florianopolis/"
+      }
+    },
+    {
+      "slug": "porto-alegre",
+      "name": "Porto Alegre",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-porto-alegre/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-porto-alegre/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-porto-alegre/"
       }
     },
     {
