@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Brasília (DF): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Brasília com sistema 100% GPT:
+  - `/fretes-em-brasilia/` (~2756 palavras)
+  - `/mudancas-em-brasilia/` (~2740 palavras)
+  - `/frete-urgente-em-brasilia/` (~3249 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 34 bairros divididos em 3 blocos únicos (11/11/12 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (1 título duplicado corrigido manualmente)
+- **Por quê**: décima segunda cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `05feb85` (repo `site`)
+  - `src/_data/publish_config.json` (brasilia habilitado em production)
+  - `src/_data/city_content/brasilia.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (34 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Boa Vista (RR): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Boa Vista com sistema 100% GPT:

@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Brasília (DF)** — publicado em 2026-02-06
+  - `/fretes-em-brasilia/` (~2756 palavras)
+  - `/mudancas-em-brasilia/` (~2740 palavras)
+  - `/frete-urgente-em-brasilia/` (~3249 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 34 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `05feb85`
+
 - **Boa Vista (RR)** — publicado em 2026-02-06
   - `/fretes-em-boa-vista/` (~3117 palavras)
   - `/mudancas-em-boa-vista/` (~3090 palavras)
