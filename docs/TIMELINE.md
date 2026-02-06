@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Campos dos Goytacazes (RJ): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Campos dos Goytacazes com sistema 100% GPT:
+  - `/fretes-em-campos-dos-goytacazes/` (~3066 palavras)
+  - `/mudancas-em-campos-dos-goytacazes/` (~3117 palavras)
+  - `/frete-urgente-em-campos-dos-goytacazes/` (~3402 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 38 bairros divididos em 3 blocos únicos (12/13/13 por página)
+  - 35 depoimentos (12/12/11 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (1 título duplicado corrigido manualmente)
+- **Por quê**: décima sexta cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `91f18c9` (repo `site`)
+  - `src/_data/publish_config.json` (campos-dos-goytacazes habilitado em production)
+  - `src/_data/city_content/campos-dos-goytacazes.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (38 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (35 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Campo Grande (MS): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Campo Grande com sistema 100% GPT:

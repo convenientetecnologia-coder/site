@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Campos dos Goytacazes (RJ)** — publicado em 2026-02-06
+  - `/fretes-em-campos-dos-goytacazes/` (~3066 palavras)
+  - `/mudancas-em-campos-dos-goytacazes/` (~3117 palavras)
+  - `/frete-urgente-em-campos-dos-goytacazes/` (~3402 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 38 bairros divididos em 3 blocos únicos
+  - 35 depoimentos (12/12/11 por tipo)
+  - Commit: `91f18c9`
+
 - **Campo Grande (MS)** — publicado em 2026-02-06
   - `/fretes-em-campo-grande/` (~2934 palavras)
   - `/mudancas-em-campo-grande/` (~2830 palavras)
