@@ -912,5 +912,88 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "boa-vista": {
+    "city": "Boa Vista",
+    "state": "RR",
+    "all": [
+      "Centro",
+      "São Francisco",
+      "São Vicente",
+      "Mecejana",
+      "Caçari",
+      "Paraviana",
+      "Aparecida",
+      "Calungá",
+      "13 de Setembro",
+      "Liberdade",
+      "Buritis",
+      "Cinturão Verde",
+      "Jardim Floresta",
+      "Jardim Primavera",
+      "Jardim Tropical",
+      "Tancredo Neves",
+      "Asa Branca",
+      "Cambará",
+      "Caranã",
+      "Cauamé",
+      "Cidade Satélite",
+      "Doutor Silvio Botelho",
+      "Equatorial",
+      "Nova Cidade",
+      "Pintolândia",
+      "Raiar do Sol",
+      "Santa Tereza",
+      "União",
+      "Pricumã",
+      "Aeroporto",
+      "Treze de Setembro"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "São Francisco",
+        "São Vicente",
+        "Mecejana",
+        "Caçari",
+        "Paraviana",
+        "Aparecida",
+        "Calungá",
+        "13 de Setembro",
+        "Liberdade"
+      ],
+      "mudancas": [
+        "Buritis",
+        "Cinturão Verde",
+        "Jardim Floresta",
+        "Jardim Primavera",
+        "Jardim Tropical",
+        "Tancredo Neves",
+        "Asa Branca",
+        "Cambará",
+        "Caranã",
+        "Cauamé"
+      ],
+      "urgente": [
+        "Cidade Satélite",
+        "Doutor Silvio Botelho",
+        "Equatorial",
+        "Nova Cidade",
+        "Pintolândia",
+        "Raiar do Sol",
+        "Santa Tereza",
+        "União",
+        "Pricumã",
+        "Aeroporto",
+        "Treze de Setembro"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T15:46:24.455Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

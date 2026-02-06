@@ -3220,5 +3220,320 @@
     "type": "urgente",
     "ts": 1770392129280,
     "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. Motorista cuidadoso com as caixas e bem educado.",
+    "author": "Camila",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_02",
+    "text": "Precisei levar uns móveis e foi tudo bem tranquilo. Preço justo e comunicação clara do começo ao fim.",
+    "author": "Rafael",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_03",
+    "text": "Responderam rápido e já agendaram para o mesmo dia. A carga veio bem presa e sem danos.",
+    "author": "Juliana",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_04",
+    "text": "Fiz frete de mercadorias para minha loja e deu tudo certo. Pontualidade e muita organização na entrega.",
+    "author": "Bruno",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_05",
+    "text": "O atendimento foi direto e sem enrolação. Chegaram, carregaram com cuidado e entregaram certinho.",
+    "author": "Aline",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_06",
+    "text": "Tinha medo de arranhar a geladeira, mas eles protegeram bem. Serviço caprichado e rápido.",
+    "author": "Marcos",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_07",
+    "text": "Usei para transportar caixas de mudança e gostei bastante. Tudo bem combinado e sem surpresa no valor.",
+    "author": "Fernanda",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_08",
+    "text": "O motorista avisou quando estava a caminho e isso ajudou muito. Frete tranquilo e sem estresse.",
+    "author": "Diego",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_09",
+    "text": "Contratei em cima da hora e mesmo assim conseguiram encaixar. Chegou tudo inteiro e no prazo.",
+    "author": "Larissa",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_10",
+    "text": "A equipe foi cuidadosa na hora de subir com os volumes. Atendimento simples e eficiente.",
+    "author": "Paulo",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_11",
+    "text": "Fizeram o transporte de um sofá grande e deu certo. Foram pacientes e bem cuidadosos ao manobrar.",
+    "author": "Tatiane",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_fretes_12",
+    "text": "Gostei da transparência na negociação e do capricho no carregamento. Recomendo para quem precisa de frete.",
+    "author": "Gustavo",
+    "citySlug": "boa-vista",
+    "type": "fretes",
+    "ts": 1770392793470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_01",
+    "text": "Fiz minha mudança em Boa Vista com eles e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Mariana",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_02",
+    "text": "Equipe bem tranquila e cuidadosa. Embalaram as coisas direitinho e a mudança foi mais rápida do que eu esperava.",
+    "author": "Rafael",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_03",
+    "text": "Gostei da comunicação: combinaram tudo antes e foram atualizando durante o trajeto. Nada de dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_04",
+    "text": "Tinha móveis mais pesados e eles deram conta sem correria. Chegou tudo inteiro e bem posicionado na nova casa.",
+    "author": "Bruno",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_05",
+    "text": "Preço justo e serviço caprichado. Foram cuidadosos com caixas e eletros, e ainda ajudaram a organizar no final.",
+    "author": "Aline",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_06",
+    "text": "Eu estava com pouco tempo e eles agilizaram bem. Resolveram tudo com calma e sem bagunça.",
+    "author": "Diego",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_07",
+    "text": "Atendimento rápido desde o primeiro contato. No dia, foram bem educados e protegeram os móveis para não riscar.",
+    "author": "Juliana",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_08",
+    "text": "Mudança de apartamento com escada e foi bem tranquilo. Eles se viraram bem e não danificaram nada.",
+    "author": "Felipe",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_09",
+    "text": "Gostei do cuidado com itens frágeis. Minhas louças chegaram certinhas e as caixas vieram bem acomodadas.",
+    "author": "Patricia",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_10",
+    "text": "Pontuais e práticos. A equipe desmontou e montou o que precisava, e ficou tudo certinho no novo lugar.",
+    "author": "Lucas",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_11",
+    "text": "Serviço bem combinado do começo ao fim. Foram transparentes com o que estava incluso e cumpriram o combinado.",
+    "author": "Renata",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_mudancas_12",
+    "text": "Fizeram a mudança em Boa Vista com bastante cuidado e respeito. Deu para confiar e eu contrataria de novo.",
+    "author": "Thiago",
+    "citySlug": "boa-vista",
+    "type": "mudancas",
+    "ts": 1770392803505,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e combinaram o horário certinho.",
+    "author": "Marina",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_02",
+    "text": "Atendimento direto, sem enrolação. O frete urgente salvou meu dia e o preço foi justo.",
+    "author": "Camila",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_03",
+    "text": "Eu estava com pressa e eles foram bem ágeis na retirada. Acompanhar a entrega foi fácil.",
+    "author": "Bruno",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_04",
+    "text": "Combinei pelo chat e em pouco tempo já estavam a caminho. Chegou dentro do que a gente acertou.",
+    "author": "Aline",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_05",
+    "text": "Precisava levar umas caixas com urgência e foram bem cuidadosos. Comunicação rápida do início ao fim.",
+    "author": "Diego",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_06",
+    "text": "Gostei porque deram previsão realista e cumpriram. Para frete urgente, foi bem organizado.",
+    "author": "Fernanda",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_07",
+    "text": "Resolveram meu envio de última hora sem complicação. Motorista educado e entrega sem susto.",
+    "author": "Lucas",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_08",
+    "text": "O retorno foi quase imediato e já passaram os detalhes do frete. Chegou rápido e sem danos.",
+    "author": "Juliana",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_09",
+    "text": "Tive uma urgência no trabalho e precisei mandar um volume no mesmo dia. Deu tudo certo, bem combinado.",
+    "author": "Gustavo",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_10",
+    "text": "Serviço bem prático: pedi, confirmaram e buscaram rápido. A entrega foi no prazo que me falaram.",
+    "author": "Patricia",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_11",
+    "text": "Fiquei com receio por ser urgente, mas foram bem profissionais. Me atualizaram durante o caminho.",
+    "author": "Renato",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770392813046,
+    "source": "cliente"
   }
 ]
