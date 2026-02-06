@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Cuiabá (MT)** — publicado em 2026-02-06
+  - `/fretes-em-cuiaba/` (~2955 palavras)
+  - `/mudancas-em-cuiaba/` (~3007 palavras)
+  - `/frete-urgente-em-cuiaba/` (~3098 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `cfec3d4`
+
 - **Caxias do Sul (RS)** — publicado em 2026-02-06
   - `/fretes-em-caxias-do-sul/` (~3164 palavras)
   - `/mudancas-em-caxias-do-sul/` (~3209 palavras)
