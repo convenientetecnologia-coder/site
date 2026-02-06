@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Duque de Caxias (RJ)** — publicado em 2026-02-06
+  - `/fretes-em-duque-de-caxias/` (~3082 palavras)
+  - `/mudancas-em-duque-de-caxias/` (~3005 palavras)
+  - `/frete-urgente-em-duque-de-caxias/` (~3386 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 30 bairros divididos em 3 blocos únicos
+  - 35 depoimentos (11/12/12 por tipo)
+  - Commit: `5ed044d`
+
 - **Curitiba (PR)** — publicado em 2026-02-06
   - `/fretes-em-curitiba/` (~3229 palavras)
   - `/mudancas-em-curitiba/` (~2939 palavras)
