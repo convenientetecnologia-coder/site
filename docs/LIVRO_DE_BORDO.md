@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Foz do Iguaçu (PR)** — publicado em 2026-02-06
+  - `/fretes-em-foz-do-iguacu/` (~2906 palavras)
+  - `/mudancas-em-foz-do-iguacu/` (~3187 palavras)
+  - `/frete-urgente-em-foz-do-iguacu/` (~3368 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 32 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `90ef663`
+
 - **Fortaleza (CE)** — publicado em 2026-02-06
   - `/fretes-em-fortaleza/` (~3213 palavras)
   - `/mudancas-em-fortaleza/` (~3047 palavras)
