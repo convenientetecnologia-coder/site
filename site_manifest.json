@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T15:28:26.259Z",
+  "generatedAt": "2026-02-06T15:35:32.460Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -56,6 +56,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-belo-horizonte/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-belo-horizonte/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-belo-horizonte/"
+      }
+    },
+    {
+      "slug": "blumenau",
+      "name": "Blumenau",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-blumenau/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-blumenau/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-blumenau/"
       }
     },
     {

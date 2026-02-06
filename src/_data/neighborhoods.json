@@ -825,5 +825,92 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "blumenau": {
+    "city": "Blumenau",
+    "state": "SC",
+    "all": [
+      "Centro",
+      "Badenfurt",
+      "Garcia",
+      "Velha",
+      "Velha Central",
+      "Velha Grande",
+      "Itoupava Central",
+      "Itoupava Norte",
+      "Itoupava Seca",
+      "Itoupavazinha",
+      "Fortaleza",
+      "Fortaleza Alta",
+      "Vila Nova",
+      "Victor Konder",
+      "Vorstadt",
+      "Ponta Aguda",
+      "Ribeirão Fresco",
+      "Bom Retiro",
+      "Jardim Blumenau",
+      "Escola Agrícola",
+      "Salto",
+      "Salto do Norte",
+      "Salto Weissbach",
+      "Passo Manso",
+      "Progresso",
+      "Nova Esperança",
+      "Fidélis",
+      "Tribess",
+      "Água Verde",
+      "Glória",
+      "Valparaíso",
+      "Testo Salto",
+      "Da Glória"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Badenfurt",
+        "Garcia",
+        "Velha",
+        "Velha Central",
+        "Velha Grande",
+        "Itoupava Central",
+        "Itoupava Norte",
+        "Itoupava Seca",
+        "Itoupavazinha",
+        "Fortaleza"
+      ],
+      "mudancas": [
+        "Fortaleza Alta",
+        "Vila Nova",
+        "Victor Konder",
+        "Vorstadt",
+        "Ponta Aguda",
+        "Ribeirão Fresco",
+        "Bom Retiro",
+        "Jardim Blumenau",
+        "Escola Agrícola",
+        "Salto",
+        "Salto do Norte"
+      ],
+      "urgente": [
+        "Salto Weissbach",
+        "Passo Manso",
+        "Progresso",
+        "Nova Esperança",
+        "Fidélis",
+        "Tribess",
+        "Água Verde",
+        "Glória",
+        "Valparaíso",
+        "Testo Salto",
+        "Da Glória"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T15:34:58.296Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

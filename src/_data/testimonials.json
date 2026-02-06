@@ -2896,5 +2896,329 @@
     "type": "urgente",
     "ts": 1770391670271,
     "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. Pessoal cuidadoso com as caixas e bem fácil de alinhar tudo.",
+    "author": "Mariana",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_02",
+    "text": "Precisei levar uns móveis e foi bem tranquilo. Responderam rápido e o valor ficou justo pelo serviço.",
+    "author": "Diego",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_03",
+    "text": "A equipe embalou direitinho e não teve nenhuma avaria. Gostei da atenção do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_04",
+    "text": "Fiz o agendamento pra mesma semana e deu tudo certo. Pontuais e bem organizados na hora de carregar.",
+    "author": "Rafael",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_05",
+    "text": "Frete para mudança pequena e foi bem mais simples do que eu imaginava. Comunicação clara e sem enrolação.",
+    "author": "Juliana",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_06",
+    "text": "Transportaram eletrodomésticos com cuidado e prenderam tudo direitinho no veículo. Chegou tudo intacto.",
+    "author": "Bruno",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_07",
+    "text": "Gostei porque explicaram direitinho como seria o processo. No dia, foram rápidos e respeitaram o combinado.",
+    "author": "Patricia",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_08",
+    "text": "Tinha coisas frágeis e fiquei com receio, mas deu certo. Manusearam com calma e atenção.",
+    "author": "Felipe",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_09",
+    "text": "O frete foi bem ágil e sem dor de cabeça. Chegaram, carregaram e entregaram dentro do prazo que combinamos.",
+    "author": "Aline",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_10",
+    "text": "Atendimento bem educado e prático pra fechar. Me passaram o valor antes e não teve surpresa depois.",
+    "author": "Lucas",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_11",
+    "text": "Precisava de ajuda com carga e descarga e eles deram conta. Serviço honesto e bem feito.",
+    "author": "Renata",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_fretes_12",
+    "text": "Fiz o frete de umas peças grandes e foi tudo bem. Foram cuidadosos nas escadas e protegeram as quinas.",
+    "author": "Thiago",
+    "citySlug": "blumenau",
+    "type": "fretes",
+    "ts": 1770392110585,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_01",
+    "text": "A equipe chegou no horário e cuidou bem dos móveis. A mudança foi bem organizada e sem estresse.",
+    "author": "Mariana",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_02",
+    "text": "Orçamento claro e sem surpresas. Embalaram tudo direitinho e entregaram no novo apê com cuidado.",
+    "author": "Rafael",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_03",
+    "text": "Eu estava com medo por causa dos eletros, mas veio tudo intacto. Atendimento rápido e bem combinado.",
+    "author": "Camila",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_04",
+    "text": "Foram ágeis na carga e bem cuidadosos na descarga. Gostei da atenção com os detalhes.",
+    "author": "Bruno",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_05",
+    "text": "Mudança de última hora e eles conseguiram encaixar. Comunicação fácil e serviço bem feito.",
+    "author": "Larissa",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_06",
+    "text": "Os rapazes foram educados e cuidadosos com as caixas. No fim, ficou tudo certinho como combinado.",
+    "author": "Diego",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_07",
+    "text": "Tinha móvel grande e passou sem arranhão. Deu pra ver que têm experiência com mudança.",
+    "author": "Fernanda",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_08",
+    "text": "Chegaram com os materiais pra proteger os móveis e isso fez diferença. Serviço tranquilo do começo ao fim.",
+    "author": "João",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_09",
+    "text": "Gostei porque avisaram cada etapa e não deixaram nada pra trás. Recomendo pra quem quer praticidade.",
+    "author": "Aline",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_10",
+    "text": "Fizeram a desmontagem e montagem com cuidado, sem correria. Preço justo pelo trabalho.",
+    "author": "Gustavo",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_11",
+    "text": "Atenderam minha mudança pequena sem enrolação. Foram rápidos e bem respeitosos com o apartamento.",
+    "author": "Patrícia",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_mudancas_12",
+    "text": "Tinha muita caixa e mesmo assim organizaram tudo no caminhão direitinho. Chegou tudo em ordem.",
+    "author": "Renato",
+    "citySlug": "blumenau",
+    "type": "mudancas",
+    "ts": 1770392119605,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e combinaram direitinho o horário.",
+    "author": "Marina",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_02",
+    "text": "Cheguei em cima da hora e mesmo assim conseguiram encaixar a coleta. Entrega foi bem tranquila.",
+    "author": "Diego",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_03",
+    "text": "Atendimento direto ao ponto e sem enrolação. O frete urgente me salvou no dia.",
+    "author": "Camila",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_04",
+    "text": "Gostei porque avisaram cada etapa e foram bem cuidadosos com as caixas. Chegou no prazo combinado.",
+    "author": "Rafael",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_05",
+    "text": "Precisava mandar um item rápido e foi bem mais simples do que eu imaginava. Preço justo pelo prazo.",
+    "author": "Juliana",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_06",
+    "text": "Fizeram a retirada rapidinho e não tive dor de cabeça. Comunicação boa do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_07",
+    "text": "O motorista foi pontual e ajudou com a organização da carga. Para urgência, funcionou muito bem.",
+    "author": "Patricia",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_08",
+    "text": "Tive uma mudança pequena de última hora e resolveram no mesmo dia. Bem combinado e sem surpresa.",
+    "author": "Felipe",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_09",
+    "text": "Estava com medo de atrasar a entrega, mas deu certo. Foram ágeis e cuidadosos.",
+    "author": "Aline",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_10",
+    "text": "Solicitei o frete urgente e já me passaram as opções na hora. Atendimento prático e eficiente.",
+    "author": "Gustavo",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_11",
+    "text": "Precisava transportar equipamentos com pressa e foram bem atentos no manuseio. Chegou certinho.",
+    "author": "Renata",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_blumenau_urgente_12",
+    "text": "Resolveram meu envio urgente sem complicação. Gostei da clareza nas informações e no prazo.",
+    "author": "Tiago",
+    "citySlug": "blumenau",
+    "type": "urgente",
+    "ts": 1770392129280,
+    "source": "cliente"
   }
 ]
