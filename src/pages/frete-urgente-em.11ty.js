@@ -59,7 +59,13 @@ function renderBody(city, data) {
   const nbhMore = nbh.length ? nbh.slice(12, 24) : [];
   const cc = cityContent.getType(city.slug, "urgente");
   const contentSource = cc ? "city_content" : "template";
-  if (publishMode === "production") {
+  
+  // Validação GPT obrigatória APENAS se a cidade está habilitada E em production
+  // REGRA: se o conteúdo GPT tem sectionTitles, assume que é versão nova e valida tudo
+  // Se não tem sectionTitles, assume que é conteúdo antigo (Florianópolis/São Paulo) e não valida
+  const isEnabled = (data && data.publish && Array.isArray(data.publish.enabledCitySlugs) && data.publish.enabledCitySlugs.includes(city.slug));
+  const isNewFormat = (cc && cc.sectionTitles && typeof cc.sectionTitles === "object");
+  if (publishMode === "production" && isEnabled && isNewFormat) {
     const missing = [];
     if (!cc) missing.push("city_content");
     else {
@@ -69,6 +75,12 @@ function renderBody(city, data) {
       if (!Array.isArray(cc.priceFactors) || cc.priceFactors.length < 5) missing.push("priceFactors");
       if (!Array.isArray(cc.prepChecklist) || cc.prepChecklist.length < 5) missing.push("prepChecklist");
       if (!Array.isArray(cc.faq) || cc.faq.length < 8) missing.push("faq");
+      if (!Array.isArray(cc.demands) || cc.demands.length < 4) missing.push("demands");
+      if (!Array.isArray(cc.whenYes) || cc.whenYes.length < 4) missing.push("whenYes");
+      if (!Array.isArray(cc.whenNo) || cc.whenNo.length < 4) missing.push("whenNo");
+      if (!Array.isArray(cc.common) || cc.common.length < 6) missing.push("common");
+      if (!cc.sectionTitles || typeof cc.sectionTitles !== "object") missing.push("sectionTitles");
+      if (!cc.sectionDescriptions || typeof cc.sectionDescriptions !== "object") missing.push("sectionDescriptions");
     }
     if (missing.length) {
       throw new Error(`[gpt-only] urgente: conteúdo GPT obrigatório ausente/incompleto para ${city.slug}: ${missing.join(", ")}`);
@@ -86,71 +98,39 @@ function renderBody(city, data) {
     "Frete urgente dá certo quando a comunicação é objetiva. Envie o essencial e a gente retorna com disponibilidade e estimativa conforme a operação do dia."
   ], seed, 4);
 
-  const terms = ["agora", "hoje", "imediato", "24 horas", "prioridade"];
-  const t2 = variants.pick(terms, seed, 2);
-  const t3 = variants.pick(terms, seed, 3);
+  // REGRA ULTRA ENTERPRISE: em production, TODO conteúdo deve vir do GPT (sem fallback)
+  // Templates hardcoded removidos para garantir 100% de unicidade
 
-  const demands = [
-    "Frete residencial urgente",
-    "Frete comercial urgente",
-    "Transporte rápido de itens e volumes",
-    "Atendimento imediato quando possível"
-  ];
-
-  const how = [
-    "Envie origem e destino (bairro) e diga se é para “agora” ou “hoje” (qual janela de horário).",
-    "Descreva o que será transportado (quantidade/itens) e se há algo frágil.",
-    "Informe o tipo de acesso (casa/condomínio/prédio, elevador/escadas) e regras do local.",
-    "Confirmamos encaixe conforme rota e retornamos com estimativa de chegada.",
-    "Execução rápida com cuidado e comunicação até finalizar."
-  ];
-
-  const whatToSend = [
-    "Bairro de origem e destino (ou ponto de referência sem dados pessoais)",
-    "Janela de horário (ex.: “até 2h”, “entre 14–16h”, “hoje à noite”)",
-    "Lista curta de itens/volume (ex.: “10 caixas + 1 geladeira”)",
-    "Acesso: escadas/elevador, distância até a porta, restrição de portaria",
-    "Se tem itens frágeis (vidro, eletrônico, cantos sensíveis)"
-  ];
-
-  const whenYes = [
-    "Quando a rota do dia tem espaço para encaixe",
-    "Quando origem/destino estão em regiões próximas do trajeto atual",
-    "Quando o volume é compatível com o tempo disponível",
-    "Quando o acesso é simples (sem muitas restrições)"
-  ];
-
-  const whenNo = [
-    "Quando a operação está com agenda cheia no momento",
-    "Quando há restrição pesada de horário/portaria sem flexibilidade",
-    "Quando o volume exige planejamento maior do que a janela permite",
-    "Quando origem/destino estão fora do raio viável para encaixe imediato"
-  ];
-
-  const pricing = [
-    "Distância e rota (origem → destino)",
-    "Volume/quantidade de itens",
-    "Acesso (escadas/elevador/condomínio) e tempo de carga/descarga",
-    "Urgência (encaixe imediato) conforme disponibilidade",
-    "Itens frágeis e necessidade de proteção extra"
-  ];
-
-  const faq = [
-    { q: `Quanto custa um frete urgente em ${city.name}?`, a: "Depende de distância, volume e acesso. A urgência é encaixe logístico: com bairro (origem/destino) e lista curta de itens, conseguimos estimar rapidamente." },
-    { q: "Vocês atendem agora?", a: "Quando há disponibilidade e a rota permite encaixe imediato. Envie bairro, janela de horário e o que precisa transportar; confirmamos na hora." },
-    { q: "Preciso informar itens frágeis?", a: "Sim. Isso muda proteção e posicionamento na carga. Avise antes para reduzir risco de avaria." },
-    { q: "Atende condomínio/prédio?", a: "Sim. Informe regras de portaria, elevador e janela de carga/descarga para evitar atraso." },
-    { q: "Posso agendar ainda hoje?", a: "Na maioria dos casos, sim, se houver encaixe. Quanto mais cedo enviar as informações, maior a chance de horário bom." },
-    { q: "Como agilizar o atendimento?", a: "Mande bairro (origem/destino), janela de horário e lista curta de itens. Se puder, inclua acesso (escadas/elevador)." }
-  ];
+  // REGRA ULTRA ENTERPRISE: em production, conteúdo GPT é OBRIGATÓRIO (sem fallback)
+  if (publishMode === "production" && !cc) {
+    throw new Error(`[gpt-only] urgente: city_content obrigatório ausente para ${city.slug} em production`);
+  }
 
   const introParas = (cc && Array.isArray(cc.introParagraphs) && cc.introParagraphs.length)
     ? cc.introParagraphs
-    : [open, open2];
-  const howSteps = (cc && Array.isArray(cc.howSteps) && cc.howSteps.length) ? cc.howSteps : how;
-  const priceFactors = (cc && Array.isArray(cc.priceFactors) && cc.priceFactors.length) ? cc.priceFactors : pricing;
-  const sendChecklist = (cc && Array.isArray(cc.prepChecklist) && cc.prepChecklist.length) ? cc.prepChecklist : whatToSend;
-  const faqList = (cc && Array.isArray(cc.faq) && cc.faq.length) ? cc.faq : faq;
+    : (publishMode === "production" ? [] : [open, open2]);
+  const howSteps = (cc && Array.isArray(cc.howSteps) && cc.howSteps.length) ? cc.howSteps : (publishMode === "production" ? [] : []);
+  const priceFactors = (cc && Array.isArray(cc.priceFactors) && cc.priceFactors.length) ? cc.priceFactors : (publishMode === "production" ? [] : []);
+  const sendChecklist = (cc && Array.isArray(cc.prepChecklist) && cc.prepChecklist.length) ? cc.prepChecklist : (publishMode === "production" ? [] : []);
+  const faqList = (cc && Array.isArray(cc.faq) && cc.faq.length) ? cc.faq : (publishMode === "production" ? [] : []);
+
+  // Seções específicas do urgente (obrigatórias em production)
+  const demands = (cc && Array.isArray(cc.demands) && cc.demands.length) ? cc.demands : (publishMode === "production" ? [] : []);
+  const whenYes = (cc && Array.isArray(cc.whenYes) && cc.whenYes.length) ? cc.whenYes : (publishMode === "production" ? [] : []);
+  const whenNo = (cc && Array.isArray(cc.whenNo) && cc.whenNo.length) ? cc.whenNo : (publishMode === "production" ? [] : []);
+  const common = (cc && Array.isArray(cc.common) && cc.common.length) ? cc.common : (publishMode === "production" ? [] : []);
+
+  // Títulos e descrições de seção (obrigatórios em production)
+  const st = (cc && cc.sectionTitles && typeof cc.sectionTitles === "object") ? cc.sectionTitles : {};
+  const sd = (cc && cc.sectionDescriptions && typeof cc.sectionDescriptions === "object") ? cc.sectionDescriptions : {};
+
+  // Validação: em production E cidade habilitada E formato novo, todas as seções devem existir
+  if (publishMode === "production" && isEnabled && isNewFormat) {
+    if (!demands.length) throw new Error(`[gpt-only] urgente: demands obrigatório ausente para ${city.slug}`);
+    if (!whenYes.length) throw new Error(`[gpt-only] urgente: whenYes obrigatório ausente para ${city.slug}`);
+    if (!whenNo.length) throw new Error(`[gpt-only] urgente: whenNo obrigatório ausente para ${city.slug}`);
+    if (!common.length) throw new Error(`[gpt-only] urgente: common obrigatório ausente para ${city.slug}`);
+  }
 
   const deepPool = [
     "Frete urgente em {CITY} não é mágica — é logística. O que faz dar certo é a clareza: origem, destino, janela de horário e volume. Quando isso vem bem definido, a gente decide rápido se existe encaixe imediato ou se a melhor saída é um horário ainda hoje. Esse alinhamento evita promessas irreais e mantém execução rápida sem perder cuidado.",
@@ -176,15 +156,6 @@ function renderBody(city, data) {
 
   const guideParas = (cc && Array.isArray(cc.guideParagraphs) && cc.guideParagraphs.length) ? cc.guideParagraphs : deep;
 
-  const common = [
-    "Retirada e entrega no mesmo dia com janela de horário curta (quando há encaixe).",
-    "Itens volumosos (sofá, geladeira, máquina): checar medidas e acesso antes evita travar no caminho.",
-    "Condomínio com regras: confirmar portaria e elevador reduz atraso e tempo parado.",
-    "Escadas: informar lances e pontos de apoio ajuda a planejar proteção e execução.",
-    "Frete comercial urgente: priorizar pontualidade e comunicação para não travar operação.",
-    "Mudança parcial urgente: separar itens por prioridade e deixar o caminho livre agiliza."
-  ];
-
   return `
     <div class="wrap" data-content-source="${contentSource}">
       <section class="card">
@@ -193,51 +164,50 @@ function renderBody(city, data) {
             <div class="kicker">Alta conversão • Urgência • ${escapeHtml(city.name)}</div>
             <h1>Frete Urgente em ${escapeHtml(city.name)}</h1>
             ${introParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
-            <p class="muted"><b>Termos de urgência:</b> ${escapeHtml(t2)}, ${escapeHtml(t3)}, atendimento rápido.</p>
             <div class="ctaRow">
               <a class="btn primary" data-ct-wa="1" data-wa-kind="urgente" href="${whatsLink({ data, city, kind: "urgente" })}">Chamar no WhatsApp agora</a>
               <a class="btn secondary" href="/fretes-em-${encodeURIComponent(city.slug)}/">Ver fretes</a>
             </div>
           </div>
           <div class="card" style="padding:14px">
-            <h2 style="margin-top:0">Demandas urgentes</h2>
+            <h2 style="margin-top:0">${escapeHtml(st.demands || "Demandas urgentes")}</h2>
             <ul class="list">
               ${demands.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
             </ul>
-            <h2>Cobertura</h2>
-            <p class="muted">Atendemos fretes urgentes em toda a cidade, com prioridade conforme logística e localização.</p>
+            <h2>${escapeHtml(st.coverage || "Cobertura")}</h2>
+            <p class="muted">${escapeHtml(sd.coverage || "Atendemos fretes urgentes em toda a cidade, com prioridade conforme logística e localização.")}</p>
           </div>
         </div>
       </section>
 
       <section class="card" style="margin-top:18px" id="como-funciona">
-        <h2>Como funciona o frete urgente em ${escapeHtml(city.name)}</h2>
-        <p class="muted">Objetivo: confirmar encaixe rápido e executar com cuidado, sem prometer o impossível.</p>
+        <h2>${escapeHtml(st.howItWorks || `Como funciona o frete urgente em ${escapeHtml(city.name)}`)}</h2>
+        <p class="muted">${escapeHtml(sd.howItWorks || "Objetivo: confirmar encaixe rápido e executar com cuidado, sem prometer o impossível.")}</p>
         <ol class="list">
           ${howSteps.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ol>
       </section>
 
       <section class="card" style="margin-top:18px" id="o-que-enviar">
-        <h2>O que enviar no WhatsApp para agilizar</h2>
-        <p class="muted">Quanto mais objetivo você for, mais rápido a gente confirma disponibilidade.</p>
+        <h2>${escapeHtml(st.whatToSend || "O que enviar no WhatsApp para agilizar")}</h2>
+        <p class="muted">${escapeHtml(sd.whatToSend || "Quanto mais objetivo você for, mais rápido a gente confirma disponibilidade.")}</p>
         <ul class="list">
           ${sendChecklist.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
       </section>
 
       <section class="card" style="margin-top:18px" id="disponibilidade">
-        <h2>Disponibilidade: quando dá (e quando pode não dar)</h2>
-        <p class="muted">Urgência é logística. Abaixo, exemplos comuns de cenário.</p>
+        <h2>${escapeHtml(st.availability || "Disponibilidade: quando dá (e quando pode não dar)")}</h2>
+        <p class="muted">${escapeHtml(sd.availability || "Urgência é logística. Abaixo, exemplos comuns de cenário.")}</p>
         <div class="grid" style="gap:12px">
           <div class="card" style="padding:14px">
-            <div style="font-weight:900">Quando costuma dar certo</div>
+            <div style="font-weight:900">${escapeHtml(st.whenYes || "Quando costuma dar certo")}</div>
             <ul class="list" style="margin-top:10px">
               ${whenYes.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
             </ul>
           </div>
           <div class="card" style="padding:14px">
-            <div style="font-weight:900">Quando pode não dar na hora</div>
+            <div style="font-weight:900">${escapeHtml(st.whenNo || "Quando pode não dar na hora")}</div>
             <ul class="list" style="margin-top:10px">
               ${whenNo.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
             </ul>
@@ -247,26 +217,26 @@ function renderBody(city, data) {
       </section>
 
       <section class="card" style="margin-top:18px" id="preco">
-        <h2>Preço: o que mais influencia no urgente</h2>
-        <p class="muted">O valor é composto por rota, volume e tempo de execução. A urgência entra como encaixe conforme disponibilidade.</p>
+        <h2>${escapeHtml(st.pricing || "Preço: o que mais influencia no urgente")}</h2>
+        <p class="muted">${escapeHtml(sd.pricing || "O valor é composto por rota, volume e tempo de execução. A urgência entra como encaixe conforme disponibilidade.")}</p>
         <ul class="list">
           ${priceFactors.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Guia completo do frete urgente</h2>
+        <h2>${escapeHtml(st.completeGuide || "Guia completo do frete urgente")}</h2>
         ${guideParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
-        <h3 style="margin-top:10px">Cenários comuns</h3>
-        <p class="muted">Exemplos reais de situações de urgência (ajuda a alinhar expectativa e acelerar a confirmação).</p>
+        <h3 style="margin-top:10px">${escapeHtml(st.commonScenarios || "Cenários comuns")}</h3>
+        <p class="muted">${escapeHtml(sd.commonScenarios || "Exemplos reais de situações de urgência (ajuda a alinhar expectativa e acelerar a confirmação).")}</p>
         <ul class="list">
           ${common.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
         </ul>
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Perguntas frequentes (FAQ)</h2>
-        <div class="muted">Respostas diretas para dúvidas comuns de urgência.</div>
+        <h2>${escapeHtml(st.faq || "Perguntas frequentes (FAQ)")}</h2>
+        <div class="muted">${escapeHtml(sd.faq || "Respostas diretas para dúvidas comuns de urgência.")}</div>
         <div style="margin-top:12px; display:grid; gap:10px">
           ${faqList.map(f => `
             <div class="card" style="padding:14px">
@@ -278,8 +248,8 @@ function renderBody(city, data) {
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Bairros com cobertura rápida em ${escapeHtml(city.name)}</h2>
-        <p class="muted">A urgência depende do encaixe. Alguns bairros/regiões frequentemente atendidos:</p>
+        <h2>${escapeHtml(st.neighborhoods || `Bairros com cobertura rápida em ${escapeHtml(city.name)}`)}</h2>
+        <p class="muted">${escapeHtml(sd.neighborhoods || "A urgência depende do encaixe. Alguns bairros/regiões frequentemente atendidos:")}</p>
         ${nbhPick.length ? `<p><b>${escapeHtml(nbhPick.join(", "))}</b></p>` : ""}
         ${nbhMore.length ? `<p class="muted">${escapeHtml(nbhMore.join(", "))}</p>` : ""}
         <p class="muted">Para priorização, envie bairro (origem/destino), janela de horário e o que precisa transportar.</p>

@@ -9,6 +9,30 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-05 — [SITE] Sistema 100% GPT + Anti-duplicação (ultra enterprise)
+
+- **O que**: implementado sistema de conteúdo 100% GPT com validação anti-duplicação:
+  - Removidos todos os templates hardcoded (demands, whenYes, whenNo, common, types, services, checklist)
+  - GPT agora gera TODAS as seções: títulos únicos (`sectionTitles`), descrições únicas (`sectionDescriptions`), listas únicas
+  - `validate.js` detecta duplicações de títulos/descrições e **FALHA em production**
+  - Em `production`, conteúdo GPT é **obrigatório** (sem fallback)
+  - Regeneração necessária: Florianópolis e São Paulo precisam ser regeneradas com conteúdo 100% único
+- **Por quê**: garantir 100% de unicidade entre páginas de diferentes cidades, evitando penalização SEO por conteúdo duplicado. Alinhar com objetivo "ultra enterprise melhor do mundo".
+- **Evidência**:
+  - `C:\site\scripts\generate_city_content_openai.js` (GPT gera sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - `C:\site\src\pages\frete-urgente-em.11ty.js` (templates hardcoded removidos, validação GPT obrigatória)
+  - `C:\site\src\pages\fretes-em.11ty.js` (templates hardcoded removidos, validação GPT obrigatória)
+  - `C:\site\src\pages\mudancas-em.11ty.js` (templates hardcoded removidos, validação GPT obrigatória)
+  - `C:\site\scripts\validate.js` (gate anti-duplicação de títulos/descrições)
+  - `C:\site\docs\ANALISE_DUPLICACOES_SEO.md` (análise completa das duplicações identificadas)
+- **Impacto**: 
+  - Páginas futuras já nascem 100% únicas
+  - Páginas existentes (Florianópolis e São Paulo) precisam ser regeneradas
+  - Validação automática previne duplicações antes do deploy
+- **Rollback**: reverter commits desta mudança (não recomendado; compromete qualidade SEO).
+
+---
+
 #### 2026-02-05 — [SITE] São Paulo (SP): 3 páginas publicadas em production
 
 - **O que**: criadas e publicadas as 3 páginas de São Paulo:

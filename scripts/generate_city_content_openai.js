@@ -221,7 +221,7 @@ async function main() {
       "",
       `Meta: escrever blocos que, quando renderizados, resultem em ~${minWords} a 1900 palavras (conteúdo pilar).`,
       "",
-      "Retorne JSON no formato:",
+      "Retorne JSON no formato (TODOS os campos são obrigatórios):",
       "{",
       "  \"introParagraphs\": [\"...\", \"...\"],",
       "  \"guideParagraphs\": [\"(12 a 18 parágrafos longos)\", \"...\"],",
@@ -229,8 +229,58 @@ async function main() {
       "  \"priceFactors\": [\"...\"],",
       "  \"prepChecklist\": [\"...\"],",
       "  \"scenarios\": [\"...\"],",
-      "  \"faq\": [{\"q\":\"...\",\"a\":\"...\"}]",
+      "  \"faq\": [{\"q\":\"...\",\"a\":\"...\"}],",
+      "  \"sectionTitles\": {",
+      "    \"demands\": \"Título único para seção de demandas urgentes\",",
+      "    \"coverage\": \"Título único para seção de cobertura\",",
+      "    \"whatToSend\": \"Título único para seção 'o que enviar'\",",
+      "    \"availability\": \"Título único para seção de disponibilidade\",",
+      "    \"whenYes\": \"Título único para subseção 'quando dá certo'\",",
+      "    \"whenNo\": \"Título único para subseção 'quando pode não dar'\",",
+      "    \"pricing\": \"Título único para seção de preço\",",
+      "    \"commonScenarios\": \"Título único para seção de cenários comuns\",",
+      "    \"types\": \"Título único para seção de tipos de frete/mudança\",",
+      "    \"services\": \"Título único para seção de serviços complementares\",",
+      "    \"howItWorks\": \"Título único para seção 'como funciona'\",",
+      "    \"completeGuide\": \"Título único para seção 'guia completo'\",",
+      "    \"preparation\": \"Título único para seção de preparação\",",
+      "    \"neighborhoods\": \"Título único para seção de bairros\",",
+      "    \"testimonials\": \"Título único para seção de depoimentos\"",
+      "  },",
+      "  \"sectionDescriptions\": {",
+      "    \"demands\": \"Descrição única para seção de demandas\",",
+      "    \"coverage\": \"Descrição única para seção de cobertura\",",
+      "    \"whatToSend\": \"Descrição única para seção 'o que enviar'\",",
+      "    \"availability\": \"Descrição única para seção de disponibilidade\",",
+      "    \"pricing\": \"Descrição única para seção de preço\",",
+      "    \"commonScenarios\": \"Descrição única para seção de cenários\",",
+      "    \"types\": \"Descrição única para seção de tipos\",",
+      "    \"services\": \"Descrição única para seção de serviços\",",
+      "    \"howItWorks\": \"Descrição única para seção 'como funciona'\",",
+      "    \"completeGuide\": \"Descrição única para seção 'guia completo'\",",
+      "    \"preparation\": \"Descrição única para seção de preparação\",",
+      "    \"neighborhoods\": \"Descrição única para seção de bairros\",",
+      "    \"testimonials\": \"Descrição única para seção de depoimentos\"",
+      "  },",
+      kind === "urgente" ? [
+        "  \"demands\": [\"(4 a 6 itens únicos de demandas urgentes)\", \"...\"],",
+        "  \"whenYes\": [\"(4 a 6 itens únicos sobre quando costuma dar certo)\", \"...\"],",
+        "  \"whenNo\": [\"(4 a 6 itens únicos sobre quando pode não dar)\", \"...\"],",
+        "  \"common\": [\"(6 a 8 cenários comuns únicos)\", \"...\"]"
+      ].join("\n") : kind === "fretes" ? [
+        "  \"types\": [\"(5 a 7 tipos de frete únicos)\", \"...\"],",
+        "  \"services\": [\"(4 a 6 serviços complementares únicos)\", \"...\"]"
+      ].join("\n") : [
+        "  \"checklist\": [\"(5 a 7 itens únicos sobre como trabalhamos)\", \"...\"]"
+      ].join("\n"),
       "}",
+      "",
+      "REGRAS CRÍTICAS DE UNICIDADE (anti-duplicação):",
+      "- TODOS os títulos de seção (`sectionTitles`) devem ser ÚNICOS e diferentes de outras cidades.",
+      "- TODAS as descrições (`sectionDescriptions`) devem ser ÚNICAS e diferentes de outras cidades.",
+      "- TODAS as listas (demands, whenYes, whenNo, common, types, services, checklist) devem ter redação ÚNICA.",
+      "- Varia ordem, exemplos, palavras-chave e estrutura para garantir 100% de unicidade.",
+      "- NUNCA use títulos genéricos como 'Demandas urgentes' ou 'Cobertura'. Crie títulos criativos e únicos.",
       "",
       "Requisitos de qualidade:",
       "- `guideParagraphs`: 12–18 parágrafos, cada um com ~80–140 palavras.",
@@ -276,6 +326,32 @@ async function main() {
     const scenarios = requireList(j.scenarios);
     const faq = requireFaq(j.faq);
 
+    // Seções específicas por tipo (obrigatórias)
+    const demands = (kind === "urgente") ? requireList(j.demands) : [];
+    const whenYes = (kind === "urgente") ? requireList(j.whenYes) : [];
+    const whenNo = (kind === "urgente") ? requireList(j.whenNo) : [];
+    const common = (kind === "urgente") ? requireList(j.common) : [];
+    const types = (kind === "fretes") ? requireList(j.types) : [];
+    const services = (kind === "fretes") ? requireList(j.services) : [];
+    const checklist = (kind === "mudancas") ? requireList(j.checklist) : [];
+
+    // Títulos e descrições de seção (obrigatórios)
+    const sectionTitles = (j.sectionTitles && typeof j.sectionTitles === "object") ? j.sectionTitles : {};
+    const sectionDescriptions = (j.sectionDescriptions && typeof j.sectionDescriptions === "object") ? j.sectionDescriptions : {};
+
+    // Validação: em production, todas as seções devem existir
+    if (kind === "urgente") {
+      if (!demands.length) throw new Error(`[gpt-only] urgente: demands obrigatório ausente para ${slug}`);
+      if (!whenYes.length) throw new Error(`[gpt-only] urgente: whenYes obrigatório ausente para ${slug}`);
+      if (!whenNo.length) throw new Error(`[gpt-only] urgente: whenNo obrigatório ausente para ${slug}`);
+      if (!common.length) throw new Error(`[gpt-only] urgente: common obrigatório ausente para ${slug}`);
+    } else if (kind === "fretes") {
+      if (!types.length) throw new Error(`[gpt-only] fretes: types obrigatório ausente para ${slug}`);
+      if (!services.length) throw new Error(`[gpt-only] fretes: services obrigatório ausente para ${slug}`);
+    } else if (kind === "mudancas") {
+      if (!checklist.length) throw new Error(`[gpt-only] mudancas: checklist obrigatório ausente para ${slug}`);
+    }
+
     const approxWords = wordCount([
       ...introParagraphs,
       ...guideParagraphs,
@@ -283,7 +359,16 @@ async function main() {
       ...priceFactors,
       ...prepChecklist,
       ...scenarios,
-      ...faq.map(x => `${x.q} ${x.a}`)
+      ...faq.map(x => `${x.q} ${x.a}`),
+      ...demands,
+      ...whenYes,
+      ...whenNo,
+      ...common,
+      ...types,
+      ...services,
+      ...checklist,
+      ...Object.values(sectionTitles),
+      ...Object.values(sectionDescriptions)
     ].join(" "));
 
     out[kind] = {
@@ -294,6 +379,11 @@ async function main() {
       prepChecklist,
       scenarios,
       faq,
+      ...(kind === "urgente" ? { demands, whenYes, whenNo, common } : {}),
+      ...(kind === "fretes" ? { types, services } : {}),
+      ...(kind === "mudancas" ? { checklist } : {}),
+      sectionTitles,
+      sectionDescriptions,
       _approxWords: approxWords
     };
   }

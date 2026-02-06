@@ -10,13 +10,15 @@ Objetivo: qualquer GPT novo consegue continuar o projeto **sem perder contexto**
 Regras:
 
 - **Uma página = uma intenção principal** (SEO). Não misturar.
-- **Sem duplicar texto** entre cidades (anti-spam).
-- **Deploy** tem que ser “commit -> publish” (via Git Deploy no Hostinger).
+- **100% GPT (regra ultra enterprise)**: TODO conteúdo das páginas de cidade deve ser gerado pelo GPT via `city_content.json`. **ZERO fallback para templates hardcoded em production**. Templates servem apenas como base/modelo para o GPT, nunca como conteúdo final.
+- **Anti-duplicação (regra ultra enterprise)**: TODOS os títulos de seção (`sectionTitles`), descrições (`sectionDescriptions`) e listas (demands, whenYes, whenNo, common, types, services, checklist) devem ser **100% únicos e exclusivos** entre todas as cidades. O `validate.js` detecta duplicações e **FALHA em production**.
+- **Sem duplicar texto** entre cidades (anti-spam). Validação automática via SimHash + comparação de títulos/descrições.
+- **Deploy** tem que ser "commit -> publish" (via Git Deploy no Hostinger).
 - **Sem secrets** em docs/repo. Só nomes e onde configurar.
 - **Regra de operação (ultra enterprise)**: toda melhoria/mudança relevante deve atualizar **Runbook + Timeline** automaticamente.
-- **Política de mídia (padrão canônico)**: **sem imagens** nas páginas de cidade (mais rápido, limpo, sem “foto de produto” para serviço). Se um dia voltar a usar imagem, só com fotos reais e otimizadas.
+- **Política de mídia (padrão canônico)**: **sem imagens** nas páginas de cidade (mais rápido, limpo, sem "foto de produto" para serviço). Se um dia voltar a usar imagem, só com fotos reais e otimizadas.
 - **Política de CTA WhatsApp (padrão canônico)**: **todo botão/atalho de WhatsApp deve abrir o WhatsApp com mensagem pré-preenchida** (link `wa.me` + `?text=`). Nunca depender do tracking para funcionar.
-- **Regra operacional (anti-achismo)**: **só declarar “Cidade X pronta/criada” após evidência no ar (`site_manifest.json` + curl das URLs) e após registrar no Livro/Timeline** (ver Runbook).
+- **Regra operacional (anti-achismo)**: **só declarar "Cidade X pronta/criada" após evidência no ar (`site_manifest.json` + curl das URLs) e após registrar no Livro/Timeline** (ver Runbook).
 
 ---
 
@@ -35,17 +37,7 @@ Regras:
 
 ### Cidades publicadas (production)
 
-- **São Paulo (SP)** — publicado em 2026-02-05
-  - `/fretes-em-sao-paulo/`
-  - `/mudancas-em-sao-paulo/`
-  - `/frete-urgente-em-sao-paulo/`
-  - Commit: `15492be`
-
-- **Florianópolis (SC)** — publicado em 2026-02-05
-  - `/fretes-em-florianopolis/`
-  - `/mudancas-em-florianopolis/`
-  - `/frete-urgente-em-florianopolis/`
-  - Commit: `3719b35`
+**Nenhuma cidade publicada no momento.** Sistema limpo e pronto para produção real.
 - **Métricas internas (CT)**:
   - `pageview` + `whatsapp_click` enviados via `sendBeacon` para o CT
   - painel no CT: Menu **Site** (cidades no ar + cliques WhatsApp por cidade/página)

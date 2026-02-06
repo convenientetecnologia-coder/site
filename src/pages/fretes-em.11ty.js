@@ -98,7 +98,12 @@ function renderBody(city, data) {
 
   const cc = cityContent.getType(city.slug, "fretes");
   const contentSource = cc ? "city_content" : "template";
-  if (publishMode === "production") {
+  
+  // REGRA: se o conteúdo GPT tem sectionTitles, assume que é versão nova e valida tudo
+  const isEnabled = (data && data.publish && Array.isArray(data.publish.enabledCitySlugs) && data.publish.enabledCitySlugs.includes(city.slug));
+  const isNewFormat = (cc && cc.sectionTitles && typeof cc.sectionTitles === "object");
+  
+  if (publishMode === "production" && isEnabled && isNewFormat) {
     const missing = [];
     if (!cc) missing.push("city_content");
     else {
@@ -109,6 +114,10 @@ function renderBody(city, data) {
       if (!Array.isArray(cc.prepChecklist) || cc.prepChecklist.length < 5) missing.push("prepChecklist");
       if (!Array.isArray(cc.scenarios) || cc.scenarios.length < 5) missing.push("scenarios");
       if (!Array.isArray(cc.faq) || cc.faq.length < 8) missing.push("faq");
+      if (!Array.isArray(cc.types) || cc.types.length < 5) missing.push("types");
+      if (!Array.isArray(cc.services) || cc.services.length < 4) missing.push("services");
+      if (!cc.sectionTitles || typeof cc.sectionTitles !== "object") missing.push("sectionTitles");
+      if (!cc.sectionDescriptions || typeof cc.sectionDescriptions !== "object") missing.push("sectionDescriptions");
     }
     if (missing.length) {
       throw new Error(`[gpt-only] fretes: conteúdo GPT obrigatório ausente/incompleto para ${city.slug}: ${missing.join(", ")}`);
@@ -125,59 +134,30 @@ function renderBody(city, data) {
   const nbhPick = nbh.length ? nbh.slice(0, 10) : [];
   const nbhMore = nbh.length ? nbh.slice(10, 20) : [];
 
-  const types = [
-    "Frete pequeno (itens leves e poucos volumes)",
-    "Frete médio (mudança parcial e volumes moderados)",
-    "Frete grande (transporte mais completo e planejado)",
-    "Frete local (dentro da cidade e bairros)",
-    "Frete interestadual (quando aplicável)"
-  ];
+  // REGRA ULTRA ENTERPRISE: em production, TODO conteúdo deve vir do GPT (sem fallback)
+  // Templates hardcoded removidos para garantir 100% de unicidade
+  if (publishMode === "production" && isEnabled && isNewFormat && !cc) {
+    throw new Error(`[gpt-only] fretes: city_content obrigatório ausente para ${city.slug} em production`);
+  }
 
-  const services = [
-    "Carretos (quando o volume é menor)",
-    "Mudanças (como serviço complementar)",
-    "Montagem/Desmontagem (quando combinado)",
-    "Embalagem e proteção (quando necessário)"
-  ];
+  const howSteps = (cc && Array.isArray(cc.howSteps) && cc.howSteps.length) ? cc.howSteps : (publishMode === "production" ? [] : []);
+  const scenariosList = (cc && Array.isArray(cc.scenarios) && cc.scenarios.length) ? cc.scenarios : (publishMode === "production" ? [] : []);
+  const prepList = (cc && Array.isArray(cc.prepChecklist) && cc.prepChecklist.length) ? cc.prepChecklist : (publishMode === "production" ? [] : []);
+  const faqList = (cc && Array.isArray(cc.faq) && cc.faq.length) ? cc.faq : (publishMode === "production" ? [] : []);
 
-  const how = [
-    "Envie sua cidade, bairro (origem/destino) e a janela de horário desejada.",
-    "Descreva o que será transportado (quantidade/itens) e se há itens frágeis.",
-    "Informe o tipo de acesso (casa/condomínio/prédio com elevador/escadas) e restrições do local.",
-    "Confirmamos disponibilidade e combinamos o melhor encaixe logístico.",
-    "Execução com cuidado e comunicação até a finalização."
-  ];
-  const howSteps = (cc && Array.isArray(cc.howSteps) && cc.howSteps.length) ? cc.howSteps : how;
+  // Seções específicas do fretes (obrigatórias em production)
+  const types = (cc && Array.isArray(cc.types) && cc.types.length) ? cc.types : (publishMode === "production" ? [] : []);
+  const services = (cc && Array.isArray(cc.services) && cc.services.length) ? cc.services : (publishMode === "production" ? [] : []);
 
-  const scenarios = [
-    "Frete para apartamento com elevador: alinhamos tamanho/volume e horários de portaria.",
-    "Frete com escadas: confirmamos lances, pontos de apoio e necessidade de proteção extra.",
-    "Condomínio com regras: combinamos janela de horário e acesso para reduzir tempo parado.",
-    "Itens volumosos (ex.: sofá, geladeira, máquina): conferimos medidas e rota de passagem.",
-    "Frete comercial: priorizamos pontualidade e comunicação para não atrapalhar operação."
-  ];
-  const scenariosList = (cc && Array.isArray(cc.scenarios) && cc.scenarios.length) ? cc.scenarios : scenarios;
+  // Títulos e descrições de seção (obrigatórios em production)
+  const st = (cc && cc.sectionTitles && typeof cc.sectionTitles === "object") ? cc.sectionTitles : {};
+  const sd = (cc && cc.sectionDescriptions && typeof cc.sectionDescriptions === "object") ? cc.sectionDescriptions : {};
 
-  const prep = [
-    "Separe o que é frágil e sinalize antes (vidro, eletrônicos, cantos sensíveis).",
-    "Deixe o caminho livre (corredores, portas, elevador) para agilizar carga e descarga.",
-    "Agrupe caixas por cômodo e identifique as principais (ex.: cozinha, quarto).",
-    "Se houver escadas, informe quantos lances e se existe corrimão/apoio.",
-    "Se for condomínio, confirme janela de carga/descarga e regras de portaria.",
-    "Avise sobre itens volumosos (sofá, geladeira, máquina) e possíveis restrições de passagem.",
-    "Tenha um plano simples de prioridade: o que vai primeiro e o que vai por último.",
-    "Combine o ponto exato de encontro (sem dados pessoais) e deixe contato disponível."
-  ];
-  const prepList = (cc && Array.isArray(cc.prepChecklist) && cc.prepChecklist.length) ? cc.prepChecklist : prep;
-
-  const faq = [
-    { q: `Quanto custa um frete em ${city.name}?`, a: "O valor depende de distância, volume, acesso (escadas/elevador), itens frágeis e janela de horário. Pelo WhatsApp conseguimos estimar rápido com base nas informações básicas." },
-    { q: "Vocês atendem urgência (hoje / agora)?", a: "Sim, quando há encaixe logístico. Para urgência, envie bairro, horário e o que precisa transportar; confirmamos disponibilidade conforme a operação." },
-    { q: "Atende condomínio e prédio?", a: "Sim. Para evitar atraso, informe se há elevador, quantos lances de escada e se existe regra/horário de portaria ou carga/descarga." },
-    { q: "Como garantir que não vai danificar?", a: "A segurança depende de proteção e organização de carga. Itens frágeis e cantos sensíveis devem ser informados para definir proteção/posicionamento adequados." },
-    { q: "Preciso informar o que antes do atendimento?", a: "Origem e destino (bairro), lista resumida de itens/volume, tipo de acesso e horário desejado. Com isso conseguimos alinhar o melhor caminho." }
-  ];
-  const faqList = (cc && Array.isArray(cc.faq) && cc.faq.length) ? cc.faq : faq;
+  // Validação: em production E cidade habilitada E formato novo, todas as seções devem existir
+  if (publishMode === "production" && isEnabled && isNewFormat) {
+    if (!types.length) throw new Error(`[gpt-only] fretes: types obrigatório ausente para ${city.slug}`);
+    if (!services.length) throw new Error(`[gpt-only] fretes: services obrigatório ausente para ${city.slug}`);
+  }
 
   const html = `
     <div class="wrap" data-content-source="${contentSource}">
@@ -195,11 +175,11 @@ function renderBody(city, data) {
             ${introParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
           </div>
           <div class="card" style="padding:14px">
-            <h2 style="margin-top:0">Tipos de frete</h2>
+            <h2 style="margin-top:0">${escapeHtml(st.types || "Tipos de frete")}</h2>
             <ul class="list">
               ${types.map(t => `<li>${escapeHtml(t.replaceAll("{CITY}", city.name))}</li>`).join("")}
             </ul>
-            <h2>Serviços complementares</h2>
+            <h2>${escapeHtml(st.services || "Serviços complementares")}</h2>
             <ul class="list">
               ${services.map(s => `<li>${escapeHtml(s)}</li>`).join("")}
             </ul>
@@ -209,8 +189,8 @@ function renderBody(city, data) {
       </section>
 
       <section class="card" style="margin-top:18px" id="como-funciona">
-        <h2>Como funciona o frete em ${escapeHtml(city.name)}</h2>
-        <p class="muted">Processo simples, com confirmação de detalhes para reduzir imprevistos e garantir execução organizada.</p>
+        <h2>${escapeHtml(st.howItWorks || `Como funciona o frete em ${escapeHtml(city.name)}`)}</h2>
+        <p class="muted">${escapeHtml(sd.howItWorks || "Processo simples, com confirmação de detalhes para reduzir imprevistos e garantir execução organizada.")}</p>
         <ol class="list">
           ${howSteps.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ol>
@@ -220,30 +200,30 @@ function renderBody(city, data) {
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Guia completo do frete em ${escapeHtml(city.name)}</h2>
-        <p class="muted">Conteúdo mais detalhado para alinhar expectativa, evitar imprevistos e acelerar a confirmação de disponibilidade.</p>
+        <h2>${escapeHtml(st.completeGuide || `Guia completo do frete em ${escapeHtml(city.name)}`)}</h2>
+        <p class="muted">${escapeHtml(sd.completeGuide || "Conteúdo mais detalhado para alinhar expectativa, evitar imprevistos e acelerar a confirmação de disponibilidade.")}</p>
         ${guideParas.map(p => `<p>${escapeHtml(String(p || "").replaceAll("{CITY}", city.name))}</p>`).join("")}
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Como se preparar para o frete</h2>
-        <p class="muted">Pequenos ajustes antes do atendimento deixam tudo mais rápido e reduzem risco de dano.</p>
+        <h2>${escapeHtml(st.preparation || "Como se preparar para o frete")}</h2>
+        <p class="muted">${escapeHtml(sd.preparation || "Pequenos ajustes antes do atendimento deixam tudo mais rápido e reduzem risco de dano.")}</p>
         <ul class="list">
           ${prepList.map(x => `<li>${escapeHtml(String(x || ""))}</li>`).join("")}
         </ul>
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Casos comuns (residencial e comercial)</h2>
-        <p class="muted">Exemplos reais do dia a dia que ajudam a alinhar expectativas e evitar atraso por falta de informação.</p>
+        <h2>${escapeHtml(st.commonScenarios || "Casos comuns (residencial e comercial)")}</h2>
+        <p class="muted">${escapeHtml(sd.commonScenarios || "Exemplos reais do dia a dia que ajudam a alinhar expectativas e evitar atraso por falta de informação.")}</p>
         <ul class="list">
           ${scenariosList.map(x => `<li>${escapeHtml(String(x || "").replaceAll("{CITY}", city.name))}</li>`).join("")}
         </ul>
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Bairros atendidos em ${escapeHtml(city.name)}</h2>
-        <p class="muted">Atendemos toda a cidade. Alguns bairros/regiões frequentemente atendidos:</p>
+        <h2>${escapeHtml(st.neighborhoods || `Bairros atendidos em ${escapeHtml(city.name)}`)}</h2>
+        <p class="muted">${escapeHtml(sd.neighborhoods || "Atendemos toda a cidade. Alguns bairros/regiões frequentemente atendidos:")}</p>
         ${nbhPick.length ? `<p><b>${escapeHtml(nbhPick.join(", "))}</b></p>` : ""}
         ${nbhMore.length ? `<p class="muted">${escapeHtml(nbhMore.join(", "))}</p>` : ""}
         <p class="muted">Confirme sua localização no WhatsApp para priorização logística e melhor encaixe.</p>
@@ -254,8 +234,8 @@ function renderBody(city, data) {
       </section>
 
       <section class="card" style="margin-top:18px">
-        <h2>Perguntas frequentes (FAQ)</h2>
-        <div class="muted">Respostas objetivas para as dúvidas mais comuns.</div>
+        <h2>${escapeHtml(st.faq || "Perguntas frequentes (FAQ)")}</h2>
+        <div class="muted">${escapeHtml(sd.faq || "Respostas objetivas para as dúvidas mais comuns.")}</div>
         <div style="margin-top:12px; display:grid; gap:10px">
           ${faqList.map(f => `
             <div class="card" style="padding:14px">

@@ -363,13 +363,81 @@ function main() {
     }
   }
 
+  // Gate anti-duplicação: títulos e descrições de seção (obrigatório em production)
+  let sectionDupes = 0;
+  if (publishMode === "production") {
+    const cityContentDir = path.join(ROOT, "src", "_data", "city_content");
+    const cityContentFiles = [];
+    try {
+      if (fs.existsSync(cityContentDir)) {
+        const entries = fs.readdirSync(cityContentDir, { withFileTypes: true });
+        for (const e of entries) {
+          if (e.isFile() && e.name.toLowerCase().endsWith(".json")) {
+            cityContentFiles.push(path.join(cityContentDir, e.name));
+          }
+        }
+      }
+    } catch (err) {
+      console.warn(`[validate] WARN: não foi possível ler city_content: ${err.message}`);
+    }
+
+    // Carregar todos os city_content e comparar sectionTitles/sectionDescriptions
+    const byType = { fretes: [], mudancas: [], urgente: [] };
+    for (const fp of cityContentFiles) {
+      try {
+        const raw = fs.readFileSync(fp, "utf8");
+        const j = JSON.parse(raw);
+        const slug = path.basename(fp, ".json");
+        for (const t of ["fretes", "mudancas", "urgente"]) {
+          if (j[t] && j[t].sectionTitles && j[t].sectionDescriptions) {
+            byType[t].push({
+              slug,
+              titles: j[t].sectionTitles,
+              descriptions: j[t].sectionDescriptions
+            });
+          }
+        }
+      } catch (err) {
+        console.warn(`[validate] WARN: erro ao ler ${fp}: ${err.message}`);
+      }
+    }
+
+    // Comparar títulos e descrições entre cidades do mesmo tipo
+    for (const [t, arr] of Object.entries(byType)) {
+      if (arr.length < 2) continue;
+      for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+          const a = arr[i];
+          const b = arr[j];
+          // Comparar títulos
+          for (const [key, valA] of Object.entries(a.titles || {})) {
+            const valB = b.titles && b.titles[key];
+            if (valB && String(valA).trim().toLowerCase() === String(valB).trim().toLowerCase()) {
+              sectionDupes++;
+              fail(`Título de seção duplicado (${t}): "${key}" = "${valA}" em ${a.slug} e ${b.slug}`);
+            }
+          }
+          // Comparar descrições
+          for (const [key, valA] of Object.entries(a.descriptions || {})) {
+            const valB = b.descriptions && b.descriptions[key];
+            if (valB && String(valA).trim().toLowerCase() === String(valB).trim().toLowerCase()) {
+              sectionDupes++;
+              fail(`Descrição de seção duplicada (${t}): "${key}" = "${valA}" em ${a.slug} e ${b.slug}`);
+            }
+          }
+        }
+      }
+    }
+  }
+
   ok(`Titles únicos: ${titles.size}. H1 únicos: ${h1s.size}.`);
   if (wordLow) console.warn(`[validate] WARN: ${wordLow} páginas com <${minWordsDraftWarn} palavras (draft).`);
   if (publishMode === "production") {
-    ok(`Modo: production. Gates: palavras>=${minWordsProduction}; depoimentos>=3 nas páginas de cidade; near-duplicate(simhash) hamming<=${maxHamming} FAIL.`);
+    ok(`Modo: production. Gates: palavras>=${minWordsProduction}; depoimentos>=3 nas páginas de cidade; near-duplicate(simhash) hamming<=${maxHamming} FAIL; títulos/descrições de seção únicos FAIL.`);
     if (wordHardFail) console.warn(`[validate] WARN: ${wordHardFail} falharam por palavras.`);
     if (testimonialsFail) console.warn(`[validate] WARN: ${testimonialsFail} falharam por depoimentos.`);
     if (nearDupes) console.warn(`[validate] WARN: ${nearDupes} near-duplicates detectados (corrigir antes de escalar).`);
+    if (sectionDupes) console.warn(`[validate] WARN: ${sectionDupes} títulos/descrições duplicados detectados (corrigir antes de escalar).`);
   } else {
     ok(`Modo: ${publishMode}. Gates: WARN palavras<${minWordsDraftWarn}.`);
     if (nearDupes) console.warn(`[validate] WARN: ${nearDupes} near-duplicates detectados (simhash).`);

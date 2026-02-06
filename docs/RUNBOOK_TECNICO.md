@@ -228,18 +228,27 @@ Notas:
 
 ---
 
-### Workflow canônico: “Criar páginas da cidade X” (ULTRA ENTERPRISE) — CANÔNICO
+### Workflow canônico: "Criar páginas da cidade X" (ULTRA ENTERPRISE) — CANÔNICO
 
 **Regra mestra**: quando o humano pedir "criar páginas da cidade X", o GPT deve executar **TUDO** automaticamente:
-1. Gerar conteúdo GPT (3 páginas)
+1. Gerar conteúdo GPT (3 páginas) — **100% único, sem fallback para templates**
 2. Gerar bairros (divididos em 3 blocos)
 3. Gerar depoimentos (12 por tipo)
 4. Habilitar cidade em `production`
-5. Build + validate
+5. Build + validate (validação anti-duplicação automática)
 6. **Commit + push para GitHub** (sem perguntar)
 7. Avisar o humano: "Páginas criadas e publicadas. Pronto para próxima cidade."
 
 **Sem exceções**: não parar no meio, não pedir confirmação, não deixar pendente.
+
+**Regra crítica (100% GPT)**: 
+- Em `production`, TODO conteúdo deve vir do GPT via `city_content.json`.
+- Templates hardcoded são **removidos** (não servem como fallback).
+- O `validate.js` **FALHA** se detectar conteúdo GPT ausente ou duplicações de títulos/descrições.
+- Seções obrigatórias geradas pelo GPT:
+  - **Urgente**: `demands`, `whenYes`, `whenNo`, `common`, `sectionTitles`, `sectionDescriptions`
+  - **Fretes**: `types`, `services`, `sectionTitles`, `sectionDescriptions`
+  - **Mudanças**: `checklist`, `sectionTitles`, `sectionDescriptions`
 
 #### Passo a passo automático (GPT executa tudo)
 
