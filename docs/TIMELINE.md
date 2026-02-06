@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Caruaru (PE): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Caruaru com sistema 100% GPT:
+  - `/fretes-em-caruaru/` (~3013 palavras)
+  - `/mudancas-em-caruaru/` (~2760 palavras)
+  - `/frete-urgente-em-caruaru/` (~3320 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 19 bairros divididos em 3 blocos únicos (6/6/7 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (3 títulos duplicados corrigidos manualmente)
+- **Por quê**: décima sétima cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `0f8a0e0` (repo `site`)
+  - `src/_data/publish_config.json` (caruaru habilitado em production)
+  - `src/_data/city_content/caruaru.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (19 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Campos dos Goytacazes (RJ): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Campos dos Goytacazes com sistema 100% GPT:

@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Caruaru (PE)** — publicado em 2026-02-06
+  - `/fretes-em-caruaru/` (~3013 palavras)
+  - `/mudancas-em-caruaru/` (~2760 palavras)
+  - `/frete-urgente-em-caruaru/` (~3320 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 19 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `0f8a0e0`
+
 - **Campos dos Goytacazes (RJ)** — publicado em 2026-02-06
   - `/fretes-em-campos-dos-goytacazes/` (~3066 palavras)
   - `/mudancas-em-campos-dos-goytacazes/` (~3117 palavras)
