@@ -6433,5 +6433,329 @@
     "type": "urgente",
     "ts": 1770404413345,
     "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_01",
+    "text": "Combinei o frete e deu tudo certo. Chegaram no horário e levaram minhas caixas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_02",
+    "text": "Precisei de frete de última hora e responderam rápido. O valor foi justo e o serviço foi bem tranquilo.",
+    "author": "Rafael",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_03",
+    "text": "Gostei da organização na hora de carregar e descarregar. Tudo chegou certinho, sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_04",
+    "text": "O motorista foi educado e paciente, ajudou a acomodar as coisas direitinho. Recomendo pelo cuidado.",
+    "author": "Bruno",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_05",
+    "text": "Fizeram meu frete em Curitiba com muita agilidade. Comunicação fácil do começo ao fim.",
+    "author": "Aline",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_06",
+    "text": "Tinha itens mais frágeis e eles capricharam na proteção. Chegou tudo inteiro e bem acomodado.",
+    "author": "Diego",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_07",
+    "text": "Pontuais e práticos. Gostei que confirmaram os detalhes antes e não teve surpresa no combinado.",
+    "author": "Fernanda",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_08",
+    "text": "Atendimento direto e sem enrolação. O frete foi rápido e o pessoal cuidou bem das minhas coisas.",
+    "author": "Lucas",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_09",
+    "text": "Precisei levar móveis e deu certo. Carregaram com atenção e a entrega foi bem alinhada.",
+    "author": "Juliana",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_10",
+    "text": "Achei o serviço bem honesto. Passaram o orçamento certinho e cumpriram o que foi combinado.",
+    "author": "Gustavo",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_11",
+    "text": "Fiquei tranquila porque foram atualizando durante o trajeto. Chegou no prazo e sem danos.",
+    "author": "Patricia",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_fretes_12",
+    "text": "Frete simples e eficiente. Chegaram, carregaram rápido e entregaram sem complicação.",
+    "author": "Renato",
+    "citySlug": "curitiba",
+    "type": "fretes",
+    "ts": 1770406502352,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_01",
+    "text": "Fiz a mudança em Curitiba e foi bem tranquilo. Chegaram no horário, embalaram com cuidado e nada quebrou.",
+    "author": "Mariana",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_02",
+    "text": "Gostei da organização do time. Foram rápidos na carga e bem cuidadosos com os móveis na descarga.",
+    "author": "Rafael",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_03",
+    "text": "Orçamento claro e sem surpresa no final. A comunicação foi boa do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_04",
+    "text": "Tinha muita caixa e achei que ia virar bagunça, mas eles etiquetaram e deixaram tudo separado direitinho.",
+    "author": "Bruno",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_05",
+    "text": "Me ajudaram com a desmontagem e montagem do guarda-roupa. Ficou firme e sem arranhões.",
+    "author": "Juliana",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_06",
+    "text": "Atendimento bem rápido no WhatsApp e agendamento fácil. No dia, a equipe foi educada e eficiente.",
+    "author": "Felipe",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_07",
+    "text": "Mudança de apartamento com elevador pequeno e eles tiveram paciência. Resolveram tudo sem estresse.",
+    "author": "Patricia",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_08",
+    "text": "Capricharam na proteção da geladeira e da TV. Chegou tudo certinho e bem acomodado.",
+    "author": "Diego",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_09",
+    "text": "Pontuais e cuidadosos com as caixas frágeis. Deixaram os móveis no lugar que pedi, sem pressa.",
+    "author": "Aline",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_10",
+    "text": "Equipe bem alinhada, parecia que já tinham um plano. A mudança rendeu e terminou no horário combinado.",
+    "author": "Gustavo",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_11",
+    "text": "Eu estava com pouco tempo e eles facilitaram tudo. Foram práticos e bem respeitosos com o apartamento.",
+    "author": "Renata",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_mudancas_12",
+    "text": "Preço justo pelo serviço e pela atenção. Recomendo pra quem quer mudar sem dor de cabeça.",
+    "author": "Thiago",
+    "citySlug": "curitiba",
+    "type": "mudancas",
+    "ts": 1770406512016,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_01",
+    "text": "Precisava entregar ainda hoje e deu tudo certo. Responderam rápido e o motorista chegou no horário combinado.",
+    "author": "Marina",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_02",
+    "text": "Frete urgente em Curitiba sem dor de cabeça. Pegaram e entregaram bem rápido, com atualização no caminho.",
+    "author": "Rafael",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_03",
+    "text": "Tinha um prazo apertado e me salvaram. Atendimento direto e preço bem combinado.",
+    "author": "Camila",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_04",
+    "text": "Solicitei em cima da hora e mesmo assim conseguiram encaixar. Chegou antes do que eu esperava.",
+    "author": "Diego",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_05",
+    "text": "Gostei da agilidade e da comunicação. Avisaram quando coletou e quando entregou, bem tranquilo.",
+    "author": "Aline",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_06",
+    "text": "Usei pra levar um documento urgente e foi bem rápido. Tudo certinho do início ao fim.",
+    "author": "Bruno",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_07",
+    "text": "Atenderam minha urgência sem complicar. Motorista educado e entrega feita no prazo.",
+    "author": "Fernanda",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_08",
+    "text": "Eu estava com medo de atrasar, mas foi super ágil. Passaram confiança e cumpriram o combinado.",
+    "author": "Lucas",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_09",
+    "text": "Chamei pelo frete urgente e já retornaram com a previsão. Serviço prático e sem enrolação.",
+    "author": "Juliana",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_10",
+    "text": "Precisava de coleta rápida e eles resolveram. Chegou tudo em ordem e dentro do horário.",
+    "author": "Thiago",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_11",
+    "text": "Foi minha primeira vez usando e achei bem organizado. A entrega saiu rápido e me manteve informada.",
+    "author": "Patricia",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_curitiba_urgente_12",
+    "text": "Tinha uma entrega importante e não podia falhar. Foi pontual e o suporte respondeu na hora que precisei.",
+    "author": "Gustavo",
+    "citySlug": "curitiba",
+    "type": "urgente",
+    "ts": 1770406520915,
+    "source": "cliente"
   }
 ]

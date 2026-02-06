@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T19:18:24.386Z",
+  "generatedAt": "2026-02-06T19:36:48.440Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -155,6 +155,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-cuiaba/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-cuiaba/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-cuiaba/"
+      }
+    },
+    {
+      "slug": "curitiba",
+      "name": "Curitiba",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-curitiba/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-curitiba/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-curitiba/"
       }
     },
     {

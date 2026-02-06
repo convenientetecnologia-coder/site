@@ -1,0 +1,525 @@
+{
+  "meta": {
+    "version": 1,
+    "city": "Curitiba",
+    "slug": "curitiba",
+    "state": "PR",
+    "generatedAt": "2026-02-06T19:29:59.456Z",
+    "model": "gpt-5.2",
+    "sources": [
+      {
+        "title": "Administrações Regionais - Prefeitura de Curitiba",
+        "url": "https://regionais.curitiba.pr.gov.br/"
+      },
+      {
+        "title": "Matriz - Administração Regional - Prefeitura de Curitiba",
+        "url": "https://www.curitiba.pr.gov.br/conteudo/matriz-administracao-regional/87"
+      },
+      {
+        "title": "CIC - Administração Regional - Prefeitura de Curitiba",
+        "url": "https://www.curitiba.pr.gov.br/conteudo/cic-administracao-regional/85"
+      },
+      {
+        "title": "Busca de Locais (lista de bairros) - Prefeitura de Curitiba",
+        "url": "https://www.curitiba.pr.gov.br/locais/"
+      },
+      {
+        "title": "Saiba mais sobre a Linha Verde - Prefeitura de Curitiba",
+        "url": "https://www.curitiba.pr.gov.br/noticias/saiba-mais-sobre-a-linha-verde/16249"
+      },
+      {
+        "title": "Operação Urbana Consorciada Linha Verde - Urbanismo - Prefeitura de Curitiba",
+        "url": "https://urbanismo.curitiba.pr.gov.br/conteudo/cepac-operacao-urbana-consorciada-linha-verde/231"
+      },
+      {
+        "title": "População das regionais de Curitiba supera a da maioria das cidades do Paraná - Prefeitura de Curitiba",
+        "url": "https://www.curitiba.pr.gov.br/noticias/populacao-das-regionais-de-curitiba-supera-a-da-maioria-das-cidades-do-parana/41159"
+      },
+      {
+        "title": "Prefeitura muda limites das regionais Santa Felicidade, Portão, Boa Vista e Cajuru - Prefeitura de Curitiba",
+        "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-muda-limites-das-regionais-santa-felicidade-portao-boa-vista-e-cajuru/47322"
+      },
+      {
+        "title": "Como Chegar e Sair do Aeroporto Afonso Pena (CWB) - CCR Aeroportos",
+        "url": "https://aeroportos.grupoccr.com.br/curitiba-pr/o-aeroporto/como-chegar-e-sair"
+      },
+      {
+        "title": "Aeroporto de Afonso Pena - Curitiba - CWB (Sobre o aeroporto) - CCR Aeroportos",
+        "url": "https://aeroportos.grupoccr.com.br/curitiba-pr"
+      },
+      {
+        "title": "Localização - Aeroporto Afonso Pena (próximo à BR-277 e BR-376) - AeroportoAfonsoPena.com (portal informativo)",
+        "url": "https://www.aeroportoafonsopena.com/localizacao/"
+      },
+      {
+        "title": "Lote 1 contempla Contorno Sul de Curitiba (trechos BR-277 e BR-376) - Secretaria de Infraestrutura e Logística do PR",
+        "url": "https://www.infraestrutura.pr.gov.br/Noticia/Lote-1-contempla-Contorno-Sul-de-Curitiba-com-quatro-faixas-e-duplicacao-do-Contorno-Norte"
+      }
+    ]
+  },
+  "fretes": {
+    "introParagraphs": [
+      "Precisa de frete em Curitiba (PR) e quer evitar dor de cabeça com atrasos, falta de cuidado ou combinações vagas? Um bom frete começa bem antes do caminhão encostar: entender o que vai, de onde sai, para onde vai, como é o acesso e qual nível de manuseio o serviço exige. Nesta página, a ideia é te ajudar a organizar isso de forma simples, com um jeito bem curitibano de pensar a cidade: pelo eixo da Linha Verde, pelos contornos/rodovias de acesso e pelas 10 Administrações Regionais usadas pela Prefeitura como referência de atendimento.",
+      "Aqui você encontra um guia completo para fretes na capital: como pedir orçamento do jeito certo, como embalar e proteger itens, o que costuma influenciar o preço e em quais situações vale planejar com antecedência. O foco é frete (transporte de itens e cargas menores), mas muitos pontos também servem para pequenas mudanças. Sem prometer “milagres” de prazo, a proposta é ser claro sobre o que dá certo, o que pode complicar e como deixar tudo pronto para a coleta e a entrega acontecerem com tranquilidade."
+    ],
+    "guideParagraphs": [
+      "Curitiba é uma cidade que muda bastante de ritmo conforme o horário, o corredor viário e a região. Por isso, quando você procura frete, vale pensar mais em “logística” do que em “distância em quilômetros”. Um trajeto pode atravessar áreas centrais, pegar trechos de grande fluxo e terminar em uma área mais afastada — e isso afeta acesso, local de parada e tempo de carga/descarga. Referências como o eixo da Linha Verde (antiga BR-116 no trecho urbano) ajudam a visualizar esse norte–sul sem depender de promessas de tempo. O orçamento fica mais justo quando você descreve o caminho e os pontos críticos com antecedência.",
+      "Uma forma segura de organizar cobertura em Curitiba é usar as 10 Administrações Regionais (as “Regionais”). Em vez de cravar que um bairro pertence “sempre” a uma regional — já houve ajustes de limites ao longo dos anos —, dá para combinar atendimento por regionais e por pontos de referência. A Regional Matriz, por exemplo, é um bom guarda-chuva para falar de coletas no Centro e áreas centrais, onde a dinâmica de estacionamento e carga/descarga costuma exigir mais atenção. Já a Regional CIC é útil para quem precisa de frete com foco em deslocamentos para áreas industriais e trechos mais afastados do miolo central.",
+      "Se o seu frete envolve a região central (como a área coberta pela Regional Matriz), a pergunta mais importante costuma ser: “onde o veículo vai conseguir encostar com segurança e por quanto tempo?”. Em áreas centrais, às vezes é melhor planejar um ponto de encontro ou um horário de menor movimento do que insistir em parar exatamente na porta. Também vale avisar se o prédio tem elevador pequeno, se o corredor é estreito ou se vai precisar subir escadas. Não é sobre complicar; é sobre evitar retrabalho e reduzir o risco de arranhões em móveis, eletros e paredes.",
+      "No outro extremo, quando o frete vai para a CIC ou cruza a cidade para regiões mais afastadas, o cuidado muda um pouco: acessos mais longos, entradas de galpão/empresa, pátios e portarias podem exigir identificação e espera, o que varia conforme cada local. Nesses casos, ajuda muito informar se a entrega é em estabelecimento comercial, condomínio, residência ou empresa, e se há horário de recebimento definido. Isso evita o cenário clássico de chegar com o veículo carregado e descobrir que a descarga só pode acontecer em uma janela de tempo restrita.",
+      "A Linha Verde aparece como uma referência prática porque atravessa Curitiba no sentido norte–sul e conecta áreas importantes, sem depender de “atalhos”. Para quem precisa fazer coleta de um lado e entrega do outro, pensar no frete como “cruzar o eixo” facilita combinar um horário realista e escolher o veículo adequado. Mesmo sem discutir rota detalhada, mencionar se o trajeto fica próximo ao eixo da Linha Verde, ou se deve usar acessos por contornos e rodovias, dá ao transportador uma visão melhor do deslocamento e reduz a chance de orçamento subestimado.",
+      "Falando em acessos, Curitiba tem conexão relevante por corredores rodoviários e pelo Contorno Sul (citado em referências estaduais como composto por trechos de BR-277 e BR-376). Isso importa quando o frete entra ou sai da cidade, ou quando a coleta/entrega é em pontos que dialogam com esses acessos. Para você, como cliente, a dica é simples: diga se o serviço envolve deslocamento maior, horários de pico ou necessidade de entrar em rodovia. Não precisa mapear tudo — só contextualizar, para que o combinado não vire improviso.",
+      "Também é comum surgir demanda de frete na Região Metropolitana, principalmente no entorno do Aeroporto Internacional Afonso Pena, que fica em São José dos Pinhais (fora de Curitiba) e é uma referência logística importante. Se você precisa coletar ou entregar perto do aeroporto, informe isso desde o começo, porque pode mudar a estratégia de horário e o tipo de veículo. Há opções de transporte público e privado ligando a área do aeroporto a terminais e à capital, mas para carga e objetos o ideal é planejar o acesso de veículo com base no volume e no tempo de carga/descarga.",
+      "Um ponto que muita gente subestima é a “unidade de esforço”: subir dois lances de escada com caixa pesada pode custar mais do que rodar alguns quilômetros a mais. Por isso, na hora de pedir frete em Curitiba, detalhe: andar, presença de elevador, distância entre o local de parada e a porta, necessidade de carrinho, e se há itens frágeis ou com risco (vidro, espelho, tampos, equipamentos). Quanto mais claro for o cenário, mais fácil é dimensionar ajudantes e evitar que o serviço vire uma corrida contra o tempo.",
+      "Para fretes de itens grandes, o ideal é listar medidas aproximadas e peso estimado, mesmo que seja “por comparação”: uma geladeira duplex, uma mesa de seis lugares, um sofá retrátil, uma máquina de lavar. Se puder, envie fotos e diga se o item desmonta. Isso influencia se cabe em utilitário, van ou caminhão menor, e se precisa de mantas, cintas e travas internas. Em Curitiba, onde o trajeto pode atravessar trechos de trânsito mais intenso, um bom travamento da carga evita que o item “caminhe” dentro do baú e chegue com quinas marcadas.",
+      "Embalagem é metade do frete. Para caixas, use papelão firme, identifique “FRÁGIL” quando necessário e preencha folgas com papel ou plástico bolha para o conteúdo não bater. Para móveis, mantas e papelão nos cantos ajudam muito; plástico filme sozinho segura poeira, mas não protege de impacto. Eletrodomésticos merecem atenção extra: retirar peças soltas, secar e travar portas quando possível, além de proteger cabos. Se for item de alto valor ou sensível, combine com antecedência como será o manuseio e se é necessário um cuidado especial na subida/descida.",
+      "Nem todo frete é “pegar e levar”. Às vezes você precisa de duas paradas (retirar em um endereço, passar em outro para pegar mais itens e só depois entregar), ou precisa levar algo e trazer outro item de volta (frete com retorno). Isso muda o planejamento e o preço, então vale ser transparente desde o primeiro contato. O mesmo vale para fretes de retirada em loja, marketplace ou depósito: pode haver fila, conferência e espera. Quando você informa o tipo de coleta, o transportador consegue prever melhor o tempo parado e escolher a equipe certa.",
+      "Quando o assunto é urgência, Curitiba costuma pedir um pouco de jogo de cintura: agenda de condomínio, janela de recebimento, chuva, fluxo de fim de tarde. Em frete urgente, o que mais ajuda é ter tudo pronto antes do veículo chegar: itens separados, caixas fechadas, elevador (se houver) já reservado quando aplicável, e uma pessoa disponível para acompanhar a carga e a conferência. Urgência não precisa ser sinônimo de correria; dá para ganhar muito tempo com preparação e com uma lista clara do que entra e sai.",
+      "Para orçamento, desconfie de combinações sem detalhes: “é só uma coisinha” vira um volume grande quando aparecem caixas extras e móveis que não estavam no combinado. Um orçamento honesto considera: volume/quantidade, distância, facilidade de acesso, necessidade de ajudantes, desmontagem, embalagem e horário. Se você quer comparar propostas em Curitiba, padronize as informações que envia para todos: mesmos itens, mesmo ponto de coleta/entrega e mesmas condições de acesso. Assim você não compara preços que, na prática, cobrem serviços diferentes.",
+      "Na hora da execução, combine um roteiro simples: confirmação de horário, ponto de parada, contato de quem recebe, forma de pagamento e como será a conferência na entrega. Conferência pode ser rápida: checar se chegaram as caixas principais, se itens frágeis estão ok e se nada ficou no local de coleta. Evite só “assinar e pronto” quando houver itens sensíveis. E se surgir imprevisto (chuva forte, fila, mudança de acesso), o melhor é comunicar cedo para ajustar sem estresse.",
+      "Por fim, vale separar o que é frete do que é mudança. Frete costuma ser mais direto: transportar itens, com ou sem ajuda. Mudança inclui mais etapas, mais tempo e mais risco de dano se não houver embalagem e desmontagem adequadas. Em Curitiba, muita gente começa pedindo “frete” e descobre que é uma pequena mudança. Não tem problema: o importante é alinhar expectativa e escopo. Quando o serviço é bem descrito, você paga pelo que realmente precisa e recebe um atendimento mais adequado ao seu caso."
+    ],
+    "howSteps": [
+      "Descreva o que vai no frete: quantidade de volumes, itens grandes, fragilidade e se há algo que não pode deitar ou empilhar.",
+      "Informe coleta e entrega com referência por Regionais (ex.: área central/Regional Matriz, eixo Linha Verde, região da CIC) e diga se envolve Região Metropolitana.",
+      "Explique o acesso nos dois pontos: andar, elevador (se existir), escadas, distância da porta até onde o veículo pode parar e se há restrição de horário que você já conheça.",
+      "Envie fotos dos itens maiores e do caminho (corredor, escada, elevador), quando possível; isso ajuda a dimensionar veículo e equipe.",
+      "Defina o tipo de serviço: só transporte, transporte + ajudante(s), desmontagem/montagem, embalagem, múltiplas paradas ou frete com retorno.",
+      "Combine janela de coleta/entrega e um plano B simples (ex.: se chover ou se o acesso mudar), sem prometer tempo exato.",
+      "Antes do veículo chegar, deixe caixas fechadas e itens separados; reserve alguém para acompanhar a carga e outra pessoa (ou contato) para receber.",
+      "Na entrega, faça uma conferência rápida dos principais itens e avise na hora se algo ficou faltando ou se houve avaria aparente."
+    ],
+    "priceFactors": [
+      "Distância e tipo de trajeto (atravessar a cidade, uso de eixos como Linha Verde, acesso por contornos/rodovias quando aplicável).",
+      "Volume total e tamanho dos itens (se exige van/baú, se precisa de travamento com cintas e mantas, e quantas viagens seriam necessárias).",
+      "Acessibilidade: escadas, elevador pequeno, corredor estreito, distância entre o veículo e a porta, e tempo de carga/descarga.",
+      "Necessidade de ajudantes, desmontagem/montagem e nível de manuseio (itens frágeis, pesados ou que exigem cuidado extra).",
+      "Horário e urgência (janelas mais apertadas podem exigir reorganização de agenda e equipe).",
+      "Múltiplas paradas, retorno com carga, coleta em loja/depósito com possível espera e conferência.",
+      "Materiais de proteção e embalagem (mantas, plástico bolha, papelão, filme, caixas) quando fornecidos pelo serviço."
+    ],
+    "prepChecklist": [
+      "Separe o que vai e o que não vai; evite “última caixa surpresa” para não estourar o volume.",
+      "Embale itens frágeis com preenchimento interno e identifique as caixas por cômodo e prioridade.",
+      "Proteja cantos de móveis e tampos; use manta ou papelão em pontos de impacto.",
+      "Descongele e seque geladeira/freezer com antecedência, quando aplicável, e prenda portas e cabos.",
+      "Desmonte o que for simples (pés, prateleiras soltas, puxadores frágeis) e guarde parafusos em saquinhos identificados.",
+      "Deixe rotas livres: corredor sem obstáculos, tapetes presos e objetos pequenos fora do caminho.",
+      "Prepare documentos de compra/retirada quando for coleta em loja ou depósito, se necessário.",
+      "Combine quem acompanha a coleta e quem recebe na entrega, com telefone de contato atualizado (sem expor dados em locais públicos).",
+      "Separe itens de alto valor ou uso imediato (documentos, remédios, notebook) para levar com você."
+    ],
+    "scenarios": [
+      "Fretar um sofá, geladeira ou máquina de lavar comprados de particular, com retirada em apartamento e entrega em casa.",
+      "Coleta em loja/depósito e entrega em residência, com necessidade de esperar conferência e carregar por rampa ou garagem.",
+      "Frete de caixas e itens de escritório entre duas Regionais, com janela de recebimento definida pelo prédio.",
+      "Transporte de itens frágeis (espelhos, vidros, eletrônicos) com proteção reforçada e acomodação cuidadosa no veículo.",
+      "Frete com duas ou mais paradas (pegar itens em locais diferentes dentro de Curitiba antes de entregar tudo no destino).",
+      "Atendimento no eixo Curitiba–Região Metropolitana, incluindo pontos próximos ao Aeroporto Afonso Pena (em São José dos Pinhais), quando o cliente precisa de logística fora da capital.",
+      "Frete rápido para resolver imprevisto (troca de mobiliário, entrega de última hora), desde que o acesso e o volume estejam bem alinhados."
+    ],
+    "faq": [
+      {
+        "q": "Frete e mudança são a mesma coisa em Curitiba?",
+        "a": "Não exatamente. Frete costuma ser o transporte de itens com uma logística mais direta, enquanto mudança envolve mais volumes, mais tempo e geralmente desmontagem/embalagem. Se você tem muitos itens de casa, pode ser que o serviço correto seja uma pequena mudança, mesmo que você chame de frete."
+      },
+      {
+        "q": "Vocês atendem todas as Regionais de Curitiba?",
+        "a": "O atendimento costuma ser organizado por Regionais e por pontos de referência, porque os limites podem variar ao longo do tempo. Ao pedir orçamento, diga a região/Regional aproximada e descreva o acesso, que é o que mais impacta o serviço. Assim dá para confirmar disponibilidade para o seu trajeto."
+      },
+      {
+        "q": "Dá para marcar frete para o mesmo dia?",
+        "a": "Pode ser possível dependendo da agenda, do volume e do deslocamento. Quanto mais completo for o seu pedido (itens, fotos, acesso e janelas de horário), mais fácil encaixar. Em urgências, ter tudo embalado e pronto costuma fazer diferença."
+      },
+      {
+        "q": "Como estimar o veículo ideal (utilitário, van ou caminhão pequeno)?",
+        "a": "A melhor forma é listar itens grandes com medidas aproximadas e dizer quantas caixas você tem. Fotos ajudam muito, principalmente de móveis volumosos. Com isso dá para evitar veículo pequeno demais (vira duas viagens) ou grande demais (custo desnecessário)."
+      },
+      {
+        "q": "O que mais encarece um frete na prática?",
+        "a": "Normalmente é a combinação de acesso difícil (escadas e distância até o ponto de parada), muitos volumes e necessidade de ajudantes. Urgência e múltiplas paradas também pesam. Por isso, detalhar o cenário costuma reduzir surpresas no valor."
+      },
+      {
+        "q": "Preciso embalar tudo antes ou o serviço pode ajudar?",
+        "a": "Você pode embalar por conta ou combinar apoio com materiais e mão de obra, dependendo do escopo. Itens frágeis e móveis com quinas se beneficiam de proteção extra. O ideal é alinhar antes para ninguém improvisar na hora."
+      },
+      {
+        "q": "Posso incluir uma parada extra no caminho?",
+        "a": "Pode, desde que isso seja combinado no orçamento. Paradas mudam tempo, rota e, às vezes, o dimensionamento do veículo. Se souber as paradas de antemão, o planejamento fica bem mais tranquilo."
+      },
+      {
+        "q": "Vocês fazem frete para a Região Metropolitana e entorno do aeroporto?",
+        "a": "Muitos serviços atendem Curitiba e cidades próximas, e o entorno do Aeroporto Afonso Pena (em São José dos Pinhais) é uma referência comum de logística. Informe o ponto aproximado e o tipo de carga para avaliar deslocamento e agenda. Evite deixar para avisar só na hora, porque isso pode alterar o planejamento."
+      },
+      {
+        "q": "Como funciona a conferência na entrega?",
+        "a": "O recomendado é fazer uma checagem rápida dos itens principais e das caixas frágeis assim que descarregar. Se houver algo aparente (avaria ou falta), avise na hora para registrar e tentar resolver rapidamente. Em fretes com muitos volumes, uma lista simples por quantidade já ajuda."
+      },
+      {
+        "q": "Chuva atrapalha frete em Curitiba?",
+        "a": "Pode atrapalhar, principalmente se houver escadas externas, calçadas escorregadias e necessidade de carregar itens sem cobertura. Em dias instáveis, vale reforçar proteção com manta e plástico e combinar um plano de acesso. O importante é priorizar segurança e integridade dos itens."
+      },
+      {
+        "q": "Posso mandar só o endereço e pedir um preço fechado?",
+        "a": "Até dá para ter uma estimativa, mas o preço fica mais confiável quando você informa volume, itens grandes e acessos. Dois endereços iguais podem ter realidades bem diferentes (escada, elevador, distância para estacionar). Quanto mais contexto, menos chance de ajuste depois."
+      }
+    ],
+    "types": [
+      "Fretinho urbano para poucas caixas e itens médios (ideal para deslocamentos curtos dentro da cidade)",
+      "Frete de item grande (sofá, geladeira, máquina de lavar) com proteção e travamento no veículo",
+      "Frete com ajudante(s) para carga e descarga em escadas ou quando não há elevador adequado",
+      "Frete com múltiplas paradas em Curitiba (coletas em mais de um ponto antes da entrega final)",
+      "Frete com retorno (leva um item e traz outro de volta, útil para trocas e retiradas)",
+      "Frete Curitiba + Região Metropolitana (quando a coleta ou entrega sai da capital, conforme disponibilidade)"
+    ],
+    "services": [
+      "Embalagem e proteção com materiais adequados (manta, plástico bolha, cantoneiras, filme)",
+      "Desmontagem e montagem simples de móveis (quando possível e combinado previamente)",
+      "Apoio de ajudantes para manuseio e carregamento seguro",
+      "Coleta em loja/depósito com conferência e espera programada",
+      "Acomodação e travamento interno da carga para reduzir risco de dano no trajeto"
+    ],
+    "sectionTitles": {
+      "demands": "Quando o frete vira “pra ontem”: como lidar com urgências em Curitiba",
+      "coverage": "Curitiba por Regionais: cobertura pensada do Centro ao extremo sul",
+      "whatToSend": "O que vai no frete (e o que vale repensar antes de carregar)",
+      "availability": "Agenda, janelas e horários: combinados que evitam correria",
+      "whenYes": "Sinais de que vai dar certo sem estresse",
+      "whenNo": "Alertas de que pode complicar — e como ajustar",
+      "pricing": "Preço de frete em Curitiba: o que entra na conta de verdade",
+      "commonScenarios": "Situações comuns de frete na capital (e como cada uma muda o serviço)",
+      "types": "Formatos de frete mais pedidos em Curitiba",
+      "services": "Serviços que complementam o transporte e salvam o dia",
+      "howItWorks": "Do pedido à entrega: passo a passo do frete",
+      "completeGuide": "Guia completo para contratar frete em Curitiba sem surpresas",
+      "preparation": "Preparação inteligente: embalagens, rotas e conferência",
+      "neighborhoods": "Referências de atendimento sem travar em bairro: Regionais e eixos de deslocamento",
+      "testimonials": "Relatos do dia a dia em Curitiba: o que clientes costumam valorizar no frete"
+    },
+    "sectionDescriptions": {
+      "demands": "Orientações práticas para encaixes rápidos, com foco em organização pré-coleta, comunicação e alternativas quando o acesso ou o clima pesam.",
+      "coverage": "Uma visão de atendimento baseada nas 10 Administrações Regionais e em referências urbanas, sem depender de listas fixas de bairros que podem mudar.",
+      "whatToSend": "Uma forma simples de decidir o que transportar, como descrever os itens e quais detalhes evitam desencontro de expectativa no dia do frete.",
+      "availability": "Como alinhar horários realistas em uma cidade com variação de fluxo, janelas de recebimento e possíveis esperas em coletas comerciais.",
+      "pricing": "Explicação clara dos fatores que mais influenciam valores, com exemplos de esforço (escada, distância até o veículo, ajudantes e proteção da carga).",
+      "commonScenarios": "Cenários frequentes na rotina curitibana — de compras online a entregas em prédio — e o que muda no planejamento de veículo e equipe.",
+      "types": "Modelos de frete para diferentes volumes e necessidades, do item único ao transporte com paradas múltiplas e retorno.",
+      "services": "Opções que vão além de ‘levar do ponto A ao B’, incluindo proteção, ajuda no carregamento e ajustes de logística quando necessário.",
+      "howItWorks": "Um roteiro objetivo para solicitar, confirmar, preparar e conferir o frete, reduzindo retrabalho e improviso.",
+      "completeGuide": "Conteúdo pilar com dicas de contratação, preparo, orçamento e execução, usando a lógica de Regionais e dos principais corredores viários.",
+      "preparation": "Checklist e boas práticas para embalar, proteger e organizar o caminho, com atenção especial a itens frágeis e volumosos.",
+      "neighborhoods": "Em vez de prometer bairro por bairro, a seção ensina a usar Regionais, Centro (Matriz), CIC e o eixo Linha Verde como referências de atendimento.",
+      "testimonials": "Uma seção pensada para destacar percepções reais: pontualidade combinada, cuidado com itens e clareza na comunicação antes e durante o frete."
+    },
+    "_approxWords": 3229
+  },
+  "mudancas": {
+    "introParagraphs": [
+      "Mudança em Curitiba costuma ser mais tranquila quando você planeja pensando na cidade como ela realmente funciona: regiões com perfis diferentes, horários com trânsito que muda bastante e trajetos que muitas vezes cruzam grandes corredores. A ideia aqui é te ajudar a organizar a mudança com clareza — do que informar no orçamento até como embalar e como escolher a melhor janela de carregamento — sem promessas irreais e sem depender de “sorte no dia”.",
+      "Atendemos mudanças residenciais e comerciais em Curitiba/PR, com cobertura pensada pelas 10 Administrações Regionais (as Regionais), o que facilita alinhar coleta, rota e descarregamento. Quando faz sentido, também usamos referências logísticas que qualquer curitibano reconhece, como o eixo da Linha Verde (antiga BR‑116 no trecho urbano), além de acessos por contornos e rodovias para mudanças que seguem para fora da cidade ou chegam da Região Metropolitana."
+    ],
+    "guideParagraphs": [
+      "Curitiba tem uma dinâmica urbana bem particular: você pode sair de uma área mais central e, em poucos quilômetros, já estar em vias de ligação maiores, acessos a contornos ou em trechos com fluxo pesado. Por isso, orçamento e planejamento de mudança não deveriam ser “um número por distância”. Faz diferença saber se há elevador, quantos lances de escada, onde o caminhão pode parar com segurança e por quanto tempo a carga vai precisar ficar em deslocamento interno (portaria, corredor, elevador, rampa). Quanto mais claro o cenário, mais fiel fica o combinado.",
+      "Uma forma prática de organizar a cobertura em Curitiba é por Regionais. Não é só “nome bonito”: dividir o atendimento pelas 10 Administrações Regionais ajuda a pensar em equipe, tipos de rua e logística de acesso. A Regional Matriz, por exemplo, concentra o miolo mais central — quando a mudança envolve área central, o cuidado maior costuma ser com acesso, vagas de carga/descarga e circulação. Já a Regional CIC é um bom exemplo de regional com áreas mais extensas, onde planejar entrada e saída de vias principais costuma impactar bastante o ritmo do serviço.",
+      "Quando o trajeto cruza a cidade, a Linha Verde entra como referência útil. Ela acompanha o trecho urbano da antiga BR‑116 e funciona como um eixo norte–sul importante para conectar áreas sem depender apenas do miolo central. Isso não significa “tempo garantido” nem “rota perfeita”, porque o trânsito varia; mas, ao planejar uma mudança que passa de um lado ao outro de Curitiba, considerar esse corredor e suas conexões costuma ajudar a reduzir improvisos e a manter a equipe focada no carregamento e descarregamento.",
+      "Se a sua mudança envolve entrada ou saída de Curitiba, é comum que parte do caminho use acessos por contornos e rodovias. Há referência estadual ao Contorno Sul composto por trechos da BR‑277 e BR‑376, e isso pode ser relevante para mudanças intermunicipais ou para quem está chegando da Região Metropolitana. A vantagem prática é alinhar o ponto de encontro e o melhor tipo de veículo para o volume transportado, sem ficar preso à ideia de “só rua pequena” ou “só centro”.",
+      "Para mudanças na Grande Curitiba, vale separar duas coisas: logística urbana (curtas distâncias com muitas manobras) e logística rodoviária (pouca manobra, mais deslocamento). Um exemplo de referência do entorno é o Aeroporto Internacional Afonso Pena, que fica em São José dos Pinhais, a cerca de 18 km do centro de Curitiba. Se você precisa coletar ou entregar perto do aeroporto, isso muda o planejamento de horário e o tipo de acesso, e pode envolver trechos com fluxo diferente do que você teria num bairro mais central.",
+      "O que normalmente dá mais dor de cabeça numa mudança não é o caminhão: é o “entre o caminhão e o imóvel”. Embalagem fraca, caixa sem identificação, móveis desmontados de qualquer jeito e itens soltos em sacolas aumentam o risco de dano e deixam o serviço mais lento. Um bom planejamento prevê como as coisas vão sair (proteção, desmontagem, organização por cômodos) e como vão entrar (prioridades de descarregamento, montagem, posicionamento), para você não terminar o dia com tudo empilhado sem critério.",
+      "Outro ponto que muda muito o resultado é alinhar o escopo. Há mudanças em que você só precisa de transporte e carregadores; em outras, o que resolve é embalagem completa, desmontagem e montagem, proteção reforçada e cuidado com itens sensíveis (vidros, eletrônicos, instrumentos, obras). Em Curitiba, onde o clima pode variar ao longo do dia, também é prudente planejar proteção contra umidade e chuva eventual durante o transbordo — sem exagero, apenas com materiais adequados e uma sequência de carga bem pensada.",
+      "Para o orçamento ser justo, as informações mais valiosas são simples: endereço de coleta e entrega (sem detalhes públicos), tipo de imóvel, andar, elevador, distância até a porta, necessidade de içamento (se houver), lista aproximada de volumes e itens grandes, e fotos/vídeos dos ambientes e dos móveis. Com isso, dá para dimensionar equipe, tempo de trabalho e materiais. Quando essas informações ficam vagas, o preço tende a “inflar por segurança” ou o serviço vira um jogo de improviso no dia.",
+      "Em áreas com maior circulação, como o núcleo central da cidade, a diferença entre uma mudança calma e uma mudança estressante muitas vezes está no horário e no ponto de parada. Em alguns trechos, estacionar pode ser mais difícil, e o tempo de caminhada com carrinho aumenta. Como regras e tolerâncias podem variar e mudar, o melhor caminho é: verificar previamente o acesso do prédio, combinar a melhor janela de carregamento e, se necessário, pensar em soluções como equipe extra para reduzir tempo parado na rua.",
+      "Para imóveis com corredor estreito, escadas ou elevador pequeno, a organização do carregamento vira estratégia. Em vez de sair levando “o que aparece”, funciona melhor separar por prioridade: primeiro itens volumosos e resistentes (que criam base no caminhão), depois caixas padronizadas e, por fim, itens frágeis bem protegidos. Isso evita revirar carga na entrega e reduz risco de avarias. É um detalhe que parece pequeno, mas muda o ritmo do dia e o cansaço da equipe.",
+      "Mudança comercial pede outro tipo de cuidado: continuidade do trabalho. Aqui, o foco costuma ser etiquetar por setor, embalar equipamentos e organizar cabos e periféricos para reinstalação rápida. Também ajuda planejar a entrega por etapas (por exemplo, primeiro o que precisa para reabrir, depois arquivo e estoque). Em Curitiba, isso é especialmente útil quando a empresa está em prédio com regras internas, docas ou horários de recebimento que podem variar conforme a administração do local.",
+      "Para quem está com prazo curto, dá para fazer uma “mudança enxuta” sem sacrificar segurança: reduzir itens soltos, priorizar desmontagem do essencial, usar caixas do mesmo tamanho quando possível e separar um kit de primeira noite (roupas, higiene, carregadores, documentos). Esse tipo de abordagem não faz milagre, mas diminui o tempo de procura e o vai‑e‑vem. A chave é aceitar que rapidez vem de organização — não de correria — e que decisões simples antes do dia rendem muito.",
+      "Transporte de itens especiais (piano, aquário, obras, cristaleira, eletros grandes) exige avaliação do caminho e da proteção, além de equipe com prática. Nem sempre é questão de força: é ângulo de giro, tipo de embalagem, como apoiar, como subir e descer sem torção. Quando o acesso é limitado, pode ser necessário planejar desmontagens parciais ou técnicas de movimentação específicas. Nesses casos, vale informar o item logo no início para evitar surpresa e retrabalho.",
+      "Por fim, vale lembrar que Curitiba é uma cidade de mudanças constantes de fluxo, obras e ajustes de circulação ao longo do tempo. Então, mais importante do que “decorar uma rota” é trabalhar com um plano: confirmar endereços e acessos, prever tempo de carga e descarga, combinar responsáveis no local e manter comunicação simples no dia. Assim, mesmo com variáveis de rua e trânsito, sua mudança fica previsível no que realmente importa: cuidado, organização e entrega do combinado."
+    ],
+    "howSteps": [
+      "Você envia as informações básicas: tipo de mudança (residencial/comercial), data desejada, origem e destino em Curitiba/PR (ou Região Metropolitana) e se precisa de embalagem/desmontagem.",
+      "Compartilha fotos ou um vídeo rápido dos ambientes e dos itens maiores (sofá, cama, geladeira, armários, mesa), além de detalhes de acesso (andar, elevador, escadas e distância até a porta).",
+      "A gente define o tamanho do veículo e o número de pessoas mais adequado ao seu volume e ao tipo de acesso, para evitar excesso (custo) ou falta (atraso).",
+      "Você recebe um orçamento com escopo claro: o que está incluído (transporte, carregamento, proteção, desmontagem/montagem) e o que pode ser opcional.",
+      "Com a data confirmada, alinhamos a janela de início e as orientações de preparação (caixas, identificação por cômodo, itens frágeis e kit de primeira necessidade).",
+      "No dia, a equipe faz a proteção dos itens que precisam, desmonta o que foi combinado e organiza a carga com prioridade para facilitar a descarga.",
+      "Na entrega, descarregamos por cômodo/área conforme sua orientação, montamos o que estiver no escopo e revisamos os itens essenciais antes de encerrar.",
+      "Se houver uma segunda etapa (ex.: entrega adicional, descarte de embalagens, ajustes de posicionamento), isso é combinado de forma objetiva, sem “surpresas de última hora”."
+    ],
+    "priceFactors": [
+      "Volume total e quantidade de itens grandes (móveis, eletros e peças desmontáveis).",
+      "Tipo de acesso na coleta e na entrega: andar, elevador, escadas, corredores, distância até o ponto de parada.",
+      "Necessidade de embalagem e materiais (plástico bolha, mantas, filme stretch, caixas) e o nível de proteção exigido por itens frágeis.",
+      "Desmontagem e montagem (armários, camas, mesas, painéis), incluindo complexidade e tempo de execução.",
+      "Trajeto e janela de atendimento: mudanças que cruzam a cidade por eixos como a Linha Verde podem ter dinâmica diferente de deslocamento, sem que isso signifique tempo fixo.",
+      "Paradas adicionais (retirar itens em mais de um endereço, entregar em dois locais, subir itens em locais diferentes).",
+      "Exigências do local que podem variar: necessidade de agendamento, doca, restrição de horário, ou regras internas do condomínio/empresa."
+    ],
+    "prepChecklist": [
+      "Separe documentos, chaves, remédios e eletrônicos pequenos em uma mochila com você (não vá no caminhão).",
+      "Padronize caixas e não ultrapasse um peso confortável; identifique com cômodo e conteúdo principal.",
+      "Embale itens frágeis com proteção interna e externa; marque como FRÁGIL e indique “este lado para cima”.",
+      "Esvazie e descongele freezer/geladeira com antecedência; proteja partes móveis e prateleiras.",
+      "Desmonte o que for simples (se preferir), guardando parafusos em saquinhos etiquetados por móvel.",
+      "Faça um “kit de primeira noite” (roupa, higiene, carregadores, roupa de cama, ferramentas básicas).",
+      "Reserve um corredor livre e avise vizinhos/portaria sobre a movimentação, quando isso for aplicável e permitido."
+    ],
+    "scenarios": [
+      "Mudança dentro de Curitiba entre imóveis com elevador, com foco em organização por cômodos e proteção padrão.",
+      "Mudança saindo de área mais central (Regional Matriz) para outra regional, com atenção a acesso e ponto de parada.",
+      "Mudança envolvendo a Regional CIC, considerando distâncias internas maiores e planejamento de entrada/saída por vias principais.",
+      "Mudança comercial com etiquetagem por setor e prioridade para equipamentos essenciais no primeiro descarregamento.",
+      "Mudança com itens sensíveis (vidros, eletrônicos, obras) que pede embalagem reforçada e sequência de carga específica.",
+      "Mudança para Região Metropolitana com referência a acessos por contornos/rodovias e possibilidade de coleta/entrega em mais de um ponto.",
+      "Mudança com prazo curto em que o objetivo é reduzir etapas: menos itens soltos, caixas padronizadas e montagem apenas do essencial."
+    ],
+    "faq": [
+      {
+        "q": "Vocês atendem todas as Regionais de Curitiba?",
+        "a": "Atendemos Curitiba com organização por Regionais, o que ajuda a planejar logística e disponibilidade. Como a demanda varia por data, o ideal é informar origem, destino e horário preferido para confirmarmos a agenda. Também atendemos Região Metropolitana conforme rota e escopo."
+      },
+      {
+        "q": "Dá para fazer mudança no mesmo dia que eu pego a chave?",
+        "a": "Em muitos casos, sim, desde que o volume esteja bem mapeado e o acesso esteja liberado. Ajuda muito ter fotos/vídeo do imóvel e um plano de prioridade (o que precisa entrar primeiro). Se houver regras internas do prédio, isso pode exigir confirmação prévia."
+      },
+      {
+        "q": "Como funciona a mudança no eixo da Linha Verde?",
+        "a": "A Linha Verde é um corredor urbano importante e pode servir como referência para cruzar a cidade no sentido norte–sul. A gente usa isso para planejar deslocamento e janela de saída/chegada, sem prometer tempo fixo. O essencial é combinar bem o horário e o ponto de parada nos dois endereços."
+      },
+      {
+        "q": "O que vocês precisam para passar um orçamento mais preciso?",
+        "a": "Endereços (coleta e entrega), tipo de imóvel, andar, elevador/escadas, distância até a porta e lista aproximada de volumes e itens grandes. Fotos ou um vídeo curto ajudam a dimensionar equipe e materiais. Com isso, o orçamento fica bem mais próximo do que acontecerá no dia."
+      },
+      {
+        "q": "Vocês embalam tudo ou eu posso embalar por conta?",
+        "a": "Dá para escolher: embalagem completa, parcial (só frágeis) ou você embala tudo e a equipe faz apenas transporte e proteção de móveis. O importante é alinhar antes para levar os materiais certos e manter o ritmo. Se você embalar, recomendamos padronizar caixas e identificar por cômodo."
+      },
+      {
+        "q": "Tem desmontagem e montagem de móveis?",
+        "a": "Sim, quando combinado no escopo. Alguns móveis pedem mais tempo e cuidado (especialmente modulados e peças com muitas ferragens), então vale enviar fotos para avaliação. Parafusos e acessórios são organizados e identificados para facilitar a montagem."
+      },
+      {
+        "q": "Como vocês lidam com itens frágeis e eletrônicos?",
+        "a": "A proteção depende do item: pode incluir plástico bolha, mantas e fixação para evitar movimento na carga. Em eletrônicos, também orientamos sobre o transporte de cabos e acessórios separados e identificados. Se houver algo muito sensível, é melhor avisar com antecedência."
+      },
+      {
+        "q": "Vocês fazem mudanças para fora de Curitiba?",
+        "a": "Fazemos, conforme distância e agenda, incluindo rotas que podem envolver corredores rodoviários como BR‑277 e BR‑376 e acessos por contornos. O orçamento considera deslocamento, volume e necessidade de equipe. Para intermunicipal, é importante informar se haverá paradas extras."
+      },
+      {
+        "q": "Precisa agendar elevador ou avisar a portaria?",
+        "a": "Em muitos condomínios isso é recomendado, mas as regras podem variar conforme o prédio. Sempre sugerimos confirmar com a administração/local com antecedência para evitar espera. Se houver doca, horário de mudança ou restrição interna, nos avise para adequarmos a operação."
+      },
+      {
+        "q": "O que costuma encarecer uma mudança sem a pessoa perceber?",
+        "a": "Acesso difícil (muita escada, caminhada longa), falta de padronização de caixas e itens não informados (móveis grandes, excesso de frágeis). Paradas adicionais e desmontagens não previstas também impactam. Com um levantamento simples antes, dá para evitar a maior parte desses custos."
+      }
+    ],
+    "checklist": [
+      "Orçamento baseado em informações reais (fotos/vídeo e detalhes de acesso), para evitar ajustes inesperados no dia",
+      "Equipe dimensionada para o seu cenário: volume, escadas/elevador e nível de embalagem combinado",
+      "Proteção e organização de carga pensadas para descarregar por cômodo/área, reduzindo bagunça na chegada",
+      "Comunicação simples durante a execução: quem decide no local, o que é prioridade e o que pode esperar",
+      "Atenção a referências logísticas de Curitiba (Regionais e eixos como a Linha Verde) para planejar deslocamentos sem prometer tempo fixo",
+      "Fechamento com revisão do essencial: conferência do que foi montado/posicionado conforme o escopo e orientação de próximos passos"
+    ],
+    "sectionTitles": {
+      "demands": "Prazo apertado em Curitiba: como virar o jogo sem improviso",
+      "coverage": "Curitiba por Regionais: atendimento pensado para a cidade real",
+      "whatToSend": "O que mandar no pedido de orçamento (e por que isso agiliza tudo)",
+      "availability": "Agenda e janelas de mudança: como escolher o melhor momento",
+      "whenYes": "Quando essa mudança tende a fluir bem",
+      "whenNo": "Quando vale recalcular a rota (ou o plano) antes do dia",
+      "pricing": "Preço de mudança em Curitiba: o que entra na conta de verdade",
+      "commonScenarios": "Cenários que mais aparecem nas mudanças curitibanas",
+      "types": "Tipos de mudança que atendemos em Curitiba/PR",
+      "services": "Serviços extras para tirar peso das suas costas",
+      "howItWorks": "Do primeiro contato ao último móvel: nosso passo a passo",
+      "completeGuide": "Guia completo de mudança em Curitiba (sem conversa enrolada)",
+      "preparation": "Preparação inteligente: o que organizar antes do caminhão chegar",
+      "neighborhoods": "Atendimento por Regionais e principais áreas da cidade (sem chute de bairro)",
+      "testimonials": "Relatos de quem mudou com mais controle do processo"
+    },
+    "sectionDescriptions": {
+      "demands": "Um roteiro prático para mudanças com pouco tempo de preparação, focando em organização, priorização de itens e alinhamento de acesso — pontos que costumam decidir se o dia rende ou trava.",
+      "coverage": "Explicamos como a divisão oficial das 10 Regionais ajuda a planejar coleta e entrega em Curitiba, incluindo referências seguras como área central (Regional Matriz) e a dinâmica de uma regional extensa como a CIC.",
+      "whatToSend": "Lista objetiva do que enviar (fotos, vídeos e detalhes de acesso) para transformar orçamento em planejamento real, reduzindo surpresas de escada, elevador, corredores e volumes fora do radar.",
+      "availability": "Como escolher horário e janela de atendimento em Curitiba levando em conta trânsito variável, disponibilidade do prédio/empresa e a diferença entre deslocamento e tempo de carga/descarga.",
+      "pricing": "Os fatores que mais influenciam o valor — equipe, acesso, materiais, desmontagem e trajeto — explicados de um jeito transparente para você comparar propostas com o mesmo critério.",
+      "commonScenarios": "Situações recorrentes em Curitiba, desde mudanças internas até mudanças intermunicipais, para você se reconhecer em um caso parecido e saber o que preparar com antecedência.",
+      "types": "Um panorama claro das modalidades: residencial, comercial, parcial, completa, com itens especiais e com etapas, ajudando você a escolher o formato que faz sentido para o seu dia.",
+      "services": "Complementos que podem entrar conforme necessidade: embalagem, desmontagem/montagem, proteção reforçada e organização de descarregamento por cômodo ou setor.",
+      "howItWorks": "Etapas do atendimento com começo, meio e fim: levantamento, orçamento, confirmação, execução e revisão final — com foco no que você precisa decidir em cada fase.",
+      "completeGuide": "Um conteúdo pilar feito para Curitiba, trazendo lógica de Regionais, referência ao eixo da Linha Verde e dicas práticas de organização para reduzir estresse e retrabalho.",
+      "preparation": "Checklist do que separar, embalar e identificar para o dia da mudança, incluindo cuidados com frágeis, eletros e um kit de sobrevivência para as primeiras horas no novo lugar.",
+      "neighborhoods": "Em vez de prometer bairro por bairro sem base, mostramos como trabalhamos com a estrutura das Regionais e com referências urbanas seguras para orientar cobertura e logística.",
+      "testimonials": "Depoimentos que destacam organização, cuidado e comunicação — pontos que costumam importar mais do que frases prontas quando o assunto é mudança."
+    },
+    "_approxWords": 2939
+  },
+  "urgente": {
+    "introParagraphs": [
+      "Precisa de frete urgente em Curitiba (PR) e quer resolver sem enrolação? A proposta aqui é simples: coletar rápido, proteger a carga e entregar com comunicação clara do começo ao fim. Em cidade grande, urgência não é só “correria”; é escolher o veículo certo, organizar acesso a prédio/casa, prever elevador e vagas (quando existirem) e entender que o trânsito pode oscilar bastante ao longo do dia. Por isso, o atendimento começa com perguntas objetivas e um plano de execução enxuto, para evitar retrabalho e perda de tempo na hora da coleta.",
+      "Curitiba é dividida oficialmente em 10 Administrações Regionais, e isso ajuda a organizar o atendimento por áreas sem depender de achismos. Em coletas no Centro e bairros centrais (Região Matriz) a logística costuma ser diferente de chamadas mais ao sul ou em áreas industriais como a Regional CIC, por exemplo. Também dá para pensar na cidade pelo eixo da Linha Verde, um corredor norte–sul importante (antigo trecho urbano da BR-116), útil para atravessar Curitiba e conectar zonas distintas. A seguir, você encontra um guia completo para pedir, preparar e acompanhar seu frete urgente com segurança."
+    ],
+    "guideParagraphs": [
+      "Fretar com urgência funciona melhor quando a decisão é rápida, mas as informações são completas. O que mais atrasa um frete urgente não é a distância em si: é chegar ao local e descobrir que a carga não cabe no elevador, que faltam pessoas para ajudar, ou que o item não estava pronto para sair. Em Curitiba, onde o fluxo muda bastante conforme horário e corredor viário, um bom planejamento inclui: ponto de retirada e entrega, tipo de item, peso aproximado, dimensão (mesmo que estimada) e condições de acesso. Com isso, dá para dimensionar equipe, veículo e material de proteção.",
+      "Uma forma prática de organizar a cobertura na capital é por Regionais. As 10 Administrações Regionais servem como mapa mental para atendimento e roteirização: chamadas na Regional Matriz (núcleo central) tendem a exigir mais atenção a paradas rápidas, entradas de garagem e janelas de carga/descarga; já deslocamentos em outras regionais podem demandar mais tempo de trajeto e uma leitura cuidadosa de vias de ligação. Essa divisão não serve para “engessar” o atendimento (limites podem mudar), mas ajuda a conversar com clareza: “coleta na Matriz, entrega em outra regional” é um jeito de alinhar expectativa e logística.",
+      "O eixo da Linha Verde costuma aparecer em conversas de frete porque conecta regiões de Curitiba no sentido norte–sul. Como ela acompanha, em grande parte, o traçado urbano da antiga BR-116 e tem influência entre Atuba (norte) e Pinheirinho (sul), é comum usar esse corredor como referência para atravessar a cidade, reduzir zig-zags e conectar áreas. Isso não significa prometer tempo fixo de deslocamento, mas ajuda a planejar: quando o frete envolve pontos em lados diferentes da cidade, vale avisar o motorista/ajudantes com antecedência para evitar rotas improvisadas e paradas desnecessárias.",
+      "Frequente em frete urgente é a demanda “hoje ainda”, mas o “como” importa. Urgência pode ser: retirar um item comprado em marketplace, levar equipamento para um evento, levar caixas para um escritório, ou resolver uma troca de apartamento com poucas viagens. Para cada caso, o melhor é especificar se é um item único (geladeira, sofá, mesa), um lote de caixas, ou algo sensível (eletrônicos, vidro, instrumentos). Ao descrever, use referências simples: “passa na porta?”, “precisa desmontar?”, “tem partes soltas?”. Essa triagem reduz risco de avaria e evita que o frete vire duas idas por falta de espaço.",
+      "Em Curitiba, a diferença entre um frete eficiente e um frete estressante geralmente está na preparação do local. Em prédio, por exemplo, pode variar se há elevador de serviço, se o elevador comporta volume, se é permitido proteger áreas comuns, e qual o melhor horário para carregar. Em casa, o desafio pode ser escada, corredor estreito, portão e posição do veículo. Para urgência, a dica é: deixe o caminho livre, separe itens por categoria e sinalize o que é frágil. Pequenas ações antes da equipe chegar economizam minutos valiosos e diminuem chances de dano.",
+      "Outro ponto que costuma gerar dúvida é equipe: quando basta motorista e quando precisa de ajudante? Se a carga for leve e já estiver embalada, pode ser viável com menos mãos. Agora, itens volumosos, caixas em grande quantidade, subidas de escada e desmontagem pedem ajudantes para manter o ritmo sem forçar móveis e pessoas. Em frete urgente, subdimensionar equipe sai caro: vira atraso e aumenta risco de batidas e arranhões. Por isso, é melhor ser conservador na estimativa, principalmente quando você não tem como ajudar na carga/descarga ou quando há restrições de acesso.",
+      "Proteção e amarração não são “perfumaria”, especialmente em chamadas rápidas. O veículo vai passar por lombadas, curvas e trechos de piso irregular; um móvel sem mantas e fitas pode tombar, e uma caixa sem travamento pode esmagar outra. Em um atendimento bem feito, dá para levar material básico de proteção (mantas, plástico filme, cantoneiras, fitas) e ajustar a acomodação no baú/carroceria conforme a prioridade: itens frágeis em posição estável, cargas pesadas distribuídas e nada solto. Isso evita a típica situação de “chegou rápido, mas chegou estragado”.",
+      "Frete urgente também pede comunicação objetiva. Combine por mensagem ou ligação o horário estimado de saída, o ponto de encontro exato (portaria, recepção, loja, doca) e quem autoriza a retirada. Se houver pagamento na entrega ou nota/recibo, deixe isso alinhado antes. Em Curitiba, mudanças de clima (chuva, garoa) podem exigir mais cuidado com proteção e manuseio; se estiver chovendo, avise se o local tem cobertura para carregar. Quando a comunicação é clara, o motorista não perde tempo tentando localizar a pessoa certa ou esperando liberação sem necessidade.",
+      "Quando o frete é no “bate-volta” dentro da cidade, a organização por regionais ajuda a sequenciar paradas. Se for coleta em uma área e entrega em outra, vale informar se há necessidade de parar em um segundo endereço (por exemplo, pegar mais caixas). Em urgência, paradas extras precisam ser planejadas: entram no custo e no tempo, e podem exigir ajuste no tamanho do veículo. O mesmo vale para entregas em comércios: dependendo do local, pode ser necessário descarregar em área específica e caminhar com carrinho. Nada disso é impossível; só não dá para descobrir na última hora.",
+      "Para quem precisa sair de Curitiba ou receber algo vindo de fora, a cidade tem acessos rodoviários relevantes e contornos que conectam com corredores como BR-277 e BR-376 (mencionados em referências do Contorno Sul). A lógica, aqui, é pensar em “janela de coleta” e “janela de entrega” em vez de horário cravado. A mesma cautela vale para o entorno do Aeroporto Internacional Afonso Pena, que fica em São José dos Pinhais e pode aparecer como ponto de referência quando a coleta/entrega é na região metropolitana. Planejar com essa visão evita promessas difíceis e reduz ansiedade.",
+      "Um aspecto pouco lembrado em frete urgente é documentação e autorização. Se o item é comprado em loja, pode ser necessário apresentar pedido, nome do comprador, comprovante ou autorização; isso varia conforme o estabelecimento. Em condomínios, pode variar se a portaria permite retirada sem o morador presente. Para não atrasar, deixe tudo separado e, quando possível, mande com antecedência ao responsável pela retirada: nome completo de quem vai receber/retirar e qualquer informação que o local costume pedir. Assim, o atendimento fica focado no transporte, não em burocracia improvisada.",
+      "Se você está comparando opções em Curitiba, procure por transparência: o que está incluído no valor (ajudante, subida de escada, embalagem, desmontagem), como é feita a cobrança (por trajeto, por hora, por volume), e o que acontece se o endereço tiver acesso complicado. Frete urgente tende a ter custo maior do que um agendamento com antecedência, mas ainda assim dá para manter previsibilidade quando as informações estão corretas. O combinado é simples: descreva o cenário real (sem “dar uma diminuída” no volume), e receba um orçamento coerente com o risco e o esforço.",
+      "Por fim, pense na urgência como um projeto curto: preparar, coletar, transportar e finalizar com conferência. Ao chegar, confira quantidade de volumes, estado de itens frágeis e posicionamento no destino. Se houver montagem simples (pé de mesa, encaixe de prateleira), combine antes para não virar surpresa. Em Curitiba, atender bem significa respeitar as particularidades de cada região, de cada prédio e de cada rua, sem prometer milagres. Com organização e comunicação, dá para resolver rápido e com cuidado, mesmo quando o pedido cai “em cima da hora”."
+    ],
+    "howSteps": [
+      "Envie as informações essenciais: origem e destino em Curitiba (ou região), tipo de item, quantidade de volumes e se há urgência “para hoje” ou “próxima hora”.",
+      "Informe condições de acesso: andar, elevador (se houver), escadas, corredor estreito, necessidade de caminhar com a carga e se existe local provável para parar próximo.",
+      "Ajuste o tamanho do veículo e a equipe: item único vs. várias caixas, presença/ausência de ajuda no local, e necessidade de desmontagem simples.",
+      "Confirme o que vai protegido/embalado: itens frágeis, eletrônicos, vidro, quinas de móveis, e se precisa de plástico filme, mantas ou cantoneiras.",
+      "Combine autorização e ponto de encontro: quem entrega, quem recebe, e como será a liberação em portaria/loja/recepção (pode variar por local).",
+      "Faça a coleta com conferência rápida: checagem de volumes, fotos se necessário e amarração antes de sair.",
+      "Durante o trajeto, mantenha contato em caso de imprevisto (trânsito, chuva, espera para acesso), alinhando a chegada por estimativa.",
+      "Na entrega, descarregue com cuidado, posicione conforme orientado e finalize com conferência do estado dos itens e quantidade de volumes."
+    ],
+    "priceFactors": [
+      "Distância e complexidade do trajeto dentro de Curitiba (ou até a região metropolitana), considerando que o trânsito pode variar bastante por horário e corredor.",
+      "Tamanho e peso dos itens: volume total, necessidade de mais de uma viagem e risco de avaria (móveis grandes, vidro, eletrônicos).",
+      "Equipe necessária: apenas motorista, motorista + ajudante(s), e esforço extra com escadas ou longas caminhadas até o ponto de carga/descarga.",
+      "Tipo de veículo adequado: utilitário menor para poucas caixas vs. veículo maior para móveis e mudanças rápidas.",
+      "Tempo parado: espera para liberação em portaria/loja, fila de elevador, ou dificuldade para estacionar próximo.",
+      "Serviços adicionais: desmontagem/montagem simples, proteção com mantas/plástico filme, e organização de volumes.",
+      "Urgência e janela de atendimento: pedidos imediatos podem exigir remanejamento de rota e impactar o valor."
+    ],
+    "prepChecklist": [
+      "Separe o que vai no frete urgente em um único cômodo/área, deixando corredores e portas livres.",
+      "Embale itens frágeis com identificação visível e, se possível, indique “este lado para cima”.",
+      "Desmonte o que for simples e seguro (quando aplicável), guardando parafusos em saquinhos identificados.",
+      "Escreva uma lista de volumes (ex.: 12 caixas + 1 TV + 1 cadeira) para conferir na coleta e na entrega.",
+      "Proteja cantos e superfícies que riscam fácil; se não tiver material, avise antes para avaliar a necessidade.",
+      "Combine com antecedência quem autoriza a retirada/entrega e deixe documentos/autorizações à mão (pode variar por local).",
+      "Reserve espaço para manobra e carregamento quando houver essa possibilidade, evitando bloqueios de passagem.",
+      "Se houver chuva, tenha sacos, mantas ou cobertura para o trajeto entre porta e veículo.",
+      "Desligue e esvazie o que precisar (ex.: equipamentos, pequenos eletros), deixando cabos organizados."
+    ],
+    "scenarios": [
+      "Retirada rápida de compra em loja ou marketplace, com entrega em apartamento no mesmo dia.",
+      "Transporte urgente de equipamentos e materiais para evento, feira, gravação ou montagem de estande.",
+      "Levar móveis desmontados e caixas para um novo endereço, quando a mudança precisa acontecer em poucas horas.",
+      "Recolhimento de itens em dois pontos (por exemplo, depósito e residência) e entrega consolidada em um único destino.",
+      "Entrega expressa de documentos, peças e pequenos volumes para empresas, quando motoboy não atende pelo tamanho.",
+      "Troca de móveis entre endereços (retira em um local, entrega em outro e volta com item de retorno), mediante planejamento.",
+      "Frete com referência ao eixo Linha Verde para atravessar a cidade no sentido norte–sul, sem prometer tempo fixo.",
+      "Coleta/entrega na região metropolitana com referência de acesso via corredores rodoviários e contornos, quando aplicável."
+    ],
+    "faq": [
+      {
+        "q": "O que vocês precisam para confirmar um frete urgente em Curitiba?",
+        "a": "Origem e destino, tipo e quantidade de itens, e como é o acesso (andar, escadas, elevador, distância até o veículo). Com isso dá para indicar veículo, equipe e uma janela de atendimento. Quanto mais fiel a descrição, menor a chance de atraso."
+      },
+      {
+        "q": "Dá para atender em qualquer uma das 10 Regionais de Curitiba?",
+        "a": "A ideia é cobrir Curitiba de forma ampla, usando as Regionais como referência de organização de rota. A disponibilidade depende da agenda do dia e do tipo de carga. Em pedidos muito imediatos, pode haver limitação por região e horário."
+      },
+      {
+        "q": "Vocês fazem frete urgente no Centro e áreas centrais?",
+        "a": "Sim, e nesses casos a atenção costuma ser maior para parada, acesso ao prédio e janelas de carga/descarga. Como essas condições variam de rua para rua, vale avisar se há portaria, garagem ou restrição de entrada. Isso ajuda a reduzir tempo de espera."
+      },
+      {
+        "q": "Como funciona para itens grandes (sofá, geladeira, armário)?",
+        "a": "Você informa medidas aproximadas, se cabe em portas/elevador e se precisa desmontar algo. A equipe avalia a forma mais segura de manusear e amarrar no veículo. Itens grandes podem exigir mais pessoas e materiais de proteção."
+      },
+      {
+        "q": "Precisa ter ajudante no local ou vocês levam?",
+        "a": "Pode ser de qualquer jeito, desde que combinado antes. Se ninguém puder ajudar, o ideal é contratar ajudante(s) para manter segurança e ritmo. Em urgência, isso evita paradas longas e esforço excessivo."
+      },
+      {
+        "q": "Vocês embalam e protegem os móveis?",
+        "a": "É possível levar e aplicar proteção básica como mantas e plástico filme, conforme a necessidade do item. O nível de embalagem depende do risco (quinas, vidro, acabamento sensível) e do tempo disponível. Se você já tiver itens embalados, o processo fica mais rápido."
+      },
+      {
+        "q": "Dá para fazer mais de uma parada no mesmo frete?",
+        "a": "Dá, mas precisa ser informado no pedido para planejar rota, tempo e capacidade do veículo. Paradas extras alteram o custo e podem exigir ajuste de equipe. Em frete urgente, isso é especialmente importante para não estourar a janela combinada."
+      },
+      {
+        "q": "Vocês atendem região metropolitana e área próxima ao Aeroporto Afonso Pena?",
+        "a": "Pode ser atendido, dependendo do tipo de carga e do encaixe de rota. O Aeroporto Afonso Pena fica em São José dos Pinhais, e a logística pode variar conforme o ponto exato de coleta/entrega. O ideal é passar a referência e confirmar a janela de atendimento."
+      },
+      {
+        "q": "Como é calculado o preço de um frete urgente?",
+        "a": "Entra distância, tipo de veículo, equipe, volume/peso, tempo de serviço e dificuldade de acesso. Urgência pode exigir remanejamento e impactar o valor. Um orçamento bem feito depende de informações completas e reais."
+      },
+      {
+        "q": "O que pode impedir um frete urgente de acontecer no horário desejado?",
+        "a": "Falta de informação sobre o volume, necessidade de veículo maior do que o previsto, e restrições de acesso não informadas são causas comuns. Trânsito, chuva e espera por liberação também podem influenciar. Por isso trabalhamos com estimativa e alinhamento de janela, não promessa rígida."
+      }
+    ],
+    "demands": [
+      "Coleta imediata de compra grande (móvel ou eletro) com entrega ainda no mesmo dia, sem tempo para agendar com antecedência.",
+      "Transporte urgente de caixas e materiais para abrir ou reorganizar loja/escritório, com prazo curto e necessidade de agilidade na carga.",
+      "Retirada em local com horário limitado (ex.: fornecedor/retirada programada) e entrega em outro ponto de Curitiba dentro de uma janela apertada.",
+      "Levar item volumoso que não cabe em carro comum, mas que também não justifica uma mudança completa.",
+      "Frete rápido com 2 ou 3 paradas, quando você precisa consolidar itens em um único destino antes de viajar ou entregar a alguém."
+    ],
+    "whenYes": [
+      "Os itens já estão separados e minimamente embalados/organizados quando o veículo chega, evitando triagem de última hora.",
+      "Você informa medidas aproximadas e detalhes de acesso (escadas, elevador, distância até a vaga), permitindo escolher veículo e equipe adequados.",
+      "Existe alguém no local para liberar a entrada/retirada e indicar o ponto certo de encontro, reduzindo tempo parado.",
+      "A carga é compatível com o veículo escolhido (sem “forçar” volume), evitando necessidade de segunda viagem não prevista.",
+      "A entrega tem um espaço claro para descarregar e conferir volumes, mesmo que simples e rápido."
+    ],
+    "whenNo": [
+      "O volume real é bem maior do que o combinado e só aparece na hora, exigindo veículo maior ou mais de uma viagem.",
+      "Acesso com muitas escadas/corredores apertados sem aviso prévio, tornando o serviço mais lento e exigindo reforço de equipe.",
+      "Dependência de autorização/retirada em terceiro (loja, portaria, depósito) sem confirmação de que estará liberado no horário.",
+      "Itens muito frágeis ou de alto risco de avaria sem possibilidade de proteção mínima, aumentando chance de dano no transporte.",
+      "Múltiplas paradas adicionadas durante o trajeto, o que pode estourar a janela de atendimento combinada."
+    ],
+    "common": [
+      "Item único grande para atravessar a cidade (de uma regional a outra) com pouco tempo disponível.",
+      "Carregamento em prédio com elevador disputado e necessidade de agendar a subida (quando aplicável), pedindo planejamento rápido.",
+      "Entrega em endereço comercial com descarregamento mais demorado por conta de acesso e conferência de volumes.",
+      "Frete de caixas de mudança “enxuta” (somente o essencial) para liberar imóvel no mesmo dia.",
+      "Coleta em área mais afastada e entrega em zona central, com atenção a paradas e acesso ao destino.",
+      "Transporte de itens frágeis (vidro, eletrônicos) exigindo mantas, travas e acomodação cuidadosa.",
+      "Serviço com retorno: levar um móvel e trazer outro na volta, desde que planejado no pedido.",
+      "Coleta/entrega com referência de rota por grandes eixos urbanos (como a Linha Verde) para conectar norte–sul sem improviso."
+    ],
+    "sectionTitles": {
+      "demands": "Chamados que caem do nada: urgências típicas em Curitiba",
+      "coverage": "Curitiba por Regionais: como organizamos a rota sem adivinhação",
+      "whatToSend": "O que vai no veículo (e o que merece cuidado extra)",
+      "availability": "Janela de atendimento e encaixe de agenda no mesmo dia",
+      "whenYes": "Quando o frete urgente em Curitiba costuma fluir sem travar",
+      "whenNo": "Situações em que a urgência pode ficar inviável (ou mudar de plano)",
+      "pricing": "Preço de frete urgente: o que realmente pesa na conta",
+      "commonScenarios": "Cenas do dia a dia: pedidos rápidos que mais aparecem",
+      "types": "Formatos de frete para resolver rápido (sem transformar em mudança gigante)",
+      "services": "Complementos úteis para ganhar tempo e evitar dor de cabeça",
+      "howItWorks": "Como funciona o frete urgente em Curitiba: do pedido até a entrega",
+      "completeGuide": "Guia completo de frete urgente em Curitiba (PR)",
+      "preparation": "Preparação expressa: deixe tudo pronto antes do veículo chegar",
+      "neighborhoods": "Atendimento em Curitiba: referência por Regionais e principais eixos",
+      "testimonials": "Relatos curtos: o que as pessoas costumam valorizar no urgente"
+    },
+    "sectionDescriptions": {
+      "demands": "Uma lista direta do tipo de solicitação que aparece quando o prazo apertou: compras, eventos, escritório e trocas de endereço, com foco no que muda a logística em Curitiba.",
+      "coverage": "Explica a cobertura usando as 10 Administrações Regionais como referência prática, além de corredores como a Linha Verde, sem prometer tempo fixo nem depender de limites que podem variar.",
+      "whatToSend": "Ajuda a identificar o que dá para enviar com rapidez e o que precisa de proteção, desmontagem ou equipe maior para não virar prejuízo no caminho.",
+      "availability": "Mostra como funciona a disponibilidade por janela de atendimento, encaixe de rota e prioridades do dia, com transparência sobre o que pode influenciar horários.",
+      "pricing": "Detalha fatores de preço além da quilometragem: acesso, espera, volume, equipe e urgência, para você entender o orçamento sem surpresa.",
+      "commonScenarios": "Reúne exemplos bem reais de fretes urgentes na capital e na região, para você se reconhecer e pedir do jeito certo.",
+      "types": "Apresenta modalidades de atendimento rápido, do item único ao lote de caixas, e como escolher o formato adequado ao seu volume e prazo.",
+      "services": "Lista serviços que aceleram a execução (proteção, ajudantes, desmontagem simples) e quando vale a pena incluir cada um.",
+      "howItWorks": "Um roteiro objetivo, em linguagem de gente, para pedir, confirmar, coletar, transportar e finalizar um frete urgente com conferência.",
+      "completeGuide": "Conteúdo pilar para quem quer resolver transporte rápido em Curitiba com organização, minimizando atrasos, idas extras e risco de avaria.",
+      "preparation": "Checklist enxuto para reduzir espera e facilitar carga/descarga, considerando que regras de prédio e acesso podem mudar conforme o local.",
+      "neighborhoods": "Em vez de prometer bairro por bairro, descreve um atendimento abrangente por Regionais e pontos de referência urbanos, mantendo a informação segura.",
+      "testimonials": "Uma seção pensada para destacar percepções comuns de clientes em fretes urgentes: pontualidade dentro do possível, cuidado e comunicação."
+    },
+    "_approxWords": 3298
+  }
+}
