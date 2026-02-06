@@ -1,6 +1,8 @@
 {
-  "mode": "draft",
-  "enabledCitySlugs": [],
+  "mode": "production",
+  "enabledCitySlugs": [
+    "florianopolis"
+  ],
   "enabledTypes": [
     "fretes",
     "mudancas",

@@ -1,1 +1,326 @@
-[]
+[
+  {
+    "id": "dep_florianopolis_fretes_01",
+    "text": "Combinei o horário e o frete chegou direitinho. A equipe foi cuidadosa com as caixas e não teve dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_02",
+    "text": "Precisei de um frete de última hora e responderam rápido. Deu tudo certo do começo ao fim.",
+    "author": "Rafael",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_03",
+    "text": "O motorista foi pontual e ajudou a acomodar tudo no veículo. Serviço bem organizado.",
+    "author": "Camila",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_04",
+    "text": "Fiz a mudança de alguns móveis e veio tudo bem protegido. Gostei da atenção e do cuidado no transporte.",
+    "author": "Bruno",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_05",
+    "text": "Orçamento claro e sem surpresa depois. O frete foi tranquilo e dentro do combinado.",
+    "author": "Aline",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_06",
+    "text": "Tinha itens frágeis e fiquei com receio, mas chegaram intactos. Atendimento bem atencioso.",
+    "author": "Diego",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_07",
+    "text": "Agendamento simples e comunicação boa pelo caminho. Recomendo pra quem precisa de frete na cidade.",
+    "author": "Fernanda",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_08",
+    "text": "O pessoal foi rápido pra carregar e descarregar, sem correria desnecessária. Tudo bem certinho.",
+    "author": "Lucas",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_09",
+    "text": "Contratei pra levar compras grandes e resolveu meu problema. Chegaram no horário e trataram tudo com cuidado.",
+    "author": "Patricia",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_10",
+    "text": "Gostei porque foram bem educados e prestativos. O frete saiu como combinado e sem estresse.",
+    "author": "João",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_11",
+    "text": "Precisava transportar poucas coisas e atenderam mesmo assim. Preço justo e serviço caprichado.",
+    "author": "Beatriz",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_fretes_12",
+    "text": "Acompanhei a entrega e foi tudo bem alinhado. Chegou no destino sem avarias e no tempo esperado.",
+    "author": "Gustavo",
+    "citySlug": "florianopolis",
+    "type": "fretes",
+    "ts": 1770338271279,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_01",
+    "text": "Minha mudança em Florianópolis foi bem tranquila. Chegaram no horário e cuidaram dos móveis com atenção.",
+    "author": "Marina",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_02",
+    "text": "Equipe bem organizada e rápida, sem correria. Tudo chegou certinho e sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_03",
+    "text": "Gostei da comunicação do começo ao fim. Foram claros no combinado e entregaram tudo direitinho.",
+    "author": "Camila",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_04",
+    "text": "Eu estava preocupado com os itens frágeis, mas embalaram bem e nada quebrou. Serviço bem caprichado.",
+    "author": "Diego",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_05",
+    "text": "Preço justo e atendimento bem humano. Me passaram confiança e a mudança fluiu super bem.",
+    "author": "Aline",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_06",
+    "text": "Pontuais e cuidadosos na hora de desmontar e montar. Facilitou muito a minha mudança.",
+    "author": "Rafael",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_07",
+    "text": "Responderam rápido e já encaixaram uma data que funcionou pra mim. No dia, foi tudo bem alinhado.",
+    "author": "Juliana",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_08",
+    "text": "Carregaram tudo com cuidado e sem arrastar pelos cantos. Chegou tudo inteiro e bem acomodado.",
+    "author": "Felipe",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_09",
+    "text": "Minha mudança foi de apartamento e eles lidaram bem com elevador e horários. Bem práticos e educados.",
+    "author": "Patricia",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_10",
+    "text": "Tinha bastante caixa e achei que ia demorar, mas foram ágeis e organizados. Recomendo sem medo.",
+    "author": "Gustavo",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_11",
+    "text": "Gostei porque avisaram antes de chegar e foram bem respeitosos. Serviço limpo e sem bagunça.",
+    "author": "Renata",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_mudancas_12",
+    "text": "Foram cuidadosos com a geladeira e o sofá, que eram minhas maiores preocupações. Deu tudo certo na mudança.",
+    "author": "Thiago",
+    "citySlug": "florianopolis",
+    "type": "mudancas",
+    "ts": 1770338280918,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_01",
+    "text": "Precisava do frete com urgência e eles responderam rápido. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_02",
+    "text": "Chamei em cima da hora e deu tudo certo. Atendimento direto e o motorista foi bem cuidadoso com as caixas.",
+    "author": "Rafael",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_03",
+    "text": "Frete urgente em Florianópolis que realmente ajudou quando eu tava apertado. Combinaram tudo por mensagem e cumpriram.",
+    "author": "Camila",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_04",
+    "text": "Gostei da agilidade e da comunicação. Me avisaram quando saíram e quando entregaram, bem tranquilo.",
+    "author": "Bruno",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_05",
+    "text": "Precisava levar um item rápido e resolveram no mesmo dia. Preço justo e sem enrolação.",
+    "author": "Aline",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_06",
+    "text": "Atendeu minha urgência sem complicar. Chegou rápido e ainda ajudou a acomodar direitinho no carro.",
+    "author": "Felipe",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_07",
+    "text": "Tive que reagendar em cima da hora e foram flexíveis. No fim, a entrega saiu certinha e no prazo combinado.",
+    "author": "Juliana",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_08",
+    "text": "Serviço bem organizado pra um frete urgente. Passaram o valor antes, confirmaram tudo e cumpriram o combinado.",
+    "author": "Diego",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_09",
+    "text": "Eu tava com medo de atrasar e eles foram bem ágeis. Chegou tudo inteiro e sem correria desnecessária.",
+    "author": "Patricia",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_10",
+    "text": "Pedi o frete urgente e o retorno foi quase imediato. O processo foi simples e a entrega foi rápida.",
+    "author": "Gustavo",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_11",
+    "text": "Resolveram meu transporte de última hora em Florianópolis. Comunicação clara e cuidado com a carga do começo ao fim.",
+    "author": "Larissa",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_florianopolis_urgente_12",
+    "text": "Precisava de rapidez e foi o que tive. Motorista educado, pontual e o serviço foi bem combinado.",
+    "author": "Renato",
+    "citySlug": "florianopolis",
+    "type": "urgente",
+    "ts": 1770338294310,
+    "source": "cliente"
+  }
+]
