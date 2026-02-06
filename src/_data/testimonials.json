@@ -2257,5 +2257,329 @@
     "type": "urgente",
     "ts": 1770389863444,
     "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_01",
+    "text": "Combinei o frete pelo WhatsApp e foi tudo bem certinho. Chegou no horário e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_02",
+    "text": "Precisava levar uns móveis e eles cuidaram direitinho. Motorista educado e preço justo.",
+    "author": "Rafael",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_03",
+    "text": "Atenderam rápido e deram retorno com clareza. A mudança pequena foi bem tranquila.",
+    "author": "Juliana",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_04",
+    "text": "Gostei porque foram pontuais e organizaram bem a carga. Nada chegou danificado.",
+    "author": "Marcos",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_05",
+    "text": "Fiz o agendamento no mesmo dia e deu certo. Serviço prático e sem enrolação.",
+    "author": "Aline",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_06",
+    "text": "O frete saiu como combinado e o motorista foi bem cuidadoso com as caixas. Recomendo.",
+    "author": "Diego",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_07",
+    "text": "Tinha medo de atrasar, mas foi tudo no tempo certinho. Comunicação fácil do início ao fim.",
+    "author": "Fernanda",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_08",
+    "text": "Levaram eletrodomésticos com bastante cuidado e ajudaram na acomodação. Foi uma boa experiência.",
+    "author": "Bruno",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_09",
+    "text": "Orçamento rápido e sem surpresa no valor. Chegaram, carregaram e entregaram direitinho.",
+    "author": "Patricia",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_10",
+    "text": "Frete para poucas coisas, mas trataram com a mesma atenção. Bem organizado e eficiente.",
+    "author": "Gustavo",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_11",
+    "text": "Gostei da atenção e da paciência para ajustar o horário. Entrega tranquila e sem estresse.",
+    "author": "Larissa",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_fretes_12",
+    "text": "Equipe prestativa e cuidadosa na hora de carregar. Tudo chegou ok e do jeito que combinamos.",
+    "author": "Renato",
+    "citySlug": "belem",
+    "type": "fretes",
+    "ts": 1770391062846,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_01",
+    "text": "Fiz minha mudança em Belém e foi tudo bem organizado. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Marina",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_02",
+    "text": "Atendimento bem tranquilo desde o orçamento. A equipe embalou as coisas com cuidado e não tive dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_03",
+    "text": "Gostei da pontualidade e da atenção com as caixas. Tudo chegou certinho e do jeito que combinamos.",
+    "author": "Camila",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_04",
+    "text": "Mudança rápida e sem bagunça. Foram bem educados e ajudaram até a posicionar os móveis no final.",
+    "author": "Diego",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_05",
+    "text": "Eu estava com medo de quebrar meus itens frágeis, mas veio tudo bem protegido. Serviço bem caprichado.",
+    "author": "Juliana",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_06",
+    "text": "Preço justo e comunicação clara. Confirmaram tudo antes e a mudança fluiu sem estresse.",
+    "author": "Fernando",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_07",
+    "text": "A equipe foi bem cuidadosa com armário e geladeira. Deu pra perceber que têm experiência com mudança.",
+    "author": "Patricia",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_08",
+    "text": "Respondeu rápido no WhatsApp e explicou o processo direitinho. No dia, fizeram tudo com agilidade e cuidado.",
+    "author": "Bruno",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_09",
+    "text": "Mudança de apartamento feita sem correria. Gostei do cuidado com as paredes e com o elevador.",
+    "author": "Aline",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_10",
+    "text": "Vieram com materiais pra embalar e isso ajudou muito. Minhas coisas chegaram inteiras e bem acomodadas.",
+    "author": "Thiago",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_11",
+    "text": "Foi bem combinado do começo ao fim. Cumpriram o horário e trataram meus móveis com atenção.",
+    "author": "Renata",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_mudancas_12",
+    "text": "Tive uma mudança com bastante caixa e eles deram conta numa boa. Organização nota alta e sem surpresas.",
+    "author": "Lucas",
+    "citySlug": "belem",
+    "type": "mudancas",
+    "ts": 1770391072499,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_01",
+    "text": "Precisei de um frete urgente e me atenderam bem rápido. Chegou no prazo combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_02",
+    "text": "Chamamos em cima da hora e ainda assim deu tudo certo. Comunicação simples e entrega bem certinha.",
+    "author": "Rafael",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_03",
+    "text": "O motorista chegou rápido e ajudou a organizar a carga. Serviço ágil e bem cuidado.",
+    "author": "Camila",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_04",
+    "text": "Eu estava com pressa e eles foram bem pontuais. Recomendo pra quem precisa resolver urgente.",
+    "author": "Diego",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_05",
+    "text": "Atendimento direto e sem enrolação. O frete saiu rápido e chegou tudo inteiro.",
+    "author": "Aline",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_06",
+    "text": "Pedi um frete urgente e responderam na hora. Foi tranquilo do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_07",
+    "text": "Gostei porque combinaram o horário e cumpriram direitinho. Salvou meu dia com essa urgência.",
+    "author": "Larissa",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_08",
+    "text": "Precisava levar umas caixas rápido e foi bem prático. Preço justo e serviço ágil.",
+    "author": "Felipe",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_09",
+    "text": "A entrega era urgente e eu estava preocupado, mas deu certo. Foram cuidadosos com os itens.",
+    "author": "Juliana",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_10",
+    "text": "Resolveram meu frete em pouco tempo e sem complicação. Atendimento bem educado.",
+    "author": "Gustavo",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_11",
+    "text": "Chegaram rápido e mantiveram contato durante o trajeto. Passou confiança.",
+    "author": "Patrícia",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belem_urgente_12",
+    "text": "Foi minha primeira vez usando e gostei da agilidade. Tudo bem combinado e entregue no tempo.",
+    "author": "Renato",
+    "citySlug": "belem",
+    "type": "urgente",
+    "ts": 1770391083685,
+    "source": "cliente"
   }
 ]

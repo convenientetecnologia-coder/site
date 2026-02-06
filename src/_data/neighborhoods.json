@@ -627,5 +627,92 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "belem": {
+    "city": "BelÃ©m",
+    "state": "PA",
+    "all": [
+      "Campina",
+      "Cidade Velha",
+      "Reduto",
+      "Umarizal",
+      "Nazaré",
+      "São Brás",
+      "Marco",
+      "Pedreira",
+      "Fátima",
+      "Telégrafo",
+      "Sacramenta",
+      "Maracangalha",
+      "Guamá",
+      "Terra Firme",
+      "Canudos",
+      "Condor",
+      "Jurunas",
+      "Cremação",
+      "Batista Campos",
+      "Curió-Utinga",
+      "Castanheira",
+      "Souza",
+      "Val-de-Cans",
+      "Marambaia",
+      "Tapanã",
+      "Benguí",
+      "Cabanagem",
+      "Coqueiro",
+      "Parque Verde",
+      "Águas Lindas",
+      "Icoaraci",
+      "Outeiro",
+      "Mosqueiro"
+    ],
+    "blocks": {
+      "fretes": [
+        "Campina",
+        "Cidade Velha",
+        "Reduto",
+        "Umarizal",
+        "Nazaré",
+        "São Brás",
+        "Marco",
+        "Pedreira",
+        "Fátima",
+        "Telégrafo",
+        "Sacramenta"
+      ],
+      "mudancas": [
+        "Maracangalha",
+        "Guamá",
+        "Terra Firme",
+        "Canudos",
+        "Condor",
+        "Jurunas",
+        "Cremação",
+        "Batista Campos",
+        "Curió-Utinga",
+        "Castanheira",
+        "Souza"
+      ],
+      "urgente": [
+        "Val-de-Cans",
+        "Marambaia",
+        "Tapanã",
+        "Benguí",
+        "Cabanagem",
+        "Coqueiro",
+        "Parque Verde",
+        "Águas Lindas",
+        "Icoaraci",
+        "Outeiro",
+        "Mosqueiro"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T15:17:33.272Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
