@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T19:46:14.886Z",
+  "generatedAt": "2026-02-06T19:57:12.881Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -182,6 +182,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-florianopolis/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-florianopolis/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-florianopolis/"
+      }
+    },
+    {
+      "slug": "fortaleza",
+      "name": "Fortaleza",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-fortaleza/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-fortaleza/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-fortaleza/"
       }
     },
     {

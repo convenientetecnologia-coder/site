@@ -7072,5 +7072,329 @@
     "type": "urgente",
     "ts": 1770407077550,
     "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_01",
+    "text": "Combinei o horário e deu tudo certo. Chegaram no tempo certinho e levaram minhas caixas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_02",
+    "text": "Precisava de um frete rápido em Fortaleza e me atenderam bem. Preço justo e comunicação fácil.",
+    "author": "Diego",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_03",
+    "text": "O motorista foi bem educado e ajudou na organização da mudança. Serviço bem tranquilo do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_04",
+    "text": "Respondeu rápido no WhatsApp e passou o valor sem enrolação. No dia, foi tudo bem combinado.",
+    "author": "Rafael",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_05",
+    "text": "Transportaram meus móveis sem arranhões e com bastante cuidado. Gostei da atenção durante o carregamento.",
+    "author": "Juliana",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_06",
+    "text": "Fiz frete de algumas coisas pra loja e chegou direitinho. Cumpriram o combinado e não tive dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_07",
+    "text": "Achei prático de agendar e o atendimento foi bem direto. Recomendo pra quem precisa de frete em Fortaleza.",
+    "author": "Aline",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_08",
+    "text": "Tinha escada e pouco espaço, mas eles deram um jeito sem pressa e sem bagunça. Foi bem organizado.",
+    "author": "Felipe",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_09",
+    "text": "O frete saiu no horário e me avisaram quando estavam chegando. Isso ajudou muito na minha logística.",
+    "author": "Patricia",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_10",
+    "text": "Levaram geladeira e máquina de lavar com cuidado e bem protegidas. Atendimento simples e eficiente.",
+    "author": "Renato",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_11",
+    "text": "Precisava mudar só alguns itens e eles aceitaram sem complicação. Foi rápido e com um valor ok.",
+    "author": "Larissa",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_fretes_12",
+    "text": "Gostei porque explicaram direitinho como seria o transporte e o tempo estimado. No final, deu tudo certo.",
+    "author": "Tiago",
+    "citySlug": "fortaleza",
+    "type": "fretes",
+    "ts": 1770407753719,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_01",
+    "text": "Fiz minha mudança em Fortaleza com eles e foi bem organizado. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_02",
+    "text": "Equipe bem educada e rápida, sem correria desnecessária. Minhas caixas chegaram tudo certinho.",
+    "author": "Rafael",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_03",
+    "text": "Gostei porque combinaram tudo antes e não teve surpresa no dia. A mudança foi tranquila do começo ao fim.",
+    "author": "Juliana",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_04",
+    "text": "Tinha móvel pesado e eles deram conta sem danificar nada. Passaram bastante segurança.",
+    "author": "Bruno",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_05",
+    "text": "Responderam rápido no orçamento e explicaram como seria o transporte. No dia, foi tudo bem alinhado.",
+    "author": "Larissa",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_06",
+    "text": "Capricharam na proteção com plástico e mantas. Chegou tudo inteiro e bem acomodado no caminhão.",
+    "author": "Diego",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_07",
+    "text": "Eu estava com pouco tempo e eles ajudaram a agilizar a mudança. Atendimento simples e eficiente.",
+    "author": "Mariana",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_08",
+    "text": "A desmontagem e montagem ficaram bem feitas, sem dor de cabeça. Valeu pela paciência e cuidado.",
+    "author": "Felipe",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_09",
+    "text": "Achei o preço justo pelo serviço e pela atenção. Foram bem cuidadosos com itens frágeis.",
+    "author": "Patricia",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_10",
+    "text": "O caminhão veio limpo e bem preparado. A equipe foi bem prática e respeitou minhas orientações.",
+    "author": "Anderson",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_11",
+    "text": "Minha mudança tinha bastante coisa e mesmo assim foi tudo bem organizado. Não ficou aquela bagunça de caixa perdida.",
+    "author": "Renata",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_mudancas_12",
+    "text": "Gostei do cuidado com geladeira e máquina de lavar, que eram minha preocupação. Chegou tudo funcionando e sem amassados.",
+    "author": "Thiago",
+    "citySlug": "fortaleza",
+    "type": "mudancas",
+    "ts": 1770407764373,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_01",
+    "text": "Precisei de frete urgente e deu tudo certo. Responderam rápido e a entrega chegou no horário combinado.",
+    "author": "Marina",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_02",
+    "text": "Atendimento bem ágil e sem enrolação. Pegaram a encomenda e já saíram pra entrega, foi bem tranquilo.",
+    "author": "Diego",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_03",
+    "text": "Tava com pressa e eles resolveram. Comunicação clara do começo ao fim e preço justo pro urgente.",
+    "author": "Camila",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_04",
+    "text": "Chegou mais rápido do que eu esperava, sem prometer nada. Gostei da organização e do cuidado com a caixa.",
+    "author": "Rafael",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_05",
+    "text": "Solicitei em cima da hora e mesmo assim conseguiram encaixar. Me atualizaram durante o trajeto.",
+    "author": "Juliana",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_06",
+    "text": "Frete urgente sem dor de cabeça. Combinaram o horário e cumpriram direitinho.",
+    "author": "Bruno",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_07",
+    "text": "Precisava mandar um item sensível e fiquei mais tranquila. Manusearam com cuidado e entregaram rápido.",
+    "author": "Aline",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_08",
+    "text": "O motorista foi educado e objetivo. Coleta e entrega rápidas, do jeito que eu precisava.",
+    "author": "Thiago",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_09",
+    "text": "Atenderam minha urgência com profissionalismo. Tudo bem explicado e sem surpresa no valor.",
+    "author": "Patricia",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_10",
+    "text": "Pedi o frete urgente pra não perder um prazo. Deu certo e a entrega foi bem pontual.",
+    "author": "Fernanda",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_11",
+    "text": "Gostei porque não complicaram. Foi só passar as infos, eles buscaram e entregaram rapidinho.",
+    "author": "Lucas",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_fortaleza_urgente_12",
+    "text": "Serviço rápido e bem combinado. Recomendo pra quem precisa resolver entrega urgente sem estresse.",
+    "author": "Renata",
+    "citySlug": "fortaleza",
+    "type": "urgente",
+    "ts": 1770407773828,
+    "source": "cliente"
   }
 ]
