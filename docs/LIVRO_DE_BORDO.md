@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Campinas (SP)** — publicado em 2026-02-06
+  - `/fretes-em-campinas/` (~2906 palavras)
+  - `/mudancas-em-campinas/` (~2933 palavras)
+  - `/frete-urgente-em-campinas/` (~3308 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 35 depoimentos (11/12/12 por tipo)
+  - Commit: `e5bdc70`
+
 - **Campina Grande (PB)** — publicado em 2026-02-06
   - `/fretes-em-campina-grande/` (~3036 palavras)
   - `/mudancas-em-campina-grande/` (~2848 palavras)
