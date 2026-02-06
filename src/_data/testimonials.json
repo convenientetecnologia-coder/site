@@ -5785,5 +5785,329 @@
     "type": "urgente",
     "ts": 1770399539100,
     "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. O cuidado com as caixas me deixou bem tranquilo.",
+    "author": "Mariana",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_02",
+    "text": "Atendimento rápido no WhatsApp e preço justo. O motorista foi bem educado e prestativo.",
+    "author": "Rafael",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_03",
+    "text": "Precisei de um frete de última hora e deu tudo certo. Chegou sem danos e sem enrolação.",
+    "author": "Camila",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_04",
+    "text": "Gostei da organização: confirmaram tudo antes e avisaram quando estavam chegando. Recomendo.",
+    "author": "Bruno",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_05",
+    "text": "Fiz frete de móveis e foi bem cuidadoso na hora de carregar e descarregar. Serviço bem combinado.",
+    "author": "Aline",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_06",
+    "text": "Pontuais e diretos, sem complicação. Me ajudaram a acomodar direitinho no veículo.",
+    "author": "Diego",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_07",
+    "text": "O frete foi tranquilo do começo ao fim. Comunicação clara e sem surpresas no valor.",
+    "author": "Fernanda",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_08",
+    "text": "Transportaram minhas coisas com bastante atenção. Chegou tudo certinho e no tempo combinado.",
+    "author": "Lucas",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_09",
+    "text": "Agendamento fácil e resposta rápida. Gostei porque foram cuidadosos com itens mais frágeis.",
+    "author": "Juliana",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_10",
+    "text": "Precisava levar uma geladeira e fizeram o transporte com cuidado. Foi bem mais simples do que eu imaginava.",
+    "author": "Tiago",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_11",
+    "text": "Chegaram no horário e resolveram rápido. Atendimento simpático e serviço bem feito.",
+    "author": "Patricia",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_fretes_12",
+    "text": "Contratei para um frete pequeno e mesmo assim atenderam super bem. Tudo certo e sem estresse.",
+    "author": "Gustavo",
+    "citySlug": "caxias-do-sul",
+    "type": "fretes",
+    "ts": 1770402955071,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_01",
+    "text": "Equipe pontual e cuidadosa com os móveis. A mudança foi bem organizada e sem estresse.",
+    "author": "Camila",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_02",
+    "text": "Responderam rápido e passaram o orçamento certinho. No dia, deu tudo certo e foi bem tranquilo.",
+    "author": "Bruno",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_03",
+    "text": "Gostei do capricho na embalagem e na proteção dos eletros. Chegou tudo inteiro.",
+    "author": "Fernanda",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_04",
+    "text": "Foram bem educados e ágeis, sem correria desnecessária. Recomendo para quem vai se mudar.",
+    "author": "Diego",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_05",
+    "text": "Tinha muita caixa e achei que ia demorar, mas eles organizaram bem e terminaram no tempo combinado.",
+    "author": "Juliana",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_06",
+    "text": "Cuidaram bem do sofá e do guarda-roupa na desmontagem e montagem. Ficou tudo certinho no novo apê.",
+    "author": "Marcos",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_07",
+    "text": "Preço justo e atendimento bem claro desde o começo. Não tive surpresa na hora de pagar.",
+    "author": "Patricia",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_08",
+    "text": "Foram bem cuidadosos com itens frágeis e avisaram cada etapa. Me senti bem segura.",
+    "author": "Renata",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_09",
+    "text": "Chegaram no horário combinado e fizeram tudo com calma e atenção. Mudança bem mais leve do que eu esperava.",
+    "author": "Gustavo",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_10",
+    "text": "A equipe ajudou a organizar as caixas no caminhão e depois no destino. Facilitou muito a minha vida.",
+    "author": "Larissa",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_11",
+    "text": "Tive uma alteração de horário e eles foram flexíveis. Atendimento bem humano e sem complicação.",
+    "author": "Eduardo",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_mudancas_12",
+    "text": "Trabalho limpo e cuidadoso, sem arranhar paredes nem danificar nada. Fiquei bem satisfeita.",
+    "author": "Aline",
+    "citySlug": "caxias-do-sul",
+    "type": "mudancas",
+    "ts": 1770402964481,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_01",
+    "text": "Pedi um frete urgente e me atenderam bem rápido. A entrega chegou dentro do que foi combinado.",
+    "author": "Marina",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_02",
+    "text": "Tive uma emergência com uma encomenda e resolveram no mesmo dia. Comunicação bem clara do início ao fim.",
+    "author": "Diego",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_03",
+    "text": "Precisava levar umas caixas com pressa e foi tudo tranquilo. Motorista cuidadoso e sem enrolação.",
+    "author": "Camila",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_04",
+    "text": "Atendimento ágil e preço justo pro prazo que eu precisava. Chegou certinho.",
+    "author": "Rafael",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_05",
+    "text": "Respondeu rápido no orçamento e já agendou a coleta. Pra frete urgente, salvou meu dia.",
+    "author": "Bruna",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_06",
+    "text": "Fiz o pedido de última hora e mesmo assim deram conta. Me passaram atualização durante o caminho.",
+    "author": "Felipe",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_07",
+    "text": "Entrega urgente de documento e foi bem mais simples do que eu imaginava. Pontuais e educados.",
+    "author": "Larissa",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_08",
+    "text": "Precisava mandar um item pro trabalho e não podia atrasar. Chegou rápido e bem embalado.",
+    "author": "Gustavo",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_09",
+    "text": "Gostei porque não prometeram mil coisas, só fizeram o combinado. Pra urgência, funcionou muito bem.",
+    "author": "Patricia",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_10",
+    "text": "Coleta rápida e entrega sem dor de cabeça. Atendimento direto e bem organizado.",
+    "author": "Tiago",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_11",
+    "text": "Usei pra uma entrega urgente e deu tudo certo. Foram cuidadosos com a carga e avisaram quando chegou.",
+    "author": "Juliana",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caxias-do-sul_urgente_12",
+    "text": "Precisava de agilidade e eles foram bem eficientes. Chegou no prazo e com um bom custo-benefício.",
+    "author": "Renato",
+    "citySlug": "caxias-do-sul",
+    "type": "urgente",
+    "ts": 1770402973595,
+    "source": "cliente"
   }
 ]

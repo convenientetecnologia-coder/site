@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T17:40:38.304Z",
+  "generatedAt": "2026-02-06T18:36:36.933Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -137,6 +137,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-cascavel/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-cascavel/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-cascavel/"
+      }
+    },
+    {
+      "slug": "caxias-do-sul",
+      "name": "Caxias do Sul",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-caxias-do-sul/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-caxias-do-sul/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-caxias-do-sul/"
       }
     },
     {

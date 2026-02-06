@@ -1654,5 +1654,92 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "caxias-do-sul": {
+    "city": "Caxias do Sul",
+    "state": "RS",
+    "all": [
+      "Centro",
+      "Exposição",
+      "São Pelegrino",
+      "Pio X",
+      "Rio Branco",
+      "Panazzolo",
+      "Madureira",
+      "Santa Catarina",
+      "Nossa Senhora de Lourdes",
+      "Cristo Redentor",
+      "São José",
+      "Cinquentenário",
+      "Jardim América",
+      "Bela Vista",
+      "Petrópolis",
+      "Desvio Rizzo",
+      "Fátima",
+      "Serrano",
+      "Santa Fé",
+      "Reolon",
+      "Universitário",
+      "Charqueadas",
+      "São Ciro",
+      "São Luiz",
+      "São Caetano",
+      "Esplanada",
+      "De Lazzer",
+      "Planalto",
+      "Vila Ipê",
+      "Vila Verde",
+      "Forqueta",
+      "Ana Rech",
+      "Galópolis"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Exposição",
+        "São Pelegrino",
+        "Pio X",
+        "Rio Branco",
+        "Panazzolo",
+        "Madureira",
+        "Santa Catarina",
+        "Nossa Senhora de Lourdes",
+        "Cristo Redentor",
+        "São José"
+      ],
+      "mudancas": [
+        "Cinquentenário",
+        "Jardim América",
+        "Bela Vista",
+        "Petrópolis",
+        "Desvio Rizzo",
+        "Fátima",
+        "Serrano",
+        "Santa Fé",
+        "Reolon",
+        "Universitário",
+        "Charqueadas"
+      ],
+      "urgente": [
+        "São Ciro",
+        "São Luiz",
+        "São Caetano",
+        "Esplanada",
+        "De Lazzer",
+        "Planalto",
+        "Vila Ipê",
+        "Vila Verde",
+        "Forqueta",
+        "Ana Rech",
+        "Galópolis"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T18:35:44.879Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
