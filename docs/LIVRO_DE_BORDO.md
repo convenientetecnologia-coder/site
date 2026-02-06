@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Porto Alegre (RS)** — publicado em 2026-02-06
+  - `/fretes-em-porto-alegre/` (~3028 palavras)
+  - `/mudancas-em-porto-alegre/` (~3009 palavras)
+  - `/frete-urgente-em-porto-alegre/` (~3355 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `3236f25`
+
 - **São Paulo (SP)** — publicado em 2026-02-06
   - `/fretes-em-sao-paulo/` (~3187 palavras)
   - `/mudancas-em-sao-paulo/` (~3256 palavras)

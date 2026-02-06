@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Porto Alegre (RS): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Porto Alegre com sistema 100% GPT:
+  - `/fretes-em-porto-alegre/` (~3028 palavras)
+  - `/mudancas-em-porto-alegre/` (~3009 palavras)
+  - `/frete-urgente-em-porto-alegre/` (~3355 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 45 bairros divididos em 3 blocos únicos (15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (títulos/descrições únicos, sem duplicação com outras cidades)
+- **Por quê**: terceira cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `3236f25` (repo `site`)
+  - `src/_data/publish_config.json` (porto-alegre habilitado em production)
+  - `src/_data/city_content/porto-alegre.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (45 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit `3236f25` ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] São Paulo (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de São Paulo com sistema 100% GPT:
