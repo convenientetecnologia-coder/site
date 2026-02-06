@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Boa Vista (RR): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Boa Vista com sistema 100% GPT:
+  - `/fretes-em-boa-vista/` (~3117 palavras)
+  - `/mudancas-em-boa-vista/` (~3090 palavras)
+  - `/frete-urgente-em-boa-vista/` (~3123 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 31 bairros divididos em 3 blocos únicos (10/10/11 por página)
+  - 35 depoimentos (12/12/11 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (1 título duplicado corrigido manualmente)
+- **Por quê**: décima primeira cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `96819b0` (repo `site`)
+  - `src/_data/publish_config.json` (boa-vista habilitado em production)
+  - `src/_data/city_content/boa-vista.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (31 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (35 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Blumenau (SC): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Blumenau com sistema 100% GPT:

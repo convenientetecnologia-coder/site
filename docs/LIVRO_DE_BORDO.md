@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Boa Vista (RR)** — publicado em 2026-02-06
+  - `/fretes-em-boa-vista/` (~3117 palavras)
+  - `/mudancas-em-boa-vista/` (~3090 palavras)
+  - `/frete-urgente-em-boa-vista/` (~3123 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 31 bairros divididos em 3 blocos únicos
+  - 35 depoimentos (12/12/11 por tipo)
+  - Commit: `96819b0`
+
 - **Blumenau (SC)** — publicado em 2026-02-06
   - `/fretes-em-blumenau/` (~2903 palavras)
   - `/mudancas-em-blumenau/` (~2985 palavras)
