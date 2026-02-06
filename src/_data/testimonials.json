@@ -322,5 +322,329 @@
     "type": "urgente",
     "ts": 1770338294310,
     "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_01",
+    "text": "Combinei o horário e veio tudo certinho. Cuidaram bem das caixas e chegou sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_02",
+    "text": "Precisei de um frete rápido e me responderam na hora. Preço justo e serviço bem organizado.",
+    "author": "Carlos",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_03",
+    "text": "Motorista pontual e bem educado. A mudança pequena foi super tranquila do começo ao fim.",
+    "author": "Aline",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_04",
+    "text": "Gostei da atenção no atendimento e da agilidade na coleta. Tudo bem alinhado antes de sair.",
+    "author": "Bruno",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_05",
+    "text": "Levaram meus móveis com cuidado e prenderam tudo direitinho no veículo. Chegou tudo inteiro.",
+    "author": "Fernanda",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_06",
+    "text": "Fiz o orçamento por mensagem e foi bem claro. No dia, cumpriram o combinado sem enrolação.",
+    "author": "Rafael",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_07",
+    "text": "Eu estava com pouco tempo e eles foram bem rápidos na carga e descarga. Ajudou demais.",
+    "author": "Juliana",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_08",
+    "text": "Frete para entrega de compras grandes, deu tudo certo. Comunicação boa e sem surpresa no valor.",
+    "author": "Diego",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_09",
+    "text": "Tive uma experiência bem tranquila. Chegaram no horário e trataram minhas coisas com respeito.",
+    "author": "Patricia",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_10",
+    "text": "Precisava transportar um sofá e uma cômoda. Resolveram de forma prática e com cuidado na entrada do prédio.",
+    "author": "Eduardo",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_11",
+    "text": "Atendimento simples e eficiente. Mandaram confirmação e foram atualizando o andamento do frete.",
+    "author": "Camila",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_fretes_12",
+    "text": "Contratei para levar itens de escritório. Tudo bem embalado e acomodado, e a entrega foi bem rápida.",
+    "author": "Lucas",
+    "citySlug": "sao-paulo",
+    "type": "fretes",
+    "ts": 1770338960646,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_01",
+    "text": "Fiz minha mudança em São Paulo e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Mariana",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_02",
+    "text": "Gostei da comunicação do começo ao fim. Embalaram as coisas com atenção e não tive dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_03",
+    "text": "Equipe educada e rápida, sem correria desnecessária. Minha mudança saiu bem mais tranquila do que eu esperava.",
+    "author": "Camila",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_04",
+    "text": "Foram bem cuidadosos com a geladeira e com a TV. Tudo chegou certinho no novo apê.",
+    "author": "Rafael",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_05",
+    "text": "Preço combinado e serviço entregue direitinho. Em São Paulo isso faz diferença.",
+    "author": "Patricia",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_06",
+    "text": "Tive que remarcar a data e eles foram flexíveis. No dia, fizeram tudo com capricho e sem stress.",
+    "author": "Bruno",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_07",
+    "text": "A mudança foi de um apartamento para outro e correu liso. Protegiam os cantos e foram bem cuidadosos nas escadas.",
+    "author": "Larissa",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_08",
+    "text": "Responderam rápido e tiraram minhas dúvidas antes de fechar. No dia, trabalharam bem e deixaram tudo no lugar combinado.",
+    "author": "Thiago",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_09",
+    "text": "Eu tinha muita caixa e achei que ia demorar, mas foi bem ágil. Nada arranhado e tudo bem acomodado.",
+    "author": "Juliana",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_10",
+    "text": "Gostei porque não fizeram bagunça no prédio e foram respeitosos. Mudança tranquila e sem surpresas.",
+    "author": "Felipe",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_11",
+    "text": "Serviço honesto e bem feito. Deram atenção especial pras minhas plantas e itens mais frágeis.",
+    "author": "Renata",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_mudancas_12",
+    "text": "Cheguei no novo endereço e já descarregaram tudo com cuidado. Foi bem mais fácil do que fazer por conta.",
+    "author": "Gustavo",
+    "citySlug": "sao-paulo",
+    "type": "mudancas",
+    "ts": 1770338971317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_01",
+    "text": "Pedi um frete urgente e deu tudo certo. Chegou bem rápido e com cuidado.",
+    "author": "Mariana",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_02",
+    "text": "Responderam na hora e já combinaram a coleta. Serviço ágil e sem complicação.",
+    "author": "Diego",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_03",
+    "text": "Eu estava com pressa e eles resolveram. Motorista educado e entrega no prazo combinado.",
+    "author": "Camila",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_04",
+    "text": "Precisei mandar um volume ainda hoje e foi bem tranquilo. Comunicação clara do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_05",
+    "text": "Chegou mais rápido do que eu esperava, sem correria na negociação. Recomendo pra urgência.",
+    "author": "Aline",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_06",
+    "text": "Atenderam meu pedido de última hora e encaixaram a entrega. Tudo certinho e sem dor de cabeça.",
+    "author": "Felipe",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_07",
+    "text": "Gostei porque passaram o valor antes e cumpriram. Pra frete urgente ajudou demais.",
+    "author": "Juliana",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_08",
+    "text": "Precisava de uma retirada rápida e foi bem combinado. Entrega feita direitinho.",
+    "author": "Rafael",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_09",
+    "text": "Equipe bem prática: pedi, confirmaram e já saíram pra coletar. Chegou ok e sem avarias.",
+    "author": "Patricia",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_10",
+    "text": "Resolveu minha urgência no mesmo dia. Atendimento simples e objetivo, do jeito que eu precisava.",
+    "author": "Gustavo",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_11",
+    "text": "O frete foi rápido e o motorista avisou quando estava chegando. Isso ajudou bastante.",
+    "author": "Larissa",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-paulo_urgente_12",
+    "text": "Tive uma entrega urgente e eles foram bem pontuais. Preço justo pelo serviço.",
+    "author": "Renato",
+    "citySlug": "sao-paulo",
+    "type": "urgente",
+    "ts": 1770338980760,
+    "source": "cliente"
   }
 ]
