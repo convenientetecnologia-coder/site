@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "version": 1,
+    "city": "Campina Grande",
+    "slug": "campina-grande",
+    "state": "PB",
+    "generatedAt": "2026-02-06T16:10:31.281Z",
+    "model": "gpt-5.2",
+    "sources": [
+      {
+        "title": "Terminal Rodoviário de Campina Grande — DER/PB (endereço e horário)",
+        "url": "https://der.pb.gov.br/terminalrodoviario"
+      },
+      {
+        "title": "Terminal Rodoviário de Campina Grande (site oficial — localização)",
+        "url": "https://www.rodoviariadecampinagrande.com.br/"
+      },
+      {
+        "title": "Aeroporto Presidente João Suassuna — ABEAR (localização, acesso e endereço)",
+        "url": "https://www.abear.com.br/imprensa/agencia-abear/noticias/aeroporto-presidente-joao-suassuna/"
+      },
+      {
+        "title": "Aeroporto de Campina Grande (CPV) — Aeroportos do Mundo (localização no Distrito Industrial e distância ao centro)",
+        "url": "https://www.aeroportosdomundo.com/aeroporto-CPV/"
+      },
+      {
+        "title": "DNIT — Alerta de alterações de tráfego na BR-230/PB em Campina Grande (menção a BR-104 e Av. Assis Chateaubriand)",
+        "url": "https://www.gov.br/dnit/pt-br/central-de-conteudos/noticias-alerta-de-servicos/dnit-alerta-para-alteracoes-de-trafego-na-br-230-pb-em-campina-grande-a-partir-desta-terca-feira-20"
+      }
+    ]
+  },
+  "fretes": {
+    "introParagraphs": [
+      "Precisa de frete em Campina Grande (PB) e quer organizar tudo sem dor de cabeça? Um bom frete começa antes do caminhão chegar: alinhar o que vai, medir volumes, combinar faixa de horário e informar um ponto de referência ajuda a evitar retrabalho. Na prática, isso faz diferença principalmente em rotas com trânsito variável e em coletas em ruas mais apertadas, onde parar para carga e descarga pode exigir um pouco mais de planejamento.",
+      "Nesta página, a ideia é te dar um guia completo e bem pé no chão para fretes na cidade: desde retiradas no Centro até entregas em áreas residenciais e comerciais, além de referências úteis como o Terminal Rodoviário e o Aeroporto Presidente João Suassuna (acesso pela Av. Assis Chateaubriand). Você vai ver o que influencia preço, como se preparar, quais informações enviar no orçamento e como funcionam fretes rápidos quando a urgência aperta."
+    ],
+    "guideParagraphs": [
+      "Em Campina Grande, frete costuma envolver um mix de cenários: compras em loja para entregar em casa, transporte de móveis entre endereços, retirada de mercadoria para comércio e até pequenas mudanças. Para isso dar certo, vale pensar em três pontos básicos: acesso (onde o veículo consegue encostar), volume (quantidade e tamanho do que vai) e fragilidade (se precisa de proteção extra). Quando essas informações ficam claras desde o começo, fica mais fácil definir o veículo ideal, estimar tempo de carga/descarga e evitar surpresas no meio do caminho.",
+      "Uma referência que ajuda bastante na organização de rotas é o Terminal Rodoviário, por estar ligado a saídas e conexões intermunicipais. Muita gente usa a região como ponto de encontro ou referência para retirada/entrega, principalmente quando o endereço exato é difícil de localizar. O mesmo vale para o Aeroporto Presidente João Suassuna, que fica com acesso pela Av. Assis Chateaubriand e é uma âncora útil para combinar coletas no entorno do Distrito Industrial ou entregas que dependem de horários mais certinhos. Esses marcos não “resolvem” o trânsito, mas ajudam na comunicação.",
+      "Falando em deslocamento, Campina Grande se conecta a eixos importantes como a BR-230 e a BR-104, o que influencia a logística mesmo em fretes dentro do município. Em dias de intervenções, obras ou mudanças de fluxo, algumas alças e acessos podem ficar mais lentos, e isso pode refletir no horário de chegada do veículo. Por isso, para fretes com hora marcada (ex.: retirada em loja, condomínio com janela de carga/descarga, ou entrega em empresa), é prudente trabalhar com faixa de horário e confirmar no dia se há bloqueios temporários no caminho.",
+      "Um erro comum é pedir “um frete” sem dizer o que realmente vai no veículo. Uma geladeira, por exemplo, pede cuidado de amarração e transporte em pé (quando possível), já um sofá pode ser volumoso e ditar o tamanho do caminhão. Caixas com livros pesam mais do que parecem; itens de vidro e eletrônicos precisam de proteção; e plantas ou objetos com líquido podem exigir atenção extra para não vazar. Quanto mais específico você for na lista — medidas aproximadas e fotos ajudam — mais redondo tende a ficar o orçamento.",
+      "Coletas e entregas em apartamento são um capítulo à parte. Pode existir limitação de elevador, necessidade de proteger áreas comuns e regras de portaria que variam de prédio para prédio. Por isso, antes do frete, vale confirmar se há elevador de serviço disponível, qual o horário permitido para mudança/entrega e se o caminhão pode parar em frente por alguns minutos. Quando não dá para encostar, às vezes entra a necessidade de levar volumes a pé por um trecho, e isso muda o esforço e o tempo de operação.",
+      "Para casas, o desafio costuma ser diferente: portões, desníveis, escadas internas e o cuidado com piso e paredes durante a passagem de móveis grandes. Nesses casos, um frete bem organizado separa o que sai primeiro e o que fica por último, e evita “encaixar” tudo no veículo de qualquer jeito. Também é uma boa prática reservar um espaço na entrada para agrupar caixas e volumes antes da chegada do motorista, acelerando a carga e reduzindo o tempo com o veículo parado.",
+      "Se a sua necessidade parece mais uma mudança do que um frete simples, faz sentido considerar serviços opcionais como desmontagem e montagem, embalagem e proteção. Isso não é obrigatório, mas pode ajudar muito com guarda-roupa, cama, estante e itens frágeis. Uma mudança bem embalada diminui o risco de arranhões e dá mais estabilidade durante o trajeto, especialmente em percursos com trechos de paralelepípedo ou irregularidades que podem balançar a carga. O ideal é decidir isso antes para planejar material e mão de obra.",
+      "No contexto de comércio e pequenas empresas, o frete costuma ter particularidades: nota/fatura para conferência, volumes em caixas padronizadas, prazos de entrega e às vezes necessidade de retirar em mais de um ponto no mesmo dia. Em Campina Grande, combinar ordem de coleta faz diferença para evitar ficar indo e voltando sem necessidade. Se houver horários de recebimento (ex.: até certo horário no expediente), vale avisar logo no primeiro contato para a roteirização priorizar o que é mais sensível.",
+      "Fretes de itens únicos (como máquina de lavar, freezer, fogão, sofá retrátil) pedem atenção ao caminho e às medidas. Uma dica simples é medir portas, corredores e elevador antes: o problema nem sempre é o transporte, mas a passagem. Se o item não passa, pode ser necessário desmontar partes, retirar pés, tirar portas (quando possível) ou repensar a rota de entrada. Isso evita aquele momento desconfortável de chegar no local e descobrir que não entra de jeito nenhum.",
+      "Quando a urgência aperta, dá para trabalhar com frete expresso, mas a organização precisa ser ainda mais objetiva. Tenha em mãos: endereço completo com referência (por exemplo, “próximo ao Terminal Rodoviário” ou “acesso pela Av. Assis Chateaubriand”), lista de volumes e se há escadas/elevador. Quanto menos dúvidas na hora de montar o plano, mais rápido sai a confirmação de disponibilidade. Ainda assim, horários podem variar conforme trânsito e eventos na cidade, então o melhor é alinhar uma janela realista.",
+      "Para quem quer previsibilidade, o agendamento por faixa de horário costuma ser o formato mais tranquilo. Você escolhe um período (manhã/tarde/noite, conforme combinado) e organiza o imóvel para a carga fluir. Isso funciona bem para quem precisa conciliar com trabalho, com recebimento de chave, ou com retirada em loja que abre em horário específico. Se houver mais de um endereço (ex.: pegar em um local e entregar em outro), sinalize isso já no orçamento para evitar ajuste em cima da hora.",
+      "Sobre segurança e integridade, duas atitudes simples ajudam: identificar caixas (cômodo e conteúdo) e separar o que é “não pode molhar/pressionar”. Itens frágeis vão por cima; caixas pesadas, embaixo; e objetos compridos devem ser amarrados para não “correr” no baú. Se você tem objetos de valor sentimental ou documentos, é melhor levar com você no carro, em vez de colocar no frete. Não é paranoia: é só uma forma prática de reduzir preocupação durante o transporte.",
+      "Em dias de chuva, o risco maior não é só a água: é o piso escorregadio e a pressa para terminar logo. Se der, tenha lona, sacos reforçados e fita à mão para proteger volumes e facilitar o manuseio. Também vale preparar um espaço coberto para acomodar itens antes de colocar no caminhão, evitando ficar abrindo e fechando porta do veículo toda hora. Em Campina Grande, como em qualquer cidade, o clima pode mudar e isso impacta a operação — melhor se antecipar do que improvisar.",
+      "No fim, um bom frete na cidade é o que encaixa no seu cenário: pode ser pequeno e rápido, ou mais completo com ajudantes e embalagem. O que torna o serviço “redondo” é a comunicação: explicar o que vai, como é o acesso e quais são as prioridades. Quando você usa marcos claros (Rodoviária, Aeroporto, avenidas de acesso) e combina o básico por mensagem, o motorista chega mais preparado e o dia rende muito mais. É isso que reduz atrasos, retrabalho e custos desnecessários."
+    ],
+    "howSteps": [
+      "Envie uma descrição do frete: o que será transportado, quantidade de volumes e se há itens frágeis, pesados ou muito volumosos.",
+      "Informe origem e destino em Campina Grande com ponto de referência (ex.: Terminal Rodoviário, Aeroporto Presidente João Suassuna, Av. Assis Chateaubriand) para facilitar a roteirização.",
+      "Diga como é o acesso: andar, presença de elevador, escadas, distância do portão até a porta, e se o veículo consegue encostar para carga/descarga.",
+      "Combine uma faixa de horário e avise se existe horário de recebimento/retirada (loja, empresa, portaria), porque isso muda a prioridade da rota.",
+      "Defina o formato do serviço: somente transporte, ou com ajudante(s), desmontagem/montagem e embalagem/proteção, conforme sua necessidade.",
+      "Separe e identifique caixas e itens: o que é frágil, o que não pode virar, e o que deve ir por último para facilitar a descarga no destino.",
+      "No dia, mantenha uma pessoa de referência disponível para liberar entrada, orientar a localização e confirmar rapidamente o que vai e o que fica.",
+      "Após a entrega, faça uma conferência básica por cômodo/volume e sinalize na hora qualquer divergência para resolver ainda no local."
+    ],
+    "priceFactors": [
+      "Distância e complexidade do trajeto dentro de Campina Grande (inclusive variações por acessos e fluxo em vias principais)",
+      "Tipo de veículo necessário (capacidade, altura do baú, necessidade de carroceria específica)",
+      "Quantidade de itens, volume total e peso aproximado (livros e eletros costumam pesar mais do que parecem)",
+      "Acessos no local: escadas, ausência de elevador, corredor longo, impossibilidade de encostar com o veículo",
+      "Necessidade de ajudante(s) para carga e descarga e tempo estimado de operação",
+      "Serviços extras: desmontagem/montagem, embalagem, proteção com mantas, filme stretch, cantoneiras",
+      "Urgência e encaixe na agenda (frete expresso tende a depender de disponibilidade imediata)",
+      "Coleta/entrega em mais de um ponto no mesmo serviço (roteiro com múltiplas paradas)",
+      "Dias e horários com maior fluxo ou com intervenções/obras em acessos (quando houver), que podem aumentar tempo de deslocamento"
+    ],
+    "prepChecklist": [
+      "Fazer uma lista do que vai no frete e separar o que não deve ser transportado junto (documentos, joias, itens muito pessoais).",
+      "Tirar fotos dos itens grandes e medir portas/corredores/elevador para evitar surpresa de “não passa”.",
+      "Desligar e descongelar geladeira/freezer com antecedência razoável e secar bandejas para não vazar durante o trajeto.",
+      "Proteger itens frágeis com papel, plástico bolha ou roupas/lençóis, e sinalizar caixas como FRÁGIL e ESTE LADO PARA CIMA.",
+      "Organizar caixas por cômodo e peso (pesadas menores, leves maiores) e manter fita e marcador por perto.",
+      "Separar parafusos e peças de móveis em sacos identificados, de preferência presos ao próprio móvel.",
+      "Reservar uma área próxima à saída para deixar volumes agrupados e agilizar a carga quando o veículo chegar.",
+      "Confirmar no local regras e horários de carga/descarga (pode variar) e, se necessário, avisar portaria/recepção.",
+      "Checar previsão de chuva e ter sacos/lona para proteger itens na passagem entre porta e veículo.",
+      "Deixar caminhos livres: retirar tapetes soltos, objetos no corredor e coisas que atrapalhem o manuseio."
+    ],
+    "scenarios": [
+      "Fretar um eletrodoméstico comprado em loja e levar para casa, com cuidado de amarração e proteção.",
+      "Levar móveis desmontados para outro endereço em Campina Grande, com entrega em apartamento e uso de elevador (quando disponível).",
+      "Retirar mercadorias em dois pontos diferentes e entregar em um comércio, seguindo uma ordem de coleta combinada.",
+      "Fazer um “frete de última hora” para resolver um imprevisto, trabalhando com janela de horário e informações objetivas.",
+      "Transportar itens frágeis (vidros, espelhos, eletrônicos) com embalagem reforçada e acomodação adequada no veículo.",
+      "Levar volume médio de caixas e alguns móveis como uma mini mudança, com ajudante para agilizar carga e descarga.",
+      "Coleta em região de referência próxima ao Terminal Rodoviário e entrega em área residencial, facilitando localização pelo ponto de apoio."
+    ],
+    "faq": [
+      {
+        "q": "Vocês fazem frete dentro de Campina Grande (PB) mesmo para poucas coisas?",
+        "a": "Sim, dá para atender desde itens avulsos até cargas maiores, dependendo da disponibilidade e do tipo de veículo. Para agilizar, informe o que é, medidas aproximadas e se há escadas ou elevador. Assim fica mais fácil indicar a melhor opção de transporte."
+      },
+      {
+        "q": "Como funciona o agendamento por faixa de horário?",
+        "a": "Você combina um período para coleta e/ou entrega, em vez de um minuto exato. Isso ajuda quando o trânsito varia ou quando há mais de uma parada na rota. Se você tiver horário limite (loja/empresa), avise para priorizar o roteiro."
+      },
+      {
+        "q": "Dá para retirar perto do Terminal Rodoviário como ponto de referência?",
+        "a": "Dá, e esse tipo de referência costuma facilitar bastante a localização. O ideal é enviar também rua, número (quando houver) e um ponto de apoio próximo. Assim o motorista chega com mais segurança e evita desencontro."
+      },
+      {
+        "q": "O Aeroporto Presidente João Suassuna pode ser usado como referência de rota?",
+        "a": "Pode, especialmente para coletas/entregas no entorno do acesso pela Av. Assis Chateaubriand. Como a circulação pode variar, é melhor trabalhar com uma janela de horário e confirmar detalhes do acesso no dia. Isso reduz chance de atraso por fluxo urbano."
+      },
+      {
+        "q": "Vocês ajudam a carregar e descarregar?",
+        "a": "Pode ser combinado com ajudante(s), conforme o volume e o tipo de item. Em alguns casos, o cliente também ajuda, e isso pode mudar o tempo de operação. O importante é alinhar antes para ninguém ser pego de surpresa."
+      },
+      {
+        "q": "Vocês fazem desmontagem e montagem de móveis?",
+        "a": "Esse serviço pode ser incluído como opcional, principalmente para guarda-roupa, cama e estantes. O que será possível depende do tipo de móvel e do estado das peças. Se puder, envie fotos para avaliar e planejar ferramentas e tempo."
+      },
+      {
+        "q": "O que mais influencia no preço do frete em Campina Grande?",
+        "a": "Além da distância, pesam muito o acesso (escadas, corredor, impossibilidade de encostar), o volume e a necessidade de ajudante. Serviços extras como embalagem e desmontagem também entram no cálculo. Informações completas tendem a evitar reajustes."
+      },
+      {
+        "q": "Como devo embalar itens frágeis como espelhos e eletrônicos?",
+        "a": "Use proteção acolchoada (plástico bolha, papel, mantas) e coloque em caixas firmes, bem vedadas com fita. Identifique como FRÁGIL e indique o lado correto. Para itens muito delicados, vale reforçar com cantoneiras ou dupla camada."
+      },
+      {
+        "q": "Frete para apartamento: preciso avisar algo antes?",
+        "a": "Sim: andar, se há elevador, se existe janela de mudança e como funciona a entrada do veículo (isso pode variar por condomínio). Também é útil informar se a distância da vaga até o elevador é grande. Esses pontos mudam tempo e esforço de carga/descarga."
+      },
+      {
+        "q": "O que não é recomendado enviar junto no frete?",
+        "a": "Documentos, dinheiro, chaves, joias e itens muito pessoais é melhor levar com você. Também evite transportar produtos que possam vazar sem estar bem vedados. Se tiver dúvida sobre algum item específico, informe antes para orientar a melhor forma de transporte."
+      }
+    ],
+    "types": [
+      "Frete leve para itens avulsos (caixas, pequenos móveis, compras)",
+      "Frete de móveis e eletrodomésticos com amarração e acomodação segura",
+      "Mini mudança residencial (volume médio, com organização por cômodo)",
+      "Frete corporativo para retirada e entrega de mercadorias e equipamentos",
+      "Frete com ajudante(s) para carga e descarga mais rápida",
+      "Frete expresso (quando há urgência e a agenda permite)",
+      "Frete com múltiplas paradas (roteiro com mais de um ponto de coleta/entrega)"
+    ],
+    "services": [
+      "Embalagem e proteção de itens frágeis (mantas, plástico bolha, filme stretch, conforme necessidade)",
+      "Desmontagem e montagem de móveis (opcional, mediante avaliação do tipo de móvel)",
+      "Organização de carga e amarração interna para reduzir movimentação no trajeto",
+      "Ajudante(s) para carga/descarga e apoio em escadas ou corredores longos",
+      "Retirada agendada em loja/empresa com conferência básica de volumes no ato",
+      "Orientação prévia de preparação (checklist) para acelerar o serviço no dia"
+    ],
+    "sectionTitles": {
+      "demands": "Quando o frete precisa acontecer ainda hoje: como ganhar tempo sem bagunçar tudo",
+      "coverage": "Campina Grande no mapa do frete: rotas urbanas, acessos e pontos de referência",
+      "whatToSend": "O que me mandar para eu orçar direito (e sem troca de mensagens infinita)",
+      "availability": "Agenda realista: janelas de horário, encaixes e o que pode mudar no caminho",
+      "whenYes": "Indicadores de que o frete em Campina Grande vai fluir sem complicações",
+      "whenNo": "Situações em que é melhor ajustar o plano antes de chamar o caminhão",
+      "pricing": "Preço de frete em Campina Grande: o que entra na conta e por quê",
+      "commonScenarios": "Cenas comuns do dia a dia: do eletro novo à mini mudança",
+      "types": "Formatos de frete que costumam resolver na prática",
+      "services": "Complementos que tiram peso das costas (opcionais)",
+      "howItWorks": "Do primeiro contato à entrega: o passo a passo do frete",
+      "completeGuide": "Guia completo de fretes em Campina Grande (PB) para evitar imprevistos",
+      "preparation": "Preparação rápida: como deixar tudo pronto antes do veículo chegar",
+      "neighborhoods": "Atendimento por toda a cidade: Centro e áreas residenciais e comerciais",
+      "testimonials": "Relatos de quem já precisou resolver transporte com prazo apertado"
+    },
+    "sectionDescriptions": {
+      "demands": "Uma orientação prática para pedidos urgentes: quais informações aceleram a confirmação, como organizar carga em pouco tempo e como combinar uma janela viável sem prometer o impossível.",
+      "coverage": "Explica como a cidade costuma ser atendida pensando em acessos e referências amplas, citando BR-230/BR-104, Terminal Rodoviário e Aeroporto como pontos que ajudam na comunicação e no planejamento de rota.",
+      "whatToSend": "Lista objetiva do que enviar no orçamento (fotos, medidas, andares, acessos e paradas), para reduzir idas e vindas e chegar mais rápido em um valor e um plano coerentes.",
+      "availability": "Mostra como funciona agendamento por faixa de horário, o que pode alterar a previsão (fluxo urbano, intervenções em vias) e como manter o frete previsível com alinhamento simples.",
+      "pricing": "Detalha fatores que influenciam o valor: volume, acesso, necessidade de ajudantes, tipo de veículo, urgência e múltiplos pontos, com linguagem transparente e sem números chutados.",
+      "commonScenarios": "Reúne exemplos típicos de frete em Campina Grande para você se enxergar no serviço e escolher a configuração certa, do item avulso à operação com mais organização.",
+      "types": "Apresenta modalidades de transporte que atendem necessidades diferentes, ajudando a escolher entre frete pequeno, dedicado, com ajudante, expresso e outras variações comuns.",
+      "services": "Sugere serviços complementares que podem entrar (ou não) conforme o caso, como embalagem, desmontagem/montagem e proteção, explicando em que situações fazem sentido.",
+      "howItWorks": "Um roteiro claro do atendimento: coleta de informações, confirmação, chegada, carga segura, deslocamento e conferência na entrega, com foco em comunicação e alinhamento.",
+      "completeGuide": "Conteúdo pilar com dicas de planejamento, logística urbana e boas práticas para reduzir risco de atraso e dano, usando referências da cidade sem inventar detalhes específicos.",
+      "preparation": "Checklist direto para preparar casa ou empresa: separar volumes, proteger itens, liberar passagem e confirmar acessos, deixando a carga mais rápida e organizada.",
+      "neighborhoods": "Explica a cobertura sem listar bairros aleatórios: atendimento ao Centro e a diferentes áreas da cidade, com a recomendação de enviar referência para facilitar a chegada.",
+      "testimonials": "Espaço para depoimentos focados em experiência real: pontualidade dentro da janela combinada, cuidado com itens e clareza no orçamento, sem promessas absolutas."
+    },
+    "_approxWords": 3036
+  },
+  "mudancas": {
+    "introParagraphs": [
+      "Fazer mudança em Campina Grande (PB) fica bem mais simples quando o transporte é planejado com calma: o que vai, o que não vai, como embalar e por onde carregar. A cidade tem fluxos que mudam bastante conforme o horário e o acesso a avenidas principais, então um bom agendamento por faixa de horário e um roteiro alinhado com o cliente ajudam a evitar espera na rua, manobras complicadas e retrabalho.",
+      "Atendemos mudanças residenciais e comerciais em Campina Grande com foco em organização e comunicação clara. Para facilitar a estimativa e a roteirização, vale informar um ponto de referência conhecido (por exemplo, nas proximidades do Terminal Rodoviário ou do Aeroporto Presidente João Suassuna, ou ainda em vias como a Av. Assis Chateaubriand) e detalhes do local de carga/descarga. Assim dá para definir o tipo de veículo, a equipe necessária e o nível de proteção adequado para cada item."
+    ],
+    "guideParagraphs": [
+      "Em Campina Grande, uma mudança bem-feita começa antes do caminhão chegar. A primeira conversa serve para entender volume, fragilidade e acessos: casa ou apartamento, presença de elevador, corredor estreito, escada, distância entre porta e vaga de carga, e se será preciso fazer mais de uma viagem. Como o tráfego urbano pode variar, o ideal é trabalhar com janela de coleta/entrega (uma faixa de horário) e manter contato no dia para pequenos ajustes de rota.",
+      "Para quem está saindo ou chegando à cidade, pontos de referência amplos ajudam a alinhar expectativas. A região do Terminal Rodoviário é útil como âncora logística por estar próxima a saídas e conexões intermunicipais, enquanto a área do Aeroporto Presidente João Suassuna costuma ser lembrada no planejamento por estar ligada a acessos como a Av. Assis Chateaubriand. Não se trata de prometer tempo fixo, e sim de mapear caminhos possíveis e evitar deslocamentos desnecessários.",
+      "O inventário (mesmo simples) faz diferença na prática. Listar os itens por cômodo, separar o que é frágil e indicar o que desmonta evita que caixas fiquem sem destino e que peças se percam. Também ajuda a estimar quantas mantas, plástico-bolha e fitas serão usadas, e se vale contratar embalagem completa ou apenas proteção de pontos críticos. Em mudanças maiores, fotos dos itens e das entradas do imóvel agilizam a análise sem “achismos”.",
+      "Embalagem é onde muita mudança ganha ou perde qualidade. Itens de vidro e louça pedem separadores, papel e preenchimento para não “dançar” dentro da caixa; eletrônicos precisam de proteção contra impacto e umidade; e roupas podem ir em caixas próprias ou bem acomodadas para não amassar excessivamente. Para móveis, a combinação de manta, filme stretch e cantoneiras costuma reduzir riscos de arranhão. Quando o cliente prefere embalar por conta própria, orientamos padrões para manter estabilidade no empilhamento.",
+      "Desmontagem e montagem são serviços que podem ser adicionados conforme a necessidade. Guarda-roupa, cama e mesa grandes muitas vezes exigem desmontar para passar em portas e elevadores, e isso precisa ser combinado antes para levar ferramentas e identificar ferragens. Uma dica simples: guardar parafusos e suportes em saquinhos etiquetados por móvel evita atrasos na remontagem. Em alguns casos, pode ser mais seguro transportar o móvel parcialmente desmontado do que forçar passagem e causar dano.",
+      "Mudança para apartamento costuma ter dois pontos sensíveis: a logística de elevador e a área de carga/descarga. O uso do elevador, a reserva de horário e a circulação em áreas comuns podem variar conforme condomínio, então é prudente confirmar com antecedência se existe alguma janela preferencial e quais procedimentos são solicitados. Quando não há elevador de serviço ou ele é pequeno, o plano pode incluir mais viagens internas, uso de escada e um ritmo de carregamento pensado para segurança.",
+      "Já em casas e imóveis térreos, o desafio costuma ser diferente: distância até o portão, rampas, piso irregular e espaço para estacionar. Nesses casos, avaliar previamente o melhor ponto de parada ajuda a reduzir deslocamento carregando peso e a manter o trajeto livre de obstáculos. Também é importante separar o que vai primeiro (itens pesados e estruturais) e o que vai por último (caixas leves e frágeis), mantendo o caminhão organizado para descarregar com lógica no destino.",
+      "Para mudanças comerciais em Campina Grande, o foco normalmente é minimizar interrupção. Dá para planejar por etapas: desmontar estações de trabalho, proteger equipamentos, identificar cabos, e organizar caixas por setor. Quando o horário de funcionamento limita a operação, uma coleta fora do pico pode ser uma boa alternativa, sempre alinhada com o acesso ao local e com o responsável. O essencial é manter rastreabilidade: etiquetas claras e uma lista do que saiu e do que chegou.",
+      "Alguns itens pedem cuidados específicos e, em certos casos, não são recomendados no mesmo transporte sem preparação. Geladeira, máquina de lavar e eletros grandes podem exigir posição de transporte e proteção de partes soltas; espelhos e tampos de vidro precisam de embalagem rígida; e plantas devem ser acomodadas para ventilação. Já itens de alto valor, documentos e dinheiro são melhor levados pelo próprio cliente. Quando há dúvida, vale perguntar antes para evitar improviso no dia.",
+      "Em Campina Grande, como em qualquer cidade com obras e intervenções eventuais, é inteligente considerar rotas alternativas e checar se há bloqueios temporários em eixos importantes de ligação, como BR-230 e BR-104, além de alças, viadutos e acessos urbanos. Isso não significa que a mudança vai atrasar, mas sim que um planejamento prudente prevê margens e evita marcar compromisso “cravado” quando o caminho pode mudar no dia.",
+      "O tamanho do veículo e a composição da equipe influenciam bastante a experiência. Um caminhão maior pode reduzir número de viagens, mas nem sempre é a melhor escolha se o acesso é apertado ou se a rua é muito movimentada. Em contrapartida, um veículo menor pode exigir mais deslocamentos. Por isso, a decisão deve considerar volume, tipo de móveis, altura de empilhamento possível e o cenário de carga/descarga. Transparência nessa escolha evita custo surpresa e frustração.",
+      "No dia da mudança, a organização do fluxo é o que mantém tudo sob controle. Definir um “ponto de triagem” para caixas, separar o que vai por último (kit de primeira noite, ferramentas, itens de higiene) e manter um responsável para tirar dúvidas agiliza a operação. Quando o cliente consegue liberar passagens e deixar itens pequenos já encaixotados, a equipe foca em móveis e volumes pesados, reduzindo risco de batida e acelerando o carregamento.",
+      "A descarga merece a mesma atenção da coleta. É comum o cansaço bater na chegada, mas é justamente aí que a conferência evita perdas: checar quantidades de volumes, confirmar se caixas frágeis foram posicionadas corretamente e indicar onde cada item vai ficar. Se houver montagem, vale priorizar cama, geladeira e itens essenciais para o funcionamento imediato. O restante pode seguir por cômodo, com caixas identificadas para não virar “pilha sem dono”.",
+      "Para quem quer previsibilidade, combinar previamente o que está incluído ajuda muito: embalagem total ou parcial, desmontagem/montagem, retirada de portas, proteção extra para objetos delicados e a necessidade de mais de uma viagem. Mudanças que parecem simples podem ficar complexas com escadas, distâncias grandes até a vaga e falta de espaço interno para organizar caixas. Quanto mais detalhado o alinhamento, mais fácil é entregar uma mudança tranquila, dentro do combinado e sem improvisos.",
+      "Se a mudança envolve coleta ou entrega perto do Terminal Rodoviário (Rua Basílio Araújo, no bairro Sandra Cavalcante) ou nas proximidades do Aeroporto Presidente João Suassuna (acesso pela Av. Assis Chateaubriand; endereço na Av. Uberaba, s/n), a dica é informar isso já no primeiro contato. São referências claras para quem está roteirizando na cidade e ajudam a ajustar o melhor horário de deslocamento e o tipo de abordagem na chegada, considerando fluxo de veículos e manobras."
+    ],
+    "howSteps": [
+      "Você envia as informações essenciais: tipo de mudança (residencial/comercial), data desejada e se prefere manhã/tarde/noite (faixa de horário).",
+      "Compartilha volume aproximado e itens que exigem atenção (vidros, eletrônicos, eletros grandes, móveis que desmontam).",
+      "Informa detalhes de acesso nos dois pontos: escadas/elevador, distância até a vaga, possibilidade de parar próximo e se há necessidade de mais de uma viagem.",
+      "Definimos o veículo e o tamanho da equipe, além do nível de proteção (mantas, stretch, cantoneiras, plástico-bolha) e se haverá embalagem/desmontagem.",
+      "Confirmamos a janela de coleta e combinamos um ponto de referência em Campina Grande (ex.: proximidades do Terminal Rodoviário, Aeroporto, ou vias principais como Av. Assis Chateaubriand) para facilitar a roteirização.",
+      "No dia, a equipe chega, protege os itens conforme combinado e organiza o caminhão por ordem de descarregamento (pesados primeiro, frágeis por cima e bem travados).",
+      "Realizamos a entrega e posicionamos os volumes por cômodo, com conferência básica de quantidades e atenção especial aos itens frágeis.",
+      "Se contratado, fazemos desmontagem/montagem e orientamos a disposição final para reduzir movimentações repetidas dentro do imóvel."
+    ],
+    "priceFactors": [
+      "Volume total e tipo de itens: quantidade de móveis, presença de vidro, eletrônicos, itens muito pesados ou que exigem embalagem reforçada.",
+      "Distância e complexidade do trajeto dentro de Campina Grande: não é só quilometragem; acessos, retornos e rotas alternativas podem influenciar.",
+      "Acesso nos imóveis: escadas, elevador (ou não), corredores estreitos, necessidade de içamento (quando aplicável) e distância da porta até o local de parada.",
+      "Quantidade de profissionais e tempo estimado: mudanças com muitos desmontes e proteção detalhada tendem a demandar mais mão de obra.",
+      "Tipo e tamanho do veículo: capacidade, altura de baú e adequação para a rua/local de carga e descarga.",
+      "Serviços adicionais: embalagem total/parcial, fornecimento de materiais, desmontagem/montagem, retirada e reinstalação de itens simples (quando possível), e múltiplas viagens.",
+      "Datas e horários: fins de semana, feriados e janelas muito restritas podem alterar disponibilidade e custo operacional.",
+      "Condições do dia: intervenções e bloqueios temporários em vias de acesso (ex.: eixos como BR-230/BR-104 e conexões urbanas) podem exigir ajustes de rota e tempo."
+    ],
+    "prepChecklist": [
+      "Separe documentos, joias e itens de valor sentimental para levar com você (não no caminhão).",
+      "Descongele geladeira/freezer com antecedência e esvazie água de itens que possam vazar (quando aplicável).",
+      "Identifique caixas por cômodo e escreva “FRÁGIL” quando necessário; numere caixas se quiser fazer conferência.",
+      "Deixe um kit de acesso rápido: carregadores, roupas para 1–2 dias, itens de higiene, remédios e ferramentas básicas.",
+      "Avise portaria/condomínio (se houver) e confirme regras internas que podem variar, como reserva de elevador e horário de carga/descarga.",
+      "Fotografe conexões e cabos antes de desmontar eletrônicos; guarde parafusos em saquinhos etiquetados por móvel.",
+      "Reserve espaço no destino para receber os volumes (um cômodo livre já ajuda) e reduza obstáculos no caminho."
+    ],
+    "scenarios": [
+      "Mudança residencial completa: casa ou apartamento, com proteção de móveis, organização por cômodo e descarregamento planejado para agilizar a instalação.",
+      "Mudança de apartamento com elevador limitado: operação ajustada para não congestionar áreas comuns, priorizando itens grandes e mantendo circulação segura.",
+      "Mudança comercial por setores: caixas etiquetadas por departamento, cuidado com computadores e periféricos, e entrega com conferência para retomar atividades mais rápido.",
+      "Transporte de poucos móveis e eletros: ideal para quem comprou mobiliário, trocou de imóvel pequeno ou precisa retirar itens de um endereço para outro.",
+      "Coleta/entrega com referência em pontos conhecidos: operações próximas ao Terminal Rodoviário ou ao Aeroporto, usando essas âncoras para facilitar encontro e roteirização.",
+      "Mudança com desmontagem e montagem: quando guarda-roupa, cama ou mesa precisam ser desmontados para passar em portas, corredores e elevadores.",
+      "Mudança com atenção a vias de acesso: planejamento considerando possíveis intervenções e alterações temporárias em rotas ligadas a eixos como BR-230/BR-104, sem depender de um único caminho."
+    ],
+    "faq": [
+      {
+        "q": "Vocês fazem mudança residencial e comercial em Campina Grande (PB)?",
+        "a": "Sim, atendemos mudanças residenciais e também mudanças comerciais dentro de Campina Grande. O planejamento muda conforme o tipo de operação, especialmente por causa de horários, equipamentos e organização por setores."
+      },
+      {
+        "q": "Como funciona o agendamento por faixa de horário?",
+        "a": "Em vez de marcar um horário exato, combinamos uma janela (manhã/tarde/noite) para reduzir risco de espera por trânsito, acesso ao prédio ou imprevistos. No dia, mantemos contato para ajustar o melhor momento de chegada."
+      },
+      {
+        "q": "Preciso informar ponto de referência para orçamento?",
+        "a": "Ajuda bastante. Referências amplas como proximidades do Terminal Rodoviário, do Aeroporto Presidente João Suassuna ou de vias de acesso como a Av. Assis Chateaubriand facilitam a roteirização e a estimativa de operação."
+      },
+      {
+        "q": "Vocês fornecem material de embalagem?",
+        "a": "Podemos incluir materiais como mantas, filme stretch e plástico-bolha conforme a necessidade do serviço. Quando o cliente já vai embalar, orientamos como preparar caixas e proteger itens sensíveis para evitar danos."
+      },
+      {
+        "q": "Dá para fazer desmontagem e montagem de móveis?",
+        "a": "Sim, é um serviço que pode ser combinado no orçamento. Para não haver surpresa, é importante informar quais móveis desmontam e se há peças com vidro, espelho ou sistemas mais delicados."
+      },
+      {
+        "q": "O que geralmente não é recomendado ir no caminhão da mudança?",
+        "a": "Dinheiro, documentos pessoais, joias e itens de alto valor ou muito sensíveis costumam ser melhor transportados pelo próprio cliente. Produtos inflamáveis e itens que possam vazar também exigem avaliação prévia."
+      },
+      {
+        "q": "Como vocês lidam com apartamentos e condomínios?",
+        "a": "Planejamos com base no acesso real: elevador, escadas, distância até a vaga e circulação interna. Regras de portaria e reserva de elevador podem variar, então sugerimos confirmar com o condomínio antes do dia da mudança."
+      },
+      {
+        "q": "Mudança em dias com obras ou alterações de trânsito pode afetar o serviço?",
+        "a": "Pode haver impacto em rota e tempo, dependendo de intervenções temporárias em vias e acessos (inclusive em ligações com BR-230/BR-104). Por isso, trabalhamos com janela de horário e com alternativas de trajeto quando necessário."
+      },
+      {
+        "q": "Vocês fazem mudança de poucos itens (tipo geladeira, sofá e cama)?",
+        "a": "Sim, dá para atender fretes menores e retiradas pontuais. O ideal é informar medidas aproximadas e se há escadas/porta estreita para definirmos o veículo adequado."
+      },
+      {
+        "q": "Como é feita a conferência na entrega?",
+        "a": "Na chegada, organizamos a descarga por cômodo e fazemos uma checagem básica de volumes/caixas conforme a identificação. Itens frágeis são posicionados de forma separada para reduzir risco de impacto durante a finalização."
+      },
+      {
+        "q": "O orçamento é fechado ou pode mudar no dia?",
+        "a": "A proposta é baseada nas informações passadas (volume, acessos e serviços). Se houver diferença relevante no que será transportado ou no acesso real do local, o valor pode precisar de ajuste, sempre conversado antes de seguir com a operação."
+      }
+    ],
+    "checklist": [
+      "Orçamento baseado em informações objetivas (volume + acesso), para reduzir variação no dia",
+      "Agendamento por faixa de horário, com contato de confirmação e ajustes de rota",
+      "Proteção de móveis com mantas e fixação interna para reduzir atrito durante o transporte",
+      "Organização de carga por ordem de descarregamento, evitando empilhar frágil de qualquer jeito",
+      "Entrega com orientação de posicionamento por cômodo e conferência básica de volumes identificados",
+      "Opção de desmontagem/montagem combinada previamente, com cuidado de ferragens e peças pequenas",
+      "Planejamento considerando referências de Campina Grande (Rodoviária/Aeroporto) e possíveis mudanças de fluxo em vias de acesso"
+    ],
+    "sectionTitles": {
+      "demands": "Mudança em cima da hora em Campina Grande: como organizar sem correria",
+      "coverage": "Onde atendemos em Campina Grande (PB) e como definimos a rota",
+      "whatToSend": "Informações que aceleram seu orçamento (e evitam surpresa)",
+      "availability": "Janelas de coleta e entrega: disponibilidade com planejamento realista",
+      "whenYes": "Quando a mudança em Campina Grande flui bem: sinais de que está tudo certo",
+      "whenNo": "Quando vale pausar e replanejar para não dar errado",
+      "pricing": "Preço de mudança em Campina Grande: o que pesa no cálculo",
+      "commonScenarios": "Situações comuns de mudança na cidade (e como resolvemos)",
+      "types": "Tipos de mudança que operamos em Campina Grande",
+      "services": "Serviços extras que podem deixar a mudança mais leve",
+      "howItWorks": "Do primeiro contato à entrega: nosso passo a passo",
+      "completeGuide": "Guia completo de mudança em Campina Grande: do encaixote à descarga",
+      "preparation": "Preparação do cliente: checklist para o dia render",
+      "neighborhoods": "Atendimento no Centro e em áreas residenciais/comerciais (sem adivinhação)",
+      "testimonials": "Relatos de clientes: o que costuma ser elogiado na operação"
+    },
+    "sectionDescriptions": {
+      "demands": "Para mudanças que surgem com pouco prazo, explicamos como priorizar itens, definir uma janela de horário e evitar improvisos que viram custo e stress.",
+      "coverage": "Mostramos como planejamos deslocamentos dentro de Campina Grande usando referências amplas (Rodoviária, Aeroporto e vias de acesso) e alternativas quando o fluxo muda.",
+      "whatToSend": "Uma lista objetiva do que você deve informar: volume, acessos, itens frágeis e pontos de referência, para a estimativa ser coerente com a realidade do local.",
+      "availability": "Entenda por que trabalhamos com faixas de horário, como confirmamos no dia e quais detalhes ajudam a encaixar a mudança na agenda sem prometer tempos fixos.",
+      "pricing": "Explicamos os fatores que influenciam preço — do tipo de imóvel ao nível de embalagem — para você comparar propostas com critérios claros.",
+      "commonScenarios": "Cenários frequentes na cidade, como apartamento com escada, retirada pontual de móveis e mudanças com rota ajustada por intervenções, com orientações práticas.",
+      "types": "Panorama dos formatos de mudança atendidos: residencial, comercial, parcial, com desmontagem e com proteção reforçada para itens sensíveis.",
+      "services": "Detalhamos opções como embalagem, desmontagem/montagem e organização por cômodo, para você contratar só o que faz sentido para sua rotina.",
+      "howItWorks": "Um fluxo simples e transparente: coleta de informações, definição de equipe/veículo, proteção dos itens, carga organizada e entrega com conferência básica.",
+      "completeGuide": "Conteúdo pilar para quem quer planejar: embalagem, inventário, cuidados com eletros, logística de prédio e como reduzir risco em cada etapa.",
+      "preparation": "Checklist direto do que separar, como etiquetar e o que confirmar com antecedência, para a equipe chegar e trabalhar sem travas no caminho.",
+      "neighborhoods": "Em vez de listar bairros sem necessidade, explicamos que atendemos a cidade de forma ampla e como você pode indicar sua região com referência clara.",
+      "testimonials": "Um espaço para destacar comentários reais sobre pontualidade combinada, cuidado com os itens e comunicação durante a mudança, sem promessas absolutas."
+    },
+    "_approxWords": 2848
+  },
+  "urgente": {
+    "introParagraphs": [
+      "Precisa de frete urgente em Campina Grande (PB) e quer resolver sem complicação? A ideia aqui é tirar do caminho o que costuma atrasar: falta de informação sobre volumes, dificuldade de acesso para carga/descarga e rotas que mudam conforme o fluxo da cidade. Com um bom alinhamento (o que vai, de onde sai, para onde vai e qual a janela de horário), dá para organizar uma coleta rápida e uma entrega bem encaminhada, mesmo quando o pedido aparece de última hora.",
+      "Campina Grande tem pontos de referência que ajudam muito na roteirização e na comunicação: a região do Terminal Rodoviário (Rua Basílio Araújo) e o eixo de acesso ao Aeroporto Presidente João Suassuna (via Av. Assis Chateaubriand). Além disso, os deslocamentos podem envolver conexões com as BR-230 e BR-104, o que influencia escolha de trajeto e tempo de deslocamento. Por isso, quanto mais claro for o seu ponto de referência, melhor fica a estimativa e o planejamento do frete."
+    ],
+    "guideParagraphs": [
+      "Fretar com urgência não é só “mandar buscar e pronto”: é reduzir risco de retrabalho. Em Campina Grande, vale combinar uma faixa de horário realista para coleta e entrega, em vez de um horário cravado. O trânsito pode oscilar, e alguns acessos mudam conforme obras e intervenções em avenidas de ligação e trechos próximos às rodovias. Quando você informa o ponto de referência (por exemplo, proximidades do Terminal Rodoviário ou do acesso ao Aeroporto pela Av. Assis Chateaubriand), fica mais fácil escolher o melhor caminho e prever paradas para carga/descarga.",
+      "Antes de pedir o frete urgente, descreva o que realmente importa: quantidade de volumes, medidas aproximadas e se há itens frágeis. “Uma mesa e duas caixas” é diferente de “uma mesa desmontada com tampo de vidro e seis caixas cheias”. Se você não tiver as medidas, dá para estimar com fotos e comparação (porta, cadeira, caixa padrão). Essa clareza ajuda a dimensionar o veículo e a equipe, evitando o cenário clássico de precisar trocar de carro no meio do caminho.",
+      "Coleta e entrega em prédios e condomínios podem funcionar bem no urgente, mas pedem alinhamento de detalhes. Elevador pode estar ocupado, a circulação de carrinhos pode ter regras internas e a área de embarque pode ser compartilhada. Sem afirmar regras fixas (porque variam), o ideal é você checar com a portaria ou administração se existe janela recomendada para carga/descarga e se é necessário cadastro temporário. Isso reduz espera e evita que o motorista fique parado, o que pesa em prazo e custo.",
+      "Para quem está no Centro ou em áreas com tráfego mais intenso, o ganho de tempo costuma vir do planejamento do “minuto a minuto” da coleta: deixar volumes já separados, identificar o que vai primeiro e o que vai por último, e manter o acesso liberado para o veículo estacionar o mais perto possível. Em urgências, pequenas ações contam muito. Uma caixa sem etiqueta pode atrasar a conferência; um corredor bloqueado pode exigir idas extras; um item solto pode precisar de reembalagem na hora.",
+      "Quando o frete envolve locais próximos a saídas principais, como eixos que conectam à BR-230 e BR-104, vale perguntar ao prestador se ele considera a possibilidade de intervenções e mudanças temporárias de fluxo. Não é para prever o imprevisível, e sim para ter plano B. Às vezes, a melhor rota de ida não é a melhor rota de volta, especialmente quando há alças, retornos e viadutos com ajustes de sinalização. Um motorista experiente costuma priorizar trajetos que reduzam paradas longas.",
+      "Frete urgente pode ser para itens pequenos ou grandes, e a estratégia muda. Se for documento, peça ou equipamento compacto, o diferencial é a rapidez de retirada e a confirmação de entrega. Se for um eletrodoméstico, um sofá ou um lote de caixas, o diferencial é a proteção e a amarração, porque pressa não combina com improviso. Em Campina Grande, onde o deslocamento pode alternar entre vias urbanas e acessos maiores, a carga precisa estar bem fixada para evitar impactos em trechos com lombadas, curvas e variações de piso.",
+      "Uma dúvida comum é se “frete urgente” significa sair imediatamente. Na prática, urgência é prioridade de agenda dentro do que é viável com segurança e logística. Às vezes dá para sair em seguida; em outras, a coleta entra como encaixe no mesmo turno. Por isso, quanto mais cedo você enviar as informações e as fotos, mais rápido se toma a decisão: veículo compatível, necessidade de ajudante, ferramentas para desmontagem, e material de proteção. A urgência bem atendida começa na triagem.",
+      "Mudança emergencial (residencial ou comercial) é um capítulo à parte. Se você precisa liberar um imóvel rápido, combine primeiro o essencial: quais cômodos entram no “primeiro carregamento” e o que pode ficar para uma segunda viagem. Também ajuda definir o que vai montado e o que vai desmontado. Desmontar na hora pode ser possível, mas deve ser combinado porque exige tempo e ferramentas. Em mudanças comerciais, vale separar itens críticos (computador, impressora, arquivos) para transporte mais cuidadoso e conferência simples.",
+      "A região do Terminal Rodoviário é uma boa âncora para orientar coletas e entregas, porque facilita explicar “de que lado” da cidade você está e qual saída costuma ser mais conveniente. Sem depender de mapas complexos, use referências amplas: proximidade de rodoviária, de avenidas principais, ou do acesso ao Aeroporto. Isso é particularmente útil quando o remetente e o destinatário não conhecem o endereço com detalhes ou quando o local é novo (loja recém-alugada, sala recém-ocupada).",
+      "Para retirada próxima ao Aeroporto Presidente João Suassuna, a dica é tratar como operação de tempo variável. Mesmo sendo um ponto bem conhecido, o acesso pode ter momentos de maior movimento e mudanças por eventos ou ajustes de circulação. Informe se a entrega é dentro de área de terminal, em entorno, ou apenas “na via de acesso”, porque isso muda a estratégia de parada e o tempo de espera. Se houver necessidade de emitir nota, autorização ou cadastro, deixe isso alinhado antes para não travar a entrega.",
+      "Um bom frete urgente também depende de como a carga foi preparada. Caixas firmes, bem fechadas e com indicação de “frágil” quando necessário ajudam a manter o ritmo. Para itens como TV, vidro, louça e eletrônicos, proteção com mantas, papelão e canto protetor reduz risco. Se você não tem material, pergunte se existe opção de embalagem e proteção como serviço adicional. Em urgência, esse item costuma ser mais eficiente do que tentar improvisar com sacolas e fitas insuficientes.",
+      "Sobre veículos: o tamanho e o tipo devem seguir o volume, não apenas a pressa. Um carro pequeno pode ser rápido, mas talvez não resolva uma demanda com muitos volumes. Por outro lado, um veículo grande pode ter mais dificuldade para manobrar e estacionar em ruas apertadas. Em Campina Grande, a escolha certa equilibra acesso ao local, distância de parada até o elevador/porta e tempo de carregamento. Uma pergunta simples que ajuda: “dá para estacionar perto?” Se não, considere equipe maior para reduzir o tempo de vai-e-vem.",
+      "Para empresas e entregas urgentes, combine um método de confirmação. Pode ser foto do volume no local de entrega (sem expor dados sensíveis), assinatura do recebedor, ou mensagem com nome e horário. Isso evita dúvidas e retrabalhos. Também é importante alinhar se existe necessidade de agendamento com recepção, se o local recebe em horários específicos e se há fila de descarga. Em urgência, a entrega pode ser rápida, mas o “tempo de espera” é o que mais derruba previsões.",
+      "Se você precisa de um frete urgente “com cuidado de mudança”, deixe isso explícito. Há diferença entre levar caixas fechadas e transportar móveis, eletros e itens que exigem manta, cantoneira, fita, carrinho e amarração. Quando o pedido é de última hora, é tentador economizar nessa parte — mas o barato pode virar atraso. Melhor combinar um serviço adequado, com proteção e equipe compatível, do que ter que voltar para buscar item danificado ou reorganizar carga no meio do trajeto.",
+      "Por fim, urgência não precisa ser estresse. O melhor caminho é você mandar um resumo claro: ponto de retirada e referência (ex.: próximo ao Terminal Rodoviário ou ao acesso do Aeroporto), ponto de entrega, lista de itens/volumes, fotos, e a sua janela ideal. A partir daí, dá para propor a solução mais realista: coleta no mesmo período, encaixe, ou agendamento curto. Quando cada parte sabe o que fazer, o frete flui e a cidade vira aliada, não obstáculo."
+    ],
+    "howSteps": [
+      "Envie o básico para triagem: local de retirada em Campina Grande com ponto de referência, local de entrega e urgência desejada (ainda hoje, próximo turno, amanhã cedo).",
+      "Liste volumes e itens especiais (frágil, pesado, comprido, que não desmonta) e, se possível, mande fotos em boa luz.",
+      "Confirme condições de acesso: tem elevador? escadas? distância até a porta? dá para estacionar perto? Essas respostas mudam equipe e tempo.",
+      "Ajuste a faixa de horário para coleta e entrega, considerando que o fluxo urbano pode variar e que pode haver intervenções em vias de acesso.",
+      "Defina se precisa de serviços extras: ajudante, desmontagem/montagem, embalagem/proteção, carrinho, manta e amarração reforçada.",
+      "No dia, deixe volumes prontos e identificados (o que vai primeiro/último), e libere passagem para agilizar o carregamento.",
+      "Durante o trajeto, mantenha um canal de contato para atualização rápida de rota e chegada, sem depender de tentativas repetidas no local.",
+      "Na entrega, faça conferência simples por checklist e combine forma de confirmação (assinatura, nome do recebedor ou registro do recebimento)."
+    ],
+    "priceFactors": [
+      "Distância entre retirada e entrega dentro de Campina Grande e a complexidade do acesso (escadas, elevador, corredor longo, necessidade de parada mais distante).",
+      "Urgência e encaixe na agenda: pedidos imediatos podem exigir remanejamento de rota e equipe, o que impacta o valor.",
+      "Tipo e quantidade de volumes: peso, medidas, itens frágeis, móveis grandes e eletros mudam o tempo de carga/descarga.",
+      "Necessidade de ajudantes e tempo de serviço: carregar muitas caixas em prédio sem elevador pode demandar mais mão de obra.",
+      "Veículo adequado e itens de segurança: uso de mantas, fitas, cantoneiras, carrinho, e amarração para proteger a carga.",
+      "Esperas e janelas de recebimento: tempo parado por portaria, fila de descarga, horário restrito de entrega ou falta de recebedor.",
+      "Serviços complementares: desmontagem/montagem, embalagem, retirada em loja/depósito, e retorno/segunda viagem por volumes extras."
+    ],
+    "prepChecklist": [
+      "Separe os volumes por categoria (frágil, pesado, documentos, eletrônicos) e sinalize cada caixa com destino e conteúdo.",
+      "Deixe caminhos livres: retire tapetes soltos, organize corredor, e garanta que portas e portões abram totalmente.",
+      "Proteja itens sensíveis (vidro, telas, louças) com papelão e mantas; evite transportar solto no carro.",
+      "Desmonte o que for simples (pés de mesa, prateleiras) e guarde parafusos em saquinhos identificados.",
+      "Confirme com antecedência se o local de entrega recebe em determinado horário e se há alguém para autorizar a entrada.",
+      "Tenha em mãos informações de referência do endereço (próximo ao Terminal Rodoviário, acesso do Aeroporto, avenida principal) para facilitar a chegada.",
+      "Separe um kit rápido: fita, tesoura/estilete, marcador, saco de lixo reforçado e carregadores/itens essenciais.",
+      "Combine onde o veículo vai parar para carregar e descarregar, e sinalize ao motorista a melhor entrada do prédio/estabelecimento."
+    ],
+    "scenarios": [
+      "Frete urgente de caixas e malas para mudança relâmpago, com prioridade para itens essenciais no primeiro carregamento.",
+      "Retirada rápida em loja/depósito e entrega em residência, com necessidade de conferência por volumes.",
+      "Transporte de eletrodoméstico (geladeira, máquina) com proteção e cuidado na movimentação em corredores e elevador (quando houver).",
+      "Entrega expressa de equipamento de trabalho para escritório, com confirmação de recebimento por responsável.",
+      "Coleta próxima ao Terminal Rodoviário como referência e entrega em outra área da cidade, usando pontos amplos para roteirizar.",
+      "Retirada no eixo de acesso ao Aeroporto Presidente João Suassuna e entrega no Centro, considerando variações de fluxo urbano.",
+      "Mudança comercial pequena (caixas, cadeiras, periféricos) com janela de recebimento e necessidade de agendamento.",
+      "Duas paradas no mesmo frete (retira em um ponto e passa em outro para completar a carga), com organização de ordem de entrega."
+    ],
+    "faq": [
+      {
+        "q": "O que é considerado frete urgente em Campina Grande?",
+        "a": "É uma coleta e entrega priorizadas, normalmente no mesmo dia ou no próximo turno disponível, dependendo da agenda e da complexidade do serviço. A viabilidade melhora quando você informa volumes, acesso e janela de horário. Em alguns casos, a urgência é atendida como encaixe entre rotas."
+      },
+      {
+        "q": "Como faço para pedir um orçamento rápido e sem surpresa?",
+        "a": "Envie fotos, quantidade de volumes, itens grandes/fragéis e os pontos de retirada e entrega com referência (ex.: perto do Terminal Rodoviário ou do acesso ao Aeroporto). Informe se há escadas, elevador e distância até o local de parada do veículo. Com isso, dá para dimensionar veículo, equipe e materiais."
+      },
+      {
+        "q": "Vocês fazem frete urgente para apartamentos e prédios?",
+        "a": "Sim, mas o tempo pode variar conforme elevador, regras internas e disponibilidade de área de carga/descarga. O ideal é combinar a faixa de horário e checar previamente com a portaria se existe procedimento específico. Isso evita espera e melhora o cumprimento do prazo."
+      },
+      {
+        "q": "Posso transportar itens frágeis com urgência (TV, vidro, eletrônicos)?",
+        "a": "Pode, desde que haja proteção adequada e amarração segura. Se você não tiver material, vale solicitar opção de mantas e reforços de embalagem. Pressa não deve significar transportar sem proteção."
+      },
+      {
+        "q": "O frete urgente inclui ajudante para carregar e descarregar?",
+        "a": "Pode incluir, conforme o combinado no momento do agendamento. A quantidade de ajudantes depende do peso, do volume e do acesso (escadas, corredor longo, ausência de estacionamento próximo). Informar esses detalhes é o que define a equipe."
+      },
+      {
+        "q": "Como a rota é definida dentro de Campina Grande?",
+        "a": "A rota costuma considerar o ponto de referência, o melhor acesso por avenidas principais e a possibilidade de intervenções temporárias em vias que conectam a BR-230 e BR-104. O objetivo é reduzir paradas longas e evitar trechos que podem travar. Ainda assim, o tempo pode variar conforme o fluxo do momento."
+      },
+      {
+        "q": "Consigo agendar por faixa de horário em vez de horário exato?",
+        "a": "Sim, e isso costuma funcionar melhor em serviços urgentes. A faixa permite absorver variações de trânsito e eventuais esperas em portarias e recepções. Também facilita encaixes sem comprometer a segurança do transporte."
+      },
+      {
+        "q": "O que pode impedir o atendimento urgente no mesmo dia?",
+        "a": "Falta de informações (volume, acesso), necessidade de veículo maior sem disponibilidade imediata, espera prolongada para liberar carga/descarga e ausência de recebedor no destino. Intercorrências de trânsito e bloqueios temporários também podem afetar o plano. Nesses casos, a solução pode ser reagendar para a próxima janela viável."
+      },
+      {
+        "q": "É possível fazer duas paradas no mesmo frete urgente?",
+        "a": "Em muitos casos, sim, desde que as paradas sejam informadas antes e a ordem de entrega seja definida. Isso evita reorganizar carga no meio do trajeto e reduz risco de esquecimento de volumes. O valor e o prazo podem mudar conforme o tempo adicional."
+      },
+      {
+        "q": "Vocês retiram perto do Terminal Rodoviário e do Aeroporto como referência?",
+        "a": "Esses pontos funcionam muito bem como referência para orientar a equipe e facilitar a roteirização. O importante é dizer se a retirada/entrega é no entorno, em via de acesso ou em ponto específico do complexo. Assim, dá para planejar a parada e diminuir espera."
+      },
+      {
+        "q": "Como é feita a confirmação da entrega?",
+        "a": "Pode ser feita por nome do recebedor, assinatura, mensagem de confirmação ou registro simples do recebimento, conforme a necessidade. Para itens de valor, é recomendado combinar previamente um responsável no destino. Isso evita tentativas repetidas e atrasos."
+      }
+    ],
+    "demands": [
+      "Coleta imediata de caixas e malas para desocupar imóvel no mesmo período",
+      "Transporte rápido de móvel grande que precisa chegar hoje para montagem/uso",
+      "Entrega expressa de mercadoria local com confirmação de recebimento",
+      "Mudança comercial pequena com prioridade para itens de trabalho e documentos",
+      "Retirada com referência próxima ao Terminal Rodoviário para agilizar orientação de rota",
+      "Coleta no eixo de acesso ao Aeroporto (Av. Assis Chateaubriand) para entrega urbana em janela curta"
+    ],
+    "whenYes": [
+      "Quando os volumes já estão prontos, fechados e identificados, reduzindo tempo de conferência",
+      "Quando há alguém para liberar retirada e alguém para receber no destino dentro da faixa combinada",
+      "Quando o acesso para estacionar e carregar é razoável (ou você já avisou que precisa parar mais longe)",
+      "Quando as fotos e a descrição deixam claro se precisa de ajudante, carrinho e proteção com mantas",
+      "Quando a entrega não depende de burocracias de última hora (cadastro, autorização, agendamento interno)",
+      "Quando você informa referências amplas e fáceis de localizar, como Rodoviária ou acesso ao Aeroporto"
+    ],
+    "whenNo": [
+      "Quando o volume real é bem maior do que o informado e exige troca de veículo ou segunda viagem",
+      "Quando não há recebedor no destino e a entrega depende de tentativas repetidas",
+      "Quando o local só permite carga/descarga em janelas muito restritas e isso não foi avisado antes",
+      "Quando itens frágeis ou pesados aparecem sem preparo mínimo, exigindo reembalagem na hora",
+      "Quando há espera longa para liberar elevador, doca ou área de parada, alterando a programação do turno",
+      "Quando intervenções e bloqueios em vias de acesso impactam a rota e não existe margem de tempo"
+    ],
+    "common": [
+      "Frete expresso de caixas para troca de imóvel, com prioridade para itens de uso imediato",
+      "Transporte de sofá, cama ou guarda-roupa com necessidade de desmontagem opcional",
+      "Retirada de compra grande em loja e entrega no mesmo dia em residência",
+      "Entrega urgente de equipamentos de escritório com conferência por volumes",
+      "Coleta e entrega com duas paradas planejadas (pega em um ponto, complementa em outro)",
+      "Transporte de eletrodomésticos com proteção e movimentação cuidadosa em prédio",
+      "Mudança rápida de sala comercial com janelas de recebimento e controle de acesso",
+      "Serviço de “leva e traz” para itens que precisam ser retirados e devolvidos no mesmo período"
+    ],
+    "sectionTitles": {
+      "demands": "Chamados de última hora em Campina Grande: o que mais aparece",
+      "coverage": "De onde sai e para onde vai: área de atendimento na cidade",
+      "whatToSend": "Carga certa, pressa certa: o que dá para enviar no urgente",
+      "availability": "Agenda rápida com pé no chão: como encaixamos sua urgência",
+      "whenYes": "Quando o frete urgente em Campina Grande costuma fluir sem problemas",
+      "whenNo": "Sinais de alerta: quando a urgência pode virar atraso",
+      "pricing": "Quanto custa o urgente (e o que realmente muda o valor)",
+      "commonScenarios": "Situações reais do dia a dia que viram frete expresso",
+      "types": "Formatos de frete e mudança para resolver sem improviso",
+      "services": "Apoios que salvam o prazo: serviços que podem entrar no pacote",
+      "howItWorks": "Do pedido à entrega: o passo a passo prático",
+      "completeGuide": "Guia completo de frete urgente em Campina Grande (PB)",
+      "preparation": "Preparação rápida para não perder tempo na porta",
+      "neighborhoods": "Atendimento no Centro e em áreas residenciais/comerciais (sem complicar)",
+      "testimonials": "Relatos de quem precisou resolver rápido e com organização"
+    },
+    "sectionDescriptions": {
+      "demands": "Uma lista direta do que as pessoas mais pedem quando a mudança ou entrega não pode esperar, com foco no que exige planejamento curto e execução segura em Campina Grande.",
+      "coverage": "Como descrevemos a cobertura dentro do município usando referências amplas (como Rodoviária e acesso ao Aeroporto) para facilitar rota e estimativa sem prometer tempo fixo.",
+      "whatToSend": "Exemplos de itens e volumes que funcionam bem no frete urgente, além de orientações para evitar surpresas com fragilidade, peso e necessidade de proteção.",
+      "availability": "Como funciona o encaixe na agenda, a lógica de faixas de horário e o que você pode informar para aumentar a chance de atendimento no mesmo período.",
+      "pricing": "Transparência sobre os fatores que influenciam preço: veículo, equipe, acesso, espera e nível de urgência, com linguagem simples e sem termos confusos.",
+      "commonScenarios": "Cenários que acontecem de verdade (loja, casa, escritório, duas paradas) e o que muda na operação quando o pedido surge de última hora.",
+      "types": "Um panorama dos tipos de frete e mudança mais usados na cidade, ajudando você a escolher a opção que combina com o volume e o cuidado necessário.",
+      "services": "Serviços complementares que costumam destravar o urgente — como embalagem, desmontagem e ajudante — explicados com foco em economia de tempo e redução de risco.",
+      "howItWorks": "Um roteiro simples, do primeiro contato até a confirmação de entrega, pensado para acelerar decisões e reduzir retrabalho em Campina Grande.",
+      "completeGuide": "Conteúdo pilar para quem quer entender, em detalhes, como organizar frete urgente na cidade, considerando acessos, referências e etapas que evitam atraso.",
+      "preparation": "Checklist objetivo para deixar tudo pronto antes do veículo chegar, diminuindo tempo de carregamento e evitando correria na última hora.",
+      "neighborhoods": "Uma forma segura de falar de atendimento por áreas (Centro e regiões residenciais/comerciais) sem inventar lista de bairros e sem limitar o alcance de forma artificial.",
+      "testimonials": "Espaço para depoimentos curtos e específicos sobre pontualidade, cuidado com a carga e comunicação, sem promessas absolutas e com foco em experiência."
+    },
+    "_approxWords": 3341
+  }
+}

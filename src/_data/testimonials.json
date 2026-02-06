@@ -3859,5 +3859,329 @@
     "type": "urgente",
     "ts": 1770393767180,
     "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_01",
+    "text": "Combinei o horário e chegaram certinho. O frete foi rápido e cuidaram bem das caixas.",
+    "author": "Marina",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_02",
+    "text": "Precisava levar uns móveis e deu tudo certo. Pessoal educado e preço bem justo pelo serviço.",
+    "author": "Diego",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_03",
+    "text": "Responderam rápido no WhatsApp e tiraram minhas dúvidas. A mudança foi bem mais tranquila do que eu esperava.",
+    "author": "Camila",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_04",
+    "text": "Pontuais e cuidadosos com a geladeira e a máquina. Chegou tudo sem arranhão.",
+    "author": "Rafael",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_05",
+    "text": "Gostei da organização na hora de carregar e descarregar. Foram bem ágeis e sem enrolação.",
+    "author": "Bruna",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_06",
+    "text": "Fiz frete de última hora e conseguiram me atender no mesmo dia. Atendimento simples e direto.",
+    "author": "Lucas",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_07",
+    "text": "Vieram com as cordas e proteção certinhas, deu mais segurança. Recomendo pra quem precisa de frete com cuidado.",
+    "author": "Aline",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_08",
+    "text": "O motorista foi bem paciente e ajudou a ajustar o melhor caminho. Tudo entregue direitinho.",
+    "author": "Felipe",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_09",
+    "text": "Tinha muita coisa pequena e eles acomodaram bem no carro. Não quebrou nada no caminho.",
+    "author": "Juliana",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_10",
+    "text": "Orçamento claro, sem surpresa no final. Serviço honesto e bem combinado desde o começo.",
+    "author": "Renato",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_11",
+    "text": "Precisava levar compras grandes e foi super prático. Chegaram no horário e resolveram rápido.",
+    "author": "Patricia",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_fretes_12",
+    "text": "Atendimento muito bom e com cuidado na hora de subir as caixas. Vou chamar de novo quando precisar.",
+    "author": "Gustavo",
+    "citySlug": "campina-grande",
+    "type": "fretes",
+    "ts": 1770394514134,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_01",
+    "text": "Minha mudança em Campina Grande foi bem organizada e sem correria. A equipe cuidou dos móveis com atenção.",
+    "author": "Marina",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_02",
+    "text": "Chegaram no horário combinado e foram bem práticos pra desmontar e montar tudo. Recomendo pela tranquilidade.",
+    "author": "Diego",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_03",
+    "text": "Gostei da comunicação: responderam rápido e tiraram minhas dúvidas. A mudança foi bem mais leve do que eu imaginava.",
+    "author": "Camila",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_04",
+    "text": "Embalaram minhas coisas com capricho e nada quebrou. Serviço bem feito do começo ao fim.",
+    "author": "Rafael",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_05",
+    "text": "Preço justo e tudo bem alinhado antes. No dia, foi tudo bem ágil e sem estresse.",
+    "author": "Juliana",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_06",
+    "text": "Eu tinha medo de arranharem meus móveis, mas veio tudo certinho. Pessoal cuidadoso e educado.",
+    "author": "Bruno",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_07",
+    "text": "Mudança de apartamento com bastante caixa e deu tudo certo. Foram pacientes e organizaram bem no caminhão.",
+    "author": "Larissa",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_08",
+    "text": "Atendimento simples e direto, sem enrolação. Cumpriram o combinado e deixaram tudo no lugar certinho.",
+    "author": "Pedro",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_09",
+    "text": "Precisava de ajuda com geladeira e máquina, e eles resolveram com cuidado. Foi bem tranquilo.",
+    "author": "Aline",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_10",
+    "text": "Pontuais e bem cuidadosos com as caixas frágeis. A mudança em Campina Grande foi mais rápida do que eu esperava.",
+    "author": "Felipe",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_11",
+    "text": "Gostei porque avisaram cada etapa e não fizeram bagunça. Deu tudo certo na entrega e na montagem.",
+    "author": "Renata",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_mudancas_12",
+    "text": "Equipe bem prestativa e organizada. Minha mudança saiu sem dor de cabeça e com tudo inteiro.",
+    "author": "Thiago",
+    "citySlug": "campina-grande",
+    "type": "mudancas",
+    "ts": 1770394523589,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_01",
+    "text": "Precisava entregar uma encomenda ainda hoje e deu tudo certo. Responderam rápido e o frete foi bem ágil.",
+    "author": "Marina",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_02",
+    "text": "Chamei em cima da hora e me passaram o prazo certinho. Chegou dentro do combinado, sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_03",
+    "text": "Atendimento direto e sem enrolação. O frete urgente salvou minha entrega que estava atrasada.",
+    "author": "Camila",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_04",
+    "text": "Eu estava com pressa e eles organizaram tudo rápido. Motorista educado e entrega bem cuidadosa.",
+    "author": "Bruno",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_05",
+    "text": "Gostei porque avisaram as etapas e cumpriram o horário que prometeram. Pra urgência, foi bem tranquilo.",
+    "author": "Aline",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_06",
+    "text": "Precisava levar uns volumes com urgência e foi bem combinado desde o início. Chegou rápido e sem surpresa no valor.",
+    "author": "Diego",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_07",
+    "text": "Pedi o frete urgente e em poucos minutos já estavam alinhando a coleta. Serviço prático e eficiente.",
+    "author": "Juliana",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_08",
+    "text": "Tive uma entrega de última hora e eles deram conta. Comunicação boa e prazo bem realista.",
+    "author": "Felipe",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_09",
+    "text": "Foi minha primeira vez usando e me passou confiança. Resolveram a urgência com agilidade e cuidado.",
+    "author": "Patricia",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_10",
+    "text": "Eu precisava que chegasse no mesmo dia e funcionou. Tudo bem explicado e sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_11",
+    "text": "Atenderam rápido e já mandaram as orientações certinhas. A entrega urgente foi bem mais simples do que eu imaginava.",
+    "author": "Larissa",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campina-grande_urgente_12",
+    "text": "Tinha um prazo apertado e não podia falhar. O frete foi rápido e o pessoal foi bem atencioso.",
+    "author": "Renato",
+    "citySlug": "campina-grande",
+    "type": "urgente",
+    "ts": 1770394532007,
+    "source": "cliente"
   }
 ]
