@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Bauru (SP)** — publicado em 2026-02-06
+  - `/fretes-em-bauru/` (~2809 palavras)
+  - `/mudancas-em-bauru/` (~2745 palavras)
+  - `/frete-urgente-em-bauru/` (~3235 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 34 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `d6e6faa`
+
 - **Anápolis (GO)** — publicado em 2026-02-06
   - `/fretes-em-anapolis/` (~2829 palavras)
   - `/mudancas-em-anapolis/` (~2861 palavras)
