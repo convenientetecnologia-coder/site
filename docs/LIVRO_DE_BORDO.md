@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Anápolis (GO)** — publicado em 2026-02-06
+  - `/fretes-em-anapolis/` (~2829 palavras)
+  - `/mudancas-em-anapolis/` (~2861 palavras)
+  - `/frete-urgente-em-anapolis/` (~3286 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 20 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `9f5d375`
+
 - **Porto Alegre (RS)** — publicado em 2026-02-06
   - `/fretes-em-porto-alegre/` (~3028 palavras)
   - `/mudancas-em-porto-alegre/` (~3009 palavras)
