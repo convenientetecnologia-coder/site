@@ -5461,5 +5461,329 @@
     "type": "urgente",
     "ts": 1770399040500,
     "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_01",
+    "text": "Combinei o frete pelo Whats e foi bem tranquilo. Chegou no horário e cuidaram direitinho das caixas.",
+    "author": "Mariana",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_02",
+    "text": "Precisava levar uns móveis e resolveram rápido. Preço justo e atendimento bem direto.",
+    "author": "Carlos",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_03",
+    "text": "Gostei da pontualidade e do cuidado pra não arranhar nada. Recomendo pra quem precisa de frete em Cascavel.",
+    "author": "Fernanda",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_04",
+    "text": "O motorista foi educado e ajudou a acomodar tudo certinho. No fim, saiu como combinado.",
+    "author": "João",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_05",
+    "text": "Fiz o orçamento e responderam rápido. O frete foi ágil e sem dor de cabeça.",
+    "author": "Aline",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_06",
+    "text": "Tinha coisa frágil e eles foram bem cuidadosos. Chegou tudo inteiro e no prazo.",
+    "author": "Bruno",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_07",
+    "text": "Precisava de um frete de última hora e conseguiram encaixar. Comunicação boa do começo ao fim.",
+    "author": "Patrícia",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_08",
+    "text": "Vieram com o veículo certinho pro que eu precisava. Carregaram com atenção e entregaram sem atraso.",
+    "author": "Rafael",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_09",
+    "text": "Serviço simples e bem feito. Não enrolaram e deixaram tudo no lugar que pedi.",
+    "author": "Camila",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_10",
+    "text": "Me passaram o valor antes e não teve surpresa. O frete em Cascavel foi bem organizado.",
+    "author": "Diego",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_11",
+    "text": "Tava preocupada com escada e eles deram um jeito com calma. Foi mais fácil do que eu imaginava.",
+    "author": "Larissa",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_fretes_12",
+    "text": "Atendimento rápido e bem educado. Chegaram, carregaram e entregaram sem complicação.",
+    "author": "Eduardo",
+    "citySlug": "cascavel",
+    "type": "fretes",
+    "ts": 1770399518632,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_01",
+    "text": "Fiz minha mudança em Cascavel e foi tudo bem organizado. A equipe cuidou dos móveis com atenção e cumpriu o horário combinado.",
+    "author": "Mariana",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_02",
+    "text": "Responderam rápido no orçamento e no dia deu tudo certo. Gostei do cuidado com as caixas e da agilidade na descarga.",
+    "author": "Rafael",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_03",
+    "text": "Mudança tranquila, sem dor de cabeça. Embalaram bem os itens mais frágeis e foram bem educados do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_04",
+    "text": "Chegaram no horário e explicaram direitinho como iam acomodar tudo no caminhão. No final, ficou tudo certinho no novo lugar.",
+    "author": "Diego",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_05",
+    "text": "Tive uma boa experiência na minha mudança em Cascavel. Foram cuidadosos com o sofá e a geladeira, e o preço ficou justo.",
+    "author": "Fernanda",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_06",
+    "text": "O atendimento foi bem prático e sem enrolação. A equipe trabalhou rápido, mas com cuidado, e terminou dentro do tempo esperado.",
+    "author": "Lucas",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_07",
+    "text": "Gostei porque combinaram tudo antes e cumpriram. Não tive nenhum item danificado e ainda ajudaram a posicionar os móveis.",
+    "author": "Patricia",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_08",
+    "text": "Minha mudança foi de apartamento e eles já vieram preparados. Subiram e desceram com calma, sem correria, e deu tudo certo.",
+    "author": "Bruno",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_09",
+    "text": "Serviço bem caprichado: protegeram os móveis e organizaram as caixas por cômodo. Facilitou muito na hora de desempacotar.",
+    "author": "Aline",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_10",
+    "text": "Eu estava preocupada com os itens de vidro, mas embalaram bem e chegou tudo inteiro. Atendimento simples e eficiente.",
+    "author": "Juliana",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_11",
+    "text": "Fechei a mudança em Cascavel e foi uma boa escolha. Foram pontuais, cuidadosos e deixaram tudo bem alinhado no destino.",
+    "author": "Henrique",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_mudancas_12",
+    "text": "Desde o primeiro contato foi fácil de resolver. No dia, trabalharam com atenção e sem bagunça, e a mudança fluiu bem.",
+    "author": "Tatiane",
+    "citySlug": "cascavel",
+    "type": "mudancas",
+    "ts": 1770399529595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_01",
+    "text": "Precisava do frete com pressa e deu tudo certo. Responderam rápido e a entrega foi no tempo combinado.",
+    "author": "Bruna",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_02",
+    "text": "Atendimento bem direto e sem enrolação. Pegaram a carga rápido e me mantiveram informado.",
+    "author": "Rafael",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_03",
+    "text": "Chamei em cima da hora e mesmo assim organizaram tudo. Frete urgente bem tranquilo.",
+    "author": "Camila",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_04",
+    "text": "Gostei da agilidade e do cuidado com as caixas. Chegou certinho, sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_05",
+    "text": "Foi tudo bem combinado desde o início. Preço justo e entrega rápida como eu precisava.",
+    "author": "Fernanda",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_06",
+    "text": "Eu estava com medo de atrasar e eles resolveram. Chegaram pra buscar rápido e entregaram sem complicar.",
+    "author": "Lucas",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_07",
+    "text": "Comunicação fácil e rápida. O frete urgente salvou meu dia, chegou dentro do prazo.",
+    "author": "Mariana",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_08",
+    "text": "Serviço ágil e profissional. Deram retorno na hora e a coleta foi bem rápida.",
+    "author": "Thiago",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_09",
+    "text": "Precisava enviar uns materiais com urgência e foi bem prático. Tudo correu certinho do começo ao fim.",
+    "author": "Aline",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_10",
+    "text": "Atenderam minha solicitação urgente sem complicação. Motorista educado e entrega rápida.",
+    "author": "Gustavo",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_11",
+    "text": "Fizeram a correria virar algo organizado. Me passaram confiança e cumpriram o combinado.",
+    "author": "Juliana",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cascavel_urgente_12",
+    "text": "Solicitei o frete urgente e já alinharam horário e valor. Chegou rápido e com cuidado.",
+    "author": "Renato",
+    "citySlug": "cascavel",
+    "type": "urgente",
+    "ts": 1770399539100,
+    "source": "cliente"
   }
 ]

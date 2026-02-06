@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T17:31:22.609Z",
+  "generatedAt": "2026-02-06T17:40:38.304Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -128,6 +128,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-caruaru/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-caruaru/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-caruaru/"
+      }
+    },
+    {
+      "slug": "cascavel",
+      "name": "Cascavel",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-cascavel/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-cascavel/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-cascavel/"
       }
     },
     {
