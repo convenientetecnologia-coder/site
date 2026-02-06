@@ -1933,5 +1933,329 @@
     "type": "urgente",
     "ts": 1770389334558,
     "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_01",
+    "text": "Combinei o frete e deu tudo certo. Chegaram no horário e levaram minhas coisas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_02",
+    "text": "Resposta rápida no orçamento e preço justo. A mudança foi tranquila e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_03",
+    "text": "Precisava levar um móvel e resolveram no mesmo dia. Motorista educado e bem cuidadoso.",
+    "author": "Camila",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_04",
+    "text": "Gostei da pontualidade e da organização na hora de carregar. Entregaram tudo certinho.",
+    "author": "Diego",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_05",
+    "text": "Atendimento simples e direto, sem enrolação. O frete saiu como combinado.",
+    "author": "Fernanda",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_06",
+    "text": "Tinha medo de arranhar os móveis, mas eles protegeram bem. Chegou tudo inteiro.",
+    "author": "Lucas",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_07",
+    "text": "Fechei com eles pra levar caixas e eletros. Foram ágeis e bem prestativos.",
+    "author": "Juliana",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_08",
+    "text": "Orçamento transparente e comunicação boa do começo ao fim. Recomendo pra quem precisa de frete.",
+    "author": "Bruno",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_09",
+    "text": "Ajudaram a carregar e acomodaram direitinho no veículo. Serviço honesto e caprichado.",
+    "author": "Aline",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_10",
+    "text": "Fiz um frete pequeno e mesmo assim atenderam super bem. Foi rápido e sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_11",
+    "text": "Chegaram no horário combinado e avisaram antes. Entrega feita sem sustos.",
+    "author": "Patricia",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_fretes_12",
+    "text": "Precisei remarcar e foram flexíveis. No dia, correu tudo bem e o valor foi justo.",
+    "author": "Thiago",
+    "citySlug": "bauru",
+    "type": "fretes",
+    "ts": 1770389843982,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_01",
+    "text": "Fiz minha mudança em Bauru e foi bem tranquila. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Marina",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_02",
+    "text": "Equipe educada e rápida. Embalaram as coisas com capricho e nada quebrou na mudança.",
+    "author": "Rafael",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_03",
+    "text": "Orçamento claro e sem surpresa no final. A mudança foi organizada do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_04",
+    "text": "Respondeu rápido no WhatsApp e combinamos tudo certinho. A mudança saiu bem mais leve do que eu imaginava.",
+    "author": "Diego",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_05",
+    "text": "Tinha itens frágeis e eles foram bem cuidadosos. Chegou tudo inteiro e bem acomodado.",
+    "author": "Fernanda",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_06",
+    "text": "Gostei da pontualidade e do jeito cuidadoso de carregar. Foi um serviço bem feito em Bauru.",
+    "author": "Lucas",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_07",
+    "text": "Mudança de apartamento com escada e deu tudo certo. Eles tiveram paciência e foram bem ágeis.",
+    "author": "Juliana",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_08",
+    "text": "Atendimento simples e direto, sem enrolação. No dia, resolveram tudo com calma e cuidado.",
+    "author": "Bruno",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_09",
+    "text": "Levaram minhas caixas e eletros com atenção. A equipe passou confiança e foi bem respeitosa.",
+    "author": "Patricia",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_10",
+    "text": "Fizeram a desmontagem e montagem do que precisava e ajudou demais. A mudança ficou bem mais prática.",
+    "author": "Thiago",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_11",
+    "text": "Preço justo pelo trabalho e pelo cuidado. Recomendo pra quem quer uma mudança sem estresse.",
+    "author": "Aline",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_mudancas_12",
+    "text": "Mesmo com chuva no dia, deram um jeito e protegeram tudo. Chegou tudo seco e no lugar.",
+    "author": "Gustavo",
+    "citySlug": "bauru",
+    "type": "mudancas",
+    "ts": 1770389853791,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_02",
+    "text": "Responderam rápido e já encaixaram minha entrega no mesmo dia. Atendimento bem direto e eficiente.",
+    "author": "Rafael",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_03",
+    "text": "Tava com pressa e eles resolveram bem. Coleta e entrega foram bem alinhadas pelo WhatsApp.",
+    "author": "Juliana",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_04",
+    "text": "Frete urgente que realmente ajudou na correria. Motorista educado e cuidado com as caixas.",
+    "author": "Marcos",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_05",
+    "text": "Consegui mandar um item importante em cima da hora. Foi tudo bem organizado e com atualização no caminho.",
+    "author": "Fernanda",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_06",
+    "text": "Gostei da agilidade e da clareza no valor antes de fechar. Chegou rápido e sem surpresa.",
+    "author": "Diego",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_07",
+    "text": "Atendeu minha urgência sem enrolação. Combinaram o horário e cumpriram direitinho.",
+    "author": "Patricia",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_08",
+    "text": "Precisei de uma entrega expressa e foi tranquilo. Comunicação boa e entrega certinha.",
+    "author": "Bruno",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_09",
+    "text": "Fizeram o frete urgente com cuidado, mesmo sendo em cima da hora. Recomendo pela praticidade.",
+    "author": "Larissa",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_10",
+    "text": "Me salvaram numa entrega que não podia atrasar. Pegaram rápido e avisaram quando chegou.",
+    "author": "Tiago",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_11",
+    "text": "Serviço ágil e bem combinado. Acompanhei tudo e a entrega foi dentro do prazo que falaram.",
+    "author": "Aline",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_bauru_urgente_12",
+    "text": "Eu tava apertada com o horário e eles deram conta. Atendimento rápido e solução simples.",
+    "author": "Renata",
+    "citySlug": "bauru",
+    "type": "urgente",
+    "ts": 1770389863444,
+    "source": "cliente"
   }
 ]

@@ -538,5 +538,94 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "bauru": {
+    "city": "Bauru",
+    "state": "SP",
+    "all": [
+      "Centro",
+      "Jardim Bela Vista",
+      "Jardim Brasil",
+      "Jardim Carolina",
+      "Jardim Contorno",
+      "Jardim Europa",
+      "Jardim Estoril",
+      "Jardim Ferraz",
+      "Jardim Godoy",
+      "Jardim Imperial",
+      "Jardim Marambá",
+      "Jardim Mary",
+      "Jardim Paulista",
+      "Jardim Redentor",
+      "Jardim Samburá",
+      "Jardim Terra Branca",
+      "Jardim Vânia Maria",
+      "Jardim Vitória",
+      "Vila Alto Paraíso",
+      "Vila Aviação",
+      "Vila Cardia",
+      "Vila Coralina",
+      "Vila Engler",
+      "Vila Falcão",
+      "Vila Industrial",
+      "Vila Ipiranga",
+      "Vila Lemos",
+      "Vila Mesquita",
+      "Vila Nova Cidade Universitária",
+      "Vila Pacífico",
+      "Vila Santa Tereza",
+      "Vila Seabra",
+      "Vila Souto",
+      "Vila Universitária"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Jardim Bela Vista",
+        "Jardim Brasil",
+        "Jardim Carolina",
+        "Jardim Contorno",
+        "Jardim Europa",
+        "Jardim Estoril",
+        "Jardim Ferraz",
+        "Jardim Godoy",
+        "Jardim Imperial",
+        "Jardim Marambá"
+      ],
+      "mudancas": [
+        "Jardim Mary",
+        "Jardim Paulista",
+        "Jardim Redentor",
+        "Jardim Samburá",
+        "Jardim Terra Branca",
+        "Jardim Vânia Maria",
+        "Jardim Vitória",
+        "Vila Alto Paraíso",
+        "Vila Aviação",
+        "Vila Cardia",
+        "Vila Coralina"
+      ],
+      "urgente": [
+        "Vila Engler",
+        "Vila Falcão",
+        "Vila Industrial",
+        "Vila Ipiranga",
+        "Vila Lemos",
+        "Vila Mesquita",
+        "Vila Nova Cidade Universitária",
+        "Vila Pacífico",
+        "Vila Santa Tereza",
+        "Vila Seabra",
+        "Vila Souto",
+        "Vila Universitária"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T14:57:15.898Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

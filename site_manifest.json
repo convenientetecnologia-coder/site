@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T14:48:56.648Z",
+  "generatedAt": "2026-02-06T14:57:45.609Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -29,6 +29,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-balneario-camboriu/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-balneario-camboriu/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-balneario-camboriu/"
+      }
+    },
+    {
+      "slug": "bauru",
+      "name": "Bauru",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-bauru/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-bauru/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-bauru/"
       }
     },
     {
