@@ -4183,5 +4183,320 @@
     "type": "urgente",
     "ts": 1770394532007,
     "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_01",
+    "text": "Precisei de um frete rápido em Campinas e me atenderam bem. Preço justo e sem enrolação.",
+    "author": "Rafael",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_02",
+    "text": "Mudança pequena, mas eu estava preocupada. Foram bem organizados e ajudaram até a acomodar as caixas no destino.",
+    "author": "Camila",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_03",
+    "text": "Atendimento bem direto e educado. O motorista foi cuidadoso com os móveis e a entrega foi tranquila.",
+    "author": "Bruno",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_04",
+    "text": "Gostei porque passaram o valor certinho antes e cumpriram o combinado. Recomendo pra quem precisa de frete na região.",
+    "author": "Aline",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_05",
+    "text": "Contratei pra levar eletrodomésticos e veio tudo bem protegido. Não tive dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_06",
+    "text": "Responderam rápido e conseguiram encaixar meu horário. Serviço simples e bem feito.",
+    "author": "Fernanda",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_07",
+    "text": "O frete foi pontual e o pessoal foi bem cuidadoso nas escadas. Chegou tudo certinho.",
+    "author": "Lucas",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_08",
+    "text": "Eu tinha pouco tempo e eles facilitaram bastante. Comunicação boa do começo ao fim.",
+    "author": "Juliana",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_09",
+    "text": "Fiz orçamento com outros e aqui foi mais transparente. No dia, carregaram tudo com atenção e sem pressa.",
+    "author": "Gustavo",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_10",
+    "text": "Precisava levar umas caixas e uma cômoda. Resolveram rápido e com cuidado, do jeito que eu esperava.",
+    "author": "Patricia",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_11",
+    "text": "Equipe simpática e prestativa. O frete em Campinas foi bem tranquilo e sem surpresas no valor.",
+    "author": "Renato",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770395496557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_01",
+    "text": "Equipe pontual e cuidadosa com os móveis. A mudança foi bem organizada e sem dor de cabeça.",
+    "author": "Marina",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_02",
+    "text": "Responderam rápido, combinaram tudo direitinho e cumpriram o horário. Recomendo pra quem vai se mudar em Campinas.",
+    "author": "Diego",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_03",
+    "text": "Embalaram as coisas frágeis com atenção e nada quebrou. Serviço bem feito e tranquilo.",
+    "author": "Camila",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_04",
+    "text": "Preço justo e atendimento simples, sem enrolação. No dia, foi tudo bem ágil.",
+    "author": "Rafael",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_05",
+    "text": "Eu estava com medo por causa do sofá e da geladeira, mas eles cuidaram bem e acomodaram certinho no caminhão.",
+    "author": "Juliana",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_06",
+    "text": "Chegaram no horário e foram bem educados do começo ao fim. A mudança rendeu mais do que eu esperava.",
+    "author": "Bruno",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_07",
+    "text": "Gostei porque foram avisando cada etapa e perguntando antes de desmontar. Passou confiança.",
+    "author": "Aline",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_08",
+    "text": "Movimentaram tudo com cuidado nas escadas e protegeram os cantos dos móveis. Deu tudo certo.",
+    "author": "Fernanda",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_09",
+    "text": "Contratei pra mudança de apartamento e foi bem tranquilo. Entregaram tudo no novo lugar sem bagunça.",
+    "author": "Lucas",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_10",
+    "text": "Atendimento rápido no orçamento e no dia foram bem organizados. Valeu a pena.",
+    "author": "Patricia",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_11",
+    "text": "Desmontaram e montaram o guarda-roupa direitinho, sem ficar frouxo. Trabalho caprichado.",
+    "author": "Gustavo",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_mudancas_12",
+    "text": "Mesmo com chuva leve, eles se viraram e protegeram as caixas. Chegou tudo seco e inteiro.",
+    "author": "Renata",
+    "citySlug": "campinas",
+    "type": "mudancas",
+    "ts": 1770395505285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_01",
+    "text": "Precisei de frete urgente e eles responderam rápido. Coleta e entrega aconteceram no mesmo dia, tudo bem combinado.",
+    "author": "Mariana",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_02",
+    "text": "Estava com pressa e deu certo. O motorista chegou no horário e me manteve informado até a entrega.",
+    "author": "Rafael",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_03",
+    "text": "Atendimento direto ao ponto e sem enrolação. Resolveram meu frete urgente em Campinas com muita agilidade.",
+    "author": "Camila",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_04",
+    "text": "Pedi em cima da hora e mesmo assim conseguiram encaixar. Chegou certinho e sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_05",
+    "text": "Gostei da comunicação: passaram o valor antes e cumpriram o combinado. Para urgência, ajudou demais.",
+    "author": "Aline",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_06",
+    "text": "Tinha uma entrega importante e precisava sair rápido. O serviço foi tranquilo e bem organizado.",
+    "author": "Diego",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_07",
+    "text": "Fiz o pedido de frete urgente e em poucos minutos já estava alinhado. Entrega rápida e com cuidado.",
+    "author": "Fernanda",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_08",
+    "text": "Me salvaram numa emergência com uma retirada e entrega no mesmo dia. Atendimento bem humano e prático.",
+    "author": "Gustavo",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_09",
+    "text": "O orçamento foi claro e não teve surpresa depois. Chegou no prazo que combinamos, mesmo sendo urgente.",
+    "author": "Juliana",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_10",
+    "text": "Precisei enviar uma caixa rápido e foi bem simples de resolver. Motorista educado e pontual.",
+    "author": "Lucas",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_11",
+    "text": "Achei que não ia dar tempo, mas eles agilizaram tudo. Me passaram atualizações e a entrega foi certinha.",
+    "author": "Patricia",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_urgente_12",
+    "text": "Serviço rápido e sem complicação. Para frete urgente em Campinas, foi uma ótima experiência.",
+    "author": "Renato",
+    "citySlug": "campinas",
+    "type": "urgente",
+    "ts": 1770395514330,
+    "source": "cliente"
   }
 ]
