@@ -9,6 +9,30 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Limpeza completa: Florianópolis e São Paulo removidas
+
+- **O que**: remoção completa de todas as páginas de Florianópolis e São Paulo:
+  - Cidades removidas do `publish_config.json` (modo `draft`, lista vazia)
+  - Arquivos `city_content` deletados (florianopolis.json, sao-paulo.json)
+  - `neighborhoods.json` limpo (vazio)
+  - `testimonials.json` limpo (vazio)
+  - Todas as páginas HTML removidas do ar (não indexáveis)
+  - Sistema limpo e pronto para produção real
+- **Por quê**: começar produção real do zero, com sistema 100% GPT e anti-duplicação implementado. Florianópolis e São Paulo foram testes e identificaram duplicações que foram corrigidas.
+- **Evidência**:
+  - Commit: `bb57735` (repo `site`)
+  - `src/_data/publish_config.json` (modo draft, enabledCitySlugs vazio)
+  - `src/_data/city_content/` (arquivos deletados)
+  - `src/_data/neighborhoods.json` (vazio)
+  - `src/_data/testimonials.json` (vazio)
+- **Impacto**: 
+  - Páginas removidas do ar (não indexáveis)
+  - Sistema pronto para criar cidades novas com conteúdo 100% único
+  - **Nota**: dados de acesso/cliques no CT (menu Site) precisam ser limpos manualmente no projeto `conveniente`
+- **Rollback**: reverter commit `bb57735` (não recomendado; sistema foi limpo intencionalmente).
+
+---
+
 #### 2026-02-05 — [SITE] Sistema 100% GPT + Anti-duplicação (ultra enterprise)
 
 - **O que**: implementado sistema de conteúdo 100% GPT com validação anti-duplicação:
