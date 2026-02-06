@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Cascavel (PR)** — publicado em 2026-02-06
+  - `/fretes-em-cascavel/` (~3028 palavras)
+  - `/mudancas-em-cascavel/` (~2970 palavras)
+  - `/frete-urgente-em-cascavel/` (~3329 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `c8e06c1`
+
 - **Caruaru (PE)** — publicado em 2026-02-06
   - `/fretes-em-caruaru/` (~3013 palavras)
   - `/mudancas-em-caruaru/` (~2760 palavras)
