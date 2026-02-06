@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Belém (PA)** — publicado em 2026-02-06
+  - `/fretes-em-belem/` (~3159 palavras)
+  - `/mudancas-em-belem/` (~2961 palavras)
+  - `/frete-urgente-em-belem/` (~3347 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 33 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `243dbb5`
+
 - **Bauru (SP)** — publicado em 2026-02-06
   - `/fretes-em-bauru/` (~2809 palavras)
   - `/mudancas-em-bauru/` (~2745 palavras)

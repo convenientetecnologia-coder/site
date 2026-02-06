@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Belém (PA): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Belém com sistema 100% GPT:
+  - `/fretes-em-belem/` (~3159 palavras)
+  - `/mudancas-em-belem/` (~2961 palavras)
+  - `/frete-urgente-em-belem/` (~3347 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 33 bairros divididos em 3 blocos únicos (11/11/11 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (3 títulos duplicados corrigidos manualmente)
+- **Por quê**: oitava cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `243dbb5` (repo `site`)
+  - `src/_data/publish_config.json` (belem habilitado em production)
+  - `src/_data/city_content/belem.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (33 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Bauru (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Bauru com sistema 100% GPT:
