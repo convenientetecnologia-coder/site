@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Fortaleza (CE)** — publicado em 2026-02-06
+  - `/fretes-em-fortaleza/` (~3213 palavras)
+  - `/mudancas-em-fortaleza/` (~3047 palavras)
+  - `/frete-urgente-em-fortaleza/` (~3194 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `52e35c8`
+
 - **Duque de Caxias (RJ)** — publicado em 2026-02-06
   - `/fretes-em-duque-de-caxias/` (~3082 palavras)
   - `/mudancas-em-duque-de-caxias/` (~3005 palavras)
