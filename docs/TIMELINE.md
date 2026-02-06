@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Florianópolis (SC): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Florianópolis com sistema 100% GPT:
+  - `/fretes-em-florianopolis/` (~3038 palavras)
+  - `/mudancas-em-florianopolis/` (~2964 palavras)
+  - `/frete-urgente-em-florianopolis/` (~3178 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 45 bairros divididos em 3 blocos únicos (15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (títulos/descrições únicos)
+- **Por quê**: primeira cidade publicada com sistema 100% GPT e anti-duplicação implementado. Conteúdo 100% único e exclusivo.
+- **Evidência**:
+  - Commit: `ef0b51d` (repo `site`)
+  - `src/_data/publish_config.json` (florianopolis habilitado em production)
+  - `src/_data/city_content/florianopolis.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (45 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit `ef0b51d` ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Limpeza completa: Florianópolis e São Paulo removidas
 
 - **O que**: remoção completa de todas as páginas de Florianópolis e São Paulo:

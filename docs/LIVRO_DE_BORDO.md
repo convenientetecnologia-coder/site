@@ -37,7 +37,14 @@ Regras:
 
 ### Cidades publicadas (production)
 
-**Nenhuma cidade publicada no momento.** Sistema limpo e pronto para produção real.
+- **Florianópolis (SC)** — publicado em 2026-02-06
+  - `/fretes-em-florianopolis/` (~3038 palavras)
+  - `/mudancas-em-florianopolis/` (~2964 palavras)
+  - `/frete-urgente-em-florianopolis/` (~3178 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `ef0b51d`
 - **Métricas internas (CT)**:
   - `pageview` + `whatsapp_click` enviados via `sendBeacon` para o CT
   - painel no CT: Menu **Site** (cidades no ar + cliques WhatsApp por cidade/página)
