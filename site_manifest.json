@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T15:19:15.349Z",
+  "generatedAt": "2026-02-06T15:28:26.259Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -47,6 +47,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-belem/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-belem/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-belem/"
+      }
+    },
+    {
+      "slug": "belo-horizonte",
+      "name": "Belo Horizonte",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-belo-horizonte/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-belo-horizonte/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-belo-horizonte/"
       }
     },
     {

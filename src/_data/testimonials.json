@@ -2581,5 +2581,320 @@
     "type": "urgente",
     "ts": 1770391083685,
     "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_01",
+    "text": "Precisei de ajuda com uma mudança pequena e o pessoal foi bem cuidadoso com os móveis. Serviço tranquilo.",
+    "author": "Gustavo",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_02",
+    "text": "Preço justo e comunicação clara do começo ao fim. Entrega rápida e sem complicação.",
+    "author": "Camila",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_03",
+    "text": "Agendei para o mesmo dia e deu certo. O motorista foi educado e resolveu tudo com calma.",
+    "author": "Renato",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_04",
+    "text": "Levaram minhas caixas e um eletrodoméstico sem arranhar nada. Gostei da atenção no transporte.",
+    "author": "Patricia",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_05",
+    "text": "Chegaram no horário combinado e organizaram bem a carga no veículo. Recomendo para fretes menores.",
+    "author": "Diego",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_06",
+    "text": "Eu estava com pressa e eles responderam rápido. O frete foi direto e sem enrolação.",
+    "author": "Aline",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_07",
+    "text": "Contratei para buscar uma compra e entregar em casa. Foi tudo certinho e me mantiveram informado.",
+    "author": "Bruno",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_08",
+    "text": "Atendimento simples e objetivo, do jeito que gosto. No final, saiu tudo como combinado.",
+    "author": "Fernanda",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_09",
+    "text": "Tinha item frágil e eles prenderam bem para não balançar. Chegou inteiro e no tempo esperado.",
+    "author": "Lucas",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_10",
+    "text": "Gostei porque não inventaram taxa surpresa. O valor foi o que combinamos e o serviço foi bem feito.",
+    "author": "Juliana",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_11",
+    "text": "Frete para poucas coisas, mas precisava de cuidado. Foram bem prestativos e o carregamento foi rápido.",
+    "author": "Rafael",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770391649347,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_01",
+    "text": "Minha mudança foi bem organizada e sem correria. A equipe cuidou dos móveis com atenção e cumpriu o combinado.",
+    "author": "Mariana",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_02",
+    "text": "Responderam rápido no orçamento e foram bem pontuais no dia. Chegou tudo certinho, sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_03",
+    "text": "Gostei do cuidado com a geladeira e o sofá, tudo bem protegido. O serviço foi tranquilo do início ao fim.",
+    "author": "Camila",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_04",
+    "text": "Eu estava preocupado com as caixas, mas eles ajudaram a organizar e carregar direitinho. Deu tudo certo.",
+    "author": "Rafael",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_05",
+    "text": "Foram práticos e educados, sem enrolação. A mudança rendeu bem e não teve bagunça no prédio.",
+    "author": "Fernanda",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_06",
+    "text": "Combinei horário e chegaram no tempo certo. Desmontaram e montaram os móveis com cuidado.",
+    "author": "Bruno",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_07",
+    "text": "Achei o preço justo pelo capricho. Embalaram bem as coisas frágeis e nada quebrou.",
+    "author": "Larissa",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_08",
+    "text": "A comunicação foi boa e passaram confiança. No final conferimos tudo e estava tudo ok.",
+    "author": "Gustavo",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_09",
+    "text": "Mudança de apartamento costuma ser estressante, mas dessa vez foi bem mais leve. Equipe ágil e cuidadosa.",
+    "author": "Aline",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_10",
+    "text": "Gostei que tiveram paciência com meus horários e ajustes. Foram bem cuidadosos com as paredes e portas.",
+    "author": "Paulo",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_11",
+    "text": "Chegaram com materiais pra proteger os móveis e isso ajudou muito. Serviço bem feito e sem sustos.",
+    "author": "Juliana",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_mudancas_12",
+    "text": "Eu tinha muita coisa e mesmo assim deram conta sem pressa exagerada. Tudo foi carregado com atenção.",
+    "author": "Renata",
+    "citySlug": "belo-horizonte",
+    "type": "mudancas",
+    "ts": 1770391660953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_01",
+    "text": "Precisei de um frete urgente e eles responderam rápido. Chegou no prazo combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_02",
+    "text": "Atendimento bem direto e ágil. Pegaram a encomenda e entregaram certinho, do jeito que eu precisava.",
+    "author": "Rafael",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_03",
+    "text": "Tava com pressa e deu tudo certo. Comunicação fácil e atualização do andamento o tempo todo.",
+    "author": "Camila",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_04",
+    "text": "Solicitei em cima da hora e conseguiram encaixar. Motorista educado e entrega rápida.",
+    "author": "Bruno",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_05",
+    "text": "Frete urgente que realmente ajudou no meu aperto. Preço justo e combinado cumprido.",
+    "author": "Fernanda",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_06",
+    "text": "Gostei porque não enrolaram: passaram o valor, confirmaram e já vieram buscar. Entrega foi bem tranquila.",
+    "author": "Diego",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_07",
+    "text": "Eu precisava que chegasse no mesmo dia e deu certo. Foram bem organizados e cuidadosos com a carga.",
+    "author": "Larissa",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_08",
+    "text": "Resolveram meu envio urgente sem complicação. Responderam rápido no chat e finalizaram a entrega certinho.",
+    "author": "Gustavo",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_09",
+    "text": "Serviço rápido e sem estresse. Me passaram uma previsão real e cumpriram o que combinaram.",
+    "author": "Aline",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_10",
+    "text": "Tive uma emergência com documentos e foi tudo bem ágil. Chegou direitinho e com cuidado.",
+    "author": "Paulo",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_11",
+    "text": "Pedi o frete urgente e fui bem atendida. O motorista foi pontual e a entrega aconteceu no horário combinado.",
+    "author": "Juliana",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_urgente_12",
+    "text": "Precisava de uma coleta rápida e eles deram conta. Boa comunicação e entrega sem atrasos.",
+    "author": "Renato",
+    "citySlug": "belo-horizonte",
+    "type": "urgente",
+    "ts": 1770391670271,
+    "source": "cliente"
   }
 ]
