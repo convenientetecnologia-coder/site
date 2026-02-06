@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T16:32:26.008Z",
+  "generatedAt": "2026-02-06T16:40:42.966Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -101,6 +101,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-campina-grande/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-campina-grande/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-campina-grande/"
+      }
+    },
+    {
+      "slug": "campo-grande",
+      "name": "Campo Grande",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-campo-grande/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-campo-grande/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-campo-grande/"
       }
     },
     {

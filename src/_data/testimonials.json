@@ -4498,5 +4498,329 @@
     "type": "urgente",
     "ts": 1770395514330,
     "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. O motorista foi cuidadoso com as caixas e deu tudo certo.",
+    "author": "Mariana",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_02",
+    "text": "Atendimento bem rápido no WhatsApp e preço justo. A mudança pequena foi tranquila e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_03",
+    "text": "Precisava levar um sofá e resolveram no mesmo dia. Carregaram com cuidado e prenderam bem no carro.",
+    "author": "Juliana",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_04",
+    "text": "Gostei da pontualidade e da comunicação durante o caminho. Chegou tudo certinho, sem avarias.",
+    "author": "Carlos",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_05",
+    "text": "Frete para eletrodoméstico, bem embalado e bem acomodado. Foram educados e organizados.",
+    "author": "Aline",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_06",
+    "text": "Serviço simples e direto: combinou, buscou e entregou sem enrolação. Recomendo pra quem precisa de agilidade.",
+    "author": "Bruno",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_07",
+    "text": "Tinha escada e achei que ia ser complicado, mas eles foram pacientes e cuidadosos. No fim foi bem tranquilo.",
+    "author": "Camila",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_08",
+    "text": "Fiz orçamento com outros e esse foi o que mais fez sentido. Cumpriram o combinado e trataram meus móveis com cuidado.",
+    "author": "Diego",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_09",
+    "text": "Precisei de frete pra loja e deu tudo certo com a entrega. Foram pontuais e avisaram quando estavam chegando.",
+    "author": "Fernanda",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_10",
+    "text": "Levaram minhas coisas de um jeito bem caprichado, sem ficar arrastando. Atendimento bom e sem estresse.",
+    "author": "Gustavo",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_11",
+    "text": "O motorista explicou direitinho como ia ser e passou confiança. Chegou tudo bem e dentro do prazo combinado.",
+    "author": "Patricia",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_fretes_12",
+    "text": "Frete de última hora e conseguiram encaixar. Responderam rápido e fizeram a coleta sem complicação.",
+    "author": "Lucas",
+    "citySlug": "campo-grande",
+    "type": "fretes",
+    "ts": 1770395954003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_01",
+    "text": "Fiz minha mudança em Campo Grande e foi tudo bem organizado. A equipe cuidou dos móveis com atenção e cumpriu o combinado.",
+    "author": "Marina",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_02",
+    "text": "Orçamento claro e sem surpresa no final. Chegaram no horário e a mudança aconteceu de um jeito bem tranquilo.",
+    "author": "Rafael",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_03",
+    "text": "Gostei do cuidado com as caixas e com a geladeira. Foram rápidos, mas sem correria que estraga as coisas.",
+    "author": "Paula",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_04",
+    "text": "Eu estava com medo por causa do sofá e da cama, mas deu tudo certo. Eles desmontaram e montaram direitinho.",
+    "author": "Tiago",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_05",
+    "text": "Atendimento bem fácil pelo chat e tiraram minhas dúvidas antes. No dia, carregaram tudo com capricho.",
+    "author": "Aline",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_06",
+    "text": "Mudança de apartamento para casa e foi bem mais simples do que eu imaginava. Equipe educada e cuidadosa.",
+    "author": "Bruno",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_07",
+    "text": "Vieram com material pra proteger os móveis e isso fez diferença. Nada chegou riscado ou amassado.",
+    "author": "Camila",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_08",
+    "text": "Combinei o horário e cumpriram certinho. O caminhão veio do tamanho certo e coube tudo sem aperto.",
+    "author": "Diego",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_09",
+    "text": "Tinha bastante caixa e alguns itens frágeis, e eles separaram tudo direitinho. Achei bem profissional e prático.",
+    "author": "Fernanda",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_10",
+    "text": "Foram bem cuidadosos com o elevador e com as áreas comuns. A mudança foi rápida e sem estresse.",
+    "author": "Lucas",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_11",
+    "text": "Prezaram pela organização na hora de descarregar, deixando as coisas nos cômodos certos. Facilitou muito pra arrumar depois.",
+    "author": "Juliana",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_mudancas_12",
+    "text": "Responderam rápido e ajustaram o serviço pro que eu precisava. No fim, ficou um custo justo pelo trabalho.",
+    "author": "Gustavo",
+    "citySlug": "campo-grande",
+    "type": "mudancas",
+    "ts": 1770395965859,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_01",
+    "text": "Precisava entregar ainda hoje e deu tudo certo. Responderam rápido e combinaram o horário direitinho.",
+    "author": "Mariana",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_02",
+    "text": "O frete urgente me salvou numa correria. Chegou no prazo que passaram e sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_03",
+    "text": "Atendimento bem direto e eficiente. Pegaram a encomenda rápido e entregaram certinho.",
+    "author": "Camila",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_04",
+    "text": "Tive uma urgência com documentos e foi bem tranquilo. Me mantiveram informado durante o trajeto.",
+    "author": "Rafael",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_05",
+    "text": "Combinei tudo pelo Whats e foi bem prático. Entrega rápida e com cuidado na embalagem.",
+    "author": "Bruna",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_06",
+    "text": "Precisava de um frete de última hora e eles encaixaram sem complicação. Preço justo pelo prazo.",
+    "author": "Felipe",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_07",
+    "text": "Chegou antes do que eu imaginava, mas sem prometeram nada fora do normal. Gostei da organização.",
+    "author": "Aline",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_08",
+    "text": "Serviço ágil e comunicação boa. Quando tive dúvida, responderam na hora.",
+    "author": "Gustavo",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_09",
+    "text": "Era uma entrega urgente e eu estava preocupado. No fim, foi tudo bem combinado e cumpriram o que falaram.",
+    "author": "Juliana",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_10",
+    "text": "Coleta rápida e entrega sem enrolação. Para quem precisa resolver no mesmo dia, ajuda muito.",
+    "author": "Thiago",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_11",
+    "text": "Gostei porque foram claros com o prazo e com o valor. A entrega chegou certinha e sem atraso.",
+    "author": "Patricia",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campo-grande_urgente_12",
+    "text": "Tinha um item frágil e mesmo na correria veio bem cuidado. Atendimento simples e eficiente.",
+    "author": "Renato",
+    "citySlug": "campo-grande",
+    "type": "urgente",
+    "ts": 1770395976106,
+    "source": "cliente"
   }
 ]
