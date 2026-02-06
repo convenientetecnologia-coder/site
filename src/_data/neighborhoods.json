@@ -995,5 +995,94 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "brasilia": {
+    "city": "BrasÃ­lia",
+    "state": "DF",
+    "all": [
+      "Asa Norte",
+      "Asa Sul",
+      "Lago Norte",
+      "Lago Sul",
+      "Sudoeste",
+      "Octogonal",
+      "Cruzeiro",
+      "Guará",
+      "Águas Claras",
+      "Taguatinga",
+      "Ceilândia",
+      "Samambaia",
+      "Recanto das Emas",
+      "Riacho Fundo",
+      "Riacho Fundo II",
+      "Núcleo Bandeirante",
+      "Candangolândia",
+      "Park Way",
+      "Sobradinho",
+      "Sobradinho II",
+      "Planaltina",
+      "Paranoá",
+      "Itapoã",
+      "São Sebastião",
+      "Jardim Botânico",
+      "Santa Maria",
+      "Gama",
+      "Brazlândia",
+      "Varjão",
+      "Vicente Pires",
+      "Fercal",
+      "SIA",
+      "SCIA",
+      "Estrutural"
+    ],
+    "blocks": {
+      "fretes": [
+        "Asa Norte",
+        "Asa Sul",
+        "Lago Norte",
+        "Lago Sul",
+        "Sudoeste",
+        "Octogonal",
+        "Cruzeiro",
+        "Guará",
+        "Águas Claras",
+        "Taguatinga",
+        "Ceilândia"
+      ],
+      "mudancas": [
+        "Samambaia",
+        "Recanto das Emas",
+        "Riacho Fundo",
+        "Riacho Fundo II",
+        "Núcleo Bandeirante",
+        "Candangolândia",
+        "Park Way",
+        "Sobradinho",
+        "Sobradinho II",
+        "Planaltina",
+        "Paranoá"
+      ],
+      "urgente": [
+        "Itapoã",
+        "São Sebastião",
+        "Jardim Botânico",
+        "Santa Maria",
+        "Gama",
+        "Brazlândia",
+        "Varjão",
+        "Vicente Pires",
+        "Fercal",
+        "SIA",
+        "SCIA",
+        "Estrutural"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T16:02:19.139Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

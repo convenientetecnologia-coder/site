@@ -3535,5 +3535,329 @@
     "type": "urgente",
     "ts": 1770392813046,
     "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_01",
+    "text": "Combinei o frete pelo Whats e deu tudo certo. Chegaram no horário e cuidaram bem das caixas.",
+    "author": "Mariana",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_02",
+    "text": "Precisei de um frete rápido em Brasília e o atendimento foi bem ágil. Preço justo e sem dor de cabeça.",
+    "author": "Felipe",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_03",
+    "text": "Pessoal educado e cuidadoso na hora de carregar e descarregar. Minha mudança pequena foi bem tranquila.",
+    "author": "Camila",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_04",
+    "text": "Gostei da pontualidade e da comunicação. Avisaram quando estavam chegando e foi tudo bem organizado.",
+    "author": "Rafael",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_05",
+    "text": "Fiz frete de alguns móveis e veio tudo bem protegido. O motorista foi paciente e ajudou no que deu.",
+    "author": "Juliana",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_06",
+    "text": "Atendeu certinho o que combinamos, sem surpresa no valor. Recomendo pra quem precisa de frete na correria.",
+    "author": "Bruno",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_07",
+    "text": "Solicitei o frete no mesmo dia e conseguiram encaixar. Foram rápidos e cuidadosos com a geladeira.",
+    "author": "Patricia",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_08",
+    "text": "Equipe caprichosa, não ficou arrastando as coisas e nem batendo. Chegou tudo inteiro.",
+    "author": "Diego",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_09",
+    "text": "O orçamento foi claro e o serviço foi bem feito. Pra mim, o diferencial foi a atenção com os detalhes.",
+    "author": "Aline",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_10",
+    "text": "Frete simples, mas muito bem executado. Chegaram, carregaram e entregaram sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_11",
+    "text": "Tive uma experiência boa: responderam rápido e cumpriram o combinado. Vou chamar de novo quando precisar.",
+    "author": "Renata",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_fretes_12",
+    "text": "Precisava transportar caixas de loja e foi bem prático. Tudo chegou certinho e dentro do prazo combinado.",
+    "author": "Lucas",
+    "citySlug": "brasilia",
+    "type": "fretes",
+    "ts": 1770393748540,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_01",
+    "text": "Minha mudança em Brasília foi bem organizada e sem correria. A equipe chegou no horário e cuidou direitinho dos móveis.",
+    "author": "Mariana",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_02",
+    "text": "Orçamento claro e combinado certinho desde o começo. No dia, foi tudo rápido e com muito cuidado com as caixas.",
+    "author": "Rafael",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_03",
+    "text": "Gostei da atenção com itens frágeis, principalmente louças e eletrônicos. Chegou tudo inteiro e bem acomodado.",
+    "author": "Camila",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_04",
+    "text": "Eu estava preocupado com desmontagem, mas resolveram sem complicação. Montaram tudo de volta e ficou ok.",
+    "author": "Bruno",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_05",
+    "text": "Atendimento bem tranquilo pelo WhatsApp e tiraram minhas dúvidas sem pressa. A mudança aconteceu como combinado.",
+    "author": "Aline",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_06",
+    "text": "Equipe educada e cuidadosa, sem ficar arrastando móveis no chão. No final ainda ajudaram a posicionar as coisas.",
+    "author": "Diego",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_07",
+    "text": "Pontuais e organizados, deu para acompanhar tudo com calma. Achei o custo justo pelo serviço entregue.",
+    "author": "Fernanda",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_08",
+    "text": "Tinha muita caixa e achei que ia virar bagunça, mas etiquetaram e separaram direitinho. Facilitou muito na hora de desempacotar.",
+    "author": "Juliana",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_09",
+    "text": "Mesmo com elevador pequeno, eles foram pacientes e fizeram do jeito certo. Não teve dano nos móveis nem nas paredes.",
+    "author": "Gustavo",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_10",
+    "text": "Respondeu rápido e encaixou minha data sem dor de cabeça. No dia, foram ágeis e cuidadosos.",
+    "author": "Patricia",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_11",
+    "text": "A proteção dos móveis fez diferença, principalmente sofá e colchão. Chegou tudo limpo e bem embalado.",
+    "author": "Lucas",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_mudancas_12",
+    "text": "Mudança de apartamento para casa e foi bem mais simples do que eu imaginava. Equipe prestativa e sem enrolação.",
+    "author": "Vanessa",
+    "citySlug": "brasilia",
+    "type": "mudancas",
+    "ts": 1770393759789,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_01",
+    "text": "Precisava entregar ainda hoje e deu tudo certo. Chegou rápido e com boa comunicação do começo ao fim.",
+    "author": "Marina",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_02",
+    "text": "Atendimento bem ágil, combinaram o horário e cumpriram direitinho. Salvou meu prazo.",
+    "author": "Rafael",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_03",
+    "text": "Pedi o frete urgente e responderam na hora. Coleta e entrega foram bem tranquilas.",
+    "author": "Camila",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_04",
+    "text": "Tive uma emergência com um documento e resolveram no mesmo dia. Passaram confiança.",
+    "author": "Bruno",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_05",
+    "text": "Gostei porque avisaram quando estavam a caminho e quando entregaram. Serviço rápido e organizado.",
+    "author": "Aline",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_06",
+    "text": "Foi tudo bem combinado e sem enrolação. Chegou antes do que eu esperava.",
+    "author": "Diego",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_07",
+    "text": "Eu estava com pressa e eles foram bem práticos. Preço justo e entrega rápida.",
+    "author": "Fernanda",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_08",
+    "text": "Precisava de um frete urgente pra uma encomenda pequena e foi perfeito. Atendimento direto e eficiente.",
+    "author": "Lucas",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_09",
+    "text": "Resolveram meu frete de última hora sem complicar. Comunicação clara e entrega certinha.",
+    "author": "Juliana",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_10",
+    "text": "Chegou rápido e sem dor de cabeça. Dá pra confiar quando o prazo aperta.",
+    "author": "Gustavo",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_11",
+    "text": "Atenderam rápido e foram cuidadosos com a embalagem. Entrega urgente bem feita.",
+    "author": "Patricia",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_brasilia_urgente_12",
+    "text": "Eu precisava mandar uma peça com urgência e deu certo. Foram pontuais e educados.",
+    "author": "Renato",
+    "citySlug": "brasilia",
+    "type": "urgente",
+    "ts": 1770393767180,
+    "source": "cliente"
   }
 ]

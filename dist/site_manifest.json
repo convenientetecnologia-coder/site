@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T15:47:19.888Z",
+  "generatedAt": "2026-02-06T16:05:43.428Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -74,6 +74,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-boa-vista/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-boa-vista/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-boa-vista/"
+      }
+    },
+    {
+      "slug": "brasilia",
+      "name": "Brasília",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-brasilia/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-brasilia/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-brasilia/"
       }
     },
     {
