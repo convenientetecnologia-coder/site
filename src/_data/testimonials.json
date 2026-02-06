@@ -6757,5 +6757,320 @@
     "type": "urgente",
     "ts": 1770406520915,
     "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_01",
+    "text": "Resposta rápida no WhatsApp e preço justo. A mudança foi bem tranquila.",
+    "author": "Diego",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_02",
+    "text": "Precisava de um frete de última hora e conseguiram me atender no mesmo dia. Motorista gente boa.",
+    "author": "Camila",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_03",
+    "text": "Pontuais e organizados. Ajudaram a colocar tudo no carro sem pressa e sem bagunça.",
+    "author": "Rafael",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_04",
+    "text": "Serviço bem combinado do início ao fim. Minhas caixas chegaram certinhas, sem avaria.",
+    "author": "Juliana",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_05",
+    "text": "Tinha móveis mais pesados e eles foram cuidadosos na hora de carregar. Recomendo pela atenção.",
+    "author": "Bruno",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_06",
+    "text": "Gostei da comunicação, avisaram quando estavam a caminho. O frete foi rápido e sem estresse.",
+    "author": "Aline",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_07",
+    "text": "Fechei para transportar umas compras grandes e foi bem prático. Chegou tudo direitinho.",
+    "author": "Fernando",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_08",
+    "text": "Equipe educada e prestativa. Deram uma mão com a embalagem e isso ajudou muito.",
+    "author": "Patricia",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_09",
+    "text": "O motorista dirigiu com cuidado e foi explicando os horários. No fim, saiu tudo como combinado.",
+    "author": "Lucas",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_10",
+    "text": "Já usei outras vezes e dessa vez também foi ótimo. Atendimento simples e eficiente.",
+    "author": "Renata",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_11",
+    "text": "Fiz o orçamento e fecharam rapidinho. O transporte foi seguro e sem dor de cabeça.",
+    "author": "Gustavo",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770407058368,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_01",
+    "text": "Fiz a mudança com eles e foi tudo bem organizado. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Mariana",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_02",
+    "text": "Equipe educada e ágil. Embalaram as coisas com cuidado e nada chegou quebrado.",
+    "author": "Rafael",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_03",
+    "text": "Gostei porque foram bem claros no combinado e não teve surpresa no final. Mudança tranquila.",
+    "author": "Juliana",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_04",
+    "text": "Respondeu rápido e conseguiu encaixar minha mudança sem complicação. Serviço bem feito.",
+    "author": "Thiago",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_05",
+    "text": "Tinha móvel pesado e eles deram conta numa boa. Foram cuidadosos nas escadas e portas.",
+    "author": "Camila",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_06",
+    "text": "A equipe passou confiança do começo ao fim. Tudo foi carregado e descarregado com atenção.",
+    "author": "Bruno",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_07",
+    "text": "Achei o atendimento bem tranquilo, sem enrolação. A mudança rendeu e terminou no tempo combinado.",
+    "author": "Fernanda",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_08",
+    "text": "Capricharam na proteção da geladeira e do sofá. Chegou tudo certinho no novo apê.",
+    "author": "Lucas",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_09",
+    "text": "Eu estava com medo de arranharem os móveis, mas foram bem cuidadosos. Valeu a pena.",
+    "author": "Patricia",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_10",
+    "text": "Pontuais e prestativos. Ajudaram até a posicionar as caixas nos cômodos, facilitou muito.",
+    "author": "Diego",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_11",
+    "text": "Preço justo pelo que entregaram. Comunicação fácil e equipe bem preparada.",
+    "author": "Aline",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_mudancas_12",
+    "text": "Mudança de última hora e mesmo assim deu tudo certo. Foram rápidos e bem organizados.",
+    "author": "Gustavo",
+    "citySlug": "duque-de-caxias",
+    "type": "mudancas",
+    "ts": 1770407067405,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_01",
+    "text": "Precisava do frete pra ontem e eles resolveram rapidinho. Chegou tudo certo e bem embalado.",
+    "author": "Mariana",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_02",
+    "text": "Atendimento bem ágil e direto ao ponto. O frete urgente salvou meu dia.",
+    "author": "Diego",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_03",
+    "text": "Combinei o horário e cumpriram direitinho. Motorista cuidadoso e sem enrolação.",
+    "author": "Camila",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_04",
+    "text": "Responderam rápido e passaram o valor na hora. A entrega foi tranquila e no tempo que eu precisava.",
+    "author": "Rafael",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_05",
+    "text": "Tive que mandar uma caixa com urgência e deu tudo certo. Comunicação clara do começo ao fim.",
+    "author": "Juliana",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_06",
+    "text": "Chegaram pra buscar rápido e não atrasaram. Serviço bem organizado.",
+    "author": "Bruno",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_07",
+    "text": "Eu estava com pressa e eles foram bem flexíveis. Resolveram sem complicação.",
+    "author": "Aline",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_08",
+    "text": "Frete urgente com preço justo e sem surpresa. Entregaram direitinho e com cuidado.",
+    "author": "Felipe",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_09",
+    "text": "Gostei porque não ficou aquele vai e volta de mensagem. Em poucos minutos já estava tudo combinado.",
+    "author": "Larissa",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_10",
+    "text": "Precisava entregar um item no mesmo dia e deu certo. Atendimento educado e rápido.",
+    "author": "Renato",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_11",
+    "text": "O motorista foi pontual e ajudou no carregamento. Pra uma urgência, foi perfeito.",
+    "author": "Patricia",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_urgente_12",
+    "text": "Bem prático pra quem tá correndo contra o tempo. Buscaram e entregaram sem dor de cabeça.",
+    "author": "Gustavo",
+    "citySlug": "duque-de-caxias",
+    "type": "urgente",
+    "ts": 1770407077550,
+    "source": "cliente"
   }
 ]

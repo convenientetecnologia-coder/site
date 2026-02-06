@@ -1963,5 +1963,86 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "duque-de-caxias": {
+    "city": "Duque de Caxias",
+    "state": "RJ",
+    "all": [
+      "Centro",
+      "Jardim 25 de Agosto",
+      "Parque Duque",
+      "Vila São Luís",
+      "Gramacho",
+      "Jardim Gramacho",
+      "Campos Elíseos",
+      "Saracuruna",
+      "Xerém",
+      "Imbariê",
+      "Santa Cruz da Serra",
+      "Parque Lafaiete",
+      "Parque Fluminense",
+      "Parque Paulista",
+      "Parque Beira Mar",
+      "Pilar",
+      "Jardim Primavera",
+      "Jardim Anhangá",
+      "Jardim Olimpo",
+      "Jardim Leal",
+      "Jardim Vinte e Cinco de Agosto",
+      "Vila Itamarati",
+      "Vila Operária",
+      "Pantanal",
+      "Figueira",
+      "Taquara",
+      "Amapá",
+      "Cangulo",
+      "Capivari",
+      "Mantiquira"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Jardim 25 de Agosto",
+        "Parque Duque",
+        "Vila São Luís",
+        "Gramacho",
+        "Jardim Gramacho",
+        "Campos Elíseos",
+        "Saracuruna",
+        "Xerém",
+        "Imbariê"
+      ],
+      "mudancas": [
+        "Santa Cruz da Serra",
+        "Parque Lafaiete",
+        "Parque Fluminense",
+        "Parque Paulista",
+        "Parque Beira Mar",
+        "Pilar",
+        "Jardim Primavera",
+        "Jardim Anhangá",
+        "Jardim Olimpo",
+        "Jardim Leal"
+      ],
+      "urgente": [
+        "Jardim Vinte e Cinco de Agosto",
+        "Vila Itamarati",
+        "Vila Operária",
+        "Pantanal",
+        "Figueira",
+        "Taquara",
+        "Amapá",
+        "Cangulo",
+        "Capivari",
+        "Mantiquira"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T19:44:09.371Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
