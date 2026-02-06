@@ -392,5 +392,151 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "aracaju": {
+    "city": "Aracaju",
+    "state": "SE",
+    "all": [
+      "Centro",
+      "Atalaia",
+      "Coroa do Meio",
+      "13 de Julho",
+      "Jardins",
+      "Grageru",
+      "São José",
+      "Salgado Filho",
+      "Suíssa",
+      "Luzia",
+      "Inácio Barbosa",
+      "Farolândia",
+      "Aeroporto",
+      "Santa Maria",
+      "Jabotiana",
+      "Ponto Novo",
+      "Siqueira Campos",
+      "Olaria",
+      "Industrial",
+      "Santos Dumont",
+      "Cidade Nova",
+      "Bugio",
+      "Porto Dantas",
+      "Soledade",
+      "Palestina",
+      "América",
+      "Getúlio Vargas",
+      "Novo Paraíso",
+      "José Conrado de Araújo",
+      "18 do Forte",
+      "Capucho",
+      "Cirurgia",
+      "Pereira Lobo",
+      "Dezoito do Forte"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Atalaia",
+        "Coroa do Meio",
+        "13 de Julho",
+        "Jardins",
+        "Grageru",
+        "São José",
+        "Salgado Filho",
+        "Suíssa",
+        "Luzia",
+        "Inácio Barbosa"
+      ],
+      "mudancas": [
+        "Farolândia",
+        "Aeroporto",
+        "Santa Maria",
+        "Jabotiana",
+        "Ponto Novo",
+        "Siqueira Campos",
+        "Olaria",
+        "Industrial",
+        "Santos Dumont",
+        "Cidade Nova",
+        "Bugio"
+      ],
+      "urgente": [
+        "Porto Dantas",
+        "Soledade",
+        "Palestina",
+        "América",
+        "Getúlio Vargas",
+        "Novo Paraíso",
+        "José Conrado de Araújo",
+        "18 do Forte",
+        "Capucho",
+        "Cirurgia",
+        "Pereira Lobo",
+        "Dezoito do Forte"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T14:25:30.221Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
+  },
+  "balneario-camboriu": {
+    "city": "BalneÃ¡rio CamboriÃº",
+    "state": "SC",
+    "all": [
+      "Centro",
+      "Barra Sul",
+      "Barra",
+      "Pioneiros",
+      "Nações",
+      "Estados",
+      "Municípios",
+      "Vila Real",
+      "Nova Esperança",
+      "São Judas Tadeu",
+      "Ariribá",
+      "Praia dos Amores",
+      "Praia do Estaleiro",
+      "Praia do Estaleirinho",
+      "Taquaras",
+      "Laranjeiras",
+      "Alto Perequê",
+      "Iate Clube"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Barra Sul",
+        "Barra",
+        "Pioneiros",
+        "Nações",
+        "Estados"
+      ],
+      "mudancas": [
+        "Municípios",
+        "Vila Real",
+        "Nova Esperança",
+        "São Judas Tadeu",
+        "Ariribá",
+        "Praia dos Amores"
+      ],
+      "urgente": [
+        "Praia do Estaleiro",
+        "Praia do Estaleirinho",
+        "Taquaras",
+        "Laranjeiras",
+        "Alto Perequê",
+        "Iate Clube"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T14:48:21.439Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

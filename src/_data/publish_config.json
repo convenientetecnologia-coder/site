@@ -4,7 +4,9 @@
     "florianopolis",
     "sao-paulo",
     "porto-alegre",
-    "anapolis"
+    "anapolis",
+    "aracaju",
+    "balneario-camboriu"
   ],
   "enabledTypes": [
     "fretes",

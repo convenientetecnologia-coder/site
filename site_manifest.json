@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T14:28:59.957Z",
+  "generatedAt": "2026-02-06T14:48:56.648Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -20,6 +20,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-aracaju/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-aracaju/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-aracaju/"
+      }
+    },
+    {
+      "slug": "balneario-camboriu",
+      "name": "Balneário Camboriú",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-balneario-camboriu/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-balneario-camboriu/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-balneario-camboriu/"
       }
     },
     {
