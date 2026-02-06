@@ -2155,5 +2155,90 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "foz-do-iguacu": {
+    "city": "Foz do IguaÃ§u",
+    "state": "PR",
+    "all": [
+      "Centro",
+      "Vila A",
+      "Vila B",
+      "Vila C",
+      "Jardim América",
+      "Jardim Central",
+      "Jardim São Paulo",
+      "Jardim Alice",
+      "Jardim Jupira",
+      "Jardim Lancaster",
+      "Jardim das Flores",
+      "Jardim Ipê",
+      "Jardim Itália",
+      "Jardim Polo Centro",
+      "Jardim Petrópolis",
+      "Jardim Alvorada",
+      "Jardim Paraná",
+      "Jardim Copacabana",
+      "Jardim Cataratas",
+      "Parque Presidente",
+      "Parque Imperatriz",
+      "Parque Ouro Verde",
+      "Parque Residencial Morumbi",
+      "Porto Meira",
+      "Vila Portes",
+      "Três Lagoas",
+      "Campos do Iguaçu",
+      "Cognópolis",
+      "Beverly Falls Park",
+      "Carimã",
+      "Remanso Grande",
+      "Remanso Pequeno"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Vila A",
+        "Vila B",
+        "Vila C",
+        "Jardim América",
+        "Jardim Central",
+        "Jardim São Paulo",
+        "Jardim Alice",
+        "Jardim Jupira",
+        "Jardim Lancaster"
+      ],
+      "mudancas": [
+        "Jardim das Flores",
+        "Jardim Ipê",
+        "Jardim Itália",
+        "Jardim Polo Centro",
+        "Jardim Petrópolis",
+        "Jardim Alvorada",
+        "Jardim Paraná",
+        "Jardim Copacabana",
+        "Jardim Cataratas",
+        "Parque Presidente",
+        "Parque Imperatriz"
+      ],
+      "urgente": [
+        "Parque Ouro Verde",
+        "Parque Residencial Morumbi",
+        "Porto Meira",
+        "Vila Portes",
+        "Três Lagoas",
+        "Campos do Iguaçu",
+        "Cognópolis",
+        "Beverly Falls Park",
+        "Carimã",
+        "Remanso Grande",
+        "Remanso Pequeno"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T20:07:33.346Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

@@ -7396,5 +7396,329 @@
     "type": "urgente",
     "ts": 1770407773828,
     "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_01",
+    "text": "Combinei o frete pelo Whats e deu tudo certo. Chegou no horário e cuidaram bem das caixas.",
+    "author": "Camila",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_02",
+    "text": "Precisava levar uns móveis e foi bem tranquilo. Motorista educado e preço justo pelo serviço.",
+    "author": "Rafael",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_03",
+    "text": "Atenderam rápido e já marcaram a coleta no mesmo dia. Entrega sem dor de cabeça.",
+    "author": "Juliana",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_04",
+    "text": "Frete para mudança pequena, tudo bem organizado. Gostei do cuidado com itens mais frágeis.",
+    "author": "Bruno",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_05",
+    "text": "Pontuais e bem práticos na hora de carregar. Chegou certinho e sem arranhões.",
+    "author": "Aline",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_06",
+    "text": "Fiz orçamento com eles e foi bem explicado, sem surpresa no final. Recomendo para frete na cidade.",
+    "author": "Diego",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_07",
+    "text": "Precisava de frete de última hora e eles conseguiram encaixar. Comunicação boa do começo ao fim.",
+    "author": "Mariana",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_08",
+    "text": "O motorista ajudou a acomodar tudo direitinho no veículo. Serviço honesto e bem feito.",
+    "author": "Felipe",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_09",
+    "text": "Contratei para levar eletros e deu tudo certo. Foram cuidadosos e rápidos na entrega.",
+    "author": "Patricia",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_10",
+    "text": "Chegaram no horário combinado e fizeram o transporte com atenção. Valeu pelo capricho.",
+    "author": "Gustavo",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_11",
+    "text": "Frete simples, mas com bastante cuidado. Gostei que avisaram quando estavam chegando.",
+    "author": "Larissa",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_fretes_12",
+    "text": "Boa experiência: combinaram tudo certinho e cumpriram o que foi acertado. Atendimento bem tranquilo.",
+    "author": "Renato",
+    "citySlug": "foz-do-iguacu",
+    "type": "fretes",
+    "ts": 1770408463538,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_01",
+    "text": "Fiz a mudança em Foz do Iguaçu e foi tudo bem organizado. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Marina",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_02",
+    "text": "Gostei da comunicação, combinaram tudo antes e não tive surpresa no dia. A equipe foi bem cuidadosa com as caixas.",
+    "author": "Rafael",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_03",
+    "text": "Minha mudança foi tranquila e rápida. Embalaram o que eu precisava e ajudaram a montar o básico no final.",
+    "author": "Camila",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_04",
+    "text": "Atendimento simples e direto, tiraram minhas dúvidas e passaram confiança. No transporte, nada chegou quebrado.",
+    "author": "Diego",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_05",
+    "text": "Eu estava com medo por causa dos eletros, mas veio tudo bem protegido. Serviço bem feito e sem correria.",
+    "author": "Juliana",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_06",
+    "text": "Pontuais e educados, fizeram a carga e descarga com cuidado. A mudança rendeu bem e terminou no horário combinado.",
+    "author": "Bruno",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_07",
+    "text": "Precisava de uma mudança pequena e me atenderam numa boa. Preço justo e trabalho caprichado.",
+    "author": "Patricia",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_08",
+    "text": "Resolveram minha mudança de última hora com muita atenção. Responderam rápido e foram bem profissionais no dia.",
+    "author": "Fernando",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_09",
+    "text": "Equipe bem cuidadosa com armários e espelhos. Gostei que foram explicando o processo e perguntando antes de mexer nas coisas.",
+    "author": "Aline",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_10",
+    "text": "Foi tudo bem combinado do começo ao fim. O caminhão veio limpo e as caixas ficaram bem acomodadas.",
+    "author": "Lucas",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_11",
+    "text": "Minha mudança de apartamento foi bem mais leve com a ajuda deles. Trabalharam com calma e sem bagunça.",
+    "author": "Renata",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_mudancas_12",
+    "text": "Gostei do cuidado com as partes frágeis e da organização na descarga. No final, conferimos tudo e estava certinho.",
+    "author": "Tiago",
+    "citySlug": "foz-do-iguacu",
+    "type": "mudancas",
+    "ts": 1770408477363,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_01",
+    "text": "Precisei de um frete urgente e foi tudo bem combinado. Chegou no horário que eu precisava, sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_02",
+    "text": "Responderam rápido e já passaram o valor na hora. O frete foi ágil e o motorista foi bem cuidadoso com as caixas.",
+    "author": "Rafael",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_03",
+    "text": "Tive uma emergência com uma entrega e eles resolveram no mesmo dia. Comunicação clara do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_04",
+    "text": "Serviço de frete urgente bem prático. Pegaram e entregaram sem enrolação, do jeito que eu estava precisando.",
+    "author": "Bruno",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_05",
+    "text": "Eu estava com prazo apertado e deu tudo certo. Atualizaram o andamento e isso me deixou mais tranquila.",
+    "author": "Aline",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_06",
+    "text": "Agendamento foi rápido e o atendimento foi bem direto. A entrega saiu no tempo certo e sem imprevistos.",
+    "author": "Diego",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_07",
+    "text": "Precisava levar uns itens com urgência e foram bem ágeis. Chegou tudo certinho e bem acomodado.",
+    "author": "Fernanda",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_08",
+    "text": "Gostei porque não complicaram: passei as informações e já organizaram a coleta. Frete urgente que realmente ajuda.",
+    "author": "Lucas",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_09",
+    "text": "Atenderam minha demanda de última hora e foram bem profissionais. Preço justo pelo prazo que eu tinha.",
+    "author": "Patricia",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_10",
+    "text": "Eu estava preocupado com o tempo, mas foi tranquilo. Entregaram rápido e com cuidado na carga.",
+    "author": "Gustavo",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_11",
+    "text": "O suporte foi ótimo e tiraram minhas dúvidas na hora. Para frete urgente em Foz do Iguaçu, funcionou bem.",
+    "author": "Juliana",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_foz-do-iguacu_urgente_12",
+    "text": "Precisava de rapidez e organização, e foi isso que encontrei. A entrega foi feita conforme combinado.",
+    "author": "Tiago",
+    "citySlug": "foz-do-iguacu",
+    "type": "urgente",
+    "ts": 1770408486825,
+    "source": "cliente"
   }
 ]
