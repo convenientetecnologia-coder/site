@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Belo Horizonte (MG): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Belo Horizonte com sistema 100% GPT:
+  - `/fretes-em-belo-horizonte/` (~2963 palavras)
+  - `/mudancas-em-belo-horizonte/` (~3197 palavras)
+  - `/frete-urgente-em-belo-horizonte/` (~3150 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 35 depoimentos (11/12/12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (2 títulos duplicados corrigidos manualmente)
+- **Por quê**: nona cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `e840571` (repo `site`)
+  - `src/_data/publish_config.json` (belo-horizonte habilitado em production)
+  - `src/_data/city_content/belo-horizonte.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (45 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (35 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Belém (PA): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Belém com sistema 100% GPT:

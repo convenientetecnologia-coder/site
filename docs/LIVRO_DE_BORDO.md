@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Belo Horizonte (MG)** — publicado em 2026-02-06
+  - `/fretes-em-belo-horizonte/` (~2963 palavras)
+  - `/mudancas-em-belo-horizonte/` (~3197 palavras)
+  - `/frete-urgente-em-belo-horizonte/` (~3150 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 35 depoimentos (11/12/12 por tipo)
+  - Commit: `e840571`
+
 - **Belém (PA)** — publicado em 2026-02-06
   - `/fretes-em-belem/` (~3159 palavras)
   - `/mudancas-em-belem/` (~2961 palavras)
