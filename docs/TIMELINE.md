@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Campina Grande (PB): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Campina Grande com sistema 100% GPT:
+  - `/fretes-em-campina-grande/` (~3036 palavras)
+  - `/mudancas-em-campina-grande/` (~2848 palavras)
+  - `/frete-urgente-em-campina-grande/` (~3341 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 36 bairros divididos em 3 blocos únicos (12/12/12 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (3 títulos duplicados corrigidos manualmente)
+- **Por quê**: décima terceira cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `c3e7144` (repo `site`)
+  - `src/_data/publish_config.json` (campina-grande habilitado em production)
+  - `src/_data/city_content/campina-grande.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (36 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Brasília (DF): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Brasília com sistema 100% GPT:
