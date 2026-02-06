@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T18:36:36.933Z",
+  "generatedAt": "2026-02-06T19:18:24.386Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -146,6 +146,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-caxias-do-sul/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-caxias-do-sul/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-caxias-do-sul/"
+      }
+    },
+    {
+      "slug": "cuiaba",
+      "name": "Cuiabá",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-cuiaba/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-cuiaba/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-cuiaba/"
       }
     },
     {

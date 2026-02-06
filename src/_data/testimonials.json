@@ -6109,5 +6109,329 @@
     "type": "urgente",
     "ts": 1770402973595,
     "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_01",
+    "text": "Combinei o frete pelo WhatsApp e deu tudo certo. Chegaram no horário e levaram minhas coisas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_02",
+    "text": "Preço justo e atendimento bem direto. A mudança pequena foi rápida e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_03",
+    "text": "Precisava de frete no mesmo dia e me responderam rápido. O motorista foi educado e ajudou no que deu.",
+    "author": "Camila",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_04",
+    "text": "Gostei porque explicaram certinho o valor e o tempo. Entregaram tudo direitinho, sem atraso grande.",
+    "author": "Diego",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_05",
+    "text": "Contratei pra levar uns móveis e foi bem tranquilo. Vieram com cuidado pra não riscar nada.",
+    "author": "Fernanda",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_06",
+    "text": "Serviço organizado e sem enrolação. Me passaram a rota e a previsão e cumpriram bem.",
+    "author": "Lucas",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_07",
+    "text": "O frete foi rápido e o combinado foi respeitado. Recomendo pra quem precisa de agilidade.",
+    "author": "Juliana",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_08",
+    "text": "Tinha caixa e eletrodoméstico, e eles acomodaram tudo direitinho. Chegou tudo ok.",
+    "author": "Bruno",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_09",
+    "text": "Atendimento simpático e bem prático de fechar. O valor ficou dentro do que eu esperava.",
+    "author": "Aline",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_10",
+    "text": "Pedi pra buscar e entregar em horários diferentes e deu certo. Foram flexíveis e pontuais.",
+    "author": "Patrícia",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_11",
+    "text": "Fizeram o frete com cuidado e sem pressa exagerada. Gostei da atenção com as embalagens.",
+    "author": "Gustavo",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_fretes_12",
+    "text": "Precisava transportar uma cama e um guarda-roupa, e foi tudo bem combinado. Chegou certinho no destino.",
+    "author": "Renata",
+    "citySlug": "cuiaba",
+    "type": "fretes",
+    "ts": 1770404394926,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_01",
+    "text": "Fiz minha mudança em Cuiabá e foi tudo bem organizado. Chegaram no horário combinado e cuidaram direitinho dos móveis.",
+    "author": "Mariana",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_02",
+    "text": "Equipe bem cuidadosa com as caixas e com a geladeira. A comunicação foi fácil do começo ao fim.",
+    "author": "Lucas",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_03",
+    "text": "Mudança rápida e sem estresse. Embalaram as coisas frágeis com atenção e deu tudo certo na entrega.",
+    "author": "Fernanda",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_04",
+    "text": "Gostei da pontualidade e do jeito respeitoso de trabalhar. A montagem do que precisava foi bem tranquila.",
+    "author": "Rafael",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_05",
+    "text": "Tinha medo de arranhar meus móveis, mas eles protegeram tudo direitinho. Serviço honesto e bem combinado.",
+    "author": "Camila",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_06",
+    "text": "Atendimento respondeu rápido e tirou minhas dúvidas. No dia, a equipe foi ágil e cuidadosa.",
+    "author": "Bruno",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_07",
+    "text": "Minha mudança tinha bastante coisa e mesmo assim foi bem organizada. Nada ficou faltando e chegou certinho.",
+    "author": "Patricia",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_08",
+    "text": "Gostei porque foram práticos e não ficaram enrolando. Carregaram e descarregaram com cuidado.",
+    "author": "Diego",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_09",
+    "text": "Fechei a mudança com antecedência e cumpriram o combinado. O caminhão veio preparado e ajudou muito.",
+    "author": "Aline",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_10",
+    "text": "Tive uma mudança de última hora e conseguiram encaixar. Foram bem atenciosos e deu tudo certo.",
+    "author": "João",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_11",
+    "text": "Trataram meus eletros com cuidado e prenderam tudo direitinho no transporte. Recomendo pela tranquilidade.",
+    "author": "Sandra",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_mudancas_12",
+    "text": "A equipe foi educada e cuidadosa com as escadas e portas. Mudança bem feita e sem dor de cabeça.",
+    "author": "Gustavo",
+    "citySlug": "cuiaba",
+    "type": "mudancas",
+    "ts": 1770404404718,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_01",
+    "text": "Precisava do frete pra ontem e eles resolveram rapidinho. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_02",
+    "text": "Atendimento bem ágil e direto ao ponto. O frete urgente em Cuiabá salvou meu dia.",
+    "author": "Rafael",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_03",
+    "text": "Responderam rápido e já passaram o valor certinho. Coleta e entrega foram bem tranquilas.",
+    "author": "Camila",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_04",
+    "text": "Fiz a solicitação no meio da correria e deu tudo certo. Motorista educado e entrega dentro do prazo.",
+    "author": "Bruno",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_05",
+    "text": "Gostei porque não enrolaram: combinaram o horário e cumpriram. Pra frete urgente, foi perfeito.",
+    "author": "Aline",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_06",
+    "text": "Eu estava com medo de atrasar, mas chegaram rápido pra pegar e levar. Comunicação clara o tempo todo.",
+    "author": "Diego",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_07",
+    "text": "Preço justo e serviço bem organizado. O frete urgente chegou antes do que eu esperava.",
+    "author": "Fernanda",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_08",
+    "text": "Precisava entregar um item com urgência e foi bem simples de resolver. Passaram confiança desde o início.",
+    "author": "Lucas",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_09",
+    "text": "Agendaram na hora e não tive surpresa. Entrega feita direitinho e com cuidado.",
+    "author": "Patrícia",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_10",
+    "text": "Foi tudo muito rápido: pedi, confirmaram e já vieram buscar. Recomendo pra quem tá na correria em Cuiabá.",
+    "author": "Gustavo",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_11",
+    "text": "Atendeu minha urgência sem complicação. Chegou certinho e me avisaram quando entregou.",
+    "author": "Juliana",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_cuiaba_urgente_12",
+    "text": "Serviço de frete urgente bem eficiente. Cumpriram o combinado e o atendimento foi bem cordial.",
+    "author": "Renato",
+    "citySlug": "cuiaba",
+    "type": "urgente",
+    "ts": 1770404413345,
+    "source": "cliente"
   }
 ]
