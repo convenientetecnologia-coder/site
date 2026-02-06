@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Curitiba (PR)** — publicado em 2026-02-06
+  - `/fretes-em-curitiba/` (~3229 palavras)
+  - `/mudancas-em-curitiba/` (~2939 palavras)
+  - `/frete-urgente-em-curitiba/` (~3298 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `4828ffd`
+
 - **Cuiabá (MT)** — publicado em 2026-02-06
   - `/fretes-em-cuiaba/` (~2955 palavras)
   - `/mudancas-em-cuiaba/` (~3007 palavras)
