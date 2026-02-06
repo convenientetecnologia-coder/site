@@ -4822,5 +4822,320 @@
     "type": "urgente",
     "ts": 1770395976106,
     "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. A carga veio bem acomodada e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_02",
+    "text": "Responderam rápido e passaram o valor sem enrolação. O motorista foi cuidadoso na hora de descarregar.",
+    "author": "Diego",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_03",
+    "text": "Usei pra levar uns móveis e foi bem tranquilo. Tudo chegou inteiro e do jeito que combinamos.",
+    "author": "Camila",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_04",
+    "text": "Achei o serviço bem organizado, desde o agendamento até a entrega. Pontuais e educados.",
+    "author": "Rafael",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_05",
+    "text": "Precisava de um frete em cima da hora e conseguiram me atender. Comunicação clara o tempo todo.",
+    "author": "Juliana",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_06",
+    "text": "Gostei do cuidado com as caixas, nada ficou solto no transporte. Preço justo pelo serviço.",
+    "author": "Bruno",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_07",
+    "text": "Fizeram a retirada e a entrega sem complicação. Avisaram quando estavam chegando, ajudou muito.",
+    "author": "Aline",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_08",
+    "text": "Frete rápido e bem combinado, sem taxa surpresa. Recomendo pra quem quer praticidade.",
+    "author": "Fernando",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_09",
+    "text": "O atendimento foi bem atencioso e tirou minhas dúvidas. A entrega saiu no prazo que me passaram.",
+    "author": "Patricia",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_10",
+    "text": "Contratei pra transportar eletros e veio tudo bem protegido. Serviço simples e eficiente.",
+    "author": "Lucas",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_11",
+    "text": "Chegaram no horário e foram cuidadosos pra não bater nos móveis. Experiência bem positiva.",
+    "author": "Renata",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_fretes_12",
+    "text": "Gostei da agilidade pra fechar e do capricho no transporte. Dá pra confiar pra mudanças pequenas.",
+    "author": "Gustavo",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "fretes",
+    "ts": 1770396456237,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_01",
+    "text": "Minha mudança foi bem organizada, chegaram no horário e cuidaram direitinho dos móveis. Recomendo pra quem quer evitar dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_02",
+    "text": "Responderam rápido no orçamento e no dia foi tudo bem combinado. Nada de correria ou bagunça.",
+    "author": "Rafael",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_03",
+    "text": "Gostei do cuidado com as caixas e com a geladeira, tudo foi bem protegido. A equipe foi educada e prática.",
+    "author": "Camila",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_04",
+    "text": "Achei o serviço bem honesto, explicaram direitinho como seria e cumpriram o combinado. Mudança tranquila.",
+    "author": "Bruno",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_05",
+    "text": "Eu estava com medo de quebrar coisas, mas eles embalaram bem e transportaram com calma. Chegou tudo certinho.",
+    "author": "Aline",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_06",
+    "text": "Pontuais e cuidadosos, principalmente com os móveis mais pesados. No final, deixaram tudo no lugar que pedi.",
+    "author": "Diego",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_07",
+    "text": "O atendimento foi bem fácil, tiraram minhas dúvidas e ajustaram o horário sem complicação. Valeu a pena.",
+    "author": "Fernanda",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_08",
+    "text": "Fizeram a desmontagem e montagem do que precisava e isso ajudou muito. Serviço bem caprichado.",
+    "author": "Lucas",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_09",
+    "text": "Equipe gente boa e bem ágil, sem pressa de qualquer jeito. Minha mudança rendeu bem e sem estresse.",
+    "author": "Juliana",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_10",
+    "text": "Preço justo pelo que entregaram, com cuidado e organização. Chegou tudo inteiro e sem surpresas.",
+    "author": "Gustavo",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_11",
+    "text": "Gostei da atenção com os detalhes, principalmente com vidro e eletrônicos. Foram bem cuidadosos do começo ao fim.",
+    "author": "Patricia",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_mudancas_12",
+    "text": "Foi minha primeira mudança grande e eles deixaram tudo bem mais simples. Comunicação boa e serviço eficiente.",
+    "author": "Renato",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "mudancas",
+    "ts": 1770396466004,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_01",
+    "text": "Chegou bem mais rápido do que eu esperava e sem dor de cabeça. Atendimento bem direto e eficiente.",
+    "author": "Rafael",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_02",
+    "text": "Tava com pressa e eles resolveram na hora. Coleta e entrega foram bem organizadas.",
+    "author": "Camila",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_03",
+    "text": "Frete urgente que realmente ajudou no meu aperto. Comunicação clara do começo ao fim.",
+    "author": "Diego",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_04",
+    "text": "Pedi em cima da hora e conseguiram encaixar. Foi tudo bem combinado e sem enrolação.",
+    "author": "Aline",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_05",
+    "text": "Entrega rápida e com cuidado no transporte. Gostei que avisaram certinho quando estavam chegando.",
+    "author": "Bruno",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_06",
+    "text": "Precisava levar umas coisas com urgência e foi bem tranquilo. Preço justo pelo prazo que eu precisava.",
+    "author": "Fernanda",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_07",
+    "text": "Atenderam meu pedido urgente sem complicar. Motorista educado e serviço ágil.",
+    "author": "Lucas",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_08",
+    "text": "Foi meu primeiro frete urgente e fiquei satisfeita. Resolveram rápido e passaram confiança.",
+    "author": "Juliana",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_09",
+    "text": "Tinha um prazo curto e eles cumpriram direitinho. Atendimento rápido no chat e tudo bem alinhado.",
+    "author": "Gustavo",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_10",
+    "text": "Precisava entregar ainda no mesmo dia e funcionou. Sem estresse e com retorno rápido.",
+    "author": "Patricia",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_11",
+    "text": "Serviço bem ágil pra situação de urgência. Chegou no prazo combinado e sem imprevistos.",
+    "author": "Thiago",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770396474440,
+    "source": "cliente"
   }
 ]
