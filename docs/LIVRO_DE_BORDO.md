@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Campo Grande (MS)** — publicado em 2026-02-06
+  - `/fretes-em-campo-grande/` (~2934 palavras)
+  - `/mudancas-em-campo-grande/` (~2830 palavras)
+  - `/frete-urgente-em-campo-grande/` (~3441 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 39 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `1a57d09`
+
 - **Campinas (SP)** — publicado em 2026-02-06
   - `/fretes-em-campinas/` (~2906 palavras)
   - `/mudancas-em-campinas/` (~2933 palavras)

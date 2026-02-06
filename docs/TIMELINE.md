@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Campo Grande (MS): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Campo Grande com sistema 100% GPT:
+  - `/fretes-em-campo-grande/` (~2934 palavras)
+  - `/mudancas-em-campo-grande/` (~2830 palavras)
+  - `/frete-urgente-em-campo-grande/` (~3441 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 39 bairros divididos em 3 blocos únicos (13/13/13 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (3 títulos duplicados corrigidos manualmente)
+- **Por quê**: décima quinta cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `1a57d09` (repo `site`)
+  - `src/_data/publish_config.json` (campo-grande habilitado em production)
+  - `src/_data/city_content/campo-grande.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (39 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Campinas (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Campinas com sistema 100% GPT:
