@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-06 — [SITE] Caxias do Sul (RS): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Caxias do Sul com sistema 100% GPT:
+  - `/fretes-em-caxias-do-sul/` (~3164 palavras)
+  - `/mudancas-em-caxias-do-sul/` (~3209 palavras)
+  - `/frete-urgente-em-caxias-do-sul/` (~3475 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 33 bairros divididos em 3 blocos únicos (11/11/11 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (1 título duplicado corrigido manualmente)
+- **Por quê**: décima nona cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `7c77ef9` (repo `site`)
+  - `src/_data/publish_config.json` (caxias-do-sul habilitado em production)
+  - `src/_data/city_content/caxias-do-sul.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (33 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-06 — [SITE] Cascavel (PR): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Cascavel com sistema 100% GPT:

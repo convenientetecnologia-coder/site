@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Caxias do Sul (RS)** — publicado em 2026-02-06
+  - `/fretes-em-caxias-do-sul/` (~3164 palavras)
+  - `/mudancas-em-caxias-do-sul/` (~3209 palavras)
+  - `/frete-urgente-em-caxias-do-sul/` (~3475 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 33 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `7c77ef9`
+
 - **Cascavel (PR)** — publicado em 2026-02-06
   - `/fretes-em-cascavel/` (~3028 palavras)
   - `/mudancas-em-cascavel/` (~2970 palavras)
