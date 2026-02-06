@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **São Paulo (SP)** — publicado em 2026-02-06
+  - `/fretes-em-sao-paulo/` (~3187 palavras)
+  - `/mudancas-em-sao-paulo/` (~3256 palavras)
+  - `/frete-urgente-em-sao-paulo/` (~3409 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `2f15ea0`
+
 - **Florianópolis (SC)** — publicado em 2026-02-06
   - `/fretes-em-florianopolis/` (~3038 palavras)
   - `/mudancas-em-florianopolis/` (~2964 palavras)
