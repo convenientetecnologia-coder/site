@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Blumenau (SC)** — publicado em 2026-02-06
+  - `/fretes-em-blumenau/` (~2903 palavras)
+  - `/mudancas-em-blumenau/` (~2985 palavras)
+  - `/frete-urgente-em-blumenau/` (~3290 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 33 bairros divididos em 3 blocos únicos
+  - 36 depoimentos (12 por tipo)
+  - Commit: `b80cfea`
+
 - **Belo Horizonte (MG)** — publicado em 2026-02-06
   - `/fretes-em-belo-horizonte/` (~2963 palavras)
   - `/mudancas-em-belo-horizonte/` (~3197 palavras)
