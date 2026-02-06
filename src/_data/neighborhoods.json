@@ -331,5 +331,66 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "anapolis": {
+    "city": "AnÃ¡polis",
+    "state": "GO",
+    "all": [
+      "Centro",
+      "Jundiaí",
+      "Vila Jaiara",
+      "Cidade Jardim",
+      "Maracanã",
+      "Bandeiras",
+      "São João",
+      "Santa Maria",
+      "Recanto do Sol",
+      "Residencial Araguaia",
+      "Residencial das Flores",
+      "Residencial Itororó",
+      "Residencial Morumbi",
+      "Residencial Vale do Sol",
+      "Residencial Veneza",
+      "Residencial Vida Nova",
+      "Setor Sul",
+      "Setor Central",
+      "Setor Industrial",
+      "Vila Goiás"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Jundiaí",
+        "Vila Jaiara",
+        "Cidade Jardim",
+        "Maracanã",
+        "Bandeiras"
+      ],
+      "mudancas": [
+        "São João",
+        "Santa Maria",
+        "Recanto do Sol",
+        "Residencial Araguaia",
+        "Residencial das Flores",
+        "Residencial Itororó",
+        "Residencial Morumbi"
+      ],
+      "urgente": [
+        "Residencial Vale do Sol",
+        "Residencial Veneza",
+        "Residencial Vida Nova",
+        "Setor Sul",
+        "Setor Central",
+        "Setor Industrial",
+        "Vila Goiás"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T14:16:07.525Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

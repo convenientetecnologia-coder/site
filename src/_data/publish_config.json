@@ -3,7 +3,8 @@
   "enabledCitySlugs": [
     "florianopolis",
     "sao-paulo",
-    "porto-alegre"
+    "porto-alegre",
+    "anapolis"
   ],
   "enabledTypes": [
     "fretes",

@@ -970,5 +970,329 @@
     "type": "urgente",
     "ts": 1770340132851,
     "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_01",
+    "text": "Combinei o horário e chegou direitinho. O frete foi rápido e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_02",
+    "text": "Precisava levar uns móveis e deu tudo certo. Cuidaram bem das peças e foram bem organizados.",
+    "author": "Rafael",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_03",
+    "text": "Atendimento bem direto e preço justo. O motorista foi pontual e prestativo.",
+    "author": "Camila",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_04",
+    "text": "Fiz o frete de última hora e me responderam rápido. Chegou tudo certinho, sem avarias.",
+    "author": "Bruno",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_05",
+    "text": "Gostei da comunicação, foi tudo bem combinado do começo ao fim. Recomendo para mudanças pequenas.",
+    "author": "Aline",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_06",
+    "text": "Levaram meus eletros com cuidado e amarraram bem. Serviço tranquilo e sem enrolação.",
+    "author": "Diego",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_07",
+    "text": "O frete saiu no horário combinado e a entrega foi bem rápida. Pessoal educado.",
+    "author": "Juliana",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_08",
+    "text": "Tinha medo de arranhar o armário, mas veio bem protegido. Chegou inteiro e do jeito que eu queria.",
+    "author": "Fernando",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_09",
+    "text": "Orçamento claro e sem surpresa no final. Achei bem honesto e eficiente.",
+    "author": "Patricia",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_10",
+    "text": "Contratei para buscar uma compra e entregar em casa. Foi tudo certinho e com cuidado na carga.",
+    "author": "Lucas",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_11",
+    "text": "Motorista gente boa e ajudou na organização das caixas. Frete bem prático.",
+    "author": "Renata",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_fretes_12",
+    "text": "Atendeu minha urgência e resolveu rápido. Entrega feita sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "anapolis",
+    "type": "fretes",
+    "ts": 1770387375803,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_01",
+    "text": "Equipe pontual e cuidadosa com os móveis. A mudança em Anápolis foi bem organizada do começo ao fim.",
+    "author": "Marina",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_02",
+    "text": "Responderam rápido no orçamento e cumpriram o combinado. Tudo chegou certinho e sem estresse.",
+    "author": "Rafael",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_03",
+    "text": "Gostei do capricho na proteção das caixas e eletros. O serviço foi tranquilo e bem feito.",
+    "author": "Camila",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_04",
+    "text": "Achei o atendimento bem claro, sem enrolação. A mudança foi rápida e com cuidado na hora de subir os móveis.",
+    "author": "Diego",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_05",
+    "text": "Foram bem educados e prestativos. Me ajudaram a organizar o que ia primeiro no caminhão e facilitou muito.",
+    "author": "Aline",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_06",
+    "text": "Chegaram no horário e embalaram tudo direitinho. Fiquei mais tranquila porque trataram minhas coisas com atenção.",
+    "author": "Patrícia",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_07",
+    "text": "Tinha itens frágeis e veio tudo intacto. Deu pra ver que têm experiência com mudança.",
+    "author": "Bruno",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_08",
+    "text": "Comunicação fácil pelo WhatsApp e sem surpresas no valor. Recomendo pra quem quer praticidade.",
+    "author": "Juliana",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_09",
+    "text": "A desmontagem e montagem dos móveis foi bem feita. No final, deixaram tudo no lugar como eu pedi.",
+    "author": "Felipe",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_10",
+    "text": "Mesmo com chuva no dia, eles se viraram e protegeram bem. A mudança em Anápolis saiu melhor do que eu esperava.",
+    "author": "Renata",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_11",
+    "text": "Gostei do cuidado com o piso e as paredes na hora de tirar os móveis. Serviço limpo e organizado.",
+    "author": "Gustavo",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_mudancas_12",
+    "text": "Foi minha primeira mudança e eu estava apreensiva. Eles explicaram o processo e deu tudo certo.",
+    "author": "Larissa",
+    "citySlug": "anapolis",
+    "type": "mudancas",
+    "ts": 1770387385304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e combinaram o horário direitinho.",
+    "author": "Mariana",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_02",
+    "text": "Chegou bem mais rápido do que eu esperava e sem dor de cabeça. Atendimento bem prático.",
+    "author": "Diego",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_03",
+    "text": "Eu estava com pressa e eles resolveram na hora. Comunicação clara do início ao fim.",
+    "author": "Camila",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_04",
+    "text": "Frete urgente bem organizado, sem enrolação. Coletou e entregou no mesmo dia, tudo bem combinado.",
+    "author": "Rafael",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_05",
+    "text": "Precisava entregar uma encomenda rápido e foi tranquilo. Motorista educado e cuidadoso.",
+    "author": "Juliana",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_06",
+    "text": "Gostei porque me passaram o valor antes e cumpriram o combinado. Pra urgência, ajudou muito.",
+    "author": "Bruno",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_07",
+    "text": "Atendeu minha urgência sem complicar. Avisaram quando estavam a caminho e quando entregaram.",
+    "author": "Aline",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_08",
+    "text": "Serviço ágil e bem direto ao ponto. Minha entrega saiu rapidinho e chegou certinho.",
+    "author": "Felipe",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_09",
+    "text": "Eu tinha um prazo apertado e consegui resolver com esse frete. Atendimento rápido pelo chat.",
+    "author": "Patricia",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_10",
+    "text": "Foi a primeira vez que usei frete urgente e fiquei bem satisfeita. Tudo correu sem imprevistos.",
+    "author": "Renata",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_11",
+    "text": "Precisava buscar e levar algumas caixas com urgência. Foram cuidadosos e não atrasaram.",
+    "author": "Gustavo",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_anapolis_urgente_12",
+    "text": "Me salvou numa entrega de última hora. Preço justo e agilidade na coleta.",
+    "author": "Larissa",
+    "citySlug": "anapolis",
+    "type": "urgente",
+    "ts": 1770387394932,
+    "source": "cliente"
   }
 ]

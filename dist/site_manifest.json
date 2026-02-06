@@ -1,9 +1,18 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-06T01:08:55.062Z",
+  "generatedAt": "2026-02-06T14:16:37.081Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
+    {
+      "slug": "anapolis",
+      "name": "Anápolis",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-anapolis/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-anapolis/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-anapolis/"
+      }
+    },
     {
       "slug": "florianopolis",
       "name": "Florianópolis",
