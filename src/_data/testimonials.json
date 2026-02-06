@@ -5137,5 +5137,329 @@
     "type": "urgente",
     "ts": 1770396474440,
     "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. A equipe foi cuidadosa com as caixas e deu tudo certo.",
+    "author": "Marina",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_02",
+    "text": "Precisei de um frete rápido e responderam bem rápido no WhatsApp. Preço justo e serviço bem organizado.",
+    "author": "Diego",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_03",
+    "text": "Fiz mudança pequena e foi bem tranquilo. Carregaram e descarregaram com cuidado, sem correria.",
+    "author": "Larissa",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_04",
+    "text": "Gostei da pontualidade e da atenção na hora de acomodar os móveis. Recomendo pra quem precisa de frete na cidade.",
+    "author": "Rafael",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_05",
+    "text": "O motorista foi bem educado e ajudou a conferir tudo antes de sair. Chegou tudo direitinho.",
+    "author": "Juliana",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_06",
+    "text": "Agendamento simples e sem complicação. Avisaram quando estavam a caminho e isso ajudou bastante.",
+    "author": "Bruno",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_07",
+    "text": "Tinha medo de arranhar a geladeira, mas protegeram bem e transportaram com cuidado. Serviço caprichado.",
+    "author": "Camila",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_08",
+    "text": "Frete para levar umas mercadorias e foi tudo bem combinado. Entrega rápida e sem estresse.",
+    "author": "Pedro",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_09",
+    "text": "Atendimento direto ao ponto e sem enrolação. Gostei que passaram o valor antes e cumpriram certinho.",
+    "author": "Aline",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_10",
+    "text": "Precisava levar um sofá e uma cama, e resolveram tudo num horário que me atendeu. Muito prático.",
+    "author": "Fernanda",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_11",
+    "text": "Chegaram, organizaram a carga direitinho e foram bem cuidadosos nas escadas. Experiência boa.",
+    "author": "Gustavo",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_fretes_12",
+    "text": "Contratei para um frete de última hora e deu certo. Comunicação boa e entrega sem danos.",
+    "author": "Renata",
+    "citySlug": "caruaru",
+    "type": "fretes",
+    "ts": 1770399021105,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_01",
+    "text": "Fiz minha mudança em Caruaru com eles e foi tudo bem organizado. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Marina",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_02",
+    "text": "Gostei da atenção desde o primeiro contato. Embalaram as coisas com calma e não tive dor de cabeça na entrega.",
+    "author": "Diego",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_03",
+    "text": "Preço justo e combinado cumprido. A equipe foi educada e fez a mudança render sem correria.",
+    "author": "Camila",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_04",
+    "text": "Eu estava preocupada com meus eletros, mas veio tudo certinho. Foram cuidadosos do começo ao fim.",
+    "author": "Patricia",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_05",
+    "text": "Respondeu rápido e explicou tudo direitinho. No dia, foi bem tranquilo e sem surpresas.",
+    "author": "Rafael",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_06",
+    "text": "Mudança de apartamento com escada e eles deram conta. Levaram as caixas com cuidado e sem arranhar nada.",
+    "author": "Bruno",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_07",
+    "text": "Pontuais e prestativos. A desmontagem e montagem ficaram bem feitas e me ajudou muito.",
+    "author": "Aline",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_08",
+    "text": "Tinha muita coisa e achei que ia demorar, mas foi mais rápido do que eu esperava. Tudo bem acomodado no caminhão.",
+    "author": "Juliana",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_09",
+    "text": "Serviço bem combinado e equipe tranquila. Me passaram confiança e a mudança saiu certinha.",
+    "author": "Fernando",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_10",
+    "text": "Cuidaram bem dos itens frágeis e avisaram cada etapa. Chegou tudo inteiro e no lugar certo.",
+    "author": "Larissa",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_11",
+    "text": "Atendimento simples e direto, sem enrolação. No dia da mudança foram ágeis e cuidadosos.",
+    "author": "Thiago",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_mudancas_12",
+    "text": "Contratei para uma mudança pequena e valeu a pena. Foram caprichosos e deixaram tudo organizado na chegada.",
+    "author": "Renata",
+    "citySlug": "caruaru",
+    "type": "mudancas",
+    "ts": 1770399031196,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e conseguiram encaixar a coleta no mesmo dia.",
+    "author": "Marina",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_02",
+    "text": "Entrega urgente bem organizada, sem enrolação. Chegou dentro do combinado e me avisaram do andamento.",
+    "author": "Diego",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_03",
+    "text": "Eu tava com pressa e eles ajudaram muito. Atendimento direto e o frete foi bem mais rápido do que eu esperava.",
+    "author": "Camila",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_04",
+    "text": "Solicitei em cima da hora e mesmo assim conseguiram resolver. Motorista educado e cuidado com as caixas.",
+    "author": "Rafael",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_05",
+    "text": "Frete urgente com preço justo e comunicação boa. Do início ao fim foi bem tranquilo.",
+    "author": "Bruna",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_06",
+    "text": "Precisava entregar um material ainda hoje e eles deram um jeito. Chegou certinho e sem dor de cabeça.",
+    "author": "Felipe",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_07",
+    "text": "Gostei porque não ficou me fazendo esperar resposta. Combinei o horário e cumpriram direitinho.",
+    "author": "Aline",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_08",
+    "text": "Atendimento rápido no chat e coleta ágil. Para urgência, foi uma mão na roda.",
+    "author": "João",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_09",
+    "text": "Tive uma urgência com uma encomenda e resolveram sem complicar. Passaram confiança e foram pontuais.",
+    "author": "Larissa",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_10",
+    "text": "Frete urgente bem combinado e sem surpresas. Chegou inteiro e no prazo que me passaram.",
+    "author": "Gustavo",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_11",
+    "text": "Eu precisava de agilidade e eles entregaram. Acompanhei tudo pelo contato e foi bem transparente.",
+    "author": "Patrícia",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_caruaru_urgente_12",
+    "text": "Serviço rápido e prático. Pegaram e entregaram sem demora, do jeito que eu precisava.",
+    "author": "Renato",
+    "citySlug": "caruaru",
+    "type": "urgente",
+    "ts": 1770399040500,
+    "source": "cliente"
   }
 ]

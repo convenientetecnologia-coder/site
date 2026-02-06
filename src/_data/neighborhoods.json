@@ -1484,5 +1484,64 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "caruaru": {
+    "city": "Caruaru",
+    "state": "PE",
+    "all": [
+      "Centro",
+      "Maurício de Nassau",
+      "Indianópolis",
+      "Petrópolis",
+      "São Francisco",
+      "Vassoural",
+      "Salgado",
+      "Rendeiras",
+      "Universitário",
+      "Cidade Alta",
+      "Nova Caruaru",
+      "Boa Vista",
+      "José Carlos de Oliveira",
+      "Santa Rosa",
+      "Avenida Portugal",
+      "Divinópolis",
+      "Cedro",
+      "Agamenon Magalhães",
+      "Alto do Moura"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Maurício de Nassau",
+        "Indianópolis",
+        "Petrópolis",
+        "São Francisco",
+        "Vassoural"
+      ],
+      "mudancas": [
+        "Salgado",
+        "Rendeiras",
+        "Universitário",
+        "Cidade Alta",
+        "Nova Caruaru",
+        "Boa Vista"
+      ],
+      "urgente": [
+        "José Carlos de Oliveira",
+        "Santa Rosa",
+        "Avenida Portugal",
+        "Divinópolis",
+        "Cedro",
+        "Agamenon Magalhães",
+        "Alto do Moura"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-06T17:30:12.540Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
