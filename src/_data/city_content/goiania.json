@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "version": 1,
+    "city": "Goiânia",
+    "slug": "goiania",
+    "state": "GO",
+    "generatedAt": "2026-02-09T14:48:25.306Z",
+    "model": "gpt-5.2",
+    "sources": [
+      {
+        "title": "Terminal Rodoviário de Goiânia (site oficial) — endereço",
+        "url": "https://www.terminalrodoviariogoiania.com.br/contato"
+      },
+      {
+        "title": "Terminal Rodoviário de Goiânia (site oficial) — quem somos (informações gerais do terminal)",
+        "url": "https://www.terminalrodoviariogoiania.com.br/quem-somos"
+      },
+      {
+        "title": "Terminal Rodoviário de Goiânia (site oficial) — página inicial (confirma endereço e serviços)",
+        "url": "https://www.terminalrodoviariogoiania.com.br/"
+      },
+      {
+        "title": "Prefeitura de Goiânia — Serviços Sociais do Terminal Rodoviário (localização e referência de área)",
+        "url": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/"
+      },
+      {
+        "title": "CCR Aeroportos — Aeroporto de Goiânia (Santa Genoveva) (página oficial)",
+        "url": "https://aeroportos.grupoccr.com.br/goiania-go/"
+      },
+      {
+        "title": "Aeroportos do Brasil — Aeroporto de Santa Genoveva/Goiânia (endereço)",
+        "url": "https://www.aeroportosbrasil.com.br/aeroporto-de-santa-genovevagoiania/"
+      }
+    ]
+  },
+  "fretes": {
+    "introParagraphs": [
+      "Precisa de frete em Goiânia (GO) e quer alguém que entenda o ritmo da cidade? Entre entregas do dia a dia, compras maiores e transportes mais delicados, o que costuma fazer diferença é planejamento: medir volumes, escolher o veículo certo e combinar janelas de coleta/entrega que façam sentido. Aqui, a ideia é facilitar sua vida com um guia prático: o que enviar, como embalar, quando vale a pena pedir ajudantes e quais informações aceleram o orçamento — sem prometer tempos fixos, porque isso depende do trânsito e do horário.",
+      "Goiânia tem pontos que concentram fluxo e logística, e isso impacta bastante a dinâmica dos fretes. A região do Terminal Rodoviário de Goiânia, no Setor Central, é um exemplo de área movimentada, com circulação intensa e paradas rápidas. Já a área do Aeroporto de Goiânia – GYN (Santa Genoveva) costuma gerar demandas de retiradas, entregas programadas e volumes variados. Usar esses marcos como referência ajuda a alinhar expectativas: rotas variam, e o melhor caminho é definido no agendamento, conforme o tipo de carga e a janela de atendimento."
+    ],
+    "guideParagraphs": [
+      "Frete não é só “levar do ponto A ao ponto B”. Em Goiânia, o que mais influencia a experiência é combinar logística com cuidado: como o item será protegido, se vai caber no elevador, se precisa desmontar, qual o melhor horário para carregar e descarregar. Quando o cliente passa poucas informações, o frete vira tentativa e erro; quando passa o essencial (medidas, fotos e acessos), o serviço fica mais rápido e previsível. O objetivo desta página é te orientar para pedir o frete certo — do transporte simples ao mais completo — com menos risco de surpresa no caminho.",
+      "Uma boa referência para entender a dinâmica de deslocamentos é o Terminal Rodoviário de Goiânia, no Setor Central, na Rua 44, nº 399. A região costuma concentrar embarques, encomendas e paradas rápidas, então é comum precisar alinhar local de espera, ponto de encontro e formato de carga/descarga para não atrapalhar o fluxo. Isso não significa que o atendimento se limite ao centro; serve como marco para organizar a conversa: a partir da área central, dá para planejar coletas e entregas em diferentes direções, ajustando a rota conforme o horário e o trânsito.",
+      "Outro ponto que aparece bastante nas solicitações é a região do Aeroporto de Goiânia – GYN (Santa Genoveva). Como é uma área que recebe movimento de pessoas e serviços, surgem demandas bem variadas: retirar mercadoria pequena com prazo curto, levar caixas para um endereço comercial, transportar itens frágeis para quem está chegando ou saindo da cidade. O aeroporto fica a cerca de 8 km do centro, mas tempo de deslocamento muda bastante; por isso, o recomendado é combinar janela e prioridade na hora do agendamento, em vez de apostar em minuto exato.",
+      "Antes de fechar um frete, vale definir qual é o seu “nível de serviço”. Às vezes, você só precisa do motorista e do veículo; em outras, precisa de ajudantes para carregar e descarregar, carrinho para volumes pesados, proteção extra e até desmontagem simples. Esse alinhamento evita que um frete barato vire caro por falta de preparo (como quando o item não passa na porta ou quando aparecem mais volumes do que o informado). Em Goiânia, esse cuidado é especialmente útil em deslocamentos com paradas rápidas e locais de difícil manobra, onde o tempo de operação pesa.",
+      "O orçamento mais justo nasce de um inventário bem feito. Não precisa ser um relatório, mas ajude com: lista de itens, dimensões aproximadas dos maiores volumes, quantidade de caixas/sacos, peso estimado do que é muito pesado (como eletros grandes) e fotos reais. Se houver escadas, elevador pequeno, corredor estreito ou necessidade de caminhar com a carga por alguns metros, avise. Esses detalhes mudam equipe, veículo e materiais de proteção. Com essas informações, dá para indicar se o ideal é utilitário, furgão, caminhão leve ou outro formato — sem improviso na hora.",
+      "Em Goiânia, o trânsito e os horários mudam o ritmo do frete. Em vez de prometer “chega em X minutos”, o planejamento costuma funcionar melhor por janela (por exemplo, manhã ou tarde) e por prioridade (normal ou urgente). Isso dá margem para imprevistos típicos de cidade grande: semáforos, eventos, obras e alterações de fluxo. Se você tem um compromisso rígido — entrega em horário comercial, agendamento de recebimento, retirada com hora marcada — avise no começo. Assim, o trajeto e a ordem das paradas são definidos para reduzir risco de atraso.",
+      "A proteção da carga é o que separa um frete tranquilo de uma dor de cabeça. Para móveis e eletros, o básico costuma ser mantas, papelão em quinas e amarração correta; para itens frágeis, plástico-bolha e caixas reforçadas fazem diferença. Em objetos de alto brilho ou vidro, o ideal é proteger cantos e evitar atrito. Se você vai enviar peças desmontadas (como prateleiras ou racks), agrupe ferragens em saquinhos e identifique. Esse tipo de organização reduz perda de peças e acelera montagem no destino, mesmo em fretes curtos dentro da cidade.",
+      "Nem todo endereço é igual para operar. Alguns locais têm espaço para parar em frente; outros exigem manobra, parada em local mais distante e transporte manual até a porta. Em áreas com fluxo intenso, como o entorno do Terminal Rodoviário, isso pode exigir combinação de ponto de encontro e agilidade no carregamento. Em condomínios e edifícios, regras de elevador, horários e uso de áreas comuns podem variar; por isso, vale confirmar com a administração e informar o que for relevante. Quanto mais claro o acesso, menor a chance de custo extra ou reprogramação.",
+      "Fretes com múltiplas paradas (loja → casa → outro endereço, por exemplo) pedem um roteiro bem amarrado. A dica é simples: comece pelos itens mais sensíveis ou maiores, defina a sequência das paradas e evite “só mais um desvio” sem recalcular. Cada parada soma tempo de operação: estacionar, carregar, conferir e amarrar novamente. Se houver coleta de mercadoria em local comercial, confirme antes horário de retirada e se há doca ou balcão. Em Goiânia, essa organização ajuda a manter o frete dentro de uma janela realista, mesmo com variações no trânsito.",
+      "Frete urgente existe, mas funciona melhor quando você ajusta expectativas e ajuda na execução. Se a urgência é alta, deixe itens já embalados, livre passagem e tenha alguém para autorizar a retirada. Fotos e localização clara reduzem troca de mensagens e aceleram o despacho. Quando o item é grande, a urgência pode exigir mais gente para carregar com segurança — e isso muda preço e disponibilidade. O ponto é: urgência não é só “ir rápido”; é reduzir etapas. Em muitos casos, dá para ganhar tempo mais com preparo do que com velocidade na via.",
+      "Alguns itens pedem conversa franca antes: geladeira grande, máquina de lavar, sofás volumosos, mesas pesadas, objetos de vidro grande, plantas de grande porte e equipamentos eletrônicos sensíveis. Não é para complicar — é para evitar dano. Nesses casos, informe peso aproximado, se há necessidade de deitar o item (o que pode ser inadequado para alguns eletros) e se há escadas. Se o acesso é apertado, pode ser necessário desmontar portas, retirar pés ou usar técnicas de proteção mais robustas. O orçamento fica mais correto quando isso aparece desde o início.",
+      "Também é importante saber o que normalmente não vale colocar em um frete comum: dinheiro, joias, documentos originais, chaves e itens muito pessoais. Em mudanças maiores, esses itens vão com você, em mochila ou pasta. Para produtos com cheiro forte, líquidos sem vedação e materiais que possam vazar, o ideal é embalar de forma apropriada — e, se houver restrição, combinar antes. A regra prática é: se estragar ou derramar, dá prejuízo e transtorno. Prefira prevenir com embalagem e separação por categoria (frágil, pesado, eletrônico, limpeza).",
+      "No dia do frete, a conferência evita erros simples. Faça um “check” rápido: quantas caixas saíram, quantas entraram, e quais itens são prioridade. Etiquetas com o cômodo de destino (cozinha, quarto, escritório) ajudam muito, especialmente quando há ajudantes. Se houver desmontagem, guarde parafusos identificados. Se você estiver saindo de um lugar e entrando em outro no mesmo dia, mantenha itens essenciais separados: carregadores, roupa, remédios, itens de higiene. Esse cuidado reduz a sensação de bagunça e acelera o fim da operação.",
+      "Por fim, pense no frete como um serviço ajustável. Em Goiânia, dá para contratar desde um transporte rápido de volumes pequenos até um frete com equipe, proteção, montagem básica e descarte organizado de embalagem. O ideal é escolher o pacote que resolve o seu problema específico — sem pagar por algo que você não precisa e sem economizar no que é crítico. Se você mandar as informações certas e alinhar o nível de cuidado, o frete vira um processo previsível, com menos riscos e mais tranquilidade do começo ao fim."
+    ],
+    "howSteps": [
+      "Você envia o que precisa transportar (lista + fotos), além de origem/destino e uma janela de horário que funcione para você.",
+      "Avaliamos volume, fragilidade e acessos (escadas, elevador, distância até o veículo) para indicar veículo e necessidade de ajudantes.",
+      "Confirmamos se haverá itens que exigem cuidado extra (vidro, eletros grandes, equipamentos) e quais materiais de proteção serão usados.",
+      "Fechamos o roteiro: frete direto ou com paradas, prioridade normal ou urgente, e ponto de encontro quando o local é movimentado.",
+      "No dia, fazemos conferência rápida dos volumes e organizamos a carga para viajar estável (distribuição de peso e amarração).",
+      "Realizamos o transporte respeitando as condições do trajeto; rotas podem variar conforme trânsito e restrições momentâneas.",
+      "Na entrega, descarregamos com cuidado, conferimos os itens principais e posicionamos conforme combinado (quando contratado).",
+      "Se houver desmontagem/montagem simples ou retirada de embalagens, finalizamos esses detalhes e encerramos com checagem final."
+    ],
+    "priceFactors": [
+      "Distância entre os pontos e se o trajeto é direto ou com paradas intermediárias.",
+      "Volume total (quantidade de caixas, tamanho de móveis/eletros) e necessidade de veículo maior.",
+      "Necessidade de ajudantes para carga/descarga e complexidade do acesso (escadas, elevador pequeno, caminhada longa até o veículo).",
+      "Fragilidade e nível de proteção exigido (mantas, plástico-bolha, papelão, cantoneiras).",
+      "Tempo de operação no local: desmontagens, espera para liberar retirada, conferências e restrições de estacionamento.",
+      "Data e horário: períodos de maior demanda podem ter menor disponibilidade e exigir agendamento antecipado.",
+      "Urgência: encaixes de última hora podem alterar logística e equipe necessária.",
+      "Itens especiais (vidros grandes, equipamentos sensíveis, peças muito pesadas) podem pedir manuseio reforçado."
+    ],
+    "prepChecklist": [
+      "Separe uma lista do que vai no frete e tire fotos dos maiores itens (de frente e de lado).",
+      "Meça portas, corredores e elevador (se houver) quando o item for grande ou muito rígido.",
+      "Embale frágeis em caixas firmes e identifique com “FRÁGIL” e o cômodo de destino.",
+      "Proteja quinas de móveis com papelão/cantoneiras; evite atrito direto entre peças.",
+      "Deixe o caminho livre (tapetes soltos, objetos no corredor) para reduzir risco de queda.",
+      "Reserve em bolsa separada documentos, remédios, chaves e itens de uso imediato.",
+      "Se houver coleta em local comercial, confirme previamente horário e quem autoriza a retirada.",
+      "Descongele e seque geladeira/freezer com antecedência, quando aplicável, para evitar vazamentos.",
+      "Organize parafusos e ferragens em saquinhos etiquetados se houver desmontagem.",
+      "Tenha alguém disponível para receber e indicar onde colocar os volumes no destino."
+    ],
+    "scenarios": [
+      "Frete de compras maiores: retirar em loja e entregar em residência, com atenção a embalagem original e travas de transporte.",
+      "Transporte de móveis avulsos: sofá, mesa, guarda-roupa desmontado ou cama, com proteção para cantos e amarração.",
+      "Mudança compacta (kitnet/apê pequeno): caixas + alguns móveis, com roteiro simples e descarregamento organizado por cômodo.",
+      "Entrega para empresa: levar caixas e equipamentos dentro de horário comercial, priorizando janela combinada.",
+      "Frete com múltiplas paradas: coletar em dois pontos e entregar em um destino, com conferência por etapa.",
+      "Retirada/entrega em regiões movimentadas: combinar ponto de encontro e operação rápida para não travar o fluxo.",
+      "Frete urgente no mesmo dia: foco em itens já embalados e informações completas para reduzir idas e vindas."
+    ],
+    "faq": [
+      {
+        "q": "Que informações eu preciso enviar para ter um orçamento mais certeiro em Goiânia?",
+        "a": "Envie origem/destino, janela de horário, lista de itens e fotos dos maiores volumes. Informe também se há escadas, elevador e distância até o local de parada do veículo. Com isso dá para indicar veículo, equipe e nível de proteção sem chute."
+      },
+      {
+        "q": "Vocês atendem a região do Terminal Rodoviário de Goiânia?",
+        "a": "Sim, a região central e o entorno do Terminal Rodoviário costumam estar na rota de atendimento. Por ser uma área movimentada, pode ser necessário combinar ponto de encontro e ajustar a janela de coleta/entrega. O planejamento é alinhado no agendamento."
+      },
+      {
+        "q": "Dá para fazer frete perto do Aeroporto de Goiânia (GYN) em Santa Genoveva?",
+        "a": "Sim, atendimentos na região do aeroporto e arredores podem ser combinados conforme disponibilidade. Como o acesso e o fluxo podem variar, a recomendação é fechar uma janela e passar detalhes do volume e do local de retirada/entrega. Assim a logística fica mais previsível."
+      },
+      {
+        "q": "Frete urgente funciona como?",
+        "a": "O urgente normalmente depende de encaixe de agenda e de você já ter itens embalados e prontos para retirada. Quanto mais completas as informações (fotos, medidas, acessos), mais rápido dá para confirmar veículo e equipe. Ainda assim, o trajeto pode variar com trânsito e condições do momento."
+      },
+      {
+        "q": "Precisa de ajudante ou pode ser só o motorista?",
+        "a": "Depende do peso, do volume e do acesso no local. Itens leves e poucas caixas podem funcionar bem com motorista, mas móveis grandes, escadas e caminhadas longas costumam pedir ajudante para segurança e agilidade. Isso é definido pelo que você vai transportar e pelas condições do endereço."
+      },
+      {
+        "q": "Vocês desmontam e montam móveis?",
+        "a": "Pode ser feito em casos selecionados, principalmente desmontagens simples para viabilizar o transporte. O ideal é avisar antes quais móveis são e se você tem as ferramentas ou ferragens organizadas. A disponibilidade e o valor variam conforme complexidade."
+      },
+      {
+        "q": "Como proteger itens frágeis no frete?",
+        "a": "Use plástico-bolha, papelão em quinas e caixas reforçadas, evitando espaço vazio dentro da caixa. Identifique como frágil e, se possível, mantenha vidro e eletrônicos em posição segura e sem peso por cima. Fotos do item ajudam a definir a melhor proteção."
+      },
+      {
+        "q": "Posso levar documentos, dinheiro ou objetos muito pessoais no frete?",
+        "a": "O mais indicado é levar esses itens com você, separados em bolsa ou pasta. Isso reduz risco de extravio e facilita conferência. Para o frete, priorize volumes que podem ser acomodados e protegidos adequadamente."
+      },
+      {
+        "q": "O preço do frete é por km ou por hora?",
+        "a": "Pode variar conforme o tipo de serviço e a forma de contratação. Em geral, entram no cálculo distância, tempo de operação, volume, acesso e necessidade de ajudantes e proteção. Por isso, um orçamento com detalhes costuma ser mais justo do que uma tabela fixa."
+      },
+      {
+        "q": "E se eu não souber as medidas exatas dos móveis?",
+        "a": "Sem problema: fotos com referência (por exemplo, ao lado de uma porta) e uma estimativa já ajudam bastante. Se houver itens críticos, medir largura/altura aproximadas pode evitar surpresa no dia. O importante é não omitir volumes grandes ou muito pesados."
+      }
+    ],
+    "types": [
+      "Frete leve para caixas e volumes pequenos (utilitário)",
+      "Frete de móveis avulsos com proteção e amarração",
+      "Frete para eletrodomésticos grandes (com acomodação segura)",
+      "Frete com ajudantes para carga e descarga",
+      "Frete com rota programada e múltiplas paradas",
+      "Frete expresso sob disponibilidade (prioridade na janela)",
+      "Frete para pequenas mudanças (apartamento compacto/kitnet)"
+    ],
+    "services": [
+      "Ajudantes para carregar e descarregar conforme volume e acesso",
+      "Proteção com mantas, papelão e plástico-bolha (quando necessário)",
+      "Desmontagem e montagem simples de itens selecionados",
+      "Organização dos volumes por cômodo no destino (quando combinado)",
+      "Retirada de embalagens e descarte orientado (conforme possibilidade)",
+      "Conferência de volumes e identificação básica para evitar troca de caixas"
+    ],
+    "sectionTitles": {
+      "demands": "Quando Goiânia aperta o prazo: fretes que não podem esperar",
+      "coverage": "De referência central ao entorno do GYN: como organizamos o atendimento em Goiânia",
+      "whatToSend": "O que vai no frete (e o que é melhor ir com você)",
+      "availability": "Agenda, janelas e encaixes: combinando disponibilidade sem adivinhação",
+      "whenYes": "Quando o frete em Goiânia tende a dar certo (sinais claros)",
+      "whenNo": "Situações em que vale replanejar antes de chamar o frete",
+      "pricing": "Preço sem pegadinha: o que realmente pesa no orçamento",
+      "commonScenarios": "Cenas do dia a dia: pedidos comuns de frete em Goiânia",
+      "types": "Formatos de frete para cada necessidade (do simples ao completo)",
+      "services": "Extras que resolvem: apoio, proteção e pequenos desmontes",
+      "howItWorks": "Como funciona o frete em Goiânia: do orçamento à entrega sem surpresa",
+      "completeGuide": "Guia prático de fretes em Goiânia: planejamento, cuidado e execução",
+      "preparation": "Preparação que economiza tempo: checklist antes do caminhão chegar",
+      "neighborhoods": "Áreas de atendimento por região (sem complicar com mapa)",
+      "testimonials": "Relatos reais de quem precisava de um frete bem alinhado"
+    },
+    "sectionDescriptions": {
+      "demands": "Uma visão pé no chão sobre urgência: como priorizar, o que deixar pronto e o que costuma atrasar quando o prazo está curto.",
+      "coverage": "Explicamos a lógica de atendimento usando marcos da cidade (Terminal Rodoviário no Setor Central e a região do Aeroporto GYN em Santa Genoveva) para contextualizar deslocamentos sem prometer tempo fixo.",
+      "whatToSend": "Orientações para separar volumes adequados ao transporte e identificar itens que fazem mais sentido sob sua guarda, reduzindo risco e facilitando conferência.",
+      "availability": "Como trabalhar com janelas de coleta/entrega, horários de pico e encaixes, mantendo previsibilidade mesmo quando o trânsito muda o plano.",
+      "pricing": "Lista transparente de fatores que influenciam valor: distância, volume, acesso, equipe, proteção e tempo de operação — com foco no que você controla ao informar detalhes.",
+      "commonScenarios": "Exemplos práticos (compras, móveis avulsos, mudança compacta, rota com paradas) para você se reconhecer e pedir o frete certo logo de primeira.",
+      "types": "Um cardápio de modalidades para combinar veículo, equipe e nível de cuidado conforme o seu objetivo, sem exageros e sem soluções únicas.",
+      "services": "Serviços adicionais que podem ser decisivos: ajudantes, embalagem, desmontagem simples e organização no destino, sempre alinhados antes do dia do frete.",
+      "howItWorks": "Etapas claras do serviço — o que pedimos de informação, como confirmamos logística e o que acontece na coleta e na entrega.",
+      "completeGuide": "Conteúdo pilar para quem quer entender fretes em Goiânia do começo ao fim, com dicas práticas para evitar retrabalho e proteger seus itens.",
+      "preparation": "Um checklist direto para embalar, medir acessos e organizar o que vai (e o que não vai) no veículo, economizando tempo na operação.",
+      "neighborhoods": "Cobertura apresentada por regiões e referências da cidade, evitando listas intermináveis e respeitando variações de rota conforme dia e horário.",
+      "testimonials": "Depoimentos que destacam comunicação, cuidado com a carga e organização — pontos que costumam definir se o frete foi tranquilo ou estressante."
+    },
+    "_approxWords": 3008
+  },
+  "mudancas": {
+    "introParagraphs": [
+      "Fazer uma mudança em Goiânia envolve mais do que “colocar tudo no caminhão”. A cidade tem trechos bem movimentados, horários com variações de trânsito e uma mistura de ruas amplas com acessos mais estreitos em áreas residenciais. Por isso, o que costuma dar certo é um planejamento simples e realista: entender volume, condições de acesso, itens frágeis e a ordem de carga/descarga. Com isso, dá para reduzir retrabalho, evitar avarias e tornar o dia da mudança mais leve para você e para quem ajuda.",
+      "Atendemos mudanças em Goiânia (GO) com organização e comunicação clara, desde pequenos deslocamentos até mudanças completas de casa ou apartamento. Para referência de deslocamentos na área central, é comum usar o entorno do Terminal Rodoviário de Goiânia (Setor Central) como ponto de orientação, assim como a região do Aeroporto de Goiânia – GYN (Santa Genoveva) quando a mudança envolve o lado norte e acessos de chegada/saída da cidade. Rotas e horários são definidos no agendamento, porque o fluxo pode variar bastante ao longo do dia."
+    ],
+    "guideParagraphs": [
+      "Em Goiânia, o primeiro passo para uma mudança tranquila é alinhar expectativa com realidade: o que vai, o que não vai e o que precisa de cuidado especial. A pressa normalmente nasce quando a pessoa só percebe o volume no dia. Por isso, trabalhamos com uma conversa rápida antes: número de cômodos, presença de móveis desmontáveis, eletros grandes, caixas já prontas ou não e se há itens que exigem manuseio mais delicado. Com esse retrato, fica mais fácil indicar o tipo de veículo e a equipe adequada, sem chute e sem surpresas na hora de carregar.",
+      "Para mudanças na região central, o entorno do Terminal Rodoviário de Goiânia é um bom ponto de referência porque concentra circulação e costuma ter fluxo constante. Isso ajuda a contextualizar a necessidade de planejar janela de coleta e entrega, principalmente quando há parada rápida para retirar itens em locais com acesso limitado. A ideia não é prometer tempo de trajeto, e sim montar um plano que considere variações de movimento. Quando a mudança passa pela região, vale organizar previamente o que precisa ser carregado primeiro e o que pode ir por último, facilitando a descarga no destino.",
+      "Se a sua mudança envolve a região do Aeroporto de Goiânia – GYN (Santa Genoveva) e entorno, o planejamento também ganha importância. Em dias de maior movimento, o acesso por vias principais pode oscilar, então o melhor caminho é combinar horários com calma e deixar o carregamento “pronto para sair”. Em vez de empilhar caixas aleatórias, orientamos uma lógica: itens pesados em caixas menores, etiquetas simples por cômodo e uma caixa de sobrevivência com carregadores, ferramentas, documentos e itens de uso imediato. Isso reduz a sensação de caos quando você chega.",
+      "Um ponto que costuma definir o sucesso da mudança é o acesso ao imóvel. Em Goiânia, há casos de rua com espaço bom para estacionar e casos em que é preciso parar mais perto ou mais longe por causa de manobra, portão, lombadas, ou movimento na via. Por isso, pedimos que você descreva como é a frente do local e se existe alguma restrição prática (como rampa, corredor estreito, escadas longas). Quando essa informação vem antes, dá para dimensionar equipe e equipamentos, evitando improvisos e atrasos desnecessários.",
+      "Em apartamentos, a logística muda: elevador, escadas, horário permitido e o caminho interno podem variar conforme o prédio. Sem assumir regra fixa, o que recomendamos é: reservar elevador (se houver esse procedimento), avisar portaria/zeladoria com antecedência e confirmar se é necessário proteger áreas comuns. Para o transporte em si, o cuidado é com quinas, portas e pisos. Usamos mantas, papelão e amarração adequada, e sugerimos desmontar móveis com antecedência quando isso reduz volume e risco de dano, especialmente em trajetos com curvas internas apertadas.",
+      "Em casas, o desafio costuma ser outro: quintal, degraus, desnível e a tendência de acumular itens grandes que “não cabem em caixa”, como bicicletas, prateleiras, plantas e ferramentas. Nesses casos, o segredo é separar o que vai no caminhão e o que vai com você (valores, documentos e eletrônicos sensíveis). Também orientamos uma triagem rápida: o que pode ser doado, o que é lixo e o que precisa ir. Essa limpeza prévia economiza espaço, diminui o peso total e costuma refletir diretamente no custo final.",
+      "Quando o assunto é embalagem, não existe perfeição — existe consistência. Caixas do mesmo tamanho empilham melhor, mas você não precisa comprar tudo novo: dá para misturar tamanhos desde que os itens pesados não vão em caixas grandes. Para louças e vidros, o ideal é proteção individual e preenchimento de vazio para não haver “dança” interna. Para roupas, caixas maiores e sacos resistentes funcionam bem, e cabides podem ser agrupados. O que mais evita avaria é a combinação de proteção + organização de carga, não apenas “muito plástico bolha”.",
+      "Móveis desmontáveis merecem atenção: parafusos e ferragens precisam ir em saquinhos identificados, e as peças devem ser protegidas nas pontas. Se você prefere manter o móvel montado, avaliamos caso a caso, porque nem sempre é a melhor escolha em acesso estreito. Em Goiânia, onde você pode alternar rapidamente entre trechos com boa largura e outros mais apertados, a desmontagem pode ser a diferença entre uma mudança rápida e uma mudança com riscos de arranhões. O objetivo é preservar e também otimizar o espaço no veículo, evitando mais de uma viagem.",
+      "Eletrodomésticos grandes — geladeira, máquina de lavar, fogão — exigem preparo. Geladeira precisa ser esvaziada e, se possível, descongelada com antecedência. Na máquina, é importante drenar água e fixar mangueiras para não vazarem. No fogão, a limpeza básica antes do transporte evita cheiro e sujeira no caminhão. Na carga, esses itens vão amarrados e protegidos, com atenção ao “ponto de apoio” para não forçar portas e pés. São detalhes simples que reduzem o risco de problemas na chegada e deixam a instalação no destino mais tranquila.",
+      "Mudanças pequenas (poucos móveis e caixas) pedem uma estratégia diferente: rapidez e objetividade. Em vez de levar um caminhão grande sem necessidade, muitas vezes um veículo menor e uma equipe enxuta resolvem, desde que o volume esteja bem definido. Para quem está trocando de imóvel temporário, levando itens para um novo escritório ou juntando duas casas, sugerimos separar por prioridade: o que você precisa no mesmo dia e o que pode ser entregue depois. Essa divisão ajuda a manter o essencial acessível e evita abrir caixa por caixa procurando itens básicos.",
+      "Já mudanças completas, com muitos cômodos, precisam de um roteiro de carga pensado: primeiro entram itens menos usados, depois móveis maiores e, por último, caixas de uso imediato. Também ajuda ter um “ponto de conferência”: uma lista simples por cômodo para checar se tudo saiu e tudo chegou. Em Goiânia, onde o deslocamento pode variar conforme horário e dia, esse método reduz o risco de você perceber faltas só no final. A mudança fica mais previsível, e você consegue acompanhar sem ficar o tempo todo em cima da equipe.",
+      "Se houver necessidade de desmontagem, embalagem ou organização de caixas, vale combinar isso antes do dia principal. Nem sempre compensa fazer tudo no mesmo dia, porque o ritmo do carregamento pode depender do quanto está pronto. Quando o cliente prefere embalar, damos orientações para evitar erros comuns (peso excessivo por caixa, falta de etiqueta e itens frágeis sem proteção). Quando nós fazemos a embalagem, alinhamos o que será protegido e com que material, para que você saiba exatamente o que está contratado e não haja ruído de expectativa.",
+      "Outro tema importante é o transporte de itens especiais. Espelhos grandes, TVs, quadros, instrumentos musicais e objetos com valor sentimental exigem manuseio cuidadoso e, muitas vezes, embalagem dedicada. Não prometemos “risco zero”, mas trabalhamos para reduzir ao máximo: canto protegido, superfície envolvida, separação de carga e amarração no ponto correto. Se existir algo muito delicado, avise com antecedência e, se possível, envie medidas. Assim conseguimos planejar melhor a posição no caminhão e a forma de carregar, evitando colocar peso por cima.",
+      "No dia da mudança, comunicação é o que mantém tudo fluindo. Você não precisa “gerenciar” a equipe, mas ajuda ter uma pessoa de referência no local para tirar dúvidas rápidas: o que vai ou não vai, qual porta usar, onde descarregar primeiro. Também orientamos deixar caminho livre, proteger pets em um cômodo seguro e separar chaves e controles. Pequenas ações evitam interrupções. Se surgir imprevisto de acesso (portão travado, chuva, falta de vaga próxima), ajustamos o plano com cuidado e transparência, sem correria desnecessária.",
+      "Depois da entrega, o ideal é conferir o essencial antes de liberar: principais móveis, eletros e caixas marcadas como “frágil”. Caso você tenha uma lista de volumes, fazemos a checagem junto. Se houver montagem a combinar, definimos o que será montado no mesmo dia e o que pode ficar para depois, conforme cansaço e horário. Em mudanças dentro de Goiânia, muitas pessoas preferem terminar o básico (cama, geladeira, roupas) e deixar organização fina para o dia seguinte. Esse ritmo costuma ser mais humano e evita decisões apressadas."
+    ],
+    "howSteps": [
+      "Você descreve a mudança (origem/destino, tipo de imóvel, quantidade de itens e se há escadas/elevador).",
+      "Alinhamos o que entra no serviço: apenas transporte ou também desmontagem, embalagem e organização de carga.",
+      "Combinamos uma janela de atendimento e confirmamos pontos de referência (ex.: região central/Terminal Rodoviário ou região do Aeroporto – Santa Genoveva, quando fizer sentido).",
+      "Você prepara o básico: separar documentos/valores, esvaziar geladeira e deixar caixas identificadas por cômodo.",
+      "Chegada da equipe, proteção de móveis e avaliação rápida do melhor fluxo de retirada (sem bloquear passagem e reduzindo idas e vindas).",
+      "Carregamento com amarração e distribuição de peso para minimizar movimentação durante o trajeto.",
+      "Deslocamento com rota definida no momento, considerando condições do dia (trânsito e acessos).",
+      "Descarga por prioridade (essenciais primeiro) e posicionamento dos volumes no cômodo correto para facilitar a organização.",
+      "Conferência final do que foi entregue e alinhamento de ajustes (montagens ou pequenas pendências, se contratadas)."
+    ],
+    "priceFactors": [
+      "Volume total (quantidade de caixas, tamanho e quantidade de móveis/eletros).",
+      "Distância entre origem e destino e se há trechos com acesso mais restrito para veículo.",
+      "Necessidade de ajudantes extras (escadas longas, muitos itens pesados, ausência de elevador).",
+      "Serviços adicionais: desmontagem/montagem, embalagem, fornecimento de materiais de proteção.",
+      "Condições de carga/descarga: tempo de deslocamento interno, corredor estreito, necessidade de proteger áreas comuns (pode variar).",
+      "Horário e dia do atendimento (janelas concorridas tendem a exigir mais planejamento).",
+      "Itens especiais (vidros grandes, obras, instrumentos, aquários), que podem demandar embalagem e cuidado dedicados."
+    ],
+    "prepChecklist": [
+      "Separar documentos, joias, dinheiro e eletrônicos pequenos para levar com você.",
+      "Esvaziar e, se possível, descongelar a geladeira antes do carregamento.",
+      "Identificar caixas por cômodo e escrever “FRÁGIL” quando necessário (sem exagerar no peso).",
+      "Reservar um espaço livre para empilhar caixas e facilitar a retirada sem esbarrões.",
+      "Organizar parafusos e ferragens de móveis em saquinhos etiquetados (um por móvel).",
+      "Avisar previamente sobre escadas, corredores estreitos e qualquer item fora do padrão.",
+      "Deixar pets e crianças em local seguro para evitar aberturas de porta no meio do fluxo."
+    ],
+    "scenarios": [
+      "Mudança de apartamento para apartamento em Goiânia, com necessidade de alinhar elevador e proteger móveis nas áreas comuns (quando aplicável).",
+      "Mudança de casa para apartamento, exigindo triagem de itens grandes e planejamento para escadas/corredores.",
+      "Transporte de poucos itens (mudança compacta) para quem está mobiliando um imóvel aos poucos.",
+      "Mudança com coleta na região central e entrega em outra área da cidade, usando pontos de referência para organizar o encontro sem confusão.",
+      "Mudança envolvendo a região do Aeroporto – Santa Genoveva, com prioridade em horários combinados e carga pronta para reduzir tempo parado.",
+      "Remanejamento interno: levar móveis e caixas entre dois endereços próximos, com foco em rapidez e proteção.",
+      "Mudança com itens delicados (espelhos, TVs grandes, quadros), exigindo embalagem dedicada e posicionamento correto na carga."
+    ],
+    "faq": [
+      {
+        "q": "Vocês fazem mudanças pequenas em Goiânia ou só mudanças completas?",
+        "a": "Fazemos ambos. Mudanças pequenas podem ser atendidas com veículo e equipe dimensionados para o volume, o que ajuda a não pagar por espaço ocioso. O ideal é descrever quantos móveis e caixas você tem para ajustar a proposta."
+      },
+      {
+        "q": "Como vocês calculam o valor de uma mudança dentro de Goiânia?",
+        "a": "O preço normalmente depende do volume, da distância, das condições de acesso (escadas, elevador, manobras) e dos serviços extras como desmontagem e embalagem. Para evitar surpresa, coletamos essas informações antes e alinhamos o que está incluso. Assim o orçamento fica mais coerente com o que será feito."
+      },
+      {
+        "q": "É possível contratar apenas ajudantes, sem caminhão?",
+        "a": "Em alguns casos, sim, quando você já tem veículo ou precisa apenas reorganizar itens no mesmo local. A disponibilidade pode variar conforme agenda e tipo de serviço. Vale informar o peso aproximado dos itens e o número de andares para dimensionar a equipe."
+      },
+      {
+        "q": "Vocês desmontam e montam móveis?",
+        "a": "Podemos incluir desmontagem e montagem, especialmente para camas, guarda-roupas e mesas, quando isso facilita o transporte. O que será desmontado é combinado antes para evitar atrasos. Se houver móveis com manual ou ferragens específicas, ajuda deixar isso separado."
+      },
+      {
+        "q": "Vocês fornecem material de embalagem?",
+        "a": "Podemos levar itens de proteção como mantas e materiais para envolver e amarrar móveis, conforme o serviço contratado. Para caixas, há opções: você pode providenciar ou podemos orientar a quantidade aproximada. O melhor é alinhar isso com antecedência para ninguém ficar improvisando no dia."
+      },
+      {
+        "q": "Como funciona a mudança em prédio com elevador e portaria?",
+        "a": "Geralmente é necessário combinar o melhor horário e entender como o prédio prefere organizar a circulação, o que pode variar. Recomendamos avisar a administração/portaria e, se possível, reservar elevador quando o condomínio tiver esse procedimento. No dia, seguimos o fluxo mais organizado para reduzir impacto nas áreas comuns."
+      },
+      {
+        "q": "Vocês transportam itens frágeis como espelhos e TVs grandes?",
+        "a": "Sim, com cuidado e proteção específica, incluindo cantos protegidos e posicionamento correto na carga. Ainda assim, é importante avisar antes quais itens são mais sensíveis e suas medidas aproximadas. Isso ajuda a planejar como eles vão no caminhão, sem pressão de última hora."
+      },
+      {
+        "q": "Dá para agendar mudança em cima da hora em Goiânia?",
+        "a": "Às vezes dá, dependendo da agenda e do tamanho da mudança. Mudanças menores costumam ser mais fáceis de encaixar do que mudanças completas. O ideal é ter flexibilidade de horário e já deixar as caixas prontas para facilitar."
+      },
+      {
+        "q": "Como vocês lidam com chuva ou imprevistos no dia?",
+        "a": "Ajustamos o ritmo e reforçamos proteção quando necessário, priorizando o que não pode molhar. Se houver dificuldade de acesso ou mudança de rota por trânsito, recalculamos o plano no momento. O mais importante é manter comunicação clara para você saber o que está acontecendo."
+      },
+      {
+        "q": "Preciso estar presente durante toda a mudança?",
+        "a": "Ajuda ter alguém responsável no local para decisões rápidas e conferência, principalmente no início e no fim. Se você não puder acompanhar o tempo todo, dá para combinar pontos de validação (o que vai, o que fica e prioridades de descarga). Assim a equipe trabalha sem dúvidas e você mantém controle."
+      }
+    ],
+    "checklist": [
+      "Confirmamos volume e acesso antes para dimensionar veículo e equipe de forma coerente",
+      "Protegemos móveis com mantas e fazemos amarração pensando em estabilidade durante o transporte",
+      "Organizamos a carga por lógica de descarga, reduzindo a bagunça no destino",
+      "Mantemos comunicação simples no dia: uma pessoa de referência, decisões rápidas e prioridades claras",
+      "Tratamos itens frágeis separadamente, com embalagem e posicionamento mais cuidadosos",
+      "Ajustamos rota e sequência conforme condições do dia, sem prometer tempo fixo",
+      "Finalizamos com conferência do essencial e alinhamento do que fica pendente (se houver montagem ou ajustes)"
+    ],
+    "sectionTitles": {
+      "demands": "Mudança com prazo curto em Goiânia: como organizar sem atropelar tudo",
+      "coverage": "Atendimento em Goiânia (GO): referências práticas do Centro ao eixo do Aeroporto",
+      "whatToSend": "O que vale levar na mudança (e o que é melhor separar antes de carregar)",
+      "availability": "Agenda e janelas de atendimento: combinados claros para o dia render",
+      "whenYes": "Quando a mudança flui bem: sinais de que o planejamento está certo",
+      "whenNo": "Quando pode complicar: pontos de atenção antes de confirmar",
+      "pricing": "Preço de mudança em Goiânia: o que realmente pesa no orçamento",
+      "commonScenarios": "Situações comuns de mudança na cidade (e como lidar com cada uma)",
+      "types": "Tipos de mudança que atendemos: do compacto ao completo",
+      "services": "Serviços que complementam a mudança: proteção, desmontagem e apoio",
+      "howItWorks": "Do primeiro contato à entrega: como conduzimos a sua mudança",
+      "completeGuide": "Guia completo para mudança em Goiânia: do planejamento à conferência final",
+      "preparation": "Preparação do imóvel e das caixas: o que fazer para evitar retrabalho",
+      "neighborhoods": "Áreas de referência em Goiânia: Centro, entorno do Terminal e região de Santa Genoveva",
+      "testimonials": "Relatos do dia da mudança: o que as pessoas mais valorizam no serviço"
+    },
+    "sectionDescriptions": {
+      "demands": "Um roteiro direto para mudanças com pouco tempo de preparo, priorizando organização, comunicação e decisões simples que evitam correria desnecessária.",
+      "coverage": "Como pensamos cobertura e deslocamentos dentro de Goiânia usando pontos de referência conhecidos, sem prometer tempos fixos e sem depender de rotas “mágicas”.",
+      "whatToSend": "Uma lista prática do que normalmente compensa transportar, do que pode ir separado com você e do que vale repensar antes de ocupar espaço no caminhão.",
+      "availability": "Explicação clara sobre como funcionam horários, confirmação de detalhes e alinhamento de expectativas para o atendimento acontecer com menos interrupções.",
+      "pricing": "Transparência sobre variáveis que influenciam o valor: volume, acesso, equipe, distância e serviços extras — para você comparar propostas com critério.",
+      "commonScenarios": "Exemplos de situações reais de mudança em Goiânia e o que costuma resolver cada uma, com foco em reduzir avarias e idas e vindas.",
+      "types": "Panorama de modalidades de mudança e em quais casos cada uma faz sentido, evitando contratar estrutura maior (ou menor) do que o necessário.",
+      "services": "Detalhamento de serviços adicionais que podem ser incluídos conforme a necessidade, com explicação do impacto prático no dia e no resultado final.",
+      "howItWorks": "Um passo a passo do processo: levantamento de informações, definição de equipe, proteção, carregamento, transporte e conferência na entrega.",
+      "completeGuide": "Conteúdo pilar para quem quer entender a mudança do começo ao fim, com dicas aplicáveis para apartamento, casa e mudanças menores.",
+      "preparation": "Orientações de preparação que economizam tempo e reduzem riscos: etiquetas, triagem, caixa de essenciais e cuidados com eletros e itens frágeis.",
+      "neighborhoods": "Forma segura de falar sobre áreas atendidas sem inventar limites oficiais: usamos regiões e marcos urbanos para facilitar a comunicação no agendamento.",
+      "testimonials": "Uma seção para destacar percepções comuns de clientes — como cuidado com móveis e organização — sem promessas absolutas e com expectativas realistas."
+    },
+    "_approxWords": 3005
+  },
+  "urgente": {
+    "introParagraphs": [
+      "Precisou de frete urgente em Goiânia e não dá para esperar “até amanhã”? Quando a entrega envolve prazo curto, imprevisto na loja, retirada rápida ou troca de equipamento, o que mais pesa é clareza: o que vai, de onde sai, para onde vai e como carregar sem perder tempo. Aqui você encontra um guia prático para organizar o atendimento com agilidade e reduzir riscos de atraso, dano ou custo inesperado — sem promessas irreais, porque rotas e trânsito variam bastante ao longo do dia.",
+      "Goiânia tem pontos que ajudam a orientar deslocamentos e combinados. Na área central, o Terminal Rodoviário de Goiânia, no Setor Central (Rua 44, nº 399), é uma referência comum por concentrar circulação e embarques. Já na região do Aeroporto de Goiânia – GYN (Santa Genoveva), a dinâmica muda: acessos, janelas de retirada e fluxo de veículos podem exigir mais planejamento no agendamento. A ideia aqui é usar esses marcos como contexto para você pedir um frete urgente com informação suficiente e evitar retrabalho."
+    ],
+    "guideParagraphs": [
+      "Frete urgente não é só “ir rápido”; é organizar o caminho inteiro para que o serviço aconteça no primeiro giro. Em Goiânia, a diferença entre uma coleta tranquila e um atraso costuma estar nos detalhes: endereço completo com ponto de referência, disponibilidade de elevador (quando houver), local de parada para carga/descarga e quem vai receber. Quando essas respostas vêm na hora do pedido, a equipe consegue estimar tamanho de veículo, necessidade de ajudante e materiais de proteção, sem depender de suposições que custam tempo.",
+      "Um jeito simples de enquadrar o seu pedido é pensar em três perguntas: o que precisa sair agora, o que pode ir depois e o que não deve ir de jeito nenhum. Em mudanças urgentes, por exemplo, dá para priorizar cama, itens de cozinha e roupas essenciais e deixar caixas de itens decorativos para uma segunda viagem. Para fretes comerciais, a priorização pode ser documentos, peças críticas ou mercadoria de maior giro. Essa triagem evita lotar o veículo com o que não é prioridade e reduz o risco de quebrar algo em um carregamento apressado.",
+      "Na região central, o entorno do Terminal Rodoviário de Goiânia costuma ser movimentado, com embarques e desembarques e muita circulação. Isso não significa demora obrigatória, mas pede combinados mais objetivos: onde exatamente a carga ficará pronta, em que faixa de horário a retirada acontece e qual o melhor ponto para encontrar o responsável. Em frete urgente, “estou chegando” sem coordenar pode gerar espera do lado de fora, e espera é o inimigo do prazo curto.",
+      "Quando o atendimento envolve a área do Aeroporto de Goiânia – GYN (Santa Genoveva), vale lembrar que a logística muda: existe fluxo constante e variações de acesso por transporte público ou privado, e as rotas podem oscilar conforme o horário. A melhor prática é marcar um ponto de encontro claro e definir quem libera a carga, para evitar desencontro. Se for coleta em empresa, confirme se há doca, portaria ou protocolo interno — isso pode variar e influencia diretamente a velocidade do carregamento.",
+      "O tamanho do veículo é uma decisão que impacta tempo e custo. Em urgências, muitas pessoas pedem um carro pequeno “para ser mais rápido”, mas acabam precisando de duas viagens ou deixando itens para trás. Se você consegue informar medidas aproximadas (altura, largura e quantidade de volumes), fica mais fácil acertar de primeira. Para objetos volumosos — geladeira, máquina, sofá — a pergunta certa não é só “cabe?”, e sim “cabe com segurança e sem desmontar além do necessário?”.",
+      "Em Goiânia, como em qualquer cidade, o trânsito e a chuva podem atrapalhar. Por isso, o planejamento não deve depender de um tempo fixo de deslocamento. O mais útil é combinar janelas realistas: “preciso retirar até tal horário” e “preciso entregar a partir de tal horário”, deixando um respiro para imprevistos. Quando o compromisso é rígido (uma assinatura, uma agenda, uma retirada na loja), avise isso logo no começo para ajustar estratégia, equipe e sequência de paradas.",
+      "Carga frágil em frete urgente merece um minuto extra de cuidado — e esse minuto costuma economizar horas de dor de cabeça. Vidros, eletrônicos, louças, instrumentos e peças com quinas devem ir protegidos e identificados. Se você não tem material, dá para separar itens em caixas firmes e usar roupas, toalhas e mantas como proteção temporária. O segredo é impedir que o item “dance” dentro da caixa e que duas superfícies rígidas batam durante as curvas e frenagens.",
+      "Um ponto que costuma travar urgências é a falta de acesso no local. Escadas estreitas, ausência de elevador disponível, corredores longos e a distância da vaga até a porta aumentam o tempo de carregamento. Como isso pode variar de prédio para prédio, o melhor é descrever rapidamente o cenário: “2 lances de escada”, “elevador social pequeno”, “precisa atravessar garagem”, “entrada lateral”. Com essa informação, dá para prever se serão necessários mais ajudantes, carrinho de carga ou desmontagem parcial.",
+      "Se o seu frete urgente é entre endereços diferentes dentro da cidade, vale checar se haverá alguém para receber no destino. Em urgências, é comum o motorista chegar e não ter quem abra o portão, assine a entrega ou indique onde colocar os itens. Quando o recebedor é outra pessoa, mande o nome e a instrução do que deve ser feito: “deixar no térreo”, “levar até a sala”, “entregar na recepção”. Isso reduz telefonemas e evita que o veículo fique parado.",
+      "Frete urgente também pode ser “frete em etapas”: coleta, uma parada intermediária e entrega final. Isso acontece em compras de marketplace, retirada em loja e entrega em residência, ou quando é preciso passar em um ponto para pegar documentos. Em Goiânia, esse tipo de rota pode funcionar bem se as paradas forem planejadas e os tempos de espera forem minimizados. O ideal é ter todos os endereços e responsáveis confirmados antes de iniciar, porque mudança de plano no meio do caminho costuma encarecer e atrasar.",
+      "Quando o assunto é segurança, urgência não combina com pressa desorganizada. Itens pesados devem ir bem posicionados e amarrados, e a carga precisa ser distribuída para evitar tombamento e danos. Se houver objetos com risco (pontas, peças soltas, líquidos), avise antes para orientar embalagem e acomodação. E se o item for muito delicado ou muito valioso, considere transporte em separado, com embalagem reforçada e manuseio mais cuidadoso, mesmo que isso signifique adaptar o atendimento.",
+      "Para empresas, frete urgente em Goiânia pode envolver reposição de estoque, entrega de brindes, materiais de evento, peças de manutenção ou transferência de documentos. A dica é preparar nota/identificação e uma lista simples do que está indo, mesmo que seja em papel. Em caso de conferência no destino, isso evita divergência e retorno desnecessário. Se o atendimento tiver mais de um volume parecido, rotule: “Caixa 1/4”, “2/4”… esse detalhe acelera descarga e organização.",
+      "Mudança urgente é um capítulo à parte: o ideal é separar por “uso imediato” e “uso posterior”. Monte uma mala de sobrevivência (roupas, higiene, carregadores) e uma caixa de cozinha (copo, prato, talheres básicos). Assim, mesmo que nem tudo chegue no mesmo instante, você consegue passar a primeira noite sem estresse. Se houver desmontagem de móveis, identifique parafusos e peças em saquinhos e prenda no próprio móvel com fita; isso evita procurar peças pequenas depois.",
+      "Em dias com alta demanda, a disponibilidade pode variar, especialmente para veículos maiores ou equipes completas. Para aumentar a chance de encaixe, tenha flexibilidade de janela e ofereça informações objetivas logo no primeiro contato. Se você consegue enviar fotos (do item e do acesso), isso reduz perguntas e acelera o aceite do serviço. E, se a urgência for “para agora”, esteja com a carga pronta: cada caixa aberta ou item sem embalagem vira um gargalo.",
+      "Por fim, alinhe o que está incluso: apenas transporte, ou também ajuda para carregar, desmontar, embalar e subir escadas? Frete urgente frequentemente mistura expectativas, e é aí que surgem frustrações. Combine o que cada parte fará, o que precisa de autorização no local (quando houver) e como será feito o pagamento. Com o escopo bem definido, o atendimento tende a ser mais rápido, mais previsível e com menos chances de interrupção no meio do caminho."
+    ],
+    "howSteps": [
+      "Explique a urgência em uma frase (ex.: “preciso coletar hoje e entregar ainda no período da tarde/noite”) e informe se há horário limite no destino.",
+      "Liste o que vai no frete: quantidade de volumes, itens grandes e qualquer peça frágil ou de alto cuidado (vidro, eletrônicos, peças delicadas).",
+      "Passe origem e destino com ponto de referência (por exemplo, “próximo ao Terminal Rodoviário de Goiânia” ou “na região do Aeroporto GYN/Santa Genoveva”), sem depender de descrição vaga.",
+      "Descreva o acesso: andar, elevador (se houver), escadas, distância da vaga até a porta e se existe espaço para parar e carregar.",
+      "Defina o tipo de equipe: só motorista, motorista + ajudante, ou equipe maior quando houver peso/volume e acesso difícil.",
+      "Combine o nível de proteção/embalagem: o que você já tem pronto e o que precisa de material extra (mantas, filme, cantoneiras, caixas).",
+      "Alinhe a janela de retirada e entrega e deixe contatos de quem libera e de quem recebe, para evitar espera na porta.",
+      "Antes de sair, confira checklist rápido: itens prioritários separados, volumes etiquetados e caminho interno livre (corredor, elevador, portão).",
+      "Na entrega, faça conferência básica do que chegou e confirme onde cada item deve ficar para evitar remanejamento depois."
+    ],
+    "priceFactors": [
+      "Distância total e quantidade de paradas (rota direta costuma ser mais simples do que retirada + parada + entrega).",
+      "Urgência e janela de atendimento: encaixes imediatos podem ter custo diferente de um agendamento com mais folga.",
+      "Tipo e tamanho do veículo adequado ao volume e ao peso (evita duas viagens e reduz risco de avaria).",
+      "Necessidade de ajudantes e tempo estimado de carga/descarga (escadas, corredor longo e ausência de elevador podem aumentar esforço).",
+      "Grau de proteção e materiais (mantas, filme stretch, cantoneiras, caixas) e se haverá embalagem no local.",
+      "Desmontagem e montagem de móveis ou retirada de itens fixos, quando aplicável.",
+      "Complexidade dos itens (fragilidade, tamanho fora do padrão, necessidade de amarração reforçada).",
+      "Tempo de espera em locais com liberação demorada (portaria, recebimento, conferência), quando ocorrer."
+    ],
+    "prepChecklist": [
+      "Separe o que é prioridade para ir no frete urgente (itens do dia a dia, documentos, medicamentos, ferramentas essenciais).",
+      "Deixe caixas fechadas, com etiqueta simples (cômodo ou categoria) e, se possível, numeração (1/6, 2/6…).",
+      "Proteja itens frágeis com tecido, papel ou plástico-bolha e evite espaços vazios dentro das caixas.",
+      "Desmonte o que for rápido e seguro (prateleiras soltas, pés removíveis) e guarde parafusos em saquinhos identificados.",
+      "Libere o caminho interno: corredores sem obstáculos, elevador reservado quando possível e portões destravados no horário combinado.",
+      "Separe uma bolsa/mala que não deve ir no frete (carteira, documentos, chaves, carregadores).",
+      "Confirme quem receberá no destino e onde os itens devem ser colocados (térreo, sala, depósito, recepção).",
+      "Se for retirada em loja/empresa, deixe pedido/nota e pessoa responsável pela liberação já alinhados.",
+      "Se houver mais de uma parada, prepare a ordem de descarga (o que sai primeiro deve estar por último no veículo)."
+    ],
+    "scenarios": [
+      "Frete urgente para retirar uma compra grande (eletrodoméstico ou móvel) e entregar no mesmo dia, evitando taxa de armazenagem ou remarcação.",
+      "Mudança expressa de poucos itens essenciais (cama, roupas, cozinha básica) para viabilizar entrada rápida em novo imóvel.",
+      "Entrega rápida de documentos, caixas e materiais de escritório entre unidades, com conferência simples no destino.",
+      "Transporte de equipamentos para evento (banners, expositores, caixas de som) com janela curta de montagem e desmontagem.",
+      "Coleta e entrega de peças de manutenção (máquinas, componentes) para reduzir parada de operação.",
+      "Frete emergencial para atender cliente final com reposição de mercadoria ou troca de produto.",
+      "Remanejamento interno: levar itens para guarda temporária e depois entregar em endereço final, em duas etapas.",
+      "Retirada em região central (referência no Setor Central/Terminal Rodoviário) e entrega em outra área da cidade, com planejamento de acesso e parada."
+    ],
+    "faq": [
+      {
+        "q": "O que caracteriza um frete urgente em Goiânia?",
+        "a": "É um atendimento com janela curta, geralmente para retirada e entrega no mesmo dia ou com pouca antecedência. Para funcionar bem, precisa de informações completas de carga, acesso e quem libera/recebe, porque não há muito espaço para ajustes em cima da hora."
+      },
+      {
+        "q": "Vocês atendem a região do Setor Central e entorno do Terminal Rodoviário?",
+        "a": "Sim, a região central costuma entrar na cobertura, e o Terminal Rodoviário (Rua 44, nº 399) pode servir como referência para facilitar o combinado. O atendimento depende de disponibilidade e do tipo de carga, então o ideal é informar horário e condições de parada/carga."
+      },
+      {
+        "q": "Dá para buscar ou entregar perto do Aeroporto de Goiânia (Santa Genoveva)?",
+        "a": "Dá, e essa referência ajuda bastante para localizar a área do serviço. Como o fluxo pode variar, é importante combinar ponto de encontro, pessoa responsável e janela de retirada/entrega para evitar espera."
+      },
+      {
+        "q": "Qual é a diferença entre frete urgente e mudança urgente?",
+        "a": "O frete urgente costuma ser focado em volumes específicos (um item ou algumas caixas). A mudança urgente normalmente envolve mais volume e demanda organização de embalagem, equipe e acesso, mesmo quando é “só o essencial”."
+      },
+      {
+        "q": "Preciso embalar tudo antes ou vocês podem ajudar?",
+        "a": "Você pode deixar tudo embalado para ganhar tempo, mas também é possível combinar ajuda com embalagem e proteção. O que muda é o tempo total do serviço e o custo de materiais, então vale alinhar isso no pedido."
+      },
+      {
+        "q": "Como vocês calculam o preço de um frete urgente?",
+        "a": "Entra na conta a distância, urgência/encaixe, tipo de veículo, quantidade de ajudantes e dificuldade de acesso (escadas, elevador, distância da vaga). Paradas extras, tempo de espera e necessidade de desmontagem também influenciam."
+      },
+      {
+        "q": "Posso pedir com mais de uma parada no caminho?",
+        "a": "Sim, é possível montar uma rota com retirada e entregas em sequência. Para evitar atrasos, o ideal é passar todos os endereços e confirmar quem libera e quem recebe em cada ponto."
+      },
+      {
+        "q": "O que precisa ser informado para evitar atraso no atendimento?",
+        "a": "Além de origem e destino, informe itens grandes, fragilidade, andar/elevador e se existe algum detalhe de acesso que atrase carga/descarga. Também ajuda indicar um ponto de referência e manter a carga pronta no horário combinado."
+      },
+      {
+        "q": "Dá para transportar itens frágeis com urgência sem danificar?",
+        "a": "Dá, desde que haja proteção adequada e acomodação segura no veículo. Se o item for muito sensível, vale reforçar embalagem e evitar misturar com volumes pesados soltos."
+      },
+      {
+        "q": "Vocês esperam no local se a liberação demorar?",
+        "a": "Pode acontecer de haver espera por liberação, conferência ou abertura de portão, e isso deve ser alinhado antes. Quando a urgência é grande, o melhor é garantir que a carga estará pronta e autorizada para sair."
+      }
+    ],
+    "demands": [
+      "Retirada imediata de compra em loja (móvel, eletro ou materiais) para não perder janela de retirada ou entrega agendada.",
+      "Coleta de encomendas e caixas na região central com necessidade de entrega rápida em outro ponto da cidade.",
+      "Transporte urgente de equipamento de trabalho (informática, ferramentas, peças) para evitar parada de operação.",
+      "Mudança emergencial de itens essenciais após imprevisto com imóvel, contrato ou necessidade de saída rápida.",
+      "Entrega expressa de materiais para evento, reunião ou montagem, com horário de chegada bem definido.",
+      "Remanejamento rápido de estoque entre pontos de venda/depósitos, priorizando volumes críticos."
+    ],
+    "whenYes": [
+      "Quando a carga já está separada, embalada e pronta para sair no horário combinado.",
+      "Quando você informa claramente volume, itens grandes e condições de acesso (escadas/elevador/distância da vaga).",
+      "Quando existe alguém para liberar na origem e alguém disponível para receber no destino, sem “desencontros”.",
+      "Quando a janela de entrega tem alguma flexibilidade e o trajeto pode ser ajustado conforme o trânsito do momento.",
+      "Quando fotos dos itens e do acesso são enviadas antes, evitando surpresa de última hora.",
+      "Quando o escopo fica bem fechado: transporte simples ou transporte + ajudantes + proteção, tudo alinhado."
+    ],
+    "whenNo": [
+      "Quando o volume real é muito maior do que o informado e o veículo escolhido não comporta com segurança.",
+      "Quando há restrições de acesso não avisadas (escadas longas, corredores estreitos, ausência de elevador disponível) que exigem equipe extra.",
+      "Quando a carga não está pronta e o serviço vira “espera” para separar, desmontar ou embalar no local.",
+      "Quando o destino não tem recebedor, ou a entrega depende de autorização que não foi antecipada.",
+      "Quando há item extremamente frágil sem embalagem mínima e sem tempo para proteção adequada.",
+      "Quando a rota inclui várias paradas com responsáveis indefinidos, aumentando risco de atrasos em cascata."
+    ],
+    "common": [
+      "Retirar sofá/geladeira comprados no dia e entregar no mesmo endereço de uso, com cuidado para não riscar paredes e portas.",
+      "Levar caixas e malas para nova moradia enquanto uma segunda etapa fica para o restante da mudança.",
+      "Coletar mercadoria em um ponto e deixar em dois destinos diferentes, com sequência planejada.",
+      "Transportar equipamento de som/iluminação para montagem de evento e recolher após o término.",
+      "Buscar item em assistência técnica e entregar no local de instalação, evitando que o cliente precise se deslocar.",
+      "Levar documentos e pequenos volumes entre escritório, cartório/cliente e retorno ao escritório, com conferência rápida.",
+      "Remover móveis de um ambiente para liberar obra/pintura e devolver após a finalização.",
+      "Retirar volumes na região do aeroporto (Santa Genoveva e entorno) e entregar em outra área, com ponto de encontro bem definido."
+    ],
+    "sectionTitles": {
+      "demands": "Chamados de última hora que mais aparecem em Goiânia",
+      "coverage": "De referência a referência: como organizamos o atendimento na cidade",
+      "whatToSend": "O que vale colocar no frete urgente (e o que é melhor separar)",
+      "availability": "Encaixe e janela curta: como checar disponibilidade sem ruído",
+      "whenYes": "Quando a urgência costuma fluir sem percalços",
+      "whenNo": "Quando pode travar — e como evitar",
+      "pricing": "Quanto custa o urgente em Goiânia: variáveis que mudam o valor na hora",
+      "commonScenarios": "Situações típicas de corre-corre (e como resolver)",
+      "types": "Formatos de frete urgente que atendem melhor cada necessidade",
+      "services": "Apoios que aceleram: do carregamento à proteção",
+      "howItWorks": "Como roda o urgente em Goiânia: confirmação rápida, coleta e entrega no ritmo certo",
+      "completeGuide": "Guia completo para pedir frete urgente em Goiânia com segurança",
+      "preparation": "Preparação rápida que economiza tempo na rua",
+      "neighborhoods": "Cobertura por regiões, sem complicar: como descrever sua área",
+      "testimonials": "Relatos de quem precisou resolver ‘pra ontem’"
+    },
+    "sectionDescriptions": {
+      "demands": "Lista prática do que mais gera chamada urgente na rotina de Goiânia, para você identificar seu caso e já pedir o serviço com as informações certas.",
+      "coverage": "Explica como usar marcos urbanos e descrições simples (como centro/rodoviária e região do aeroporto) para combinar retirada e entrega sem depender de rotas ou tempos fixos.",
+      "whatToSend": "Ajuda a escolher o que entra no veículo primeiro, como priorizar essenciais e como reduzir risco de dano quando o carregamento precisa ser rápido.",
+      "availability": "Mostra o que influencia um encaixe rápido, o que adianta ter pronto antes do contato e como negociar janelas de atendimento mais realistas.",
+      "pricing": "Detalha fatores que alteram custo no frete urgente — veículo, equipe, paradas, acesso e proteção — para você comparar propostas com mais clareza.",
+      "commonScenarios": "Reúne exemplos comuns (casa e empresa) e orienta como preparar cada um, evitando a clássica correria que vira retrabalho.",
+      "types": "Apresenta variações de atendimento (item único, rota com paradas, expressa de essenciais) e quando cada formato costuma fazer mais sentido.",
+      "services": "Sugere serviços complementares úteis em urgências, como ajudantes, embalagem e desmontagem, sem presumir regras de condomínio ou empresa.",
+      "howItWorks": "Um roteiro direto, em linguagem de quem está com pressa, para pedir, confirmar e executar o frete urgente com menos idas e vindas.",
+      "completeGuide": "Conteúdo pilar com orientação de planejamento, acesso, proteção e comunicação, pensando no cenário real de Goiânia e suas áreas mais movimentadas.",
+      "preparation": "Checklist rápido para deixar tudo pronto antes do veículo chegar, reduzindo espera e aumentando a chance de cumprir a janela combinada.",
+      "neighborhoods": "Em vez de listas longas de bairros, explica como indicar sua região e pontos de referência para facilitar a logística sem inventar limites oficiais.",
+      "testimonials": "Espaço para experiências curtas e humanas sobre urgências resolvidas com organização, destacando o que ajudou no processo."
+    },
+    "_approxWords": 3243
+  }
+}

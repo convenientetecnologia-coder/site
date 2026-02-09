@@ -8044,5 +8044,329 @@
     "type": "urgente",
     "ts": 1770647787130,
     "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_01",
+    "text": "Combinei o frete no mesmo dia e deu tudo certo. Chegaram no horário e cuidaram bem das caixas.",
+    "author": "Marina",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_02",
+    "text": "Precisei levar alguns móveis e foi bem tranquilo. O atendimento foi rápido e o preço ficou justo.",
+    "author": "Diego",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_03",
+    "text": "Pontuais e organizados, ajudaram a acomodar tudo direitinho no caminhão. Recomendo para quem quer evitar dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_04",
+    "text": "Fiz o agendamento por mensagem e responderam rápido. O frete foi ágil e sem surpresas.",
+    "author": "Rafael",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_05",
+    "text": "Transportaram minha geladeira e máquina com cuidado. Chegou tudo intacto e bem combinado.",
+    "author": "Juliana",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_06",
+    "text": "Gostei da atenção na hora de carregar e descarregar. Foram educados e deixaram tudo no lugar certinho.",
+    "author": "Bruno",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_07",
+    "text": "Frete para poucas coisas, mas me atenderam do mesmo jeito. Resolveu meu problema e foi bem prático.",
+    "author": "Larissa",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_08",
+    "text": "Chegaram no horário combinado e fizeram o serviço rápido. Dá pra confiar.",
+    "author": "Fernando",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_09",
+    "text": "Tinha itens frágeis e fiquei com receio, mas eles embalaram e prenderam bem. Foi tudo seguro.",
+    "author": "Patricia",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_10",
+    "text": "Boa comunicação do começo ao fim. Me avisaram quando estavam a caminho e o frete foi tranquilo.",
+    "author": "Gustavo",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_11",
+    "text": "Precisei de ajuda com a mudança pequena e eles foram bem cuidadosos. Valeu muito pela praticidade.",
+    "author": "Aline",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_fretes_12",
+    "text": "Serviço honesto e direto, sem enrolação. O frete saiu no horário e chegou certinho.",
+    "author": "Thiago",
+    "citySlug": "goiania",
+    "type": "fretes",
+    "ts": 1770648863270,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_01",
+    "text": "Minha mudança em Goiânia foi bem organizada, chegaram no horário e cuidaram dos móveis com atenção.",
+    "author": "Marina",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_02",
+    "text": "Equipe educada e rápida. Embalaram tudo direitinho e a entrega foi sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_03",
+    "text": "Gostei da comunicação: combinaram tudo antes e no dia correu tranquilo, sem correria.",
+    "author": "Camila",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_04",
+    "text": "Fizeram um cuidado extra com meus eletros e não teve nenhuma avaria. Recomendo sem exagero.",
+    "author": "Bruno",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_05",
+    "text": "Preço justo e serviço caprichado. A mudança ficou bem mais leve do que eu esperava.",
+    "author": "Renata",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_06",
+    "text": "Pontuais e prestativos. A montagem do que precisava foi rápida e bem feita.",
+    "author": "Lucas",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_07",
+    "text": "Tinha muita caixa e achei que ia atrasar, mas eles organizaram tudo e terminou no tempo combinado.",
+    "author": "Fernanda",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_08",
+    "text": "Atendimento simples e direto. Tiraram minhas dúvidas e no dia veio tudo certinho.",
+    "author": "Rafael",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_09",
+    "text": "Cuidaram bem das coisas frágeis e foram bem cuidadosos na escada. Valeu a contratação.",
+    "author": "Juliana",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_10",
+    "text": "Serviço bem profissional, sem enrolação. A equipe foi ágil e respeitou o combinado.",
+    "author": "Thiago",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_11",
+    "text": "Mudança tranquila em Goiânia, com atenção aos detalhes. Nada de bagunça na chegada.",
+    "author": "Patricia",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_mudancas_12",
+    "text": "Chegaram, organizaram e finalizaram sem estresse. Gostei do cuidado com os móveis maiores.",
+    "author": "Anderson",
+    "citySlug": "goiania",
+    "type": "mudancas",
+    "ts": 1770648872500,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_01",
+    "text": "Precisei de um frete urgente em Goiânia e deu tudo certo. Responderam rápido e combinaram o horário direitinho.",
+    "author": "Mariana",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_02",
+    "text": "Chamei em cima da hora e mesmo assim conseguiram encaixar. Chegou no prazo que me passaram.",
+    "author": "Lucas",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_03",
+    "text": "Serviço bem ágil e sem complicação. O motorista foi cuidadoso com as caixas.",
+    "author": "Fernanda",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_04",
+    "text": "Eu estava com pressa e eles resolveram rápido. Comunicação clara do começo ao fim.",
+    "author": "Rafael",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_05",
+    "text": "Fiz um frete urgente em Goiânia e foi tranquilo. Preço justo pelo atendimento rápido.",
+    "author": "Camila",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_06",
+    "text": "Atenderam minha solicitação na hora e não enrolaram. A entrega saiu como combinado.",
+    "author": "Bruno",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_07",
+    "text": "Gostei porque avisaram o andamento e cumpriram o que prometeram. Me salvou num aperto.",
+    "author": "Juliana",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_08",
+    "text": "Precisava levar umas coisas com urgência e foi bem prático. Atendimento educado e rápido.",
+    "author": "Diego",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_09",
+    "text": "Cheguei a achar que não ia dar tempo, mas eles agilizaram tudo. Recomendo pela eficiência.",
+    "author": "Patricia",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_10",
+    "text": "Solicitei o frete urgente e já vieram buscar sem demora. Tudo chegou inteiro.",
+    "author": "Gustavo",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_11",
+    "text": "Bem organizado e pontual dentro do possível. Ótima opção pra quando a gente precisa pra ontem.",
+    "author": "Aline",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_goiania_urgente_12",
+    "text": "Resolveram meu transporte de última hora em Goiânia sem estresse. Foi rápido e bem combinado.",
+    "author": "Thiago",
+    "citySlug": "goiania",
+    "type": "urgente",
+    "ts": 1770648883549,
+    "source": "cliente"
   }
 ]
