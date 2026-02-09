@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Maringá (PR)** — publicado em 2026-02-09
+  - `/fretes-em-maringa/` (~3059 palavras)
+  - `/mudancas-em-maringa/` (~2771 palavras)
+  - `/frete-urgente-em-maringa/` (~3223 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 36 bairros divididos em 3 blocos únicos (12/12/12 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `6a42af7`
+
 - **Marabá (PA)** — publicado em 2026-02-09
   - `/fretes-em-maraba/` (~3212 palavras)
   - `/mudancas-em-maraba/` (~2896 palavras)

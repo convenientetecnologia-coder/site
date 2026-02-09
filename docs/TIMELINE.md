@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Maringá (PR): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Maringá com sistema 100% GPT:
+  - `/fretes-em-maringa/` (~3059 palavras)
+  - `/mudancas-em-maringa/` (~2771 palavras)
+  - `/frete-urgente-em-maringa/` (~3223 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 36 divididos em 3 blocos (12/12/12)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (3 títulos duplicados ajustados em `maringa.json` + correção de encoding “Maringá”)
+- **Por quê**: expandir cobertura orgânica no PR seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `6a42af7` (repo `site`)
+  - `src/_data/city_content/maringa.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (maringa habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `maringa` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-09 — [SITE] Marabá (PA): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Marabá com sistema 100% GPT:
