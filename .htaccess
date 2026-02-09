@@ -3,6 +3,16 @@
 
 RewriteEngine On
 
+# ===== CANONICAL HOST (WWW) =====
+# O sitemap e as canonicals do site usam https://www.fretesoumudancas.com.br
+# Então forçamos UMA única versão para evitar duplicidade (www vs sem www),
+# reduzir "Cópia sem página canônica..." e acelerar consolidação no Google.
+#
+# Regra: qualquer request que NÃO esteja no host www → 301 para www,
+# mantendo o path e querystring.
+RewriteCond %{HTTP_HOST} !^www\.fretesoumudancas\.com\.br$ [NC]
+RewriteRule ^ https://www.fretesoumudancas.com.br%{REQUEST_URI} [R=301,L]
+
 # bloquear pastas internas (source/docs/scripts/dist)
 RewriteRule ^(src|docs|scripts|dist)/ - [F,L]
 
