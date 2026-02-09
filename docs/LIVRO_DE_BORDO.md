@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Imperatriz (MA)** — publicado em 2026-02-09
+  - `/fretes-em-imperatriz/` (~3072 palavras)
+  - `/mudancas-em-imperatriz/` (~2922 palavras)
+  - `/frete-urgente-em-imperatriz/` (~3387 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 10 bairros divididos em 3 blocos únicos (3/3/4 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `369b884`
+
 - **Goiânia (GO)** — publicado em 2026-02-09
   - `/fretes-em-goiania/` (~3008 palavras)
   - `/mudancas-em-goiania/` (~3005 palavras)
