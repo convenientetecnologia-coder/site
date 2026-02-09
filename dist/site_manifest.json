@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T23:07:35.183Z",
+  "generatedAt": "2026-02-09T23:18:03.215Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -326,6 +326,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-macapa/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-macapa/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-macapa/"
+      }
+    },
+    {
+      "slug": "manaus",
+      "name": "Manaus",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-manaus/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-manaus/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-manaus/"
       }
     },
     {

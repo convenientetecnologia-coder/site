@@ -12220,5 +12220,329 @@
     "type": "urgente",
     "ts": 1770678358306,
     "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_01",
+    "text": "Minha mudança em Manaus foi bem organizada e sem correria. A equipe foi cuidadosa com os móveis e cumpriu o horário combinado.",
+    "author": "Camila",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_02",
+    "text": "Responderam rápido e tiraram minhas dúvidas antes do dia. No final deu tudo certo e chegou tudo certinho.",
+    "author": "Rafael",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_03",
+    "text": "Gostei do cuidado com as caixas e com a geladeira, tudo bem protegido. O preço foi justo pelo serviço.",
+    "author": "Bruna",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_04",
+    "text": "A mudança foi tranquila e sem estresse. Eles ajudaram a desmontar e montar o que precisava.",
+    "author": "Diego",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_05",
+    "text": "Chegaram no horário e trabalharam com calma, sem quebrar nada. Recomendo pra quem vai se mudar em Manaus.",
+    "author": "Larissa",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_06",
+    "text": "Eu estava com medo por causa da chuva, mas eles se viraram bem e protegeram tudo. Atendimento bem atencioso.",
+    "author": "Marcos",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_07",
+    "text": "Foram bem educados e cuidadosos com meus itens mais frágeis. A comunicação durante o serviço foi boa.",
+    "author": "Aline",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_08",
+    "text": "Mudança de apartamento para casa e foi bem mais rápido do que eu imaginava. Tudo bem combinado do início ao fim.",
+    "author": "João",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_09",
+    "text": "Gostei porque não ficaram empurrando serviço extra. Fizeram o combinado e deixaram tudo no lugar certinho.",
+    "author": "Patrícia",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_10",
+    "text": "Equipe organizada, sem bagunça e sem pressa. Minhas coisas chegaram inteiras e bem acomodadas no caminhão.",
+    "author": "Fernanda",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_11",
+    "text": "Agendamento foi fácil e o pessoal foi bem prestativo. A mudança ocorreu sem imprevistos e com cuidado.",
+    "author": "Gustavo",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_mudancas_12",
+    "text": "Eu tinha poucos móveis, mas mesmo assim trataram com atenção. Serviço honesto e bem feito.",
+    "author": "Renata",
+    "citySlug": "manaus",
+    "type": "mudancas",
+    "ts": 1770678965214,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_01",
+    "text": "Combinei o horário e o frete chegou direitinho. Motorista educado e cuidadoso com as caixas.",
+    "author": "Camila",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_02",
+    "text": "Precisei levar uns móveis e foi bem tranquilo. A equipe ajudou a organizar tudo e não teve dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_03",
+    "text": "Atendeu rápido no WhatsApp e tirou minhas dúvidas. Preço justo e serviço bem feito.",
+    "author": "Juliana",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_04",
+    "text": "Fiz o frete de última hora e deu certo. Chegou no horário combinado e sem complicação.",
+    "author": "Bruno",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_05",
+    "text": "Gostei do cuidado na hora de carregar e descarregar. Nada veio amassado ou riscado.",
+    "author": "Aline",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_06",
+    "text": "O motorista foi pontual e bem paciente na coleta. Recomendo pra quem precisa de frete em Manaus.",
+    "author": "Diego",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_07",
+    "text": "Contratei pra transportar mercadoria e foi tudo bem organizado. Comunicação clara do começo ao fim.",
+    "author": "Patricia",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_08",
+    "text": "Chegaram, conferiram tudo e acomodaram direitinho no veículo. Serviço rápido e sem estresse.",
+    "author": "Marcos",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_09",
+    "text": "Fiz mudança pequena e me atenderam super bem. Foram cuidadosos com os itens mais frágeis.",
+    "author": "Fernanda",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_10",
+    "text": "O combinado foi cumprido e o valor não mudou no final. Isso passou bastante confiança.",
+    "author": "Lucas",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_11",
+    "text": "Precisava de um frete pra eletros e deu tudo certo. Vieram com atenção e dirigiram com calma.",
+    "author": "Renata",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_fretes_12",
+    "text": "Serviço simples e eficiente, do jeito que eu precisava. Responderam rápido e entregaram sem atraso.",
+    "author": "Gustavo",
+    "citySlug": "manaus",
+    "type": "fretes",
+    "ts": 1770679066317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_01",
+    "text": "Precisava do frete pra ontem e eles responderam rápido. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_02",
+    "text": "Atendimento bem direto e o motorista foi super cuidadoso. Pra entrega urgente, resolveu meu problema.",
+    "author": "Rafael",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_03",
+    "text": "Fechei o frete urgente e deu tudo certo do começo ao fim. Comunicação clara e sem enrolação.",
+    "author": "Jéssica",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_04",
+    "text": "Tinha um prazo apertado e fiquei com medo de atrasar. No fim, chegou certinho e com boa organização.",
+    "author": "Bruno",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_05",
+    "text": "Gostei porque avisaram os horários e cumpriram. Pra quem tá na correria, ajuda demais.",
+    "author": "Larissa",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_06",
+    "text": "Solicitei em cima da hora e mesmo assim atenderam. O frete foi rápido e bem combinado.",
+    "author": "Diego",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_07",
+    "text": "Entrega urgente com cuidado, sem amassar nada. O motorista foi educado e resolveu rápido.",
+    "author": "Mariana",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_08",
+    "text": "Eu precisava mandar umas coisas com urgência e foi bem tranquilo. Chegou antes do que eu esperava.",
+    "author": "Felipe",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_09",
+    "text": "Atenderam minha solicitação rápido e passaram confiança. Tudo chegou direitinho, sem estresse.",
+    "author": "Aline",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_10",
+    "text": "O prazo era curto e eu tava preocupada. Eles foram ágeis e mantiveram contato durante o trajeto.",
+    "author": "Patrícia",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_11",
+    "text": "Frete urgente bem feito, com preço ok e sem surpresa. Recomendo pra quem precisa resolver na hora.",
+    "author": "Gabriel",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_manaus_urgente_12",
+    "text": "Chamei pra uma entrega urgente e foi tudo bem rápido. Pontuais e cuidadosos com a carga.",
+    "author": "Renata",
+    "citySlug": "manaus",
+    "type": "urgente",
+    "ts": 1770679076661,
+    "source": "cliente"
   }
 ]
