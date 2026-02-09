@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Macapá (AP)** — publicado em 2026-02-09
+  - `/fretes-em-macapa/` (~3008 palavras)
+  - `/mudancas-em-macapa/` (~2802 palavras)
+  - `/frete-urgente-em-macapa/` (~3125 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 27 bairros divididos em 3 blocos únicos (9/9/9 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `91c9727`
+
 - **Londrina (PR)** — publicado em 2026-02-09
   - `/fretes-em-londrina/` (~3077 palavras)
   - `/mudancas-em-londrina/` (~2791 palavras)

@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Macapá (AP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Macapá com sistema 100% GPT:
+  - `/fretes-em-macapa/` (~3008 palavras)
+  - `/mudancas-em-macapa/` (~2802 palavras)
+  - `/frete-urgente-em-macapa/` (~3125 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 27 divididos em 3 blocos (9/9/9)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (5 títulos duplicados ajustados em `macapa.json` + correção de encoding “Macapá”)
+- **Por quê**: expandir cobertura orgânica no AP seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `91c9727` (repo `site`)
+  - `src/_data/city_content/macapa.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (macapa habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `macapa` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-09 — [SITE] Londrina (PR): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Londrina com sistema 100% GPT:
