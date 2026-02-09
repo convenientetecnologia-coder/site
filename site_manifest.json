@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T17:06:14.693Z",
+  "generatedAt": "2026-02-09T17:55:58.901Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -272,6 +272,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-juazeiro-do-norte/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-juazeiro-do-norte/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-juazeiro-do-norte/"
+      }
+    },
+    {
+      "slug": "juiz-de-fora",
+      "name": "Juiz de Fora",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-juiz-de-fora/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-juiz-de-fora/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-juiz-de-fora/"
       }
     },
     {

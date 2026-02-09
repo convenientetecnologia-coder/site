@@ -10294,5 +10294,320 @@
     "type": "urgente",
     "ts": 1770653776308,
     "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_01",
+    "text": "Combinei o horário pelo WhatsApp e deu tudo certo. Chegaram no tempo combinado e carregaram com cuidado.",
+    "author": "Mariana",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_02",
+    "text": "Precisei de um frete rápido e me atenderam bem. Preço justo e sem enrolação.",
+    "author": "Rafael",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_03",
+    "text": "Equipe educada e prestativa. A mudança foi bem mais tranquila do que eu esperava.",
+    "author": "Camila",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_04",
+    "text": "Responderam rápido e tiraram minhas dúvidas. O transporte das caixas foi bem organizado.",
+    "author": "Bruno",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_05",
+    "text": "Gostei da pontualidade e do cuidado com os móveis. Não teve arranhão nem dor de cabeça.",
+    "author": "Fernanda",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_06",
+    "text": "Fiz frete de poucos itens e mesmo assim atenderam super bem. Tudo chegou certinho.",
+    "author": "Diego",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_07",
+    "text": "O motorista foi bem tranquilo e ajudou no que precisava. Serviço bem combinado do começo ao fim.",
+    "author": "Aline",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_08",
+    "text": "Agendamento simples e atendimento direto. Vieram com os equipamentos certos pra carregar sem sufoco.",
+    "author": "Gustavo",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_09",
+    "text": "Tive que remarcar em cima da hora e foram flexíveis. No dia, correu tudo bem.",
+    "author": "Juliana",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_10",
+    "text": "Transportaram eletrodomésticos com cuidado e proteção. Chegou tudo funcionando e no lugar.",
+    "author": "Paulo",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_11",
+    "text": "O valor ficou claro desde o início e não apareceu taxa surpresa. Recomendo pela transparência.",
+    "author": "Larissa",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_fretes_12",
+    "text": "Frete pra levar compras grandes foi ótimo. Carregaram, descarregaram e foram bem rápidos.",
+    "author": "Vinicius",
+    "citySlug": "juiz-de-fora",
+    "type": "fretes",
+    "ts": 1770659644142,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_01",
+    "text": "Minha mudança em Juiz de Fora foi bem organizada, equipe pontual e cuidadosa com os móveis. Chegou tudo certinho.",
+    "author": "Marina",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_02",
+    "text": "Gostei da comunicação: combinaram horário, avisaram quando estavam a caminho e fizeram tudo sem correria. Recomendo.",
+    "author": "Bruno",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_03",
+    "text": "Tinha medo de quebrar minhas coisas, mas embalaram bem e carregaram com atenção. Foi bem mais tranquilo do que eu imaginava.",
+    "author": "Camila",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_04",
+    "text": "Serviço rápido e sem bagunça. A equipe desmontou e montou o que precisava e deixou tudo no lugar combinado.",
+    "author": "Renato",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_05",
+    "text": "Preço justo e transparência desde o início. Não teve surpresa no final e a mudança saiu no horário certinho.",
+    "author": "Fernanda",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_06",
+    "text": "Mudança de apartamento para casa: cuidaram das caixas e dos eletros com bastante cuidado. Atendimento bem educado.",
+    "author": "Lucas",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_07",
+    "text": "Responderam rápido no orçamento e tiraram minhas dúvidas. No dia, foram ágeis e respeitaram o combinado.",
+    "author": "Juliana",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_08",
+    "text": "Eu tinha itens frágeis e deu tudo certo. Eles protegeram bem e foram bem cuidadosos na hora de subir as coisas.",
+    "author": "Diego",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_09",
+    "text": "Equipe simpática e organizada. A mudança foi fluindo e no fim ainda conferiram se estava tudo ok antes de ir embora.",
+    "author": "Patricia",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_10",
+    "text": "Precisava de uma mudança simples e resolveram sem complicação. Chegaram no horário e terminaram mais rápido do que eu esperava.",
+    "author": "Eduardo",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_11",
+    "text": "Gostei do capricho com os móveis, principalmente com o sofá e o guarda-roupa. Nada riscado e tudo bem acomodado no caminhão.",
+    "author": "Aline",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_mudancas_12",
+    "text": "Foi uma mudança com bastante caixa e eles deram conta numa boa. Atendimento atencioso do começo ao fim.",
+    "author": "Thiago",
+    "citySlug": "juiz-de-fora",
+    "type": "mudancas",
+    "ts": 1770659655257,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a entrega foi bem no horário combinado.",
+    "author": "Mariana",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_02",
+    "text": "Meu pedido era pra hoje e fiquei com medo de atrasar, mas chegou certinho. Comunicação bem tranquila.",
+    "author": "Camila",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_03",
+    "text": "Frete urgente com preço justo e combinado claro. O motorista foi cuidadoso com as caixas.",
+    "author": "Rafael",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_04",
+    "text": "Precisava levar um item rápido e foi bem prático. Passaram previsão e foram atualizando pelo caminho.",
+    "author": "Aline",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_05",
+    "text": "Resolveram meu problema no mesmo dia. Gostei porque não complicaram e foram objetivos.",
+    "author": "Bruno",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_06",
+    "text": "Solicitei o frete urgente e vieram buscar rapidinho. Entrega sem estresse e tudo bem organizado.",
+    "author": "Fernanda",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_07",
+    "text": "Era uma entrega urgente e eu estava sem tempo. Foi só chamar, combinar e pronto, chegou direitinho.",
+    "author": "Lucas",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_08",
+    "text": "Atenderam com agilidade e cuidado. A carga chegou intacta e no prazo que combinamos.",
+    "author": "Patricia",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_09",
+    "text": "Tive uma urgência com uma encomenda e eles salvaram. Atendimento simpático e bem transparente.",
+    "author": "Gustavo",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_10",
+    "text": "Precisava de frete rápido pra não perder um compromisso. Chegaram no horário e entregaram sem atrasar.",
+    "author": "Juliana",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_11",
+    "text": "Fiquei surpresa com a rapidez. Foi tudo bem alinhado, desde a coleta até a entrega.",
+    "author": "Renato",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770659668608,
+    "source": "cliente"
   }
 ]
