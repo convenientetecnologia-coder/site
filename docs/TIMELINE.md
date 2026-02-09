@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Manaus (AM): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Manaus com sistema 100% GPT:
+  - `/fretes-em-manaus/` (~3026 palavras)
+  - `/mudancas-em-manaus/` (~3007 palavras)
+  - `/frete-urgente-em-manaus/` (~3096 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (3 títulos duplicados ajustados em `manaus.json` + normalização de depoimentos para 12/12/12)
+- **Por quê**: expandir cobertura orgânica no AM seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `1d13b96` (repo `site`)
+  - `src/_data/city_content/manaus.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (manaus habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `manaus` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-09 — [SITE] Maceió (AL): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Maceió com sistema 100% GPT:

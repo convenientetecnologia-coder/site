@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Manaus (AM)** — publicado em 2026-02-09
+  - `/fretes-em-manaus/` (~3026 palavras)
+  - `/mudancas-em-manaus/` (~3007 palavras)
+  - `/frete-urgente-em-manaus/` (~3096 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `1d13b96`
+
 - **Maceió (AL)** — publicado em 2026-02-09
   - `/fretes-em-maceio/` (~3036 palavras)
   - `/mudancas-em-maceio/` (~2968 palavras)
