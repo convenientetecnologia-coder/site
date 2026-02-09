@@ -9664,5 +9664,320 @@
     "type": "urgente",
     "ts": 1770651975152,
     "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_01",
+    "text": "Atendimento bem rápido no orçamento e no agendamento. A mudança pequena foi tranquila e sem estresse.",
+    "author": "Lucas",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_02",
+    "text": "Precisava levar um móvel e fizeram o transporte com cuidado. Comunicação clara do começo ao fim.",
+    "author": "Fernanda",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_03",
+    "text": "Preço justo e serviço organizado. O motorista foi paciente na hora de carregar e descarregar.",
+    "author": "Bruno",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_04",
+    "text": "Frete pontual e sem complicação. Gostei que confirmaram tudo antes de sair.",
+    "author": "Camila",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_05",
+    "text": "Levaram minhas coisas com atenção e amarraram direitinho. Chegou tudo certinho no destino.",
+    "author": "Rafael",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_06",
+    "text": "Agendei com pouca antecedência e mesmo assim conseguiram encaixar. Foi bem combinado e rápido.",
+    "author": "Juliana",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_07",
+    "text": "Usei para transportar eletrodomésticos e veio tudo bem protegido. Serviço honesto e direto.",
+    "author": "Diego",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_08",
+    "text": "Achei prático porque responderam rápido e passaram confiança. O frete foi bem tranquilo.",
+    "author": "Aline",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_09",
+    "text": "Equipe educada e cuidadosa com as portas e paredes. Para mim valeu muito pelo capricho.",
+    "author": "Patricia",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_10",
+    "text": "Precisava de frete para umas compras grandes e resolveram sem enrolação. Chegaram e finalizaram rápido.",
+    "author": "Gustavo",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_11",
+    "text": "Gostei da organização na hora de acomodar tudo no veículo. Não tive surpresa no valor combinado.",
+    "author": "Renata",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770652530003,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_01",
+    "text": "Fiz minha mudança em Joinville e foi tudo bem organizado. A equipe cuidou dos móveis com atenção e cumpriu o combinado.",
+    "author": "Mariana",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_02",
+    "text": "Responderam rápido no orçamento e no dia chegaram no horário. A mudança foi tranquila e sem estresse.",
+    "author": "Rafael",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_03",
+    "text": "Gostei do cuidado com as caixas e com a geladeira, tudo foi bem protegido. Chegou tudo certinho no novo apê.",
+    "author": "Camila",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_04",
+    "text": "Tinha escada e achei que ia ser complicado, mas eles resolveram numa boa. Serviço bem feito e sem enrolação.",
+    "author": "Diego",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_05",
+    "text": "Preço justo e comunicação clara do começo ao fim. Me passaram confiança e deu tudo certo na mudança.",
+    "author": "Fernanda",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_06",
+    "text": "A desmontagem e montagem dos móveis ajudou muito. Foram ágeis e cuidadosos, sem deixar bagunça.",
+    "author": "Lucas",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_07",
+    "text": "Mudança de casa com bastante coisa e eles deram conta direitinho. Atendimento simples e bem combinado.",
+    "author": "Patricia",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_08",
+    "text": "Gostei que avisaram antes de chegar e foram bem educados. Tudo embalado direitinho e sem danos.",
+    "author": "Bruno",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_09",
+    "text": "Eu estava com prazo curto e conseguiram encaixar a mudança. No fim, foi mais fácil do que eu imaginava.",
+    "author": "Aline",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_10",
+    "text": "Cuidaram bem dos itens frágeis e não ficaram empurrando serviço extra. Recomendo pra quem quer algo direto e seguro.",
+    "author": "Juliana",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_11",
+    "text": "O caminhão veio no tamanho certo e isso fez diferença. Carregaram e descarregaram com capricho.",
+    "author": "Thiago",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_mudancas_12",
+    "text": "Fizeram a mudança com calma e atenção, sem correria desnecessária. Foi tudo bem alinhado e no horário.",
+    "author": "Vanessa",
+    "citySlug": "joinville",
+    "type": "mudancas",
+    "ts": 1770652541098,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_01",
+    "text": "Precisei de frete urgente e deu tudo certo. Responderam rápido e a coleta foi bem ágil.",
+    "author": "Marina",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_02",
+    "text": "Tinha prazo apertado e me salvaram. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Carlos",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_03",
+    "text": "Atendimento bem direto e rápido, do jeito que eu precisava. O frete urgente funcionou certinho.",
+    "author": "Bruna",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_04",
+    "text": "Consegui resolver uma entrega de última hora. Comunicação clara e entrega tranquila.",
+    "author": "Rafael",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_05",
+    "text": "Pedi com urgência e vieram buscar rápido. Foi tudo bem organizado e dentro do combinado.",
+    "author": "Aline",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_06",
+    "text": "Eu estava sem tempo e precisava enviar hoje. Eles foram ágeis e me passaram confiança.",
+    "author": "Diego",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_07",
+    "text": "Frete urgente sem complicação. Me atualizaram durante o caminho e chegou certinho.",
+    "author": "Fernanda",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_08",
+    "text": "Atenderam minha solicitação em cima da hora. Preço justo e serviço bem feito.",
+    "author": "Juliano",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_09",
+    "text": "Gostei porque não enrolaram: combinaram e cumpriram. Para urgência, ajudou muito.",
+    "author": "Patricia",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_10",
+    "text": "Eu precisava de rapidez e eles deram conta. Motorista educado e entrega sem problemas.",
+    "author": "Lucas",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_11",
+    "text": "Foi a primeira vez que usei frete urgente e deu super certo. Chegou bem antes do que eu imaginava.",
+    "author": "Camila",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_urgente_12",
+    "text": "Resolveram meu envio com urgência no mesmo dia. Atendimento prático e bem alinhado.",
+    "author": "Tiago",
+    "citySlug": "joinville",
+    "type": "urgente",
+    "ts": 1770652551429,
+    "source": "cliente"
   }
 ]

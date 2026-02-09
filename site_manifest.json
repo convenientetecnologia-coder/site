@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T15:47:15.513Z",
+  "generatedAt": "2026-02-09T16:01:48.265Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -245,6 +245,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-ipatinga/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-ipatinga/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-ipatinga/"
+      }
+    },
+    {
+      "slug": "joinville",
+      "name": "Joinville",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-joinville/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-joinville/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-joinville/"
       }
     },
     {
