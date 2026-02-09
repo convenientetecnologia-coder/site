@@ -22,6 +22,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Juazeiro do Norte (CE): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Juazeiro do Norte com sistema 100% GPT:
+  - `/fretes-em-juazeiro-do-norte/` (~2998 palavras)
+  - `/mudancas-em-juazeiro-do-norte/` (~3091 palavras)
+  - `/frete-urgente-em-juazeiro-do-norte/` (~3221 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 20 bairros divididos em 3 blocos únicos (6/7/7 por página)
+  - 35 depoimentos (11/12/12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (2 títulos duplicados corrigidos manualmente)
+- **Por quê**: trigésima segunda cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `4e42991` (repo `site`)
+  - `src/_data/publish_config.json` (juazeiro-do-norte habilitado em production)
+  - `src/_data/city_content/juazeiro-do-norte.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (20 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (35 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-09 — [SITE] Joinville (SC): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Joinville com sistema 100% GPT:

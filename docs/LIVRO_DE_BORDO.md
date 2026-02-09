@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Juazeiro do Norte (CE)** — publicado em 2026-02-09
+  - `/fretes-em-juazeiro-do-norte/` (~2998 palavras)
+  - `/mudancas-em-juazeiro-do-norte/` (~3091 palavras)
+  - `/frete-urgente-em-juazeiro-do-norte/` (~3221 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 20 bairros divididos em 3 blocos únicos (6/7/7 por página)
+  - 35 depoimentos (11/12/12 por tipo)
+  - Commit: `4e42991`
+
 - **Joinville (SC)** — publicado em 2026-02-09
   - `/fretes-em-joinville/` (~3183 palavras)
   - `/mudancas-em-joinville/` (~3226 palavras)
