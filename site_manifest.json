@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T15:08:45.595Z",
+  "generatedAt": "2026-02-09T15:22:49.458Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -227,6 +227,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-imperatriz/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-imperatriz/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-imperatriz/"
+      }
+    },
+    {
+      "slug": "indaiatuba",
+      "name": "Indaiatuba",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-indaiatuba/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-indaiatuba/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-indaiatuba/"
       }
     },
     {

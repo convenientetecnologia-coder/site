@@ -8692,5 +8692,329 @@
     "type": "urgente",
     "ts": 1770649638372,
     "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_01",
+    "text": "Combinei o horário e deu tudo certo. Chegaram no tempo certinho e levaram minhas coisas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_02",
+    "text": "Atendimento bem rápido no WhatsApp e preço justo. O frete foi tranquilo do começo ao fim.",
+    "author": "Carlos",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_03",
+    "text": "Precisava de ajuda com uma mudança pequena e resolveram no mesmo dia. Equipe educada e organizada.",
+    "author": "Fernanda",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_04",
+    "text": "Vieram com o veículo adequado e prenderam tudo direitinho. Não tive dor de cabeça na entrega.",
+    "author": "Rafael",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_05",
+    "text": "Gostei da pontualidade e do cuidado com os móveis. Deu pra perceber que têm experiência.",
+    "author": "Aline",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_06",
+    "text": "Fiz o agendamento com antecedência e cumpriram o combinado. Comunicação clara e sem enrolação.",
+    "author": "Bruno",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_07",
+    "text": "Levaram uma geladeira e uma máquina de lavar sem complicação. Foram cuidadosos na hora de subir e descer.",
+    "author": "Patricia",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_08",
+    "text": "O motorista foi bem paciente e ajudou a organizar as caixas no carro. Chegou tudo certinho.",
+    "author": "Diego",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_09",
+    "text": "Frete rápido e bem feito. Me passaram o valor antes e não teve surpresa na hora de pagar.",
+    "author": "Juliana",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_10",
+    "text": "Precisava transportar umas compras grandes e resolveram fácil. Atendimento simpático e serviço caprichado.",
+    "author": "Renato",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_11",
+    "text": "Chegaram no horário combinado e foram bem cuidadosos com itens frágeis. Recomendo pra quem quer algo prático.",
+    "author": "Camila",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_fretes_12",
+    "text": "Foi minha primeira vez contratando frete e fiquei bem tranquilo. Explicaram tudo direitinho e fizeram rápido.",
+    "author": "Lucas",
+    "citySlug": "indaiatuba",
+    "type": "fretes",
+    "ts": 1770650518324,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_01",
+    "text": "Fiz a mudança em Indaiatuba e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Mariana",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_02",
+    "text": "Atendimento rápido desde o primeiro contato. A equipe embalou as coisas com cuidado e a mudança foi tranquila.",
+    "author": "Rafael",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_03",
+    "text": "Gostei da pontualidade e do capricho com os itens mais frágeis. Deu tudo certo do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_04",
+    "text": "Preço justo e bem combinado. Eles foram ágeis e ainda ajudaram a posicionar os móveis no novo lugar.",
+    "author": "Bruno",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_05",
+    "text": "Mudança sem dor de cabeça. Comunicação clara e equipe educada, passou bastante confiança.",
+    "author": "Aline",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_06",
+    "text": "Tinha bastante coisa e mesmo assim foi rápido. Nada quebrou e tudo chegou certinho.",
+    "author": "Diego",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_07",
+    "text": "Muito cuidadosos com armário e geladeira, que eram meu medo. Foram bem atenciosos durante todo o processo.",
+    "author": "Fernanda",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_08",
+    "text": "Fechei a mudança em Indaiatuba e gostei do serviço. Vieram preparados e resolveram sem enrolação.",
+    "author": "Lucas",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_09",
+    "text": "Equipe bem organizada e prestativa. A desmontagem e montagem foram feitas com calma e ficou tudo ok.",
+    "author": "Juliana",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_10",
+    "text": "Responderam rápido e cumpriram o combinado. A mudança foi mais leve do que eu esperava.",
+    "author": "Gustavo",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_11",
+    "text": "Capricharam na proteção dos móveis e das caixas. Chegou tudo em ordem e no tempo certo.",
+    "author": "Patricia",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_mudancas_12",
+    "text": "Foi minha primeira mudança e eu estava nervosa, mas eles conduziram tudo com tranquilidade. Recomendo pelo cuidado.",
+    "author": "Renata",
+    "citySlug": "indaiatuba",
+    "type": "mudancas",
+    "ts": 1770650528656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_01",
+    "text": "Precisava de um frete urgente e me atenderam bem rápido. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Marina",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_02",
+    "text": "Respondeu na hora e já saiu pra buscar. Foi tudo bem ágil e com cuidado na entrega.",
+    "author": "Diego",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_03",
+    "text": "Tive uma emergência com entrega e resolveu no mesmo dia. Comunicação clara do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_04",
+    "text": "Achei que não ia dar tempo, mas foi bem organizado. Pegou e entregou rápido, do jeito que eu precisava.",
+    "author": "Rafael",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_05",
+    "text": "Frete urgente com preço bem combinado e sem surpresa. Chegou certinho e com atenção com a carga.",
+    "author": "Aline",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_06",
+    "text": "Atendimento direto e sem enrolação. Cumpriu o prazo apertado que eu tinha e me manteve informado.",
+    "author": "Bruno",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_07",
+    "text": "Solicitei em cima da hora e deu tudo certo. O motorista foi cuidadoso e a entrega foi tranquila.",
+    "author": "Fernanda",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_08",
+    "text": "Precisava levar umas caixas com urgência e foi bem rápido. Gostei da pontualidade e do cuidado.",
+    "author": "Lucas",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_09",
+    "text": "Chegaram rápido pra coleta e entregaram sem atraso. Pra frete urgente, foi exatamente o que eu precisava.",
+    "author": "Patricia",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_10",
+    "text": "Me ajudou numa entrega que não podia esperar. Processo simples e bem resolvido.",
+    "author": "Gustavo",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_11",
+    "text": "Combinei o frete urgente e cumpriram direitinho. Boa comunicação e entrega sem complicação.",
+    "author": "Juliana",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_indaiatuba_urgente_12",
+    "text": "Precisava de agilidade e eles foram bem rápidos no atendimento. A entrega foi feita com cuidado e no prazo.",
+    "author": "Tiago",
+    "citySlug": "indaiatuba",
+    "type": "urgente",
+    "ts": 1770650538761,
+    "source": "cliente"
   }
 ]
