@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Ipatinga (MG)** — publicado em 2026-02-09
+  - `/fretes-em-ipatinga/` (~3032 palavras)
+  - `/mudancas-em-ipatinga/` (~2876 palavras)
+  - `/frete-urgente-em-ipatinga/` (~3411 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 24 bairros divididos em 3 blocos únicos (8/8/8 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `a1fbd93`
+
 - **Indaiatuba (SP)** — publicado em 2026-02-09
   - `/fretes-em-indaiatuba/` (~3057 palavras)
   - `/mudancas-em-indaiatuba/` (~3039 palavras)

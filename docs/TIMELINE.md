@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Ipatinga (MG): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Ipatinga com sistema 100% GPT:
+  - `/fretes-em-ipatinga/` (~3032 palavras)
+  - `/mudancas-em-ipatinga/` (~2876 palavras)
+  - `/frete-urgente-em-ipatinga/` (~3411 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 24 bairros divididos em 3 blocos únicos (8/8/8 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (3 títulos duplicados corrigidos manualmente + 1 reexecução por JSON inválido)
+- **Por quê**: vigésima nona cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `a1fbd93` (repo `site`)
+  - `src/_data/publish_config.json` (ipatinga habilitado em production)
+  - `src/_data/city_content/ipatinga.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (24 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-09 — [SITE] Indaiatuba (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Indaiatuba com sistema 100% GPT:
