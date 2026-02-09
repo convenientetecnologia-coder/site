@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Londrina (PR)** — publicado em 2026-02-09
+  - `/fretes-em-londrina/` (~3077 palavras)
+  - `/mudancas-em-londrina/` (~2791 palavras)
+  - `/frete-urgente-em-londrina/` (~3077 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `1ef27ea`
+
 - **Limeira (SP)** — publicado em 2026-02-09
   - `/fretes-em-limeira/` (~3147 palavras)
   - `/mudancas-em-limeira/` (~3000 palavras)
