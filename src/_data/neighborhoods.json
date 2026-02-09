@@ -3382,5 +3382,80 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "macapa": {
+    "city": "MacapÃ¡",
+    "state": "AP",
+    "all": [
+      "Centro",
+      "Trem",
+      "Santa Rita",
+      "Laguinho",
+      "Buritizal",
+      "Jardim Marco Zero",
+      "Novo Buritizal",
+      "Pacoval",
+      "Perpétuo Socorro",
+      "Jesus de Nazaré",
+      "Alvorada",
+      "Congós",
+      "Muca",
+      "Beirol",
+      "Pedrinhas",
+      "Infraero",
+      "Universidade",
+      "Brasil Novo",
+      "Zerão",
+      "Marabaixo",
+      "Renascer",
+      "São Lázaro",
+      "Jardim Felicidade",
+      "Novo Horizonte",
+      "Ipê",
+      "Pantanal",
+      "Araxá"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Trem",
+        "Santa Rita",
+        "Laguinho",
+        "Buritizal",
+        "Jardim Marco Zero",
+        "Novo Buritizal",
+        "Pacoval",
+        "Perpétuo Socorro"
+      ],
+      "mudancas": [
+        "Jesus de Nazaré",
+        "Alvorada",
+        "Congós",
+        "Muca",
+        "Beirol",
+        "Pedrinhas",
+        "Infraero",
+        "Universidade",
+        "Brasil Novo"
+      ],
+      "urgente": [
+        "Zerão",
+        "Marabaixo",
+        "Renascer",
+        "São Lázaro",
+        "Jardim Felicidade",
+        "Novo Horizonte",
+        "Ipê",
+        "Pantanal",
+        "Araxá"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-09T22:50:09.990Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

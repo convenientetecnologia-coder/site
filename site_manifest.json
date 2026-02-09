@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T22:40:27.678Z",
+  "generatedAt": "2026-02-09T22:53:02.288Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -308,6 +308,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-londrina/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-londrina/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-londrina/"
+      }
+    },
+    {
+      "slug": "macapa",
+      "name": "Macapá",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-macapa/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-macapa/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-macapa/"
       }
     },
     {

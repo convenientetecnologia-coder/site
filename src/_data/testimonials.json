@@ -11572,5 +11572,329 @@
     "type": "urgente",
     "ts": 1770676709285,
     "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_01",
+    "text": "Combinei o frete pelo Whats e veio tudo certinho, no horário que acertamos. Motorista educado e cuidadoso com as caixas.",
+    "author": "Camila",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_02",
+    "text": "Precisava levar uns móveis e deu tudo certo. A equipe ajudou a subir e descer sem pressa e sem bagunça.",
+    "author": "Rafael",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_03",
+    "text": "Preço justo e comunicação bem clara do começo ao fim. Chegou tudo inteiro e bem acomodado.",
+    "author": "Juliana",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_04",
+    "text": "Fiz o frete de última hora e me atenderam rápido. Gostei porque foram bem organizados na hora de carregar.",
+    "author": "Diego",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_05",
+    "text": "O motorista foi pontual e foi me avisando do andamento. Entrega tranquila, sem dor de cabeça.",
+    "author": "Marina",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_06",
+    "text": "Levei materiais de trabalho e eles foram bem cuidadosos para não amassar nada. Atendimento simples e eficiente.",
+    "author": "Bruno",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_07",
+    "text": "Gostei da atenção com a embalagem e com o jeito de acomodar no veículo. Chegou tudo do jeito que saiu.",
+    "author": "Aline",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_08",
+    "text": "Serviço bem combinado, sem surpresa no valor. Recomendo pra quem precisa de frete rápido e seguro.",
+    "author": "Fernanda",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_09",
+    "text": "Fiz mudança pequena e foi perfeito pra mim. Foram ágeis, mas sem correr risco com os itens.",
+    "author": "Lucas",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_10",
+    "text": "Atenderam com paciência e tiraram minhas dúvidas antes. No dia, carregaram com cuidado e entregaram direitinho.",
+    "author": "Patricia",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_11",
+    "text": "Frete para entregar compras grandes, e foi bem tranquilo. Chegaram no horário e ajudaram a colocar no lugar.",
+    "author": "Gustavo",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_fretes_12",
+    "text": "Precisava transportar umas coisas frágeis e fiquei mais tranquila com o cuidado deles. Comunicação rápida e serviço limpo.",
+    "author": "Vanessa",
+    "citySlug": "macapa",
+    "type": "fretes",
+    "ts": 1770677420615,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_01",
+    "text": "Fiz a mudança em Macapá e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Mariana",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_02",
+    "text": "Equipe educada e ágil, embalaram as coisas com atenção. No fim, deu tudo certo e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_03",
+    "text": "Gostei porque combinaram direitinho antes e cumpriram o que foi acertado. A mudança foi bem tranquila.",
+    "author": "Camila",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_04",
+    "text": "Respondeu rápido no orçamento e explicou como seria o transporte. Me senti mais segura na mudança.",
+    "author": "Bruno",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_05",
+    "text": "Levaram minhas caixas e eletros com cuidado e sem pressa. Chegou tudo em ordem no novo lugar.",
+    "author": "Aline",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_06",
+    "text": "Pontuais e prestativos, ajudaram até com a organização no destino. Serviço bem feito.",
+    "author": "Diego",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_07",
+    "text": "Tinha coisa frágil e eles capricharam na proteção. A mudança em Macapá foi mais fácil do que eu esperava.",
+    "author": "Patricia",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_08",
+    "text": "Preço justo pelo trabalho e boa comunicação do começo ao fim. Recomendo pra quem quer evitar estresse.",
+    "author": "Felipe",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_09",
+    "text": "Vieram com tudo certinho e foram bem cuidadosos com portas e paredes. Atendimento bem tranquilo.",
+    "author": "Juliana",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_10",
+    "text": "Gostei da atenção com os móveis desmontados e montados depois. Economizou meu tempo na mudança.",
+    "author": "Renato",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_11",
+    "text": "A equipe foi rápida, mas sem descuido. Deu pra ver que têm experiência com mudança.",
+    "author": "Larissa",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_mudancas_12",
+    "text": "Combinei o horário e eles cumpriram, sem enrolação. Mudança simples e bem resolvida.",
+    "author": "Tiago",
+    "citySlug": "macapa",
+    "type": "mudancas",
+    "ts": 1770677431250,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Chegou rápido e com cuidado.",
+    "author": "Camila",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_02",
+    "text": "Responderam na hora e já combinaram a retirada. Serviço bem ágil.",
+    "author": "Rafael",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_03",
+    "text": "Eu estava com pressa e eles ajudaram muito. Entrega rápida e sem dor de cabeça.",
+    "author": "Bruna",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_04",
+    "text": "O motorista foi pontual e a comunicação foi bem clara. Resolveu meu problema no mesmo dia.",
+    "author": "Diego",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_05",
+    "text": "Fiz o pedido em cima da hora e conseguiram encaixar. Chegou certinho.",
+    "author": "Larissa",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_06",
+    "text": "Frete urgente bem organizado, do começo ao fim. Me passaram confiança.",
+    "author": "Marcos",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_07",
+    "text": "Gostei da rapidez no atendimento e do cuidado com as caixas. Recomendo pra quem tá na correria.",
+    "author": "Juliana",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_08",
+    "text": "Precisava entregar um item rápido e foi tudo bem combinado. Chegou sem avarias.",
+    "author": "Felipe",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_09",
+    "text": "Atenderam minha urgência e não ficaram enrolando. Preço ok e serviço eficiente.",
+    "author": "Patricia",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_10",
+    "text": "Foi minha primeira vez usando e achei bem prático. Coleta rápida e entrega no prazo combinado.",
+    "author": "Andressa",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_11",
+    "text": "Tive uma emergência com uma entrega e eles resolveram. Comunicação boa e sem estresse.",
+    "author": "Gustavo",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_macapa_urgente_12",
+    "text": "Cheguei a achar que não ia dar tempo, mas deu. Frete urgente que realmente ajuda.",
+    "author": "Renata",
+    "citySlug": "macapa",
+    "type": "urgente",
+    "ts": 1770677441051,
+    "source": "cliente"
   }
 ]
