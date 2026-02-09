@@ -39,6 +39,8 @@ Colunas:
 | Data (BRT) | Cidade | Tipo | URL | Status | Observações |
 |---|---|---|---|---|---|
 | 2026-02-09 | Anápolis (GO) | fretes | https://www.fretesoumudancas.com.br/fretes-em-anapolis/ | Testar URL publicada OK → Solicitar indexação (fila) | GSC: “URL disponível para o Google” + “Indexação solicitada” |
+| 2026-02-09 | Anápolis (GO) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-anapolis/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
+| 2026-02-09 | Anápolis (GO) | urgente | https://www.fretesoumudancas.com.br/frete-urgente-em-anapolis/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
 
 ---
 

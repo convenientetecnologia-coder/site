@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Juiz de Fora (MG): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Juiz de Fora com sistema 100% GPT:
+  - `/fretes-em-juiz-de-fora/` (~3000 palavras)
+  - `/mudancas-em-juiz-de-fora/` (~2994 palavras)
+  - `/frete-urgente-em-juiz-de-fora/` (~3151 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - Depoimentos: 35 (12/12/11 por tipo)
+  - Validação anti-duplicação passou (4 títulos duplicados ajustados em `juiz-de-fora.json`)
+- **Por quê**: próxima cidade publicada seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `be6d28b` (repo `site`)
+  - `src/_data/city_content/juiz-de-fora.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (juiz-de-fora habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `juiz-de-fora` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-09 — [SEO] Canonical host: forçar `www` (301) + link interno para `/cidades/` em todas as páginas
 
 - **O que**:

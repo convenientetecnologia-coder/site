@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Juiz de Fora (MG)** — publicado em 2026-02-09
+  - `/fretes-em-juiz-de-fora/` (~3000 palavras)
+  - `/mudancas-em-juiz-de-fora/` (~2994 palavras)
+  - `/frete-urgente-em-juiz-de-fora/` (~3151 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - Depoimentos: 35 (12/12/11 por tipo)
+  - Commit: `be6d28b`
+
 - **Juazeiro do Norte (CE)** — publicado em 2026-02-09
   - `/fretes-em-juazeiro-do-norte/` (~2998 palavras)
   - `/mudancas-em-juazeiro-do-norte/` (~3091 palavras)
