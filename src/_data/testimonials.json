@@ -11896,5 +11896,329 @@
     "type": "urgente",
     "ts": 1770677441051,
     "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. A mudança foi bem mais tranquila do que eu esperava.",
+    "author": "Camila",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_02",
+    "text": "Responderam rápido e passaram o valor sem enrolação. Tudo entregue direitinho e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_03",
+    "text": "Fizeram o transporte com cuidado, principalmente com as caixas mais frágeis. Gostei do capricho.",
+    "author": "Juliana",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_04",
+    "text": "O motorista foi bem educado e ajudou a organizar a carga. Serviço bem combinado do início ao fim.",
+    "author": "Marcos",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_05",
+    "text": "Precisei de um frete de última hora e deu certo. Comunicação fácil e entrega sem atrasar muito.",
+    "author": "Aline",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_06",
+    "text": "Preço justo e atendimento direto. Chegou tudo certinho, sem avarias.",
+    "author": "Bruno",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_07",
+    "text": "Gostei porque avisaram quando estavam a caminho. Isso ajudou bastante a me programar.",
+    "author": "Fernanda",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_08",
+    "text": "Levaram meus móveis com cuidado e prenderam tudo direitinho no veículo. Chegou inteiro.",
+    "author": "Diego",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_09",
+    "text": "Foi bem organizado: horário, retirada e entrega. Recomendo pra quem quer praticidade.",
+    "author": "Patricia",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_10",
+    "text": "Atendimento bem tranquilo e sem pressão. O frete foi rápido e resolveu meu problema.",
+    "author": "Lucas",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_11",
+    "text": "Tive uma experiência boa, principalmente na pontualidade. A equipe foi bem atenciosa.",
+    "author": "Renata",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_fretes_12",
+    "text": "Contratei pra transportar algumas coisas do trabalho e deu tudo certo. Serviço simples e eficiente.",
+    "author": "Thiago",
+    "citySlug": "maceio",
+    "type": "fretes",
+    "ts": 1770678338607,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_01",
+    "text": "Minha mudança em Maceió foi bem tranquila. Chegaram no horário, embalaram com cuidado e nada quebrou.",
+    "author": "Camila",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_02",
+    "text": "Equipe educada e rápida. Gostei que foram avisando cada etapa e deixaram tudo organizado no final.",
+    "author": "Rafael",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_03",
+    "text": "Tinha móveis grandes e achei que ia dar trabalho, mas deu tudo certo. Manusearam com cuidado e sem correria.",
+    "author": "Juliana",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_04",
+    "text": "Atendimento bem direto e fácil de combinar. O preço ficou justo e a mudança saiu no mesmo dia.",
+    "author": "Bruno",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_05",
+    "text": "Pontuais e cuidadosos com as caixas. A comunicação foi boa do começo ao fim.",
+    "author": "Aline",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_06",
+    "text": "Fizeram a desmontagem e montagem direitinho. Me poupou tempo e evitou dor de cabeça.",
+    "author": "Marcos",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_07",
+    "text": "Eu estava com medo dos eletros, mas transportaram tudo bem protegido. Chegou tudo funcionando.",
+    "author": "Patricia",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_08",
+    "text": "Gostei da atenção com os detalhes, principalmente com espelhos e itens frágeis. Serviço bem caprichado.",
+    "author": "Diego",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_09",
+    "text": "A mudança foi mais rápida do que eu esperava. Foram cuidadosos e não fizeram bagunça no prédio.",
+    "author": "Fernanda",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_10",
+    "text": "Responderam rápido no orçamento e cumpriram o combinado. Recomendo pra quem quer algo sem estresse.",
+    "author": "Lucas",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_11",
+    "text": "Tinha muita coisa e mesmo assim organizaram tudo por cômodo. Facilitou demais na hora de desempacotar.",
+    "author": "Renata",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_mudancas_12",
+    "text": "Motorista dirigiu com calma e a equipe foi bem prestativa. Chegou tudo inteiro e no tempo certo.",
+    "author": "Gustavo",
+    "citySlug": "maceio",
+    "type": "mudancas",
+    "ts": 1770678348793,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_01",
+    "text": "Precisava do frete urgente e deu tudo certo. Responderam rápido e a entrega foi no prazo combinado.",
+    "author": "Camila",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_02",
+    "text": "Atendimento bem ágil e sem enrolação. O motorista chegou no horário e resolveu minha urgência.",
+    "author": "Rafael",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_03",
+    "text": "Tive uma emergência com uma entrega e eles encaixaram na hora. Chegou direitinho e sem estresse.",
+    "author": "Juliana",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_04",
+    "text": "Gostei porque passaram o valor certinho e cumpriram o combinado. Pra frete urgente em Maceió, ajudou muito.",
+    "author": "Bruno",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_05",
+    "text": "Serviço rápido e organizado. Pegaram a encomenda e já saíram pra entrega, bem prático.",
+    "author": "Aline",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_06",
+    "text": "Eu estava com pressa e deu certo. Comunicação boa do começo ao fim e entrega sem atraso.",
+    "author": "Diego",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_07",
+    "text": "Resolveram meu frete urgente no mesmo dia. Tudo bem cuidado e sem complicação.",
+    "author": "Mariana",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_08",
+    "text": "Foi tranquilo de contratar e o retorno foi imediato. Chegou no destino dentro do horário que eu precisava.",
+    "author": "Felipe",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_09",
+    "text": "Precisava mandar umas coisas rápido e eles foram bem eficientes. Não tive dor de cabeça.",
+    "author": "Patricia",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_10",
+    "text": "A agilidade me surpreendeu. Coleta rápida e entrega bem alinhada, do jeito que eu precisava.",
+    "author": "Gustavo",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_11",
+    "text": "Muito bom pra quando aperta. Atendimento simples, direto e o frete saiu rapidinho.",
+    "author": "Larissa",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maceio_urgente_12",
+    "text": "Tinha prazo curto e fiquei com receio, mas foi bem combinado. Chegou certinho e com cuidado.",
+    "author": "Tiago",
+    "citySlug": "maceio",
+    "type": "urgente",
+    "ts": 1770678358306,
+    "source": "cliente"
   }
 ]
