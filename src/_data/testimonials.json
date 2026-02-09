@@ -7720,5 +7720,329 @@
     "type": "urgente",
     "ts": 1770408486825,
     "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_01",
+    "text": "Precisei de um frete em Franca e foi tudo bem combinado. Chegou no horário e cuidou bem das caixas.",
+    "author": "Mariana",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_02",
+    "text": "Atendimento rápido e preço justo. O frete foi tranquilo do começo ao fim.",
+    "author": "Lucas",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_03",
+    "text": "Fiz mudança de alguns móveis e veio tudo bem protegido. Gostei da atenção na hora de carregar e descarregar.",
+    "author": "Camila",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_04",
+    "text": "Combinei pelo WhatsApp e deu certo. O motorista foi educado e resolveu sem enrolação.",
+    "author": "Rafael",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_05",
+    "text": "Precisava levar um sofá e uma cama, e o frete em Franca foi bem ágil. Chegou tudo certinho.",
+    "author": "Bruna",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_06",
+    "text": "Pontual e cuidadoso com os itens mais frágeis. Foi uma experiência bem tranquila.",
+    "author": "Diego",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_07",
+    "text": "Me ajudaram com a carga e organizaram direitinho no veículo. Serviço honesto e bem feito.",
+    "author": "Aline",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_08",
+    "text": "Solicitei em cima da hora e mesmo assim conseguiram encaixar. Comunicação clara e sem surpresa no valor.",
+    "author": "Fernando",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_09",
+    "text": "Frete para entregar umas compras grandes, e foi rápido. O cuidado com a embalagem fez diferença.",
+    "author": "Juliana",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_10",
+    "text": "O combinado foi cumprido e a entrega saiu no tempo que eu precisava. Recomendo pela praticidade.",
+    "author": "Gustavo",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_11",
+    "text": "Carregaram tudo com bastante cuidado e paciência. Pra quem precisa de frete em Franca, ajudou muito.",
+    "author": "Patricia",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_fretes_12",
+    "text": "Serviço simples e direto, do jeito que eu gosto. Chegou tudo inteiro e sem dor de cabeça.",
+    "author": "Renato",
+    "citySlug": "franca",
+    "type": "fretes",
+    "ts": 1770647767464,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_01",
+    "text": "Minha mudança em Franca foi bem tranquila. Chegaram no horário combinado e cuidaram das caixas com atenção.",
+    "author": "Marina",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_02",
+    "text": "Equipe educada e organizada. A mudança foi rápida e sem bagunça, do jeito que eu precisava.",
+    "author": "Rafael",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_03",
+    "text": "Gostei da comunicação desde o primeiro contato. Tiraram minhas dúvidas e no dia correu tudo certo.",
+    "author": "Camila",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_04",
+    "text": "Levaram meus móveis com cuidado e ajudaram a posicionar as coisas no novo lugar. Facilitou muito.",
+    "author": "Bruno",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_05",
+    "text": "Preço justo e serviço bem feito. Nada de surpresa no final, tudo bem combinado antes.",
+    "author": "Aline",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_06",
+    "text": "Eu estava com receio por causa dos eletros, mas veio tudo bem protegido e sem danos.",
+    "author": "Diego",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_07",
+    "text": "Pontuais e prestativos. A mudança em Franca foi mais leve do que eu imaginava.",
+    "author": "Fernanda",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_08",
+    "text": "Fizeram a desmontagem e montagem de forma caprichada. Economizei tempo e dor de cabeça.",
+    "author": "Lucas",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_09",
+    "text": "Atendimento rápido no orçamento e no agendamento. No dia, trabalharam com cuidado e agilidade.",
+    "author": "Juliana",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_10",
+    "text": "Tudo bem organizado no caminhão, nada ficou solto. Chegou certinho e sem arranhões.",
+    "author": "Paulo",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_11",
+    "text": "Mudança de apartamento: subiram e desceram com calma e atenção. Foram bem pacientes e cuidadosos.",
+    "author": "Tatiana",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_mudancas_12",
+    "text": "Equipe eficiente e gente boa. Resolveram a mudança sem estresse e com bastante cuidado com os móveis.",
+    "author": "Gustavo",
+    "citySlug": "franca",
+    "type": "mudancas",
+    "ts": 1770647777253,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a coleta foi bem alinhada.",
+    "author": "Mariana",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_02",
+    "text": "Chegou dentro do prazo que combinaram, sem dor de cabeça. Atendimento bem direto.",
+    "author": "Carlos",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_03",
+    "text": "Tive uma entrega de última hora e eles resolveram rápido. Fiquei bem mais tranquilo.",
+    "author": "Juliana",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_04",
+    "text": "O motorista foi pontual e cuidadoso com as caixas. Pra urgência, funcionou muito bem.",
+    "author": "Renato",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_05",
+    "text": "Combinei tudo por mensagem e foi bem prático. O frete urgente salvou meu dia.",
+    "author": "Aline",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_06",
+    "text": "Precisava enviar um item com pressa e foi bem organizado. Avisaram cada etapa.",
+    "author": "Bruno",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_07",
+    "text": "Atenderam minha solicitação em cima da hora e não enrolaram. Serviço rápido e correto.",
+    "author": "Camila",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_08",
+    "text": "Boa comunicação e preço justo pro prazo que eu precisava. Recomendo pra quem tá com urgência.",
+    "author": "Diego",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_09",
+    "text": "A entrega foi rápida e o cuidado com o volume me surpreendeu. Tudo bem combinado.",
+    "author": "Fernanda",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_10",
+    "text": "Tinha prazo apertado e deu certo. Chegaram no horário e finalizaram sem complicação.",
+    "author": "Lucas",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_11",
+    "text": "Me passaram o tempo estimado e cumpriram direitinho. Atendimento bem humano.",
+    "author": "Patricia",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_franca_urgente_12",
+    "text": "Precisava resolver uma retirada urgente e foi bem ágil. Gostei da clareza nas informações.",
+    "author": "Gustavo",
+    "citySlug": "franca",
+    "type": "urgente",
+    "ts": 1770647787130,
+    "source": "cliente"
   }
 ]

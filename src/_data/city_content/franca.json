@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "version": 1,
+    "city": "Franca",
+    "slug": "franca",
+    "state": "SP",
+    "generatedAt": "2026-02-09T14:30:47.921Z",
+    "model": "gpt-5.2",
+    "sources": [
+      {
+        "title": "IBGE — Franca (SP)",
+        "url": "https://www.ibge.gov.br/brasil/sp/franca"
+      },
+      {
+        "title": "Rodovia Cândido Portinari (SP-334) — liga Ribeirão Preto a Franca e segue até Rifaina (divisa MG)",
+        "url": "https://pt.wikipedia.org/wiki/Rodovia_C%C3%A2ndido_Portinari"
+      },
+      {
+        "title": "SP-345 — Rodovia Prefeito Fábio Talarico / Ronan Rocha (trajeto e cidades atendidas, incluindo Franca)",
+        "url": "https://pt.wikipedia.org/wiki/SP-345"
+      },
+      {
+        "title": "Aeroporto de Franca — Franca–Ten. Lund Presotto (IATA: FRC), acesso a ~7 km do centro",
+        "url": "https://en.wikipedia.org/wiki/Franca_Airport"
+      },
+      {
+        "title": "ARTESP CCI — ocorrências de tráfego na Anhanguera (SP-330) sob concessão da ViaPaulista (exemplo de registro de interdição por obra)",
+        "url": "https://cci.artesp.sp.gov.br/trafego/155688/foto/50342"
+      }
+    ]
+  },
+  "fretes": {
+    "introParagraphs": [
+      "Precisa de frete em Franca (SP) para levar móveis, mercadorias, equipamentos ou caixas com segurança e sem complicação? Como cidade polo no nordeste paulista, Franca costuma concentrar entregas e coletas que conectam o comércio local, a região do entorno e a divisa com Minas Gerais. Isso faz com que um bom planejamento de rota e de horários tenha impacto real no custo e no prazo, principalmente quando a carga precisa circular por eixos como a SP-334 (Cândido Portinari) e a SP-345.",
+      "Nesta página você encontra um guia prático para contratar fretes em Franca: como organizar a coleta, o que influencia o preço, quais informações agilizam o orçamento e em quais situações vale pensar em ajudante, desmontagem ou proteção extra. A ideia é você conseguir decidir com clareza — seja para um frete dentro da cidade, seja para uma entrega intermunicipal, ou ainda para levar carga para o interior de SP e a região de divisa com o Triângulo Mineiro."
+    ],
+    "guideParagraphs": [
+      "Em Franca, frete costuma ter duas demandas principais: deslocamentos curtos dentro do município (móveis, eletros, caixas, pequenas mudanças) e rotas regionais, aproveitando a posição estratégica perto da divisa com Minas Gerais. Quando a coleta e a entrega são bem definidas, dá para escolher o veículo certo e evitar pagar por espaço ocioso ou por viagens extras. Por isso, antes de fechar, vale mapear volume, peso aproximado e o tipo de item (frágil, sensível, desmontável, comprido). Essa triagem simples reduz imprevistos e ajuda a montar uma rota mais eficiente.",
+      "As rodovias da região influenciam diretamente o tempo de viagem e o custo final. A SP-334 (Rodovia Cândido Portinari) é um caminho comum para conectar Franca a cidades do entorno e ao corredor de Ribeirão Preto, enquanto a SP-345 funciona como alternativa importante para acessar outros municípios próximos. Em horários de pico, obras e ocorrências podem mudar o ritmo do trânsito — e isso é normal em grandes eixos do estado. Se o seu frete tem janela de entrega apertada, o melhor é combinar horários com folga e, quando possível, escolher períodos de menor movimento.",
+      "Uma dor de cabeça frequente em fretes urbanos é o acesso ao ponto de carga: vaga para estacionar, distância até o portão, necessidade de subir escada ou percorrer corredor longo com carrinho. Isso muda o tempo de serviço e pode exigir mais uma pessoa para evitar risco de dano e reduzir esforço. Como cada prédio e cada rua tem sua dinâmica, vale checar com antecedência se existe local adequado para parar o veículo, se há restrição de horário para carga/descarga e se o elevador (quando existe) comporta o item. Essas informações deixam o orçamento mais justo e evitam retrabalho.",
+      "Outra escolha que pesa é o tipo de proteção. Para itens comuns, mantas e papelão já resolvem muita coisa; para objetos delicados (vidro, eletrônicos, instrumentos, peças com acabamento sensível), o ideal é caprichar em cantoneiras, plástico-bolha e fixação interna. Em fretes curtos dentro de Franca, as vibrações e frenagens ainda podem causar arranhões se a carga não estiver bem calçada. O objetivo é simples: o item não pode “andar” dentro do baú e nem encostar em quinas. Quando você descreve o que será transportado, fica mais fácil definir esse nível de cuidado.",
+      "Se a necessidade é comercial, o cenário muda um pouco. Coletas em lojas, depósitos e pequenos centros de distribuição pedem pontualidade e documentação básica bem alinhada (nota, ordem de serviço, identificação do destinatário). Também é comum ter volumes repetidos (caixas do mesmo tamanho), o que facilita empilhamento e amarração. Já para mercadorias sensíveis a umidade ou impacto, o recomendado é investir em embalagem adequada e evitar “misturar” com itens que possam vazar ou soltar pó. Um frete comercial bem organizado tende a ser mais rápido e previsível, o que ajuda no giro do negócio.",
+      "Para quem está fazendo pequenas mudanças, uma dica útil é separar o que vai primeiro no descarregamento. Itens de uso imediato (roupa de cama, higiene, carregadores, ferramentas simples) devem ir em caixas identificadas e acessíveis. Móveis grandes, quando desmontáveis, podem ir com parafusos etiquetados e guardados em saquinhos presos ao próprio móvel. Esse cuidado economiza tempo na chegada e evita a sensação de caos. Mesmo que você contrate apenas o transporte, a forma como as coisas são agrupadas define quanto tempo o veículo ficará parado e quanto esforço será necessário para concluir o serviço.",
+      "Quando o frete envolve saída de Franca para outras cidades do interior de São Paulo ou para a região de divisa com Minas, o planejamento de rota ganha ainda mais peso. Distância é só uma parte do custo: tempo estimado, pedágios, paradas e janela de entrega contam bastante. Se a entrega for em local com acesso mais restrito (ruas estreitas, aclives ou espaços de manobra limitados), pode ser melhor usar veículo menor ou fazer transbordo — algo que precisa ser combinado antes. O ideal é alinhar expectativas: prazo realista, horário de coleta e um canal de contato para atualização.",
+      "Franca também tem referências logísticas que ajudam no entendimento de localização e deslocamentos, como o Aeroporto Estadual de Franca (Ten. Lund Presotto), que fica a poucos quilômetros do centro. Isso não significa que todo frete envolva operação aeroportuária, mas a referência é útil para orientar pontos e regiões de acesso. Em pedidos urgentes, qualquer detalhe que facilite localizar o endereço (pontos de referência, melhor acesso, sentido da via) reduz tempo de busca e melhora a chance de cumprir o combinado. Em frete, minutos acumulados viram horas no fim do dia.",
+      "Uma pergunta comum é: “Qual veículo eu preciso?”. Para volumes pequenos, uma utilitária pode resolver com agilidade; para móveis e eletros em maior quantidade, o baú facilita a proteção e a amarração. Itens longos (como tampos, portas ou estruturas) pedem atenção às dimensões internas do veículo, não só ao peso. O que mais atrasa é descobrir na hora que não cabe ou que precisa ir de lado, criando risco de empeno. Quando você informa medidas aproximadas e manda uma lista de itens, a recomendação do veículo fica mais assertiva e evita ida e volta desnecessária.",
+      "O tema ajudante também costuma gerar dúvida. Carregar e descarregar não é apenas força: envolve técnica para virar móveis sem raspar, equilibrar peso, usar cinta e proteger quinas. Em prédios sem elevador ou em casas com muitos degraus, uma pessoa a mais pode reduzir o tempo total e diminuir risco de danos. Por outro lado, em fretes simples (poucas caixas e itens leves), talvez você resolva com ajuda do próprio cliente. A melhor decisão aparece quando você avalia peso, quantidade, acessos e se haverá desmontagem/montagem.",
+      "Em fretes dentro de Franca, a organização do local de saída faz diferença. Deixar corredores livres, reservar um espaço para agrupar caixas e separar o que não vai na viagem evita confusão. Se você mora em condomínio, as regras de circulação e horários podem variar; por isso, vale confirmar com antecedência como funciona a movimentação de volumes e se existe local indicado para carga/descarga. Esse pequeno contato pode evitar ter que ficar esperando autorização ou reorganizando o veículo em cima da hora, o que impacta o custo do tempo parado.",
+      "Para quem tem urgência, o mais importante é transmitir as informações certas logo no primeiro contato. Endereço de coleta e entrega (com referência), lista do que vai, se tem escada, e o melhor horário para chegar costumam resolver 80% do planejamento. Se a carga for frágil, diga quais itens não podem ficar em pé, quais não podem ser empilhados e se há necessidade de manter em posição específica. Um frete urgente não precisa ser corrido; ele precisa ser objetivo e bem combinado. Assim, dá para reduzir risco e ainda manter agilidade.",
+      "Sobre prazos, é prudente lembrar que deslocamentos rodoviários podem sofrer variações por trânsito e obras, inclusive em corredores amplos do estado, como aqueles conectados à Anhanguera (SP-330) na lógica regional. Isso não é problema quando há margem no planejamento. Se o seu compromisso é horário fixo (ex.: entrega em estabelecimento com horário comercial), agende a coleta cedo e evite janelas apertadas. Também ajuda prever tempo para carregar com calma, amarrar corretamente e conferir itens. A pressa no carregamento é uma das causas mais comuns de avaria em transporte.",
+      "No fechamento do frete, combine o que está incluso: deslocamento, tempo de espera, ajudante, materiais de proteção e responsabilidade por desmontagem. Quando tudo está claro, a execução flui melhor. Se você vai acompanhar o carregamento, tenha uma lista simples (itens principais e quantidades) e confira na saída e na chegada. Em frete, transparência evita atrito: o prestador consegue precificar com honestidade, e você entende o que está pagando. O resultado é um serviço mais previsível — algo valioso tanto para mudanças quanto para entregas comerciais em Franca e região."
+    ],
+    "howSteps": [
+      "Você envia os dados do frete: endereços de coleta/entrega, data e horário desejados, além de referências para facilitar a chegada.",
+      "Informa o que será transportado (lista de itens), com destaque para peças grandes, frágeis, muito pesadas ou que precisem ir em posição específica.",
+      "Alinhamos acessos: escadas, elevador (se houver), distância do portão até o veículo e se existe local adequado para parar e carregar.",
+      "Definimos o veículo e os recursos necessários: tipo de carroceria, quantidade de ajudantes e nível de proteção (mantas, amarração, cantoneiras).",
+      "Você recebe o orçamento e confirma o que está incluído (carregamento, descarregamento, tempo de espera, desmontagem/montagem quando combinada).",
+      "No dia, a carga é organizada por prioridade e segurança: itens frágeis bem protegidos, peso distribuído e tudo travado para não se mover.",
+      "Seguimos a rota planejada, considerando os principais acessos da região (como SP-334/SP-345 quando aplicável) e as janelas de entrega combinadas.",
+      "Na chegada, fazemos a descarga com conferência básica dos volumes e posicionamento conforme sua orientação.",
+      "Se houver retorno, coleta extra ou segunda parada, isso é ajustado previamente para evitar surpresas de prazo e custo."
+    ],
+    "priceFactors": [
+      "Distância entre coleta e entrega e o tempo estimado de deslocamento (trânsito e rota influenciam).",
+      "Volume e peso da carga, incluindo necessidade de veículo maior ou mais viagens.",
+      "Tipo de acesso nos locais: escadas, corredores longos, falta de área para estacionar e necessidade de carregar na mão por trechos maiores.",
+      "Quantidade de ajudantes e tempo total de serviço (carregar, organizar, amarrar e descarregar).",
+      "Nível de proteção/embalagem e materiais usados (mantas, plástico-bolha, cantoneiras, filme stretch).",
+      "Desmontagem e montagem de móveis (quando solicitada) e complexidade do item.",
+      "Quantidade de paradas (coleta em mais de um ponto ou entregas em múltiplos destinos).",
+      "Janelas de horário e urgência: pedidos em cima da hora podem limitar opções de agenda.",
+      "Custos de rota aplicáveis (como pedágios e desvios), quando o trajeto for rodoviário."
+    ],
+    "prepChecklist": [
+      "Faça uma lista do que vai no frete e marque o que é frágil, pesado ou comprido.",
+      "Separe caixas por categoria (cozinha, quarto, documentos) e identifique com caneta grossa pelo menos dois lados.",
+      "Deixe itens de uso imediato em uma caixa “primeira noite” para não precisar revirar tudo na chegada.",
+      "Esvazie gavetas e prenda portas com fita adequada para evitar abertura durante o transporte.",
+      "Guarde parafusos e ferragens em saquinhos identificados e prenda no próprio móvel (ou em uma caixa específica).",
+      "Proteja quinas e superfícies sensíveis com papelão, manta ou tecido grosso; vidro pede atenção dobrada.",
+      "Desligue e descongele geladeira/freezer com antecedência quando aplicável, e evite transportar com água residual.",
+      "Organize o caminho de saída: retire tapetes, libere corredor e deixe as caixas agrupadas perto da porta.",
+      "Confirme com antecedência como será o acesso para carga/descarga (horário, portão, elevador se houver, local para parar).",
+      "Tenha uma pessoa disponível no horário combinado para orientar e tirar dúvidas de posicionamento na entrega."
+    ],
+    "scenarios": [
+      "Fretinho rápido para buscar compra grande (móvel, eletro, mesa, bicicleta) e entregar em casa com cuidado no manuseio.",
+      "Frete residencial dentro de Franca para levar caixas e móveis entre imóveis, com opção de ajudante conforme acesso.",
+      "Entrega comercial de caixas e mercadorias entre empresa, cliente e ponto de retirada, com organização por volumes.",
+      "Transporte de item único e delicado (vidro, equipamento, peça de decoração), com proteção reforçada e fixação no veículo.",
+      "Frete regional saindo de Franca para cidades vizinhas usando rotas comuns da região (como SP-334/SP-345), com planejamento de janela de entrega.",
+      "Coleta em um endereço e entrega em dois destinos diferentes, útil para separar itens de casa e de escritório na mesma viagem.",
+      "Frete para mudança pequena (kitnets e apartamentos compactos), priorizando agilidade e otimização do espaço no veículo."
+    ],
+    "faq": [
+      {
+        "q": "Vocês fazem fretes apenas dentro de Franca ou também para outras cidades?",
+        "a": "Atendemos fretes dentro de Franca e também rotas para cidades da região, conforme disponibilidade de agenda e tipo de carga. Para trajetos intermunicipais/interestaduais, o ideal é informar a janela de entrega para planejar rota e custo com mais precisão."
+      },
+      {
+        "q": "Como saber se preciso de caminhão baú ou utilitário?",
+        "a": "Depende do volume, das medidas dos itens e do nível de proteção necessário. Enviando uma lista do que vai (e medidas aproximadas de peças grandes), dá para indicar o veículo mais adequado e evitar viagens extras."
+      },
+      {
+        "q": "O que mais influencia o valor de um frete em Franca?",
+        "a": "Além da distância, pesam muito os acessos (escadas, corredor, vaga para parar), o tempo de carregamento e a necessidade de ajudantes. Materiais de proteção, desmontagem e número de paradas também entram no cálculo."
+      },
+      {
+        "q": "Vocês ajudam a carregar e descarregar?",
+        "a": "Pode ser combinado com ajudante, dependendo do que será transportado e do acesso no local. Em alguns casos, com itens leves e poucos volumes, o cliente prefere ajudar para reduzir tempo e custo."
+      },
+      {
+        "q": "Dá para fazer frete no mesmo dia?",
+        "a": "Às vezes sim, principalmente para trajetos curtos, mas depende da agenda e do tipo de carga. Quanto mais detalhes você passar logo no início, mais fácil verificar encaixe e estimar horário realista."
+      },
+      {
+        "q": "Posso transportar itens frágeis como espelhos e vidros?",
+        "a": "Sim, desde que sejam bem embalados e fixados para não sofrerem impacto durante o trajeto. Informe previamente as dimensões e a fragilidade para separar proteção adequada e posicionar no veículo com segurança."
+      },
+      {
+        "q": "Como funciona se o prédio tiver restrições de horário para mudança?",
+        "a": "Isso pode variar de condomínio para condomínio, então vale confirmar antes com a administração/portaria. Com a janela certa em mãos, dá para agendar a coleta e a entrega de modo a reduzir espera e remanejamentos."
+      },
+      {
+        "q": "Vocês desmontam e montam móveis?",
+        "a": "Quando solicitado, pode ser incluído, principalmente para itens grandes que não passam por portas ou elevadores. Avise com antecedência quais móveis precisam de desmontagem para estimar tempo e ferramentas necessárias."
+      },
+      {
+        "q": "É possível fazer mais de uma parada no mesmo frete?",
+        "a": "Sim, desde que as paradas sejam combinadas antes para organizar a carga e calcular o tempo de trajeto. Isso é útil para retirar itens em um ponto e distribuir em dois destinos, por exemplo."
+      },
+      {
+        "q": "O que devo informar para receber um orçamento mais certeiro?",
+        "a": "Endereços de coleta e entrega, data/horário, lista de itens, presença de escadas/elevador (se houver), e se precisa de ajudante ou proteção extra. Se puder, diga também se há item muito pesado ou com medida fora do padrão."
+      }
+    ],
+    "types": [
+      "Fretinho urbano (item único ou poucos volumes) para deslocamentos rápidos dentro de Franca",
+      "Frete residencial para pequenos e médios transportes de móveis, eletros e caixas",
+      "Frete comercial para entregas e coletas de mercadorias com separação por volumes",
+      "Frete regional/intermunicipal com planejamento de rota e janela de entrega",
+      "Frete com múltiplas paradas (coleta em um ponto e entregas em destinos diferentes)",
+      "Frete para itens frágeis e de acabamento sensível, com proteção e fixação reforçadas"
+    ],
+    "services": [
+      "Ajudante para carga e descarga, conforme peso, acesso e quantidade de volumes",
+      "Desmontagem e montagem de móveis (quando combinada previamente)",
+      "Embalagem e proteção adicional: mantas, plástico-bolha, filme stretch e cantoneiras",
+      "Organização e amarração da carga para reduzir deslocamento interno no baú",
+      "Coleta agendada com janela de horário e otimização de rota para reduzir tempo de espera"
+    ],
+    "sectionTitles": {
+      "demands": "Correria resolvida: quando o frete precisa acontecer sem enrolação",
+      "coverage": "De Franca para a região: rotas típicas e alcance do atendimento",
+      "whatToSend": "O que vai no carro? Como descrever sua carga do jeito certo",
+      "availability": "Agenda e horários: como encaixar coleta e entrega com menos espera",
+      "whenYes": "Sinais de que dá para executar com tranquilidade",
+      "whenNo": "Situações em que vale ajustar o plano antes de seguir",
+      "pricing": "Preço de frete em Franca: o que pesa no orçamento (de verdade)",
+      "commonScenarios": "Casos do dia a dia: fretes que mais saem em Franca",
+      "types": "Tipos de frete em Franca: do fretinho ao baú para carga maior",
+      "services": "Extras que ajudam (e evitam perrengue) no transporte",
+      "howItWorks": "Como o frete em Franca acontece na prática: do primeiro contato à descarga",
+      "completeGuide": "Guia completo de fretes em Franca (SP) para contratar sem dúvida",
+      "preparation": "Preparação inteligente: o que separar antes do veículo chegar",
+      "neighborhoods": "Atendimento por regiões: Centro e principais áreas de Franca",
+      "testimonials": "Relatos de clientes: o que costumam valorizar no serviço"
+    },
+    "sectionDescriptions": {
+      "demands": "Entenda como organizar um frete com urgência em Franca sem perder segurança: quais informações aceleram a confirmação, como escolher horários e o que muda quando a coleta precisa ser imediata.",
+      "coverage": "Uma visão prática de como Franca se conecta às cidades próximas e ao interior, com referências de deslocamento pela SP-334 e SP-345 para ajudar você a planejar prazos e combinar janelas de entrega.",
+      "whatToSend": "Um roteiro simples para você descrever itens, medidas, fragilidades e necessidades de proteção, evitando surpresa na hora do carregamento e deixando o orçamento mais alinhado à realidade.",
+      "availability": "Dicas para definir data e horário com mais previsibilidade: folga para carregamento, impacto de trânsito/obras e como reduzir tempo parado em coleta e entrega.",
+      "pricing": "Uma explicação transparente dos fatores que formam o preço do frete em Franca, incluindo acessos, tempo de serviço, paradas, rota e serviços adicionais que podem (ou não) valer a pena.",
+      "commonScenarios": "Exemplos reais de uso do frete no cotidiano local: compras, entregas comerciais, pequenos deslocamentos residenciais e rotas regionais, com foco no que muda na prática em cada caso.",
+      "types": "Comparação entre tipos de frete para escolher o formato adequado: do item único à carga maior, com observações sobre quando vale priorizar agilidade, proteção ou capacidade.",
+      "services": "Serviços complementares que deixam o transporte mais redondo, como ajudante, desmontagem e materiais de proteção, com orientação de quando cada extra faz diferença.",
+      "howItWorks": "Um passo a passo direto para você saber o que acontece desde o primeiro contato até a descarga, incluindo alinhamento de acessos, definição de veículo e organização da carga.",
+      "completeGuide": "Conteúdo pilar para contratar frete em Franca com confiança: planejamento, rotas regionais, cuidados com itens frágeis, organização de mudança pequena e dicas para evitar atrasos.",
+      "preparation": "Checklist prático para preparar caixas, móveis e acessos antes do frete, reduzindo risco de avaria e ganhando tempo na coleta e na entrega.",
+      "neighborhoods": "Cobertura descrita de forma ampla e útil, sem listas engessadas: como atendimentos costumam funcionar no Centro e nas principais regiões de Franca, considerando acessos e logística.",
+      "testimonials": "Uma seção para destacar percepções comuns de quem contrata frete: comunicação clara, cuidado com a carga, pontualidade combinada e organização no carregamento."
+    },
+    "_approxWords": 3097
+  },
+  "mudancas": {
+    "introParagraphs": [
+      "Fazer mudança em Franca pede organização e uma logística que converse com o ritmo da cidade. Por ser um polo no nordeste paulista, perto da divisa com Minas Gerais, é comum ter mudanças que começam dentro do município e terminam em cidades do entorno — ou até em outro estado. Isso muda o tipo de veículo, o planejamento de rota e até a forma de embalar, especialmente quando o trajeto inclui trechos mais longos.",
+      "Nesta página, você encontra um guia bem prático para mudanças residenciais e comerciais em Franca (SP): o que informar no orçamento, como preparar os itens, como evitar imprevistos em dias de maior movimento e como pensar rotas usando acessos regionais como a SP-334 e a SP-345. A ideia é você entender o processo inteiro e conseguir comparar propostas com clareza, sem surpresas no dia."
+    ],
+    "guideParagraphs": [
+      "Em Franca, uma mudança bem-feita costuma começar antes do caminhão: começa na leitura do cenário. Você vai sair de casa ou de empresa? Tem elevador ou escadas? Existe área de carga e descarga ou o veículo precisa parar na rua? Em algumas vias mais movimentadas, a janela de parada pode ser curta, então combinar horários ajuda a evitar correria. Quando o destino é outra cidade, vale ainda pensar no horário de saída para pegar o trânsito mais leve e reduzir tempo de veículo parado.",
+      "A cidade tem um papel regional forte e isso aparece na prática: muita gente se muda entre Franca e municípios próximos, seja por trabalho, estudo, família ou expansão de negócio. Nesse tipo de deslocamento, rotas pela SP-334 (Cândido Portinari) e pela SP-345 entram como caminhos naturais, mas o melhor percurso pode variar com obras, ocorrências e horários. Por isso, planejar com folga e não deixar tudo para o último dia costuma ser o que separa uma mudança tranquila de uma mudança estressante.",
+      "Um ponto que facilita a conversa com a equipe de mudança é descrever o volume de forma realista. Nem sempre “é pouca coisa” significa pouca coisa: caixas, sacos, itens desmontados e objetos volumosos (como sofá, geladeira, cama box) mudam a necessidade de espaço e de mão de obra. Se você puder, faça uma lista por cômodo e inclua medidas aproximadas dos itens grandes. Fotos ajudam muito no orçamento, desde que mostrem o conjunto e não só detalhes isolados.",
+      "Mudança residencial em Franca costuma ter dois desafios clássicos: itens frágeis e itens pesados. O frágil precisa de proteção e de uma forma de empilhar que não amasse; o pesado exige técnica e planejamento para não machucar ninguém e não danificar paredes e piso. Um bom combinado é separar o que vai por último (roupas do dia, itens de higiene, documentos) em uma mala ou caixa “abre primeiro”. Parece simples, mas reduz aquela caça ao carregador e à cafeteira no meio do caos.",
+      "Para mudança comercial, o raciocínio muda: o objetivo geralmente é reduzir tempo de parada. Isso pede organização por setores (ex.: recepção, estoque, administrativo), etiqueta visível e uma ordem de carregamento que reflita a ordem de montagem no destino. Em Franca, onde muitos negócios atendem toda a região, a mudança pode envolver equipamentos, arquivos e mercadorias; nesses casos, é importante alinhar o que vai no mesmo volume, o que precisa de cuidado extra e o que deve ir separado para conferência rápida na chegada.",
+      "A embalagem é o coração da mudança, e dá para acertar sem complicar. Caixas firmes, bem fechadas e com distribuição de peso fazem diferença na segurança e no tempo de carga. Itens como louças e vidros pedem proteção individual e preenchimento para evitar que a peça “dance” dentro da caixa. Roupas podem ir em caixas maiores ou sacos resistentes, mas o ideal é manter padrão e não exagerar no peso. Colocar rótulo com cômodo e uma palavra de alerta (“frágil”, “este lado para cima”) ajuda a equipe a trabalhar com mais precisão.",
+      "Em mudanças dentro de Franca, o tipo de veículo pode variar bastante. Às vezes uma mudança de apartamento compacto cabe em um veículo menor; outras vezes, uma casa com área externa e muitos volumes pede caminhão e mais ajudantes. Para evitar retrabalho, é melhor dimensionar pelo volume total e pelas restrições de acesso no ponto de coleta e no destino. Ruas estreitas, rampas, garagem apertada ou necessidade de manobra podem influenciar a escolha do veículo e até o melhor horário para executar.",
+      "Quando a mudança é intermunicipal ou interestadual (algo relativamente comum pela posição de Franca próxima à divisa), o planejamento ganha mais camadas: tempo de estrada, paradas necessárias, risco de chuva no percurso e regras de carregamento para manter estabilidade. Em corredores estaduais movimentados — como trechos conectados ao eixo da Anhanguera (SP-330) — pode haver obras e interdições pontuais, então a recomendação é agendar com margem e evitar janelas muito “no limite”, principalmente se o destino tiver horário de recebimento.",
+      "Uma referência local que às vezes ajuda na explicação de localização é o Aeroporto Estadual de Franca, relativamente próximo ao centro. Não significa que a mudança vá “passar pelo aeroporto”, mas é um ponto de orientação fácil para combinar acessos e entender a região do cliente sem expor endereço. Em geral, quanto mais claro você descreve o caminho e as condições do local, mais preciso fica o orçamento e menor a chance de ajuste no dia.",
+      "Sobre desmontagem e montagem: se você tem móveis planejados, camas, guarda-roupas ou estantes grandes, combine antes o que será desmontado e como será embalado. Peças com muitos parafusos e ferragens pedem organização (sacos identificados, fita, fotos do antes). Isso economiza tempo na remontagem e evita perdas. Em mudanças comerciais, a mesma lógica vale para mesas, cadeiras, prateleiras e equipamentos: separar cabos e etiquetar conexões pode acelerar a volta à rotina no novo endereço.",
+      "Condomínios e prédios podem ter regras próprias, e isso pode variar bastante. Em alguns casos, há necessidade de agendamento de elevador, definição de horário de mudança ou orientação sobre uso de áreas comuns. O melhor caminho é você confirmar com antecedência com a administração ou portaria, e repassar à equipe de mudança. Assim, dá para alinhar a sequência do serviço e evitar espera desnecessária com caminhão parado, o que costuma impactar no tempo total e, em alguns casos, no custo final.",
+      "Um jeito simples de evitar estresse é definir um “responsável do dia”: alguém que saiba onde estão as coisas importantes e consiga responder perguntas rápidas (o que vai, o que fica, o que é frágil, o que precisa ir por último). Na prática, isso evita decisões no improviso. Se houver criança, idoso ou pet, vale planejar um espaço seguro e separado durante a carga e descarga. Mudança é movimentação, portas abertas e muita gente circulando — organizar esse lado humano deixa tudo mais leve.",
+      "Para quem vai de Franca para cidades vizinhas ou para o Triângulo Mineiro, a dica é tratar como projeto: separação por etapas, conferência de volumes e um combinado de comunicação durante o trajeto. Nem todo mundo precisa ficar acompanhando o veículo, mas é útil ter um ponto de contato e horários aproximados. Se o destino for casa recém-reformada, proteja pisos e cantos com antecedência; se for escritório, deixe o layout decidido para descarregar e posicionar sem ficar arrastando móvel para lá e para cá.",
+      "Por fim, vale lembrar que orçamento bom é orçamento bem descrito. Quando você informa volume, acessos, distância, necessidade de embalagem e desmontagem, a proposta tende a ficar mais justa e comparável. Desconfie de valores muito “no escuro” sem entender o seu cenário. Em Franca e região, a mudança costuma fluir melhor quando cliente e equipe falam a mesma língua: o que vai, como vai, quando vai e quais cuidados são inegociáveis (frágeis, eletrônicos, itens de valor afetivo)."
+    ],
+    "howSteps": [
+      "Você descreve a mudança: origem e destino (em Franca ou outra cidade), tipo de imóvel, quantidade de cômodos e itens grandes.",
+      "Você envia fotos ou uma lista por ambientes para dimensionar volume, necessidade de embalagem e número de ajudantes.",
+      "A equipe sugere o melhor formato de atendimento (veículo, equipe, materiais) e uma janela de horário que reduza riscos de espera.",
+      "Se houver desmontagem/montagem, alinhamos quais móveis entram no serviço e como as ferragens serão identificadas.",
+      "No dia, fazemos a proteção e acomodação dos volumes, com atenção especial a frágeis, eletrônicos e itens pesados.",
+      "Transporte com rota planejada; em trajetos maiores, consideramos alternativas caso haja trânsito, obras ou ocorrências no caminho.",
+      "Na chegada, descarregamos por cômodos/setores conforme etiquetagem, facilitando organização e evitando caixas no lugar errado.",
+      "Conferência final: checamos volumes combinados e orientamos sobre descarte de embalagens e priorização do “abre primeiro”."
+    ],
+    "priceFactors": [
+      "Distância e tipo de trajeto: mudança dentro de Franca costuma ser diferente de uma rota intermunicipal pela SP-334/SP-345 ou de uma viagem mais longa no interior.",
+      "Volume total e itens volumosos: quantidade de caixas, móveis grandes, eletrodomésticos e objetos que exigem cuidado especial.",
+      "Acessos e esforço de carga/descarga: escadas, elevador, garagem apertada, necessidade de caminhar mais com os volumes e dificuldade de manobra.",
+      "Necessidade de desmontagem e montagem: móveis planejados ou estruturas grandes tendem a exigir mais tempo e organização.",
+      "Embalagem e proteção: inclusão de materiais (plástico bolha, mantas, caixas) e tempo gasto para embalar corretamente.",
+      "Janela de atendimento: mudanças com horário muito restrito, ou em dias de maior movimento, podem exigir planejamento mais fino.",
+      "Risco operacional e clima: chuva e ocorrência de interdições/obras podem alterar tempos; agendar com folga reduz chance de ajustes.",
+      "Seguro/declaração de itens: quando aplicável, a forma de cobrir riscos e declarar itens específicos pode influenciar o custo."
+    ],
+    "prepChecklist": [
+      "Faça uma triagem antes: separe doação, descarte e o que realmente vai, para não pagar transporte de coisa inútil.",
+      "Monte uma caixa/mala de sobrevivência: documentos, remédios, carregadores, roupa de troca, itens de higiene e um kit básico de limpeza.",
+      "Etiquete por cômodo e prioridade: use ‘abre primeiro’, ‘frágil’ e ‘pesado’ para orientar a acomodação e a descarga.",
+      "Esvazie e descongele geladeira/freezer com antecedência, respeitando o tempo necessário para secar e evitar vazamentos.",
+      "Fotografe ligações e cabos (TV, modem, computador) e guarde parafusos/ferragens em saquinhos identificados.",
+      "Avise vizinhos/portaria quando fizer sentido e confirme regras locais, pois horários e procedimentos podem variar.",
+      "Separe itens de valor afetivo ou sensíveis (joias, documentos importantes) para levar com você, se preferir."
+    ],
+    "scenarios": [
+      "Mudança de apartamento para casa em Franca, com prioridade em proteger eletrodomésticos e organizar descarga por cômodos.",
+      "Troca de ponto comercial dentro da cidade, focando em reduzir tempo de parada e descarregar por setores.",
+      "Mudança de Franca para cidades da região usando acessos pela SP-334 ou SP-345, com planejamento de rota e janela de recebimento.",
+      "Mudança interestadual por conta da proximidade com a divisa, com atenção a embalagem reforçada e conferência de volumes.",
+      "Transporte de itens grandes (sofá, cama, armários) como complemento de mudança menor, quando não vale um caminhão cheio.",
+      "Mudança com restrição de horário no prédio, exigindo sequência de carga e descarga bem amarrada para evitar espera.",
+      "Mudança após reforma, com cuidado extra para não riscar pisos e para posicionar móveis no layout correto já na primeira tentativa."
+    ],
+    "faq": [
+      {
+        "q": "Vocês fazem mudanças só dentro de Franca ou também para outras cidades?",
+        "a": "Atendemos mudanças dentro de Franca e também rotas para cidades do entorno, além de deslocamentos mais longos no interior. Como Franca é um polo regional, esse tipo de pedido é comum. O ideal é informar origem, destino e janela de horário para montarmos a logística."
+      },
+      {
+        "q": "Como consigo um orçamento mais preciso sem visita presencial?",
+        "a": "Uma lista por cômodo e fotos dos itens maiores já ajudam bastante a dimensionar volume e equipe. Informações sobre escadas, elevador e local de parada do veículo também fazem diferença. Quanto mais claro o cenário, menor a chance de ajustes no dia."
+      },
+      {
+        "q": "O que costuma encarecer uma mudança em Franca?",
+        "a": "Normalmente, acesso difícil (escadas, longas distâncias a pé, manobra complicada), muitos volumes e necessidade de desmontagem/montagem. Materiais de embalagem e janelas de horário muito curtas também podem impactar. Cada mudança tem um “peso” diferente no tempo total do serviço."
+      },
+      {
+        "q": "Vocês desmontam e montam móveis?",
+        "a": "Podemos alinhar desmontagem e montagem conforme o tipo de mobiliário e a necessidade do cliente. Em móveis com muitas ferragens, a identificação e a organização das peças é essencial. Combine previamente quais itens entram para evitar correria na hora."
+      },
+      {
+        "q": "Como funciona a proteção de itens frágeis e eletrônicos?",
+        "a": "Frágeis vão com proteção individual e acomodação pensada para evitar pressão e impacto. Eletrônicos costumam viajar melhor em caixas firmes, com preenchimento e sem peso por cima. Se você tiver caixa original, costuma ajudar, mas não é obrigatório."
+      },
+      {
+        "q": "Dá para agendar a mudança em horário específico?",
+        "a": "Sim, dá para trabalhar com janelas de horário, mas a disponibilidade pode variar conforme a data e o trajeto. Em rotas maiores, é recomendável agendar com folga por causa de possíveis variações de trânsito e ocorrências. Quanto antes você reservar, mais opções costuma ter."
+      },
+      {
+        "q": "Vocês atendem condomínios? Tem alguma regra padrão?",
+        "a": "Atendemos condomínios, mas regras de mudança podem variar de prédio para prédio. O mais seguro é você confirmar horários e procedimentos com a administração/portaria e repassar para a equipe. Isso evita espera e desencontro na chegada."
+      },
+      {
+        "q": "Posso levar pets ou crianças durante a mudança?",
+        "a": "É possível, mas costuma ser mais confortável e seguro planejar um espaço separado ou alguém para ajudar no cuidado durante a movimentação. Mudança envolve portas abertas, circulação e ruído. Com um plano simples, o dia flui melhor para todo mundo."
+      },
+      {
+        "q": "Qual é a melhor forma de organizar as caixas para descarregar rápido?",
+        "a": "Etiquete por cômodo e inclua uma prioridade (ex.: ‘abre primeiro’). Se for mudança comercial, organize por setores e agrupe itens que montam juntos. Na chegada, isso reduz caixa fora do lugar e acelera a organização."
+      },
+      {
+        "q": "Mudanças para a região de divisa com Minas exigem algum cuidado extra?",
+        "a": "Em trajetos mais longos, a embalagem reforçada e a estabilidade da carga ganham ainda mais importância. Também ajuda combinar horários de recebimento e evitar janelas apertadas. Rotas podem variar conforme trânsito e obras, então o planejamento com folga costuma ser uma escolha inteligente."
+      }
+    ],
+    "checklist": [
+      "Orçamento guiado por informações: pedimos detalhes do acesso e dos volumes para reduzir surpresas no dia.",
+      "Planejamento de carregamento: organizamos a ordem de entrada dos itens para facilitar a descarga por cômodo/setor.",
+      "Proteção conforme o tipo de item: atenção especial para frágeis, quinas, eletrônicos e superfícies que riscam fácil.",
+      "Comunicação simples durante o serviço: combinamos pontos de contato e alinhamos decisões rápidas sem ruído.",
+      "Conferência na entrega: checamos volumes e prioridades (como a caixa ‘abre primeiro’) antes de encerrar.",
+      "Flexibilidade de rota quando necessário: consideramos alternativas em caso de trânsito, obras ou ocorrências.",
+      "Cuidado com o ambiente: buscamos evitar marcas em paredes, portas e pisos, usando proteção e manuseio correto."
+    ],
+    "sectionTitles": {
+      "demands": "Mudança com prazo curto em Franca: como ganhar tempo sem perder controle",
+      "coverage": "De Franca para o mapa ao redor: rotas e deslocamentos que fazem sentido na região",
+      "whatToSend": "O que levar na mudança em Franca (e o que é melhor ir no seu carro)",
+      "availability": "Agenda, janelas de horário e melhor dia: combinando sem dor de cabeça",
+      "whenYes": "Quando a mudança flui redonda",
+      "whenNo": "Quando pausar e ajustar a mudança em Franca antes de carregar",
+      "pricing": "Preço de mudança em Franca: como entender a proposta sem pegadinhas",
+      "commonScenarios": "Situações comuns de mudança em Franca (e como se preparar para cada uma)",
+      "types": "Formatos de mudança para atender seu volume e sua rotina",
+      "services": "Serviços que ajudam de verdade (além do transporte)",
+      "howItWorks": "Do primeiro contato à última caixa: o passo a passo do atendimento",
+      "completeGuide": "Guia completo de mudanças em Franca (SP): planejamento, rota e execução",
+      "preparation": "Preparação prática: o que fazer na semana e no dia da mudança",
+      "neighborhoods": "Atendimento no Centro e nas principais regiões de Franca (sem complicação)",
+      "testimonials": "Relatos de quem mudou com mais tranquilidade: experiências do dia a dia"
+    },
+    "sectionDescriptions": {
+      "demands": "Para quem precisa mudar rápido em Franca, esta seção mostra como priorizar o essencial, organizar caixas por urgência e evitar que a pressa vire custo extra. A ideia é reduzir retrabalho e alinhar expectativas sobre tempo, rota e equipe.",
+      "coverage": "Aqui você entende como a posição regional de Franca influencia mudanças para cidades próximas e viagens mais longas, com referências de acesso como SP-334 e SP-345. Sem prometer tempo fixo, explicamos como pensar rota, horários e janelas de recebimento.",
+      "whatToSend": "Uma mudança eficiente começa no que entra (e no que não entra) no transporte. Nesta parte, você encontra orientações sobre itens frágeis, pesados, sensíveis e o que é melhor levar com você para manter segurança e praticidade.",
+      "availability": "Nem todo horário funciona do mesmo jeito: trânsito, restrições de recebimento e rotina do prédio podem mudar o jogo. Esta seção ajuda a escolher datas e janelas com mais previsibilidade, especialmente para mudanças intermunicipais.",
+      "pricing": "Você vai ver quais variáveis realmente formam o preço: volume, acessos, distância, embalagem e tempo de serviço. O objetivo é você comparar propostas com critérios claros e decidir com confiança, sem depender de “achismos”.",
+      "commonScenarios": "Mudança residencial, mudança comercial, troca de apartamento, reforma recente e trajetos para fora da cidade: reunimos cenários frequentes em Franca. Para cada um, mostramos um jeito prático de organizar e reduzir imprevistos.",
+      "types": "Nem toda mudança precisa do mesmo formato de atendimento. Aqui explicamos opções de acordo com volume, urgência e nível de serviço, para você escolher o que encaixa no seu momento sem pagar por algo que não vai usar.",
+      "services": "Além de carregar e transportar, alguns serviços complementares trazem ganho real de tempo e segurança. Nesta seção, você entende quando vale incluir embalagem, desmontagem/montagem e proteção extra.",
+      "howItWorks": "Um passo a passo claro ajuda a evitar mal-entendidos no dia. Nesta parte, mostramos como reunir informações, dimensionar a mudança, executar carga e descarga e finalizar com conferência do que foi combinado.",
+      "completeGuide": "Conteúdo pilar para quem quer fazer mudança em Franca com planejamento e calma: desde o levantamento de volumes até dicas de rota e organização. A proposta é ser útil tanto para mudanças locais quanto para deslocamentos na região de divisa.",
+      "preparation": "Uma lista de preparação bem feita corta pela metade a sensação de bagunça. Aqui você encontra ações simples para os dias anteriores, cuidados com eletros, etiquetação e o que separar para o “primeiro dia” no novo lugar.",
+      "neighborhoods": "Sem depender de listas desatualizadas, explicamos como atendemos o Centro e diferentes regiões de Franca com orientação por pontos e acessos. O foco é alinhar logística de chegada, manobra e descarregamento conforme o seu endereço.",
+      "testimonials": "Depoimentos e percepções reais ajudam a visualizar como a mudança acontece na prática. Esta seção reúne exemplos de experiências que destacam organização, comunicação e cuidados com itens sensíveis."
+    },
+    "_approxWords": 3035
+  },
+  "urgente": {
+    "introParagraphs": [
+      "Precisa de frete urgente em Franca (SP) e quer alguém que chegue com agilidade, mas sem improviso? Em entrega rápida, o que resolve não é só “correr”: é confirmar medidas, combinar janela de retirada e já sair com a rota certa. Como Franca é um polo no nordeste paulista, perto da divisa com Minas, é comum aparecer demanda de última hora para cidades da região e até atravessando estado — e aí planejamento faz diferença.",
+      "Nesta página você encontra um guia prático para organizar um frete urgente dentro de Franca, para o entorno e para corredores regionais. A SP-334 (Rodovia Cândido Portinari) e a SP-345 ajudam a entender por onde o deslocamento costuma fluir, e por que certos horários funcionam melhor. A ideia aqui é simples: reduzir idas e vindas, evitar custos desnecessários e aumentar a chance de o seu envio sair no mesmo dia, quando as condições permitem."
+    ],
+    "guideParagraphs": [
+      "FRETE URGENTE, NA PRÁTICA, É UMA SOMA DE DECISÕES RÁPIDAS. Em Franca, isso costuma começar com duas perguntas: “o que exatamente vai?” e “quando precisa estar no destino?”. Quanto mais claro você for sobre volume, peso aproximado e fragilidade, mais fácil fica dimensionar veículo e equipe sem tentativa e erro. Em emergência, não dá tempo de fazer três viagens por falta de informação. Se a retirada for em prédio ou comércio, vale avisar sobre restrições de acesso, elevador e doca — isso pode variar de lugar para lugar e muda totalmente o tempo de carregamento.",
+      "POR SER CIDADE POLO NA REGIÃO, FRANCA TEM MUITA MOVIMENTAÇÃO INTERMUNICIPAL. É comum surgir frete rápido para cidades vizinhas, para o interior de São Paulo e para a região de divisa com Minas Gerais. Nesses casos, a escolha do caminho influencia o prazo: a SP-334 costuma ser referência para ligações regionais, e a SP-345 pode ser alternativa útil dependendo do destino. Em serviços urgentes, rota não é só distância no mapa; é previsibilidade de tráfego e pontos de apoio para carga e descarga.",
+      "UM PONTO QUE MUITA GENTE ESQUECE: A URGÊNCIA É TAMBÉM NA COLETA. Se você precisa que o motorista chegue e já saia, é importante deixar tudo minimamente separado. Quando o item está “espalhado” pela casa ou loja, o tempo estoura e o frete urgente vira uma corrida contra relógio. Uma boa prática é concentrar o que vai na área mais próxima do portão/garagem, etiquetar caixas por cômodo e separar o que não pode ir junto (produtos de limpeza, itens muito frágeis ou documentos).",
+      "QUANDO O FRETE É COMERCIAL, O DESAFIO MUDA. Muitas vezes a urgência vem de reposição de estoque, equipamento que parou ou entrega prometida ao cliente final. Para isso, ajuda informar se a nota fiscal já está emitida (quando aplicável), se há conferência de itens na retirada e se o destinatário recebe em horário comercial. Também é útil combinar previamente quem assina recebimento e onde o veículo pode encostar. Em entregas rápidas, o gargalo costuma ser o “último metro”: entrar, descarregar, conferir e liberar.",
+      "SOBRE JANELA DE HORÁRIO: EM RODOVIAS E CORREDORES DO ESTADO PODE HAVER INTERDIÇÕES PONTUAIS. Isso pode acontecer por obras, ocorrências ou trânsito mais carregado em horários específicos. Por isso, mesmo no urgente, faz sentido planejar uma folga realista: às vezes 30–60 minutos extras evitam atraso em cadeia (retirada, entrega, retorno). Se o trajeto passar por eixos maiores do estado, como regiões do corredor da Anhanguera (SP-330), considere que a fluidez pode variar bastante ao longo do dia.",
+      "PARA FRETES DENTRO DE FRANCA, O TEMPO DE SERVIÇO DEPENDE MENOS DA DISTÂNCIA E MAIS DO ACESSO. Ruas com parada rápida, portões estreitos, escadas e ausência de área de carga podem transformar uma entrega curta em um atendimento demorado. Se houver necessidade de subir volumes por escada ou desmontar móvel, avise antes: isso muda equipe, ferramentas e tempo. Em serviço urgente, surpresas são o que mais gera custo extra e frustração — e quase sempre dá para evitar com um checklist simples.",
+      "A PROXIMIDADE DO AEROPORTO ESTADUAL DE FRANCA (FRC) É UMA REFERÊNCIA LOGÍSTICA ÚTIL, MESMO QUANDO O FRETE É RODOVIÁRIO. Às vezes o cliente usa o aeroporto como ponto de localização (“perto de tal acesso”) ou como marco para planejar janelas de coleta. A ideia aqui não é prometer operação aérea, e sim entender que Franca tem referências de deslocamento e acessos que ajudam a orientar o motorista e reduzir tempo perdido procurando entradas e portarias.",
+      "TIPO DE VEÍCULO: O “CERTO” É O QUE EVITA REBOQUE E EVITA VIAGEM DUPLA. Um item pequeno e valioso pode pedir um transporte mais dedicado e com melhor acondicionamento, enquanto caixas e volumes leves podem ir em veículo compacto. Já para mudanças urgentes (mesmo que pequenas), costuma funcionar melhor um veículo que permita empilhamento seguro e amarração interna. Em Franca e região, escolher o tamanho adequado também ajuda a estacionar e manobrar com menos dor de cabeça em áreas movimentadas.",
+      "SOBRE EMBALAGEM: URGENTE NÃO SIGNIFICA SEM PROTEÇÃO. Papelão reforçado, plástico bolha e mantas mudam totalmente o risco de avaria, principalmente em estrada. Para móveis, cantoneiras e filme stretch ajudam a evitar lascas e arranhões. Para eletrônicos, o ideal é caixa com sobra e preenchimento interno; se não tiver, dá para improvisar com materiais adequados — desde que feito com cuidado. O ponto é: o tempo que você “economiza” pulando a embalagem costuma aparecer depois em reparo, perda ou retrabalho.",
+      "FRETE URGENTE PARA A REGIÃO: COMO A ROTA AFETA O ORÇAMENTO. Quando a entrega é fora de Franca, entram fatores como pedágio (quando houver), quilometragem, tempo total de viagem e se haverá retorno vazio. Rotas pela SP-334 e conexões regionais podem ser mais diretas para alguns destinos; a SP-345 pode fazer sentido em outros. E ainda existe a variável da janela do destinatário: se o local só recebe em um período curto, pode ser necessário aguardar, o que impacta o valor final.",
+      "DEFINIR “URGENTE” COM CRITÉRIO EVITA DESGASTE. Urgente pode ser “retirar em até 2 horas”, “entregar ainda hoje” ou “não pode passar de amanhã cedo”. Cada cenário exige um tipo de encaixe na agenda e, às vezes, um atendimento dedicado. Se você for transparente sobre flexibilidade (ex.: “posso receber até 18h”), aumenta a chance de achar um encaixe rápido por um preço mais equilibrado. Quando o horário é rígido, a operação precisa ser montada ao redor do seu prazo.",
+      "MUDANÇA URGENTE (OU PARCIAL) TEM UMA PEGADINHA: O QUE FICA PARA TRÁS. Em correria, é comum esquecer que alguns itens precisam de desmontagem, outros não cabem em elevador, e alguns não devem ser transportados junto. Separar “vai agora” e “vai depois” é um alívio. Se for uma mudança pequena em Franca, uma estratégia eficiente é priorizar cama, geladeira, roupas e itens de trabalho; o restante pode ser agendado com mais calma, se fizer sentido.",
+      "SEGURANÇA E RESPONSABILIDADE: O COMBINADO PRECISA ESTAR CLARO. Antes de iniciar, alinhe o que está incluso: carregadores, número de ajudantes, desmontagem, embalagem, tempo de espera, subida por escada, e se haverá necessidade de paradas adicionais. Em frete urgente, ajustes de última hora são comuns, mas devem ser combinados para não virar surpresa no final. Também ajuda tirar fotos do estado de móveis/eletros antes do transporte e identificar caixas frágeis, para o manuseio ser compatível.",
+      "POR FIM, UMA DICA DE OURO PARA FRANCA E REGIÃO: INFORME REFERÊNCIAS, MAS SEM EXAGEROS. Um ponto de referência conhecido (avenida principal, proximidade de rodovia, comércio próximo) facilita a chegada. Porém, o que acelera mesmo é garantir que alguém esteja disponível na retirada e na entrega, com acesso liberado. Se você depende de terceiros (porteiro, gerente, cliente final), confirme antes. No urgente, o maior inimigo é chegar no local e descobrir que ninguém pode receber."
+    ],
+    "howSteps": [
+      "Explique a urgência em uma frase: retirada e entrega até quando (com tolerância, se houver).",
+      "Liste o que vai: quantidade de volumes, dimensões aproximadas, peso estimado e se há itens frágeis.",
+      "Diga os pontos de retirada e entrega em Franca/ região e informe referências para facilitar acesso (sem expor dados sensíveis).",
+      "Avise sobre condições de carga/descarga: escadas, elevador, necessidade de ajudante extra, corredor estreito, tempo de espera possível.",
+      "Combine o veículo e o tipo de acondicionamento: mantas, amarração, caixas, plástico bolha, filme stretch.",
+      "Confirme a rota e a janela de trânsito: se o caminho tende a passar por eixos como SP-334/SP-345 e horários mais críticos.",
+      "Separe e identifique os itens antes da chegada: caixas fechadas, etiquetas por ambiente/ordem de entrega, itens essenciais à mão.",
+      "No local, faça uma checagem rápida do estado dos itens e alinhe a ordem de carregamento (frágeis por último ou protegidos).",
+      "Ao entregar, faça conferência simples e registre a finalização (combinando recibo/assinatura quando aplicável)."
+    ],
+    "priceFactors": [
+      "Distância total e tempo estimado (frete urbano em Franca x intermunicipal/interestadual).",
+      "Urgência e necessidade de atendimento dedicado (encaixe imediato costuma custar mais do que agendado).",
+      "Volume/peso e dimensões: o que define o veículo e se será uma ou mais viagens.",
+      "Dificuldade de acesso: escadas, ausência de vaga para parar, longas distâncias até a porta, restrições locais que podem variar.",
+      "Quantidade de ajudantes e serviços extras (embalagem, desmontagem, remontagem, proteção com mantas).",
+      "Tempo de espera em retirada/entrega e janelas rígidas do destinatário.",
+      "Rota e custos de deslocamento (pedágios quando houver, retorno vazio, paradas adicionais).",
+      "Tipo de carga (frágil, valiosa, sensível a vibração) e necessidade de acondicionamento reforçado."
+    ],
+    "prepChecklist": [
+      "Separar tudo o que vai no frete e deixar em um único ponto da casa/empresa.",
+      "Medir os itens maiores (altura x largura x profundidade) e anotar.",
+      "Fotografar itens frágeis ou com acabamento sensível antes de embalar.",
+      "Providenciar caixas, fita, plástico bolha e/ou mantas (ou combinar para levar).",
+      "Etiquetar caixas por destino e prioridade (ex.: “abrir primeiro”, “frágil”).",
+      "Desmontar o que for possível com segurança e guardar parafusos em saquinhos identificados.",
+      "Descongelar/limpar eletros quando necessário e esperar o tempo adequado antes do transporte.",
+      "Separar documentos, chaves, joias e itens pessoais para levar com você, não no caminhão.",
+      "Confirmar com antecedência quem vai receber no destino e qual a janela de horário.",
+      "Verificar se há necessidade de autorização/agenda de portaria ou doca (pode variar conforme o local)."
+    ],
+    "scenarios": [
+      "Entrega rápida de mercadoria para cliente em Franca, com retirada em fornecedor local e entrega em horário comercial.",
+      "Coleta urgente de equipamento para assistência técnica e devolução no mesmo dia, quando a agenda permite.",
+      "Mudança pequena de última hora (cama, geladeira e caixas essenciais) para liberar imóvel ou cumprir prazo.",
+      "Transporte expresso para cidades do entorno usando eixos como SP-334/SP-345, com janela de entrega combinada.",
+      "Remanejamento interno de empresa: levar mobiliário e arquivos entre duas unidades na cidade.",
+      "Frete de item volumoso comprado em loja (móvel/eletro), com subida por escada ou acesso apertado informado previamente.",
+      "Viagem bate-volta regional para buscar carga em município vizinho e trazer para Franca no mesmo período.",
+      "Entrega com múltiplas paradas (ex.: levar volumes para dois endereços), organizada por ordem de descarregamento."
+    ],
+    "faq": [
+      {
+        "q": "O que vocês precisam para calcular um frete urgente em Franca?",
+        "a": "Ajuda muito ter a lista de itens (quantidade e medidas aproximadas), os pontos de retirada e entrega e o prazo real. Com isso dá para estimar veículo, equipe e tempo de operação. Se houver escadas, elevador ou restrição de parada, avise para evitar surpresa."
+      },
+      {
+        "q": "Dá para retirar e entregar no mesmo dia dentro de Franca?",
+        "a": "Em muitos casos, sim, especialmente para volumes menores e quando há disponibilidade de agenda. O que costuma definir é a janela de coleta, tempo de carregamento e se o destino consegue receber sem espera. Quanto mais preparado estiver, maior a chance de encaixe."
+      },
+      {
+        "q": "Vocês fazem frete urgente para a região e divisa com Minas?",
+        "a": "É um tipo de demanda comum por Franca ser polo regional e estar próxima da divisa. O atendimento depende de rota, horário e disponibilidade, além de detalhes de carga e descarga. Informar a cidade de destino e o prazo ajuda a confirmar a viabilidade."
+      },
+      {
+        "q": "Como funciona se o local de entrega só recebe em horário específico?",
+        "a": "A operação pode ser planejada para chegar dentro da janela, mas isso exige alinhamento fino de horário e rota. Em alguns casos, pode haver necessidade de espera, o que impacta o valor. Por isso é importante informar a restrição logo no início."
+      },
+      {
+        "q": "Posso enviar itens frágeis como TV, espelho ou vidro em frete urgente?",
+        "a": "Pode, desde que a embalagem e o acondicionamento sejam adequados. O ideal é proteção com plástico bolha, cantoneiras e fixação para evitar movimento. Se você não tiver embalagem, dá para combinar a proteção necessária antes da coleta."
+      },
+      {
+        "q": "Mudança urgente inclui desmontagem e montagem de móveis?",
+        "a": "Pode incluir, mas precisa ser combinado, porque muda tempo e ferramentas. Em urgência, às vezes vale desmontar apenas o essencial para ganhar velocidade. Se o móvel é delicado ou planejado, é melhor avisar para avaliar a forma mais segura."
+      },
+      {
+        "q": "O que pode fazer um frete urgente não dar certo?",
+        "a": "Geralmente é falta de acesso (sem local para encostar), ausência de alguém para liberar/receber, itens não prontos para carregar ou informação incompleta sobre volume. Trânsito e interdições pontuais em rodovias também podem afetar o tempo. Por isso, combinar janelas e preparar tudo antes ajuda muito."
+      },
+      {
+        "q": "Como vocês lidam com espera em retirada ou entrega?",
+        "a": "O tempo de espera pode ser previsto quando você avisa que há fila, conferência ou portaria com agenda. Se acontecer sem aviso, pode gerar ajuste no serviço, dependendo do combinado. Transparência antes evita stress durante a execução."
+      },
+      {
+        "q": "Frete urgente fica muito mais caro do que agendado?",
+        "a": "Tende a ser mais caro quando exige encaixe imediato ou atendimento dedicado, porque limita a roteirização do dia. Porém, se você tiver alguma flexibilidade de horário e a carga for simples, pode caber em um encaixe com custo mais equilibrado. O valor final depende do conjunto: distância, volume, acesso e tempo."
+      },
+      {
+        "q": "Vocês atendem Centro e outras regiões de Franca?",
+        "a": "O atendimento costuma contemplar o Centro e as principais regiões da cidade, conforme disponibilidade e logística do dia. Para confirmar, basta informar o ponto de retirada e de entrega. Evitar detalhes desnecessários e focar em referências facilita o alinhamento."
+      }
+    ],
+    "demands": [
+      "Retirada imediata de compra (móvel/eletro) que não pode ficar na loja e precisa chegar hoje.",
+      "Entrega expressa de reposição para comércio/empresa que ficou sem item essencial para operar.",
+      "Mudança parcial às pressas para liberar imóvel, priorizando itens indispensáveis.",
+      "Transporte rápido de documentos/caixas organizadas entre unidades de trabalho na cidade.",
+      "Coleta urgente de equipamento para manutenção, com necessidade de manuseio cuidadoso.",
+      "Frete intermunicipal de última hora para a região, com horário de recebimento limitado no destino."
+    ],
+    "whenYes": [
+      "Você já tem lista de volumes e medidas aproximadas, sem “surpresas” na hora do carregamento.",
+      "Retirada e entrega têm alguém disponível e acesso liberado, reduzindo espera.",
+      "A carga está embalada ou ao menos separada em um ponto único, pronta para sair.",
+      "Há flexibilidade mínima de janela (mesmo que pequena), permitindo encaixe de rota.",
+      "O item cabe com folga no tipo de veículo indicado, evitando adaptação improvisada."
+    ],
+    "whenNo": [
+      "O local de retirada/entrega tem restrição de acesso ou parada e isso não foi confirmado antes (pode variar).",
+      "Ninguém garante presença para liberar/receber, criando risco de viagem perdida.",
+      "O volume real é maior do que o informado e exige outro veículo ou segunda viagem.",
+      "A carga exige embalagem complexa no local e não há tempo disponível para preparar.",
+      "O prazo depende de trajeto com possibilidade de trânsito/ocorrências e a janela é rígida demais para absorver variações."
+    ],
+    "common": [
+      "Frete urgente residencial: poucas caixas e um item grande que precisa sair no mesmo dia.",
+      "Entrega expressa para loja/estoque: caixas fechadas com conferência rápida no destino.",
+      "Transporte dedicado de item frágil, com proteção reforçada e amarração.",
+      "Bate-volta regional para buscar mercadoria em cidade vizinha e retornar para Franca.",
+      "Remanejamento de escritório: mesas, cadeiras e arquivos em rota curta dentro da cidade.",
+      "Coleta em ponto com acesso difícil, exigindo planejamento de parada e mais tempo de carga.",
+      "Entrega com duas paradas no caminho, organizada por ordem de descarregamento.",
+      "Mudança urgente com necessidade de desmontagem pontual para caber em passagem estreita."
+    ],
+    "sectionTitles": {
+      "demands": "Urgências que mais aparecem em Franca (e por que travam o dia)",
+      "coverage": "De Franca para a região: rotas práticas e raio de atendimento",
+      "whatToSend": "O que vale mandar em frete expresso (e o que pede mais cuidado)",
+      "availability": "Disponibilidade sem promessa vazia: como conseguir encaixe rápido",
+      "whenYes": "Quando o urgente em Franca dá para fechar hoje (sinais práticos)",
+      "whenNo": "Alertas de que pode não fechar no prazo",
+      "pricing": "Preço do urgente: o que realmente pesa na conta",
+      "commonScenarios": "Cenas do cotidiano: quando o frete urgente salva",
+      "types": "Formatos de frete em Franca: do item único à mudança parcial",
+      "services": "Complementos que aceleram (embalagem, ajudante, desmontagem)",
+      "howItWorks": "Como funciona o frete urgente em Franca: confirmação rápida e entrega sem travar",
+      "completeGuide": "Guia completo de frete urgente em Franca (SP)",
+      "preparation": "Preparação em 30 minutos: deixe pronto antes do veículo chegar",
+      "neighborhoods": "Atendimento por regiões da cidade (sem complicar com lista de bairros)",
+      "testimonials": "Relatos reais do que o cliente costuma valorizar no urgente"
+    },
+    "sectionDescriptions": {
+      "demands": "Uma seleção do que mais gera corrida em Franca — reposição, entrega com horário marcado, retirada de última hora — e como antecipar o que costuma virar gargalo.",
+      "coverage": "Entenda como a posição de Franca no nordeste paulista favorece deslocamentos para o entorno e para a divisa com MG, e como SP-334/SP-345 entram no planejamento de rota.",
+      "whatToSend": "Orientações para escolher o que vai no expresso, como proteger itens frágeis e quais categorias exigem mais tempo de preparo para não virar prejuízo.",
+      "availability": "Em vez de prometer milagre, explicamos o que influencia a chance de encaixe rápido: flexibilidade de janela, carga pronta, acesso liberado e rota bem definida.",
+      "pricing": "Uma leitura clara do orçamento: distância, urgência, equipe, tempo de espera e particularidades de acesso — com foco em evitar custos criados por falta de informação.",
+      "commonScenarios": "Exemplos comuns em Franca e região para você se reconhecer no problema, comparar soluções e escolher o formato de atendimento que faz sentido para o seu caso.",
+      "types": "Modalidades possíveis para atender pressa de verdade: transporte dedicado, frete compartilhado quando cabe, mudança pequena e deslocamentos intermunicipais.",
+      "services": "Serviços que ajudam a ganhar minutos preciosos: materiais de proteção, amarração, desmontagem pontual e apoio de carga/descarga ajustado ao volume.",
+      "howItWorks": "Um passo a passo objetivo para pedir, confirmar e executar o frete sem retrabalho — do primeiro contato até a conferência final no destino.",
+      "completeGuide": "Conteúdo pilar para Franca com dicas de rota, preparação, prazos realistas e decisões que reduzem risco em atendimentos urgentes dentro e fora da cidade.",
+      "preparation": "Checklist rápido e aplicável para casa e empresa: separar, medir, etiquetar e alinhar acesso, evitando que a urgência vire correria desorganizada.",
+      "neighborhoods": "Cobertura apresentada de forma ampla e honesta, considerando que a logística depende de acesso, horário e disponibilidade — sem inventar bairros específicos.",
+      "testimonials": "O que clientes geralmente comentam após um frete urgente bem executado: pontualidade combinada, cuidado com itens e comunicação clara durante o trajeto."
+    },
+    "_approxWords": 3074
+  }
+}

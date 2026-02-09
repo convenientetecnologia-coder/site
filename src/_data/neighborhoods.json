@@ -2240,5 +2240,98 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "franca": {
+    "city": "Franca",
+    "state": "SP",
+    "all": [
+      "Centro",
+      "Cidade Nova",
+      "Estação",
+      "Vila Santos Dumont",
+      "Vila Chico Júlio",
+      "Vila Santa Cruz",
+      "Vila Aparecida",
+      "Vila Raycos",
+      "Vila Rezende",
+      "Jardim Paulista",
+      "Jardim Francano",
+      "Jardim Aeroporto",
+      "Jardim Brasilândia",
+      "Jardim Noêmia",
+      "Jardim Panorama",
+      "Jardim Petráglia",
+      "Jardim Piratininga",
+      "Jardim Progresso",
+      "Jardim Santa Bárbara",
+      "Jardim Santa Lúcia",
+      "Jardim São Luiz",
+      "Jardim São Gabriel",
+      "Jardim São Joaquim",
+      "Jardim São José",
+      "Jardim São Paulo",
+      "Jardim Tropical",
+      "Parque do Horto",
+      "Parque Vicente Leporace",
+      "Parque Progresso",
+      "Parque Universitário",
+      "Residencial Amazonas",
+      "Residencial Paraíso",
+      "Vila Exposição",
+      "Vila Industrial",
+      "Vila Nossa Senhora das Graças",
+      "Vila Santa Terezinha"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Cidade Nova",
+        "Estação",
+        "Vila Santos Dumont",
+        "Vila Chico Júlio",
+        "Vila Santa Cruz",
+        "Vila Aparecida",
+        "Vila Raycos",
+        "Vila Rezende",
+        "Jardim Paulista",
+        "Jardim Francano",
+        "Jardim Aeroporto"
+      ],
+      "mudancas": [
+        "Jardim Brasilândia",
+        "Jardim Noêmia",
+        "Jardim Panorama",
+        "Jardim Petráglia",
+        "Jardim Piratininga",
+        "Jardim Progresso",
+        "Jardim Santa Bárbara",
+        "Jardim Santa Lúcia",
+        "Jardim São Luiz",
+        "Jardim São Gabriel",
+        "Jardim São Joaquim",
+        "Jardim São José"
+      ],
+      "urgente": [
+        "Jardim São Paulo",
+        "Jardim Tropical",
+        "Parque do Horto",
+        "Parque Vicente Leporace",
+        "Parque Progresso",
+        "Parque Universitário",
+        "Residencial Amazonas",
+        "Residencial Paraíso",
+        "Vila Exposição",
+        "Vila Industrial",
+        "Vila Nossa Senhora das Graças",
+        "Vila Santa Terezinha"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-09T14:35:53.903Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
