@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Maceió (AL)** — publicado em 2026-02-09
+  - `/fretes-em-maceio/` (~3036 palavras)
+  - `/mudancas-em-maceio/` (~2968 palavras)
+  - `/frete-urgente-em-maceio/` (~3182 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 42 bairros divididos em 3 blocos únicos (14/14/14 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `8a408df`
+
 - **Macapá (AP)** — publicado em 2026-02-09
   - `/fretes-em-macapa/` (~3008 palavras)
   - `/mudancas-em-macapa/` (~2802 palavras)
