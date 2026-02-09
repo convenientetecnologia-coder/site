@@ -11248,5 +11248,329 @@
     "type": "urgente",
     "ts": 1770662573602,
     "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_01",
+    "text": "Combinei o frete pelo Whats e deu tudo certo. Chegaram no horário e levaram minhas caixas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_02",
+    "text": "Precisei de frete de última hora e me atenderam rápido. Preço justo e serviço bem organizado.",
+    "author": "Diego",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_03",
+    "text": "Mudança pequena, mas eu estava sem tempo. Eles carregaram tudo direitinho e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_04",
+    "text": "Gostei da atenção desde o primeiro contato. O motorista foi cuidadoso com os móveis e ajudou no que deu.",
+    "author": "Rafael",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_05",
+    "text": "Fiz frete de sofá e mesa, e veio tudo bem protegido. Atendimento simples e bem combinado.",
+    "author": "Patricia",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_06",
+    "text": "Pontuais e educados. O frete foi tranquilo e não tive surpresa no valor no final.",
+    "author": "Bruno",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_07",
+    "text": "Levaram minhas coisas do apê para a casa nova sem complicação. Comunicação rápida e clara.",
+    "author": "Aline",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_08",
+    "text": "Precisava transportar umas compras grandes e resolveram no mesmo dia. Chegou tudo certinho.",
+    "author": "Fernando",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_09",
+    "text": "Foram bem cuidadosos com as caixas frágeis e amarraram tudo direitinho no caminhão. Recomendo pelo capricho.",
+    "author": "Juliana",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_10",
+    "text": "Atendimento bem prático: passei os detalhes e já me deram o valor. O frete correu sem estresse.",
+    "author": "Gustavo",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_11",
+    "text": "Equipe ágil e respeitosa. Me ajudaram a descer os móveis e entregaram tudo sem arranhões.",
+    "author": "Larissa",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_fretes_12",
+    "text": "Usei para levar eletros e alguns móveis. Foram cuidadosos e cumpriram o combinado do início ao fim.",
+    "author": "Tiago",
+    "citySlug": "londrina",
+    "type": "fretes",
+    "ts": 1770676684695,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_01",
+    "text": "Minha mudança em Londrina foi bem organizada e sem correria. A equipe cuidou dos móveis com atenção e entregou tudo certinho.",
+    "author": "Marina",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_02",
+    "text": "Responderam rápido e combinaram o horário direitinho. Chegou tudo embalado e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_03",
+    "text": "Gostei da pontualidade e do cuidado com as caixas frágeis. O processo todo foi bem tranquilo.",
+    "author": "Camila",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_04",
+    "text": "Achei o preço justo e o atendimento bem claro desde o começo. A mudança saiu como planejado.",
+    "author": "Bruno",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_05",
+    "text": "Vieram com calma, desmontaram e montaram o que precisava. Nada de bagunça e tudo bem alinhado.",
+    "author": "Juliana",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_06",
+    "text": "Eu estava preocupada com o transporte, mas eles cuidaram bem e foram bem cuidadosos. Recomendo pela segurança.",
+    "author": "Patricia",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_07",
+    "text": "Equipe educada e bem ágil, sem pressa exagerada. Minhas coisas chegaram inteiras e no horário combinado.",
+    "author": "Diego",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_08",
+    "text": "Fizeram uma mudança pequena pra mim e mesmo assim capricharam no serviço. Comunicação fácil e direta.",
+    "author": "Larissa",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_09",
+    "text": "A embalagem dos eletros foi bem feita e isso me deixou mais tranquila. No final, ficou tudo certinho no novo lugar.",
+    "author": "Fernanda",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_10",
+    "text": "Organizaram as caixas por cômodo e ajudou muito na hora de descarregar. Atendimento bem atencioso.",
+    "author": "Gustavo",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_11",
+    "text": "Tive mudança de apartamento e foi bem mais simples do que eu imaginava. Eles foram cuidadosos com portas e paredes.",
+    "author": "Aline",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_mudancas_12",
+    "text": "Cumpriram o combinado e avisaram cada etapa. Serviço honesto e sem surpresas no final.",
+    "author": "Renato",
+    "citySlug": "londrina",
+    "type": "mudancas",
+    "ts": 1770676697523,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Chegou no prazo combinado e sem dor de cabeça.",
+    "author": "Marina",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_02",
+    "text": "Atendimento rápido e bem direto. Resolveram meu envio de última hora com cuidado.",
+    "author": "Carlos",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_03",
+    "text": "Eu estava com pressa e eles responderam na hora. Coleta e entrega foram bem alinhadas.",
+    "author": "Fernanda",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_04",
+    "text": "Frete urgente em Londrina que realmente ajudou. Chegou certinho e o motorista foi bem cuidadoso.",
+    "author": "Rafael",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_05",
+    "text": "Combinei tudo por mensagem e foi bem simples. Pegaram rápido e entregaram sem atrasar.",
+    "author": "Juliana",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_06",
+    "text": "Precisava mandar umas caixas ainda hoje e conseguiram encaixar. Comunicação clara do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_07",
+    "text": "Serviço ágil e organizado. Me passaram o prazo real e cumpriram direitinho.",
+    "author": "Patricia",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_08",
+    "text": "Tive uma urgência com um item e fiquei tranquilo. Chegou bem embalado e no horário combinado.",
+    "author": "Diego",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_09",
+    "text": "Gostei porque não enrolaram. Orçamento rápido e execução rápida, do jeito que eu precisava.",
+    "author": "Camila",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_10",
+    "text": "Fui atendida com paciência mesmo na correria. O frete urgente salvou meu dia.",
+    "author": "Aline",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_11",
+    "text": "Estava apertado de tempo e deu certo. Pegaram a encomenda rápido e entregaram direitinho.",
+    "author": "Gustavo",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_londrina_urgente_12",
+    "text": "Tudo bem combinado e sem surpresa no meio do caminho. Para urgência, funcionou muito bem.",
+    "author": "Renata",
+    "citySlug": "londrina",
+    "type": "urgente",
+    "ts": 1770676709285,
+    "source": "cliente"
   }
 ]

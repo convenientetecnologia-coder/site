@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T18:43:57.903Z",
+  "generatedAt": "2026-02-09T22:40:27.678Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -299,6 +299,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-limeira/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-limeira/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-limeira/"
+      }
+    },
+    {
+      "slug": "londrina",
+      "name": "Londrina",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-londrina/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-londrina/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-londrina/"
       }
     },
     {
