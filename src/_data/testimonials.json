@@ -8368,5 +8368,329 @@
     "type": "urgente",
     "ts": 1770648883549,
     "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_01",
+    "text": "Combinei o frete pelo Whats e deu tudo certo. Chegaram no horário e carregaram com cuidado.",
+    "author": "Mariana",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_02",
+    "text": "Precisei levar alguns móveis e o atendimento foi bem tranquilo. Preço justo e sem enrolação.",
+    "author": "Carlos",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_03",
+    "text": "Responderam rápido e já acertamos o dia. O transporte foi rápido e veio tudo certinho.",
+    "author": "Aline",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_04",
+    "text": "Fiz mudança pequena e me ajudaram bastante no carregamento. Serviço organizado.",
+    "author": "Bruno",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_05",
+    "text": "Gostei da pontualidade e do cuidado com as caixas. Foi tudo bem combinado do início ao fim.",
+    "author": "Fernanda",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_06",
+    "text": "O motorista foi educado e cuidadoso com os itens frágeis. Recomendo pra quem precisa de frete.",
+    "author": "Rafael",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_07",
+    "text": "Agendei em cima da hora e mesmo assim conseguiram encaixar. Chegou tudo sem danos.",
+    "author": "Juliana",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_08",
+    "text": "Fizeram a retirada e a entrega direitinho, sem complicação. Comunicação fácil.",
+    "author": "Diego",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_09",
+    "text": "Levaram meus eletros com bastante cuidado e amarraram tudo direitinho no caminhão. Fiquei tranquila.",
+    "author": "Patricia",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_10",
+    "text": "Atendimento simples e objetivo, sem empurrar coisa a mais. O frete saiu no horário combinado.",
+    "author": "Lucas",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_11",
+    "text": "Precisava transportar mercadoria e deu certo. Foram rápidos na coleta e bem cuidadosos na entrega.",
+    "author": "Camila",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_fretes_12",
+    "text": "Equipe gente boa e prestativa. A mudança foi mais leve com a ajuda deles no carregamento.",
+    "author": "Eduardo",
+    "citySlug": "imperatriz",
+    "type": "fretes",
+    "ts": 1770649616049,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_01",
+    "text": "Fiz minha mudança em Imperatriz com eles e foi tudo bem organizado. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_02",
+    "text": "Atendimento rápido no WhatsApp e preço bem combinado. A equipe foi cuidadosa com as caixas e não tive dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_03",
+    "text": "Gostei da atenção na hora de embalar as coisas mais frágeis. A mudança foi tranquila do começo ao fim.",
+    "author": "Juliana",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_04",
+    "text": "Os meninos foram ágeis e respeitosos, sem correria desnecessária. Tudo chegou certinho e bem acomodado.",
+    "author": "Bruno",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_05",
+    "text": "Eu estava preocupada com meu guarda-roupa, mas desmontaram e montaram direitinho. Ficou tudo firme e sem arranhões aparentes.",
+    "author": "Aline",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_06",
+    "text": "Combinaram o horário e cumpriram. Foram explicando o que iam fazer e isso me passou confiança.",
+    "author": "Diego",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_07",
+    "text": "Mudança de apartamento é estressante, mas com eles foi bem mais leve. Organizaram as caixas e ajudaram a posicionar os móveis.",
+    "author": "Mariana",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_08",
+    "text": "Equipe educada e cuidadosa com a geladeira e a máquina de lavar. O transporte foi bem feito e sem sustos.",
+    "author": "Felipe",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_09",
+    "text": "Gostei porque não ficaram empurrando serviço extra. Fizeram o combinado e entregaram tudo direitinho.",
+    "author": "Patricia",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_10",
+    "text": "Precisava de uma mudança rápida e eles conseguiram encaixar. Foi tudo bem alinhado e sem bagunça.",
+    "author": "Lucas",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_11",
+    "text": "Chegaram com materiais pra proteger os móveis e isso fez diferença. No final, estava tudo no lugar e sem confusão.",
+    "author": "Renata",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_mudancas_12",
+    "text": "Foram bem cuidadosos com minhas plantas e itens delicados. Recomendo pra quem quer uma mudança tranquila em Imperatriz.",
+    "author": "Thiago",
+    "citySlug": "imperatriz",
+    "type": "mudancas",
+    "ts": 1770649628061,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_01",
+    "text": "Pedi um frete urgente e deu tudo certo. Chegou dentro do combinado e sem dor de cabeça.",
+    "author": "Marina",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_02",
+    "text": "Precisava resolver rápido e me atenderam na hora. Comunicação simples e entrega bem ágil.",
+    "author": "Diego",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_03",
+    "text": "O motorista foi pontual e cuidadoso com as caixas. Pra quem tá com pressa, ajuda muito.",
+    "author": "Camila",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_04",
+    "text": "Chamamos em cima da hora e mesmo assim encaixaram. Serviço organizado e preço ok.",
+    "author": "Rafael",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_05",
+    "text": "Resposta rápida no atendimento e já alinharam tudo pelo chat. A entrega foi bem tranquila.",
+    "author": "Juliana",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_06",
+    "text": "Eu tava com urgência por causa de um prazo e conseguiram entregar no mesmo dia. Recomendo pra emergências.",
+    "author": "Bruno",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_07",
+    "text": "Gostei porque avisaram cada etapa e não fiquei no escuro. Chegou certinho e sem avarias.",
+    "author": "Aline",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_08",
+    "text": "Atenderam minha solicitação de última hora e foram bem flexíveis. Resolveu meu problema rapidinho.",
+    "author": "Felipe",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_09",
+    "text": "Frete urgente bem combinado, sem enrolação. O contato foi direto e o serviço fluiu.",
+    "author": "Patricia",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_10",
+    "text": "Precisava levar uns itens com cuidado e com pressa. Foram ágeis e trataram tudo com atenção.",
+    "author": "Gustavo",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_11",
+    "text": "Chegaram no horário que prometeram e a entrega foi rápida. Atendimento educado e prático.",
+    "author": "Renata",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_imperatriz_urgente_12",
+    "text": "Tive uma urgência no trabalho e consegui resolver com esse frete. Bem mais rápido do que eu esperava.",
+    "author": "Lucas",
+    "citySlug": "imperatriz",
+    "type": "urgente",
+    "ts": 1770649638372,
+    "source": "cliente"
   }
 ]

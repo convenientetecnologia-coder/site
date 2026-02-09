@@ -2444,5 +2444,46 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "imperatriz": {
+    "city": "Imperatriz",
+    "state": "MA",
+    "all": [
+      "Centro",
+      "Bacuri",
+      "Nova Imperatriz",
+      "Vila Lobão",
+      "Santa Rita",
+      "Santa Inês",
+      "Parque Alvorada",
+      "Parque Sanharol",
+      "Entroncamento",
+      "Beira Rio"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Bacuri",
+        "Nova Imperatriz"
+      ],
+      "mudancas": [
+        "Vila Lobão",
+        "Santa Rita",
+        "Santa Inês"
+      ],
+      "urgente": [
+        "Parque Alvorada",
+        "Parque Sanharol",
+        "Entroncamento",
+        "Beira Rio"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-09T15:06:44.842Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

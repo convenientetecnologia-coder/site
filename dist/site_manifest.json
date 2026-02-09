@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T14:55:36.402Z",
+  "generatedAt": "2026-02-09T15:08:45.595Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -218,6 +218,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-goiania/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-goiania/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-goiania/"
+      }
+    },
+    {
+      "slug": "imperatriz",
+      "name": "Imperatriz",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-imperatriz/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-imperatriz/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-imperatriz/"
       }
     },
     {
