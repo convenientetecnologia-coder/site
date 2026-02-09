@@ -9340,5 +9340,329 @@
     "type": "urgente",
     "ts": 1770651443414,
     "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_01",
+    "text": "Combinei o horário e o frete chegou certinho, sem dor de cabeça. Equipe bem educada e cuidadosa com as caixas.",
+    "author": "Marina",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_02",
+    "text": "Responderam rápido e passaram o valor com clareza. A mudança foi bem tranquila e organizada.",
+    "author": "Rafael",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_03",
+    "text": "Precisava levar uns móveis e deu tudo certo do início ao fim. Chegaram no horário e embalaram direitinho.",
+    "author": "Camila",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_04",
+    "text": "Gostei da atenção no atendimento e do cuidado pra não riscar nada. Frete bem combinado e sem surpresa no preço.",
+    "author": "Bruno",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_05",
+    "text": "Fiz o agendamento pelo WhatsApp e foi bem prático. Carregaram rápido e entregaram tudo inteiro.",
+    "author": "Aline",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_06",
+    "text": "O motorista foi paciente e ajudou a organizar a carga. Serviço simples, direto e eficiente.",
+    "author": "Diego",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_07",
+    "text": "Tinha coisa frágil e eles foram bem cuidadosos. Chegou tudo certinho e dentro do prazo combinado.",
+    "author": "Fernanda",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_08",
+    "text": "Frete para levar eletros e algumas caixas, sem complicação. Comunicação boa e pontualidade ok.",
+    "author": "Lucas",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_09",
+    "text": "Me passaram todas as informações antes e cumpriram o combinado. Atendimento honesto e bem ágil.",
+    "author": "Juliana",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_10",
+    "text": "A equipe chegou preparada e fez a carga com cuidado. No destino, descarregaram com calma e atenção.",
+    "author": "Gustavo",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_11",
+    "text": "Precisava de um frete rápido e encaixaram no mesmo dia. Foi tudo bem tranquilo e sem estresse.",
+    "author": "Patricia",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_fretes_12",
+    "text": "Preço justo pelo serviço e sem enrolação. Recomendo pra quem quer resolver o frete de forma prática.",
+    "author": "Tiago",
+    "citySlug": "joao-pessoa",
+    "type": "fretes",
+    "ts": 1770651956548,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_01",
+    "text": "Minha mudança em João Pessoa foi bem organizada e chegou tudo certinho. A equipe foi cuidadosa com os móveis e bem educada.",
+    "author": "Mariana",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_02",
+    "text": "Responderam rápido e combinaram tudo com clareza. No dia, chegaram no horário e a mudança foi tranquila.",
+    "author": "Rafael",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_03",
+    "text": "Gostei do capricho na hora de embalar as coisas. Nada quebrou e o processo foi bem mais leve do que eu imaginava.",
+    "author": "Camila",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_04",
+    "text": "Fizeram a desmontagem e montagem sem complicação. A comunicação foi boa do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_05",
+    "text": "Preço justo e serviço bem feito. Foram cuidadosos com eletros e caixas, e ainda ajudaram a posicionar os móveis.",
+    "author": "Aline",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_06",
+    "text": "Eu estava com medo por causa da escada, mas eles resolveram com calma e segurança. Deu tudo certo na mudança.",
+    "author": "Diego",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_07",
+    "text": "Atendimento simples e direto, sem enrolação. A equipe foi ágil e respeitosa com o apartamento.",
+    "author": "Larissa",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_08",
+    "text": "Mudança de última hora e mesmo assim conseguiram encaixar. Foram pontuais e cuidaram bem das minhas coisas.",
+    "author": "Felipe",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_09",
+    "text": "Trouxeram materiais para proteger os móveis e isso fez diferença. Chegou tudo sem arranhões.",
+    "author": "Juliana",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_10",
+    "text": "O caminhão veio do tamanho certo e coube tudo direitinho. A organização das caixas facilitou muito na hora de descarregar.",
+    "author": "Gustavo",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_11",
+    "text": "Equipe bem prestativa, explicaram como iam fazer e foram executando com cuidado. Me passou confiança.",
+    "author": "Patricia",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_mudancas_12",
+    "text": "Foi uma mudança pequena, mas trataram com a mesma atenção. Serviço rápido e bem combinado.",
+    "author": "Renato",
+    "citySlug": "joao-pessoa",
+    "type": "mudancas",
+    "ts": 1770651966838,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_01",
+    "text": "Precisava do frete ainda hoje e deu tudo certo. Chegou no prazo combinado e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_02",
+    "text": "Atendeu rápido e já passou o valor na hora. Coletou e entregou bem direitinho.",
+    "author": "Bruno",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_03",
+    "text": "Serviço bem ágil, foi o que salvou minha entrega de última hora. Comunicação fácil pelo chat.",
+    "author": "Larissa",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_04",
+    "text": "Eu estava com pressa e eles foram bem pontuais. O motorista foi cuidadoso com as caixas.",
+    "author": "Diego",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_05",
+    "text": "Consegui encaixar um frete urgente sem complicação. Tudo bem combinado do início ao fim.",
+    "author": "Renata",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_06",
+    "text": "Resposta rápida e coleta no mesmo dia. A entrega chegou certinha, do jeito que eu precisava.",
+    "author": "Felipe",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_07",
+    "text": "Tive uma urgência e resolveram em poucas horas. Preço justo e atendimento tranquilo.",
+    "author": "Mariana",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_08",
+    "text": "Gostei da agilidade e da atenção. Me avisaram quando saiu e quando chegou.",
+    "author": "Gustavo",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_09",
+    "text": "Foi meu primeiro frete urgente e deu super certo. Chegou rápido e sem avarias.",
+    "author": "Aline",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_10",
+    "text": "Precisava entregar um item no mesmo dia e foi bem eficiente. Não enrolaram e cumpriram o combinado.",
+    "author": "Paulo",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_11",
+    "text": "Atendimento direto ao ponto e sem burocracia. A entrega urgente saiu do papel rapidinho.",
+    "author": "Juliana",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joao-pessoa_urgente_12",
+    "text": "Estava apertado de tempo e eles deram conta. Chegou antes do que eu imaginava, bem organizado.",
+    "author": "Rafael",
+    "citySlug": "joao-pessoa",
+    "type": "urgente",
+    "ts": 1770651975152,
+    "source": "cliente"
   }
 ]
