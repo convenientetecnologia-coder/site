@@ -9,6 +9,29 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Indaiatuba (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Indaiatuba com sistema 100% GPT:
+  - `/fretes-em-indaiatuba/` (~3057 palavras)
+  - `/mudancas-em-indaiatuba/` (~3039 palavras)
+  - `/frete-urgente-em-indaiatuba/` (~3131 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Modo `production` ativado para indexação
+  - Validação anti-duplicação passou (3 títulos duplicados corrigidos manualmente)
+- **Por quê**: vigésima oitava cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
+- **Evidência**:
+  - Commit: `0f1f36c` (repo `site`)
+  - `src/_data/publish_config.json` (indaiatuba habilitado em production)
+  - `src/_data/city_content/indaiatuba.json` (conteúdo GPT com todas as seções)
+  - `src/_data/neighborhoods.json` (45 bairros divididos em 3 blocos)
+  - `src/_data/testimonials.json` (36 depoimentos)
+- **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
+- **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
 #### 2026-02-09 — [SITE] Imperatriz (MA): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Imperatriz com sistema 100% GPT:

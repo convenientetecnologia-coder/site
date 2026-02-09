@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Indaiatuba (SP)** — publicado em 2026-02-09
+  - `/fretes-em-indaiatuba/` (~3057 palavras)
+  - `/mudancas-em-indaiatuba/` (~3039 palavras)
+  - `/frete-urgente-em-indaiatuba/` (~3131 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `0f1f36c`
+
 - **Imperatriz (MA)** — publicado em 2026-02-09
   - `/fretes-em-imperatriz/` (~3072 palavras)
   - `/mudancas-em-imperatriz/` (~2922 palavras)
