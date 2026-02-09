@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T17:55:58.901Z",
+  "generatedAt": "2026-02-09T18:31:58.788Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -281,6 +281,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-juiz-de-fora/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-juiz-de-fora/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-juiz-de-fora/"
+      }
+    },
+    {
+      "slug": "jundiai",
+      "name": "Jundiaí",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-jundiai/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-jundiai/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-jundiai/"
       }
     },
     {

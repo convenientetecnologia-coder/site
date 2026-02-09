@@ -10609,5 +10609,329 @@
     "type": "urgente",
     "ts": 1770659668608,
     "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_01",
+    "text": "Combinei o horário e deu tudo certo. Chegaram no tempo combinado e levaram minhas coisas com cuidado.",
+    "author": "Marina",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_02",
+    "text": "Precisei de um frete de última hora e me responderam rápido. O preço foi justo e o serviço foi bem tranquilo.",
+    "author": "Rafael",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_03",
+    "text": "Pontuais e organizados. A mudança pequena que eu tinha foi feita sem correria e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_04",
+    "text": "Gostei da comunicação, explicaram direitinho como seria o transporte. Tudo chegou certinho.",
+    "author": "Diego",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_05",
+    "text": "Fizeram o frete de alguns móveis e ajudaram a acomodar no caminhão direitinho. Atendimento bem educado.",
+    "author": "Aline",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_06",
+    "text": "O motorista foi cuidadoso nas ruas e na hora de descarregar. Serviço honesto e bem combinado.",
+    "author": "Bruno",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_07",
+    "text": "Contratei para levar mercadorias e foi bem ágil. Me avisaram quando estavam chegando, ajudou bastante.",
+    "author": "Fernanda",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_08",
+    "text": "Atenderam no horário marcado e sem enrolação. Meu frete foi simples, mas fizeram com capricho.",
+    "author": "Lucas",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_09",
+    "text": "Tive uma experiência boa, desde o orçamento até a entrega. Não tive surpresa no valor.",
+    "author": "Juliana",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_10",
+    "text": "Precisava transportar eletros e fiquei mais tranquilo com o cuidado na embalagem e no manuseio.",
+    "author": "Gustavo",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_11",
+    "text": "Equipe prestativa e rápida para carregar. A entrega foi dentro do combinado e sem stress.",
+    "author": "Patricia",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_fretes_12",
+    "text": "Fiz o agendamento pelo WhatsApp e foi bem prático. O frete em Jundiaí saiu certinho do jeito que eu precisava.",
+    "author": "Renato",
+    "citySlug": "jundiai",
+    "type": "fretes",
+    "ts": 1770661764810,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_01",
+    "text": "Fiz minha mudança em Jundiaí e foi bem tranquila. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_02",
+    "text": "Equipe educada e organizada. Embalaram as coisas com cuidado e a mudança acabou mais rápida do que eu imaginava.",
+    "author": "Rafael",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_03",
+    "text": "Gostei da comunicação desde o orçamento até o final. Tudo bem combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_04",
+    "text": "Tinha medo por causa dos eletros, mas transportaram tudo certinho e sem arranhões. Recomendo.",
+    "author": "Bruno",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_05",
+    "text": "Pontuais e prestativos. A desmontagem e montagem foram bem feitas e ajudou muito na correria.",
+    "author": "Aline",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_06",
+    "text": "Atendimento rápido no WhatsApp e preço justo. No dia, trabalharam com cuidado e sem pressa desnecessária.",
+    "author": "Diego",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_07",
+    "text": "Mudança de apartamento com escada e deu tudo certo. Eles foram bem cuidadosos com paredes e portas.",
+    "author": "Patricia",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_08",
+    "text": "Vieram com materiais pra proteger os móveis e isso fez diferença. Tudo chegou do jeito que saiu.",
+    "author": "Fernando",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_09",
+    "text": "Equipe bem tranquila e experiente. Foram colocando as caixas nos cômodos certos e facilitou muito pra organizar depois.",
+    "author": "Juliana",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_10",
+    "text": "Precisei remarcar e foram super flexíveis. No dia, resolveram tudo com agilidade e cuidado.",
+    "author": "Lucas",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_11",
+    "text": "Orçamento claro e sem surpresas. A mudança em Jundiaí foi bem planejada e correu suave.",
+    "author": "Renata",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_mudancas_12",
+    "text": "Tinha móveis pesados e fiquei aliviada com o cuidado. Foram atenciosos do começo ao fim.",
+    "author": "Beatriz",
+    "citySlug": "jundiai",
+    "type": "mudancas",
+    "ts": 1770661776478,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Chegaram rápido e foram bem cuidadosos com as caixas.",
+    "author": "Mariana",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_02",
+    "text": "Atendimento ágil e comunicação clara do começo ao fim. A entrega foi no prazo combinado.",
+    "author": "Rafael",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_03",
+    "text": "Resolveu meu problema em cima da hora sem complicação. Motorista educado e serviço bem organizado.",
+    "author": "Camila",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_04",
+    "text": "Pedi com urgência e me retornaram bem rápido. Coleta e entrega aconteceram sem estresse.",
+    "author": "Bruno",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_05",
+    "text": "Frete urgente que realmente ajudou quando eu estava apertada. Tudo chegou certinho e bem embalado.",
+    "author": "Aline",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_06",
+    "text": "Foi bem combinado e cumpriram o horário. Gostei da atenção com itens mais frágeis.",
+    "author": "Diego",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_07",
+    "text": "Eu tinha prazo curto e eles se viraram pra atender. Serviço direto, sem enrolação.",
+    "author": "Juliana",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_08",
+    "text": "Orçamento rápido e sem surpresa depois. A entrega urgente saiu como planejado.",
+    "author": "Felipe",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_09",
+    "text": "Precisava enviar umas coisas no mesmo dia e funcionou super bem. Recomendo pela praticidade.",
+    "author": "Renata",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_10",
+    "text": "Equipe prestativa e pontual. Me avisaram o andamento e isso deu muita segurança.",
+    "author": "Gustavo",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_11",
+    "text": "Atenderam minha urgência com cuidado e respeito. Chegou no destino sem nenhum dano.",
+    "author": "Patricia",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_jundiai_urgente_12",
+    "text": "Tive uma mudança pequena de última hora e eles encaixaram. Foi rápido e bem tranquilo.",
+    "author": "Lucas",
+    "citySlug": "jundiai",
+    "type": "urgente",
+    "ts": 1770661787595,
+    "source": "cliente"
   }
 ]
