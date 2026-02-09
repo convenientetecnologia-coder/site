@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Limeira (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Limeira com sistema 100% GPT:
+  - `/fretes-em-limeira/` (~3147 palavras)
+  - `/mudancas-em-limeira/` (~3000 palavras)
+  - `/frete-urgente-em-limeira/` (~3135 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - Depoimentos: 35 (11/12/12 por tipo)
+  - Validação anti-duplicação passou (4 títulos duplicados ajustados em `limeira.json`)
+- **Por quê**: próxima cidade publicada seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `ab00bf6` (repo `site`)
+  - `src/_data/city_content/limeira.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (limeira habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `limeira` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-09 — [SITE] Jundiaí (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Jundiaí com sistema 100% GPT:

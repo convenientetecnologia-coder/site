@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Limeira (SP)** — publicado em 2026-02-09
+  - `/fretes-em-limeira/` (~3147 palavras)
+  - `/mudancas-em-limeira/` (~3000 palavras)
+  - `/frete-urgente-em-limeira/` (~3135 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - Depoimentos: 35 (11/12/12 por tipo)
+  - Commit: `ab00bf6`
+
 - **Jundiaí (SP)** — publicado em 2026-02-09
   - `/fretes-em-jundiai/` (~3146 palavras)
   - `/mudancas-em-jundiai/` (~3040 palavras)
