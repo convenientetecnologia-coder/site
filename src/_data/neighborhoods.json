@@ -3744,5 +3744,98 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "maringa": {
+    "city": "Maringá",
+    "state": "PR",
+    "all": [
+      "Centro",
+      "Zona 1",
+      "Zona 2",
+      "Zona 3",
+      "Zona 4",
+      "Zona 5",
+      "Zona 6",
+      "Zona 7",
+      "Zona 8",
+      "Zona 9",
+      "Zona 10",
+      "Jardim Alvorada",
+      "Jardim América",
+      "Jardim Aclimação",
+      "Jardim Aurora",
+      "Jardim Canadá",
+      "Jardim Diamante",
+      "Jardim Ipanema",
+      "Jardim Itália",
+      "Jardim Liberdade",
+      "Jardim Mandacaru",
+      "Jardim Novo Horizonte",
+      "Jardim Oasis",
+      "Jardim Paris",
+      "Jardim Pinheiros",
+      "Jardim Santa Clara",
+      "Jardim Santa Helena",
+      "Jardim Santa Rita",
+      "Jardim São Silvestre",
+      "Jardim Universo",
+      "Parque das Grevíleas",
+      "Parque do Ingá",
+      "Parque Industrial",
+      "Vila Esperança",
+      "Vila Morangueira",
+      "Vila Operária"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Zona 1",
+        "Zona 2",
+        "Zona 3",
+        "Zona 4",
+        "Zona 5",
+        "Zona 6",
+        "Zona 7",
+        "Zona 8",
+        "Zona 9",
+        "Zona 10",
+        "Jardim Alvorada"
+      ],
+      "mudancas": [
+        "Jardim América",
+        "Jardim Aclimação",
+        "Jardim Aurora",
+        "Jardim Canadá",
+        "Jardim Diamante",
+        "Jardim Ipanema",
+        "Jardim Itália",
+        "Jardim Liberdade",
+        "Jardim Mandacaru",
+        "Jardim Novo Horizonte",
+        "Jardim Oasis",
+        "Jardim Paris"
+      ],
+      "urgente": [
+        "Jardim Pinheiros",
+        "Jardim Santa Clara",
+        "Jardim Santa Helena",
+        "Jardim Santa Rita",
+        "Jardim São Silvestre",
+        "Jardim Universo",
+        "Parque das Grevíleas",
+        "Parque do Ingá",
+        "Parque Industrial",
+        "Vila Esperança",
+        "Vila Morangueira",
+        "Vila Operária"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-09T23:51:12.460Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

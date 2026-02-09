@@ -12868,5 +12868,329 @@
     "type": "urgente",
     "ts": 1770679653775,
     "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. O motorista foi cuidadoso na hora de colocar e tirar as caixas.",
+    "author": "Camila",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_02",
+    "text": "Precisava de um frete rápido em Maringá e me responderam bem rápido. Deu tudo certo do começo ao fim.",
+    "author": "Rafael",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_03",
+    "text": "Gostei da organização e do cuidado com os móveis. Foi um serviço tranquilo e sem dor de cabeça.",
+    "author": "Juliana",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_04",
+    "text": "Preço justo e bem combinado antes. A entrega foi direta e sem enrolação.",
+    "author": "Bruno",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_05",
+    "text": "Tinha itens frágeis e eles foram bem cuidadosos no transporte. Chegou tudo inteiro.",
+    "author": "Aline",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_06",
+    "text": "Atendimento simples e objetivo, do jeito que eu precisava. O frete foi rápido e bem feito.",
+    "author": "Diego",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_07",
+    "text": "Marquei para o mesmo dia e conseguiram encaixar. A comunicação foi boa e pontual.",
+    "author": "Fernanda",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_08",
+    "text": "Levaram minhas coisas com atenção e sem pressa exagerada. Chegou tudo certinho no destino.",
+    "author": "Lucas",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_09",
+    "text": "Fizeram a coleta e a entrega sem complicação. Gostei que avisaram quando estavam a caminho.",
+    "author": "Patricia",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_10",
+    "text": "Usei para transportar umas compras grandes e valeu a pena. Foi bem mais fácil do que eu imaginava.",
+    "author": "Marcos",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_11",
+    "text": "O motorista foi educado e ajudou no que deu. Frete bem alinhado e sem surpresas no valor.",
+    "author": "Renata",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_fretes_12",
+    "text": "Precisava de cuidado com um armário e eles acomodaram direitinho. Serviço honesto e bem caprichado.",
+    "author": "Thiago",
+    "citySlug": "maringa",
+    "type": "fretes",
+    "ts": 1770681082326,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_01",
+    "text": "Minha mudança em Maringá foi bem tranquila. Chegaram no horário e cuidaram dos móveis com atenção.",
+    "author": "Camila",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_02",
+    "text": "Gostei da organização na hora de carregar e descarregar. Tudo veio certinho e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_03",
+    "text": "Atendimento rápido no orçamento e no agendamento. A equipe foi educada e cuidadosa com as caixas.",
+    "author": "Juliana",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_04",
+    "text": "Eu estava com receio por causa dos eletros, mas embalaram bem e chegou tudo ok. Recomendo pela calma no serviço.",
+    "author": "Bruno",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_05",
+    "text": "Pontuais e bem combinados desde o início. A mudança rendeu mais rápido do que eu esperava.",
+    "author": "Aline",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_06",
+    "text": "Fizeram a desmontagem e montagem sem complicação. Deu tudo certo e o apê ficou organizado no final.",
+    "author": "Diego",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_07",
+    "text": "Equipe caprichosa, principalmente com vidro e itens frágeis. Foi uma mudança bem segura.",
+    "author": "Fernanda",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_08",
+    "text": "Comunicação fácil pelo celular e sem enrolação. Resolveram tudo no dia e com cuidado.",
+    "author": "Marcos",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_09",
+    "text": "Preço justo pelo serviço e pelo cuidado. Não tive nenhum móvel riscado, o que já valeu muito.",
+    "author": "Patricia",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_10",
+    "text": "Chegaram com os materiais certinhos e ajudaram a separar as caixas. Foi bem prático pra mim.",
+    "author": "Gustavo",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_11",
+    "text": "Tinha pouco tempo e eles se adaptaram ao meu horário. A mudança em Maringá foi bem organizada.",
+    "author": "Larissa",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_mudancas_12",
+    "text": "Trataram tudo com respeito e atenção, sem pressa desnecessária. No fim, ficou tudo no lugar direitinho.",
+    "author": "Renato",
+    "citySlug": "maringa",
+    "type": "mudancas",
+    "ts": 1770681093837,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_01",
+    "text": "Precisava do frete pra ontem e deu tudo certo. Responderam rápido e combinaram direitinho o horário.",
+    "author": "Camila",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_02",
+    "text": "Entrega urgente sem dor de cabeça. O motorista foi cuidadoso e chegou no tempo que falou.",
+    "author": "Rafael",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_03",
+    "text": "Chamei em cima da hora e mesmo assim atenderam. Comunicação clara do começo ao fim.",
+    "author": "Juliana",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_04",
+    "text": "Foi bem ágil e com preço justo pro prazo. Minha encomenda chegou certinha.",
+    "author": "Bruno",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_05",
+    "text": "Eu tava com pressa e eles resolveram rápido. Gostei do atendimento, bem prático.",
+    "author": "Mariana",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_06",
+    "text": "Frete urgente que realmente ajudou. Confirmaram a coleta rapidinho e não enrolaram.",
+    "author": "Felipe",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_07",
+    "text": "Precisava levar umas caixas no mesmo dia e foi tranquilo. Chegaram no horário combinado.",
+    "author": "Aline",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_08",
+    "text": "Atenderam meu pedido de última hora e deram retorno na hora. Serviço bem organizado.",
+    "author": "Diego",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_09",
+    "text": "Entrega rápida e sem susto. Me avisaram quando saiu e quando chegou, achei ótimo.",
+    "author": "Patricia",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_10",
+    "text": "Tive urgência com um item e deu certo. Motorista educado e cuidado no transporte.",
+    "author": "Gustavo",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_11",
+    "text": "Precisava de agilidade e eles cumpriram o combinado. Tudo bem simples de resolver.",
+    "author": "Larissa",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maringa_urgente_12",
+    "text": "Solicitei o frete urgente e já alinharam os detalhes. Chegou dentro do prazo que passaram.",
+    "author": "Tiago",
+    "citySlug": "maringa",
+    "type": "urgente",
+    "ts": 1770681103906,
+    "source": "cliente"
   }
 ]

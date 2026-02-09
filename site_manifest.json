@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T23:41:48.738Z",
+  "generatedAt": "2026-02-09T23:54:21.283Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -344,6 +344,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-maraba/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-maraba/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-maraba/"
+      }
+    },
+    {
+      "slug": "maringa",
+      "name": "Maringá",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-maringa/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-maringa/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-maringa/"
       }
     },
     {
