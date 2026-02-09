@@ -3673,5 +3673,76 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "maraba": {
+    "city": "Marabá",
+    "state": "PA",
+    "all": [
+      "Cidade Nova",
+      "Nova Marabá",
+      "Velha Marabá",
+      "São Félix",
+      "Morada Nova",
+      "Liberdade",
+      "Laranjeiras",
+      "Amapá",
+      "Novo Horizonte",
+      "Santa Rosa",
+      "Belo Horizonte",
+      "Jardim Vitória",
+      "Jardim União",
+      "Jardim Bela Vista",
+      "Nossa Senhora Aparecida",
+      "Santa Rita",
+      "São Miguel da Conquista",
+      "Infraero",
+      "Araguaia",
+      "Independência",
+      "Da Paz",
+      "Bom Planalto",
+      "Vale do Itacaiúnas",
+      "Km 7",
+      "Km 8"
+    ],
+    "blocks": {
+      "fretes": [
+        "Cidade Nova",
+        "Nova Marabá",
+        "Velha Marabá",
+        "São Félix",
+        "Morada Nova",
+        "Liberdade",
+        "Laranjeiras",
+        "Amapá"
+      ],
+      "mudancas": [
+        "Novo Horizonte",
+        "Santa Rosa",
+        "Belo Horizonte",
+        "Jardim Vitória",
+        "Jardim União",
+        "Jardim Bela Vista",
+        "Nossa Senhora Aparecida",
+        "Santa Rita"
+      ],
+      "urgente": [
+        "São Miguel da Conquista",
+        "Infraero",
+        "Araguaia",
+        "Independência",
+        "Da Paz",
+        "Bom Planalto",
+        "Vale do Itacaiúnas",
+        "Km 7",
+        "Km 8"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-09T23:27:03.067Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T23:18:03.215Z",
+  "generatedAt": "2026-02-09T23:41:48.738Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -335,6 +335,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-manaus/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-manaus/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-manaus/"
+      }
+    },
+    {
+      "slug": "maraba",
+      "name": "Marabá",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-maraba/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-maraba/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-maraba/"
       }
     },
     {

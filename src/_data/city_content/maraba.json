@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "version": 1,
+    "city": "Marabá",
+    "slug": "maraba",
+    "state": "PA",
+    "generatedAt": "2026-02-09T23:21:57.166Z",
+    "model": "gpt-5.2",
+    "sources": [
+      {
+        "title": "Mapa da Cidade - Prefeitura de Marabá",
+        "url": "https://maraba.pa.gov.br/mapa-da-cidade/"
+      },
+      {
+        "title": "Aeroporto João Correa da Rocha – Semtur (Prefeitura de Marabá)",
+        "url": "https://semtur.maraba.pa.gov.br/pontos-de-interesse/aeroporto-joao-correa-da-rocha/"
+      },
+      {
+        "title": "Marabá – CODEC (Companhia de Desenvolvimento Econômico do Pará)",
+        "url": "https://www.codec.pa.gov.br/maraba/"
+      },
+      {
+        "title": "Ponte Mista de Marabá (ponte rodoferroviária) – Wikipédia",
+        "url": "https://pt.wikipedia.org/wiki/Ponte_Mista_de_Marab%C3%A1"
+      },
+      {
+        "title": "Vereadores visitam obras da nova ponte sobre o Rio Tocantins — Câmara Municipal de Marabá (13/06/2025)",
+        "url": "https://maraba.pa.leg.br/institucional/noticias/vereadores-visitam-obras-da-nova-ponte-sobre-o-rio-tocantins"
+      }
+    ]
+  },
+  "fretes": {
+    "introParagraphs": [
+      "Precisa de frete em Marabá (PA) e quer uma solução prática, sem complicação? A cidade tem um desenho urbano particular: ela se organiza em núcleos distintos e está entre os rios Tocantins e Itacaiúnas. Na prática, isso significa que travessias, pontes e acessos entre regiões influenciam o planejamento do transporte — especialmente quando há volumes maiores, horários mais apertados ou pontos de coleta e entrega em núcleos diferentes.",
+      "Aqui você encontra um guia completo para contratar frete/carreto em Marabá com mais segurança: como funciona o atendimento por núcleo, o que muda quando a rota envolve a ponte sobre o Tocantins, quais informações aceleram o orçamento e como preparar seus itens para reduzir riscos. O objetivo é você fechar um serviço adequado ao que vai transportar, com clareza de etapas e sem surpresas na hora de carregar e entregar."
+    ],
+    "guideParagraphs": [
+      "Marabá é uma cidade com dinâmica de deslocamento bem característica. Além de estar entre dois grandes rios, o município é descrito por órgãos locais como dividido em núcleos urbanos, o que muda bastante o “jeito” do frete: um carreto curto dentro do mesmo núcleo costuma ser simples, enquanto uma coleta em um núcleo e entrega em outro pode exigir atenção maior a acessos e travessias. Por isso, mais do que “um caminhão disponível”, o que ajuda é um planejamento básico: ponto exato de retirada, condições de acesso e janela de horário para carregar e descarregar.",
+      "Quando o frete envolve cruzar o Tocantins, a ponte vira uma peça central do trajeto. A Ponte Mista de Marabá é frequentemente tratada como ligação estratégica por ser rodoferroviária e conectar fluxos importantes entre regiões e rodovias. Para o cliente, isso se traduz em algo simples: vale avisar se a rota passa por travessia e em qual sentido (retirada de um lado e entrega do outro), porque isso pode influenciar a logística do veículo, o tempo de operação e até o tipo de caminhão mais adequado.",
+      "Um jeito seguro e útil de falar de cobertura em Marabá é por núcleos urbanos, sem depender de listas enormes de bairros. Em geral, faz sentido organizar o atendimento em áreas como Marabá Pioneira/Velha Marabá, Cidade Nova (onde fica o aeroporto), Nova Marabá (com as “folhas” numeradas), São Félix I e II (após a ponte sobre o Tocantins) e Morada Nova (indicada como mais afastada). Ao solicitar um frete, dizer “saindo da Nova Marabá e indo para a Cidade Nova”, por exemplo, já dá contexto suficiente para planejar rota e equipe.",
+      "A Cidade Nova costuma aparecer como referência porque abriga o Aeroporto João Correa da Rocha, um ponto de fácil localização para combinar encontro, retirada e entrega nas redondezas. Mesmo quando o frete não tem relação com transporte aéreo, a presença do aeroporto ajuda a orientar deslocamentos e marcações. Na hora do orçamento, vale informar se o local é casa, prédio, galpão ou loja, e se há particularidades de acesso (rampa, corredor estreito, necessidade de parada rápida) — detalhes que mudam o tempo de carga e descarga.",
+      "Marabá também é citada como um entroncamento logístico com possibilidades de integração entre modais terrestre, ferroviário e aéreo. Para quem contrata frete, essa “vocação logística” aparece na prática como circulação constante de cargas e necessidade de organização para evitar atrasos e retrabalho. Uma forma simples de se beneficiar disso é ter clareza sobre o que será transportado: quantidade de volumes, peso aproximado, itens frágeis e se precisa de amarração reforçada. Isso evita que um carreto vire duas viagens por falta de capacidade ou por embalagem insuficiente.",
+      "Nem todo frete é mudança completa. Em Marabá, é comum precisar de carreto para sofá, geladeira, cama, materiais de loja, equipamentos leves, caixas de estoque, bicicletas, mesas e itens para eventos. Para esses casos, o atendimento tende a ser rápido quando você já tem uma lista do que vai e medidas aproximadas dos maiores itens. Quando há desmontagem (guarda-roupa, cama box com cabeceira, estantes), é importante combinar antes: alguns serviços incluem essa etapa, outros fazem apenas transporte, e isso altera tempo, equipe e ferramentas necessárias.",
+      "Para mudanças residenciais ou comerciais, o que mais pesa é a organização do carregamento. Separar por cômodos e etiquetar caixas ajuda a descarregar no local certo, principalmente quando o destino tem mais de um ambiente de guarda (quarto, depósito, sala). Se houver itens frágeis (vidros, eletrônicos, louças), o ideal é avisar e caprichar em proteção com papel, plástico bolha ou mantas. O objetivo não é “encher de embalagem”, e sim evitar contato direto entre peças e reduzir folgas dentro das caixas para que nada bata durante o trajeto.",
+      "Um ponto que costuma gerar diferença grande de esforço é o acesso ao imóvel. Escadas, corredores, distância do portão até o ponto de carga, e a necessidade de carregar manualmente por longos trechos podem aumentar o tempo de serviço. Em áreas com maior movimento, também pode ser necessário planejar a parada do veículo com mais cuidado para não atrapalhar fluxo. Como isso varia dia a dia, a melhor prática é informar o cenário real e, se possível, enviar fotos da entrada, da garagem e do caminho por onde os itens passam.",
+      "Fretes entre Marabá e outras cidades do Pará também são comuns. A Prefeitura indica, por exemplo, cerca de 485 km entre Marabá e Belém, uma referência útil para você entender que é um deslocamento intermunicipal relevante e que exige planejamento de janela de coleta, entrega e acondicionamento da carga. Nesses casos, vale discutir a modalidade: frete dedicado (vai direto) ou compartilhado (quando viável), sempre alinhando prazos realistas e o nível de cuidado necessário conforme o tipo de item transportado.",
+      "Em alguns pontos da cidade, há registro institucional de obra de nova ponte sobre o Tocantins, com entrega prevista para os próximos anos. Para quem contrata frete, isso significa que condições de tráfego e acessos podem mudar ao longo do tempo, sem que dê para cravar um “melhor caminho” fixo. O que funciona bem é combinar com antecedência e permitir margem para ajustes de rota no dia, caso haja intervenções, mudanças de fluxo ou necessidade de desvio. Transparência aqui evita ansiedade e ajuda o serviço a acontecer com menos correria.",
+      "Se o que você precisa é frete com urgência, a diferença está em ter as informações prontas para decisão rápida. Um pedido completo inclui: origem e destino por núcleo, lista dos itens, se há elevador/escadas (quando for prédio), melhor horário para carregar e descarregar e se há itens que não podem deitar (por exemplo, certos eletrodomésticos e equipamentos). Com isso, dá para definir veículo e equipe de forma mais objetiva e reduzir a chance de remarcação por incompatibilidade de tamanho, falta de ajudante ou necessidade de materiais extras.",
+      "Outro tema que merece atenção é a segurança do transporte. Amarração correta, distribuição de peso e proteção de quinas fazem diferença mesmo em trajetos curtos. Para móveis com acabamento sensível, mantas e cantoneiras podem evitar riscos e marcas. Para caixas, a orientação é não exagerar no peso: caixas muito pesadas rasgam e dificultam a ergonomia de quem carrega. E, se houver objetos de valor ou documentos importantes, o ideal é levar com você, separando em uma mala ou caixa de uso pessoal que não vá no meio da carga.",
+      "Para empresas, o frete em Marabá frequentemente envolve retirada de mercadoria, reposição de estoque e transporte de mobiliário de escritório. Uma prática que ajuda é planejar em duas etapas: primeiro, embalar e deixar itens agrupados; depois, agendar o carregamento em uma janela curta. Isso reduz tempo de veículo parado e facilita conferência. Quando há equipamentos, vale proteger cabos e acessórios em sacos identificados e fotografar a organização antes de fechar as caixas — uma medida simples para evitar perda de peças pequenas na montagem no destino.",
+      "Na hora de escolher entre carreto pequeno e caminhão maior, pense menos em “o que cabe” e mais em “como vai caber”. Um sofá pode entrar, mas talvez exija posição específica e amarração; uma geladeira pode ir em pé dependendo do modelo e da orientação do fabricante; mesas grandes podem precisar de desmontagem parcial. Por isso, medidas aproximadas (altura/largura) e fotos dos itens ajudam bastante. Isso também evita a frustração de precisar desmontar na hora sem ferramentas ou de descobrir no local que não passa na porta.",
+      "Um bom frete não é só transporte: é coordenação. Confirmar o horário, avisar quando estiver a caminho, combinar ponto de encontro e alinhar quem vai receber no destino fazem diferença, principalmente quando a entrega acontece em outra região da cidade. Se você estiver mudando de núcleo (por exemplo, saindo de uma área mais antiga para uma região de expansão urbana), a comunicação reduz desencontro e retrabalho. No fim, o serviço fica mais rápido e você gasta menos energia com improvisos.",
+      "Para finalizar, pense no frete como um projeto pequeno: lista de itens, definição do tipo de veículo, preparo das embalagens, confirmação de acessos e uma checagem final antes de fechar o baú ou a carroceria. Em Marabá, essa organização ajuda ainda mais por causa das travessias e dos núcleos urbanos separados. Com um escopo claro, fica mais fácil receber um orçamento justo, escolher o formato ideal (carreto, mudança, dedicado) e realizar a entrega com o cuidado que seus bens merecem."
+    ],
+    "howSteps": [
+      "Defina o que vai transportar (lista simples) e destaque itens frágeis, pesados ou que não podem ser inclinados.",
+      "Informe origem e destino por núcleo urbano (ex.: Nova Marabá → Cidade Nova) e se haverá travessia do Tocantins no caminho.",
+      "Descreva o acesso nos dois pontos: casa/prédio/loja, escadas ou elevador (se houver), distância até o veículo e restrições de manobra.",
+      "Envie fotos dos itens maiores e, se possível, medidas aproximadas de sofá, geladeira, mesa, armário e caixas mais volumosas.",
+      "Alinhe o formato do serviço: só transporte, transporte + ajudantes, desmontagem/montagem, embalagem e proteção com mantas.",
+      "Confirme a janela de horário para carga e descarga e quem estará presente para liberar entrada e conferir a entrega.",
+      "No dia, separe uma “caixa de essenciais” (documentos, carregadores, itens de higiene) e faça uma checagem final antes de fechar o veículo.",
+      "Após a entrega, confira volumes principais, teste itens sensíveis (quando aplicável) e registre qualquer observação para resolver ainda no local."
+    ],
+    "priceFactors": [
+      "Distância total e se o trajeto é dentro do mesmo núcleo ou envolve deslocamento entre núcleos com travessias/pontos de fluxo.",
+      "Tipo e tamanho do veículo necessário (carreto pequeno, caminhão, baú) e a forma de acomodação/amarração da carga.",
+      "Quantidade de itens, volume total e complexidade (muitos volumes pequenos vs. poucos itens grandes e pesados).",
+      "Condições de acesso: escadas, corredores, ausência de área de carga próxima, necessidade de carregar por longas distâncias.",
+      "Necessidade de ajudantes e tempo estimado de carga/descarga (inclui espera para liberar entrada quando houver).",
+      "Serviços extras: desmontagem/montagem, embalagem, mantas, cantoneiras, proteção de piso e organização no destino.",
+      "Agendamento: urgência, horário específico e flexibilidade (janelas mais restritas tendem a exigir mais ajuste de agenda).",
+      "Fretes intermunicipais/interestaduais: planejamento de rota, pernoite (se aplicável), modalidade dedicada ou compartilhada e exigências de segurança da carga."
+    ],
+    "prepChecklist": [
+      "Faça uma lista do que vai no frete e agrupe por ambiente (quarto, cozinha, sala, escritório).",
+      "Separe documentos, joias e itens muito pessoais para transportar com você, não no meio da carga.",
+      "Esvazie gavetas e prateleiras; objetos soltos dentro de móveis costumam danificar e riscar.",
+      "Proteja itens frágeis com papel, plástico bolha ou manta; preencha espaços vazios nas caixas para não chacoalhar.",
+      "Identifique caixas com conteúdo e destino (ex.: “cozinha – frágil”); isso ajuda a descarregar com ordem.",
+      "Desmonte o que for possível com antecedência (quando combinado) e guarde parafusos em saquinhos etiquetados.",
+      "Descongele e seque geladeira/freezer com antecedência (quando aplicável) e deixe cabos presos com fita.",
+      "Reserve uma passagem livre para carregar: retire tapetes soltos, prenda portas e proteja quinas se necessário.",
+      "Confirme quem vai abrir/receber no destino e deixe chaves, senhas e autorizações alinhadas (quando houver).",
+      "Prepare uma caixa de primeira necessidade para o pós-entrega (água, remédios, ferramentas básicas, carregadores)."
+    ],
+    "scenarios": [
+      "Carreto rápido para levar 1 a 3 itens grandes (sofá, geladeira, cama) entre núcleos urbanos, com atenção especial à acomodação e amarração.",
+      "Frete para compras: retirada em loja/depósito e entrega em casa, combinando janela de horário e conferência do produto na chegada.",
+      "Mudança de apartamento com elevador (quando disponível) e parte do trajeto por escadas/corredores, exigindo organização de caixas e proteção de móveis.",
+      "Mudança residencial completa entre núcleos (ex.: de uma área mais antiga para uma região de expansão), com planejamento para travessias e equipe adequada.",
+      "Transporte para comércio: balcões, prateleiras e caixas de estoque, com cuidado para não amassar cantos e manter peças identificadas.",
+      "Frete intermunicipal a partir de Marabá (ou chegando à cidade), avaliando se faz sentido dedicado ou compartilhado conforme volume e urgência.",
+      "Remanejamento interno: levar móveis e equipamentos de um ponto para outro no mesmo terreno/empresa, minimizando riscos de arrasto e impacto.",
+      "Entrega com item volumoso que exige desmontagem parcial (mesa grande, armário) e montagem no destino, previamente combinado."
+    ],
+    "faq": [
+      {
+        "q": "Vocês atendem frete em todos os núcleos urbanos de Marabá?",
+        "a": "O atendimento pode ser organizado por núcleos como Marabá Pioneira/Velha Marabá, Cidade Nova, Nova Marabá, São Félix e Morada Nova. Ao pedir orçamento, informe origem e destino por núcleo para facilitar o planejamento. Se houver travessia do Tocantins no caminho, avise também."
+      },
+      {
+        "q": "Carreto e frete são a mesma coisa?",
+        "a": "Na prática, muita gente usa como sinônimos. Em geral, “carreto” costuma se referir a serviços menores e mais rápidos, e “frete” pode incluir mudanças e transportes maiores. O importante é descrever o que vai transportar para dimensionar veículo e equipe."
+      },
+      {
+        "q": "Como funciona o frete quando precisa cruzar a ponte sobre o Tocantins?",
+        "a": "Quando a rota envolve travessia, vale planejar pontos de coleta e entrega e a janela de horário com mais atenção. Isso ajuda a evitar contratempos de percurso e reduz tempo parado. Com as informações certas, dá para definir o melhor tipo de veículo e equipe para o seu caso."
+      },
+      {
+        "q": "O que preciso informar para receber um orçamento mais certeiro?",
+        "a": "Origem e destino (por núcleo), lista de itens, fotos dos maiores volumes e detalhes de acesso (escadas, corredor, distância até o veículo). Se precisar de ajudantes, embalagem ou desmontagem/montagem, informe logo no início. Assim o orçamento fica mais alinhado ao serviço real."
+      },
+      {
+        "q": "Dá para levar geladeira e máquina de lavar no frete?",
+        "a": "Sim, desde que sejam bem acomodadas e amarradas. Algumas orientações sobre posição de transporte podem variar conforme o fabricante e o modelo, então é bom seguir o manual quando disponível. Avise no pedido que são eletros para priorizar proteção e estabilidade."
+      },
+      {
+        "q": "Vocês fazem desmontagem e montagem de móveis?",
+        "a": "Pode ser combinado conforme o tipo de móvel e a disponibilidade de ferramenta/equipe. Para evitar imprevistos, informe quais peças precisam de desmontagem (guarda-roupa, cama, estante) e se há móveis planejados. Em alguns casos, pode ser indicado chamar um montador especializado."
+      },
+      {
+        "q": "Como funciona para frete de Marabá para Belém ou outras cidades?",
+        "a": "É um frete intermunicipal que exige combinar data, janela de coleta/entrega e modalidade (dedicado ou, quando possível, compartilhado). A distância é um fator relevante, então a proteção da carga e a conferência de volumes ganham ainda mais importância. O ideal é detalhar o que vai para avaliar o formato mais adequado."
+      },
+      {
+        "q": "Preciso embalar tudo antes do dia do frete?",
+        "a": "Quanto mais pronto estiver, mais rápido tende a ser o carregamento. Se você não conseguir embalar tudo, dá para priorizar frágeis e itens pequenos e deixar os móveis principais para proteção com mantas no dia, se esse serviço estiver incluído. Combine antes para evitar correria."
+      },
+      {
+        "q": "Vocês carregam e descarregam ou é só transporte?",
+        "a": "Existem opções: somente motorista/veículo, ou serviço com ajudantes para carga e descarga. O ideal é definir isso conforme peso dos itens, quantidade de caixas e condições de acesso. Assim você evita subestimar o esforço e atrasar a operação."
+      },
+      {
+        "q": "Posso agendar um frete urgente no mesmo dia?",
+        "a": "Pode ser possível dependendo da agenda e do tipo de carga. Para aumentar a chance de encaixe, envie logo as informações essenciais (núcleos, itens, fotos e horário). Em urgências, flexibilidade de janela costuma ajudar."
+      }
+    ],
+    "types": [
+      "Carreto urbano para poucos itens (mudanças pequenas e retiradas pontuais)",
+      "Frete com ajudantes para carga e descarga (quando há peso e volume)",
+      "Mudança residencial completa dentro de Marabá (planejada por núcleos)",
+      "Mudança comercial/reestruturação de loja ou escritório (com organização de volumes)",
+      "Frete intermunicipal saindo de Marabá (dedicado, conforme necessidade)",
+      "Frete de entrega programada para compras (retirada em loja e entrega em domicílio)"
+    ],
+    "services": [
+      "Proteção com mantas e amarração reforçada para móveis e eletros",
+      "Embalagem de itens frágeis (louças, vidros, eletrônicos) sob combinação",
+      "Desmontagem e montagem simples de móveis (quando aplicável e alinhado)",
+      "Apoio de ajudantes para escadas, corredores e trajetos de carga mais longos",
+      "Organização de volumes no destino (separação por cômodo/ambiente mediante orientação)"
+    ],
+    "sectionTitles": {
+      "demands": "Quando o frete não pode esperar: como agilizar em Marabá",
+      "coverage": "De um núcleo ao outro: mapa prático de atendimento em Marabá",
+      "whatToSend": "O que levar no frete em Marabá (e o que pede proteção extra)",
+      "availability": "Agenda, janelas de horário e combinações sem estresse",
+      "whenYes": "Sinais de que vai dar tudo certo no dia do frete",
+      "whenNo": "Situações em que o plano pode precisar de ajuste",
+      "pricing": "Quanto custa um frete em Marabá? Entenda o que forma o valor",
+      "commonScenarios": "Casos reais do dia a dia: fretes que mais saem na cidade",
+      "types": "Escolha o formato certo: tipos de frete para cada necessidade",
+      "services": "Complementos que fazem diferença (quando você precisa de algo a mais)",
+      "howItWorks": "Como funciona o frete em Marabá: do pedido à entrega",
+      "completeGuide": "Guia completo para frete em Marabá (PA), com dicas locais",
+      "preparation": "Preparação inteligente: embalar, separar e reduzir riscos",
+      "neighborhoods": "Atendimento por núcleos urbanos (sem complicar com listas enormes)",
+      "testimonials": "O que os clientes costumam valorizar em um frete bem feito"
+    },
+    "sectionDescriptions": {
+      "demands": "Um roteiro direto para solicitar frete com urgência em Marabá, com as informações que mais aceleram orçamento, encaixe e execução — especialmente quando há travessia entre regiões.",
+      "coverage": "Entenda como a cidade se organiza em núcleos e por que isso ajuda a planejar coleta e entrega com mais clareza, evitando ruídos sobre localização e acessos.",
+      "whatToSend": "Exemplos do que normalmente é transportado em carretos e fretes na cidade, mais alertas simples para itens frágeis, pesados e volumosos.",
+      "availability": "Como combinar data, horário e presença de quem recebe, reduzindo espera e desencontro — um ponto que pesa quando a rota passa por áreas de maior fluxo.",
+      "pricing": "Uma explicação transparente dos fatores que influenciam o preço do frete em Marabá, sem fórmulas mágicas: distância, acesso, equipe, volume e extras.",
+      "commonScenarios": "Uma lista de situações comuns de frete e mudança em Marabá para você se reconhecer no cenário e pedir o serviço certo logo de primeira.",
+      "types": "Panorama de modalidades de frete (do carreto leve ao transporte intermunicipal), com orientação prática para escolher o formato adequado ao seu volume e prazo.",
+      "services": "Serviços adicionais que podem ser contratados conforme a necessidade: proteção, embalagem, desmontagem e apoio na organização, sempre alinhando antes para evitar surpresa.",
+      "howItWorks": "Um passo a passo simples, da solicitação ao pós-entrega, para você entender o que acontece em cada etapa e como se preparar melhor.",
+      "completeGuide": "Conteúdo pilar para quem quer contratar frete em Marabá com segurança: logística por núcleos, travessias, referências urbanas e boas práticas de transporte.",
+      "preparation": "Checklist prático para deixar tudo pronto e evitar danos: o que separar, como etiquetar, como proteger e como organizar o caminho de carga.",
+      "neighborhoods": "Em vez de prometer cobertura por bairros específicos, a organização por núcleos urbanos ajuda a dar previsibilidade e manter a informação consistente.",
+      "testimonials": "Critérios que clientes costumam mencionar quando um frete dá certo: pontualidade combinada, cuidado com os itens, comunicação e finalização organizada."
+    },
+    "_approxWords": 3212
+  },
+  "mudancas": {
+    "introParagraphs": [
+      "Fazer uma mudança em Marabá pede um olhar prático para a cidade: ela se organiza em núcleos urbanos e é cortada por grandes rios (Tocantins e Itacaiúnas), o que influencia rotas, travessias e horários mais convenientes. Por isso, uma mudança bem-feita aqui começa no planejamento: entender de qual núcleo sai, para qual núcleo vai, quantos volumes entram no caminhão e que tipo de acesso existe no local (casa, apartamento, comércio, rua estreita, carga e descarga).",
+      "Nesta página você encontra um guia completo de mudanças em Marabá–PA, pensado para situações reais: mudança residencial, mudança comercial, transporte de itens grandes, embalagens, desmontagem e montagem, e também deslocamentos intermunicipais (incluindo referência de distância até Belém, cerca de 485 km). A ideia é ajudar você a organizar tudo com clareza, evitando improvisos e reduzindo o risco de danos, atrasos e custos extras."
+    ],
+    "guideParagraphs": [
+      "Em Marabá, a divisão em núcleos urbanos ajuda muito a organizar uma mudança. Em vez de tentar decorar dezenas de bairros, vale pensar por regiões: Marabá Pioneira/Velha Marabá, Cidade Nova (onde fica o Aeroporto João Correa da Rocha), Nova Marabá (com as “folhas” numeradas), São Félix (I e II, após a travessia do Tocantins) e Morada Nova (indicada como mais afastada, em torno de 20 km). Quando você informa o núcleo de origem e o de destino, já dá para prever melhor tempo de carregamento, rota e tamanho de veículo sem prometer atalhos ou “rota perfeita”, porque isso depende do dia.",
+      "Os rios Tocantins e Itacaiúnas entram no jogo como elementos de fluxo: travessias e pontes costumam concentrar circulação, e isso pode impactar a janela ideal para carga e descarga. A Ponte Mista de Marabá, de caráter rodoferroviário, é uma ligação importante na cidade e na região; por isso, planejar a mudança considerando pontos de travessia evita que o caminhão fique parado em momento crítico. Não é sobre “fugir do trânsito”, e sim sobre escolher horários e sequências (pegar caixas primeiro, depois móveis, ou o contrário) que deixam a operação mais fluida.",
+      "Uma mudança bem organizada começa com um inventário simples, porém honesto. Liste móveis grandes (cama, guarda-roupa, sofá), eletros (geladeira, fogão, máquina), e itens frágeis (vidros, eletrônicos) separadamente. Em Marabá, como em qualquer cidade, o que encarece não é apenas a distância: é o volume, o peso, a necessidade de equipe extra e o tempo parado esperando liberação para encostar. Um inventário bem feito ajuda a dimensionar o caminhão e a quantidade de ajudantes sem “chutar” por cima e pagar por espaço ocioso.",
+      "O acesso ao imóvel costuma definir o ritmo do dia. Se há escadas, corredores apertados, portões que limitam a entrada do caminhão ou necessidade de carregar por trechos longos, a mudança fica mais lenta e exige mais cuidado. Em alguns condomínios e prédios, regras de elevador, horários e cadastro de prestadores podem variar; por isso, o ideal é confirmar com antecedência o que é permitido. Quando essa checagem é feita antes, dá para levar os equipamentos certos (carrinhos, mantas, cintas, papelão reforçado) e evitar improviso no carregamento.",
+      "Embalagem não é só “colocar em caixa”; é escolher proteção de acordo com o item. Louças e vidros pedem separadores, papel e sinalização; roupas podem ir em caixas grandes ou malas; livros precisam de caixas menores para não ficar pesado demais. Para mudanças em Marabá que cruzam núcleos e passam por travessias, a proteção ganha importância: vibração e frenagem fazem parte da rotina de qualquer deslocamento urbano. A boa embalagem reduz avarias e também agiliza a organização no destino, porque cada caixa já chega com um “endereço” (quarto, cozinha, escritório).",
+      "Desmontagem e montagem são o divisor de águas entre uma mudança tranquila e uma mudança que vira maratona. Guarda-roupas, camas e estantes normalmente precisam ser desmontados para sair sem danos e para caber corretamente no caminhão. Ao montar novamente, é importante manter parafusos e ferragens identificados, de preferência em saquinhos etiquetados presos ao próprio móvel. Isso evita perda de peças e “adaptações” apressadas. Em alguns casos, quando o móvel é antigo ou já está fragilizado, pode valer conversar antes para avaliar se compensa desmontar ou transportar em uma peça.",
+      "Itens grandes e sensíveis, como geladeira, máquina de lavar e TVs, pedem manuseio específico. Geladeira, por exemplo, pode exigir tempo de estabilização antes de ligar novamente (o fabricante de cada modelo orienta), e transporte inclinado demais pode ser um problema. Eletrônicos devem ir com proteção e, quando possível, na embalagem original ou com cantoneiras. O foco é reduzir risco: amarrar corretamente, proteger quinas e não empilhar peso em cima de caixas frágeis. Esse cuidado também evita retrabalho no destino e ajuda a manter a mudança dentro do cronograma.",
+      "Mudanças comerciais em Marabá têm outra lógica: o objetivo é parar o negócio o mínimo possível. Para isso, faz diferença separar equipamentos críticos (computadores, impressoras, maquinário leve) e documentos em um lote que viaje por último e seja descarregado primeiro, ou até em um veículo dedicado. Também é útil etiquetar caixas por setor (recepção, estoque, administrativo) e fazer um mapa simples do novo espaço. Como a cidade é um entroncamento logístico, muita gente alterna entre pontos diferentes de atendimento; então, uma estratégia boa é planejar a mudança por etapas, evitando misturar tudo em um único “bolo”.",
+      "Quando a mudança envolve Morada Nova ou deslocamentos mais longos dentro do município, vale pensar em dois pontos: autonomia de equipe e janela de chegada. O mais comum é a pessoa se concentrar no transporte e esquecer que também precisa de tempo para conferir volumes, orientar posicionamento e assinar recebimento com calma. Uma dica prática é preparar um “kit de chegada” separado: itens de higiene, roupas para 1–2 dias, carregadores, documentos e ferramentas básicas. Assim, mesmo que a organização completa das caixas fique para o dia seguinte, você não fica no aperto.",
+      "Para mudanças intermunicipais saindo de Marabá, a referência de distância até Belém (cerca de 485 km) ajuda a entender que é uma operação diferente de um carreto urbano. Não significa “mais complicado”, mas muda o tipo de amarração, o cuidado com chuva, o planejamento de paradas e a necessidade de documentação de itens (nota fiscal quando houver, especialmente para mercadorias). O ideal é conversar antes sobre o que vai junto, o que deve ir separado e qual a melhor forma de embalar para uma viagem mais longa, sem prometer prazos fixos que dependem de fatores de estrada.",
+      "A cidade também tem o Aeroporto João Correa da Rocha como referência urbana na Cidade Nova, o que pode facilitar combinações de ponto e orientação geográfica. Para a mudança, isso se traduz em instruções claras para o motorista e para a equipe: “ponto de encontro”, “onde encostar”, “onde descarregar”. Instruções bem passadas reduzem o risco de parar em local inadequado e perder tempo renegociando manobras. Em rotinas com caminhão maior, cada minuto conta: manobrar duas vezes, refazer acesso e reorganizar carga são situações que aumentam custo e desgaste.",
+      "Obras e melhorias viárias podem aparecer ao longo do tempo; há registro institucional de uma nova ponte sobre o Tocantins com entrega prevista para 2027, mas isso não é algo para contar como solução imediata. O caminho seguro é: planejar com o cenário atual, checar condições no dia, e manter alternativas simples (horário diferente, equipe reforçada, divisão da mudança em duas viagens). O objetivo é não depender de uma única aposta. Uma mudança bem pensada é aquela que dá certo mesmo quando o dia não ajuda muito.",
+      "No final, a melhor mudança em Marabá é a que respeita a realidade local e o seu ritmo. Se você quer economizar, dá para reduzir custo embalando por conta, desmontando alguns itens e concentrando tudo em uma única viagem — desde que seja viável e seguro. Se você quer praticidade, vale contratar embalagem completa, desmontagem/montagem e organização de carga. Em ambos os casos, o que mais ajuda é alinhar expectativa: o que vai, o que não vai, como vai, e como será a entrega. Isso transforma a mudança em um processo controlável, não em um “dia de sorte”."
+    ],
+    "howSteps": [
+      "Você informa o núcleo de origem e destino em Marabá (ex.: Velha Marabá, Cidade Nova, Nova Marabá, São Félix, Morada Nova) e descreve o tipo de imóvel e acessos.",
+      "Fazemos um levantamento do volume: lista de móveis/eletros, quantidade aproximada de caixas, itens frágeis e o que precisa de desmontagem.",
+      "Definimos a estratégia: equipe, tamanho de veículo, necessidade de proteção extra (mantas, plástico-bolha, cantoneiras) e sequência de carregamento.",
+      "Combinamos uma janela de atendimento e orientações de acesso (onde encostar, pontos de referência, restrições que possam existir e que podem variar).",
+      "No dia, protegemos móveis e áreas sensíveis (quinas, portas, eletros), desmontamos o que foi combinado e organizamos a carga com amarração adequada.",
+      "Realizamos o transporte considerando travessias/ponte e o melhor fluxo possível dentro do que o dia permite, sem prometer tempo fixo.",
+      "Na chegada, descarregamos por ambientes/setores, remontamos móveis quando contratado e conferimos volumes e integridade com você.",
+      "Se necessário, ajustamos o posicionamento final (mudança de cômodos, inversão de móveis) dentro do tempo contratado, evitando retrabalho."
+    ],
+    "priceFactors": [
+      "Distância e recorte da rota (mudança dentro do mesmo núcleo x atravessando núcleos com travessias).",
+      "Volume total e necessidade de mais de uma viagem (ou caminhão maior).",
+      "Quantidade de ajudantes e tempo estimado de carga/descarga conforme acessos (escadas, corredor longo, falta de área para encostar).",
+      "Serviços extras: embalagem completa, fornecimento de caixas e materiais, desmontagem/montagem, organização no destino.",
+      "Itens especiais: piano, cofres, vidros grandes, eletros muito pesados ou volumes que exijam técnica e equipamento específico.",
+      "Mudança comercial com janelas restritas e prioridade para “parar pouco”, o que pode pedir operação em etapas.",
+      "Trechos intermunicipais/interestaduais: maior exigência de amarração, proteção, planejamento e, em alguns casos, documentação de mercadorias.",
+      "Época e disponibilidade de agenda: alguns períodos tendem a concentrar mudanças, o que pode alterar valores e prazos de atendimento."
+    ],
+    "prepChecklist": [
+      "Separe documentos, chaves, remédios e itens essenciais em uma mochila/caixa que não vai no caminhão.",
+      "Desligue e descongele freezer/geladeira com antecedência conforme orientação do fabricante; seque e higienize antes do transporte.",
+      "Etiquete caixas por ambiente (cozinha, quarto, escritório) e marque “FRÁGIL” quando necessário.",
+      "Fotografe a parte de trás de eletrônicos e roteadores para lembrar conexões no destino.",
+      "Descarte ou doe o que não vai: menos volume costuma significar menos tempo e menor custo.",
+      "Avise com antecedência sobre escadas, ausência de elevador, portão estreito ou qualquer limitação de acesso.",
+      "Se houver condomínio/prédio, confirme regras de mudança e horários permitidos, pois podem variar conforme o local."
+    ],
+    "scenarios": [
+      "Mudança residencial entre núcleos (ex.: sair da Nova Marabá e ir para São Félix), com atenção às travessias e ao acesso no destino.",
+      "Troca de casa para apartamento (ou o contrário), com necessidade de desmontagem de móveis grandes e proteção reforçada.",
+      "Mudança comercial com transporte de estoque e equipamentos, priorizando organização por setor para retomar atividade mais rápido.",
+      "Mudança para Morada Nova, com planejamento para distância maior e kit de chegada separado para não depender de todas as caixas no primeiro dia.",
+      "Transporte de itens avulsos (sofá, geladeira, cama) como carreto planejado, quando não há mudança completa.",
+      "Mudança intermunicipal a partir de Marabá (por exemplo, rumo à capital), com embalagem e amarração adequadas para viagem longa."
+    ],
+    "faq": [
+      {
+        "q": "Vocês atendem quais regiões de Marabá?",
+        "a": "O atendimento pode ser organizado por núcleos urbanos, o que facilita a logística. Em geral, é comum atender Marabá Pioneira/Velha Marabá, Cidade Nova, Nova Marabá, São Félix (I e II) e Morada Nova. Ao solicitar, informe origem e destino por núcleo para dimensionar melhor equipe e veículo."
+      },
+      {
+        "q": "Mudança atravessando a ponte sobre o Tocantins muda alguma coisa no planejamento?",
+        "a": "Pode mudar, porque travessias costumam concentrar fluxo e influenciam o melhor horário para rodar. A ideia é planejar janela de saída/chegada e sequência de carregamento para reduzir tempo parado. Não dá para prometer um tempo fixo, mas dá para organizar para evitar improviso."
+      },
+      {
+        "q": "É possível contratar só o transporte, sem embalagem?",
+        "a": "Sim, muita gente prefere embalar por conta e contratar apenas equipe e caminhão. Nesse caso, ajuda bastante ter caixas bem fechadas, etiquetadas e com peso distribuído. Itens frágeis precisam de proteção adequada para não virar economia que sai cara."
+      },
+      {
+        "q": "Vocês fazem desmontagem e montagem de móveis?",
+        "a": "Quando combinado, a desmontagem/montagem pode entrar no serviço, especialmente para guarda-roupas, camas e estantes. O ideal é avisar antes quais móveis precisam disso para reservar tempo e ferramentas. Móveis muito antigos ou fragilizados podem exigir avaliação, porque o risco de quebra aumenta."
+      },
+      {
+        "q": "Como funciona a mudança comercial em Marabá?",
+        "a": "A mudança comercial costuma ser planejada por etapas e por setores (estoque, administrativo, recepção) para facilitar a retomada. Também é comum separar equipamentos críticos para viagem mais controlada. O objetivo é manter organização e reduzir tempo de inatividade, dentro do que a operação permitir."
+      },
+      {
+        "q": "Dá para levar geladeira e máquina de lavar com segurança?",
+        "a": "Dá, desde que sejam transportadas com proteção, amarração e manuseio corretos. Em alguns casos, é importante seguir orientações do fabricante sobre tempo de espera antes de ligar novamente. Se houver escadas e corredores estreitos, vale avisar antes para ajustar equipe e técnica."
+      },
+      {
+        "q": "Vocês fazem mudanças de Marabá para outras cidades, como Belém?",
+        "a": "Mudanças intermunicipais podem ser feitas, e a distância até Belém é frequentemente citada em torno de 485 km como referência. Por ser uma viagem longa, embalagem e amarração precisam ser mais cuidadosas, e pode haver necessidade de documentação para mercadorias. O planejamento é feito caso a caso, sem prometer prazos rígidos."
+      },
+      {
+        "q": "O que pode aumentar o valor da mudança?",
+        "a": "Normalmente aumentam: muito volume, necessidade de mais viagens, acessos difíceis, equipe extra e serviços como embalagem completa e montagem. Itens especiais e mudanças com janela muito curta também podem pesar. Um levantamento bem feito reduz surpresas."
+      },
+      {
+        "q": "Precisa ter alguém no local na hora da mudança?",
+        "a": "É recomendável ter alguém para orientar acesso, confirmar o que vai e o que fica, e acompanhar a conferência no destino. Quando ninguém pode estar presente, dá para organizar com antecedência e instruções por escrito, mas isso exige mais alinhamento. O importante é evitar decisões no improviso."
+      },
+      {
+        "q": "Como evitar extravios de peças e parafusos dos móveis?",
+        "a": "Uma prática simples é separar ferragens em saquinhos etiquetados e prender ao próprio móvel desmontado. Também ajuda fotografar etapas e anotar o que pertence a cada peça. Assim, a montagem no destino fica mais rápida e com menos risco de faltar algo."
+      }
+    ],
+    "checklist": [
+      "Levantamento do volume com perguntas diretas (móveis, caixas, itens frágeis e acessos), para evitar orçamento no escuro",
+      "Planejamento de rota e sequência de carga pensando nos núcleos e nas travessias, sem depender de “milagre” de trânsito",
+      "Proteção de móveis e eletros com mantas, cantoneiras e amarração para reduzir risco de avarias",
+      "Organização de descarregamento por ambiente/setor, facilitando a arrumação e diminuindo o tempo de bagunça",
+      "Comunicação simples antes e durante o serviço: alinhamento do que vai, do que não vai e do que precisa de cuidado extra",
+      "Flexibilidade para ajustar a operação (duas viagens, equipe extra, mudança por etapas) quando a realidade do acesso pede"
+    ],
+    "sectionTitles": {
+      "demands": "Mudança com prazo apertado em Marabá: como encaixar sem virar correria",
+      "coverage": "Atendimento por núcleos: entenda onde a mudança roda melhor",
+      "whatToSend": "O que entra na mudança em Marabá (e o que é melhor levar com você)",
+      "availability": "Agenda, janela de carga e a realidade das travessias na cidade",
+      "whenYes": "Quando a mudança em Marabá flui: sinais de plano bem alinhado",
+      "whenNo": "Quando é melhor ajustar o plano antes de colocar tudo na rua",
+      "pricing": "Preço de mudança em Marabá–PA: o que pesa de verdade no orçamento",
+      "commonScenarios": "Cenários que mais aparecem em Marabá (e como se preparar)",
+      "types": "Formatos de mudança: do carreto planejado à mudança completa",
+      "services": "Serviços que costumam salvar tempo: do pacote de embalagem à montagem",
+      "howItWorks": "Como acontece a mudança em Marabá: da cotação à conferência",
+      "completeGuide": "Guia completo de mudanças em Marabá: logística pensada para rios e núcleos",
+      "preparation": "Checklist de preparação em Marabá: deixe o dia render",
+      "neighborhoods": "Regiões atendidas em Marabá: núcleos urbanos como referência",
+      "testimonials": "Relatos de clientes: o que mais valorizam em uma mudança bem feita"
+    },
+    "sectionDescriptions": {
+      "demands": "Orientações para quem precisa mudar rápido em Marabá, com foco em decisões práticas: o que priorizar, como organizar volumes e como evitar que a pressa aumente custos e riscos.",
+      "coverage": "Explica a cobertura usando a divisão por núcleos urbanos, uma forma clara de comunicar origem e destino sem depender de listas extensas de bairros.",
+      "whatToSend": "Ajuda a separar itens ideais para transporte, o que precisa de cuidado extra e o que costuma ser melhor levar de forma pessoal, para reduzir perdas e dores de cabeça.",
+      "availability": "Mostra como alinhar data e horário considerando pontos de travessia e fluxo urbano, trabalhando com janelas realistas em vez de promessas rígidas.",
+      "pricing": "Detalha fatores de orçamento com linguagem simples: volume, acesso, equipe, serviços extras e diferenças entre mudança urbana e intermunicipal.",
+      "commonScenarios": "Reúne situações típicas (residencial, comercial, longas distâncias dentro do município) e como adaptar embalagem, equipe e sequência de carga.",
+      "types": "Apresenta opções de atendimento para diferentes necessidades, do transporte de poucos itens até a mudança completa com operação organizada.",
+      "services": "Lista complementos que aumentam segurança e agilidade, explicando quando fazem sentido e como influenciam o cronograma.",
+      "howItWorks": "Resume o processo em etapas claras, desde o levantamento do que será transportado até a conferência final no destino.",
+      "completeGuide": "Conteúdo pilar com dicas aplicáveis a Marabá: planejamento por núcleos, atenção às travessias e boas práticas de embalagem e manuseio.",
+      "preparation": "Checklist objetivo para organizar a casa ou empresa, reduzir retrabalho e tornar a chegada no novo endereço muito mais tranquila.",
+      "neighborhoods": "Define as áreas de atendimento por núcleo (Velha Marabá, Cidade Nova, Nova Marabá, São Félix e Morada Nova), facilitando orçamento e logística.",
+      "testimonials": "Espaço para depoimentos reais destacando pontualidade combinada, cuidado com embalagens, comunicação e organização de carga e descarga."
+    },
+    "_approxWords": 2896
+  },
+  "urgente": {
+    "introParagraphs": [
+      "Precisa de frete urgente em Marabá (PA) e não dá para esperar “até amanhã”? Aqui o deslocamento tem particularidades: a cidade se organiza em núcleos urbanos e fica entre os rios Tocantins e Itacaiúnas, o que faz com que pontes e travessias sejam pontos-chave no planejamento. Um frete rápido, nesses casos, depende menos de pressa e mais de método: confirmar medidas, escolher o veículo certo, definir o melhor ponto de carga/descarga e alinhar janelas de horário para evitar retrabalho.",
+      "Nesta página você encontra um guia prático para solicitar carreto urgente, frete expresso e apoio a pequenas mudanças em Marabá — com linguagem direta e sem promessas irreais. A ideia é ajudar você a resolver hoje o que não pode ficar parado: entrega de item grande, retirada em loja, transporte de equipamentos, envio para outra cidade (como Belém, a cerca de 485 km, usado apenas como referência) e deslocamentos entre núcleos como Marabá Pioneira, Cidade Nova, Nova Marabá, São Félix e Morada Nova."
+    ],
+    "guideParagraphs": [
+      "Fretar com urgência em Marabá costuma envolver duas decisões rápidas: o que exatamente precisa ir e o quanto de previsibilidade você precisa na coleta e na entrega. Nem todo “frete urgente” significa corrida sem planejamento; muitas vezes, o mais importante é garantir que o veículo chegue com os itens certos (mantas, cintas, carrinho, cordas) e que a carga esteja pronta para sair. Quando o pedido vem no meio do dia, a diferença entre resolver em poucas horas ou estourar o prazo costuma estar na preparação e na comunicação.",
+      "O desenho urbano por núcleos ajuda a organizar o atendimento sem depender de listas enormes de bairros. Em termos operacionais, mudar um item de um núcleo para outro pode exigir atravessar corredores de fluxo e, em alguns casos, passar por ligações importantes sobre o Tocantins. Por isso, vale informar logo no primeiro contato onde é a coleta e onde é a entrega, citando o núcleo (por exemplo, Cidade Nova ou Nova Marabá). Esse detalhe simples evita estimativas tortas e melhora a escolha da rota.",
+      "Marabá está entre o Tocantins e o Itacaiúnas, e isso influencia o “tempo real” do serviço, que pode variar por volume de tráfego, horários e condições do dia. Em frete urgente, uma boa prática é não depender de suposições: combinar um horário-alvo e um plano B (ex.: tolerância de alguns minutos para carregar, ou um ponto de encontro mais fácil). Também ajuda avisar se o local tem escada, rampa estreita, quintal com acesso limitado ou área de carga complicada.",
+      "Para fretes expressos, o que mais atrasa é item mal descrito. “Uma geladeira” pode ser uma geladeira duplex grande; “uma mesa” pode ser desmontável ou uma peça inteira pesada. Em Marabá, onde deslocamentos entre núcleos podem envolver trechos mais longos ou travessias, o custo de errar o veículo é alto: às vezes precisa voltar para trocar caminhonete por caminhão. Por isso, envie medidas aproximadas, fotos e informe se há necessidade de duas pessoas para manuseio.",
+      "Quando a urgência envolve retirada em loja, depósito ou transportadora, pergunte antes sobre janela de retirada e documentação necessária (isso pode variar por estabelecimento). No lado do frete, a recomendação é chegar com tudo alinhado: nome para retirada, número de pedido ou nota, e confirmação de que o item está liberado. Assim, o veículo não fica parado. E se for entrega em condomínio ou prédio, combine como será a entrada e o uso de elevador, já que regras e horários podem variar bastante.",
+      "Um ponto de referência urbano útil é o Aeroporto João Correa da Rocha, associado à Cidade Nova. Em serviços urgentes, referências assim facilitam localizar e planejar, principalmente quando a coleta ou entrega tem pouca sinalização. Ainda assim, o ideal é compartilhar um ponto de encontro claro e instruções simples (ex.: “entrada lateral”, “portão principal”, “rua estreita”) sem depender de descrições longas. Quanto menos incerteza, mais rápido o carregamento começa.",
+      "Marabá é frequentemente citada como entroncamento logístico, com vocação multimodal. Na prática, isso se traduz em demanda por fretes que conectam comércio local, obras, fazendas, oficinas, eventos e remessas intermunicipais. Para quem precisa enviar para outra cidade, vale separar o que é “frete dedicado” (vai direto) do que é “frete compartilhado” (pode ser mais econômico, mas nem sempre é a melhor escolha para urgência). Um orçamento bem feito deixa isso transparente.",
+      "A Ponte Mista de Marabá é uma ligação rodoferroviária sobre o Tocantins e aparece como corredor estratégico na circulação urbana e regional. Como qualquer ponto de conexão importante, pode concentrar fluxo em determinados horários. Em frete urgente, é sensato planejar considerando travessias e alternativas, quando existirem, sem prometer um “tempo cravado”. Se houver obra em andamento na cidade ou no entorno, o impacto pode variar; por isso, confirmar no dia e ajustar o roteiro é parte do serviço.",
+      "Nem todo frete urgente é grande. Muitos pedidos em Marabá envolvem poucos volumes: caixas, malas, peças automotivas, pequenas máquinas, mercadorias para reposição, móveis desmontados. Para isso, às vezes uma utilitária resolve com agilidade e menor burocracia de acesso. O importante é a acomodação correta: proteger quinas, travar carga com cinta e distribuir o peso para evitar avarias. Urgência não combina com improviso de amarração.",
+      "Quando o assunto é mudança rápida (parcial ou completa), o essencial é priorizar o que não pode esperar: cama, geladeira, itens de trabalho, documentos e ferramentas. Uma abordagem eficiente é fazer “onda 1” (itens essenciais) e “onda 2” (o restante), caso o prazo seja apertado. Isso reduz ansiedade e evita que a equipe perca tempo decidindo na hora. Se precisar de desmontagem/montagem, avise com antecedência — isso muda o tempo de execução e o tipo de profissional envolvido.",
+      "Para empresas, o frete urgente geralmente tem outro perfil: levar equipamento que parou, recolher mercadoria de última hora, trocar exposição de loja, movimentar estoque entre pontos. Aqui a dica é mapear o impacto do atraso e informar prioridade de descarga. Também ajuda separar volumes por destino (etiquetas simples com “vai primeiro/segundo”) e preparar nota/romaneio se necessário. Assim, a equipe não perde tempo conferindo item por item em local de carga apertado.",
+      "Um serviço expresso bem contratado começa com um briefing curto, mas completo. Em vez de “preciso hoje”, diga: o que é, quantos volumes, dimensões aproximadas, peso estimado, se tem fragilidade, se vai embalar, onde coleta/entrega (por núcleo), acessos (escada/elevador) e forma de pagamento. Com isso, dá para definir veículo, número de ajudantes e materiais. Em Marabá, onde a logística se organiza por núcleos, essa clareza evita idas e vindas.",
+      "Sobre disponibilidade: urgência depende da agenda do dia, do tipo de veículo e da distância. Em alguns casos dá para atender em poucas horas; em outros, o melhor é agendar um encaixe com horário realista. Para aumentar suas chances, tenha flexibilidade de janela (por exemplo, “entre 14h e 16h”) e deixe a carga pronta antes do veículo chegar. Se for um item único pesado, organize acesso e ajuda local — ou contrate a equipe com ajudante(s) desde o início.",
+      "Para deslocamentos mais longos, como remessas entre Marabá e outras cidades do Pará (Belém aparece como referência de distância aproximada), a urgência costuma envolver saída no mesmo dia e entrega direta. Nesses casos, combine claramente o formato: direto sem paradas, com paradas técnicas, ou com possibilidade de compartilhamento. Também confirme o que está incluso: pedágios quando existirem no trajeto, espera para carga/descarga e retorno. Transparência evita surpresa no fim.",
+      "No fim, um frete urgente em Marabá funciona melhor quando as duas pontas colaboram: quem contrata prepara, descreve e libera; quem transporta chega equipado, protege, amarra e executa com cuidado. A cidade tem ritmo próprio, travessias e eixos de circulação que pedem planejamento. Se você seguir o checklist e passar as informações certas, a chance de resolver rápido — e sem dano — aumenta bastante, mesmo quando o pedido aparece “para ontem”."
+    ],
+    "howSteps": [
+      "Explique o motivo da urgência e o prazo real: precisa coletar ainda hoje, entregar até determinado horário ou apenas “o quanto antes”.",
+      "Informe coleta e entrega por núcleo urbano (ex.: Marabá Pioneira, Cidade Nova, Nova Marabá, São Félix, Morada Nova) e mande uma referência simples do local.",
+      "Descreva a carga: quantidade de volumes, medidas aproximadas, peso estimado, fragilidade e se há item que não pode deitar (como alguns eletros).",
+      "Diga como é o acesso: escadas, elevador (quando houver), portões estreitos, necessidade de parar longe e caminhar com carrinho.",
+      "Defina o formato do serviço: somente motorista, motorista + ajudante, ou equipe completa; e se precisa de desmontagem/montagem.",
+      "Combine embalagem e proteção: quem fornece caixa, filme, manta, papelão e como será o travamento com cintas no veículo.",
+      "Feche o orçamento com o que está incluso: deslocamento, tempo de espera para carregar/descargar, eventuais retornos e condições de pagamento.",
+      "No dia, deixe tudo pronto e sinalizado por prioridade (vai primeiro/último) para reduzir tempo parado.",
+      "Na entrega, faça conferência rápida e registre qualquer observação antes de liberar o veículo."
+    ],
+    "priceFactors": [
+      "Distância e complexidade do trajeto (incluindo travessias e necessidade de circular entre núcleos urbanos).",
+      "Tipo de veículo necessário (utilitário, caminhonete, caminhão pequeno/médio) e se precisa de carroceria fechada para proteger da chuva/poeira.",
+      "Volume total e peso: quantidade de itens, se são grandes (sofá, geladeira) ou muitos volumes pequenos (caixas).",
+      "Quantidade de ajudantes e nível de manuseio (carregar em escada, item pesado, necessidade de carrinho e cintas).",
+      "Grau de urgência e encaixe na agenda (atender “agora” costuma exigir reorganização de rota).",
+      "Tempo de espera em coleta/entrega (liberação de mercadoria, conferência, fila, montagem de acesso).",
+      "Serviços extras: desmontagem/montagem, embalagem, proteção com mantas, coleta em mais de um ponto, descarte/retirada de itens antigos.",
+      "Destino intermunicipal/interestadual: serviço dedicado vs. compartilhado e custos variáveis do deslocamento (quando aplicável)."
+    ],
+    "prepChecklist": [
+      "Separe o que vai e o que não vai (urgência piora quando há indecisão na hora do carregamento).",
+      "Faça fotos dos itens grandes e informe medidas aproximadas (altura/largura/profundidade).",
+      "Embale itens frágeis com proteção interna e identifique caixas como “FRÁGIL” e “ESTE LADO PARA CIMA”.",
+      "Descongele e seque geladeira/freezer com antecedência quando possível; retire prateleiras soltas.",
+      "Esvazie gavetas e prenda portas com fita adequada para transporte (sem colar direto em superfícies sensíveis).",
+      "Organize um corredor de passagem e libere o acesso do portão/entrada para reduzir tempo de carga.",
+      "Separe ferramentas e parafusos em sacos identificados se houver desmontagem de móveis.",
+      "Deixe documentos e itens de valor com você (não despachar junto com caixas comuns).",
+      "Combine com a outra ponta quem receberá e como será a conferência na entrega."
+    ],
+    "scenarios": [
+      "Carreto expresso para buscar um eletrodoméstico recém-comprado e entregar no mesmo dia, com proteção e amarração.",
+      "Frete urgente entre núcleos urbanos para levar móveis desmontados e caixas essenciais de uma mudança que precisou ser antecipada.",
+      "Retirada rápida em loja/depósito com entrega em residência, evitando veículo parado por falta de informações de liberação.",
+      "Transporte de equipamento de trabalho (ferramentas, máquinas leves, impressoras, expositores) para não travar a operação.",
+      "Entrega de mercadoria para reposição de estoque em comércio, com prioridade de descarga e volumes identificados.",
+      "Frete dedicado para outra cidade do Pará quando a urgência pede saída imediata e rota direta, conforme disponibilidade.",
+      "Coleta em dois pontos (por exemplo, casa + loja) para consolidar volumes e seguir para um único destino.",
+      "Mudança pequena de última hora com motorista e ajudante, focada nos itens indispensáveis para a primeira noite."
+    ],
+    "faq": [
+      {
+        "q": "O que vocês consideram “frete urgente” em Marabá?",
+        "a": "É o atendimento com prioridade de encaixe e execução no menor prazo possível, normalmente no mesmo dia, dependendo de agenda e tipo de carga. A urgência é combinada por janela de coleta/entrega e pela disponibilidade do veículo adequado."
+      },
+      {
+        "q": "Atende quais regiões de Marabá sem precisar listar bairro por bairro?",
+        "a": "Dá para organizar o atendimento pelos núcleos urbanos: Marabá Pioneira (Velha Marabá), Cidade Nova, Nova Marabá, São Félix e Morada Nova. Ao pedir, informe o núcleo da coleta e o núcleo da entrega para facilitar o planejamento."
+      },
+      {
+        "q": "Posso pedir frete urgente para levar apenas um item grande?",
+        "a": "Sim. Itens únicos como geladeira, sofá, máquina de lavar ou armário são comuns em pedidos urgentes. O ideal é mandar foto e medidas para definir veículo, proteção e necessidade de ajudante."
+      },
+      {
+        "q": "Vocês fazem frete urgente para outras cidades do Pará?",
+        "a": "Em muitos casos, sim, conforme disponibilidade e alinhamento do formato (dedicado ou compartilhado). Para referência, Belém fica a cerca de 485 km de Marabá, mas prazo e condições variam com o dia e o tipo de serviço."
+      },
+      {
+        "q": "Como funciona a cobrança: por hora, por viagem ou por km?",
+        "a": "Pode variar conforme o tipo de frete, volume, distância e urgência. O mais comum é fechar por serviço/viagem com tudo detalhado (o que inclui, espera, ajudantes e extras) para evitar surpresa."
+      },
+      {
+        "q": "Precisa ter ajudante no frete urgente?",
+        "a": "Depende do peso, do acesso e do nível de montagem/desmontagem. Para item pesado, escadas ou muitos volumes, incluir ajudante costuma reduzir tempo e risco de dano."
+      },
+      {
+        "q": "Vocês fornecem embalagem e proteção?",
+        "a": "Pode ser combinado: alguns serviços incluem mantas e cintas; caixas, filme e papelão podem ser adicionados conforme a necessidade. Se a carga for frágil, avise antes para planejar o material adequado."
+      },
+      {
+        "q": "E se no local não der para estacionar perto da entrada?",
+        "a": "Isso acontece e muda o esforço de carga/descarga. Informe antes se a rua é estreita, se há necessidade de parar mais longe ou se o acesso é por corredor/escada, para ajustar equipe e equipamentos."
+      },
+      {
+        "q": "Dá para agendar um horário exato?",
+        "a": "Em serviços urgentes, o mais realista costuma ser trabalhar com janela de horário. Ainda assim, dá para priorizar um horário-alvo, e quanto mais a carga estiver pronta, maior a chance de cumprir a janela combinada."
+      },
+      {
+        "q": "O que mais atrasa um frete urgente?",
+        "a": "Item descrito de forma vaga, carga ainda sendo separada quando o veículo chega, falta de autorização/liberação no ponto de retirada e acessos difíceis não informados. Um briefing completo e preparação prévia reduzem bastante esses atrasos."
+      }
+    ],
+    "demands": [
+      "Retirada imediata de compra (móvel/eletro) em loja ou depósito com entrega no mesmo dia",
+      "Carreto rápido de item único grande que não cabe em carro comum",
+      "Mudança parcial de última hora (somente essenciais para “passar a noite” ou iniciar operação)",
+      "Transporte urgente de equipamento de trabalho para evitar parada de serviço",
+      "Envio dedicado intermunicipal quando a carga não pode esperar a próxima janela",
+      "Coleta e entrega entre núcleos urbanos com necessidade de ajudante para carregar"
+    ],
+    "whenYes": [
+      "Quando você manda fotos, medidas aproximadas e descreve bem a fragilidade dos itens",
+      "Quando a carga já está separada e o caminho de saída está livre (corredor, portão, escada)",
+      "Quando coleta e entrega são informadas por núcleo urbano, evitando desencontro de localização",
+      "Quando há flexibilidade de janela de horário em vez de “minuto exato”",
+      "Quando o acesso permite manuseio seguro (ou você contrata ajudante/equipe para compensar)",
+      "Quando o pagamento e a liberação do item (loja/depósito) já estão resolvidos antes da chegada"
+    ],
+    "whenNo": [
+      "Quando o item exige equipamento específico não disponível no momento (ex.: içamento, guindaste, ferramentas especiais)",
+      "Quando o volume real é muito maior do que o informado e o veículo agendado não comporta",
+      "Quando não há ninguém para liberar entrada, entregar mercadoria ou receber na outra ponta",
+      "Quando o acesso é extremamente limitado e não foi avisado (escadas apertadas, longas distâncias a pé, impossibilidade de parada)",
+      "Quando a urgência pede rota direta, mas só há opção de encaixe compartilhado no dia",
+      "Quando o local de retirada/entrega tem exigências de horário/documentação que ainda não foram confirmadas"
+    ],
+    "common": [
+      "Buscar e entregar geladeira, fogão ou máquina de lavar com amarração correta",
+      "Levar cama, colchão e caixas de roupa em mudança relâmpago entre núcleos",
+      "Retirar mercadoria em depósito e distribuir em um ponto comercial",
+      "Transportar mesa, armário ou sofá após desmontagem rápida",
+      "Frete de caixas e volumes para quem está saindo de aluguel e precisa liberar o imóvel",
+      "Movimentar equipamentos e materiais para obra/instalação com horário apertado",
+      "Entrega de itens para evento/feira (expositores, banners, materiais) com prioridade de chegada",
+      "Coleta de compra online liberada em cima da hora, com entrega no mesmo dia"
+    ],
+    "sectionTitles": {
+      "demands": "Chamados de última hora em Marabá: o que mais aparece",
+      "coverage": "Atendimento por núcleos urbanos (sem complicar com mapas)",
+      "whatToSend": "O que vale mandar no pedido para o frete não travar",
+      "availability": "Agenda realista para hoje: como aumentar a chance de encaixe",
+      "whenYes": "Quando o frete expresso costuma fluir bem",
+      "whenNo": "Situações que podem impedir o atendimento imediato",
+      "pricing": "Preço do frete urgente: o que pesa no orçamento",
+      "commonScenarios": "Cenas do dia a dia que pedem carreto rápido",
+      "types": "Modalidades de frete rápido e pequenas mudanças",
+      "services": "Apoios que fazem diferença (proteção, montagem e manuseio)",
+      "howItWorks": "Como roda o urgente em Marabá: triagem, coleta e entrega",
+      "completeGuide": "Guia completo de frete urgente em Marabá (PA)",
+      "preparation": "Preparação rápida da carga: checklist para ganhar tempo",
+      "neighborhoods": "Regiões atendidas sem depender de lista de bairros",
+      "testimonials": "Depoimentos do urgente em Marabá: o que clientes mais elogiam"
+    },
+    "sectionDescriptions": {
+      "demands": "Uma seleção dos pedidos mais comuns quando o prazo apertou — útil para você identificar seu caso e já pedir do jeito certo.",
+      "coverage": "Explica como organizamos o atendimento usando os núcleos urbanos de Marabá, o que facilita orçamento e planejamento de rota.",
+      "whatToSend": "O conjunto de informações (fotos, medidas e acessos) que acelera a cotação e evita troca de veículo no meio do caminho.",
+      "availability": "Orientações práticas para encaixar um frete no mesmo dia com transparência, combinando janela e plano B.",
+      "pricing": "Fatores que influenciam valores no serviço expresso, com exemplos de variáveis que você controla e outras que dependem do cenário.",
+      "commonScenarios": "Situações reais de casa e empresa em que o frete urgente resolve, desde item único até mudança parcial.",
+      "types": "As opções mais usadas para urgência (dedicado, compartilhado, item avulso, mudança pequena) e quando cada uma faz sentido.",
+      "services": "Serviços complementares que reduzem risco de avaria e economizam tempo, principalmente em cargas frágeis ou pesadas.",
+      "howItWorks": "Um roteiro curto para contratar e executar com segurança, evitando atrasos por falha de comunicação.",
+      "completeGuide": "Conteúdo pilar para quem quer entender urgência em Marabá: logística por núcleos, travessias e boas práticas de preparo.",
+      "preparation": "Lista objetiva para deixar tudo pronto antes do veículo chegar, reduzindo tempo parado e estresse.",
+      "neighborhoods": "Cobertura descrita de forma ampla e fiel à organização urbana da cidade, sem inventar bairros específicos.",
+      "testimonials": "Exemplos de feedbacks típicos (sem dados pessoais) para você ter uma noção do que as pessoas valorizam em um atendimento expresso."
+    },
+    "_approxWords": 2976
+  }
+}

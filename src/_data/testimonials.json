@@ -12544,5 +12544,329 @@
     "type": "urgente",
     "ts": 1770679076661,
     "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_01",
+    "text": "Combinei o frete em Marabá e deu tudo certo. Chegaram no horário e trataram minhas coisas com cuidado.",
+    "author": "Camila",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_02",
+    "text": "Precisava levar uns móveis e foi bem tranquilo. Atendimento rápido e preço justo pelo serviço.",
+    "author": "Rafael",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_03",
+    "text": "Gostei da organização na hora de carregar e descarregar. Tudo chegou sem dor de cabeça.",
+    "author": "Bruna",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_04",
+    "text": "Responderam rápido e acertamos o valor antes. O frete em Marabá foi pontual e sem complicação.",
+    "author": "Diego",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_05",
+    "text": "Fiz frete de última hora e me atenderam no mesmo dia. Foram cuidadosos com as caixas.",
+    "author": "Larissa",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_06",
+    "text": "O motorista foi educado e paciente. A mudança pequena saiu melhor do que eu esperava.",
+    "author": "Thiago",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_07",
+    "text": "Tinha item pesado e eles ajudaram na movimentação. Tudo bem combinado do início ao fim.",
+    "author": "Juliana",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_08",
+    "text": "Frete rápido e sem enrolação. Me passaram as informações certinhas e cumpriram o combinado.",
+    "author": "Marcos",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_09",
+    "text": "Achei o serviço bem caprichado, principalmente na proteção dos móveis. Recomendo pra quem precisa em Marabá.",
+    "author": "Patricia",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_10",
+    "text": "Combinei o horário e chegaram certinho. A entrega foi tranquila e sem danos.",
+    "author": "Felipe",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_11",
+    "text": "Bom custo-benefício e comunicação clara. Minha encomenda chegou direitinho.",
+    "author": "Renata",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_fretes_12",
+    "text": "Precisava de frete pra levar algumas coisas do trabalho e foi bem prático. Resolveram rápido e com cuidado.",
+    "author": "Gustavo",
+    "citySlug": "maraba",
+    "type": "fretes",
+    "ts": 1770679632549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_01",
+    "text": "Fiz minha mudança em Marabá e foi bem tranquila. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Carla",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_02",
+    "text": "Equipe bem educada e organizada. Embalaram as coisas com cuidado e não tive dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_03",
+    "text": "Gostei porque combinaram tudo antes e cumpriram o que foi acertado. Mudança rápida e sem bagunça.",
+    "author": "Juliana",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_04",
+    "text": "Atendimento foi bem direto e responderam rápido. No dia, deu tudo certo e entregaram tudo certinho.",
+    "author": "Marcos",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_05",
+    "text": "Eu estava com medo de quebrar minhas coisas, mas veio tudo bem protegido. Pessoal caprichoso.",
+    "author": "Aline",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_06",
+    "text": "Preço justo e serviço bem feito. Carregaram e descarregaram com cuidado, sem pressa.",
+    "author": "Bruno",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_07",
+    "text": "Minha mudança tinha bastante coisa e mesmo assim foram bem ágeis. Gostei da atenção com os detalhes.",
+    "author": "Fernanda",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_08",
+    "text": "Pontuais e cuidadosos. A comunicação foi boa do começo ao fim, sem surpresas.",
+    "author": "Diego",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_09",
+    "text": "Precisava fazer a mudança em Marabá em pouco tempo e eles encaixaram direitinho. Foi tudo bem combinado.",
+    "author": "Patricia",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_10",
+    "text": "Levaram geladeira e armário sem arrastar e sem danificar. Isso pra mim fez toda diferença.",
+    "author": "Lucas",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_11",
+    "text": "Trataram minhas caixas e eletrônicos com bastante cuidado. Serviço honesto e bem organizado.",
+    "author": "Vanessa",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_mudancas_12",
+    "text": "Foi a primeira vez que contratei mudança e fiquei mais tranquilo. Explicaram o processo e fizeram tudo certinho.",
+    "author": "Gustavo",
+    "citySlug": "maraba",
+    "type": "mudancas",
+    "ts": 1770679643855,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_01",
+    "text": "Precisava do frete com urgência e deu tudo certo. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_02",
+    "text": "Responderam rápido e já passaram o valor na hora. O frete foi ágil e bem organizado.",
+    "author": "Rafael",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_03",
+    "text": "Tive uma emergência com uma entrega e eles resolveram no mesmo dia. Atendimento bem tranquilo.",
+    "author": "Juliana",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_04",
+    "text": "O motorista foi pontual e cuidadoso com as caixas. Pra frete urgente, funcionou direitinho.",
+    "author": "Diego",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_05",
+    "text": "Combinei tudo por mensagem e foi bem prático. Chegou rápido e sem complicação.",
+    "author": "Aline",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_06",
+    "text": "Eu estava com pressa e eles se viraram pra encaixar o frete. Comunicação clara do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_07",
+    "text": "Entrega urgente de última hora e não me deixaram na mão. Preço justo pelo serviço.",
+    "author": "Patricia",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_08",
+    "text": "Gostei porque avisaram quando estavam a caminho e quando entregaram. Passou confiança.",
+    "author": "Marcos",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_09",
+    "text": "Foi rápido e cuidadoso, sem amassar nada. Pra quem precisa de urgência, ajuda muito.",
+    "author": "Fernanda",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_10",
+    "text": "Atenderam minha solicitação no mesmo dia e deu tudo certo. Bem mais fácil do que eu imaginava.",
+    "author": "Lucas",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_11",
+    "text": "Tinha prazo apertado e conseguiram cumprir. Serviço direto, sem enrolação.",
+    "author": "Renata",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_maraba_urgente_12",
+    "text": "Precisava transportar umas coisas com urgência e foram bem ágeis. Recomendo pra quem tá na correria.",
+    "author": "Gustavo",
+    "citySlug": "maraba",
+    "type": "urgente",
+    "ts": 1770679653775,
+    "source": "cliente"
   }
 ]
