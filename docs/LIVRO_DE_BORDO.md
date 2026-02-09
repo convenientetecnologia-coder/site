@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Jundiaí (SP)** — publicado em 2026-02-09
+  - `/fretes-em-jundiai/` (~3146 palavras)
+  - `/mudancas-em-jundiai/` (~3040 palavras)
+  - `/frete-urgente-em-jundiai/` (~3244 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `ba7a583`
+
 - **Juiz de Fora (MG)** — publicado em 2026-02-09
   - `/fretes-em-juiz-de-fora/` (~3000 palavras)
   - `/mudancas-em-juiz-de-fora/` (~2994 palavras)
