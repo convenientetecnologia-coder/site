@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Franca (SP)** — publicado em 2026-02-09
+  - `/fretes-em-franca/` (~3097 palavras)
+  - `/mudancas-em-franca/` (~3035 palavras)
+  - `/frete-urgente-em-franca/` (~3074 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 36 bairros divididos em 3 blocos únicos (12/12/12 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `750c044`
+
 - **Foz do Iguaçu (PR)** — publicado em 2026-02-06
   - `/fretes-em-foz-do-iguacu/` (~2906 palavras)
   - `/mudancas-em-foz-do-iguacu/` (~3187 palavras)
