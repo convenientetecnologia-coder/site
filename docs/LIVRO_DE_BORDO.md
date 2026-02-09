@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **João Pessoa (PB)** — publicado em 2026-02-09
+  - `/fretes-em-joao-pessoa/` (~3081 palavras)
+  - `/mudancas-em-joao-pessoa/` (~2947 palavras)
+  - `/frete-urgente-em-joao-pessoa/` (~3213 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `6588ce2`
+
 - **Ipatinga (MG)** — publicado em 2026-02-09
   - `/fretes-em-ipatinga/` (~3032 palavras)
   - `/mudancas-em-ipatinga/` (~2876 palavras)
