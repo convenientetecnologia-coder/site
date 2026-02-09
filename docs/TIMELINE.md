@@ -9,6 +9,19 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SEO] Sitemap corrigido: agora inclui todas as páginas de cidades publicadas (pagination)
+
+- **O que**: corrigido `src/sitemap.xml.11ty.js` para gerar `sitemap.xml` a partir de `publishedCities` + `enabledTypes` (fonte canônica), em vez de `collections.all`.
+- **Por quê**: com páginas geradas via pagination, o Eleventy não inclui todas as páginas paginadas em `collections.all` por padrão — o sitemap estava saindo com poucas URLs (ex.: só home + legais + 1ª cidade).
+- **Evidência**:
+  - Commit: `07033c5` (repo `site`)
+  - `src/sitemap.xml.11ty.js`
+  - `sitemap.xml` agora lista todas as URLs de cidades habilitadas
+- **Impacto**: Google Search Console passa a descobrir muito mais URLs via sitemap; melhora cobertura de indexação.
+- **Rollback**: reverter commit `07033c5`.
+
+---
+
 #### 2026-02-09 — [SITE] Joinville (SC): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Joinville com sistema 100% GPT:
