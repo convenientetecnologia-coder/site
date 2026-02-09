@@ -10933,5 +10933,320 @@
     "type": "urgente",
     "ts": 1770661787595,
     "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_01",
+    "text": "Precisei levar um guarda-roupa e foi bem tranquilo. A equipe foi cuidadosa e educada.",
+    "author": "Carlos",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_02",
+    "text": "Preço justo e comunicação clara do começo ao fim. Recomendo pra quem precisa de frete em Limeira.",
+    "author": "Fernanda",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_03",
+    "text": "Agendei de um dia pro outro e responderam rápido. Entrega sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_04",
+    "text": "Transportaram meus eletros com bastante cuidado. Chegou tudo certinho, sem arranhões.",
+    "author": "Aline",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_05",
+    "text": "Gostei porque foram pontuais e bem organizados. O motorista avisou quando estava chegando.",
+    "author": "Renato",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_06",
+    "text": "Fiz frete de algumas peças de loja e veio tudo bem acomodado. Atendimento simples e eficiente.",
+    "author": "Paula",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_07",
+    "text": "Tinha uma mudança pequena e resolveram rapidinho. O combinado foi cumprido direitinho.",
+    "author": "Diego",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_08",
+    "text": "Achei ótimo o cuidado na hora de carregar e descarregar. Passou confiança desde o primeiro contato.",
+    "author": "Camila",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_09",
+    "text": "Precisava levar um sofá e deu certo. Foram pacientes e ajudaram a posicionar direitinho na entrega.",
+    "author": "Lucas",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_10",
+    "text": "Serviço honesto e sem complicação. Me atualizaram durante o trajeto e chegou no prazo.",
+    "author": "Juliana",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_11",
+    "text": "Contratei pra levar materiais e foi tudo bem alinhado. Chegaram no horário combinado e finalizaram rápido.",
+    "author": "Rafael",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770662550386,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_01",
+    "text": "Minha mudança em Limeira foi bem organizada, chegaram no horário e cuidaram dos móveis com atenção. Recomendo pelo capricho.",
+    "author": "Camila",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_02",
+    "text": "Gostei da comunicação desde o começo, tiraram minhas dúvidas e combinaram tudo certinho. No dia, foi bem tranquilo.",
+    "author": "Rafael",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_03",
+    "text": "Equipe educada e rápida, embalaram as coisas mais frágeis com cuidado. Deu tudo certo na mudança.",
+    "author": "Fernanda",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_04",
+    "text": "Preço justo e serviço bem feito. O caminhão veio limpo e os itens chegaram sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_05",
+    "text": "Eu estava com medo por causa do sofá e da geladeira, mas eles manusearam com calma e atenção. Foi uma boa experiência.",
+    "author": "Juliana",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_06",
+    "text": "Pontuais e organizados, foram colocando tudo no lugar conforme eu pedia. Facilitou muito a mudança.",
+    "author": "Marcos",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_07",
+    "text": "Atendimento rápido no orçamento e sem enrolação. No dia, trabalharam direitinho e finalizaram no tempo combinado.",
+    "author": "Aline",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_08",
+    "text": "Mudança de apartamento com escada e eles deram conta sem estresse. Cuidaram bem das caixas e dos móveis.",
+    "author": "Renata",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_09",
+    "text": "O pessoal foi bem cuidadoso com a TV e os vidros. Chegou tudo certinho e sem bagunça.",
+    "author": "Diego",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_10",
+    "text": "Gostei porque foram bem respeitosos e prestativos. A mudança ficou leve, sem aquela correria.",
+    "author": "Patricia",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_11",
+    "text": "Chegaram, conferiram tudo e já começaram a carregar de forma organizada. Me passou confiança do início ao fim.",
+    "author": "Lucas",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_mudancas_12",
+    "text": "Tinha bastante coisa e mesmo assim foram ágeis e cuidadosos. No final, ficou tudo bem acomodado no caminhão.",
+    "author": "Beatriz",
+    "citySlug": "limeira",
+    "type": "mudancas",
+    "ts": 1770662562236,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_01",
+    "text": "Precisava do frete pra ontem e eles resolveram sem enrolação. Chegou no prazo combinado e com boa comunicação.",
+    "author": "Mariana",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_02",
+    "text": "Atendimento bem rápido e direto. O motorista avisou quando saiu e quando entregou, o que ajudou muito.",
+    "author": "Carlos",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_03",
+    "text": "Consegui agendar em cima da hora e deu tudo certo. A entrega foi tranquila e sem dor de cabeça.",
+    "author": "Fernanda",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_04",
+    "text": "Tinha urgência com uma encomenda e responderam na hora. Preço justo e serviço bem organizado.",
+    "author": "João",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_05",
+    "text": "Gostei porque não prometeram mil coisas, só combinaram o horário e cumpriram. Chegou rápido e bem cuidado.",
+    "author": "Aline",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_06",
+    "text": "Precisava levar umas caixas com urgência e foi bem prático. Resolveram tudo por mensagem e sem complicação.",
+    "author": "Bruno",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_07",
+    "text": "Entrega urgente que realmente ajudou no meu dia. Atualizações durante o trajeto passaram confiança.",
+    "author": "Patrícia",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_08",
+    "text": "Chamei em cima da hora e ainda assim encaixaram. O serviço foi ágil e o combinado foi respeitado.",
+    "author": "Rafael",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_09",
+    "text": "O frete saiu rápido e chegou certinho. Atendimento educado e sem aquela demora pra responder.",
+    "author": "Camila",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_10",
+    "text": "Tive uma urgência no trabalho e eles salvaram. A coleta foi rápida e a entrega ocorreu no horário.",
+    "author": "Diego",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_11",
+    "text": "Gostei da atenção nos detalhes e da pressa certa, sem bagunça. Minha entrega chegou bem antes do que eu esperava.",
+    "author": "Larissa",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_urgente_12",
+    "text": "Foi tudo bem combinado desde o início. Pra frete urgente, achei bem eficiente e com boa comunicação.",
+    "author": "Gustavo",
+    "citySlug": "limeira",
+    "type": "urgente",
+    "ts": 1770662573602,
+    "source": "cliente"
   }
 ]
