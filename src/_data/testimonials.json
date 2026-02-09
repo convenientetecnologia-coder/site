@@ -9979,5 +9979,320 @@
     "type": "urgente",
     "ts": 1770652551429,
     "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_01",
+    "text": "Preço justo e atendimento bem direto. A mudança foi rápida e sem dor de cabeça.",
+    "author": "Lucas",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_02",
+    "text": "Precisava levar uns móveis e eles resolveram no mesmo dia. Motorista educado e bem cuidadoso.",
+    "author": "Camila",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_03",
+    "text": "Gostei da pontualidade e da organização na hora de carregar. Tudo chegou certinho.",
+    "author": "Rafael",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_04",
+    "text": "Fiz o agendamento e foi bem tranquilo. A equipe ajudou a acomodar tudo direitinho no veículo.",
+    "author": "Aline",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_05",
+    "text": "Serviço honesto, sem surpresa no valor. Recomendo pra quem precisa de frete rápido.",
+    "author": "Bruno",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_06",
+    "text": "Responderam rápido e tiraram minhas dúvidas. O frete foi cuidadoso e bem combinado.",
+    "author": "Juliana",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_07",
+    "text": "Levaram minhas caixas e eletros com atenção. Chegou tudo sem arranhão e no tempo certo.",
+    "author": "Diego",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_08",
+    "text": "Eu estava com pressa e eles encaixaram um horário pra mim. Atendimento simples e eficiente.",
+    "author": "Fernanda",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_09",
+    "text": "Gostei porque foram bem cuidadosos na escada e na hora de prender a carga. Trabalho caprichado.",
+    "author": "Gustavo",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_10",
+    "text": "Frete para entrega de mercadoria pequena, bem rápido. Comunicação fácil do começo ao fim.",
+    "author": "Patrícia",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_11",
+    "text": "Chegaram, carregaram e entregaram sem enrolação. Tudo foi bem organizado e com cuidado.",
+    "author": "Thiago",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770653755953,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_01",
+    "text": "Minha mudança foi bem organizada e sem correria. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_02",
+    "text": "Atendimento rápido no WhatsApp e preço bem combinado. A equipe foi educada e ágil no carregamento.",
+    "author": "Rafael",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_03",
+    "text": "Eu estava com medo de quebrar as coisas, mas embalaram tudo com cuidado. Deu tudo certo no final.",
+    "author": "Juliana",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_04",
+    "text": "Gostei da pontualidade e da atenção com a geladeira e a máquina. Foi uma mudança tranquila.",
+    "author": "Marcos",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_05",
+    "text": "Resolveram minha mudança de última hora e foram bem flexíveis com o horário. Recomendo pelo capricho.",
+    "author": "Aline",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_06",
+    "text": "Equipe bem prestativa e cuidadosa com as caixas. Nada chegou arranhado e o descarregamento foi rápido.",
+    "author": "Bruno",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_07",
+    "text": "Combinaram tudo com clareza e não teve surpresa no valor. O transporte foi bem seguro.",
+    "author": "Patricia",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_08",
+    "text": "Tinha móvel pesado e achei que ia dar trabalho, mas eles deram conta numa boa. Atendimento simples e eficiente.",
+    "author": "Diego",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_09",
+    "text": "Foram bem pacientes e ajudaram a posicionar os móveis no novo lugar. Isso fez diferença pra mim.",
+    "author": "Fernanda",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_10",
+    "text": "O caminhão veio limpo e com espaço certo pra minha mudança. Tudo chegou certinho e sem estresse.",
+    "author": "Lucas",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_11",
+    "text": "Gostei do cuidado com itens frágeis e do jeito organizado de carregar. Foi bem mais fácil do que eu esperava.",
+    "author": "Renata",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_mudancas_12",
+    "text": "Atenderam com educação e passaram confiança desde o começo. Minha mudança em Juazeiro do Norte foi bem tranquila.",
+    "author": "Thiago",
+    "citySlug": "juazeiro-do-norte",
+    "type": "mudancas",
+    "ts": 1770653766854,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_01",
+    "text": "Precisava do frete urgente e deu tudo certo. Chegou no prazo combinado e sem dor de cabeça.",
+    "author": "Marina",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_02",
+    "text": "Responderam rápido e já organizaram a coleta. Serviço bem ágil e comunicação fácil.",
+    "author": "Diego",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_03",
+    "text": "Tinha pressa e eles encaixaram meu pedido no mesmo dia. Entrega tranquila e bem cuidada.",
+    "author": "Camila",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_04",
+    "text": "O motorista foi pontual e ajudou com as caixas. Para frete urgente, me atendeu super bem.",
+    "author": "Rafael",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_05",
+    "text": "Gostei porque passaram o valor certinho e cumpriram o combinado. Chegou rápido e sem atraso.",
+    "author": "Juliana",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_06",
+    "text": "Precisei mandar um volume de última hora e resolveram rápido. Atendimento direto e eficiente.",
+    "author": "Bruno",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_07",
+    "text": "Foi bem mais simples do que eu imaginava. Combinei o horário e a entrega saiu no tempo certo.",
+    "author": "Aline",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_08",
+    "text": "Tive urgência com um documento e fizeram o transporte com cuidado. Me manteve informado do andamento.",
+    "author": "Felipe",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_09",
+    "text": "Chegaram rápido para buscar e já seguiram para entregar. Ótima opção quando a gente está na correria.",
+    "author": "Larissa",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_10",
+    "text": "Atendimento educado e sem enrolação. O frete urgente foi bem organizado do início ao fim.",
+    "author": "Gustavo",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_11",
+    "text": "Precisava de agilidade e foi o que recebi. Tudo bem combinado e entregue direitinho.",
+    "author": "Patricia",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_urgente_12",
+    "text": "Resolveram meu frete urgente com rapidez e cuidado com a carga. Preço justo pelo serviço.",
+    "author": "Tiago",
+    "citySlug": "juazeiro-do-norte",
+    "type": "urgente",
+    "ts": 1770653776308,
+    "source": "cliente"
   }
 ]

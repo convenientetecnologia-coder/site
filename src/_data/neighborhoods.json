@@ -2877,5 +2877,66 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "juazeiro-do-norte": {
+    "city": "Juazeiro do Norte",
+    "state": "CE",
+    "all": [
+      "Centro",
+      "Socorro",
+      "Salesianos",
+      "Lagoa Seca",
+      "Triângulo",
+      "Pirajá",
+      "Franciscanos",
+      "Jardim Gonzaga",
+      "Jardim Santana",
+      "João Cabral",
+      "Antônio Vieira",
+      "São José",
+      "Tiradentes",
+      "Aeroporto",
+      "Horto",
+      "Leandro Bezerra",
+      "Novo Juazeiro",
+      "Betolândia",
+      "Pedrinhas",
+      "Pio XII"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Socorro",
+        "Salesianos",
+        "Lagoa Seca",
+        "Triângulo",
+        "Pirajá"
+      ],
+      "mudancas": [
+        "Franciscanos",
+        "Jardim Gonzaga",
+        "Jardim Santana",
+        "João Cabral",
+        "Antônio Vieira",
+        "São José",
+        "Tiradentes"
+      ],
+      "urgente": [
+        "Aeroporto",
+        "Horto",
+        "Leandro Bezerra",
+        "Novo Juazeiro",
+        "Betolândia",
+        "Pedrinhas",
+        "Pio XII"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-09T16:15:44.054Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
