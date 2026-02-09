@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Joinville (SC)** — publicado em 2026-02-09
+  - `/fretes-em-joinville/` (~3183 palavras)
+  - `/mudancas-em-joinville/` (~3226 palavras)
+  - `/frete-urgente-em-joinville/` (~3242 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 40 bairros divididos em 3 blocos únicos (13/13/14 por página)
+  - 35 depoimentos (11/12/12 por tipo)
+  - Commit: `d5dbb13`
+
 - **João Pessoa (PB)** — publicado em 2026-02-09
   - `/fretes-em-joao-pessoa/` (~3081 palavras)
   - `/mudancas-em-joao-pessoa/` (~2947 palavras)
