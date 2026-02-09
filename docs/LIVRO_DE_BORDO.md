@@ -37,6 +37,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Goiânia (GO)** — publicado em 2026-02-09
+  - `/fretes-em-goiania/` (~3008 palavras)
+  - `/mudancas-em-goiania/` (~3005 palavras)
+  - `/frete-urgente-em-goiania/` (~3243 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `c4719b0`
+
 - **Franca (SP)** — publicado em 2026-02-09
   - `/fretes-em-franca/` (~3097 palavras)
   - `/mudancas-em-franca/` (~3035 palavras)
