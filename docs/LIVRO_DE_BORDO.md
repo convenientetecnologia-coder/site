@@ -4,6 +4,7 @@ Objetivo: qualquer GPT novo consegue continuar o projeto **sem perder contexto**
 
 - Runbook (como operar/deploy/rollback): `docs/RUNBOOK_TECNICO.md`
 - Timeline (o que mudou e por quê): `docs/TIMELINE.md`
+- Controle de indexação manual (GSC): `docs/INDEXACAO_MANUAL_GSC.md`
 - Inbox (intake/triagem): `docs/INBOX_RELATOS_DO_HUMANO.md` e `docs/inbox/INDEX.md`
 - Padrão definitivo das páginas: `docs/PAGINAS_MODELO.md`
 
@@ -327,6 +328,13 @@ Regras:
   - Evidência: ajuste em `src/_includes/base.njk` (commit `7fe6edf` no repo do site).
 - **Imagens**: consolidado padrão canônico “sem imagens” nas páginas de cidade (performance + clareza + menos fricção).
 - **Bairros**: padronizado fluxo “gerar → dividir em 3 → publicar” com arquivo canônico + comando local (ver Runbook).
+
+## Indexação (Google Search Console) — operação
+
+- **Sitemap canônico**: `https://www.fretesoumudancas.com.br/sitemap.xml`
+- **Controle de indexação manual (GSC)**: `docs/INDEXACAO_MANUAL_GSC.md`
+  - Regra: sempre solicitar indexação usando **URL canônica com `www`**.
+  - Cadência sugerida (site novo): **3 URLs/dia** (bem escolhidas) para não desperdiçar “fila”.
 
 ## Regras de copy (não-negociáveis)
 

@@ -9,6 +9,36 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SEO] Canonical host: forçar `www` (301) + link interno para `/cidades/` em todas as páginas
+
+- **O que**:
+  - Implementado redirect **301** de `https://fretesoumudancas.com.br/*` → `https://www.fretesoumudancas.com.br/*` (canonical host único).
+  - Adicionado no rodapé global links internos: `/cidades/`, `/termos-de-uso.html`, `/politica-de-privacidade.html`.
+- **Por quê**:
+  - Evitar duplicidade (www vs sem www) que gera “cópia sem canônica” e atrasa consolidação no Google.
+  - Melhorar descoberta/crawl (todas as páginas apontam para o hub e páginas legais).
+- **Evidência**:
+  - Commit: `a964c96` (repo `site`)
+  - `.htaccess` (301 canonical host)
+  - `src/_includes/base.njk` (rodapé com links)
+- **Impacto**:
+  - URLs sem `www` passam a redirecionar para `www` (sitemap e canonicals já usam `www`).
+  - Site mais “enterprise” para o GSC (menos confusão de variantes).
+- **Rollback**: reverter commit `a964c96`.
+
+---
+
+#### 2026-02-09 — [GSC] Início do controle de indexação manual (Inspeção de URL → Testar URL publicada → Solicitar indexação)
+
+- **O que**: criado log canônico para registrar solicitações manuais no GSC.
+- **Por quê**: evitar repetição e permitir continuidade perfeita entre GPTs/humanos.
+- **Evidência**:
+  - `docs/INDEXACAO_MANUAL_GSC.md`
+- **Impacto**: operação mais controlada (3 URLs/dia sugerido no início).
+- **Rollback**: não aplicável (documentação).
+
+---
+
 #### 2026-02-09 — [SEO] Sitemap corrigido: agora inclui todas as páginas de cidades publicadas (pagination)
 
 - **O que**: corrigido `src/sitemap.xml.11ty.js` para gerar `sitemap.xml` a partir de `publishedCities` + `enabledTypes` (fonte canônica), em vez de `collections.all`.
