@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Marabá (PA)** — publicado em 2026-02-09
+  - `/fretes-em-maraba/` (~3212 palavras)
+  - `/mudancas-em-maraba/` (~2896 palavras)
+  - `/frete-urgente-em-maraba/` (~2976 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 25 bairros divididos em 3 blocos únicos (8/8/9 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `295fed2`
+
 - **Manaus (AM)** — publicado em 2026-02-09
   - `/fretes-em-manaus/` (~3026 palavras)
   - `/mudancas-em-manaus/` (~3007 palavras)

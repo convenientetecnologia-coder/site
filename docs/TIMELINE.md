@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-09 — [SITE] Marabá (PA): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Marabá com sistema 100% GPT:
+  - `/fretes-em-maraba/` (~3212 palavras)
+  - `/mudancas-em-maraba/` (~2896 palavras)
+  - `/frete-urgente-em-maraba/` (~2976 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 25 divididos em 3 blocos (8/8/9)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (8 títulos duplicados ajustados em `maraba.json` + correção de encoding “Marabá”)
+- **Por quê**: expandir cobertura orgânica no PA seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `295fed2` (repo `site`)
+  - `src/_data/city_content/maraba.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (maraba habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `maraba` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-09 — [SITE] Manaus (AM): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Manaus com sistema 100% GPT:
