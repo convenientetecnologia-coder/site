@@ -9016,5 +9016,329 @@
     "type": "urgente",
     "ts": 1770650538761,
     "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_01",
+    "text": "Pedi um frete de última hora e deu tudo certo. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_02",
+    "text": "O motorista foi bem cuidadoso com os móveis e ajudou a organizar no carro. Serviço bem tranquilo.",
+    "author": "Rafael",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_03",
+    "text": "Preço justo e comunicação clara do começo ao fim. Recomendo pra quem precisa de frete em Ipatinga.",
+    "author": "Camila",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_04",
+    "text": "Fiz o transporte de umas caixas pesadas e correu tudo bem. Atendimento rápido e educado.",
+    "author": "Bruno",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_05",
+    "text": "Gostei porque combinaram tudo antes e cumpriram direitinho. Minhas coisas chegaram inteiras.",
+    "author": "Aline",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_06",
+    "text": "Frete para mudança pequena, bem prático. Foram ágeis e cuidadosos na subida e descida.",
+    "author": "Diego",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_07",
+    "text": "Respondeu rápido no WhatsApp e passou confiança. O transporte foi seguro e sem atrasos grandes.",
+    "author": "Juliana",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_08",
+    "text": "Precisava levar um eletrodoméstico e veio bem embalado e firme no veículo. Chegou sem nenhum problema.",
+    "author": "Fernando",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_09",
+    "text": "Equipe simpática e prestativa. Ajudaram a carregar e descarregar sem complicação.",
+    "author": "Patricia",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_10",
+    "text": "Combinei o horário e foram pontuais. Gostei da atenção com as caixas mais frágeis.",
+    "author": "Gustavo",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_11",
+    "text": "Serviço simples e eficiente. Fecharam o valor antes e não teve surpresa no final.",
+    "author": "Larissa",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_fretes_12",
+    "text": "Usei para levar materiais de obra e foi bem organizado. Chegou tudo certinho no destino.",
+    "author": "Renato",
+    "citySlug": "ipatinga",
+    "type": "fretes",
+    "ts": 1770651422800,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_01",
+    "text": "Minha mudança em Ipatinga foi bem tranquila. Chegaram no horário e embalaram tudo com cuidado, sem correria.",
+    "author": "Mariana",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_02",
+    "text": "Gostei da comunicação: combinaram tudo antes e no dia deu certo. Os móveis chegaram inteiros e bem acomodados.",
+    "author": "Rafael",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_03",
+    "text": "Equipe educada e organizada. A desmontagem e montagem foram rápidas e sem bagunça.",
+    "author": "Camila",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_04",
+    "text": "Tinha medo por causa dos eletros, mas protegeram direitinho. No fim, foi mais simples do que eu imaginava.",
+    "author": "Diego",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_05",
+    "text": "Preço justo e serviço bem feito. Foram cuidadosos com as caixas e avisaram cada etapa da mudança.",
+    "author": "Fernanda",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_06",
+    "text": "Atendimento rápido no orçamento e no agendamento. No dia, carregaram tudo com atenção e sem danos.",
+    "author": "Lucas",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_07",
+    "text": "Mudança pequena, mas trataram com o mesmo cuidado. Chegou tudo certinho e no tempo combinado.",
+    "author": "Patricia",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_08",
+    "text": "Me ajudaram a organizar a carga e aproveitar melhor o espaço do caminhão. Isso fez diferença no resultado.",
+    "author": "Bruno",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_09",
+    "text": "Foram bem cuidadosos com o sofá e o guarda-roupa. Tudo veio protegido e sem arranhões.",
+    "author": "Aline",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_10",
+    "text": "Pontuais e prestativos. Explicaram como iam embalar e fizeram tudo com calma, sem pressa.",
+    "author": "Gustavo",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_11",
+    "text": "Achei o serviço bem profissional. A equipe foi atenciosa e deixou o ambiente limpo depois de carregar.",
+    "author": "Juliana",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_mudancas_12",
+    "text": "Minha mudança em Ipatinga saiu como planejado. Foram cuidadosos com itens frágeis e entregaram tudo certinho.",
+    "author": "Renato",
+    "citySlug": "ipatinga",
+    "type": "mudancas",
+    "ts": 1770651433681,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e chegaram no horário combinado.",
+    "author": "Mariana",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_02",
+    "text": "Chamei em cima da hora e mesmo assim resolveram. Atendimento direto e sem enrolação.",
+    "author": "Bruno",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_03",
+    "text": "Entrega urgente feita com cuidado, sem correria desnecessária. Comunicação boa do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_04",
+    "text": "Foi bem mais rápido do que eu esperava. Combinaram o valor antes e cumpriram certinho.",
+    "author": "Rafael",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_05",
+    "text": "Eu estava com pressa e eles ajudaram muito. Chegaram, carregaram e já saíram para entregar.",
+    "author": "Juliana",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_06",
+    "text": "Frete urgente para uma encomenda importante e foi tranquilo. Me passaram previsão e atualizaram no caminho.",
+    "author": "Diego",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_07",
+    "text": "Gostei da agilidade e do cuidado com as caixas. Não tive dor de cabeça.",
+    "author": "Patricia",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_08",
+    "text": "Atenderam rápido e foram bem organizados. Entrega urgente sem complicação.",
+    "author": "Felipe",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_09",
+    "text": "Precisava levar um item ainda no mesmo dia e conseguiram encaixar. Tudo bem combinado.",
+    "author": "Aline",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_10",
+    "text": "Equipe educada e pontual. Para frete urgente, foi uma mão na roda.",
+    "author": "Gustavo",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_11",
+    "text": "Chamamos para uma retirada urgente e foi bem ágil. Me senti segura com o cuidado no transporte.",
+    "author": "Renata",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ipatinga_urgente_12",
+    "text": "Serviço rápido e preço justo pelo prazo. Resolveram minha urgência sem estresse.",
+    "author": "Lucas",
+    "citySlug": "ipatinga",
+    "type": "urgente",
+    "ts": 1770651443414,
+    "source": "cliente"
   }
 ]

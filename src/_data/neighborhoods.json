@@ -2596,5 +2596,74 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "ipatinga": {
+    "city": "Ipatinga",
+    "state": "MG",
+    "all": [
+      "Centro",
+      "Cariru",
+      "Horto",
+      "Cidade Nobre",
+      "Veneza",
+      "Bom Retiro",
+      "Canaã",
+      "Bethânia",
+      "Ideal",
+      "Imbaúbas",
+      "Iguaçu",
+      "Jardim Panorama",
+      "Jardim Vitória",
+      "Limoeiro",
+      "Novo Cruzeiro",
+      "Parque das Águas",
+      "Parque Ipanema",
+      "Planalto",
+      "Tiradentes",
+      "Vila Celeste",
+      "Vila Formosa",
+      "Vila Ipanema",
+      "Vila Militar",
+      "Vila Rosa"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Cariru",
+        "Horto",
+        "Cidade Nobre",
+        "Veneza",
+        "Bom Retiro",
+        "Canaã",
+        "Bethânia"
+      ],
+      "mudancas": [
+        "Ideal",
+        "Imbaúbas",
+        "Iguaçu",
+        "Jardim Panorama",
+        "Jardim Vitória",
+        "Limoeiro",
+        "Novo Cruzeiro",
+        "Parque das Águas"
+      ],
+      "urgente": [
+        "Parque Ipanema",
+        "Planalto",
+        "Tiradentes",
+        "Vila Celeste",
+        "Vila Formosa",
+        "Vila Ipanema",
+        "Vila Militar",
+        "Vila Rosa"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-09T15:36:53.177Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
