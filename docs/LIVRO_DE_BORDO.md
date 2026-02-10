@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Rio Branco (AC)** — publicado em 2026-02-10
+  - `/fretes-em-rio-branco/` (~3081 palavras)
+  - `/mudancas-em-rio-branco/` (~2921 palavras)
+  - `/frete-urgente-em-rio-branco/` (~3084 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 25 bairros divididos em 3 blocos (8/8/9)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `ee4fb38`
+
 - **Ribeirão Preto (SP)** — publicado em 2026-02-10
   - `/fretes-em-ribeirao-preto/` (~3175 palavras)
   - `/mudancas-em-ribeirao-preto/` (~3102 palavras)
