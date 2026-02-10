@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Natal (RN)** — publicado em 2026-02-10
+  - `/fretes-em-natal/` (~3044 palavras)
+  - `/mudancas-em-natal/` (~3048 palavras)
+  - `/frete-urgente-em-natal/` (~3287 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 36 bairros divididos em 3 blocos únicos (12/12/12 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `b1d0462`
+
 - **Montes Claros (MG)** — publicado em 2026-02-10
   - `/fretes-em-montes-claros/` (~2836 palavras)
   - `/mudancas-em-montes-claros/` (~2966 palavras)

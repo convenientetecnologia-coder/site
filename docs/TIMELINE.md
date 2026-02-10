@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Natal (RN): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Natal com sistema 100% GPT:
+  - `/fretes-em-natal/` (~3044 palavras)
+  - `/mudancas-em-natal/` (~3048 palavras)
+  - `/frete-urgente-em-natal/` (~3287 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 36 divididos em 3 blocos (12/12/12)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (6 títulos duplicados ajustados em `natal.json`)
+- **Por quê**: expandir cobertura orgânica no RN seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `b1d0462` (repo `site`)
+  - `src/_data/city_content/natal.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (natal habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `natal` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Montes Claros (MG): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Montes Claros com sistema 100% GPT:
