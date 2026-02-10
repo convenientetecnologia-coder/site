@@ -13516,5 +13516,329 @@
     "type": "urgente",
     "ts": 1770732547470,
     "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. O motorista foi cuidadoso com as caixas e a comunicação foi bem tranquila.",
+    "author": "Mariana",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_02",
+    "text": "Precisei de um frete rápido em Natal e me atenderam no mesmo dia. Preço justo e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_03",
+    "text": "Fizeram o transporte dos meus móveis com cuidado, tudo bem protegido. Gostei porque foram bem organizados do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_04",
+    "text": "Atendimento direto e fácil de combinar. O frete foi pontual e chegou tudo certinho.",
+    "author": "Diego",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_05",
+    "text": "Tinha medo de arranhar a geladeira, mas veio bem presa e chegou sem nenhum problema. Recomendo pela atenção.",
+    "author": "Patrícia",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_06",
+    "text": "Responderam rápido e já passaram o valor sem enrolação. O serviço foi bem feito e com cuidado na carga.",
+    "author": "Bruno",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_07",
+    "text": "Usei pra levar compras grandes e foi uma mão na roda. Motorista educado e ajudou a organizar no veículo.",
+    "author": "Larissa",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_08",
+    "text": "Frete combinado por mensagem e deu tudo certo. Chegaram no horário e foram bem cuidadosos na hora de descarregar.",
+    "author": "Felipe",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_09",
+    "text": "Fiz mudança pequena e achei bem prático. Não atrasou e o transporte foi bem tranquilo.",
+    "author": "Jéssica",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_10",
+    "text": "Gostei da transparência no valor e no tempo de entrega. Serviço simples e eficiente.",
+    "author": "André",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_11",
+    "text": "Precisava levar um sofá e resolveram rápido. Chegou direitinho e sem complicação.",
+    "author": "Renata",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_fretes_12",
+    "text": "Equipe atenciosa e cuidadosa com os itens frágeis. Em Natal, foi uma das melhores experiências que já tive com frete.",
+    "author": "Gustavo",
+    "citySlug": "natal",
+    "type": "fretes",
+    "ts": 1770733169541,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_01",
+    "text": "Fiz minha mudança em Natal e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Mariana",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_02",
+    "text": "Equipe bem cuidadosa com as caixas e com a geladeira. A mudança foi rápida e sem estresse.",
+    "author": "Rafael",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_03",
+    "text": "Gostei da comunicação desde o orçamento até a entrega. Deu tudo certo na mudança aqui em Natal.",
+    "author": "Camila",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_04",
+    "text": "Embalaram as coisas com capricho e prenderam tudo direitinho no caminhão. Chegou tudo inteiro.",
+    "author": "Bruno",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_05",
+    "text": "Preço justo e serviço bem combinado. A mudança foi tranquila e sem enrolação.",
+    "author": "Aline",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_06",
+    "text": "Eu estava com medo por causa dos móveis grandes, mas eles desmontaram e montaram direitinho. Bem prático.",
+    "author": "Diego",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_07",
+    "text": "Respondeu rápido no WhatsApp e tirou minhas dúvidas. No dia, a equipe foi bem educada e ágil.",
+    "author": "Juliana",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_08",
+    "text": "Mudança de apartamento com escada e deu tudo certo. Foram cuidadosos e não fizeram bagunça.",
+    "author": "Felipe",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_09",
+    "text": "A pontualidade me surpreendeu. Em poucas horas já estava tudo no novo lugar, bem certinho.",
+    "author": "Patricia",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_10",
+    "text": "Levaram meus eletros e itens frágeis com bastante atenção. Nada quebrou e isso já valeu muito.",
+    "author": "Gustavo",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_11",
+    "text": "Serviço honesto e bem feito. Gostei que avisaram cada etapa e foram conferindo as caixas.",
+    "author": "Renata",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_mudancas_12",
+    "text": "Minha mudança em Natal foi bem mais leve com essa equipe. Foram cuidadosos e deixaram tudo no lugar combinado.",
+    "author": "Lucas",
+    "citySlug": "natal",
+    "type": "mudancas",
+    "ts": 1770733182264,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_01",
+    "text": "Precisei de um frete urgente em Natal e foi bem mais rápido do que eu esperava. Comunicação clara do começo ao fim.",
+    "author": "Marina",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_02",
+    "text": "Atenderam minha urgência sem complicação. O motorista foi pontual e deu retorno durante o trajeto.",
+    "author": "Rafael",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_03",
+    "text": "Solicitei em cima da hora e mesmo assim deu tudo certo. Serviço ágil e bem organizado.",
+    "author": "Camila",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_04",
+    "text": "O frete urgente resolveu meu problema no mesmo dia. Preço combinado e sem surpresas.",
+    "author": "Diego",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_05",
+    "text": "Responderam rápido e já passaram o prazo certinho. Entrega tranquila e com cuidado com as caixas.",
+    "author": "Juliana",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_06",
+    "text": "Eu estava com pressa e eles foram bem objetivos. Coleta rápida e entrega dentro do combinado.",
+    "author": "Bruno",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_07",
+    "text": "Gostei porque avisaram cada etapa e não fiquei no escuro. Para urgência, ajudou demais.",
+    "author": "Fernanda",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_08",
+    "text": "Precisava enviar um item urgente e foi tudo bem alinhado. Atendimento simples e eficiente.",
+    "author": "Lucas",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_09",
+    "text": "Cheguei a achar que não ia dar tempo, mas conseguiram encaixar o frete. Muito prestativos.",
+    "author": "Patricia",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_10",
+    "text": "O motorista foi cuidadoso e não enrolou na coleta. Para frete urgente em Natal, recomendo pelo serviço.",
+    "author": "Tiago",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_11",
+    "text": "Agilidade de verdade, sem promessas mirabolantes. Cumpriram o horário que passaram.",
+    "author": "Aline",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_natal_urgente_12",
+    "text": "Pedi com urgência e me atenderam com rapidez. Tudo bem explicado e entrega certinha.",
+    "author": "Renata",
+    "citySlug": "natal",
+    "type": "urgente",
+    "ts": 1770733192881,
+    "source": "cliente"
   }
 ]

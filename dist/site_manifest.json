@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T14:10:19.101Z",
+  "generatedAt": "2026-02-10T14:22:46.209Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -362,6 +362,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-montes-claros/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-montes-claros/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-montes-claros/"
+      }
+    },
+    {
+      "slug": "natal",
+      "name": "Natal",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-natal/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-natal/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-natal/"
       }
     },
     {

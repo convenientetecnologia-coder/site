@@ -3948,5 +3948,98 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "natal": {
+    "city": "Natal",
+    "state": "RN",
+    "all": [
+      "Alecrim",
+      "Areia Preta",
+      "Barro Vermelho",
+      "Bom Pastor",
+      "Candelária",
+      "Capim Macio",
+      "Cidade Alta",
+      "Cidade da Esperança",
+      "Cidade Nova",
+      "Dix-Sept Rosado",
+      "Felipe Camarão",
+      "Guarapes",
+      "Igapó",
+      "Lagoa Azul",
+      "Lagoa Nova",
+      "Lagoa Seca",
+      "Mãe Luiza",
+      "Neópolis",
+      "Nossa Senhora da Apresentação",
+      "Nossa Senhora de Nazaré",
+      "Nova Descoberta",
+      "Pajuçara",
+      "Petrópolis",
+      "Pitimbu",
+      "Planalto",
+      "Ponta Negra",
+      "Potengi",
+      "Praia do Meio",
+      "Quintas",
+      "Redinha",
+      "Ribeira",
+      "Rocas",
+      "Salinas",
+      "Santos Reis",
+      "Tirol",
+      "Vila de Ponta Negra"
+    ],
+    "blocks": {
+      "fretes": [
+        "Alecrim",
+        "Areia Preta",
+        "Barro Vermelho",
+        "Bom Pastor",
+        "Candelária",
+        "Capim Macio",
+        "Cidade Alta",
+        "Cidade da Esperança",
+        "Cidade Nova",
+        "Dix-Sept Rosado",
+        "Felipe Camarão",
+        "Guarapes"
+      ],
+      "mudancas": [
+        "Igapó",
+        "Lagoa Azul",
+        "Lagoa Nova",
+        "Lagoa Seca",
+        "Mãe Luiza",
+        "Neópolis",
+        "Nossa Senhora da Apresentação",
+        "Nossa Senhora de Nazaré",
+        "Nova Descoberta",
+        "Pajuçara",
+        "Petrópolis",
+        "Pitimbu"
+      ],
+      "urgente": [
+        "Planalto",
+        "Ponta Negra",
+        "Potengi",
+        "Praia do Meio",
+        "Quintas",
+        "Redinha",
+        "Ribeira",
+        "Rocas",
+        "Salinas",
+        "Santos Reis",
+        "Tirol",
+        "Vila de Ponta Negra"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-10T14:19:19.898Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
