@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Rio Verde (GO): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Rio Verde com sistema 100% GPT:
+  - `/fretes-em-rio-verde/` (~2864 palavras)
+  - `/mudancas-em-rio-verde/` (~3107 palavras)
+  - `/frete-urgente-em-rio-verde/` (~3072 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 34 divididos em 3 blocos (11/11/12)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (7 títulos duplicados ajustados em `rio-verde.json`)
+- **Por quê**: expandir cobertura orgânica em GO seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `e112b4c` (repo `site`)
+  - `src/_data/city_content/rio-verde.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (rio-verde habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `rio-verde` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Rio de Janeiro (RJ): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Rio de Janeiro com sistema 100% GPT:

@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Rio Verde (GO)** — publicado em 2026-02-10
+  - `/fretes-em-rio-verde/` (~2864 palavras)
+  - `/mudancas-em-rio-verde/` (~3107 palavras)
+  - `/frete-urgente-em-rio-verde/` (~3072 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 34 bairros divididos em 3 blocos (11/11/12)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `e112b4c`
+
 - **Rio de Janeiro (RJ)** — publicado em 2026-02-10
   - `/fretes-em-rio-de-janeiro/` (~3254 palavras)
   - `/mudancas-em-rio-de-janeiro/` (~3109 palavras)
