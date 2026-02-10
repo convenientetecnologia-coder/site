@@ -15136,5 +15136,329 @@
     "type": "urgente",
     "ts": 1770736169399,
     "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_01",
+    "text": "Combinei o frete pelo WhatsApp e deu tudo certo. Chegaram no horário e levaram minhas caixas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_02",
+    "text": "Precisei de um frete de última hora e me atenderam rápido. Preço justo e serviço bem organizado.",
+    "author": "Rafael",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_03",
+    "text": "O motorista foi bem educado e ajudou a acomodar tudo direitinho. A mudança foi bem mais tranquila.",
+    "author": "Camila",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_04",
+    "text": "Gostei da comunicação, explicaram direitinho como seria o transporte. Entrega sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_05",
+    "text": "Levaram um móvel grande e veio bem protegido, sem arranhões. Recomendo pra quem precisa de frete.",
+    "author": "Aline",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_06",
+    "text": "Pontuais e cuidadosos com as coisas. Foi tudo bem combinado do começo ao fim.",
+    "author": "Diego",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_07",
+    "text": "Usei pra transportar compras e foi bem prático. Responderam rápido e cumpriram o combinado.",
+    "author": "Larissa",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_08",
+    "text": "Fizeram o frete com atenção e sem pressa, do jeito certo. Chegou tudo inteiro.",
+    "author": "Felipe",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_09",
+    "text": "Atendimento simples e direto, sem enrolação. O frete saiu no horário e resolveu meu problema.",
+    "author": "Juliana",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_10",
+    "text": "Tinha medo de danificar meus eletros, mas veio tudo bem acomodado. Serviço caprichado.",
+    "author": "Gustavo",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_11",
+    "text": "Fechei o frete com antecedência e no dia foi tudo certinho. Ótimo custo-benefício.",
+    "author": "Patricia",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_fretes_12",
+    "text": "Precisava levar coisas do trabalho e foi bem rápido. Motorista cuidadoso e gente boa.",
+    "author": "Renato",
+    "citySlug": "porto-velho",
+    "type": "fretes",
+    "ts": 1770737094940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_01",
+    "text": "Precisava do frete urgente e deu tudo certo. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_02",
+    "text": "Responderam rápido e já organizaram a coleta. Pra uma entrega urgente em Porto Velho, foi bem tranquilo.",
+    "author": "Diego",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_03",
+    "text": "Serviço ágil e bem alinhado do começo ao fim. Me passou segurança mesmo sendo em cima da hora.",
+    "author": "Camila",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_04",
+    "text": "Tive que resolver um envio urgente e eles ajudaram na hora. Comunicação simples e eficiente.",
+    "author": "Rafael",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_05",
+    "text": "Chegou antes do que eu esperava, sem prometer nada fora do normal. Atendimento bem direto e prestativo.",
+    "author": "Bruna",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_06",
+    "text": "Fiz o pedido com pouco tempo e deu certo. O motorista foi cuidadoso e avisou certinho sobre a entrega.",
+    "author": "Lucas",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_07",
+    "text": "Gostei porque não enrolaram: confirmaram valores e prazos e já saíram pra buscar. Salvou meu dia.",
+    "author": "Fernanda",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_08",
+    "text": "Frete urgente com bom custo e sem surpresa. Cumpriram o combinado e mantiveram contato o tempo todo.",
+    "author": "Gustavo",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_09",
+    "text": "Eu estava com pressa e precisava de agilidade. Foi rápido pra fechar e a entrega ocorreu certinha.",
+    "author": "Aline",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_10",
+    "text": "Atendimento bem humano e paciente, mesmo eu mudando detalhes na última hora. No final, deu tudo certo.",
+    "author": "Paulo",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_11",
+    "text": "Coleta e entrega rápidas, com cuidado na carga. Pra frete urgente, achei bem organizado.",
+    "author": "Juliana",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_urgente_12",
+    "text": "Me ajudaram com um frete urgente e foram bem transparentes sobre o tempo. Recomendo pela praticidade.",
+    "author": "Thiago",
+    "citySlug": "porto-velho",
+    "type": "urgente",
+    "ts": 1770737115763,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_01",
+    "text": "Minha mudança em Porto Velho foi bem organizada. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_02",
+    "text": "Equipe educada e rápida. Embalaram as coisas com cuidado e deu tudo certo na entrega.",
+    "author": "Rafael",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_03",
+    "text": "Gostei do atendimento desde o primeiro contato. Passaram confiança e a mudança foi tranquila.",
+    "author": "Juliana",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_04",
+    "text": "Foi tudo bem combinado e sem dor de cabeça. Os itens frágeis chegaram intactos.",
+    "author": "Marcos",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_05",
+    "text": "Preço justo e serviço caprichado. Ajudaram até a posicionar os móveis no novo lugar.",
+    "author": "Fernanda",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_06",
+    "text": "Responderam rápido e tiraram minhas dúvidas. No dia, trabalharam com cuidado e agilidade.",
+    "author": "Diego",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_07",
+    "text": "Minha mudança foi bem mais leve com a ajuda deles. Nada de arranhões ou bagunça.",
+    "author": "Aline",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_08",
+    "text": "Pontuais e organizados. Gostei que protegeram bem o sofá e a geladeira no transporte.",
+    "author": "Bruno",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_09",
+    "text": "Serviço honesto e bem feito. Chegaram, carregaram tudo direitinho e finalizaram sem estresse.",
+    "author": "Patricia",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_10",
+    "text": "Eu estava preocupada com os eletros, mas veio tudo bem embalado. Atendimento bem atencioso.",
+    "author": "Larissa",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_11",
+    "text": "Mudança rápida e com cuidado. A equipe foi tranquila e respeitosa o tempo todo.",
+    "author": "Gustavo",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_porto-velho_mudancas_12",
+    "text": "Gostei da organização no carregamento. Nada ficou pra trás e a entrega foi certinha.",
+    "author": "Renata",
+    "citySlug": "porto-velho",
+    "type": "mudancas",
+    "ts": 1770737440046,
+    "source": "cliente"
   }
 ]

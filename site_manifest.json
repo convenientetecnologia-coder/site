@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T15:10:12.672Z",
+  "generatedAt": "2026-02-10T15:31:15.534Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -416,6 +416,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-porto-alegre/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-porto-alegre/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-porto-alegre/"
+      }
+    },
+    {
+      "slug": "porto-velho",
+      "name": "Porto Velho",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-porto-velho/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-porto-velho/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-porto-velho/"
       }
     },
     {
