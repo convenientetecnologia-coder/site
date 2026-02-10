@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Piracicaba (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Piracicaba com sistema 100% GPT:
+  - `/fretes-em-piracicaba/` (~2951 palavras)
+  - `/mudancas-em-piracicaba/` (~3243 palavras)
+  - `/frete-urgente-em-piracicaba/` (~3171 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 42 divididos em 3 blocos (14/14/14)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (títulos duplicados ajustados em `piracicaba.json`)
+- **Por quê**: expandir cobertura orgânica em SP seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `4d99318` (repo `site`)
+  - `src/_data/city_content/piracicaba.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (piracicaba habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `piracicaba` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Petrolina (PE): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Petrolina com sistema 100% GPT:

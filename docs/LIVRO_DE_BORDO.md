@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Piracicaba (SP)** — publicado em 2026-02-10
+  - `/fretes-em-piracicaba/` (~2951 palavras)
+  - `/mudancas-em-piracicaba/` (~3243 palavras)
+  - `/frete-urgente-em-piracicaba/` (~3171 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 42 bairros divididos em 3 blocos (14/14/14)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `4d99318`
+
 - **Petrolina (PE)** — publicado em 2026-02-10
   - `/fretes-em-petrolina/` (~2835 palavras)
   - `/mudancas-em-petrolina/` (~2785 palavras)
