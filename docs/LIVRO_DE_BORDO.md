@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Santa Maria (RS)** — publicado em 2026-02-10
+  - `/fretes-em-santa-maria/` (~3016 palavras)
+  - `/mudancas-em-santa-maria/` (~2858 palavras)
+  - `/frete-urgente-em-santa-maria/` (~3285 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 38 bairros divididos em 3 blocos (12/13/13)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `9762cc6`
+
 - **Salvador (BA)** — publicado em 2026-02-10
   - `/fretes-em-salvador/` (~2870 palavras)
   - `/mudancas-em-salvador/` (~2878 palavras)
