@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Novo Hamburgo (RS): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Novo Hamburgo com sistema 100% GPT:
+  - `/fretes-em-novo-hamburgo/` (~3151 palavras)
+  - `/mudancas-em-novo-hamburgo/` (~2835 palavras)
+  - `/frete-urgente-em-novo-hamburgo/` (~3265 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 24 divididos em 3 blocos (8/8/8)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (ajustes de títulos duplicados em `novo-hamburgo.json`)
+- **Por quê**: expandir cobertura orgânica no RS seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `ee4e7b5` (repo `site`)
+  - `src/_data/city_content/novo-hamburgo.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (novo-hamburgo habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `novo-hamburgo` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Natal (RN): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Natal com sistema 100% GPT:

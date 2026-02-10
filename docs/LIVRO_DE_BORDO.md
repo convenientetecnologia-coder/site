@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Novo Hamburgo (RS)** — publicado em 2026-02-10
+  - `/fretes-em-novo-hamburgo/` (~3151 palavras)
+  - `/mudancas-em-novo-hamburgo/` (~2835 palavras)
+  - `/frete-urgente-em-novo-hamburgo/` (~3265 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 24 bairros divididos em 3 blocos (8/8/8)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `ee4e7b5`
+
 - **Natal (RN)** — publicado em 2026-02-10
   - `/fretes-em-natal/` (~3044 palavras)
   - `/mudancas-em-natal/` (~3048 palavras)
