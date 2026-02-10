@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T16:10:20.266Z",
+  "generatedAt": "2026-02-10T16:58:32.489Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -452,6 +452,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-rio-branco/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-rio-branco/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-rio-branco/"
+      }
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-rio-de-janeiro/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-rio-de-janeiro/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-rio-de-janeiro/"
       }
     },
     {

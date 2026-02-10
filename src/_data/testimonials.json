@@ -16432,5 +16432,329 @@
     "type": "urgente",
     "ts": 1770739710549,
     "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_01",
+    "text": "Equipe pontual e cuidadosa com os móveis. A mudança no Rio foi bem organizada e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_02",
+    "text": "Responderam rápido e combinaram tudo direitinho. Chegou tudo certinho e no tempo que falaram.",
+    "author": "Bruno",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_03",
+    "text": "Gostei do capricho na embalagem e na proteção dos eletros. Deu tudo certo do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_04",
+    "text": "Tinha medo de quebrarem minhas coisas, mas foi bem tranquilo. Pessoal educado e atencioso.",
+    "author": "Diego",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_05",
+    "text": "Ajudaram até com a desmontagem e montagem. Facilitou muito minha mudança aqui no Rio.",
+    "author": "Fernanda",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_06",
+    "text": "Preço justo e serviço bem feito. Foram cuidadosos com o sofá e com a geladeira.",
+    "author": "Lucas",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_07",
+    "text": "Chegaram no horário combinado e fizeram tudo com calma e organização. Recomendo sem exagero.",
+    "author": "Patricia",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_08",
+    "text": "Comunicação fácil pelo chat e sem enrolação. A mudança fluiu e não tive surpresa no final.",
+    "author": "Renato",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_09",
+    "text": "Levaram minhas caixas com cuidado e ainda sugeriram uma forma melhor de acomodar no caminhão. Curti.",
+    "author": "Aline",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_10",
+    "text": "Equipe ágil, mas sem correria. Nada arranhado e tudo bem protegido na viagem.",
+    "author": "Gustavo",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_11",
+    "text": "Estava com pouco tempo e eles foram bem flexíveis com o horário. Me ajudou bastante.",
+    "author": "Juliana",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_mudancas_12",
+    "text": "Fizeram a mudança do meu apê sem bagunça e com atenção aos detalhes. Foi mais leve do que eu esperava.",
+    "author": "Thiago",
+    "citySlug": "rio-de-janeiro",
+    "type": "mudancas",
+    "ts": 1770742601686,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_01",
+    "text": "Precisei de um frete urgente e foi bem mais rápido do que eu esperava. Comunicação clara do começo ao fim.",
+    "author": "Mariana",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_02",
+    "text": "Atenderam minha urgência no Rio sem enrolação. Combinei o horário e deu tudo certo.",
+    "author": "Rafael",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_03",
+    "text": "Resposta rápida e coleta no mesmo dia. Me passou confiança e entregou direitinho.",
+    "author": "Camila",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_04",
+    "text": "Eu estava com prazo apertado e o frete resolveu. Chegou sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_05",
+    "text": "Gostei porque avisou cada etapa e não sumiu no meio do caminho. Para frete urgente, ajudou demais.",
+    "author": "Aline",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_06",
+    "text": "Serviço bem organizado, mesmo sendo corrido. O motorista foi educado e ágil.",
+    "author": "Diego",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_07",
+    "text": "Pedi em cima da hora e conseguiram encaixar. Foi tudo bem combinado e sem surpresas.",
+    "author": "Juliana",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_08",
+    "text": "Precisava entregar um volume rápido e deu certo. Atendimento simples e objetivo.",
+    "author": "Felipe",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_09",
+    "text": "Chegou dentro do prazo que combinamos e com cuidado no transporte. Recomendo para emergências.",
+    "author": "Patricia",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_10",
+    "text": "O orçamento foi rápido e o frete saiu logo depois. Salvou meu dia aqui no Rio.",
+    "author": "Gustavo",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_11",
+    "text": "Tive uma urgência de última hora e o suporte foi bem prestativo. Entrega tranquila.",
+    "author": "Renata",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_urgente_12",
+    "text": "Achei prático: pedi, confirmaram e já vieram buscar. Para quem precisa de agilidade, funciona bem.",
+    "author": "Lucas",
+    "citySlug": "rio-de-janeiro",
+    "type": "urgente",
+    "ts": 1770742610824,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. A equipe foi cuidadosa com as caixas e tudo veio intacto.",
+    "author": "Mariana",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_02",
+    "text": "Atendimento rápido no chat e preço justo. O motorista foi educado e ajudou na organização da carga.",
+    "author": "Rafael",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_03",
+    "text": "Precisava de um frete de última hora e deu tudo certo. Foram pontuais e bem práticos.",
+    "author": "Camila",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_04",
+    "text": "Gostei da comunicação durante o trajeto, me deixou mais tranquilo. Entrega sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_05",
+    "text": "Fizeram a coleta no horário combinado e entregaram direitinho. Cuidado com os móveis do início ao fim.",
+    "author": "Aline",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_06",
+    "text": "Frete rápido e organizado. O pessoal foi atencioso e respeitou o que eu pedi sobre fragilidade.",
+    "author": "Diego",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_07",
+    "text": "Tinha medo de arranharem meus móveis, mas veio tudo bem protegido. Serviço bem caprichado.",
+    "author": "Fernanda",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_08",
+    "text": "Orçamento claro e sem surpresa no final. O frete foi tranquilo e bem combinado.",
+    "author": "Lucas",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_09",
+    "text": "A equipe chegou, carregou e resolveu tudo com agilidade. Recomendo pra quem quer praticidade.",
+    "author": "Juliana",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_10",
+    "text": "Motorista paciente e cuidadoso na hora de manobrar e descarregar. Experiência bem positiva.",
+    "author": "Thiago",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_11",
+    "text": "Contratei para levar eletrodomésticos e foi tudo bem embalado e seguro. Chegou do jeito que saiu.",
+    "author": "Patricia",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-de-janeiro_fretes_12",
+    "text": "Atenderam minha solicitação com rapidez e explicaram direitinho como funcionava. Frete sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "rio-de-janeiro",
+    "type": "fretes",
+    "ts": 1770742695272,
+    "source": "cliente"
   }
 ]
