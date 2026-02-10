@@ -15460,5 +15460,329 @@
     "type": "mudancas",
     "ts": 1770737440046,
     "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_01",
+    "text": "Combinei o frete no mesmo dia e deu tudo certo. Chegaram no horário e trataram minhas coisas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_02",
+    "text": "Preço justo e comunicação bem clara do começo ao fim. A mudança foi bem mais tranquila do que eu imaginava.",
+    "author": "Diego",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_03",
+    "text": "Responderam rápido e já passaram as orientações certinhas. O frete foi ágil e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_04",
+    "text": "Precisava levar uns móveis e fiquei com receio, mas foi tudo bem embalado e transportado direitinho.",
+    "author": "Rafael",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_05",
+    "text": "Pontuais e educados. Gostei que confirmaram tudo antes e avisaram quando estavam chegando.",
+    "author": "Aline",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_06",
+    "text": "Serviço bem organizado, sem correria. Cuidaram das caixas e ajudaram na acomodação no caminhão.",
+    "author": "Bruno",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_07",
+    "text": "Fechei o frete por indicação e não me arrependi. Atendimento simples e eficiente.",
+    "author": "Larissa",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_08",
+    "text": "Tinha um prazo curto e eles conseguiram encaixar. Chegou tudo certinho, sem avarias.",
+    "author": "Gustavo",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_09",
+    "text": "Gostei da transparência no valor e no combinado. Foram cuidadosos com eletrodomésticos e móveis.",
+    "author": "Fernanda",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_10",
+    "text": "O motorista foi bem atencioso e paciente. A coleta e a entrega aconteceram sem complicação.",
+    "author": "João",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_11",
+    "text": "Frete rápido e bem combinado. Deram suporte do início ao fim e passaram confiança.",
+    "author": "Patrícia",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_fretes_12",
+    "text": "Precisava transportar umas compras grandes e resolveu meu problema. Atendimento prático e pontual.",
+    "author": "Eduardo",
+    "citySlug": "recife",
+    "type": "fretes",
+    "ts": 1770738257942,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_01",
+    "text": "Minha mudança em Recife foi bem tranquila. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_02",
+    "text": "Gostei da organização na hora de embalar e carregar. Nada quebrou e a comunicação foi bem clara.",
+    "author": "Rafael",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_03",
+    "text": "Equipe educada e rápida, sem correria. Foram avisando cada etapa e isso passou confiança.",
+    "author": "Juliana",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_04",
+    "text": "Fechei tudo por mensagem e foi bem combinado. No dia, fizeram a mudança sem complicação.",
+    "author": "Bruno",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_05",
+    "text": "Tinha medo por causa da escada do prédio, mas eles resolveram com cuidado e paciência.",
+    "author": "Mariana",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_06",
+    "text": "Pontuais e caprichosos com a proteção dos eletros. Chegou tudo certinho no novo apê.",
+    "author": "Diego",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_07",
+    "text": "Preço justo e serviço bem feito. A equipe foi cuidadosa com caixas e itens frágeis.",
+    "author": "Fernanda",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_08",
+    "text": "Responderam rápido e tiraram minhas dúvidas antes de fechar. No dia, foram bem ágeis.",
+    "author": "Lucas",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_09",
+    "text": "Mudança de última hora e deu certo. Ajustaram o horário e fizeram tudo com atenção.",
+    "author": "Patricia",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_10",
+    "text": "Gostei do cuidado com o sofá e o guarda-roupa. Chegou sem arranhões e bem montado.",
+    "author": "Thiago",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_11",
+    "text": "Equipe bem prestativa, ajudou a separar as caixas e acomodar no caminhão. Foi bem mais leve do que eu esperava.",
+    "author": "Aline",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_mudancas_12",
+    "text": "Fizeram a mudança com calma e sem bagunça. No final, conferimos tudo e estava certinho.",
+    "author": "Gustavo",
+    "citySlug": "recife",
+    "type": "mudancas",
+    "ts": 1770738267857,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a coleta foi bem combinada.",
+    "author": "Marina",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_02",
+    "text": "Entrega correndo contra o tempo e eles ajudaram muito. Chegou dentro do prazo que combinamos.",
+    "author": "Rafael",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_03",
+    "text": "Atendimento direto e sem enrolação. O frete urgente em Recife foi bem ágil.",
+    "author": "Camila",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_04",
+    "text": "Estava com pressa e fiquei tranquilo com a comunicação. Avisaram cada etapa e entregaram certinho.",
+    "author": "Bruno",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_05",
+    "text": "Pedi de última hora e mesmo assim atenderam. Foi rápido e bem organizado.",
+    "author": "Aline",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_06",
+    "text": "Motorista educado e cuidadoso com a carga. Pra urgente, funcionou muito bem.",
+    "author": "Diego",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_07",
+    "text": "Resolveram meu envio no mesmo dia sem complicação. Preço ok e serviço bem feito.",
+    "author": "Larissa",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_08",
+    "text": "Eu precisava entregar um documento com urgência e foi tudo bem ágil. Recomendo pela praticidade.",
+    "author": "Tiago",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_09",
+    "text": "Gostei porque confirmaram horário e cumpriram. Pra frete urgente, foi bem eficiente.",
+    "author": "Juliana",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_10",
+    "text": "Atenderam rápido no chat e já passaram o prazo. A entrega foi tranquila e sem atraso.",
+    "author": "Felipe",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_11",
+    "text": "Tive uma emergência com uma encomenda e eles deram conta. Chegou direitinho e sem stress.",
+    "author": "Patricia",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_recife_urgente_12",
+    "text": "Serviço ágil e bem combinado do início ao fim. Me salvou numa correria aqui em Recife.",
+    "author": "Gustavo",
+    "citySlug": "recife",
+    "type": "urgente",
+    "ts": 1770738415940,
+    "source": "cliente"
   }
 ]

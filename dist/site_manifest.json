@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T15:31:15.534Z",
+  "generatedAt": "2026-02-10T15:47:19.999Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -425,6 +425,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-porto-velho/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-porto-velho/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-porto-velho/"
+      }
+    },
+    {
+      "slug": "recife",
+      "name": "Recife",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-recife/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-recife/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-recife/"
       }
     },
     {
