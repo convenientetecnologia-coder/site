@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Petrolina (PE)** — publicado em 2026-02-10
+  - `/fretes-em-petrolina/` (~2835 palavras)
+  - `/mudancas-em-petrolina/` (~2785 palavras)
+  - `/frete-urgente-em-petrolina/` (~3108 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 42 bairros divididos em 3 blocos (14/14/14)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `41c9a3f`
+
 - **Novo Hamburgo (RS)** — publicado em 2026-02-10
   - `/fretes-em-novo-hamburgo/` (~3151 palavras)
   - `/mudancas-em-novo-hamburgo/` (~2835 palavras)
