@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Recife (PE)** — publicado em 2026-02-10
+  - `/fretes-em-recife/` (~3033 palavras)
+  - `/mudancas-em-recife/` (~3035 palavras)
+  - `/frete-urgente-em-recife/` (~3373 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `13b73a6`
+
 - **Porto Velho (RO)** — publicado em 2026-02-10
   - `/fretes-em-porto-velho/` (~2861 palavras)
   - `/mudancas-em-porto-velho/` (~2921 palavras)

@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Recife (PE): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Recife com sistema 100% GPT:
+  - `/fretes-em-recife/` (~3033 palavras)
+  - `/mudancas-em-recife/` (~3035 palavras)
+  - `/frete-urgente-em-recife/` (~3373 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (5 títulos duplicados ajustados em `recife.json`)
+- **Por quê**: expandir cobertura orgânica em PE seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `13b73a6` (repo `site`)
+  - `src/_data/city_content/recife.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (recife habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `recife` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Porto Velho (RO): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Porto Velho com sistema 100% GPT:
