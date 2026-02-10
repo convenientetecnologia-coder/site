@@ -13192,5 +13192,329 @@
     "type": "urgente",
     "ts": 1770681103906,
     "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. A mudança foi bem mais tranquila do que eu imaginava.",
+    "author": "Camila",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_02",
+    "text": "Responderam rápido e passaram o valor sem enrolação. Cuidaram bem das caixas durante o transporte.",
+    "author": "Rafael",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_03",
+    "text": "Precisei levar uns móveis e deu tudo certo. O motorista foi educado e ajudou no que pôde.",
+    "author": "Juliana",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_04",
+    "text": "Frete bem organizado, com boa comunicação do começo ao fim. Entregaram tudo sem avarias.",
+    "author": "Diego",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_05",
+    "text": "Gostei porque foram pontuais e cuidadosos com a geladeira. Preço justo pelo serviço.",
+    "author": "Mariana",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_06",
+    "text": "Agendamento simples e sem dor de cabeça. Chegaram, carregaram e entregaram direitinho.",
+    "author": "Bruno",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_07",
+    "text": "Tive que fazer um frete de última hora e conseguiram encaixar. Foi tudo bem combinado.",
+    "author": "Aline",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_08",
+    "text": "O atendimento foi bem atencioso e tirou minhas dúvidas. O frete saiu como planejado.",
+    "author": "Felipe",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_09",
+    "text": "Transportaram minhas coisas com cuidado e sem pressa. Chegou tudo certinho no destino.",
+    "author": "Patricia",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_10",
+    "text": "Fizeram a coleta no horário combinado e avisaram quando estavam chegando. Isso ajudou muito.",
+    "author": "Gustavo",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_11",
+    "text": "Frete para levar compras grandes, e deu super certo. Equipe tranquila e prestativa.",
+    "author": "Larissa",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_fretes_12",
+    "text": "Gostei da transparência no valor e no prazo. Serviço bem feito e sem complicação.",
+    "author": "Renato",
+    "citySlug": "montes-claros",
+    "type": "fretes",
+    "ts": 1770732523534,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_01",
+    "text": "Fiz minha mudança em Montes Claros e foi tudo bem organizado. A equipe foi cuidadosa com os móveis e cumpriu o combinado.",
+    "author": "Camila",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_02",
+    "text": "Responderam rápido e deram um orçamento claro. No dia, chegaram no horário e a mudança foi bem tranquila.",
+    "author": "Rafael",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_03",
+    "text": "Gostei do cuidado com as caixas e eletros, tudo bem protegido. Chegou tudo certinho no novo apê.",
+    "author": "Juliana",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_04",
+    "text": "Pessoal educado e prestativo, ajudaram até com a desmontagem e montagem do que precisava. Valeu demais.",
+    "author": "Bruno",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_05",
+    "text": "Eu estava com medo de quebrar coisas, mas embalaram direitinho. No fim, deu tudo certo e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_06",
+    "text": "Serviço bem combinado do começo ao fim. Foram ágeis na carga e cuidadosos na descarga.",
+    "author": "Diego",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_07",
+    "text": "Mudança de última hora e mesmo assim conseguiram encaixar. Comunicação fácil e trabalho caprichado.",
+    "author": "Aline",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_08",
+    "text": "Preço justo pelo que entregaram. Tratou meus móveis com cuidado e não ficou empurrando taxa extra.",
+    "author": "Felipe",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_09",
+    "text": "Equipe bem preparada, sem correria desnecessária. Organizaram tudo no caminhão de um jeito que ajudou muito.",
+    "author": "Patricia",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_10",
+    "text": "Fizeram a mudança da minha casa com bastante atenção. Chegou tudo inteiro e no tempo que combinaram.",
+    "author": "Gustavo",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_11",
+    "text": "Atendimento simples e direto, sem enrolação. A mudança em Montes Claros foi mais leve do que eu esperava.",
+    "author": "Larissa",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_mudancas_12",
+    "text": "Pontuais e cuidadosos, principalmente com itens frágeis. No final, fiquei bem satisfeito com o serviço.",
+    "author": "Henrique",
+    "citySlug": "montes-claros",
+    "type": "mudancas",
+    "ts": 1770732536104,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_01",
+    "text": "Precisava do frete com urgência e deu tudo certo. Chegaram rápido e combinaram tudo pelo WhatsApp sem complicação.",
+    "author": "Camila",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_02",
+    "text": "Atendimento ágil e bem organizado. O motorista veio no horário e a entrega foi bem mais rápida do que eu esperava.",
+    "author": "Rafael",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_03",
+    "text": "Usei pra buscar uma encomenda de última hora e foi tranquilo. Responderam rápido e passaram o valor certinho antes.",
+    "author": "Juliana",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_04",
+    "text": "Frete urgente de verdade, sem enrolação. Pegaram a carga e já seguiram pra entrega, tudo bem alinhado.",
+    "author": "Bruno",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_05",
+    "text": "Tive uma emergência com mudança pequena e me salvaram. Chegaram rápido e cuidaram bem das coisas.",
+    "author": "Larissa",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_06",
+    "text": "Gostei da comunicação, foi bem direta. Resolveram meu frete no mesmo dia e sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_07",
+    "text": "Precisei enviar uns volumes com pressa e foi super prático. Pontuais e cuidadosos na carga e descarga.",
+    "author": "Aline",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_08",
+    "text": "Serviço rápido e honesto. Me atualizaram durante o trajeto e a entrega aconteceu no prazo combinado.",
+    "author": "Marcos",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_09",
+    "text": "Chamei em cima da hora e mesmo assim atenderam. O frete foi rápido e o preço ficou justo pelo retorno.",
+    "author": "Fernanda",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_10",
+    "text": "Tava com medo de atrasar e deu certo. Resolveram a coleta rápido e a entrega foi bem certinha.",
+    "author": "Gustavo",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_11",
+    "text": "Atenderam minha urgência com calma e organização. Tudo bem combinado, sem surpresas no final.",
+    "author": "Patrícia",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_montes-claros_urgente_12",
+    "text": "Precisava de agilidade pra não perder um prazo e eles ajudaram muito. Atendimento rápido e serviço bem feito.",
+    "author": "Renato",
+    "citySlug": "montes-claros",
+    "type": "urgente",
+    "ts": 1770732547470,
+    "source": "cliente"
   }
 ]

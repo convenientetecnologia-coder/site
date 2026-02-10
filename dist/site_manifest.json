@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-09T23:54:21.283Z",
+  "generatedAt": "2026-02-10T14:10:19.101Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -353,6 +353,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-maringa/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-maringa/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-maringa/"
+      }
+    },
+    {
+      "slug": "montes-claros",
+      "name": "Montes Claros",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-montes-claros/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-montes-claros/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-montes-claros/"
       }
     },
     {
