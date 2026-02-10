@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Ribeirão Preto (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Ribeirão Preto com sistema 100% GPT:
+  - `/fretes-em-ribeirao-preto/` (~3175 palavras)
+  - `/mudancas-em-ribeirao-preto/` (~3102 palavras)
+  - `/frete-urgente-em-ribeirao-preto/` (~3110 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (1 título duplicado ajustado em `ribeirao-preto.json`)
+- **Por quê**: expandir cobertura orgânica em SP seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `1d497c5` (repo `site`)
+  - `src/_data/city_content/ribeirao-preto.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (ribeirao-preto habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `ribeirao-preto` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Recife (PE): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Recife com sistema 100% GPT:

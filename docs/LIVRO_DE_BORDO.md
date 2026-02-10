@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Ribeirão Preto (SP)** — publicado em 2026-02-10
+  - `/fretes-em-ribeirao-preto/` (~3175 palavras)
+  - `/mudancas-em-ribeirao-preto/` (~3102 palavras)
+  - `/frete-urgente-em-ribeirao-preto/` (~3110 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `1d497c5`
+
 - **Recife (PE)** — publicado em 2026-02-10
   - `/fretes-em-recife/` (~3033 palavras)
   - `/mudancas-em-recife/` (~3035 palavras)
