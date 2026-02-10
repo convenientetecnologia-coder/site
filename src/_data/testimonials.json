@@ -14812,5 +14812,329 @@
     "type": "urgente",
     "ts": 1770735417301,
     "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_01",
+    "text": "Combinei o horário e deu tudo certo. Chegaram no tempo certinho e cuidaram bem das caixas.",
+    "author": "Marina",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_02",
+    "text": "Atendimento bem direto e fácil de fechar. O frete em Ponta Grossa foi tranquilo do começo ao fim.",
+    "author": "Carlos",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_03",
+    "text": "Precisava levar uns móveis e fiquei com medo de arranhar. Vieram com cuidado e entregaram tudo certinho.",
+    "author": "Juliana",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_04",
+    "text": "Responderam rápido e passaram o valor sem enrolação. O motorista foi educado e ajudou no que deu.",
+    "author": "Renato",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_05",
+    "text": "Frete para mudança pequena e resolveu meu problema. Pontuais e organizados na hora de carregar.",
+    "author": "Camila",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_06",
+    "text": "Gostei porque foram bem cuidadosos com eletrodoméstico. Chegou tudo inteiro e sem susto.",
+    "author": "Bruno",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_07",
+    "text": "Agendei para o mesmo dia e conseguiram encaixar. Comunicação boa e serviço bem feito.",
+    "author": "Patricia",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_08",
+    "text": "O valor ficou justo pelo que entregaram. Carregaram rápido e sem bagunça.",
+    "author": "Diego",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_09",
+    "text": "Precisava de frete para levar compras maiores e funcionou super bem. Foram prestativos e cuidadosos.",
+    "author": "Aline",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_10",
+    "text": "Vieram com calma e prenderam tudo direitinho no veículo. A entrega foi bem combinada e sem atrasos grandes.",
+    "author": "Felipe",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_11",
+    "text": "Tive uma mudança de última hora e me atenderam numa boa. Passaram confiança e trataram minhas coisas com respeito.",
+    "author": "Larissa",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_fretes_12",
+    "text": "Fiz frete de alguns itens pesados e não tive dor de cabeça. Chegaram, carregaram e entregaram sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "ponta-grossa",
+    "type": "fretes",
+    "ts": 1770736147951,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_01",
+    "text": "Minha mudança em Ponta Grossa foi bem tranquila. Chegaram no horário, embalaram com cuidado e nada quebrou.",
+    "author": "Marina",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_02",
+    "text": "Gostei da organização da equipe. Explicaram tudo antes e foram bem cuidadosos com os móveis.",
+    "author": "Rafael",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_03",
+    "text": "Atendimento rápido no orçamento e no dia da mudança foi tudo bem combinado. Recomendo pela praticidade.",
+    "author": "Camila",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_04",
+    "text": "Eu estava com medo por causa dos eletros, mas veio tudo bem protegido e chegou certinho no novo apê.",
+    "author": "Bruno",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_05",
+    "text": "Equipe educada e ágil. A mudança rendeu bem e deixaram tudo no lugar que eu pedi.",
+    "author": "Paula",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_06",
+    "text": "Foi minha primeira mudança grande e deu certo. Cuidaram das caixas e dos itens mais frágeis com atenção.",
+    "author": "Diego",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_07",
+    "text": "Combinaram horário, cumpriram direitinho e ainda ajudaram com a desmontagem e montagem do básico. Facilitou muito.",
+    "author": "Fernanda",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_08",
+    "text": "Preço justo e serviço caprichado. A comunicação foi clara do começo ao fim.",
+    "author": "Lucas",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_09",
+    "text": "Tinha pouco tempo pra mudar e eles se viraram bem. Em poucas horas estava tudo carregado e entregue.",
+    "author": "Juliana",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_10",
+    "text": "Fizeram a mudança com calma e sem correria. Os móveis chegaram sem riscos e as caixas vieram bem acomodadas.",
+    "author": "Gustavo",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_11",
+    "text": "Gostei porque foram bem cuidadosos com o sofá e o guarda-roupa. No final conferimos tudo e estava ok.",
+    "author": "Aline",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_mudancas_12",
+    "text": "Serviço bem profissional, mas com jeito simples de lidar. Tiraram minhas dúvidas e a mudança foi bem leve.",
+    "author": "Renato",
+    "citySlug": "ponta-grossa",
+    "type": "mudancas",
+    "ts": 1770736159649,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e buscaram no horário combinado.",
+    "author": "Marina",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_02",
+    "text": "Entrega bem corrida e mesmo assim chegou no mesmo dia. Comunicação clara do começo ao fim.",
+    "author": "Diego",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_03",
+    "text": "Chamamos em cima da hora e eles conseguiram encaixar. Motorista educado e serviço bem ágil.",
+    "author": "Camila",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_04",
+    "text": "Fiquei com receio por ser urgente, mas foi bem tranquilo. Atualizaram o andamento e entregaram certinho.",
+    "author": "Rafael",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_05",
+    "text": "Precisava levar uma encomenda rápido e resolveram sem complicação. Preço combinado e sem surpresas.",
+    "author": "Juliana",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_06",
+    "text": "Atendimento prático e direto, do jeito que eu precisava. Coleta rápida e entrega dentro do prazo.",
+    "author": "Bruno",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_07",
+    "text": "Frete urgente para um item importante e chegou sem danos. Deram atenção aos detalhes na retirada.",
+    "author": "Fernanda",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_08",
+    "text": "Pedi pelo Whats e já retornaram com opções. Foi tudo bem organizado e rápido.",
+    "author": "Lucas",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_09",
+    "text": "Tive uma urgência no trabalho e eles salvaram o dia. Cumpriram o combinado e avisaram quando entregou.",
+    "author": "Paula",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_10",
+    "text": "Gostei da agilidade e do cuidado com a carga. Mesmo com pressa, fizeram tudo certinho.",
+    "author": "Thiago",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_11",
+    "text": "Resolveu meu frete urgente em Ponta Grossa sem estresse. Atendimento humano e bem prestativo.",
+    "author": "Aline",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ponta-grossa_urgente_12",
+    "text": "Precisava de coleta rápida e eles chegaram no tempo certo. Entrega feita direitinho e sem enrolação.",
+    "author": "Gabriela",
+    "citySlug": "ponta-grossa",
+    "type": "urgente",
+    "ts": 1770736169399,
+    "source": "cliente"
   }
 ]

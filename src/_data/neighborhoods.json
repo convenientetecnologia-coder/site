@@ -4320,5 +4320,64 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "ponta-grossa": {
+    "city": "Ponta Grossa",
+    "state": "PR",
+    "all": [
+      "Centro",
+      "Uvaranas",
+      "Oficinas",
+      "Nova Rússia",
+      "Contorno",
+      "Boa Vista",
+      "Ronda",
+      "Neves",
+      "Cará-Cará",
+      "Chapada",
+      "Jardim Carvalho",
+      "Olarias",
+      "Colônia Dona Luiza",
+      "Estrela",
+      "Santa Paula",
+      "Palmeirinha",
+      "Periquitos",
+      "Guaragi",
+      "Itaiacoca"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Uvaranas",
+        "Oficinas",
+        "Nova Rússia",
+        "Contorno",
+        "Boa Vista"
+      ],
+      "mudancas": [
+        "Ronda",
+        "Neves",
+        "Cará-Cará",
+        "Chapada",
+        "Jardim Carvalho",
+        "Olarias"
+      ],
+      "urgente": [
+        "Colônia Dona Luiza",
+        "Estrela",
+        "Santa Paula",
+        "Palmeirinha",
+        "Periquitos",
+        "Guaragi",
+        "Itaiacoca"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-10T15:08:58.660Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
