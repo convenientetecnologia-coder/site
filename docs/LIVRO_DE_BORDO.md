@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Porto Velho (RO)** — publicado em 2026-02-10
+  - `/fretes-em-porto-velho/` (~2861 palavras)
+  - `/mudancas-em-porto-velho/` (~2921 palavras)
+  - `/frete-urgente-em-porto-velho/` (~3258 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 40 bairros divididos em 3 blocos (13/13/14)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `6c4a2b4`
+
 - **Ponta Grossa (PR)** — publicado em 2026-02-10
   - `/fretes-em-ponta-grossa/` (~3028 palavras)
   - `/mudancas-em-ponta-grossa/` (~2913 palavras)

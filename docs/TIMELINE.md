@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Porto Velho (RO): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Porto Velho com sistema 100% GPT:
+  - `/fretes-em-porto-velho/` (~2861 palavras)
+  - `/mudancas-em-porto-velho/` (~2921 palavras)
+  - `/frete-urgente-em-porto-velho/` (~3258 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 40 divididos em 3 blocos (13/13/14)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (2 títulos duplicados ajustados em `porto-velho.json`)
+- **Por quê**: expandir cobertura orgânica em RO seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `6c4a2b4` (repo `site`)
+  - `src/_data/city_content/porto-velho.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (porto-velho habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `porto-velho` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Ponta Grossa (PR): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Ponta Grossa com sistema 100% GPT:
