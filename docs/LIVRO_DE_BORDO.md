@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Salvador (BA)** — publicado em 2026-02-10
+  - `/fretes-em-salvador/` (~2870 palavras)
+  - `/mudancas-em-salvador/` (~2878 palavras)
+  - `/frete-urgente-em-salvador/` (~3052 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `7ed0612`
+
 - **Rio Verde (GO)** — publicado em 2026-02-10
   - `/fretes-em-rio-verde/` (~2864 palavras)
   - `/mudancas-em-rio-verde/` (~3107 palavras)

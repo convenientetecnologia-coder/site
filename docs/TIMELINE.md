@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Salvador (BA): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Salvador com sistema 100% GPT:
+  - `/fretes-em-salvador/` (~2870 palavras)
+  - `/mudancas-em-salvador/` (~2878 palavras)
+  - `/frete-urgente-em-salvador/` (~3052 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (4 títulos duplicados ajustados em `salvador.json`)
+- **Por quê**: expandir cobertura orgânica na BA seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `7ed0612` (repo `site`)
+  - `src/_data/city_content/salvador.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (salvador habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `salvador` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Rio Verde (GO): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Rio Verde com sistema 100% GPT:
