@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Ponta Grossa (PR): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Ponta Grossa com sistema 100% GPT:
+  - `/fretes-em-ponta-grossa/` (~3028 palavras)
+  - `/mudancas-em-ponta-grossa/` (~2913 palavras)
+  - `/frete-urgente-em-ponta-grossa/` (~3373 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 19 divididos em 3 blocos (6/6/7)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (2 títulos duplicados ajustados em `ponta-grossa.json`)
+- **Por quê**: expandir cobertura orgânica no PR seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `8fa7954` (repo `site`)
+  - `src/_data/city_content/ponta-grossa.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (ponta-grossa habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `ponta-grossa` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Piracicaba (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Piracicaba com sistema 100% GPT:

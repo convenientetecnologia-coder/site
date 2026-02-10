@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Ponta Grossa (PR)** — publicado em 2026-02-10
+  - `/fretes-em-ponta-grossa/` (~3028 palavras)
+  - `/mudancas-em-ponta-grossa/` (~2913 palavras)
+  - `/frete-urgente-em-ponta-grossa/` (~3373 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 19 bairros divididos em 3 blocos (6/6/7)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `8fa7954`
+
 - **Piracicaba (SP)** — publicado em 2026-02-10
   - `/fretes-em-piracicaba/` (~2951 palavras)
   - `/mudancas-em-piracicaba/` (~3243 palavras)
