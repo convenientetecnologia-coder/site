@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T16:58:32.489Z",
+  "generatedAt": "2026-02-10T17:16:29.107Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -461,6 +461,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-rio-de-janeiro/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-rio-de-janeiro/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-rio-de-janeiro/"
+      }
+    },
+    {
+      "slug": "rio-verde",
+      "name": "Rio Verde",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-rio-verde/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-rio-verde/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-rio-verde/"
       }
     },
     {

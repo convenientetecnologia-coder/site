@@ -4884,5 +4884,94 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "rio-verde": {
+    "city": "Rio Verde",
+    "state": "GO",
+    "all": [
+      "Centro",
+      "Setor Central",
+      "Setor Morada do Sol",
+      "Setor Pauzanes",
+      "Setor Jardim Goiás",
+      "Setor Jardim América",
+      "Setor Jardim Presidente",
+      "Setor Jardim Adriana",
+      "Setor Jardim Planalto",
+      "Setor Jardim das Margaridas",
+      "Setor Jardim Primavera",
+      "Setor Jardim Europa",
+      "Setor Jardim Progresso",
+      "Setor Vila Amália",
+      "Setor Vila Borges",
+      "Setor Vila Mariana",
+      "Setor Vila Mutirão",
+      "Setor Vila Promissão",
+      "Setor Vila Santa Cruz",
+      "Setor Vila Serpró",
+      "Setor Residencial Gameleira",
+      "Setor Residencial Tocantins",
+      "Setor Residencial Veneza",
+      "Setor Residencial Interlagos",
+      "Setor Residencial Dona Gercina",
+      "Setor Residencial Solar do Agreste",
+      "Setor Residencial Solar do Cerrado",
+      "Setor Parque dos Buritis",
+      "Setor Parque das Laranjeiras",
+      "Setor Parque Bandeirantes",
+      "Setor Parque do Cerrado",
+      "Setor Parque Solar do Agreste",
+      "Setor Popular",
+      "Setor Industrial"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Setor Central",
+        "Setor Morada do Sol",
+        "Setor Pauzanes",
+        "Setor Jardim Goiás",
+        "Setor Jardim América",
+        "Setor Jardim Presidente",
+        "Setor Jardim Adriana",
+        "Setor Jardim Planalto",
+        "Setor Jardim das Margaridas",
+        "Setor Jardim Primavera"
+      ],
+      "mudancas": [
+        "Setor Jardim Europa",
+        "Setor Jardim Progresso",
+        "Setor Vila Amália",
+        "Setor Vila Borges",
+        "Setor Vila Mariana",
+        "Setor Vila Mutirão",
+        "Setor Vila Promissão",
+        "Setor Vila Santa Cruz",
+        "Setor Vila Serpró",
+        "Setor Residencial Gameleira",
+        "Setor Residencial Tocantins"
+      ],
+      "urgente": [
+        "Setor Residencial Veneza",
+        "Setor Residencial Interlagos",
+        "Setor Residencial Dona Gercina",
+        "Setor Residencial Solar do Agreste",
+        "Setor Residencial Solar do Cerrado",
+        "Setor Parque dos Buritis",
+        "Setor Parque das Laranjeiras",
+        "Setor Parque Bandeirantes",
+        "Setor Parque do Cerrado",
+        "Setor Parque Solar do Agreste",
+        "Setor Popular",
+        "Setor Industrial"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-10T17:07:27.525Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }

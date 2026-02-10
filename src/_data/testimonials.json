@@ -16756,5 +16756,329 @@
     "type": "fretes",
     "ts": 1770742695272,
     "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_01",
+    "text": "Combinei o frete e foi tudo bem organizado. Chegou no horário e minhas coisas vieram bem cuidadas.",
+    "author": "Mariana",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_02",
+    "text": "Precisei de um frete de última hora e me atenderam rápido. Preço justo e sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_03",
+    "text": "O motorista foi bem educado e ajudou com as caixas. Serviço tranquilo do começo ao fim.",
+    "author": "Patrícia",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_04",
+    "text": "Fiz frete de alguns móveis e veio tudo certinho, sem arranhões. Comunicação fácil pelo WhatsApp.",
+    "author": "Rafael",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_05",
+    "text": "Gostei porque cumpriram o combinado e não ficaram enrolando. Chegou tudo direitinho.",
+    "author": "Camila",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_06",
+    "text": "Usei pra levar mercadoria e foi bem ágil. Me passaram o valor antes e não teve surpresa.",
+    "author": "Bruno",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_07",
+    "text": "O atendimento foi rápido e direto, sem complicação. Recomendo pra quem precisa de frete na cidade.",
+    "author": "Aline",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_08",
+    "text": "Levaram meus eletros com cuidado e prenderam tudo direitinho no carro. Deu muita segurança.",
+    "author": "Fernando",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_09",
+    "text": "Pontuais e prestativos. Ajudaram a carregar e descarregar, o que fez muita diferença pra mim.",
+    "author": "Juliana",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_10",
+    "text": "Fechei o frete pra mudança pequena e foi bem tranquilo. Chegaram no horário combinado.",
+    "author": "Gustavo",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_11",
+    "text": "Atendeu exatamente o que eu precisava: rápido, cuidadoso e com boa comunicação durante o trajeto.",
+    "author": "Larissa",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_fretes_12",
+    "text": "Fizeram o transporte de uma cama e um armário sem complicar. Serviço honesto e bem feito.",
+    "author": "Tiago",
+    "citySlug": "rio-verde",
+    "type": "fretes",
+    "ts": 1770743258868,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_01",
+    "text": "Minha mudança em Rio Verde foi bem tranquila. Chegaram no horário combinado e cuidaram direitinho dos móveis.",
+    "author": "Mariana",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_02",
+    "text": "Equipe educada e organizada. Embalaram as coisas com cuidado e a entrega foi bem rápida.",
+    "author": "Rafael",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_03",
+    "text": "Gostei da comunicação do começo ao fim. Tiraram minhas dúvidas e deu tudo certo no dia da mudança.",
+    "author": "Camila",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_04",
+    "text": "Eu estava com medo de quebrar alguma coisa, mas veio tudo bem protegido e sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_05",
+    "text": "Preço justo e serviço caprichado. Desmontaram e montaram o que precisava sem complicação.",
+    "author": "Aline",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_06",
+    "text": "Foram bem cuidadosos com a geladeira e o sofá, que eram meus maiores receios. Recomendo pelo atendimento.",
+    "author": "Diego",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_07",
+    "text": "Pontuais e prestativos. A mudança ficou mais leve porque eles se organizaram muito bem.",
+    "author": "Fernanda",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_08",
+    "text": "Atenderam rápido no orçamento e cumpriram o combinado. Tudo chegou certinho no novo lugar.",
+    "author": "Lucas",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_09",
+    "text": "Tinha muita caixa e achei que ia demorar, mas eles foram ágeis e cuidadosos ao mesmo tempo.",
+    "author": "Patricia",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_10",
+    "text": "Serviço bem feito e sem bagunça. Protegiram os móveis e deixaram tudo no cômodo certo.",
+    "author": "Gustavo",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_11",
+    "text": "A equipe passou confiança desde o início. Foi uma mudança simples, sem estresse e bem organizada.",
+    "author": "Juliana",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_mudancas_12",
+    "text": "Gostei porque avisaram quando estavam chegando e foram bem flexíveis com o horário. Deu tudo certo.",
+    "author": "Thiago",
+    "citySlug": "rio-verde",
+    "type": "mudancas",
+    "ts": 1770743268939,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_01",
+    "text": "Precisei de um frete urgente e eles responderam rápido. Chegou tudo certinho e no tempo que combinaram.",
+    "author": "Mariana",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_02",
+    "text": "Atendimento bem direto e sem enrolação. Resolveram meu frete urgente no mesmo dia.",
+    "author": "Rafael",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_03",
+    "text": "Tive uma urgência com uma entrega e deu tudo certo. Motorista cuidadoso e comunicação boa.",
+    "author": "Camila",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_04",
+    "text": "Foi bem tranquilo contratar, passaram o valor antes e cumpriram o combinado. Me salvou na correria.",
+    "author": "Diego",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_05",
+    "text": "Eu estava com prazo apertado e eles conseguiram encaixar o frete urgente. Chegou sem danos.",
+    "author": "Aline",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_06",
+    "text": "Gostei porque avisaram cada etapa e não fiquei no escuro. Pra urgência, funcionou muito bem.",
+    "author": "Bruno",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_07",
+    "text": "Precisava levar umas coisas rápido e foi tudo organizado. Chegaram no horário e finalizaram sem stress.",
+    "author": "Juliana",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_08",
+    "text": "Orçamento rápido e serviço ágil. Para frete urgente em Rio Verde, me atendeu direitinho.",
+    "author": "Felipe",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_09",
+    "text": "Tive que resolver uma entrega de última hora e eles deram conta. Atendimento educado e prático.",
+    "author": "Patrícia",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_10",
+    "text": "Combinei o horário e cumpriram certinho. Frete urgente com cuidado, sem bagunça.",
+    "author": "Gustavo",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_11",
+    "text": "Me atenderam rápido e foram bem transparentes com prazo e valor. A entrega saiu como eu precisava.",
+    "author": "Larissa",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-verde_urgente_12",
+    "text": "Serviço rápido e bem feito. Para uma urgência, foi uma mão na roda e chegou tudo ok.",
+    "author": "Thiago",
+    "citySlug": "rio-verde",
+    "type": "urgente",
+    "ts": 1770743279828,
+    "source": "cliente"
   }
 ]
