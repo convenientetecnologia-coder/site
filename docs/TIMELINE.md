@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-10 — [SITE] Montes Claros (MG): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Montes Claros com sistema 100% GPT:
+  - `/fretes-em-montes-claros/` (~2836 palavras)
+  - `/mudancas-em-montes-claros/` (~2966 palavras)
+  - `/frete-urgente-em-montes-claros/` (~3263 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (4 títulos duplicados ajustados em `montes-claros.json`)
+- **Por quê**: expandir cobertura orgânica no MG seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `a274638` (repo `site`)
+  - `src/_data/city_content/montes-claros.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (montes-claros habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `montes-claros` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-09 — [SITE] Maringá (PR): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Maringá com sistema 100% GPT:

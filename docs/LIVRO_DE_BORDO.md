@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Montes Claros (MG)** — publicado em 2026-02-10
+  - `/fretes-em-montes-claros/` (~2836 palavras)
+  - `/mudancas-em-montes-claros/` (~2966 palavras)
+  - `/frete-urgente-em-montes-claros/` (~3263 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `a274638`
+
 - **Maringá (PR)** — publicado em 2026-02-09
   - `/fretes-em-maringa/` (~3059 palavras)
   - `/mudancas-em-maringa/` (~2771 palavras)
