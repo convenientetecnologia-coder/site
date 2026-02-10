@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Rio de Janeiro (RJ)** — publicado em 2026-02-10
+  - `/fretes-em-rio-de-janeiro/` (~3254 palavras)
+  - `/mudancas-em-rio-de-janeiro/` (~3109 palavras)
+  - `/frete-urgente-em-rio-de-janeiro/` (~3346 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `ef75393`
+
 - **Rio Branco (AC)** — publicado em 2026-02-10
   - `/fretes-em-rio-branco/` (~3081 palavras)
   - `/mudancas-em-rio-branco/` (~2921 palavras)
