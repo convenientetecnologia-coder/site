@@ -16108,5 +16108,329 @@
     "type": "fretes",
     "ts": 1770739118458,
     "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_01",
+    "text": "Combinei o frete e deu tudo certo. Chegaram no horário e cuidaram bem das caixas.",
+    "author": "Mariana",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_02",
+    "text": "Atendimento rápido no WhatsApp e preço justo. A mudança foi bem mais tranquila do que eu imaginava.",
+    "author": "Rafael",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_03",
+    "text": "Pontuais e organizados. Colocaram tudo no caminhão com cuidado e sem correria.",
+    "author": "Camila",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_04",
+    "text": "Precisei de um frete de última hora e conseguiram encaixar. Foram bem educados e prestativos.",
+    "author": "Diego",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_05",
+    "text": "Gostei da comunicação, explicaram direitinho como seria. Entregaram tudo certinho, sem dor de cabeça.",
+    "author": "Aline",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_06",
+    "text": "Fiz frete de alguns móveis e veio tudo bem protegido. O serviço foi bem combinado do início ao fim.",
+    "author": "Bruno",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_07",
+    "text": "Chegaram no horário marcado e ajudaram a carregar com cuidado. Recomendo pra quem precisa de frete em Rio Branco.",
+    "author": "Juliana",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_08",
+    "text": "Motorista gente boa e bem cuidadoso. A entrega foi rápida e sem complicação.",
+    "author": "Felipe",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_09",
+    "text": "Tive uma experiência boa, sem surpresas no valor. Resolveram tudo com calma e atenção.",
+    "author": "Patricia",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_10",
+    "text": "Contratei pro transporte de eletros e foi tranquilo. Vieram com mantas e amarraram direitinho.",
+    "author": "Gustavo",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_11",
+    "text": "Equipe ágil e cuidadosa. Avisaram quando estavam chegando e isso ajudou bastante.",
+    "author": "Larissa",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_fretes_12",
+    "text": "Frete bem feito e sem estresse. Dá pra ver que têm experiência com mudança e transporte.",
+    "author": "Renato",
+    "citySlug": "rio-branco",
+    "type": "fretes",
+    "ts": 1770739689592,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_01",
+    "text": "Minha mudança em Rio Branco foi bem organizada, chegaram no horário e embalaram tudo com cuidado. No fim, deu tudo certo.",
+    "author": "Mariana",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_02",
+    "text": "Equipe educada e ágil. A montagem dos móveis foi tranquila e não tive dor de cabeça durante a mudança.",
+    "author": "Rafael",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_03",
+    "text": "Gostei da comunicação desde o orçamento até a entrega. Foram bem cuidadosos com as caixas e com o sofá.",
+    "author": "Camila",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_04",
+    "text": "Fizeram a mudança sem correria e com atenção aos detalhes. Chegou tudo inteiro e bem acomodado no caminhão.",
+    "author": "Bruno",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_05",
+    "text": "Eu estava preocupado com os eletros, mas eles protegeram direitinho. Serviço bem combinado e sem surpresas.",
+    "author": "Larissa",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_06",
+    "text": "Atendimento rápido e preço justo. A equipe ajudou a organizar as caixas e facilitou bastante minha mudança.",
+    "author": "Diego",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_07",
+    "text": "Pontuais e cuidadosos com os móveis mais pesados. A mudança em Rio Branco foi bem mais simples do que eu imaginava.",
+    "author": "Juliana",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_08",
+    "text": "Resolveram tudo com calma e profissionalismo. Gostei que avisaram cada etapa e foram bem prestativos.",
+    "author": "Felipe",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_09",
+    "text": "Embalaram a louça com capricho e etiquetaram as caixas. Na chegada, ficou fácil de descarregar e organizar.",
+    "author": "Patrícia",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_10",
+    "text": "Foram transparentes no orçamento e cumpriram o combinado. Mudança rápida, sem bagunça e sem estresse.",
+    "author": "Gustavo",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_11",
+    "text": "Cuidaram bem do guarda-roupa e montaram de novo direitinho. Atendimento simples e eficiente.",
+    "author": "Aline",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_mudancas_12",
+    "text": "Tive uma mudança de última hora e eles conseguiram encaixar. Responderam rápido e fizeram um ótimo trabalho.",
+    "author": "Renato",
+    "citySlug": "rio-branco",
+    "type": "mudancas",
+    "ts": 1770739699721,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_01",
+    "text": "Precisava entregar ainda hoje e deu tudo certo. Responderam rápido e combinaram o horário certinho.",
+    "author": "Marina",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_02",
+    "text": "Frete urgente bem organizado, sem enrolação. Acompanhei tudo pelo celular e chegou no prazo combinado.",
+    "author": "Rafael",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_03",
+    "text": "Estava com pressa e me salvaram. Coleta rápida e entrega tranquila, do jeito que eu precisava.",
+    "author": "Juliana",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_04",
+    "text": "Atendimento direto e claro. Pedi com urgência e conseguiram encaixar sem complicar.",
+    "author": "Bruno",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_05",
+    "text": "Chegou bem antes do que eu imaginava. Comunicação boa e preço justo pro nível de urgência.",
+    "author": "Camila",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_06",
+    "text": "Tinha um documento importante pra enviar e foi super ágil. Me passaram segurança o tempo todo.",
+    "author": "Diego",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_07",
+    "text": "Serviço rápido e bem combinado. Não fiquei na mão e a entrega foi sem estresse.",
+    "author": "Aline",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_08",
+    "text": "Solicitei de última hora e mesmo assim atenderam. Motorista educado e tudo bem cuidado.",
+    "author": "Pedro",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_09",
+    "text": "Pra quem precisa de urgência, ajuda muito. Pegaram e entregaram no mesmo dia, tudo certinho.",
+    "author": "Larissa",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_10",
+    "text": "Gostei porque foram transparentes com os prazos. Meu envio urgente chegou sem atraso.",
+    "author": "Felipe",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_11",
+    "text": "Eu estava preocupado com o tempo, mas foi bem rápido. Atendimento simples e eficiente.",
+    "author": "Renata",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_rio-branco_urgente_12",
+    "text": "O frete urgente funcionou como prometido: rápido e sem complicação. Vou usar de novo quando precisar.",
+    "author": "Tiago",
+    "citySlug": "rio-branco",
+    "type": "urgente",
+    "ts": 1770739710549,
+    "source": "cliente"
   }
 ]

@@ -4702,5 +4702,76 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "rio-branco": {
+    "city": "Rio Branco",
+    "state": "AC",
+    "all": [
+      "Centro",
+      "Bosque",
+      "Base",
+      "Aviário",
+      "Estação Experimental",
+      "Conquista",
+      "Seis de Agosto",
+      "Cidade Nova",
+      "Placas",
+      "Calafate",
+      "Floresta Sul",
+      "Floresta Norte",
+      "Cadeia Velha",
+      "Capoeira",
+      "Preventório",
+      "Quinze",
+      "Bahia",
+      "João Eduardo",
+      "Taquari",
+      "Tangará",
+      "Palheiral",
+      "Sobral",
+      "Triângulo",
+      "Nova Estação",
+      "Vila Acre"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Bosque",
+        "Base",
+        "Aviário",
+        "Estação Experimental",
+        "Conquista",
+        "Seis de Agosto",
+        "Cidade Nova"
+      ],
+      "mudancas": [
+        "Placas",
+        "Calafate",
+        "Floresta Sul",
+        "Floresta Norte",
+        "Cadeia Velha",
+        "Capoeira",
+        "Preventório",
+        "Quinze"
+      ],
+      "urgente": [
+        "Bahia",
+        "João Eduardo",
+        "Taquari",
+        "Tangará",
+        "Palheiral",
+        "Sobral",
+        "Triângulo",
+        "Nova Estação",
+        "Vila Acre"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-10T16:07:56.909Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
