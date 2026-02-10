@@ -15784,5 +15784,329 @@
     "type": "urgente",
     "ts": 1770738415940,
     "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_01",
+    "text": "Fiz a mudança em Ribeirão Preto e foi tudo bem organizado. Chegaram no horário e embalaram as coisas com cuidado.",
+    "author": "Camila",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_02",
+    "text": "Equipe educada e ágil. Minhas caixas e móveis chegaram certinhos, sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_03",
+    "text": "Gostei porque combinaram tudo antes e cumpriram o que foi acertado. A mudança foi bem tranquila.",
+    "author": "Juliana",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_04",
+    "text": "Responderam rápido no orçamento e tiraram minhas dúvidas. No dia, fizeram um trabalho caprichado.",
+    "author": "Bruno",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_05",
+    "text": "Tive medo por causa dos móveis grandes, mas eles desmontaram e montaram direitinho. Deu tudo certo.",
+    "author": "Fernanda",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_06",
+    "text": "Serviço bem cuidadoso com os eletros e com o sofá. Achei o atendimento bem simples e eficiente.",
+    "author": "Diego",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_07",
+    "text": "A mudança foi mais rápida do que eu imaginava. Eles foram práticos e não deixaram bagunça.",
+    "author": "Larissa",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_08",
+    "text": "Gostei da atenção com itens frágeis. Embalaram bem e foram avisando cada etapa.",
+    "author": "Marcos",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_09",
+    "text": "Preço justo pelo que entregaram. Pontuais e bem cuidadosos com as portas e paredes.",
+    "author": "Aline",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_10",
+    "text": "Foi minha primeira mudança e fiquei bem mais tranquila com a equipe. Tudo chegou em ordem.",
+    "author": "Patricia",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_11",
+    "text": "Organizaram o caminhão direitinho e nada ficou solto. Atendimento bem profissional, sem enrolação.",
+    "author": "Gustavo",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_mudancas_12",
+    "text": "Trataram minhas coisas com respeito e paciência. No fim, ainda ajudaram a posicionar os móveis.",
+    "author": "Renata",
+    "citySlug": "ribeirao-preto",
+    "type": "mudancas",
+    "ts": 1770739023812,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a entrega foi bem combinada.",
+    "author": "Mariana",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_02",
+    "text": "Chamamos em cima da hora e mesmo assim conseguiram encaixar. Chegou no prazo que me passaram.",
+    "author": "Rafael",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_03",
+    "text": "Atendimento direto e sem enrolação. O frete urgente salvou minha mudança de última hora.",
+    "author": "Camila",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_04",
+    "text": "Eu estava com pressa e eles foram bem ágeis. Comunicação clara do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_05",
+    "text": "O motorista chegou no horário combinado e a entrega foi rápida. Serviço bem organizado.",
+    "author": "Aline",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_06",
+    "text": "Precisava levar um item urgente e foi bem tranquilo. Passaram o valor certinho antes e cumpriram.",
+    "author": "Felipe",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_07",
+    "text": "Pedi o frete urgente e já retornaram com disponibilidade. Tudo correu sem dor de cabeça.",
+    "author": "Juliana",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_08",
+    "text": "Gostei da agilidade e do cuidado com a carga. Chegou direitinho e dentro do combinado.",
+    "author": "Diego",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_09",
+    "text": "Resolveu meu problema no mesmo dia. Atendimento rápido e bem educado.",
+    "author": "Patricia",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_10",
+    "text": "Estava atrasado com uma entrega e eles ajudaram muito. Foi rápido e sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_11",
+    "text": "Frete urgente com preço justo e boa comunicação. Deram retorno rápido e fizeram a coleta logo.",
+    "author": "Renata",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_urgente_12",
+    "text": "Precisava de urgência e foi tudo bem alinhado. Chegaram, carregaram e entregaram sem enrolar.",
+    "author": "Thiago",
+    "citySlug": "ribeirao-preto",
+    "type": "urgente",
+    "ts": 1770739032774,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. A equipe foi cuidadosa com as caixas.",
+    "author": "Marina",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_02",
+    "text": "Precisava levar alguns móveis e foi tudo bem tranquilo. Comunicação rápida e preço justo.",
+    "author": "Carlos",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_03",
+    "text": "Gostei da organização na hora de carregar e descarregar. Não tive dor de cabeça.",
+    "author": "Fernanda",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_04",
+    "text": "Atendimento bem direto e sem enrolação. O frete saiu como combinado.",
+    "author": "Rafael",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_05",
+    "text": "Fizeram a mudança de poucas coisas com cuidado, principalmente com a geladeira. Recomendo.",
+    "author": "Juliana",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_06",
+    "text": "Chegaram no horário e ajudaram a acomodar tudo direitinho no caminhão. Serviço caprichado.",
+    "author": "Bruno",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_07",
+    "text": "Solicitei em cima da hora e mesmo assim conseguiram encaixar. Foi uma mão na roda.",
+    "author": "Camila",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_08",
+    "text": "O motorista foi bem atencioso e dirigiu com calma. Minhas coisas chegaram inteiras.",
+    "author": "Diego",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_09",
+    "text": "Frete rápido e sem complicação. Gostei que avisaram quando estavam chegando.",
+    "author": "Aline",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_10",
+    "text": "Tinha itens frágeis e eles cuidaram bem na embalagem e no transporte. Tudo ok.",
+    "author": "Patricia",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_11",
+    "text": "Boa experiência do começo ao fim. Pontuais e prestativos na hora de descarregar.",
+    "author": "Gustavo",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_ribeirao-preto_fretes_12",
+    "text": "Preço combinado antes e sem surpresa no final. Isso fez diferença pra mim.",
+    "author": "Renata",
+    "citySlug": "ribeirao-preto",
+    "type": "fretes",
+    "ts": 1770739118458,
+    "source": "cliente"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T15:47:19.999Z",
+  "generatedAt": "2026-02-10T15:59:35.340Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -434,6 +434,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-recife/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-recife/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-recife/"
+      }
+    },
+    {
+      "slug": "ribeirao-preto",
+      "name": "Ribeirão Preto",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-ribeirao-preto/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-ribeirao-preto/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-ribeirao-preto/"
       }
     },
     {
