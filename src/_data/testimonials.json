@@ -13840,5 +13840,329 @@
     "type": "urgente",
     "ts": 1770733192881,
     "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_01",
+    "text": "Combinei o frete e deu tudo certo, chegaram no horário e cuidaram bem das caixas. Recomendo pra quem quer praticidade.",
+    "author": "Mariana",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_02",
+    "text": "Atendimento bem rápido e preço justo. O transporte foi tranquilo e sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_03",
+    "text": "Precisava levar alguns móveis e eles foram bem cuidadosos na hora de carregar e descarregar. Tudo chegou certinho.",
+    "author": "Camila",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_04",
+    "text": "Gostei da comunicação, foram atualizando durante o caminho. Serviço bem organizado.",
+    "author": "Rafael",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_05",
+    "text": "Fiz o frete de última hora e conseguiram encaixar. Chegaram e resolveram sem enrolação.",
+    "author": "Juliana",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_06",
+    "text": "Pontuais e prestativos. A mudança pequena que eu tinha saiu bem mais fácil do que eu imaginava.",
+    "author": "Bruno",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_07",
+    "text": "Vieram com cuidado pra não riscar nada e ainda ajudaram a acomodar no destino. Valeu muito.",
+    "author": "Aline",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_08",
+    "text": "O combinado foi cumprido direitinho, sem surpresas no valor. Vou chamar de novo quando precisar.",
+    "author": "Fernando",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_09",
+    "text": "Frete rápido e bem feito. Minhas coisas chegaram em ordem e sem bagunça.",
+    "author": "Patricia",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_10",
+    "text": "Equipe educada e ágil. Carregaram tudo com atenção e terminaram no tempo que falaram.",
+    "author": "Lucas",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_11",
+    "text": "Tinha itens frágeis e eles foram bem cuidadosos. Chegou tudo inteiro, fiquei bem satisfeita.",
+    "author": "Renata",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_fretes_12",
+    "text": "Orçamento simples, sem complicação. O frete em Novo Hamburgo foi bem combinado e deu certo do começo ao fim.",
+    "author": "Gustavo",
+    "citySlug": "novo-hamburgo",
+    "type": "fretes",
+    "ts": 1770733943463,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_01",
+    "text": "Fiz minha mudança em Novo Hamburgo e foi bem tranquila. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Mariana",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_02",
+    "text": "Equipe bem organizada e educada. A mudança foi rápida e sem estresse, tudo bem combinado.",
+    "author": "Rafael",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_03",
+    "text": "Gostei da atenção com a embalagem das coisas frágeis. Nada quebrou e deu tudo certo na entrega.",
+    "author": "Camila",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_04",
+    "text": "Responderam rápido no orçamento e cumpriram o que foi combinado. Serviço honesto e caprichado.",
+    "author": "Diego",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_05",
+    "text": "Tinha bastante caixa e achei que ia demorar, mas foi bem ágil. Os carregadores foram cuidadosos.",
+    "author": "Paula",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_06",
+    "text": "Mudança de apartamento com elevador pequeno e eles tiveram paciência. No fim, saiu tudo direitinho.",
+    "author": "Bruno",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_07",
+    "text": "Gostei porque avisaram antes de chegar e foram bem práticos. A desmontagem e montagem ajudou muito.",
+    "author": "Fernanda",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_08",
+    "text": "Preço justo pelo serviço. Levaram geladeira e sofá sem arranhões, bem protegidos.",
+    "author": "Lucas",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_09",
+    "text": "Eu estava com pouco tempo e eles facilitaram tudo. Comunicação simples e trabalho bem feito.",
+    "author": "Aline",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_10",
+    "text": "Foram cuidadosos com as portas e paredes na hora de tirar os móveis. Isso fez diferença pra mim.",
+    "author": "Gustavo",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_11",
+    "text": "Achei bem profissional do começo ao fim. Chegaram com os materiais e organizaram tudo no caminhão.",
+    "author": "Juliana",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_mudancas_12",
+    "text": "Mudança pequena, mas trataram com o mesmo cuidado. Recomendo pra quem quer algo sem dor de cabeça.",
+    "author": "Renato",
+    "citySlug": "novo-hamburgo",
+    "type": "mudancas",
+    "ts": 1770733953155,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_01",
+    "text": "Precisava do frete pra ontem e eles resolveram sem enrolação. Chegou no horário combinado.",
+    "author": "Mariana",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_02",
+    "text": "Atendimento bem rápido e direto. O frete urgente foi tranquilo do começo ao fim.",
+    "author": "Rafael",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_03",
+    "text": "Pedi em cima da hora e mesmo assim conseguiram encaixar. Entrega ágil e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_04",
+    "text": "Responderam rápido e passaram o valor certinho. A coleta foi pontual e entregou direitinho.",
+    "author": "Diego",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_05",
+    "text": "Tava com pressa e deu tudo certo. Comunicação boa e cuidado com a carga.",
+    "author": "Juliana",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_06",
+    "text": "Frete urgente bem organizado, sem atrasos no meu caso. Recomendo pra quem tá na correria.",
+    "author": "Bruno",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_07",
+    "text": "Gostei porque foram transparentes com o prazo e cumpriram. Chegou antes do que eu esperava.",
+    "author": "Fernanda",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_08",
+    "text": "Precisava entregar um item no mesmo dia e deu certo. Motorista educado e serviço rápido.",
+    "author": "Lucas",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_09",
+    "text": "Fechei pelo Whats e foi bem simples. Coletaram rápido e me atualizaram durante o trajeto.",
+    "author": "Aline",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_10",
+    "text": "Tive urgência por causa do trabalho e eles ajudaram muito. Tudo bem combinado e sem surpresa.",
+    "author": "Gustavo",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_11",
+    "text": "Chegou certinho e sem avarias. Pra frete urgente, achei o serviço bem confiável.",
+    "author": "Patricia",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_novo-hamburgo_urgente_12",
+    "text": "Atenderam minha solicitação em poucos minutos. Entrega rápida e com bastante atenção aos detalhes.",
+    "author": "Renato",
+    "citySlug": "novo-hamburgo",
+    "type": "urgente",
+    "ts": 1770733963230,
+    "source": "cliente"
   }
 ]

@@ -4041,5 +4041,74 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "novo-hamburgo": {
+    "city": "Novo Hamburgo",
+    "state": "RS",
+    "all": [
+      "Centro",
+      "Hamburgo Velho",
+      "Canudos",
+      "Ideal",
+      "Rio Branco",
+      "Pátria Nova",
+      "Vila Rosa",
+      "Rondônia",
+      "Boa Saúde",
+      "Liberdade",
+      "Santo Afonso",
+      "São Jorge",
+      "Petrópolis",
+      "Operário",
+      "Primavera",
+      "Guarani",
+      "Lomba Grande",
+      "Roselândia",
+      "Industrial",
+      "Jardim Mauá",
+      "Vila Nova",
+      "Vila Diehl",
+      "Vila Kroeff",
+      "Vila Ipiranga"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Hamburgo Velho",
+        "Canudos",
+        "Ideal",
+        "Rio Branco",
+        "Pátria Nova",
+        "Vila Rosa",
+        "Rondônia"
+      ],
+      "mudancas": [
+        "Boa Saúde",
+        "Liberdade",
+        "Santo Afonso",
+        "São Jorge",
+        "Petrópolis",
+        "Operário",
+        "Primavera",
+        "Guarani"
+      ],
+      "urgente": [
+        "Lomba Grande",
+        "Roselândia",
+        "Industrial",
+        "Jardim Mauá",
+        "Vila Nova",
+        "Vila Diehl",
+        "Vila Kroeff",
+        "Vila Ipiranga"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-10T14:35:43.723Z",
+      "maxPerPage": 15,
+      "maxTotal": 240
+    }
   }
 }
