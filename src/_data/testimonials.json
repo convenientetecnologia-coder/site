@@ -14164,5 +14164,329 @@
     "type": "urgente",
     "ts": 1770733963230,
     "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_01",
+    "text": "Combinei o frete e foi tudo bem certinho, sem enrolação. Chegou no horário que a gente acertou.",
+    "author": "Mariana",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_02",
+    "text": "Precisei levar uns móveis e deu tudo certo. O motorista foi cuidadoso na hora de carregar e descarregar.",
+    "author": "Rafael",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_03",
+    "text": "Atendimento rápido pelo chat e preço justo. O frete em Petrolina foi bem tranquilo do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_04",
+    "text": "Gostei da pontualidade e da organização. Avisaram quando estavam chegando e isso ajudou muito.",
+    "author": "Diego",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_05",
+    "text": "Fiz mudança pequena e resolveram tudo sem complicação. Chegou tudo inteiro e bem acomodado.",
+    "author": "Bruna",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_06",
+    "text": "Precisava de um frete de última hora e conseguiram me encaixar. Comunicação clara e serviço caprichado.",
+    "author": "Felipe",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_07",
+    "text": "O combinado foi cumprido direitinho. A equipe teve cuidado com caixas e não ficou nada solto no transporte.",
+    "author": "Aline",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_08",
+    "text": "Já usei outras vezes e dessa vez também foi bem tranquilo. Responderam rápido e facilitaram o pagamento.",
+    "author": "Tiago",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_09",
+    "text": "Serviço simples e eficiente. Chegaram, carregaram rápido e entregaram sem dor de cabeça.",
+    "author": "Juliana",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_10",
+    "text": "Transportaram meus eletros com bastante cuidado. Gostei do jeito atencioso e da agilidade.",
+    "author": "Gustavo",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_11",
+    "text": "Fui bem atendida e tiraram minhas dúvidas antes do frete. No dia, correu tudo como combinado.",
+    "author": "Patrícia",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_fretes_12",
+    "text": "Frete para entrega de compras grandes e foi perfeito pra mim. Pontuais e bem cuidadosos com as embalagens.",
+    "author": "Renato",
+    "citySlug": "petrolina",
+    "type": "fretes",
+    "ts": 1770734743692,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_01",
+    "text": "Minha mudança em Petrolina foi bem organizada e sem correria. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_02",
+    "text": "Gostei da atenção desde o orçamento até a entrega. Tudo bem combinado e sem surpresas no final.",
+    "author": "Rafael",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_03",
+    "text": "Equipe tranquila e cuidadosa, principalmente com as caixas mais frágeis. A mudança foi bem mais leve do que eu esperava.",
+    "author": "Juliana",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_04",
+    "text": "Responderam rápido e explicaram como funcionava. No dia, carregaram e descarregaram com capricho.",
+    "author": "Marcos",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_05",
+    "text": "Eu estava com medo de arranhar os móveis, mas eles protegeram tudo direitinho. Chegou tudo certinho no novo lugar.",
+    "author": "Aline",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_06",
+    "text": "Pontuais e educados. A mudança foi rápida, mas sem pressa de fazer de qualquer jeito.",
+    "author": "Diego",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_07",
+    "text": "Fiz mudança de apartamento e foi bem tranquilo. Eles ajudaram até na organização das caixas mais pesadas.",
+    "author": "Bruna",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_08",
+    "text": "O atendimento foi simples e direto, do jeito que eu gosto. Cumpriram o combinado e deixaram tudo no lugar certinho.",
+    "author": "Fernanda",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_09",
+    "text": "Tinha muitos itens e achei que ia virar bagunça, mas eles foram bem cuidadosos. Nada quebrou e tudo veio bem acomodado.",
+    "author": "Gustavo",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_10",
+    "text": "Preço justo e serviço caprichado. Me passaram confiança e a mudança em Petrolina saiu sem estresse.",
+    "author": "Patrícia",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_11",
+    "text": "Chegaram com os materiais e já foram embalando o que precisava. Foi prático e economizou meu tempo.",
+    "author": "Renato",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_mudancas_12",
+    "text": "Atenderam no horário combinado e foram bem respeitosos com o prédio. Recomendo pra quem quer uma mudança sem dor de cabeça.",
+    "author": "Larissa",
+    "citySlug": "petrolina",
+    "type": "mudancas",
+    "ts": 1770734757491,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_01",
+    "text": "Pedi um frete urgente e foi bem mais rápido do que eu esperava. Comunicação clara do começo ao fim.",
+    "author": "Mariana",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_02",
+    "text": "Precisava entregar ainda hoje e deu tudo certo. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_03",
+    "text": "Atenderam minha urgência com muita organização. Me avisaram cada etapa e a carga chegou certinha.",
+    "author": "Camila",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_04",
+    "text": "Tive uma emergência com uma entrega e eles resolveram rápido. Preço justo pelo serviço urgente.",
+    "author": "Bruno",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_05",
+    "text": "Respondeu na hora e já alinhou a coleta. O frete foi tranquilo e bem cuidado.",
+    "author": "Aline",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_06",
+    "text": "Eu estava sem tempo e precisava de agilidade. O motorista foi pontual e muito cuidadoso com as caixas.",
+    "author": "Diego",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_07",
+    "text": "Solicitei em cima da hora e mesmo assim conseguiram encaixar. Chegou tudo direitinho.",
+    "author": "Patricia",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_08",
+    "text": "Gostei da praticidade: combinei pelo celular e já vieram buscar. Entrega rápida e sem complicação.",
+    "author": "Felipe",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_09",
+    "text": "Frete urgente em Petrolina funcionando de verdade. Foram ágeis e bem transparentes no prazo.",
+    "author": "Juliana",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_10",
+    "text": "Tinha um prazo apertado e fiquei com medo, mas deu certo. Atendimento atencioso e entrega no mesmo dia.",
+    "author": "Renato",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_11",
+    "text": "Precisei mandar uns itens com urgência e foram bem cuidadosos. Chegou sem avarias e no tempo combinado.",
+    "author": "Larissa",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_petrolina_urgente_12",
+    "text": "Foi tudo bem alinhado e rápido, desde a coleta até a entrega. Recomendo pra quem precisa de urgência.",
+    "author": "Thiago",
+    "citySlug": "petrolina",
+    "type": "urgente",
+    "ts": 1770734767636,
+    "source": "cliente"
   }
 ]

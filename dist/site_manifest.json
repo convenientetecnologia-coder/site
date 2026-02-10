@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T14:36:59.795Z",
+  "generatedAt": "2026-02-10T14:46:58.279Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -380,6 +380,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-novo-hamburgo/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-novo-hamburgo/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-novo-hamburgo/"
+      }
+    },
+    {
+      "slug": "petrolina",
+      "name": "Petrolina",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-petrolina/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-petrolina/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-petrolina/"
       }
     },
     {
