@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T14:46:58.279Z",
+  "generatedAt": "2026-02-10T14:58:24.281Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -389,6 +389,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-petrolina/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-petrolina/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-petrolina/"
+      }
+    },
+    {
+      "slug": "piracicaba",
+      "name": "Piracicaba",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-piracicaba/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-piracicaba/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-piracicaba/"
       }
     },
     {

@@ -14488,5 +14488,329 @@
     "type": "urgente",
     "ts": 1770734767636,
     "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_01",
+    "text": "Combinei o horário e o frete chegou certinho. O pessoal foi cuidadoso com os móveis e resolveu tudo sem correria.",
+    "author": "Mariana",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_02",
+    "text": "Resposta rápida no orçamento e preço justo. A mudança pequena que eu tinha foi feita de forma bem organizada.",
+    "author": "Rafael",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_03",
+    "text": "Precisava levar umas caixas e um armário, e deu tudo certo. Chegaram no horário e foram bem educados.",
+    "author": "Camila",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_04",
+    "text": "Gostei da comunicação do começo ao fim. Avisaram quando estavam a caminho e o frete foi tranquilo.",
+    "author": "Bruno",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_05",
+    "text": "Serviço caprichado, principalmente na hora de acomodar as coisas no veículo. Nada veio amassado ou solto.",
+    "author": "Fernanda",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_06",
+    "text": "Fiz um frete de última hora e conseguiram encaixar. Foram rápidos, mas sem descuidar das minhas coisas.",
+    "author": "Diego",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_07",
+    "text": "O motorista foi bem paciente com as orientações e ajudou no que deu. Chegou tudo certinho no destino.",
+    "author": "Aline",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_08",
+    "text": "Tinha um sofá e alguns eletros, e eles protegeram bem antes de carregar. Atendimento simples e eficiente.",
+    "author": "Juliana",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_09",
+    "text": "Orçamento claro, sem surpresa no final. O frete em Piracicaba foi bem combinado e cumpriram o que falaram.",
+    "author": "Lucas",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_10",
+    "text": "Equipe cuidadosa na escada e nas portas, não arranharam nada. Recomendo pra quem quer evitar dor de cabeça.",
+    "author": "Patricia",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_11",
+    "text": "Pontuais e práticos. Em pouco tempo já tinham carregado e feito a entrega, tudo com bastante atenção.",
+    "author": "Gustavo",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_fretes_12",
+    "text": "Contratei pra transportar uma mesa e cadeiras, e veio tudo bem preso e protegido. Atendimento bem cordial.",
+    "author": "Renata",
+    "citySlug": "piracicaba",
+    "type": "fretes",
+    "ts": 1770735398612,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_01",
+    "text": "Fiz minha mudança em Piracicaba e foi tudo bem organizado. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Mariana",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_02",
+    "text": "Equipe bem educada e prática. Embalaram o que eu precisava e a mudança foi bem mais tranquila do que eu imaginava.",
+    "author": "Carlos",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_03",
+    "text": "Gostei da comunicação desde o começo, tudo bem combinado. No dia, fizeram rápido e sem bagunça.",
+    "author": "Fernanda",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_04",
+    "text": "Levaram meus móveis com cuidado e respeitaram as orientações. Chegou tudo certinho no novo apê.",
+    "author": "Rafael",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_05",
+    "text": "Preço justo e serviço caprichado. A equipe ajudou até com a organização das caixas mais pesadas.",
+    "author": "Aline",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_06",
+    "text": "Eu estava com medo de arranharem o sofá, mas protegeram bem. Atendimento simples e eficiente.",
+    "author": "Bruno",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_07",
+    "text": "Mudança em Piracicaba sem dor de cabeça. Foram rápidos na desmontagem e montaram tudo direitinho depois.",
+    "author": "Patricia",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_08",
+    "text": "Responderam rápido no orçamento e tiraram minhas dúvidas. No dia, trabalharam com cuidado e agilidade.",
+    "author": "Diego",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_09",
+    "text": "Cheguei a pensar que ia atrasar, mas fluiu bem. Equipe organizada e bem cuidadosa com eletros.",
+    "author": "Juliana",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_10",
+    "text": "Gostei porque foram bem transparentes sobre o que estava incluso. A mudança saiu como combinado.",
+    "author": "Rodrigo",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_11",
+    "text": "Fizeram um bom trabalho com os itens frágeis, tudo bem protegido. Atendimento bem atencioso do começo ao fim.",
+    "author": "Camila",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_mudancas_12",
+    "text": "Pontuais e cuidadosos, sem pressa desnecessária. Minha mudança em Piracicaba foi bem tranquila.",
+    "author": "Thiago",
+    "citySlug": "piracicaba",
+    "type": "mudancas",
+    "ts": 1770735409058,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_01",
+    "text": "Precisei de um frete urgente em Piracicaba e deu tudo certo. Chegaram rápido e combinaram direitinho o horário.",
+    "author": "Mariana",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_02",
+    "text": "Atendimento bem ágil e sem enrolação. O frete urgente resolveu minha entrega no mesmo dia.",
+    "author": "Rafael",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_03",
+    "text": "Eu estava com pressa e me atenderam super rápido. Entrega tranquila e com cuidado.",
+    "author": "Camila",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_04",
+    "text": "Responderam na hora e já passaram o valor certinho. O frete foi rápido e sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_05",
+    "text": "Precisava levar umas caixas com urgência e foi bem combinado do começo ao fim. Chegou no prazo que eu precisava.",
+    "author": "Aline",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_06",
+    "text": "Serviço prático e direto. Pegaram e entregaram rapidinho, do jeito que eu estava precisando.",
+    "author": "Diego",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_07",
+    "text": "Fiquei com receio por ser urgente, mas foi bem organizado. Motorista educado e entrega ok.",
+    "author": "Fernanda",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_08",
+    "text": "Consegui agendar em cima da hora e não tive problema. Chegou tudo certinho e sem atraso.",
+    "author": "Guilherme",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_09",
+    "text": "Me salvaram numa correria aqui em Piracicaba. Comunicação clara e entrega rápida.",
+    "author": "Juliana",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_10",
+    "text": "O orçamento veio rápido e sem surpresa depois. Frete urgente bem eficiente.",
+    "author": "Lucas",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_11",
+    "text": "Precisava de retirada imediata e eles deram conta. Foi tudo bem tranquilo e com cuidado no transporte.",
+    "author": "Patricia",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_piracicaba_urgente_12",
+    "text": "Atenderam minha urgência e mantiveram contato durante o trajeto. Chegou direitinho.",
+    "author": "Renato",
+    "citySlug": "piracicaba",
+    "type": "urgente",
+    "ts": 1770735417301,
+    "source": "cliente"
   }
 ]
