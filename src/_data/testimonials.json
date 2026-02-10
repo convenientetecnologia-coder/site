@@ -17080,5 +17080,329 @@
     "type": "urgente",
     "ts": 1770743279828,
     "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_01",
+    "text": "Fiz minha mudança em Salvador com eles e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Marina",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_02",
+    "text": "Equipe educada e ágil. Embalaram as coisas com cuidado e a mudança foi bem mais tranquila do que eu esperava.",
+    "author": "Rafael",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_03",
+    "text": "Gostei da comunicação desde o primeiro contato. O valor ficou bem combinado e não teve surpresa no final.",
+    "author": "Camila",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_04",
+    "text": "Tinha itens frágeis e fiquei com medo, mas veio tudo certinho. Foram bem cuidadosos no transporte.",
+    "author": "Diego",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_05",
+    "text": "Mudança rápida e sem estresse. Eles desmontaram e montaram o que precisava com capricho.",
+    "author": "Aline",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_06",
+    "text": "Atenderam minha mudança em Salvador com pontualidade e boa vontade. Dá pra confiar no serviço.",
+    "author": "Bruno",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_07",
+    "text": "Gostei porque foram práticos e respeitaram o combinado. No fim, ficou tudo no lugar certinho.",
+    "author": "Juliana",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_08",
+    "text": "Eu tinha muita caixa e achei que ia demorar, mas fluiu bem. A equipe foi bem organizada.",
+    "author": "Fernando",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_09",
+    "text": "Responderam rápido no orçamento e tiraram minhas dúvidas. A mudança ocorreu sem dor de cabeça.",
+    "author": "Patricia",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_10",
+    "text": "Cuidaram bem do sofá e dos eletros, que eram minha preocupação. Chegou tudo direitinho.",
+    "author": "Lucas",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_11",
+    "text": "Serviço honesto e bem feito. Os meninos foram cuidadosos na escada e não arranharam nada.",
+    "author": "Renata",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_mudancas_12",
+    "text": "Minha mudança foi de última hora e eles conseguiram encaixar. Deu tudo certo e com bom atendimento.",
+    "author": "Tiago",
+    "citySlug": "salvador",
+    "type": "mudancas",
+    "ts": 1770746136840,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_01",
+    "text": "Combinei o frete pelo WhatsApp e foi tudo bem organizado. Chegaram no horário e levaram minhas coisas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_02",
+    "text": "Precisava de um frete rápido pra hoje e me atenderam sem enrolação. Preço justo e serviço tranquilo.",
+    "author": "Rafael",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_03",
+    "text": "Gostei da atenção desde o primeiro contato. O motorista foi paciente e ajudou a acomodar tudo direitinho.",
+    "author": "Camila",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_04",
+    "text": "Fiz o frete de alguns móveis e veio tudo bem protegido. Chegou sem arranhões e sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_05",
+    "text": "Pontuais e educados. A mudança pequena foi bem mais fácil com a ajuda deles.",
+    "author": "Aline",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_06",
+    "text": "Atenderam minha solicitação em cima da hora e deu certo. Comunicação clara e sem surpresas no valor.",
+    "author": "Diego",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_07",
+    "text": "O frete foi rápido e o pessoal cuidou bem das caixas. Recomendo pra quem quer praticidade.",
+    "author": "Larissa",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_08",
+    "text": "Achei bem profissional, desde o orçamento até a entrega. Tudo chegou certinho e no tempo combinado.",
+    "author": "Felipe",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_09",
+    "text": "Tinha itens frágeis e fiquei com receio, mas foram bem cuidadosos. Chegou tudo inteiro.",
+    "author": "Juliana",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_10",
+    "text": "Serviço honesto e direto. Resolveram meu transporte de mercadoria sem complicação.",
+    "author": "Thiago",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_11",
+    "text": "Gostei porque explicaram direitinho como seria o frete e cumpriram o combinado. Atendimento bem humano.",
+    "author": "Patricia",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_fretes_12",
+    "text": "Fiz frete de eletros e foi bem tranquilo. Carregaram com cuidado e entregaram sem atraso.",
+    "author": "Gustavo",
+    "citySlug": "salvador",
+    "type": "fretes",
+    "ts": 1770746247879,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_01",
+    "text": "Precisei de frete urgente e eles responderam rapidinho. Chegou no prazo combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_02",
+    "text": "Atendimento direto e ágil. Pegaram a encomenda e entregaram bem mais rápido do que eu esperava.",
+    "author": "Rafael",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_03",
+    "text": "Tava com pressa e deu tudo certo. Comunicação boa do começo ao fim e entrega certinha.",
+    "author": "Camila",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_04",
+    "text": "Solicitei em cima da hora e conseguiram encaixar. O frete foi rápido e bem organizado.",
+    "author": "Bruno",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_05",
+    "text": "Gostei porque não enrolaram: passaram o valor, confirmaram e já vieram buscar. Chegou tranquilo.",
+    "author": "Aline",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_06",
+    "text": "Serviço de frete urgente bem combinado. Avisaram quando saiu e quando chegou, isso ajudou muito.",
+    "author": "Diego",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_07",
+    "text": "Eu precisava entregar um item no mesmo dia e foi resolvido. Tudo bem prático e sem complicação.",
+    "author": "Juliana",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_08",
+    "text": "O motorista foi cuidadoso com a caixa e a entrega foi bem rápida. Atendimento simples e eficiente.",
+    "author": "Felipe",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_09",
+    "text": "Pedi um frete urgente pra uma entrega importante e foi pontual. Recomendo pela agilidade.",
+    "author": "Larissa",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_10",
+    "text": "Me atenderam rápido no chat e já alinharam a coleta. Chegou dentro do combinado.",
+    "author": "Gustavo",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_11",
+    "text": "Tive uma urgência no trabalho e eles salvaram. Coleta e entrega foram bem rápidas.",
+    "author": "Patrícia",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_salvador_urgente_12",
+    "text": "Preço justo pro prazo e pra correria. O serviço foi bem profissional e sem estresse.",
+    "author": "Renato",
+    "citySlug": "salvador",
+    "type": "urgente",
+    "ts": 1770746262051,
+    "source": "cliente"
   }
 ]

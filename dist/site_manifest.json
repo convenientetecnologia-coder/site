@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-10T17:16:29.107Z",
+  "generatedAt": "2026-02-10T17:58:04.856Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -470,6 +470,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-rio-verde/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-rio-verde/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-rio-verde/"
+      }
+    },
+    {
+      "slug": "salvador",
+      "name": "Salvador",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-salvador/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-salvador/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-salvador/"
       }
     },
     {

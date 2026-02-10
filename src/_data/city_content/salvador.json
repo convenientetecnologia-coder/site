@@ -1,0 +1,495 @@
+{
+  "meta": {
+    "version": 1,
+    "city": "Salvador",
+    "slug": "salvador",
+    "state": "BA",
+    "generatedAt": "2026-02-10T17:49:43.362Z",
+    "model": "gpt-5.2",
+    "sources": [
+      {
+        "title": "Rodoviário - Salvador da Bahia (Rodoviária/Terminal Rodoviário de Salvador)",
+        "url": "https://www.salvadordabahia.com/como-chegar/rodoviaria/"
+      },
+      {
+        "title": "Governo da Bahia - Ponte Salvador Itaparica (informações oficiais do projeto)",
+        "url": "https://www.ba.gov.br/pontesalvadoritaparica"
+      },
+      {
+        "title": "Obras da Ponte Salvador–Ilha de Itaparica começam em junho de 2026 e terão conjunto de intervenções | CASA CIVIL (BA)",
+        "url": "https://www.ba.gov.br/casacivil/noticias/2025-09/2961/obras-da-ponte-salvador-ilha-de-itaparica-comecam-em-junho-de-2026-e-terao"
+      },
+      {
+        "title": "Governo Federal inclui Ponte Salvador–Ilha de Itaparica em lista de projetos prioritários para investimentos — Casa Civil (gov.br)",
+        "url": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2025/setembro/governo-federal-inclui-ponte-salvador2013ilha-de-itaparica-em-lista-de-projetos-prioritarios-para-investimentos"
+      }
+    ]
+  },
+  "fretes": {
+    "introParagraphs": [
+      "Frete em Salvador pede organização e leitura de cenário. Por ser capital, o deslocamento pode variar bastante conforme dia, chuva, eventos e intervenções viárias. Por isso, um bom atendimento começa com informações claras: o que vai, onde retira, onde entrega, se há escadas, elevador, necessidade de ajudante e qual janela de horário (manhã/tarde/noite) funciona melhor para você. Assim o serviço sai mais previsível, sem depender de promessas de tempo fixo.",
+      "Um ponto de referência que ajuda muito a planejar coletas e entregas é a Rodoviária de Salvador (Terminal Rodoviário Armando Viana de Castro), em Pernambués. A região tem estação de metrô em frente e forte oferta de ônibus, o que facilita combinações de acesso, encontro e logística para volumes pequenos, encomendas e também para embarques intermunicipais/interestaduais. A partir desse tipo de referência, fica mais simples alinhar rotas e reduzir imprevistos."
+    ],
+    "guideParagraphs": [
+      "Em Salvador, o frete costuma funcionar melhor quando você trata o serviço como um pequeno projeto: objetivo (o que precisa transportar), prazo desejado e restrições do local de retirada/entrega. Como a cidade tem deslocamentos variáveis, vale combinar janelas de atendimento (manhã, tarde ou noite) em vez de apostar em horários rígidos. Isso dá margem para ajustes sem correria, especialmente quando há necessidade de carregar itens pesados, proteger móveis ou esperar liberação de acesso em prédio, condomínio ou estabelecimento comercial, que pode variar conforme regras internas.",
+      "Antes de pedir orçamento, liste os volumes com o máximo de honestidade possível. Não precisa ser técnico: “geladeira”, “cama desmontada”, “caixas médias”, “mesa com tampo de vidro” já ajuda. Em Salvador, a diferença entre um frete leve e um frete com itens volumosos pode mudar o tipo de veículo e o número de ajudantes. Se houver objetos que não podem molhar, arranhar ou tombar, avise logo no primeiro contato. Isso direciona o uso de mantas, cintas, cantoneiras e um jeito de acomodar a carga com mais segurança.",
+      "Um detalhe que costuma evitar retrabalho é explicar o acesso do local. Há rua estreita? Precisa parar longe e caminhar com a carga? Existe rampa, escada, elevador ou corredor apertado? Em uma capital, essas variáveis aparecem o tempo todo e impactam o tempo de carga/descarga mais do que o percurso em si. Quando você informa isso previamente, dá para dimensionar a equipe e reduzir improvisos. Se você puder enviar fotos do item e do caminho de saída/entrada, melhor ainda (sem expor informações sensíveis).",
+      "A Rodoviária de Salvador, em Pernambués, é um bom exemplo de referência logística para quem precisa integrar frete urbano com deslocamentos maiores. Para alguns tipos de envio, faz sentido combinar retirada em casa e entrega em um ponto de conexão, ou o inverso, dependendo do seu plano. Como há metrô em frente e fluxo de ônibus, a região pode ajudar na coordenação de encontro e no acesso de quem acompanha a carga. O importante é alinhar o “ponto de mão” e quem será responsável por receber e conferir.",
+      "Quando o assunto é frete intermunicipal ou interestadual, Salvador costuma ser porta de saída e chegada para o interior da Bahia e outros estados, e a rodoviária entra como hub natural de viagens. Em vez de prometer prazos, o caminho mais seguro é planejar por etapas: coleta em Salvador, consolidação/organização (se necessário), e entrega/encaminhamento conforme o modal escolhido. Para algumas cargas, pode ser útil prever embalagem reforçada e identificação bem visível, pois o manuseio em conexões e transbordos tende a ser maior.",
+      "Frete “pequeno” em Salvador nem sempre significa simples. Uma única peça — como uma máquina, um eletrodoméstico grande ou um móvel desmontado — pode exigir proteção extra, amarração e cuidado em quinas e pisos. Se o item tiver vidro, acabamento brilhante ou madeira sensível, vale solicitar uso de mantas e filme stretch. Além de proteger o bem, isso evita marcas durante o transporte e na passagem por corredores. Combine também como será feita a conferência: checagem visual no local e, se possível, registro rápido de volumes antes de fechar o veículo.",
+      "Para quem precisa de frete com urgência, a melhor estratégia é ganhar tempo com informação. Tenha em mãos: lista de itens, endereços aproximados (sem detalhes desnecessários), restrições de acesso e a melhor janela para atendimento. Em Salvador, o deslocamento pode mudar de um momento para outro, então a flexibilidade de horário costuma ajudar a encaixar o serviço com mais chance de dar certo. E, se o pedido for “para hoje”, deixe pronto o básico: caixas fechadas, caminhos desobstruídos e alguém autorizado para liberar retirada/entrega.",
+      "Em prédios, clínicas, escritórios e lojas, pode haver regras internas para entrada de prestadores, horários de carga e uso de elevador. Como isso varia, a recomendação é confirmar com a administração/portaria no dia anterior ou no mesmo dia. Essa checagem simples evita espera e reduz o risco de remarcação. Se houver necessidade de carrinho de carga, fita para proteção de piso ou controle de acesso, avise com antecedência. Quanto mais alinhado o procedimento, mais fluida fica a operação — principalmente quando o local tem circulação intensa.",
+      "Um ponto que influencia o conforto do serviço é a preparação da carga. Em Salvador, por ser uma cidade litorânea, a umidade pode aparecer em certos dias; então, para itens sensíveis (papel, eletrônicos, tecidos), vale embalar com cuidado e evitar caixas abertas. Não é para criar medo: é só uma postura prática. Use caixas firmes, identifique “frágil” quando fizer sentido e separe o que vai por último (itens que você ainda usa) do que vai por primeiro (o que pode seguir logo).",
+      "Se você está levando itens para armazenamento temporário, uma boa prática é montar um inventário simples. Pode ser uma lista no celular com número de caixas e conteúdo resumido: “Cx 1: livros”, “Cx 2: utensílios”, “Cx 3: documentos (não misturar)”. Isso facilita muito na hora de encontrar algo depois e reduz perda de tempo na descarga. Para fretes corporativos, esse controle pode ser ainda mais importante: separar por setor, sala ou responsável deixa o processo mais organizado e diminui a chance de extravio.",
+      "Sobre rotas e obras: Salvador passa por mudanças viárias ao longo do tempo, e isso pode afetar caminhos de acesso e tempo de deslocamento. Vale a regra de ouro: confirmar rotas no dia do serviço. Há, por exemplo, o projeto oficial do Sistema Rodoviário Ponte Salvador–Ilha de Itaparica, descrito por fontes governamentais como um conjunto de ponte e acessos, com intervenções planejadas na região da Calçada/Água de Meninos (viadutos e túneis). Como esses planos evoluem, o ideal é tratar como fator de atenção, não como certeza operacional.",
+      "Se o seu frete envolve áreas com potencial de obras, eventos ou alterações de tráfego, combine alternativas: um ponto de encontro mais fácil, um local seguro para parada rápida, ou uma janela de horário mais ampla. Isso mantém o serviço atemporal e resiliente. Fontes oficiais indicam início das obras da ponte em junho de 2026; sem extrapolar impactos, o que dá para fazer desde já é planejar com flexibilidade e manter a comunicação aberta. Um bom frete não depende de adivinhação, e sim de coordenação.",
+      "Para evitar surpresas na cobrança, alinhe critérios de orçamento antes de fechar: volume aproximado, número de paradas, necessidade de ajudantes, distância de carregamento (da porta até o veículo), e se haverá desmontagem simples. Também é importante avisar se há itens que exigem cuidado especial, como espelhos, pedras, aquários ou equipamentos que não podem deitar. Em Salvador, onde o cenário pode variar, o combinado bem feito reduz ajustes de última hora e torna a experiência mais transparente para todo mundo.",
+      "Por fim, trate o frete como uma experiência de “ida e volta” de informação: você fornece detalhes, e o prestador confirma o plano em linguagem simples. Quem leva o quê? Quem recebe? Haverá conferência? Qual janela de atendimento? E quais itens não entram no serviço? Com isso, você evita o clássico ruído de comunicação e aumenta a chance de um transporte tranquilo. Se a sua necessidade é recorrente (empresa, e-commerce, manutenção), vale padronizar um checklist de coleta e entrega para Salvador e Região Metropolitana."
+    ],
+    "howSteps": [
+      "Você explica o que precisa transportar (itens, quantidade, fragilidade) e informa se é frete local em Salvador/Região Metropolitana ou envio para interior/interestadual.",
+      "Alinha a janela de atendimento (manhã/tarde/noite) e combina quem estará no local para liberar retirada e receber a entrega.",
+      "Confirma as condições de acesso: escadas/elevador, distância até o veículo, necessidade de parada rápida e qualquer restrição interna que possa variar (prédio, empresa, condomínio).",
+      "Define o tipo de veículo e se serão necessários ajudantes, carrinho de carga, mantas, filme stretch e cintas de amarração.",
+      "Você prepara a carga: caixas fechadas e identificadas, itens frágeis separados, desmontagem básica pronta (quando possível).",
+      "No dia, é feita a conferência visual dos volumes antes de fechar o veículo e a acomodação com proteção adequada conforme o tipo de item.",
+      "Durante o trajeto, mantém-se comunicação para ajustes práticos (ex.: mudança de rota por trânsito/obras), sem depender de tempo fixo.",
+      "Na entrega, ocorre a descarga organizada, conferência final e posicionamento dos itens no local combinado (quando contratado e viável)."
+    ],
+    "priceFactors": [
+      "Volume e peso estimados (quantidade de caixas, móveis, eletros e itens volumosos)",
+      "Tipo de veículo necessário e se haverá uso de equipamentos (carrinho, cintas, mantas, proteção para quinas)",
+      "Quantidade de ajudantes e complexidade de carga/descarga (escadas, elevador pequeno, caminhada longa até o veículo)",
+      "Distância e quantidade de paradas (coleta em um lugar e entrega em outro, ou múltiplos endereços)",
+      "Itens sensíveis ou de alto risco de avaria (vidro, pedras, equipamentos que não podem tombar)",
+      "Janelas e preferências de horário (atendimento noturno ou em horários mais restritos pode exigir ajuste de agenda)",
+      "Necessidade de desmontagem/montagem simples e embalagem reforçada",
+      "Para envios intermunicipais/interestaduais: etapas adicionais, consolidação, manuseio extra e tipo de acondicionamento"
+    ],
+    "prepChecklist": [
+      "Separe os itens por categoria (cozinha, quarto, escritório) e feche as caixas com fita resistente",
+      "Identifique caixas com conteúdo e prioridade (ex.: “abrir primeiro”, “frágil”, “não empilhar”)",
+      "Proteja vidro e superfícies delicadas com papelão, mantas ou plástico bolha (quando fizer sentido)",
+      "Desligue e esvazie eletrodomésticos com antecedência, se aplicável (ex.: remover água de reservatórios)",
+      "Deixe corredores e portas livres; prenda tapetes soltos para evitar escorregões",
+      "Guarde para você documentos e itens pessoais essenciais em uma bolsa separada",
+      "Se houver desmontagem, separe parafusos em saquinhos identificados e prenda no próprio móvel",
+      "Combine com antecedência quem autoriza entrada/saída e quem fará a conferência na entrega",
+      "Se for retirada/entrega em local com regras internas, confirme no dia anterior o procedimento e horários permitidos (pode variar)",
+      "Tenha um plano B de contato e um ponto de encontro caso o veículo não consiga parar exatamente na porta"
+    ],
+    "scenarios": [
+      "Frete de eletrodomésticos (geladeira, máquina de lavar, fogão) com proteção e amarração para evitar tombos",
+      "Transporte de móveis desmontados e caixas para mudança compacta, com ajuda para carga e descarga",
+      "Retirada em loja/depósito e entrega residencial em Salvador e Região Metropolitana, com conferência de volumes",
+      "Frete corporativo de equipamentos e materiais entre unidades, com organização por setor e inventário simples",
+      "Encomenda com integração logística usando a Rodoviária de Salvador como referência de conexão, quando fizer sentido para o seu plano",
+      "Coleta e entrega com múltiplas paradas (ex.: pegar itens em locais diferentes e entregar em um único endereço)",
+      "Frete com janela de atendimento noturna para reduzir impacto de rotina, quando houver disponibilidade",
+      "Transporte de itens frágeis (espelhos, tampos, objetos decorativos) com embalagem reforçada e manuseio cuidadoso"
+    ],
+    "faq": [
+      {
+        "q": "Vocês fazem frete só dentro de Salvador ou atendem Região Metropolitana também?",
+        "a": "Atendimentos podem ser combinados para Salvador e Região Metropolitana, conforme disponibilidade de agenda e tipo de carga. O ideal é informar o ponto de retirada e entrega e a janela de horário desejada para avaliar o melhor encaixe."
+      },
+      {
+        "q": "Dá para pedir frete urgente no mesmo dia?",
+        "a": "Pode ser possível, especialmente para volumes menores e com informação completa logo no primeiro contato. Como o deslocamento na capital varia, é mais seguro trabalhar com janela de atendimento e manter flexibilidade para ajustes."
+      },
+      {
+        "q": "Como funciona o orçamento sem visita?",
+        "a": "Geralmente dá para estimar com lista de itens, fotos e descrição do acesso (escadas, elevador, distância até o veículo). Se houver itens muito específicos ou acesso complexo, pode ser necessário alinhar mais detalhes antes de fechar."
+      },
+      {
+        "q": "Vocês levam itens frágeis como vidro e espelho?",
+        "a": "Sim, desde que o item seja informado com antecedência para prever proteção e acomodação corretas. Em alguns casos, recomenda-se embalagem reforçada e manuseio com duas pessoas para reduzir risco."
+      },
+      {
+        "q": "Precisa ter ajudante no local?",
+        "a": "Depende do volume e do acesso. Em muitos fretes, a equipe já contempla ajudantes; em outros, a sua ajuda pode agilizar (ex.: organizar caixas), mas isso é combinado antes para não gerar expectativa errada."
+      },
+      {
+        "q": "Vocês sobem escada e usam elevador?",
+        "a": "Pode ser feito, mas é importante informar quantidade de lances, tamanho do elevador e restrições do local, que podem variar. Esses pontos impactam tempo de serviço e dimensionamento de equipe."
+      },
+      {
+        "q": "Posso usar a Rodoviária de Salvador como ponto de referência para entrega/retirada?",
+        "a": "Pode, e muitas pessoas usam a região como referência logística por ser um polo de conexão e acesso. O essencial é combinar claramente o ponto de encontro e quem fará a entrega/recebimento e conferência."
+      },
+      {
+        "q": "Fazem frete para o interior da Bahia ou outros estados?",
+        "a": "Pode ser combinado conforme o tipo de carga e a estratégia de envio. Para esse tipo de serviço, é comum planejar por etapas e reforçar embalagem e identificação, já que o manuseio pode ser maior."
+      },
+      {
+        "q": "O que pode fazer o preço mudar no dia?",
+        "a": "Normalmente, divergência grande entre o que foi informado e o que aparece na coleta (mais volume, itens extras, acesso mais difícil) pode exigir ajuste. Para evitar, vale detalhar bem os itens e o caminho de carga/descarga."
+      },
+      {
+        "q": "Vocês desmontam e montam móveis?",
+        "a": "Algumas desmontagens simples podem ser combinadas, dependendo do tipo de móvel e do tempo necessário. O ideal é avisar antes e, se possível, enviar foto para avaliar ferramentas e complexidade."
+      }
+    ],
+    "types": [
+      "Frete urbano ponto a ponto (coleta em um endereço e entrega em outro)",
+      "Frete com ajudante para itens pesados e volumosos",
+      "Frete expresso com encaixe em janela próxima (conforme disponibilidade)",
+      "Frete para retirada em loja/depósito e entrega residencial",
+      "Frete corporativo entre unidades (materiais, mobiliário e equipamentos)",
+      "Frete para conexão intermunicipal/interestadual com planejamento por etapas via hub logístico"
+    ],
+    "services": [
+      "Embalagem e proteção (mantas, filme stretch, cantoneiras) conforme necessidade",
+      "Ajudantes para carga e descarga, dimensionados pelo volume e acesso",
+      "Desmontagem e remontagem simples de móveis (quando combinado previamente)",
+      "Organização e identificação de volumes (inventário simples por caixas/itens)",
+      "Coleta/entrega com múltiplas paradas planejadas",
+      "Acomodação e amarração interna da carga com cintas para reduzir deslocamento"
+    ],
+    "sectionTitles": {
+      "demands": "Frete com pressa em Salvador: como agilizar sem virar correria",
+      "coverage": "Onde o frete pode alcançar: Salvador, entorno e conexões pela rodoviária",
+      "whatToSend": "O que vale mandar no frete (e o que pede atenção extra)",
+      "availability": "Janelas de atendimento: combinando manhã, tarde ou noite na capital",
+      "whenYes": "Quando o frete flui bem por aqui",
+      "whenNo": "Quando é melhor recalcular a rota (ou a expectativa)",
+      "pricing": "Preço de frete em Salvador: o que entra na conta de verdade",
+      "commonScenarios": "Situações reais do dia a dia: do eletro ao corporativo",
+      "types": "Modelos de frete mais pedidos em Salvador",
+      "services": "Complementos que fazem diferença na coleta e na entrega",
+      "howItWorks": "Como funciona o frete em Salvador: do pedido à entrega",
+      "completeGuide": "Guia completo para planejar frete em Salvador sem improviso",
+      "preparation": "Preparação prática: como deixar tudo pronto para carregar",
+      "neighborhoods": "Atendimento por áreas: como informar a sua localização sem erro",
+      "testimonials": "Relatos de quem já precisou transportar com organização"
+    },
+    "sectionDescriptions": {
+      "demands": "Orientações objetivas para pedidos urgentes em Salvador, priorizando janela de horário, informação completa e alternativas de coleta/entrega para reduzir atritos no caminho.",
+      "coverage": "Explica como o atendimento pode ser combinado para Salvador e Região Metropolitana e como referências logísticas, como a Rodoviária de Salvador em Pernambués, ajudam em conexões intermunicipais e interestaduais.",
+      "whatToSend": "Lista o que normalmente vai bem em um frete e destaca itens que exigem proteção, amarração e comunicação prévia para evitar avarias e retrabalho na hora de carregar.",
+      "availability": "Mostra por que trabalhar com turnos (manhã/tarde/noite) costuma ser mais eficiente na capital e como alinhar presença de responsáveis, acessos e conferência sem prometer tempos fixos.",
+      "pricing": "Detalha os fatores que mais impactam o valor: volume, acessos, ajudantes, paradas e necessidades especiais, com foco em transparência para orçamento atemporal.",
+      "commonScenarios": "Reúne exemplos práticos de fretes comuns em Salvador, incluindo retiradas em loja, entregas residenciais, demandas corporativas e itens frágeis, para você se enxergar no serviço.",
+      "types": "Apresenta formatos de frete que costumam ser solicitados na cidade, variando por urgência, volume e tipo de item, para facilitar a escolha do serviço certo.",
+      "services": "Sugere serviços complementares úteis (embalagem, proteção, desmontagem simples, ajudantes) e quando vale incluir cada um para deixar o transporte mais seguro e previsível.",
+      "howItWorks": "Resume o funcionamento do atendimento em etapas, do primeiro contato à conferência final, com ênfase em comunicação e preparação para reduzir imprevistos no trânsito urbano.",
+      "completeGuide": "Um conteúdo pilar para Salvador: planejamento, cuidados com acesso, uso de referências logísticas e orientação para fretes locais e de conexão com interior/interestadual, sem informações que envelhecem rápido.",
+      "preparation": "Checklist direto do que organizar antes do veículo chegar, com dicas para proteger itens sensíveis e deixar o caminho livre, evitando atrasos por falta de prontidão.",
+      "neighborhoods": "Em vez de listar bairros, ensina como descrever sua área e pontos de referência de forma útil (avenidas, terminais, centros comerciais), facilitando o cálculo de rota e parada.",
+      "testimonials": "Espaço para depoimentos com foco no que importa em frete: pontualidade dentro da janela, cuidado com itens e clareza na combinação, sem exageros ou promessas absolutas."
+    },
+    "_approxWords": 2870
+  },
+  "mudancas": {
+    "introParagraphs": [
+      "Fazer mudança em Salvador (BA) tem um componente que pouca gente lembra: o trajeto nem sempre é o principal “desafio”; o que mais pesa é a coordenação. Em uma capital com deslocamentos variáveis, elevadores disputados, ruas com diferentes condições de acesso e janelas de carregamento que mudam conforme o endereço, o resultado melhora quando a mudança é planejada como um serviço completo — com conferência, embalagem, proteção e comunicação clara do começo ao fim.",
+      "Para organizar bem, vale usar referências simples da cidade em vez de promessas de tempo. A Rodoviária de Salvador (Terminal Rodoviário Armando Viana de Castro), em Pernambués, é um bom marco logístico: além de ser um hub de conexões para o interior da Bahia e outros estados, ela tem estação de metrô em frente e muitas linhas de ônibus, o que ajuda a explicar como acessos e fluxos urbanos influenciam coletas e entregas. A partir daí, a ideia é montar janelas de atendimento (manhã/tarde/noite) e ajustar o plano ao tipo de imóvel e ao volume de itens."
+    ],
+    "guideParagraphs": [
+      "Uma mudança bem-feita em Salvador começa pela leitura do cenário: tipo de prédio, quantidade de volumes, necessidade de desmontagem e o que realmente precisa de proteção reforçada. Em vez de tratar tudo como “caixa e caminhão”, o ideal é separar por categorias (quebráveis, eletrônicos, roupas, cozinha, itens de valor e objetos de formato difícil). Isso reduz tempo de procura na hora de descarregar e diminui risco de dano. Se você tiver flexibilidade, escolher uma janela de atendimento e confirmar detalhes no dia (acesso, estacionamento possível, regras do local) costuma trazer mais previsibilidade ao serviço.",
+      "Em capitais, a comunicação é metade do trabalho. Antes de marcar a data, combine como será o contato: quem acompanha no endereço de saída, quem recebe no destino e quem decide mudanças de rota caso apareça algum imprevisto. Também ajuda ter um “responsável pelos itens críticos” — documentos, chaves, notebooks, medicamentos e itens pessoais — para não irem no mesmo fluxo das caixas comuns. Essa pequena definição evita retrabalho e dá ritmo ao carregamento, principalmente quando a mudança envolve mais de um ponto de coleta ou entrega no mesmo dia.",
+      "O acesso ao imóvel é um dos fatores que mais altera o planejamento. Em Salvador, é comum lidar com ruas mais estreitas, garagens com limitação de altura e áreas de carga/descarga com disponibilidade variável. Por isso, é melhor descrever o local de forma prática: existe elevador? O elevador comporta volumes grandes? Há escadas longas? O caminhão chega na porta ou precisa de trecho a pé? Com essas respostas, a equipe dimensiona materiais (mantas, fitas, cantoneiras) e define se vale levar carrinhos e ferramentas específicas para desmontagem e remontagem.",
+      "Quando o assunto é proteção, a regra é simples: o que é caro para repor ou difícil de encontrar precisa de camada extra. Móveis com quinas e superfícies sensíveis (laca, vidro, madeira com acabamento delicado) devem ir com manta e cantoneira; eletrônicos ficam mais seguros quando vão em caixas bem ajustadas, com preenchimento; louças e copos pedem separação peça a peça. Em mudanças maiores, a etiquetagem por ambiente acelera muito. Não é “capricho”: é método para descarregar e distribuir sem abrir caixa por caixa.",
+      "A Rodoviária de Salvador pode ser citada como referência útil quando a mudança envolve deslocamentos mais amplos na cidade ou integração com viagens para o interior e outros estados. Não significa que o caminhão “vai para a rodoviária”, e sim que a região é um ponto conhecido de conexões e fluxo — com metrô em frente e diversas linhas de ônibus — o que ajuda a explicar por que certas rotas podem variar no dia. Para você, a vantagem é planejar uma janela de coleta e manter a equipe informada sobre o melhor ponto de encontro e acesso ao prédio, sem depender de estimativas rígidas de tempo.",
+      "Mudança residencial e mudança comercial pedem estratégias diferentes. Em residência, o objetivo é proteger itens pessoais e entregar tudo organizado por cômodo; em escritório ou loja, o foco costuma ser continuidade: desmontar estações, separar cabos, identificar caixas por setor e reduzir o tempo de parada. Se houver equipamentos sensíveis, vale combinar como serão transportados e se existe embalagem original. Já em estoque, o trabalho flui melhor quando itens são agrupados por categoria e volume, para facilitar conferência. O segredo é pensar no “depois”: como você quer encontrar as coisas ao abrir as caixas.",
+      "Para quem vai de Salvador para o interior da Bahia ou para outro estado, o planejamento muda de escala: entra em cena a proteção para viagem mais longa, a acomodação de peso no veículo e a conferência por lista. A rodoviária é um símbolo de como Salvador se conecta com muitos destinos, mas no transporte de mudança o essencial é ter inventário simples (quantidades por tipo de caixa e itens avulsos grandes), fotos de referência e instruções claras do que não deve ser empilhado. Quanto melhor a descrição do volume e do tipo de carga, mais fácil dimensionar o veículo e a equipe.",
+      "Quando existe necessidade de atender em horários alternativos (manhã, tarde ou noite), a conversa precisa ser objetiva: o que pode ser feito dentro do prédio naquele período, qual o melhor momento para subir e descer volumes, e se há restrições que podem variar conforme o condomínio ou a rua. Em Salvador, isso é especialmente útil porque a dinâmica de tráfego e de disponibilidade de parada pode mudar ao longo do dia. Em vez de prometer velocidade, um plano bem montado trabalha com janelas e com confirmação de rota no dia do serviço.",
+      "Se a sua mudança inclui itens especiais — como piano, aquário, mármore, obras de arte, equipamentos profissionais ou eletrodomésticos muito grandes — vale avisar com antecedência e detalhar medidas aproximadas. Esses volumes podem exigir mais pessoas, proteção específica e cuidado nas curvas e escadas. Também é importante falar sobre o que pode ser desconectado com segurança: geladeira, máquina de lavar e ar-condicionado, por exemplo, podem demandar procedimentos e profissionais específicos. Alinhar responsabilidades evita improviso e reduz o risco de dano por manuseio inadequado.",
+      "Um ponto que quase sempre gera custo extra é o retrabalho: caixa sem identificação, itens soltos no meio do caminho, móveis que poderiam ter sido desmontados antes, ou compras de última hora (fita, plástico, caixas). Para evitar isso, monte uma “área de triagem” no imóvel: um canto para caixas prontas, outro para itens frágeis e um terceiro para o que ainda vai ser separado. Assim, a equipe carrega em fluxo contínuo e você acompanha o progresso. No destino, a mesma lógica funciona: descarregar primeiro o que dá estrutura (camas, geladeira, mesa) e depois os detalhes.",
+      "Sobre rotas e mudanças no trânsito: Salvador passa por intervenções ao longo do tempo, e projetos públicos podem impactar acessos. Se você ouvir falar do Sistema Rodoviário Ponte Salvador–Ilha de Itaparica, trate como projeto em andamento; fontes oficiais indicam início de obras em junho de 2026 e mencionam intervenções planejadas em Salvador, com novos acessos viários conectando a região da Calçada/Água de Meninos. Para a sua mudança, a orientação prática é simples: confirme condições e rotas no dia do atendimento, porque bloqueios e desvios podem ocorrer.",
+      "A parte final da mudança é onde a organização aparece. Uma entrega bem concluída tem conferência do que entrou, posicionamento básico dos móveis nos cômodos e recolhimento de resíduos de embalagem (quando combinado). Se você etiqueta caixas por ambiente e por prioridade (por exemplo: “abrir hoje”, “cozinha”, “banheiro”), a casa começa a funcionar rápido. Também vale separar uma mala com o essencial de 24 horas: roupa, higiene, carregadores e alguns utensílios. Esse cuidado evita que a primeira noite no novo endereço vire uma caça ao tesouro dentro de caixas.",
+      "Para quem prefere uma mudança mais enxuta, dá para contratar apenas o transporte e fazer a embalagem por conta própria — mas isso exige método. Use caixas do mesmo tamanho sempre que possível, reforce o fundo com fita e não deixe “vazio” em caixas de frágeis. Itens pesados devem ir em caixas menores; itens leves, em caixas maiores. Se você quer reduzir risco, combine ao menos a proteção dos móveis e dos itens delicados com a equipe. Esse meio-termo costuma trazer um bom equilíbrio entre custo e segurança.",
+      "No fim das contas, mudança em Salvador funciona melhor quando o serviço é tratado como projeto: escopo bem definido, lista do que vai, preparo do local e comunicação. A cidade tem seus ritmos e variações, e isso não precisa virar estresse. Com janelas de atendimento realistas, descrição honesta do acesso e uma embalagem bem feita, o processo fica mais previsível — seja dentro de Salvador e Região Metropolitana, seja em trajetos mais longos para o interior/interestadual. O objetivo é simples: chegar, descarregar, montar o básico e começar a vida no novo endereço sem pendências."
+    ],
+    "howSteps": [
+      "Levantamento rápido: você informa tipo de imóvel (casa/apto), andares, presença de elevador e volume aproximado (quantidade de cômodos e móveis grandes).",
+      "Definição do escopo: transporte simples ou mudança completa (embalagem, proteção, desmontagem/montagem e organização por ambiente).",
+      "Escolha da janela: combinamos atendimento por período (manhã/tarde/noite), considerando sua rotina e a logística do endereço.",
+      "Orientação de preparo: você recebe uma lista prática do que separar antes (itens pessoais, documentos, eletrônicos sensíveis e “primeira noite”).",
+      "Dia da coleta: equipe chega com materiais combinados, protege móveis e organiza o carregamento por ordem de descarregamento.",
+      "Transporte e comunicação: o trajeto é feito com atualização conforme necessário; rotas podem ser ajustadas no dia por variações de trânsito/obras.",
+      "Entrega e posicionamento: descarregamos por ambientes, priorizando itens essenciais; conferimos volumes combinados e alinhamos pendências.",
+      "Finalização: recolhimento de materiais/embalagens conforme contratado e checklist final para garantir que nada ficou para trás."
+    ],
+    "priceFactors": [
+      "Volume total e complexidade: quantidade de móveis grandes, número de caixas e presença de itens frágeis ou especiais alteram equipe e tempo.",
+      "Acesso nos endereços: distância do caminhão até a porta, escadas, elevador pequeno, restrição de altura e necessidade de carregar a pé influenciam o esforço.",
+      "Serviços incluídos: embalagem completa, proteção com mantas, desmontagem/montagem e organização por cômodo mudam o escopo.",
+      "Janelas e datas: atendimento em períodos específicos, finais de semana ou datas muito disputadas pode exigir ajuste de agenda e equipe.",
+      "Distância e tipo de trajeto: mudança dentro de Salvador e Região Metropolitana tende a ser diferente de interior/interestadual, que pede planejamento de viagem e acomodação da carga.",
+      "Risco e cuidado: itens de alto valor ou sensíveis (vidro, eletrônicos, obras) podem demandar materiais e técnicas extras.",
+      "Necessidade de segunda viagem: quando o volume excede a capacidade do veículo ou quando há múltiplos pontos de coleta/entrega."
+    ],
+    "prepChecklist": [
+      "Separe uma bolsa do essencial (24–48h): roupas, higiene, carregadores, remédios e um kit básico de cozinha.",
+      "Deixe documentos, chaves e itens de alto valor sob sua responsabilidade, fora do fluxo de caixas comuns.",
+      "Esvazie móveis que possam abrir no caminho (gaveteiros, armários) e proteja portas com fita removível quando necessário.",
+      "Descongele a geladeira com antecedência e cuide para transportar sem água solta; em caso de dúvidas, combine o procedimento no agendamento.",
+      "Faça fotos rápidas de eletrônicos e conexões (TV, computador, roteador) para facilitar a montagem no destino.",
+      "Identifique caixas por ambiente e prioridade (ex.: “banheiro – abrir primeiro”, “cozinha – frágil”).",
+      "Avise sobre itens fora do padrão (muito pesados, muito longos ou delicados) e informe medidas aproximadas quando possível."
+    ],
+    "scenarios": [
+      "Mudança de apartamento para apartamento com elevador concorrido: planejamento de janelas e carregamento por ondas para reduzir espera.",
+      "Mudança de casa com muitos itens soltos: triagem e embalagem por categorias para evitar “caixas surpresa” no destino.",
+      "Mudança comercial pequena (sala/consultório): identificação por setor, cuidado com eletrônicos e entrega com prioridade de montagem rápida.",
+      "Mudança com coleta em dois pontos e entrega em um: conferência por lista e separação por origem para não misturar itens.",
+      "Mudança Salvador → interior/interestadual: proteção reforçada, inventário simples e acomodação de carga pensada para viagem longa.",
+      "Troca de imóvel com necessidade de desmontagem: desmontar o que trava passagem (camas, guarda-roupas) e remontar o essencial primeiro."
+    ],
+    "faq": [
+      {
+        "q": "Vocês atendem apenas Salvador ou também Região Metropolitana?",
+        "a": "Atendemos Salvador e, conforme a agenda e o tipo de mudança, também a Região Metropolitana. O ideal é informar os dois endereços (origem e destino) para avaliarmos logística e equipe."
+      },
+      {
+        "q": "Dá para agendar mudança por janela (manhã, tarde ou noite)?",
+        "a": "Sim, trabalhamos com janelas de atendimento para dar mais previsibilidade. Como o deslocamento urbano pode variar, a confirmação do melhor horário e rota é feita próximo do dia do serviço."
+      },
+      {
+        "q": "Como funciona a mudança de Salvador para o interior da Bahia ou outro estado?",
+        "a": "O foco passa a ser inventário, proteção para viagem e organização da carga no veículo. A Rodoviária de Salvador é um marco de conexão da cidade, mas o transporte da mudança é planejado diretamente pelo trajeto combinado e pelas condições de acesso nos endereços."
+      },
+      {
+        "q": "Vocês fazem desmontagem e montagem de móveis?",
+        "a": "Podemos incluir desmontagem e montagem conforme a necessidade e o tipo de móvel. Informe o que precisa ser desmontado e se há peças sensíveis (espelhos, portas de correr) para dimensionar o serviço."
+      },
+      {
+        "q": "Preciso comprar caixas e materiais antes?",
+        "a": "Você pode providenciar por conta própria ou incluir materiais no serviço, dependendo do pacote. Em geral, vale alinhar antes para evitar falta de caixa, fita ou proteção no dia."
+      },
+      {
+        "q": "Como vocês protegem itens frágeis como louças e vidros?",
+        "a": "Usamos embalagem com preenchimento, separação por peça e identificação de frágil quando contratado. Também ajudamos a orientar como preparar caixas para reduzir impacto e atrito."
+      },
+      {
+        "q": "E se no dia houver obras, desvios ou trânsito diferente do normal?",
+        "a": "Isso pode acontecer ao longo do tempo em uma capital, então trabalhamos com ajuste de rota no dia. O importante é manter um canal de contato ativo para decisões rápidas durante o deslocamento."
+      },
+      {
+        "q": "Posso levar plantas e animais na mudança?",
+        "a": "Plantas geralmente podem ser transportadas com cuidados de acomodação, mas precisam de preparação para não quebrar. Animais, por segurança e bem-estar, normalmente é melhor que vão com você, em transporte adequado."
+      },
+      {
+        "q": "Vocês fazem mudança com mais de um ponto de coleta?",
+        "a": "Sim, desde que isso seja combinado no orçamento e na programação. Para dar certo, ajuda identificar o que sai de cada endereço e etiquetar as caixas por origem."
+      },
+      {
+        "q": "Como é calculado o valor da mudança?",
+        "a": "O preço costuma considerar volume, acessos, distância, equipe, materiais e serviços extras (embalagem, desmontagem, itens especiais). Uma descrição detalhada do imóvel e dos móveis grandes deixa o orçamento mais fiel ao que será executado."
+      }
+    ],
+    "checklist": [
+      "Orçamento alinhado ao seu volume real: fazemos perguntas certas para evitar surpresas de última hora.",
+      "Planejamento por janelas (manhã/tarde/noite) e confirmação de detalhes próximos do atendimento.",
+      "Proteção de móveis e organização do carregamento para descarregar por ambiente no destino.",
+      "Comunicação durante o serviço para ajustes de rota e decisões rápidas, quando necessário.",
+      "Cuidado especial com itens frágeis e volumes fora do padrão, com orientação de preparo.",
+      "Conferência na entrega e priorização do básico (itens essenciais e móveis estruturais) quando combinado."
+    ],
+    "sectionTitles": {
+      "demands": "Mudança com prazo curto em Salvador: como encaixar sem virar correria",
+      "coverage": "De Salvador para a RMS e além: alcance pensado para a rotina da capital",
+      "whatToSend": "O que entra no caminhão (e o que vale levar com você)",
+      "availability": "Janelas de atendimento que funcionam na prática (sem depender de “tempo de trânsito”)",
+      "whenYes": "Quando a mudança em Salvador flui redonda",
+      "whenNo": "Quando é melhor ajustar o plano antes de marcar",
+      "pricing": "Preço de mudança em Salvador: o que realmente pesa no orçamento",
+      "commonScenarios": "Situações comuns em mudanças na capital — e como se preparar",
+      "types": "Tipos de mudança que atendemos em Salvador",
+      "services": "Serviços extras para deixar a mudança mais segura e organizada",
+      "howItWorks": "Como a mudança acontece em Salvador: do primeiro contato à entrega",
+      "completeGuide": "Guia completo de mudança em Salvador (BA)",
+      "preparation": "Preparação para mudança em Salvador: checklist para o dia render",
+      "neighborhoods": "Atendimento por Salvador (sem adivinhação de bairros): como confirmamos cobertura",
+      "testimonials": "Relatos de clientes: o que mais valorizam numa mudança bem feita"
+    },
+    "sectionDescriptions": {
+      "demands": "Um roteiro objetivo para mudanças em cima da hora, com escolhas inteligentes de escopo, embalagem e janelas de coleta/entrega para reduzir improviso.",
+      "coverage": "Explicamos como organizamos atendimentos em Salvador e Região Metropolitana e como planejamos mudanças de maior distância, com comunicação clara sobre logística.",
+      "whatToSend": "Uma orientação prática para separar itens essenciais, objetos de valor e volumes especiais, evitando extravios e abrindo espaço para um carregamento mais eficiente.",
+      "availability": "Como combinamos períodos de atendimento e por que preferimos janelas realistas em vez de promessas rígidas, especialmente em uma cidade de ritmo variável.",
+      "pricing": "Transparência sobre fatores que influenciam custo: acesso, volume, serviços adicionais, distância e necessidade de materiais — sem fórmulas confusas.",
+      "commonScenarios": "Exemplos de situações recorrentes em Salvador e como adaptar equipe, materiais e ordem de carga para cada uma delas.",
+      "types": "Uma visão direta dos formatos de mudança (residencial, comercial, local e de longa distância) e do que muda no planejamento em cada caso.",
+      "services": "Complementos que fazem diferença no resultado: embalagem, proteção, desmontagem, organização e cuidados com itens fora do padrão.",
+      "howItWorks": "Etapas claras do serviço, do orçamento à finalização, para você saber exatamente o que acontece antes, durante e depois da mudança.",
+      "completeGuide": "Conteúdo pilar para quem quer entender o processo inteiro e tomar boas decisões: preparação, acesso, proteção, logística e entrega organizada.",
+      "preparation": "Checklist enxuto e aplicável para reduzir retrabalho e acelerar o descarregamento, com foco no que mais atrasa uma mudança.",
+      "neighborhoods": "Em vez de listar bairros sem base, mostramos como você confirma se atendemos seu endereço e quais detalhes ajudam a planejar a coleta.",
+      "testimonials": "Um retrato do que costuma aparecer em avaliações reais: pontualidade dentro de janelas, cuidado com móveis e comunicação durante o trajeto."
+    },
+    "_approxWords": 2878
+  },
+  "urgente": {
+    "introParagraphs": [
+      "Precisou de frete urgente em Salvador (BA) e não dá para esperar “até amanhã”? Em uma capital com deslocamentos variáveis, o que costuma destravar a entrega é organização: confirmar janela de coleta, alinhar acesso para carga e escolher o veículo certo. Aqui, a proposta é facilitar sua vida com um guia prático e atemporal — sem prometer tempo fixo — para você conseguir tirar a encomenda do lugar e colocar no destino com previsibilidade.",
+      "Salvador tem pontos de referência que ajudam muito na logística, e a Rodoviária de Salvador (Terminal Rodoviário Armando Viana de Castro), em Pernambués, é um deles: é um hub de conexão com metrô em frente e muitas linhas de ônibus. Na prática, isso influencia rotas de coleta/entrega e também a integração com envios para o interior da Bahia e outros estados. Abaixo, você encontra como planejar um frete urgente na cidade, o que informar no primeiro contato e quando vale considerar alternativas."
+    ],
+    "guideParagraphs": [
+      "Fretar com urgência em Salvador costuma ser menos sobre “correr” e mais sobre reduzir incerteza. Quando você descreve com clareza o que vai e o que não vai no frete — volume, peso aproximado, fragilidade e se precisa de ajudante — a chance de retrabalho cai bastante. Em atendimentos urgentes, pequenos detalhes viram diferença grande: um item que não cabe no elevador, a necessidade de proteção extra, ou a rua com restrição de parada em certos horários. A meta é fechar um plano simples, mas completo, antes do veículo sair.",
+      "Como Salvador é uma capital com variação de trânsito ao longo do dia, faz sentido organizar o atendimento por janelas (manhã, tarde, noite) em vez de exigir um horário rígido. Essa abordagem costuma funcionar bem porque permite adaptar rota e ordem de coletas sem travar o serviço. Se você tem um compromisso inadiável, o melhor é comunicar qual é o “último horário aceitável” para entrega, em vez de pedir um prazo fechado de minutos. Assim, dá para dimensionar equipe, veículo e estratégia de carga.",
+      "Um ponto que ajuda a explicar a dinâmica de deslocamento é a Rodoviária de Salvador (Terminal Rodoviário Armando Viana de Castro), em Pernambués. Por ser um grande conector de viagens e estar em uma área com acesso por metrô e ônibus, ela costuma servir como referência logística para combinar encontros, orientar motoristas e calcular margens de deslocamento urbano. Mesmo que seu frete não envolva a rodoviária, usar marcos reconhecíveis na conversa (em vez de “perto de tal lugar”) reduz erros de localização e acelera a coleta.",
+      "Para frete urgente, o veículo certo é metade do caminho. Um carro pequeno resolve caixa e mala, mas pode virar problema quando há móveis desmontados, eletrodomésticos ou peças longas. Já uma van ou caminhonete pode resolver volume com mais folga, mas precisa de local adequado para parar e carregar. A forma mais segura de escolher é listar itens e, quando possível, enviar medidas (altura, largura e comprimento) do maior volume. Isso evita o pior cenário da urgência: chegar e descobrir que não cabe.",
+      "A urgência também expõe um ponto sensível: embalagem. Em Salvador, como em qualquer cidade grande, o trajeto pode envolver paradas, desvios e pavimentos diferentes — e isso pede proteção mínima. Para caixas, fita e identificação do lado “frágil” ajudam. Para eletrônicos, uma camada extra (plástico bolha ou manta) reduz risco de impacto. Para móveis, cantoneiras e mantas evitam arranhões. Se não dá tempo de embalar tudo, priorize o que quebra, o que risca e o que tem quinas expostas.",
+      "Quando a entrega é “para ontem”, a comunicação precisa ser objetiva. No primeiro contato, já vale alinhar: endereço de coleta e destino (com referência), tipo de prédio (casa/condomínio/comercial), andar, se tem elevador de carga (pode variar), e se existe um ponto de apoio para descarregar. Também é importante avisar se o item exige duas pessoas para manuseio. Em urgência, esse tipo de informação reduz surpresas e evita atraso por falta de equipamento simples, como carrinho ou cinta.",
+      "Em rotas dentro de Salvador e Região Metropolitana, o que mais muda o jogo é a sequência das paradas. Se você tem coleta em um local e entrega em outro, tente garantir que tudo esteja pronto para carregar quando o veículo chegar. Atraso de 15 minutos no ponto A vira atraso em cascata no ponto B, especialmente se houver restrição de parada ou necessidade de autorização de entrada. Para quem tem janelas curtas, a dica é separar volumes por cômodo e deixar um corredor livre para a passagem.",
+      "Se o seu frete tem ligação intermunicipal ou interestadual, a rodoviária entra como referência de hub: Salvador concentra saídas para o interior da Bahia e outros estados, e isso influencia disponibilidade de rotas, horários e pontos de encontro. Mesmo quando o transporte é rodoviário por outras modalidades, usar a lógica de “hub” ajuda a planejar: reservar uma margem para deslocamento até o ponto de embarque, checar documentação mínima do volume e deixar claro quem recebe. Em urgência, a prioridade é reduzir etapas e transferências.",
+      "Alguns serviços urgentes exigem mais do que transportar: exigem solução. Exemplo comum é quando a pessoa precisa liberar imóvel, devolver equipamento ou buscar compra de última hora. Nesses casos, faz diferença ter clareza de responsabilidades: quem desmonta, quem embala, quem acompanha a carga e quem confere na entrega. Se você não pode acompanhar, combine previamente como será o registro (foto na coleta e foto no destino, por exemplo). Isso reduz ruído e dá segurança sem burocratizar o processo.",
+      "Sobre rotas e obras, o mais prudente é planejar com flexibilidade. Salvador pode ter mudanças de tráfego ao longo do tempo por intervenções viárias, eventos e obras, então vale confirmar a melhor rota no dia do serviço. Há ainda o projeto oficial do Sistema Rodoviário Ponte Salvador–Ilha de Itaparica, com componentes como ponte e acessos; fontes governamentais indicam início das obras em junho de 2026, com intervenções planejadas de acessos na região da Calçada/Água de Meninos (viadutos e túneis). Isso não é motivo para alarmar, mas para manter o hábito de checar o caminho.",
+      "Para frete urgente com itens de maior valor (financeiro ou afetivo), a recomendação é simples: inventário rápido. Uma lista no celular com quantidades e descrição já ajuda muito. Se houver peças pequenas (parafusos, suportes, cabos), guarde em saco identificado e prenda no próprio item. Para volumes frágeis, marque “este lado para cima” e combine o posicionamento no veículo. Em urgência, essa organização evita extravio de acessórios e reduz a chance de dano por empilhamento errado.",
+      "O acesso ao local é outro ponto que costuma decidir se o atendimento flui. Portarias, docas, vagas de carga e descarga e regras internas podem variar bastante entre prédios. Se possível, avise a administração/recepção com antecedência e confirme se há alguma orientação específica para entrada de prestador. Quando isso não é viável, pelo menos tenha um plano B: alguém para descer, liberar passagem e indicar onde parar. Em Salvador, como em outras capitais, a diferença entre “parar fácil” e “dar voltas” pesa muito no resultado.",
+      "Frete urgente também pode ser “express” com múltiplas paradas: buscar em um local, entregar em outro e ainda passar para retirar um item adicional. Isso é possível, mas precisa ser combinado de forma transparente, porque cada parada adiciona tempo e manuseio. Para funcionar, organize uma ordem lógica e informe quais itens vão para cada destino. Uma dica prática é etiquetar com letras (A, B, C) e usar a mesma letra no endereço correspondente. Assim, o motorista não precisa adivinhar o que vai para onde.",
+      "No fim, um frete urgente bem-feito em Salvador depende de três pilares: informação correta, preparo mínimo e flexibilidade de janela. Você não precisa “saber logística” para ter um bom resultado; basta comunicar o essencial e evitar surpresas. Se você está sob pressão, use este conteúdo como checklist: descreva a carga, valide acesso, defina janela, confirme quem recebe e como será a conferência. Esse roteiro costuma transformar uma urgência estressante em um serviço objetivo e controlável."
+    ],
+    "howSteps": [
+      "Defina o que é “urgente” para você: última hora aceitável de coleta/entrega e se há compromisso inadiável no destino.",
+      "Liste os itens e destaque o maior volume (medidas aproximadas) e o mais frágil; se der, separe por caixas/volumes numerados.",
+      "Informe os pontos de coleta e entrega com referências claras (marcos conhecidos ajudam mais do que descrições vagas).",
+      "Alinhe condições de acesso: casa/prédio/comercial, andar, elevador (se houver), possibilidade de parar próximo e necessidade de autorização.",
+      "Escolha o formato de serviço: só motorista, motorista + ajudante(s), ou equipe com materiais de proteção (manta, plástico bolha, cinta).",
+      "Combine a janela de atendimento (manhã/tarde/noite) e um canal de contato para atualizações de rota no dia do frete.",
+      "Prepare a carga antes do veículo chegar: caixas fechadas, móveis minimamente protegidos, caminho livre e itens pequenos em saco identificado.",
+      "Na coleta e na entrega, faça conferência rápida por volumes (e, se necessário, registre com foto para evitar dúvidas).",
+      "Finalize com descarte de embalagens e reorganização básica do ambiente, se isso fizer parte do combinado."
+    ],
+    "priceFactors": [
+      "Distância e complexidade da rota (incluindo necessidade de desvios e número de paradas).",
+      "Volume total, peso aproximado e presença de itens fora do padrão (muito longos, muito pesados ou frágeis).",
+      "Tipo de veículo necessário (carro, utilitário, van, caminhonete, caminhão leve).",
+      "Quantidade de ajudantes e tempo de manuseio (subir/descer escadas, desmontagem simples, organização de carga).",
+      "Condições de acesso para carregar e descarregar (local para parar, doca, elevador, distância até o veículo).",
+      "Materiais e cuidados extras (manta, plástico bolha, cantoneiras, cintas, proteção reforçada).",
+      "Janela e urgência do atendimento (encaixe na agenda, atendimento noturno ou em horários menos comuns pode alterar disponibilidade).",
+      "Seguro/declaração de valor quando aplicável e exigências de conferência/registro no ato."
+    ],
+    "prepChecklist": [
+      "Separar o que vai no frete e o que não vai (evita embarcar item errado na correria).",
+      "Fechar caixas com fita e identificar: frágil, lado correto, destino (se houver mais de um).",
+      "Proteger quinas e superfícies sensíveis com manta ou papelão, principalmente em móveis e eletros.",
+      "Guardar parafusos e peças pequenas em sacos etiquetados e presos ao item correspondente.",
+      "Deixar o caminho livre: corredor, porta, elevador e área próxima ao ponto de carga (quando possível).",
+      "Confirmar quem autoriza a entrada/saída no local e quem vai receber no destino (nome e horário combinado).",
+      "Separar itens de alto valor ou documentos para levar com você (reduz risco e ansiedade).",
+      "Ter uma lista rápida de volumes para conferência na coleta e na entrega.",
+      "Se houver mais de uma parada, etiquetar volumes por destino (A/B/C) e manter a mesma ordem na lista.",
+      "Verificar no dia se há alguma orientação de rota ou acesso que possa mudar o caminho (obras e eventos podem alterar o tráfego)."
+    ],
+    "scenarios": [
+      "Retirada de compra grande (móvel/eletro) que precisa sair da loja no mesmo dia e chegar em casa sem danos.",
+      "Entrega expressa de caixas para escritório/comércio que não pode ficar sem material ou equipamento.",
+      "Transporte urgente entre dois endereços por mudança de última hora (parte da casa, não necessariamente tudo).",
+      "Coleta rápida de itens para envio intermunicipal/interestadual, usando Salvador como ponto de conexão logística.",
+      "Busca e entrega de encomenda com horário de recebimento limitado, exigindo alinhamento de janela e conferência.",
+      "Troca emergencial de equipamentos (TI, som, ferramentas) para não parar operação ou evento.",
+      "Desocupação acelerada: tirar móveis e pertences com equipe enxuta e foco em agilidade.",
+      "Entrega com múltiplas paradas (retira em um lugar, entrega em outro e passa para pegar um item adicional)."
+    ],
+    "faq": [
+      {
+        "q": "Faz sentido pedir frete urgente em Salvador sem saber o horário exato?",
+        "a": "Sim. Em uma capital, trabalhar com janela (manhã/tarde/noite) costuma ser mais realista do que um minuto exato. O importante é você informar o “limite máximo” para a entrega e qualquer compromisso inadiável, para dimensionar o atendimento."
+      },
+      {
+        "q": "O que preciso informar para o orçamento sair rápido?",
+        "a": "Endereços de coleta e entrega, tipo de local (casa/prédio/comercial), itens e volume aproximado, e se precisa de ajudante. Medidas do maior item e fotos ajudam bastante a evitar erro de veículo."
+      },
+      {
+        "q": "Dá para fazer frete urgente com mais de uma parada?",
+        "a": "Dá, desde que as paradas sejam combinadas antes. Cada parada adiciona manuseio e pode mudar o planejamento de rota, então é essencial etiquetar volumes por destino e alinhar a ordem."
+      },
+      {
+        "q": "Como evitar que o frete atrase por causa de acesso ao prédio?",
+        "a": "Se possível, avise portaria/recepção e confirme orientações de entrada, que podem variar. No mínimo, deixe alguém pronto para liberar acesso e indique um ponto viável para carga e descarga."
+      },
+      {
+        "q": "Preciso embalar tudo para um frete urgente?",
+        "a": "O ideal é proteger ao menos o que é frágil, risca fácil ou tem quinas expostas. Se o tempo estiver curto, priorize eletrônicos, vidro, itens com acabamento e peças pequenas que podem se perder."
+      },
+      {
+        "q": "Como funciona quando o frete precisa seguir para o interior ou outro estado?",
+        "a": "Muita gente usa Salvador como ponto de conexão, e a Rodoviária de Salvador é um hub importante para viagens. O essencial é alinhar ponto de entrega/embarque, responsável pelo recebimento e conferência por volumes."
+      },
+      {
+        "q": "Posso acompanhar o frete à distância?",
+        "a": "Pode, combinando um protocolo simples: fotos na coleta e na entrega e confirmação por mensagem. Para itens sensíveis, vale também uma lista de volumes para conferência rápida no destino."
+      },
+      {
+        "q": "Quais itens costumam exigir dois ajudantes?",
+        "a": "Eletrodomésticos grandes, móveis pesados e volumes sem “pega” fácil tendem a precisar de mais gente. Informar isso antes evita improviso e reduz risco de dano ou lesão."
+      },
+      {
+        "q": "O trânsito e obras podem mudar a rota do frete?",
+        "a": "Sim, pode haver alterações ao longo do tempo por obras, eventos e intervenções viárias. O mais seguro é confirmar a rota no dia do serviço e manter flexibilidade de janela."
+      },
+      {
+        "q": "O que pode encarecer um frete urgente?",
+        "a": "Além da distância, costumam pesar: necessidade de ajudantes, acesso difícil, muitos andares/escadas, espera para liberar entrada e materiais de proteção. Urgência para encaixe também pode afetar disponibilidade e preço."
+      }
+    ],
+    "demands": [
+      "Coleta imediata de compra (móvel/eletro) com necessidade de proteção para não riscar no transporte.",
+      "Entrega expressa de caixas e materiais para empresa que precisa reabastecer no mesmo dia.",
+      "Retirada e entrega de item pesado com pedido de ajudante(s) para escadas ou manobra em espaço curto.",
+      "Frete urgente com horário limite de recebimento no destino, exigindo alinhamento de janela e confirmação de quem recebe.",
+      "Transporte rápido de itens para embarque/transferência em conexão rodoviária, com conferência por volumes."
+    ],
+    "whenYes": [
+      "Quando os itens já estão separados e fechados em caixas/volumes antes da chegada do veículo.",
+      "Quando você passa medidas do maior item e fotos do que é mais delicado (reduz erro de veículo e de proteção).",
+      "Quando existe alguém para liberar entrada/saída e orientar onde parar para carregar e descarregar.",
+      "Quando a janela é flexível (manhã/tarde/noite) e você informa o horário limite real para concluir a entrega.",
+      "Quando o destino está pronto para receber e conferir rapidamente, sem longa espera para autorização."
+    ],
+    "whenNo": [
+      "Quando a lista de itens muda na hora (entra “só mais isso”), alterando volume e exigindo outro veículo.",
+      "Quando o acesso depende de autorização e ninguém consegue liberar no momento da coleta/entrega.",
+      "Quando há itens muito frágeis sem nenhuma proteção e sem tempo para providenciar embalagem mínima.",
+      "Quando o ponto de carga/descarga é incerto e não há referência clara, gerando perda de tempo com localização.",
+      "Quando existem múltiplas paradas, mas os volumes não estão separados por destino, aumentando risco de troca."
+    ],
+    "common": [
+      "Entrega rápida de eletrodoméstico comprado no mesmo dia, com subida por elevador comum (quando disponível) e proteção de quinas.",
+      "Transporte de caixas de mudança parcial (1 cômodo) para liberar o imóvel com urgência.",
+      "Coleta em loja/depósito e entrega em residência, com necessidade de aguardar emissão/retirada do produto.",
+      "Frete para empresa com recebimento em janela curta e conferência por volume na portaria/recepção (regras podem variar).",
+      "Remanejamento de mobiliário entre dois endereços, incluindo desmontagem simples combinada previamente.",
+      "Entrega expressa de equipamentos de trabalho (TI/ferramentas) para não interromper operação.",
+      "Frete com duas entregas em sequência, com volumes etiquetados por destino para evitar troca.",
+      "Coleta organizada para seguir em conexão intermunicipal/interestadual, usando Salvador como ponto de passagem logística."
+    ],
+    "sectionTitles": {
+      "demands": "Chamados de última hora em Salvador: o que mais aparece no dia a dia",
+      "coverage": "De Salvador para a RMS e além: até onde o frete pode alcançar",
+      "whatToSend": "O que vale mandar no urgente (e o que pede mais cautela)",
+      "availability": "Janelas de atendimento que funcionam na prática na capital",
+      "whenYes": "Quando o urgente costuma fluir sem susto",
+      "whenNo": "Quando a urgência vira risco (e como contornar)",
+      "pricing": "Preço do frete urgente: como o valor se forma sem adivinhação",
+      "commonScenarios": "Situações reais que levam a pedir frete express",
+      "types": "Modelos de frete para diferentes tamanhos de carga",
+      "services": "Complementos que salvam o dia: do ajudante à proteção",
+      "howItWorks": "Do pedido à entrega: o passo a passo do express",
+      "completeGuide": "Guia completo do frete urgente em Salvador (BA)",
+      "preparation": "Preparação rápida: 30–60 minutos que reduzem dor de cabeça",
+      "neighborhoods": "Atendimento por Salvador e Região Metropolitana (sem limitar por zona)",
+      "testimonials": "Relatos do que as pessoas valorizam em um frete urgente"
+    },
+    "sectionDescriptions": {
+      "demands": "Uma visão objetiva das urgências mais comuns na cidade, com foco no que precisa ser informado para o atendimento encaixar sem retrabalho.",
+      "coverage": "Como pensar cobertura em uma capital: deslocamentos variáveis dentro de Salvador, integração com a Região Metropolitana e conexões para interior/interestadual com referência logística.",
+      "whatToSend": "Orientação para escolher o que enviar no mesmo dia, incluindo itens frágeis, volumosos e aqueles que exigem cuidados extras ou conferência mais rígida.",
+      "availability": "Explicação clara de por que janelas (manhã/tarde/noite) costumam ser mais eficientes do que horários engessados em atendimentos urgentes.",
+      "pricing": "Transparência sobre os fatores que influenciam orçamento e como evitar surpresas por falta de informação sobre carga, acesso e equipe.",
+      "commonScenarios": "Exemplos práticos de pedidos express que aparecem em Salvador, para você se identificar e ajustar o planejamento do seu caso.",
+      "types": "Um mapa de opções de transporte e capacidade, ajudando a evitar o erro clássico do urgente: escolher veículo pequeno demais (ou grande sem necessidade).",
+      "services": "Lista do que pode ser agregado ao frete para aumentar segurança e agilidade, especialmente quando não dá tempo de organizar tudo sozinho.",
+      "howItWorks": "Um roteiro direto do início ao fim, com pontos de decisão que aceleram a coleta e reduzem risco de reentrega ou dano.",
+      "completeGuide": "Conteúdo pilar, escrito para ser consultado em momentos de pressa: planejamento, referências logísticas (como a rodoviária) e boas práticas de conferência.",
+      "preparation": "Checklist enxuto para preparar itens e acesso, priorizando ações que mais impactam o resultado quando o relógio está contra você.",
+      "neighborhoods": "Cobertura apresentada de forma segura e atemporal, falando por áreas e pela dinâmica urbana, sem prometer alcance por bairro específico.",
+      "testimonials": "O que normalmente é elogiado em serviços urgentes: clareza, cuidado no manuseio, comunicação e previsibilidade dentro do possível."
+    },
+    "_approxWords": 3052
+  }
+}
