@@ -18376,5 +18376,329 @@
     "type": "urgente",
     "ts": 1770768719086,
     "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_01",
+    "text": "Pedi um frete em São José do Rio Preto e foi bem tranquilo. Chegou no horário combinado e cuidaram bem das caixas.",
+    "author": "Mariana",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_02",
+    "text": "Atendimento rápido no WhatsApp e preço justo. O frete em Rio Preto resolveu minha mudança pequena sem dor de cabeça.",
+    "author": "Carlos",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_03",
+    "text": "Precisava levar um móvel e deu tudo certo. Vieram com cuidado e prenderam bem pra não bater no caminho.",
+    "author": "Fernanda",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_04",
+    "text": "Combinei o horário e cumpriram direitinho. O motorista foi educado e ajudou na organização da carga.",
+    "author": "Rafael",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_05",
+    "text": "Frete bem organizado e sem enrolação. Gostei que avisaram quando estavam chegando.",
+    "author": "Aline",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_06",
+    "text": "Usei pra transportar compras grandes e foi ótimo. Carregaram com atenção e entregaram tudo certinho.",
+    "author": "Bruno",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_07",
+    "text": "O orçamento foi claro e sem surpresas. Em São José do Rio Preto foi o frete mais prático que já contratei.",
+    "author": "Juliana",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_08",
+    "text": "Tinha medo de arranhar a geladeira, mas foram bem cuidadosos. Chegou inteira e no tempo combinado.",
+    "author": "Patrícia",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_09",
+    "text": "Serviço simples e eficiente. Responderam rápido e o frete saiu no mesmo dia que pedi.",
+    "author": "Diego",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_10",
+    "text": "Precisava de frete pra levar coisas do escritório e deu tudo certo. Foram pontuais e bem profissionais no manuseio.",
+    "author": "Camila",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_11",
+    "text": "Gostei da atenção desde o primeiro contato. O frete em Rio Preto foi ágil e bem combinado.",
+    "author": "Thiago",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_fretes_12",
+    "text": "Tive uma alteração de horário e eles foram flexíveis. No fim, entregaram tudo direitinho e sem bagunça.",
+    "author": "Larissa",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "fretes",
+    "ts": 1770769712664,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_01",
+    "text": "Minha mudança foi bem organizada, chegaram no horário e embalaram tudo com cuidado. No fim, nada quebrou e ficou tudo certinho.",
+    "author": "Camila",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_02",
+    "text": "Gostei da atenção desde o primeiro contato. Tiraram minhas dúvidas e a mudança aconteceu sem correria.",
+    "author": "Rafael",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_03",
+    "text": "Equipe educada e cuidadosa com os móveis. A desmontagem e montagem foram tranquilas e sem dor de cabeça.",
+    "author": "Juliana",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_04",
+    "text": "Preço justo e combinado cumprido. O caminhão veio do tamanho certo e coube tudo sem aperto.",
+    "author": "Fernando",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_05",
+    "text": "Eu estava com medo por causa da geladeira e da TV, mas eles protegeram bem e chegou tudo inteiro. Recomendo pelo capricho.",
+    "author": "Aline",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_06",
+    "text": "Respondeu rápido no orçamento e foi bem claro no que estava incluso. No dia, fizeram tudo com calma e cuidado.",
+    "author": "Bruno",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_07",
+    "text": "Mudança de apartamento com escadas e mesmo assim foi bem tranquilo. Não arranharam paredes nem os móveis.",
+    "author": "Patricia",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_08",
+    "text": "Pontuais e organizados, dá pra ver que têm experiência. A equipe foi bem respeitosa com minha casa.",
+    "author": "Diego",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_09",
+    "text": "Fizeram a mudança da minha mãe e trataram tudo com muita paciência. Foi um alívio ver que deu tudo certo.",
+    "author": "Mariana",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_10",
+    "text": "Gostei que avisaram quando estavam a caminho e mantiveram tudo alinhado. Entrega rápida e sem estresse.",
+    "author": "Lucas",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_11",
+    "text": "Tinha muita caixa e alguns móveis pesados, e eles deram conta sem bagunça. No final, deixaram tudo no lugar combinado.",
+    "author": "Renata",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_mudancas_12",
+    "text": "Serviço honesto e bem feito. Deram boas sugestões pra proteger os itens mais frágeis e funcionou.",
+    "author": "Gustavo",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "mudancas",
+    "ts": 1770769724539,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a coleta foi bem no horário combinado.",
+    "author": "Mariana",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_02",
+    "text": "Atendimento direto e sem enrolação. A entrega chegou bem antes do que eu imaginava.",
+    "author": "Carlos",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_03",
+    "text": "Tava com pressa e eles resolveram na hora. Comunicaram cada etapa e isso ajudou muito.",
+    "author": "Fernanda",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_04",
+    "text": "Frete urgente bem organizado, do pedido até a entrega. Motorista educado e cuidadoso com as caixas.",
+    "author": "Rafael",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_05",
+    "text": "Consegui encaixar uma coleta de última hora. Foi tudo bem combinado e o prazo foi cumprido.",
+    "author": "Aline",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_06",
+    "text": "Achei que não ia dar tempo, mas foi tranquilo. Chegou rápido e sem dor de cabeça.",
+    "author": "Bruno",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_07",
+    "text": "Precisava mandar um volume com urgência e me atenderam super rápido. Preço justo pelo corre que fizeram.",
+    "author": "Camila",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_08",
+    "text": "Gostei da agilidade e da atenção no WhatsApp. A entrega foi certinha e sem avarias.",
+    "author": "Diego",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_09",
+    "text": "Serviço de frete urgente bem prático. Pegaram e entregaram no mesmo dia, do jeito que eu precisava.",
+    "author": "Juliana",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_10",
+    "text": "Resolveram um imprevisto de entrega em cima da hora. Foram transparentes e bem profissionais.",
+    "author": "Pedro",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_11",
+    "text": "Equipe rápida e prestativa. Me passou segurança porque confirmaram tudo antes de sair.",
+    "author": "Larissa",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-do-rio-preto_urgente_12",
+    "text": "Usei pra uma entrega urgente do trabalho e funcionou bem. Chegou no prazo combinado e com cuidado.",
+    "author": "Gustavo",
+    "citySlug": "sao-jose-do-rio-preto",
+    "type": "urgente",
+    "ts": 1770769733776,
+    "source": "cliente"
   }
 ]
