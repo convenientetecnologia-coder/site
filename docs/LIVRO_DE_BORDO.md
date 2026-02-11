@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Taubaté (SP)** — publicado em 2026-02-11
+  - `/fretes-em-taubate/` (~2998 palavras)
+  - `/mudancas-em-taubate/` (~2900 palavras)
+  - `/frete-urgente-em-taubate/` (~3207 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `c9fd40a`
+
 - **Sorocaba (SP)** — publicado em 2026-02-11
   - `/fretes-em-sorocaba/` (~3022 palavras)
   - `/mudancas-em-sorocaba/` (~2941 palavras)

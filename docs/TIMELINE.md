@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] Taubaté (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Taubaté com sistema 100% GPT:
+  - `/fretes-em-taubate/` (~2998 palavras)
+  - `/mudancas-em-taubate/` (~2900 palavras)
+  - `/frete-urgente-em-taubate/` (~3207 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (7 títulos duplicados + correção de encoding “Taubaté”)
+- **Por quê**: expandir cobertura orgânica no Vale do Paraíba (SP) seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `c9fd40a` (repo `site`)
+  - `src/_data/city_content/taubate.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (taubate habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `taubate` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] Sorocaba (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Sorocaba com sistema 100% GPT:
