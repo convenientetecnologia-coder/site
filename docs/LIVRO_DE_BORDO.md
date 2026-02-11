@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Santos (SP)** — publicado em 2026-02-10
+  - `/fretes-em-santos/` (~3015 palavras)
+  - `/mudancas-em-santos/` (~2875 palavras)
+  - `/frete-urgente-em-santos/` (~3146 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 31 bairros divididos em 3 blocos (10/10/11)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `544d8ca`
+
 - **Santa Maria (RS)** — publicado em 2026-02-10
   - `/fretes-em-santa-maria/` (~3016 palavras)
   - `/mudancas-em-santa-maria/` (~2858 palavras)
