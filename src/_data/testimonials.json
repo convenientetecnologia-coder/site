@@ -19672,5 +19672,329 @@
     "type": "urgente",
     "ts": 1770772135183,
     "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. O motorista foi cuidadoso com os móveis e a comunicação foi bem tranquila.",
+    "author": "Camila",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_02",
+    "text": "Precisei levar umas caixas de última hora e me atenderam rápido. Preço justo e sem complicação.",
+    "author": "Bruno",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_03",
+    "text": "Fiz o frete para mudança pequena e deu tudo certo. Vieram preparados e ajudaram a organizar a carga.",
+    "author": "Fernanda",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_04",
+    "text": "Atendimento bem claro desde o começo, sem surpresas. Entrega feita direitinho e com cuidado.",
+    "author": "Diego",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_05",
+    "text": "Gostei porque foram pontuais e educados. Minhas coisas chegaram intactas e bem acomodadas no veículo.",
+    "author": "Juliana",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_06",
+    "text": "Solicitei o frete para levar um eletrodoméstico e foi bem prático. Responderam rápido e combinaram tudo pelo chat.",
+    "author": "Marcos",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_07",
+    "text": "O frete foi tranquilo do início ao fim. Cuidaram para não riscar nada e avisaram quando estavam chegando.",
+    "author": "Patricia",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_08",
+    "text": "Tive uma experiência boa: pontualidade e atenção na hora de carregar. Recomendo para quem precisa de frete na cidade.",
+    "author": "Renato",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_09",
+    "text": "Fizeram a coleta no horário combinado e entregaram sem demora. Achei o serviço bem organizado.",
+    "author": "Leticia",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_10",
+    "text": "Usei para transportar materiais e deu certo. Motorista paciente e cuidadoso para amarrar tudo direitinho.",
+    "author": "Gustavo",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_11",
+    "text": "A comunicação foi fácil e passaram confiança. O frete saiu como combinado e sem estresse.",
+    "author": "Aline",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_fretes_12",
+    "text": "Precisava de um frete simples e resolveram rápido. Chegou tudo certinho e com bom custo-benefício.",
+    "author": "Thiago",
+    "citySlug": "sorocaba",
+    "type": "fretes",
+    "ts": 1770773558327,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_01",
+    "text": "Minha mudança em Sorocaba foi bem organizada, chegaram no horário e cuidaram dos móveis com atenção.",
+    "author": "Mariana",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_02",
+    "text": "Gostei da comunicação desde o começo. Tiraram minhas dúvidas e a mudança aconteceu sem correria.",
+    "author": "Bruno",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_03",
+    "text": "Equipe educada e cuidadosa. Embalaram tudo direitinho e nada chegou danificado.",
+    "author": "Camila",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_04",
+    "text": "Preço justo e serviço bem feito. O combinado foi cumprido do início ao fim.",
+    "author": "Rafael",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_05",
+    "text": "Eu estava preocupada com a desmontagem, mas fizeram rápido e montaram tudo certinho no destino.",
+    "author": "Patricia",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_06",
+    "text": "Mudança tranquila em Sorocaba. Foram ágeis, mas sem pressa que estraga as coisas.",
+    "author": "Diego",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_07",
+    "text": "Atendimento bem humano. Ajustaram o horário comigo e deu tudo certo no dia.",
+    "author": "Fernanda",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_08",
+    "text": "Capricho no transporte e na proteção dos eletros. Chegou tudo como saiu.",
+    "author": "Lucas",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_09",
+    "text": "Tinha bastante caixa e alguns móveis pesados, e mesmo assim foi bem rápido e organizado.",
+    "author": "Juliana",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_10",
+    "text": "Responderam rápido no orçamento e foram transparentes sobre o que estava incluso. Recomendo.",
+    "author": "Gustavo",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_11",
+    "text": "Pontuais e cuidadosos com paredes e elevador. Isso fez diferença no condomínio.",
+    "author": "Aline",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_mudancas_12",
+    "text": "Serviço sem dor de cabeça. Chegaram, embalaram, carregaram e entregaram tudo certinho.",
+    "author": "Renato",
+    "citySlug": "sorocaba",
+    "type": "mudancas",
+    "ts": 1770773566591,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_01",
+    "text": "Precisava de um frete urgente e deu tudo certo. Responderam rápido e a coleta foi bem ágil.",
+    "author": "Camila",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_02",
+    "text": "Entrega urgente em Sorocaba sem dor de cabeça. Chegou no prazo combinado e com cuidado.",
+    "author": "Rafael",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_03",
+    "text": "Chamamos em cima da hora e mesmo assim atenderam. Comunicação simples e direta.",
+    "author": "Juliana",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_04",
+    "text": "Foi bem mais rápido do que eu esperava. O motorista foi educado e resolveu tudo na hora.",
+    "author": "Marcos",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_05",
+    "text": "Tinha um compromisso e precisava que chegasse ainda hoje. Conseguiram encaixar e deu certo.",
+    "author": "Fernanda",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_06",
+    "text": "Gostei porque passaram o valor certinho antes e não teve surpresa. Frete urgente bem organizado.",
+    "author": "Diego",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_07",
+    "text": "Atendimento rápido no Whats e já acertamos tudo. A entrega foi tranquila e sem atraso.",
+    "author": "Aline",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_08",
+    "text": "Era um item frágil e eu estava preocupado. Chegou inteiro e dentro do combinado.",
+    "author": "Bruno",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_09",
+    "text": "Precisava retirar e entregar no mesmo dia. Resolveram com agilidade e foram bem cuidadosos.",
+    "author": "Patricia",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_10",
+    "text": "Frete urgente com preço justo e sem enrolação. Recomendo pra quem está com pressa.",
+    "author": "Lucas",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_11",
+    "text": "Me salvaram numa urgência do trabalho. Foram pontuais e mantiveram contato o tempo todo.",
+    "author": "Renata",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sorocaba_urgente_12",
+    "text": "Solicitei de última hora e conseguiram atender. Serviço rápido e bem combinado do começo ao fim.",
+    "author": "Gustavo",
+    "citySlug": "sorocaba",
+    "type": "urgente",
+    "ts": 1770773575120,
+    "source": "cliente"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-11T01:22:15.560Z",
+  "generatedAt": "2026-02-11T01:39:50.256Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -551,6 +551,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-serra/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-serra/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-serra/"
+      }
+    },
+    {
+      "slug": "sorocaba",
+      "name": "Sorocaba",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-sorocaba/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-sorocaba/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-sorocaba/"
       }
     }
   ]
