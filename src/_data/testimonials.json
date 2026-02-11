@@ -18700,5 +18700,329 @@
     "type": "urgente",
     "ts": 1770769733776,
     "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_01",
+    "text": "Precisei de um frete de última hora e foi tudo bem combinado. Chegou no horário e levou minhas coisas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_02",
+    "text": "Atendimento rápido no chat e preço justo. A mudança pequena foi bem tranquila do começo ao fim.",
+    "author": "Lucas",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_03",
+    "text": "Gostei da pontualidade e da organização na hora de carregar. Nada veio quebrado ou arranhado.",
+    "author": "Fernanda",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_04",
+    "text": "Fizeram o frete de alguns móveis e deu tudo certo. Foram cuidadosos e bem educados.",
+    "author": "Rafael",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_05",
+    "text": "Combinei o horário e cumpriram direitinho. O motorista foi paciente e ajudou no que deu.",
+    "author": "Camila",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_06",
+    "text": "Precisava transportar caixas e eletros, e foi mais simples do que eu esperava. Comunicação clara e sem enrolação.",
+    "author": "Bruno",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_07",
+    "text": "O frete foi rápido e bem organizado, sem correria. Chegou tudo certinho no destino.",
+    "author": "Aline",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_08",
+    "text": "Me passaram o valor antes e não teve surpresa. Serviço honesto e bem feito.",
+    "author": "Diego",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_09",
+    "text": "Contratei para levar um sofá e uma cama, e cuidaram bem na amarração. Recomendo para quem quer algo prático.",
+    "author": "Juliana",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_10",
+    "text": "Responderam rápido e encaixaram no mesmo dia. Foi tudo bem tranquilo e com cuidado no transporte.",
+    "author": "Pedro",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_11",
+    "text": "Fiz um frete para entregar mercadorias e chegou no prazo combinado. Atendimento bem profissional e direto.",
+    "author": "Natália",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_fretes_12",
+    "text": "A equipe foi ágil para carregar e descarregar. Gostei da atenção com as caixas mais frágeis.",
+    "author": "Gustavo",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "fretes",
+    "ts": 1770770478092,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_01",
+    "text": "Minha mudança em São José dos Campos foi bem organizada, chegaram no horário e cuidaram dos móveis com atenção.",
+    "author": "Mariana",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_02",
+    "text": "Equipe educada e ágil. Embalaram tudo direitinho e a mudança em São José dos Campos foi bem tranquila.",
+    "author": "Rafael",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_03",
+    "text": "Gostei da comunicação desde o começo. Passaram confiança e entregaram tudo sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_04",
+    "text": "Fizeram um bom trabalho com itens mais delicados, principalmente vidro e eletrônicos. Recomendo.",
+    "author": "Bruno",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_05",
+    "text": "Preço justo e serviço bem combinado. A mudança foi rápida e sem bagunça na hora de descarregar.",
+    "author": "Patricia",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_06",
+    "text": "Eu estava com medo de riscar os móveis, mas veio tudo bem protegido e chegou certinho.",
+    "author": "Diego",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_07",
+    "text": "Atenderam minhas dúvidas rápido e foram bem flexíveis com o horário. Deu tudo certo na mudança.",
+    "author": "Fernanda",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_08",
+    "text": "Carregaram e acomodaram as caixas com cuidado. No final, ficou tudo no lugar que eu pedi.",
+    "author": "Lucas",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_09",
+    "text": "Mudança de apartamento para casa e foi bem mais fácil do que eu imaginava. Equipe bem prestativa.",
+    "author": "Juliana",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_10",
+    "text": "Pontuais e organizados. Gostei que foram avisando cada etapa e não deixaram nada pra trás.",
+    "author": "Gustavo",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_11",
+    "text": "O caminhão veio limpo e bem arrumado. Minhas coisas chegaram sem avarias e dentro do combinado.",
+    "author": "Aline",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_mudancas_12",
+    "text": "Serviço honesto e sem enrolação. Resolveram rápido e trataram tudo com cuidado.",
+    "author": "Renato",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "mudancas",
+    "ts": 1770770487317,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a coleta foi bem ágil.",
+    "author": "Marina",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_02",
+    "text": "Tava com pressa e eles encaixaram minha entrega no mesmo dia. Comunicação simples e sem enrolação.",
+    "author": "Diego",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_03",
+    "text": "Fiz o pedido em cima da hora e mesmo assim conseguiram atender. Chegou no prazo combinado.",
+    "author": "Camila",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_04",
+    "text": "Atendimento bem prático pelo WhatsApp e o motorista foi pontual. Salvou meu envio urgente.",
+    "author": "Rafael",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_05",
+    "text": "Precisava levar umas caixas com urgência e foi tranquilo. Preço ok e tudo bem organizado.",
+    "author": "Juliana",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_06",
+    "text": "Gostei porque foram claros sobre o tempo e cumpriram. Para frete urgente, ajudou demais.",
+    "author": "Bruno",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_07",
+    "text": "A coleta foi rápida e não tive dor de cabeça. Chegou certinho onde eu precisava.",
+    "author": "Patricia",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_08",
+    "text": "Tive uma emergência com entrega e eles resolveram sem complicar. Bem combinado do início ao fim.",
+    "author": "Felipe",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_09",
+    "text": "O retorno foi quase imediato e já passaram as opções de horário. Deu certo dentro do meu prazo.",
+    "author": "Aline",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_10",
+    "text": "Serviço bem ágil e cuidadoso com a carga. Recomendo pra quem precisa de urgência sem estresse.",
+    "author": "Lucas",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_11",
+    "text": "Eu precisava de rapidez e eles foram bem eficientes. Tudo atualizado durante o trajeto.",
+    "author": "Renata",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-jose-dos-campos_urgente_12",
+    "text": "Combinei o frete urgente e cumpriram direitinho. Motorista educado e entrega sem atrasos.",
+    "author": "Thiago",
+    "citySlug": "sao-jose-dos-campos",
+    "type": "urgente",
+    "ts": 1770770495730,
+    "source": "cliente"
   }
 ]
