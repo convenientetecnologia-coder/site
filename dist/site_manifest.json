@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-11T02:19:42.848Z",
+  "generatedAt": "2026-02-11T02:39:36.608Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -578,6 +578,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-teresina/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-teresina/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-teresina/"
+      }
+    },
+    {
+      "slug": "uberlandia",
+      "name": "Uberlândia",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-uberlandia/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-uberlandia/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-uberlandia/"
       }
     }
   ]
