@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-11T00:03:23.307Z",
+  "generatedAt": "2026-02-11T00:19:23.321Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -497,6 +497,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-santos/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-santos/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-santos/"
+      }
+    },
+    {
+      "slug": "sao-goncalo",
+      "name": "São Gonçalo",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-sao-goncalo/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-sao-goncalo/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-sao-goncalo/"
       }
     },
     {
