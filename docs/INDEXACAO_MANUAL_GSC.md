@@ -45,6 +45,8 @@ Colunas:
 | 2026-02-11 | Aracaju (SE) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-aracaju/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
 | 2026-02-11 | Aracaju (SE) | urgente | https://www.fretesoumudancas.com.br/frete-urgente-em-aracaju/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
 | 2026-02-11 | Anápolis (GO) | urgente | https://www.fretesoumudancas.com.br/frete-urgente-em-anapolis/ | **Indexada (confirmado na Inspeção de URL)** | Detecção via sitemap; canônico do usuário OK; rastreada por Googlebot Smartphone |
+| 2026-02-11 | Anápolis (GO) | fretes | https://www.fretesoumudancas.com.br/fretes-em-anapolis/ | **Indexada (confirmado na Inspeção de URL)** | Detecção via sitemap; rastreada por Googlebot Smartphone |
+| 2026-02-11 | Anápolis (GO) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-anapolis/ | **Indexada (confirmado na Inspeção de URL)** | Detecção via sitemap; rastreada por Googlebot Smartphone |
 
 ---
 
