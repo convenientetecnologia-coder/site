@@ -1,4 +1,4 @@
-### Research — SÃ£o Paulo (SP)
+### Research — São Paulo (SP)
 
 Gerado em: 2026-02-06T00:43:07.171Z
 

@@ -1,4 +1,4 @@
-### Research — Foz do IguaÃ§u (PR)
+### Research — Foz do Iguaçu (PR)
 
 Gerado em: 2026-02-06T20:02:22.437Z
 

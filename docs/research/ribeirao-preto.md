@@ -1,4 +1,4 @@
-### Research — RibeirÃ£o Preto (SP)
+### Research — Ribeirão Preto (SP)
 
 Gerado em: 2026-02-10T15:51:17.443Z
 

@@ -1,4 +1,4 @@
-### Research — GoiÃ¢nia (GO)
+### Research — Goiânia (GO)
 
 Gerado em: 2026-02-09T14:48:25.305Z
 

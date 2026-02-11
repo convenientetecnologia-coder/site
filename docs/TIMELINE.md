@@ -721,7 +721,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-limeira/` (~3135 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 45 bairros divididos em 3 blocos (15/15/15)
-  - Depoimentos: 35 (11/12/12 por tipo)
+  - Depoimentos: 36 (12 por tipo)
   - Validação anti-duplicação passou (4 títulos duplicados ajustados em `limeira.json`)
 - **Por quê**: próxima cidade publicada seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
 - **Evidência**:
@@ -765,7 +765,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-juiz-de-fora/` (~3151 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 45 bairros divididos em 3 blocos (15/15/15)
-  - Depoimentos: 35 (12/12/11 por tipo)
+  - Depoimentos: 36 (12 por tipo)
   - Validação anti-duplicação passou (4 títulos duplicados ajustados em `juiz-de-fora.json`)
 - **Por quê**: próxima cidade publicada seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
 - **Evidência**:
@@ -830,7 +830,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-juazeiro-do-norte/` (~3221 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 20 bairros divididos em 3 blocos únicos (6/7/7 por página)
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Modo `production` ativado para indexação
   - Validação anti-duplicação passou (2 títulos duplicados corrigidos manualmente)
 - **Por quê**: trigésima segunda cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
@@ -839,7 +839,7 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/publish_config.json` (juazeiro-do-norte habilitado em production)
   - `src/_data/city_content/juazeiro-do-norte.json` (conteúdo GPT com todas as seções)
   - `src/_data/neighborhoods.json` (20 bairros divididos em 3 blocos)
-  - `src/_data/testimonials.json` (35 depoimentos)
+  - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
 
@@ -853,7 +853,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-joinville/` (~3242 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 40 bairros divididos em 3 blocos únicos (13/13/14 por página)
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Modo `production` ativado para indexação
   - Validação anti-duplicação passou (5 títulos duplicados corrigidos manualmente)
 - **Por quê**: trigésima primeira cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
@@ -862,7 +862,7 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/publish_config.json` (joinville habilitado em production)
   - `src/_data/city_content/joinville.json` (conteúdo GPT com todas as seções)
   - `src/_data/neighborhoods.json` (40 bairros divididos em 3 blocos)
-  - `src/_data/testimonials.json` (35 depoimentos)
+  - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
 
@@ -1060,7 +1060,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-duque-de-caxias/` (~3386 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 30 bairros divididos em 3 blocos únicos (10/10/10 por página)
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Modo `production` ativado para indexação
   - Validação anti-duplicação passou (3 títulos duplicados corrigidos manualmente)
 - **Por quê**: vigésima segunda cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
@@ -1069,7 +1069,7 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/publish_config.json` (duque-de-caxias habilitado em production)
   - `src/_data/city_content/duque-de-caxias.json` (conteúdo GPT com todas as seções)
   - `src/_data/neighborhoods.json` (30 bairros divididos em 3 blocos)
-  - `src/_data/testimonials.json` (35 depoimentos)
+  - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
 
@@ -1198,7 +1198,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-campos-dos-goytacazes/` (~3402 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 38 bairros divididos em 3 blocos únicos (12/13/13 por página)
-  - 35 depoimentos (12/12/11 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Modo `production` ativado para indexação
   - Validação anti-duplicação passou (1 título duplicado corrigido manualmente)
 - **Por quê**: décima sexta cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
@@ -1207,7 +1207,7 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/publish_config.json` (campos-dos-goytacazes habilitado em production)
   - `src/_data/city_content/campos-dos-goytacazes.json` (conteúdo GPT com todas as seções)
   - `src/_data/neighborhoods.json` (38 bairros divididos em 3 blocos)
-  - `src/_data/testimonials.json` (35 depoimentos)
+  - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
 
@@ -1244,7 +1244,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-campinas/` (~3308 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Modo `production` ativado para indexação
   - Validação anti-duplicação passou (2 títulos duplicados corrigidos manualmente)
 - **Por quê**: décima quarta cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
@@ -1253,7 +1253,7 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/publish_config.json` (campinas habilitado em production)
   - `src/_data/city_content/campinas.json` (conteúdo GPT com todas as seções)
   - `src/_data/neighborhoods.json` (45 bairros divididos em 3 blocos)
-  - `src/_data/testimonials.json` (35 depoimentos)
+  - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
 
@@ -1313,7 +1313,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-boa-vista/` (~3123 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 31 bairros divididos em 3 blocos únicos (10/10/11 por página)
-  - 35 depoimentos (12/12/11 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Modo `production` ativado para indexação
   - Validação anti-duplicação passou (1 título duplicado corrigido manualmente)
 - **Por quê**: décima primeira cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
@@ -1322,7 +1322,7 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/publish_config.json` (boa-vista habilitado em production)
   - `src/_data/city_content/boa-vista.json` (conteúdo GPT com todas as seções)
   - `src/_data/neighborhoods.json` (31 bairros divididos em 3 blocos)
-  - `src/_data/testimonials.json` (35 depoimentos)
+  - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
 
@@ -1359,7 +1359,7 @@ Regra: toda mudança relevante entra aqui com:
   - `/frete-urgente-em-belo-horizonte/` (~3150 palavras)
   - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
   - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Modo `production` ativado para indexação
   - Validação anti-duplicação passou (2 títulos duplicados corrigidos manualmente)
 - **Por quê**: nona cidade publicada com sistema 100% GPT. Conteúdo 100% único e exclusivo, sem duplicações.
@@ -1368,7 +1368,7 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/publish_config.json` (belo-horizonte habilitado em production)
   - `src/_data/city_content/belo-horizonte.json` (conteúdo GPT com todas as seções)
   - `src/_data/neighborhoods.json` (45 bairros divididos em 3 blocos)
-  - `src/_data/testimonials.json` (35 depoimentos)
+  - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
 
@@ -1417,6 +1417,42 @@ Regra: toda mudança relevante entra aqui com:
   - `src/_data/testimonials.json` (36 depoimentos)
 - **Impacto**: páginas indexáveis no Google; deploy automático via webhook GitHub → Hostinger.
 - **Rollback**: reverter commit ou desabilitar cidade no `publish_config.json`.
+
+---
+
+#### 2026-02-06 — [SITE] Balneário Camboriú (SC): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Balneário Camboriú com sistema 100% GPT:
+  - `/fretes-em-balneario-camboriu/` (~2905 palavras)
+  - `/mudancas-em-balneario-camboriu/` (~3085 palavras)
+  - `/frete-urgente-em-balneario-camboriu/` (~3239 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 18 bairros divididos em 3 blocos (6/6/6)
+  - 36 depoimentos (12 por tipo)
+- **Evidência**:
+  - Commit: `5c064c3` (repo `site`)
+  - `src/_data/publish_config.json` (balneario-camboriu habilitado em production)
+  - `src/_data/city_content/balneario-camboriu.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json` (36 depoimentos)
+
+---
+
+#### 2026-02-06 — [SITE] Aracaju (SE): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Aracaju com sistema 100% GPT:
+  - `/fretes-em-aracaju/` (~3301 palavras)
+  - `/mudancas-em-aracaju/` (~2739 palavras)
+  - `/frete-urgente-em-aracaju/` (~3022 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - 34 bairros divididos em 3 blocos (11/11/12)
+  - 36 depoimentos (12 por tipo)
+- **Evidência**:
+  - Commit: `003e6f9` (repo `site`)
+  - `src/_data/publish_config.json` (aracaju habilitado em production)
+  - `src/_data/city_content/aracaju.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json` (36 depoimentos)
 
 ---
 

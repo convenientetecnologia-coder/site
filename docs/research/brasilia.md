@@ -1,4 +1,4 @@
-### Research — BrasÃ­lia (DF)
+### Research — Brasília (DF)
 
 Gerado em: 2026-02-06T15:57:52.601Z
 

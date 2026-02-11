@@ -1836,105 +1836,6 @@
     "source": "cliente"
   },
   {
-    "id": "dep_balneario-camboriu_urgente_01",
-    "text": "Solicitei em cima da hora e mesmo assim deram conta. Motorista educado e tudo bem organizado.",
-    "author": "Rafael",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_02",
-    "text": "O atendimento foi bem direto e resolveu meu problema no mesmo dia. Recomendo pra quem tá com pressa.",
-    "author": "Camila",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_03",
-    "text": "Frete urgente que realmente ajudou: combinaram o horário e cumpriram. Minhas coisas chegaram certinhas.",
-    "author": "Bruno",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_04",
-    "text": "Gostei porque não enrolaram na cotação e já alinharam a coleta. Serviço ágil e tranquilo.",
-    "author": "Fernanda",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_05",
-    "text": "Eu tava apertado com o tempo e eles foram bem rápidos na retirada. Tudo chegou sem avarias.",
-    "author": "Diego",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_06",
-    "text": "Atenderam minha urgência com boa comunicação do começo ao fim. Foi bem mais simples do que eu esperava.",
-    "author": "Aline",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_07",
-    "text": "Precisei levar uns volumes de última hora e deu certo. Pontualidade e cuidado no transporte.",
-    "author": "Gustavo",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_08",
-    "text": "Resolveram meu frete urgente sem complicação. Preço justo pelo prazo e atendimento bem atencioso.",
-    "author": "Juliana",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_09",
-    "text": "Chamamos com pressa e já passaram o prazo certinho. Chegou rápido e tudo bem embalado.",
-    "author": "Renato",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_10",
-    "text": "Foi meu primeiro frete urgente com eles e curti a agilidade. Mantiveram contato e entregaram direitinho.",
-    "author": "Patrícia",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_balneario-camboriu_urgente_11",
-    "text": "Precisava entregar um item ainda hoje e eles encaixaram. Deu tudo certo e sem estresse.",
-    "author": "Lucas",
-    "citySlug": "balneario-camboriu",
-    "type": "urgente",
-    "ts": 1770389334558,
-    "source": "cliente"
-  },
-  {
     "id": "dep_bauru_fretes_01",
     "text": "Combinei o frete e deu tudo certo. Chegaram no horário e levaram minhas coisas com cuidado.",
     "author": "Mariana",
@@ -2580,105 +2481,6 @@
     "citySlug": "belem",
     "type": "urgente",
     "ts": 1770391083685,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_01",
-    "text": "Precisei de ajuda com uma mudança pequena e o pessoal foi bem cuidadoso com os móveis. Serviço tranquilo.",
-    "author": "Gustavo",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_02",
-    "text": "Preço justo e comunicação clara do começo ao fim. Entrega rápida e sem complicação.",
-    "author": "Camila",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_03",
-    "text": "Agendei para o mesmo dia e deu certo. O motorista foi educado e resolveu tudo com calma.",
-    "author": "Renato",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_04",
-    "text": "Levaram minhas caixas e um eletrodoméstico sem arranhar nada. Gostei da atenção no transporte.",
-    "author": "Patricia",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_05",
-    "text": "Chegaram no horário combinado e organizaram bem a carga no veículo. Recomendo para fretes menores.",
-    "author": "Diego",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_06",
-    "text": "Eu estava com pressa e eles responderam rápido. O frete foi direto e sem enrolação.",
-    "author": "Aline",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_07",
-    "text": "Contratei para buscar uma compra e entregar em casa. Foi tudo certinho e me mantiveram informado.",
-    "author": "Bruno",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_08",
-    "text": "Atendimento simples e objetivo, do jeito que gosto. No final, saiu tudo como combinado.",
-    "author": "Fernanda",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_09",
-    "text": "Tinha item frágil e eles prenderam bem para não balançar. Chegou inteiro e no tempo esperado.",
-    "author": "Lucas",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_10",
-    "text": "Gostei porque não inventaram taxa surpresa. O valor foi o que combinamos e o serviço foi bem feito.",
-    "author": "Juliana",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_belo-horizonte_fretes_11",
-    "text": "Frete para poucas coisas, mas precisava de cuidado. Foram bem prestativos e o carregamento foi rápido.",
-    "author": "Rafael",
-    "citySlug": "belo-horizonte",
-    "type": "fretes",
-    "ts": 1770391649347,
     "source": "cliente"
   },
   {
@@ -3438,105 +3240,6 @@
     "source": "cliente"
   },
   {
-    "id": "dep_boa-vista_urgente_01",
-    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e combinaram o horário certinho.",
-    "author": "Marina",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_02",
-    "text": "Atendimento direto, sem enrolação. O frete urgente salvou meu dia e o preço foi justo.",
-    "author": "Camila",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_03",
-    "text": "Eu estava com pressa e eles foram bem ágeis na retirada. Acompanhar a entrega foi fácil.",
-    "author": "Bruno",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_04",
-    "text": "Combinei pelo chat e em pouco tempo já estavam a caminho. Chegou dentro do que a gente acertou.",
-    "author": "Aline",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_05",
-    "text": "Precisava levar umas caixas com urgência e foram bem cuidadosos. Comunicação rápida do início ao fim.",
-    "author": "Diego",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_06",
-    "text": "Gostei porque deram previsão realista e cumpriram. Para frete urgente, foi bem organizado.",
-    "author": "Fernanda",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_07",
-    "text": "Resolveram meu envio de última hora sem complicação. Motorista educado e entrega sem susto.",
-    "author": "Lucas",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_08",
-    "text": "O retorno foi quase imediato e já passaram os detalhes do frete. Chegou rápido e sem danos.",
-    "author": "Juliana",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_09",
-    "text": "Tive uma urgência no trabalho e precisei mandar um volume no mesmo dia. Deu tudo certo, bem combinado.",
-    "author": "Gustavo",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_10",
-    "text": "Serviço bem prático: pedi, confirmaram e buscaram rápido. A entrega foi no prazo que me falaram.",
-    "author": "Patricia",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_boa-vista_urgente_11",
-    "text": "Fiquei com receio por ser urgente, mas foram bem profissionais. Me atualizaram durante o caminho.",
-    "author": "Renato",
-    "citySlug": "boa-vista",
-    "type": "urgente",
-    "ts": 1770392813046,
-    "source": "cliente"
-  },
-  {
     "id": "dep_brasilia_fretes_01",
     "text": "Combinei o frete pelo Whats e deu tudo certo. Chegaram no horário e cuidaram bem das caixas.",
     "author": "Mariana",
@@ -4182,105 +3885,6 @@
     "citySlug": "campina-grande",
     "type": "urgente",
     "ts": 1770394532007,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_01",
-    "text": "Precisei de um frete rápido em Campinas e me atenderam bem. Preço justo e sem enrolação.",
-    "author": "Rafael",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_02",
-    "text": "Mudança pequena, mas eu estava preocupada. Foram bem organizados e ajudaram até a acomodar as caixas no destino.",
-    "author": "Camila",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_03",
-    "text": "Atendimento bem direto e educado. O motorista foi cuidadoso com os móveis e a entrega foi tranquila.",
-    "author": "Bruno",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_04",
-    "text": "Gostei porque passaram o valor certinho antes e cumpriram o combinado. Recomendo pra quem precisa de frete na região.",
-    "author": "Aline",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_05",
-    "text": "Contratei pra levar eletrodomésticos e veio tudo bem protegido. Não tive dor de cabeça.",
-    "author": "Diego",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_06",
-    "text": "Responderam rápido e conseguiram encaixar meu horário. Serviço simples e bem feito.",
-    "author": "Fernanda",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_07",
-    "text": "O frete foi pontual e o pessoal foi bem cuidadoso nas escadas. Chegou tudo certinho.",
-    "author": "Lucas",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_08",
-    "text": "Eu tinha pouco tempo e eles facilitaram bastante. Comunicação boa do começo ao fim.",
-    "author": "Juliana",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_09",
-    "text": "Fiz orçamento com outros e aqui foi mais transparente. No dia, carregaram tudo com atenção e sem pressa.",
-    "author": "Gustavo",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_10",
-    "text": "Precisava levar umas caixas e uma cômoda. Resolveram rápido e com cuidado, do jeito que eu esperava.",
-    "author": "Patricia",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campinas_fretes_11",
-    "text": "Equipe simpática e prestativa. O frete em Campinas foi bem tranquilo e sem surpresas no valor.",
-    "author": "Renato",
-    "citySlug": "campinas",
-    "type": "fretes",
-    "ts": 1770395496557,
     "source": "cliente"
   },
   {
@@ -5037,105 +4641,6 @@
     "citySlug": "campos-dos-goytacazes",
     "type": "mudancas",
     "ts": 1770396466004,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_01",
-    "text": "Chegou bem mais rápido do que eu esperava e sem dor de cabeça. Atendimento bem direto e eficiente.",
-    "author": "Rafael",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_02",
-    "text": "Tava com pressa e eles resolveram na hora. Coleta e entrega foram bem organizadas.",
-    "author": "Camila",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_03",
-    "text": "Frete urgente que realmente ajudou no meu aperto. Comunicação clara do começo ao fim.",
-    "author": "Diego",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_04",
-    "text": "Pedi em cima da hora e conseguiram encaixar. Foi tudo bem combinado e sem enrolação.",
-    "author": "Aline",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_05",
-    "text": "Entrega rápida e com cuidado no transporte. Gostei que avisaram certinho quando estavam chegando.",
-    "author": "Bruno",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_06",
-    "text": "Precisava levar umas coisas com urgência e foi bem tranquilo. Preço justo pelo prazo que eu precisava.",
-    "author": "Fernanda",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_07",
-    "text": "Atenderam meu pedido urgente sem complicar. Motorista educado e serviço ágil.",
-    "author": "Lucas",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_08",
-    "text": "Foi meu primeiro frete urgente e fiquei satisfeita. Resolveram rápido e passaram confiança.",
-    "author": "Juliana",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_09",
-    "text": "Tinha um prazo curto e eles cumpriram direitinho. Atendimento rápido no chat e tudo bem alinhado.",
-    "author": "Gustavo",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_10",
-    "text": "Precisava entregar ainda no mesmo dia e funcionou. Sem estresse e com retorno rápido.",
-    "author": "Patricia",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_campos-dos-goytacazes_urgente_11",
-    "text": "Serviço bem ágil pra situação de urgência. Chegou no prazo combinado e sem imprevistos.",
-    "author": "Thiago",
-    "citySlug": "campos-dos-goytacazes",
-    "type": "urgente",
-    "ts": 1770396474440,
     "source": "cliente"
   },
   {
@@ -6756,105 +6261,6 @@
     "citySlug": "curitiba",
     "type": "urgente",
     "ts": 1770406520915,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_01",
-    "text": "Resposta rápida no WhatsApp e preço justo. A mudança foi bem tranquila.",
-    "author": "Diego",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_02",
-    "text": "Precisava de um frete de última hora e conseguiram me atender no mesmo dia. Motorista gente boa.",
-    "author": "Camila",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_03",
-    "text": "Pontuais e organizados. Ajudaram a colocar tudo no carro sem pressa e sem bagunça.",
-    "author": "Rafael",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_04",
-    "text": "Serviço bem combinado do início ao fim. Minhas caixas chegaram certinhas, sem avaria.",
-    "author": "Juliana",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_05",
-    "text": "Tinha móveis mais pesados e eles foram cuidadosos na hora de carregar. Recomendo pela atenção.",
-    "author": "Bruno",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_06",
-    "text": "Gostei da comunicação, avisaram quando estavam a caminho. O frete foi rápido e sem estresse.",
-    "author": "Aline",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_07",
-    "text": "Fechei para transportar umas compras grandes e foi bem prático. Chegou tudo direitinho.",
-    "author": "Fernando",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_08",
-    "text": "Equipe educada e prestativa. Deram uma mão com a embalagem e isso ajudou muito.",
-    "author": "Patricia",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_09",
-    "text": "O motorista dirigiu com cuidado e foi explicando os horários. No fim, saiu tudo como combinado.",
-    "author": "Lucas",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_10",
-    "text": "Já usei outras vezes e dessa vez também foi ótimo. Atendimento simples e eficiente.",
-    "author": "Renata",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_duque-de-caxias_fretes_11",
-    "text": "Fiz o orçamento e fecharam rapidinho. O transporte foi seguro e sem dor de cabeça.",
-    "author": "Gustavo",
-    "citySlug": "duque-de-caxias",
-    "type": "fretes",
-    "ts": 1770407058368,
     "source": "cliente"
   },
   {
@@ -9666,105 +9072,6 @@
     "source": "cliente"
   },
   {
-    "id": "dep_joinville_fretes_01",
-    "text": "Atendimento bem rápido no orçamento e no agendamento. A mudança pequena foi tranquila e sem estresse.",
-    "author": "Lucas",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_02",
-    "text": "Precisava levar um móvel e fizeram o transporte com cuidado. Comunicação clara do começo ao fim.",
-    "author": "Fernanda",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_03",
-    "text": "Preço justo e serviço organizado. O motorista foi paciente na hora de carregar e descarregar.",
-    "author": "Bruno",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_04",
-    "text": "Frete pontual e sem complicação. Gostei que confirmaram tudo antes de sair.",
-    "author": "Camila",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_05",
-    "text": "Levaram minhas coisas com atenção e amarraram direitinho. Chegou tudo certinho no destino.",
-    "author": "Rafael",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_06",
-    "text": "Agendei com pouca antecedência e mesmo assim conseguiram encaixar. Foi bem combinado e rápido.",
-    "author": "Juliana",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_07",
-    "text": "Usei para transportar eletrodomésticos e veio tudo bem protegido. Serviço honesto e direto.",
-    "author": "Diego",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_08",
-    "text": "Achei prático porque responderam rápido e passaram confiança. O frete foi bem tranquilo.",
-    "author": "Aline",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_09",
-    "text": "Equipe educada e cuidadosa com as portas e paredes. Para mim valeu muito pelo capricho.",
-    "author": "Patricia",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_10",
-    "text": "Precisava de frete para umas compras grandes e resolveram sem enrolação. Chegaram e finalizaram rápido.",
-    "author": "Gustavo",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_joinville_fretes_11",
-    "text": "Gostei da organização na hora de acomodar tudo no veículo. Não tive surpresa no valor combinado.",
-    "author": "Renata",
-    "citySlug": "joinville",
-    "type": "fretes",
-    "ts": 1770652530003,
-    "source": "cliente"
-  },
-  {
     "id": "dep_joinville_mudancas_01",
     "text": "Fiz minha mudança em Joinville e foi tudo bem organizado. A equipe cuidou dos móveis com atenção e cumpriu o combinado.",
     "author": "Mariana",
@@ -9978,105 +9285,6 @@
     "citySlug": "joinville",
     "type": "urgente",
     "ts": 1770652551429,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_01",
-    "text": "Preço justo e atendimento bem direto. A mudança foi rápida e sem dor de cabeça.",
-    "author": "Lucas",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_02",
-    "text": "Precisava levar uns móveis e eles resolveram no mesmo dia. Motorista educado e bem cuidadoso.",
-    "author": "Camila",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_03",
-    "text": "Gostei da pontualidade e da organização na hora de carregar. Tudo chegou certinho.",
-    "author": "Rafael",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_04",
-    "text": "Fiz o agendamento e foi bem tranquilo. A equipe ajudou a acomodar tudo direitinho no veículo.",
-    "author": "Aline",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_05",
-    "text": "Serviço honesto, sem surpresa no valor. Recomendo pra quem precisa de frete rápido.",
-    "author": "Bruno",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_06",
-    "text": "Responderam rápido e tiraram minhas dúvidas. O frete foi cuidadoso e bem combinado.",
-    "author": "Juliana",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_07",
-    "text": "Levaram minhas caixas e eletros com atenção. Chegou tudo sem arranhão e no tempo certo.",
-    "author": "Diego",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_08",
-    "text": "Eu estava com pressa e eles encaixaram um horário pra mim. Atendimento simples e eficiente.",
-    "author": "Fernanda",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_09",
-    "text": "Gostei porque foram bem cuidadosos na escada e na hora de prender a carga. Trabalho caprichado.",
-    "author": "Gustavo",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_10",
-    "text": "Frete para entrega de mercadoria pequena, bem rápido. Comunicação fácil do começo ao fim.",
-    "author": "Patrícia",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juazeiro-do-norte_fretes_11",
-    "text": "Chegaram, carregaram e entregaram sem enrolação. Tudo foi bem organizado e com cuidado.",
-    "author": "Thiago",
-    "citySlug": "juazeiro-do-norte",
-    "type": "fretes",
-    "ts": 1770653755953,
     "source": "cliente"
   },
   {
@@ -10512,105 +9720,6 @@
     "source": "cliente"
   },
   {
-    "id": "dep_juiz-de-fora_urgente_01",
-    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a entrega foi bem no horário combinado.",
-    "author": "Mariana",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_02",
-    "text": "Meu pedido era pra hoje e fiquei com medo de atrasar, mas chegou certinho. Comunicação bem tranquila.",
-    "author": "Camila",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_03",
-    "text": "Frete urgente com preço justo e combinado claro. O motorista foi cuidadoso com as caixas.",
-    "author": "Rafael",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_04",
-    "text": "Precisava levar um item rápido e foi bem prático. Passaram previsão e foram atualizando pelo caminho.",
-    "author": "Aline",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_05",
-    "text": "Resolveram meu problema no mesmo dia. Gostei porque não complicaram e foram objetivos.",
-    "author": "Bruno",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_06",
-    "text": "Solicitei o frete urgente e vieram buscar rapidinho. Entrega sem estresse e tudo bem organizado.",
-    "author": "Fernanda",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_07",
-    "text": "Era uma entrega urgente e eu estava sem tempo. Foi só chamar, combinar e pronto, chegou direitinho.",
-    "author": "Lucas",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_08",
-    "text": "Atenderam com agilidade e cuidado. A carga chegou intacta e no prazo que combinamos.",
-    "author": "Patricia",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_09",
-    "text": "Tive uma urgência com uma encomenda e eles salvaram. Atendimento simpático e bem transparente.",
-    "author": "Gustavo",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_10",
-    "text": "Precisava de frete rápido pra não perder um compromisso. Chegaram no horário e entregaram sem atrasar.",
-    "author": "Juliana",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_juiz-de-fora_urgente_11",
-    "text": "Fiquei surpresa com a rapidez. Foi tudo bem alinhado, desde a coleta até a entrega.",
-    "author": "Renato",
-    "citySlug": "juiz-de-fora",
-    "type": "urgente",
-    "ts": 1770659668608,
-    "source": "cliente"
-  },
-  {
     "id": "dep_jundiai_fretes_01",
     "text": "Combinei o horário e deu tudo certo. Chegaram no tempo combinado e levaram minhas coisas com cuidado.",
     "author": "Marina",
@@ -10932,105 +10041,6 @@
     "citySlug": "jundiai",
     "type": "urgente",
     "ts": 1770661787595,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_01",
-    "text": "Precisei levar um guarda-roupa e foi bem tranquilo. A equipe foi cuidadosa e educada.",
-    "author": "Carlos",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_02",
-    "text": "Preço justo e comunicação clara do começo ao fim. Recomendo pra quem precisa de frete em Limeira.",
-    "author": "Fernanda",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_03",
-    "text": "Agendei de um dia pro outro e responderam rápido. Entrega sem dor de cabeça.",
-    "author": "Bruno",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_04",
-    "text": "Transportaram meus eletros com bastante cuidado. Chegou tudo certinho, sem arranhões.",
-    "author": "Aline",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_05",
-    "text": "Gostei porque foram pontuais e bem organizados. O motorista avisou quando estava chegando.",
-    "author": "Renato",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_06",
-    "text": "Fiz frete de algumas peças de loja e veio tudo bem acomodado. Atendimento simples e eficiente.",
-    "author": "Paula",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_07",
-    "text": "Tinha uma mudança pequena e resolveram rapidinho. O combinado foi cumprido direitinho.",
-    "author": "Diego",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_08",
-    "text": "Achei ótimo o cuidado na hora de carregar e descarregar. Passou confiança desde o primeiro contato.",
-    "author": "Camila",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_09",
-    "text": "Precisava levar um sofá e deu certo. Foram pacientes e ajudaram a posicionar direitinho na entrega.",
-    "author": "Lucas",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_10",
-    "text": "Serviço honesto e sem complicação. Me atualizaram durante o trajeto e chegou no prazo.",
-    "author": "Juliana",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
-    "source": "cliente"
-  },
-  {
-    "id": "dep_limeira_fretes_11",
-    "text": "Contratei pra levar materiais e foi tudo bem alinhado. Chegaram no horário combinado e finalizaram rápido.",
-    "author": "Rafael",
-    "citySlug": "limeira",
-    "type": "fretes",
-    "ts": 1770662550386,
     "source": "cliente"
   },
   {
@@ -21615,6 +20625,1086 @@
     "citySlug": "vitoria-da-conquista",
     "type": "urgente",
     "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_01",
+    "text": "Chamamos em cima da hora e mesmo assim veio bem rápido. Entrega sem dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_02",
+    "text": "Foi um frete urgente e cumpriram o combinado. Chegou no prazo que a gente precisava.",
+    "author": "Camila",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_03",
+    "text": "Atendimento bem direto e ágil. Pegaram e entregaram sem enrolação.",
+    "author": "Rafael",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_04",
+    "text": "Eu tava com pressa e eles ajudaram muito. Comunicação clara do começo ao fim.",
+    "author": "Juliana",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_05",
+    "text": "Solicitei de última hora e conseguiram encaixar. Chegou tudo certinho.",
+    "author": "Bruno",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_06",
+    "text": "O frete foi urgente e eles foram bem pontuais. Gostei da organização.",
+    "author": "Aline",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_07",
+    "text": "Resolveram meu problema no mesmo dia. Motorista educado e cuidadoso com as caixas.",
+    "author": "Fernanda",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_08",
+    "text": "Foi rápido pra agendar e mais rápido ainda pra buscar. Recomendo pra quem tá na correria.",
+    "author": "Lucas",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_09",
+    "text": "Precisava entregar um item com urgência e deu super certo. Preço combinado sem surpresas.",
+    "author": "Patricia",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_10",
+    "text": "Chegaram no horário e finalizaram a entrega bem rápido. Salvou meu dia.",
+    "author": "Gustavo",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_11",
+    "text": "Eu tinha prazo apertado e eles entenderam. Foram ágeis e cuidadosos.",
+    "author": "Renata",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_balneario-camboriu_urgente_12",
+    "text": "Atenderam minha solicitação na hora e já foram buscar. Serviço bem prático.",
+    "author": "Thiago",
+    "citySlug": "balneario-camboriu",
+    "type": "urgente",
+    "ts": 1770780922619,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. O motorista foi cuidadoso com as caixas.",
+    "author": "Mariana",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_02",
+    "text": "Atendimento rápido no WhatsApp e preço justo. A mudança pequena foi bem tranquila.",
+    "author": "Rafael",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_03",
+    "text": "Precisava levar um sofá e resolveram no mesmo dia. Veio bem protegido e sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_04",
+    "text": "Pontuais e organizados. Ajudaram a carregar e descarregar sem pressa e com cuidado.",
+    "author": "Bruno",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_05",
+    "text": "Gostei da comunicação, foi tudo bem combinado. Chegou tudo inteiro.",
+    "author": "Aline",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_06",
+    "text": "Frete para eletrodoméstico e deu tudo certo. Motorista educado e prestativo.",
+    "author": "Diego",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_07",
+    "text": "Serviço simples e eficiente. Me passaram o valor antes e não teve surpresa.",
+    "author": "Fernanda",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_08",
+    "text": "Agendei para a manhã e cumpriram o combinado. Recomendo pra quem precisa de frete rápido.",
+    "author": "Lucas",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_09",
+    "text": "Transportaram meus móveis com cuidado e paciência. Foi bem mais fácil do que eu esperava.",
+    "author": "Patricia",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_10",
+    "text": "Chegaram no horário e fizeram tudo com atenção. Ótimo custo-benefício.",
+    "author": "Gustavo",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_11",
+    "text": "Precisava de frete de última hora e responderam rápido. Resolveram direitinho.",
+    "author": "Juliana",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_belo-horizonte_fretes_12",
+    "text": "Levaram uma cama e um armário sem arranhões. Atendimento bem tranquilo.",
+    "author": "Renato",
+    "citySlug": "belo-horizonte",
+    "type": "fretes",
+    "ts": 1770780942475,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_01",
+    "text": "Precisei de um frete urgente e me atenderam rápido. Chegou no horário combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_02",
+    "text": "Respondeu na hora e já veio buscar. Pra uma entrega urgente em Boa Vista, foi bem prático.",
+    "author": "Carlos",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_03",
+    "text": "Combinei tudo por mensagem e deu certo. O frete foi rápido e o cuidado com as caixas me surpreendeu.",
+    "author": "Aline",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_04",
+    "text": "Eu estava com pressa e eles foram bem ágeis. Chegou direitinho e com bom atendimento.",
+    "author": "Rafael",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_05",
+    "text": "Atendimento direto e sem enrolação. O frete urgente resolveu meu problema no mesmo dia.",
+    "author": "Juliana",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_06",
+    "text": "Pontuais e organizados. Mesmo sendo urgente, deu tudo certo e foi bem combinado do início ao fim.",
+    "author": "Bruno",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_07",
+    "text": "Precisava levar umas coisas rápido e foi tranquilo. Chegaram no horário e entregaram sem atrasar.",
+    "author": "Camila",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_08",
+    "text": "Gostei porque avisaram cada etapa. Pra frete urgente, essa comunicação ajuda muito.",
+    "author": "Diego",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_09",
+    "text": "Achei o serviço bem profissional. Pegaram e entregaram rápido, sem complicar.",
+    "author": "Fernanda",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_10",
+    "text": "Fizeram um frete urgente pra mim e deu tudo certo. Motorista educado e cuidadoso com a carga.",
+    "author": "Lucas",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_11",
+    "text": "Eu tinha um prazo apertado e eles encaixaram a corrida. Foi rápido e com preço justo.",
+    "author": "Patricia",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_boa-vista_urgente_12",
+    "text": "Chegou bem embalado e sem avarias. Pra uma entrega urgente, fiquei bem mais tranquilo.",
+    "author": "Gustavo",
+    "citySlug": "boa-vista",
+    "type": "urgente",
+    "ts": 1770780968768,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. Motorista cuidadoso com as caixas, tudo veio inteiro.",
+    "author": "Mariana",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_02",
+    "text": "Precisava levar uns móveis pequenos e foi bem tranquilo. Atendimento rápido e preço justo pelo serviço.",
+    "author": "Rafael",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_03",
+    "text": "Gostei da comunicação, foram atualizando durante o trajeto. Entrega sem dor de cabeça.",
+    "author": "Camila",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_04",
+    "text": "Fizeram o frete no mesmo dia que pedi e deu tudo certo. Bem organizado do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_05",
+    "text": "Levaram minha geladeira com cuidado e sem arranhões. O combinado foi cumprido direitinho.",
+    "author": "Patricia",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_06",
+    "text": "Serviço ágil e sem enrolação. Ajudaram a acomodar tudo no veículo e ficou bem seguro.",
+    "author": "Diego",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_07",
+    "text": "Usei pra transportar materiais de obra e foi bem prático. Chegou tudo certinho e sem falta.",
+    "author": "Fernanda",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_08",
+    "text": "Atendimento simpático e objetivo. O frete saiu no horário combinado e a entrega foi rápida.",
+    "author": "Lucas",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_09",
+    "text": "Tinha medo de quebrar as coisas, mas embalaram e prenderam bem. Chegou tudo ok.",
+    "author": "Juliana",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_10",
+    "text": "Fiz mudança de poucos itens e valeu a pena. Resolveram rápido e sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_11",
+    "text": "O motorista foi bem cuidadoso nas curvas e na hora de descarregar. Serviço honesto.",
+    "author": "Aline",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campinas_fretes_12",
+    "text": "Precisei remarcar o horário e foi fácil de ajustar. Mantiveram o combinado e entregaram direitinho.",
+    "author": "Renata",
+    "citySlug": "campinas",
+    "type": "fretes",
+    "ts": 1770780991440,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_01",
+    "text": "Precisava mandar uma caixa com urgência e deu tudo certo. Responderam rápido e combinaram direitinho o horário.",
+    "author": "Mariana",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_02",
+    "text": "Chamei em cima da hora e mesmo assim conseguiram encaixar. Chegou dentro do prazo que me passaram.",
+    "author": "Rafael",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_03",
+    "text": "Frete urgente sem dor de cabeça. Comunicação clara e atualização durante o caminho.",
+    "author": "Camila",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_04",
+    "text": "Tive uma entrega importante e não podia atrasar. Foi bem ágil e o motorista foi cuidadoso com o pacote.",
+    "author": "Diego",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_05",
+    "text": "Atendimento bem prático pelo celular e coleta rápida. Salvou meu dia com essa urgência.",
+    "author": "Aline",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_06",
+    "text": "Precisava levar documentos rápido e foi tudo bem organizado. Preço justo pelo serviço urgente.",
+    "author": "Bruno",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_07",
+    "text": "Gostei porque não enrolaram: passaram o valor e o prazo na hora. Entrega concluída sem stress.",
+    "author": "Fernanda",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_08",
+    "text": "Solicitei o frete urgente e em pouco tempo já estavam a caminho. Chegou certinho e sem avarias.",
+    "author": "Lucas",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_09",
+    "text": "Tinha uma encomenda frágil e fiquei com receio, mas veio bem acomodada. Agilidade excelente.",
+    "author": "Juliana",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_10",
+    "text": "Foi minha primeira vez usando frete urgente e curti a experiência. Atendimento simples e direto.",
+    "author": "Thiago",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_11",
+    "text": "Precisava resolver uma troca no mesmo dia e funcionou. Combinação clara e sem surpresas.",
+    "author": "Patricia",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_campos-dos-goytacazes_urgente_12",
+    "text": "Chegaram rápido para buscar e entregaram no tempo combinado. Me passaram confiança do começo ao fim.",
+    "author": "Gustavo",
+    "citySlug": "campos-dos-goytacazes",
+    "type": "urgente",
+    "ts": 1770781017804,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_01",
+    "text": "Precisei de um frete rápido e me responderam bem rápido. Deu tudo certo na mudança.",
+    "author": "Rafael",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_02",
+    "text": "Preço justo e serviço bem organizado. Minhas coisas chegaram sem avaria.",
+    "author": "Camila",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_03",
+    "text": "Gostei da atenção na hora de carregar e descarregar. Foi bem tranquilo do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_04",
+    "text": "Agendamento fácil e sem enrolação. Chegaram no combinado e finalizaram rápido.",
+    "author": "Aline",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_05",
+    "text": "Fiz frete de alguns móveis e veio tudo bem amarrado. Passou confiança.",
+    "author": "Diego",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_06",
+    "text": "Atendimento simples e direto, sem complicação. Recomendo pra quem precisa de frete na região.",
+    "author": "Juliana",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_07",
+    "text": "Tinha medo de riscar o armário, mas cuidaram direitinho. Chegou inteiro.",
+    "author": "Felipe",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_08",
+    "text": "Boa comunicação durante o trajeto e sem surpresa no valor. Serviço honesto.",
+    "author": "Patricia",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_09",
+    "text": "Frete para levar eletros e deu tudo certo. Pontuais e prestativos.",
+    "author": "Gustavo",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_10",
+    "text": "O motorista foi paciente com a subida e ajudou na organização. Facilitou muito.",
+    "author": "Renata",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_11",
+    "text": "Contratei pra transportar mercadoria e chegou tudo certinho. Vou chamar de novo quando precisar.",
+    "author": "Lucas",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_duque-de-caxias_fretes_12",
+    "text": "Gostei porque avisaram antes de chegar. Carregaram com cuidado e sem correria.",
+    "author": "Fernanda",
+    "citySlug": "duque-de-caxias",
+    "type": "fretes",
+    "ts": 1770781037656,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_01",
+    "text": "Precisei de um frete rápido e me responderam na hora. Serviço bem organizado e sem dor de cabeça.",
+    "author": "Lucas",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_02",
+    "text": "Gostei da atenção na hora de carregar e descarregar. Tudo veio intacto e bem acomodado.",
+    "author": "Camila",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_03",
+    "text": "Preço justo e comunicação clara do começo ao fim. Recomendo pra quem precisa de frete em Joinville.",
+    "author": "Rafael",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_04",
+    "text": "Fizeram o transporte de alguns móveis e foi bem tranquilo. Foram cuidadosos com as quinas e portas.",
+    "author": "Fernanda",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_05",
+    "text": "Chegaram no combinado e finalizaram rápido. Ajudou muito na minha mudança pequena.",
+    "author": "Bruno",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_06",
+    "text": "Atendimento simples e direto, sem enrolação. O frete saiu como planejado e sem surpresas.",
+    "author": "Aline",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_07",
+    "text": "Tinha coisa frágil e eles acomodaram direitinho. Não quebrou nada e isso já valeu demais.",
+    "author": "Diego",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_08",
+    "text": "Fui atualizada durante o trajeto e isso me deixou mais tranquila. Entrega certinha.",
+    "author": "Patricia",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_09",
+    "text": "Precisava levar umas compras grandes e resolveram rápido. Bem prestativos na hora de subir com tudo.",
+    "author": "Gustavo",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_10",
+    "text": "O motorista foi educado e cuidadoso. Tudo chegou do jeito que saiu, sem arranhões.",
+    "author": "Juliana",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_11",
+    "text": "Agendamento fácil e pontualidade boa. Pra mim foi um frete bem resolvido.",
+    "author": "Henrique",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_joinville_fretes_12",
+    "text": "Fizeram o frete de última hora e mesmo assim deu certo. Comunicação bem alinhada.",
+    "author": "Beatriz",
+    "citySlug": "joinville",
+    "type": "fretes",
+    "ts": 1770781064525,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_01",
+    "text": "Combinei o frete e deu tudo certo, chegaram no horário e trataram minhas coisas com cuidado.",
+    "author": "Mariana",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_02",
+    "text": "Resposta rápida no Whats e preço bem combinado. A mudança foi bem tranquila.",
+    "author": "Rafael",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_03",
+    "text": "Precisava levar uns móveis e resolveram no mesmo dia. Motorista gente boa e cuidadoso.",
+    "author": "Camila",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_04",
+    "text": "Gostei da pontualidade e da atenção na hora de carregar e descarregar. Recomendo.",
+    "author": "Diego",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_05",
+    "text": "Fizeram o frete sem enrolação, do jeito que eu precisava. Tudo chegou certinho.",
+    "author": "Aline",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_06",
+    "text": "Tinha medo de arranhar o guarda-roupa, mas veio bem protegido e sem dano.",
+    "author": "Bruno",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_07",
+    "text": "Atendimento simples e direto, combinamos o valor antes e não teve surpresa.",
+    "author": "Juliana",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_08",
+    "text": "O rapaz ajudou a organizar as caixas no carro e foi bem cuidadoso. Valeu demais.",
+    "author": "Felipe",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_09",
+    "text": "Frete rápido e com boa comunicação. Me avisou quando estava chegando.",
+    "author": "Larissa",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_10",
+    "text": "Levaram minha geladeira com cuidado e paciência nas escadas. Deu tudo certo.",
+    "author": "Renata",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_11",
+    "text": "Serviço honesto, sem pressa e sem bagunça. Chegou tudo em ordem.",
+    "author": "Gustavo",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juazeiro-do-norte_fretes_12",
+    "text": "Fechei pra transportar umas peças de loja e foi bem prático. Cumpriram o combinado.",
+    "author": "Patricia",
+    "citySlug": "juazeiro-do-norte",
+    "type": "fretes",
+    "ts": 1770781084005,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_01",
+    "text": "Precisei de um frete urgente e foi bem mais rápido do que eu imaginava. Comunicação clara do começo ao fim.",
+    "author": "Mariana",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_02",
+    "text": "Resolveram meu transporte em cima da hora e deu tudo certo. Chegou direitinho e sem estresse.",
+    "author": "Gustavo",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_03",
+    "text": "Atendimento rápido no chat e coleta agilizada. Pra quem tá com pressa, ajuda demais.",
+    "author": "Camila",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_04",
+    "text": "Eu tava com prazo apertado e eles encaixaram o frete no mesmo dia. Bem organizado.",
+    "author": "Rafael",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_05",
+    "text": "Gostei porque passaram previsão realista e cumpriram. Entrega urgente sem complicação.",
+    "author": "Fernanda",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_06",
+    "text": "Precisava levar umas caixas com urgência e foi tudo bem combinado. Motorista educado e cuidadoso.",
+    "author": "Diego",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_07",
+    "text": "Responderam rápido e já deram o valor certinho. O frete saiu na hora e chegou ok.",
+    "author": "Aline",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_08",
+    "text": "Foi um socorro pra mim: peguei o serviço de última hora e conseguiram atender. Recomendo pela agilidade.",
+    "author": "Bruno",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_09",
+    "text": "Entrega urgente com acompanhamento e sem enrolação. Me passou confiança.",
+    "author": "Patricia",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_10",
+    "text": "Tive que mandar um item ainda hoje e eles deram um jeito. Tudo rápido e bem feito.",
+    "author": "Lucas",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_11",
+    "text": "O prazo era curto e mesmo assim deu certo. Foram bem cuidadosos no transporte.",
+    "author": "Juliana",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_juiz-de-fora_urgente_12",
+    "text": "Fechei o frete urgente e em poucos minutos já estavam a caminho. Atendimento bem prático.",
+    "author": "Renato",
+    "citySlug": "juiz-de-fora",
+    "type": "urgente",
+    "ts": 1770781109658,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_01",
+    "text": "Precisei de um frete em Limeira e deu tudo certo. Chegaram no horário combinado e cuidaram bem das caixas.",
+    "author": "Mariana",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_02",
+    "text": "Levaram meus móveis com cuidado e sem pressa. Gostei da organização na hora de acomodar tudo.",
+    "author": "Camila",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_03",
+    "text": "Combinei o horário e cumpriram direitinho. A equipe foi educada e resolveu sem complicação.",
+    "author": "Rafael",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_04",
+    "text": "Fiz frete de eletrodomésticos e veio tudo bem protegido. Comunicação clara e sem surpresas no valor.",
+    "author": "Juliana",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_05",
+    "text": "Precisava de ajuda com carga mais pesada e deram conta. Foram cuidadosos pra não riscar nada.",
+    "author": "Bruno",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_06",
+    "text": "Ótima opção pra mudança pequena. Foram ágeis e deixaram tudo no lugar certinho.",
+    "author": "Aline",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_07",
+    "text": "Chegaram no horário e finalizaram rápido. Gostei porque foram bem práticos na montagem da carga.",
+    "author": "Felipe",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_08",
+    "text": "Contratei pra levar uma cama e um guarda-roupa. Manusearam com cuidado e prenderam bem no veículo.",
+    "author": "Patricia",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_09",
+    "text": "Atendeu minha urgência no mesmo dia, dentro do que combinamos. Serviço honesto e bem feito.",
+    "author": "Gustavo",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_10",
+    "text": "Fizeram o frete de compras grandes e foi bem tranquilo. Vieram preparados e não danificou nada.",
+    "author": "Larissa",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_11",
+    "text": "Gostei da pontualidade e da forma como embalaram algumas peças. Deu pra confiar.",
+    "author": "Renato",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_limeira_fretes_12",
+    "text": "O motorista foi bem cuidadoso no trajeto e na descarga. Tudo chegou certinho em Limeira.",
+    "author": "Fernanda",
+    "citySlug": "limeira",
+    "type": "fretes",
+    "ts": 1770781130337,
     "source": "cliente"
   }
 ]

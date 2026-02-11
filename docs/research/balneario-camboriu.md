@@ -1,4 +1,4 @@
-### Research — BalneÃ¡rio CamboriÃº (SC)
+### Research — Balneário Camboriú (SC)
 
 Gerado em: 2026-02-06T14:43:28.737Z
 

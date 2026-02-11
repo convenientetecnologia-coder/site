@@ -1,4 +1,4 @@
-### Research — JoÃ£o Pessoa (PB)
+### Research — João Pessoa (PB)
 
 Gerado em: 2026-02-09T15:40:36.405Z
 

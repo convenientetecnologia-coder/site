@@ -1,4 +1,4 @@
-### Research — CuiabÃ¡ (MT)
+### Research — Cuiabá (MT)
 
 Gerado em: 2026-02-06T18:54:32.239Z
 

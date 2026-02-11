@@ -1,4 +1,4 @@
-### Research — FlorianÃ³polis (SC)
+### Research — Florianópolis (SC)
 
 Gerado em: 2026-02-06T00:31:51.445Z
 

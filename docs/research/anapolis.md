@@ -1,4 +1,4 @@
-### Research — AnÃ¡polis (GO)
+### Research — Anápolis (GO)
 
 Gerado em: 2026-02-06T14:11:10.009Z
 

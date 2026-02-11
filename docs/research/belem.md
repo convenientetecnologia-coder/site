@@ -1,4 +1,4 @@
-### Research — BelÃ©m (PA)
+### Research — Belém (PA)
 
 Gerado em: 2026-02-06T15:12:46.571Z
 

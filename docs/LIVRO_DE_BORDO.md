@@ -332,7 +332,7 @@ Regras:
   - `/frete-urgente-em-limeira/` (~3135 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
-  - Depoimentos: 35 (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `ab00bf6`
 
 - **Jundiaí (SP)** — publicado em 2026-02-09
@@ -350,7 +350,7 @@ Regras:
   - `/frete-urgente-em-juiz-de-fora/` (~3151 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 45 bairros divididos em 3 blocos únicos (15/15/15 por página)
-  - Depoimentos: 35 (12/12/11 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `be6d28b`
 
 - **Juazeiro do Norte (CE)** — publicado em 2026-02-09
@@ -359,7 +359,7 @@ Regras:
   - `/frete-urgente-em-juazeiro-do-norte/` (~3221 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 20 bairros divididos em 3 blocos únicos (6/7/7 por página)
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `4e42991`
 
 - **Joinville (SC)** — publicado em 2026-02-09
@@ -368,7 +368,7 @@ Regras:
   - `/frete-urgente-em-joinville/` (~3242 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 40 bairros divididos em 3 blocos únicos (13/13/14 por página)
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `d5dbb13`
 
 - **João Pessoa (PB)** — publicado em 2026-02-09
@@ -449,7 +449,7 @@ Regras:
   - `/frete-urgente-em-duque-de-caxias/` (~3386 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 30 bairros divididos em 3 blocos únicos
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `5ed044d`
 
 - **Curitiba (PR)** — publicado em 2026-02-06
@@ -503,7 +503,7 @@ Regras:
   - `/frete-urgente-em-campos-dos-goytacazes/` (~3402 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 38 bairros divididos em 3 blocos únicos
-  - 35 depoimentos (12/12/11 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `91f18c9`
 
 - **Campo Grande (MS)** — publicado em 2026-02-06
@@ -521,7 +521,7 @@ Regras:
   - `/frete-urgente-em-campinas/` (~3308 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 45 bairros divididos em 3 blocos únicos
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `e5bdc70`
 
 - **Campina Grande (PB)** — publicado em 2026-02-06
@@ -548,7 +548,7 @@ Regras:
   - `/frete-urgente-em-boa-vista/` (~3123 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 31 bairros divididos em 3 blocos únicos
-  - 35 depoimentos (12/12/11 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `96819b0`
 
 - **Blumenau (SC)** — publicado em 2026-02-06
@@ -566,7 +566,7 @@ Regras:
   - `/frete-urgente-em-belo-horizonte/` (~3150 palavras)
   - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
   - 45 bairros divididos em 3 blocos únicos
-  - 35 depoimentos (11/12/12 por tipo)
+  - 36 depoimentos (12 por tipo)
   - Commit: `e840571`
 
 - **Belém (PA)** — publicado em 2026-02-06
@@ -586,6 +586,24 @@ Regras:
   - 34 bairros divididos em 3 blocos únicos
   - 36 depoimentos (12 por tipo)
   - Commit: `d6e6faa`
+
+- **Balneário Camboriú (SC)** — publicado em 2026-02-06
+  - `/fretes-em-balneario-camboriu/` (~2905 palavras)
+  - `/mudancas-em-balneario-camboriu/` (~3085 palavras)
+  - `/frete-urgente-em-balneario-camboriu/` (~3239 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 18 bairros divididos em 3 blocos (6/6/6)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `5c064c3`
+
+- **Aracaju (SE)** — publicado em 2026-02-06
+  - `/fretes-em-aracaju/` (~3301 palavras)
+  - `/mudancas-em-aracaju/` (~2739 palavras)
+  - `/frete-urgente-em-aracaju/` (~3022 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 34 bairros divididos em 3 blocos (11/11/12)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `003e6f9`
 
 - **Anápolis (GO)** — publicado em 2026-02-06
   - `/fretes-em-anapolis/` (~2829 palavras)

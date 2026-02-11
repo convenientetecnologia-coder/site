@@ -1,6 +1,6 @@
 {
   "florianopolis": {
-    "city": "FlorianÃ³polis",
+    "city": "Florianópolis",
     "state": "SC",
     "all": [
       "Centro",
@@ -111,7 +111,7 @@
     }
   },
   "sao-paulo": {
-    "city": "SÃ£o Paulo",
+    "city": "São Paulo",
     "state": "SP",
     "all": [
       "Sé",
@@ -333,7 +333,7 @@
     }
   },
   "anapolis": {
-    "city": "AnÃ¡polis",
+    "city": "Anápolis",
     "state": "GO",
     "all": [
       "Centro",
@@ -483,7 +483,7 @@
     }
   },
   "balneario-camboriu": {
-    "city": "BalneÃ¡rio CamboriÃº",
+    "city": "Balneário Camboriú",
     "state": "SC",
     "all": [
       "Centro",
@@ -629,7 +629,7 @@
     }
   },
   "belem": {
-    "city": "BelÃ©m",
+    "city": "Belém",
     "state": "PA",
     "all": [
       "Campina",
@@ -997,7 +997,7 @@
     }
   },
   "brasilia": {
-    "city": "BrasÃ­lia",
+    "city": "Brasília",
     "state": "DF",
     "all": [
       "Asa Norte",
@@ -1743,7 +1743,7 @@
     }
   },
   "cuiaba": {
-    "city": "CuiabÃ¡",
+    "city": "Cuiabá",
     "state": "MT",
     "all": [
       "Centro",
@@ -2157,7 +2157,7 @@
     }
   },
   "foz-do-iguacu": {
-    "city": "Foz do IguaÃ§u",
+    "city": "Foz do Iguaçu",
     "state": "PR",
     "all": [
       "Centro",
@@ -2335,7 +2335,7 @@
     }
   },
   "goiania": {
-    "city": "GoiÃ¢nia",
+    "city": "Goiânia",
     "state": "GO",
     "all": [
       "Centro",
@@ -2667,7 +2667,7 @@
     }
   },
   "joao-pessoa": {
-    "city": "JoÃ£o Pessoa",
+    "city": "João Pessoa",
     "state": "PB",
     "all": [
       "Centro",
@@ -3384,7 +3384,7 @@
     }
   },
   "macapa": {
-    "city": "MacapÃ¡",
+    "city": "Macapá",
     "state": "AP",
     "all": [
       "Centro",
