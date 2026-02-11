@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] Serra (ES): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Serra com sistema 100% GPT:
+  - `/fretes-em-serra/` (~2944 palavras)
+  - `/mudancas-em-serra/` (~2849 palavras)
+  - `/frete-urgente-em-serra/` (~3129 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 41 divididos em 3 blocos (13/14/14)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (5 títulos duplicados ajustados em `serra.json`)
+- **Por quê**: expandir cobertura orgânica no ES seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `edca3c3` (repo `site`)
+  - `src/_data/city_content/serra.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (serra habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `serra` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] São Luís (MA): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de São Luís com sistema 100% GPT:

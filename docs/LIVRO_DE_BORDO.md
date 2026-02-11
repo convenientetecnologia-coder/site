@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Serra (ES)** — publicado em 2026-02-11
+  - `/fretes-em-serra/` (~2944 palavras)
+  - `/mudancas-em-serra/` (~2849 palavras)
+  - `/frete-urgente-em-serra/` (~3129 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 41 bairros divididos em 3 blocos (13/14/14)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `edca3c3`
+
 - **São Luís (MA)** — publicado em 2026-02-11
   - `/fretes-em-sao-luis/` (~2940 palavras)
   - `/mudancas-em-sao-luis/` (~3140 palavras)
