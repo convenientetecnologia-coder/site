@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-11T01:54:57.064Z",
+  "generatedAt": "2026-02-11T02:19:42.848Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -569,6 +569,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-taubate/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-taubate/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-taubate/"
+      }
+    },
+    {
+      "slug": "teresina",
+      "name": "Teresina",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-teresina/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-teresina/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-teresina/"
       }
     }
   ]

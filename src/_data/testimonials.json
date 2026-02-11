@@ -20320,5 +20320,329 @@
     "type": "urgente",
     "ts": 1770774611304,
     "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_01",
+    "text": "Combinei o frete pelo WhatsApp e foi tudo bem tranquilo. Chegaram no horário e levaram minhas coisas com cuidado.",
+    "author": "Camila",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_02",
+    "text": "Precisava de um frete rápido e responderam bem ligeiro. Preço justo e sem enrolação.",
+    "author": "Diego",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_03",
+    "text": "O motorista foi bem paciente na hora de carregar e ajudou a organizar no baú. Recomendo pela atenção.",
+    "author": "Larissa",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_04",
+    "text": "Fiz mudança pequena e deu tudo certo. Comunicação clara e entrega sem estresse.",
+    "author": "João",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_05",
+    "text": "Gostei porque foram cuidadosos com os móveis e não arrastaram nada. Serviço caprichado.",
+    "author": "Marina",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_06",
+    "text": "Agendei para o mesmo dia e conseguiram me atender. Chegou tudo certinho no destino.",
+    "author": "Rafael",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_07",
+    "text": "O frete foi bem combinado do começo ao fim. Sem surpresas no valor e com pontualidade.",
+    "author": "Bruna",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_08",
+    "text": "Transportaram minhas caixas e eletros com bastante cuidado. Atendimento simples e eficiente.",
+    "author": "Felipe",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_09",
+    "text": "Eu estava com receio por causa do horário, mas foram bem flexíveis. Facilitou muito minha mudança.",
+    "author": "Aline",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_10",
+    "text": "Chegaram, carregaram rápido e ainda prenderam tudo direitinho. Viagem tranquila.",
+    "author": "Gustavo",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_11",
+    "text": "Precisei levar um sofá e uma geladeira e foi bem de boa. Motorista educado e prestativo.",
+    "author": "Patrícia",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_fretes_12",
+    "text": "Atendimento bom e direto, sem complicação. Para frete em Teresina, me atendeu super bem.",
+    "author": "Tiago",
+    "citySlug": "teresina",
+    "type": "fretes",
+    "ts": 1770776162374,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_01",
+    "text": "Minha mudança em Teresina foi bem tranquila. Chegaram no horário e cuidaram direitinho dos móveis.",
+    "author": "Camila",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_02",
+    "text": "Gostei da organização na hora de carregar e descarregar. Tudo veio certinho e sem estresse.",
+    "author": "Rafael",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_03",
+    "text": "Responderam rápido no orçamento e cumpriram o que foi combinado. Serviço bem honesto.",
+    "author": "Juliana",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_04",
+    "text": "Eu estava com medo de quebrar coisas, mas embalaram bem e tiveram cuidado com as caixas.",
+    "author": "Marcos",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_05",
+    "text": "A equipe foi educada e ágil. Em poucas horas já estava tudo no novo lugar.",
+    "author": "Aline",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_06",
+    "text": "Mudança de apartamento deu certo e sem bagunça. Foram bem cuidadosos com o elevador e as paredes.",
+    "author": "Fernanda",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_07",
+    "text": "Preço justo e atendimento simples, sem enrolação. Recomendo pra quem vai se mudar em Teresina.",
+    "author": "Bruno",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_08",
+    "text": "Tinha móvel pesado e eles deram conta numa boa. Passaram confiança do começo ao fim.",
+    "author": "Patricia",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_09",
+    "text": "Chegaram com os materiais de proteção e isso ajudou muito. Nada arranhou na mudança.",
+    "author": "Diego",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_10",
+    "text": "Foram pontuais e cuidadosos com os eletros. A comunicação durante o serviço foi bem tranquila.",
+    "author": "Larissa",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_11",
+    "text": "Minha mudança foi bem combinada e sem surpresa no final. Trabalho caprichado.",
+    "author": "Gustavo",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_mudancas_12",
+    "text": "Eu precisava de ajuda pra desmontar e montar, e resolveram tudo direitinho. Facilitou demais.",
+    "author": "Renata",
+    "citySlug": "teresina",
+    "type": "mudancas",
+    "ts": 1770776173295,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_01",
+    "text": "Achei que não ia dar tempo, mas o frete foi bem ágil e sem complicação. Atendimento bem direto.",
+    "author": "Rafael",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_02",
+    "text": "Solicitei em cima da hora e mesmo assim foi tranquilo. Chegou dentro do combinado.",
+    "author": "Camila",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_03",
+    "text": "O motorista foi pontual e cuidadoso com as caixas. Pra urgência, resolveu meu problema.",
+    "author": "Bruno",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_04",
+    "text": "Gostei porque passaram o valor antes e não teve surpresa. Pra frete urgente, foi bem organizado.",
+    "author": "Aline",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_05",
+    "text": "Eu estava com pressa e eles agilizaram tudo pelo chat. Serviço rápido e bem prático.",
+    "author": "Diego",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_06",
+    "text": "Pegaram a encomenda rápido e mantiveram contato durante o trajeto. Me deixou mais tranquila.",
+    "author": "Juliana",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_07",
+    "text": "Foi a primeira vez que usei e funcionou bem. Atendimento educado e entrega sem demora.",
+    "author": "Felipe",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_08",
+    "text": "Precisava entregar uns documentos urgente e foi bem simples de acertar. Chegou certinho.",
+    "author": "Larissa",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_09",
+    "text": "Chamamos com urgência e veio bem rápido. O cuidado no transporte me passou confiança.",
+    "author": "Gustavo",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_10",
+    "text": "O frete urgente salvou meu dia. Combinaram tudo rápido e cumpriram o que falaram.",
+    "author": "Patricia",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_11",
+    "text": "Mesmo sendo em cima da hora, foi fácil de resolver. Chegou no prazo que a gente combinou.",
+    "author": "Tiago",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_teresina_urgente_12",
+    "text": "Precisava buscar e entregar no mesmo dia e foi tudo bem alinhado. Rápidos e cuidadosos com os volumes.",
+    "author": "Marcos",
+    "citySlug": "teresina",
+    "type": "urgente",
+    "ts": 1770776322164,
+    "source": "cliente"
   }
 ]
