@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **São Gonçalo (RJ)** — publicado em 2026-02-11
+  - `/fretes-em-sao-goncalo/` (~3070 palavras)
+  - `/mudancas-em-sao-goncalo/` (~3139 palavras)
+  - `/frete-urgente-em-sao-goncalo/` (~3187 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 38 bairros divididos em 3 blocos (12/13/13)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `7f7dfea`
+
 - **Santos (SP)** — publicado em 2026-02-10
   - `/fretes-em-santos/` (~3015 palavras)
   - `/mudancas-em-santos/` (~2875 palavras)

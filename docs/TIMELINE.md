@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] São Gonçalo (RJ): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de São Gonçalo com sistema 100% GPT:
+  - `/fretes-em-sao-goncalo/` (~3070 palavras)
+  - `/mudancas-em-sao-goncalo/` (~3139 palavras)
+  - `/frete-urgente-em-sao-goncalo/` (~3187 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 38 divididos em 3 blocos (12/13/13)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (5 títulos duplicados ajustados em `sao-goncalo.json`)
+- **Por quê**: expandir cobertura orgânica na Região Metropolitana do RJ seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `7f7dfea` (repo `site`)
+  - `src/_data/city_content/sao-goncalo.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (sao-goncalo habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `sao-goncalo` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-10 — [SITE] Santos (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Santos com sistema 100% GPT:
