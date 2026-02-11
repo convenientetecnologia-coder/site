@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Sorocaba (SP)** — publicado em 2026-02-11
+  - `/fretes-em-sorocaba/` (~3022 palavras)
+  - `/mudancas-em-sorocaba/` (~2941 palavras)
+  - `/frete-urgente-em-sorocaba/` (~3310 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `2cea194`
+
 - **Serra (ES)** — publicado em 2026-02-11
   - `/fretes-em-serra/` (~2944 palavras)
   - `/mudancas-em-serra/` (~2849 palavras)

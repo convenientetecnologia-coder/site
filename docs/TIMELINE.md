@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] Sorocaba (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Sorocaba com sistema 100% GPT:
+  - `/fretes-em-sorocaba/` (~3022 palavras)
+  - `/mudancas-em-sorocaba/` (~2941 palavras)
+  - `/frete-urgente-em-sorocaba/` (~3310 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (9 títulos duplicados ajustados em `sorocaba.json`)
+- **Por quê**: expandir cobertura orgânica em SP seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `2cea194` (repo `site`)
+  - `src/_data/city_content/sorocaba.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (sorocaba habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `sorocaba` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] Serra (ES): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Serra com sistema 100% GPT:
