@@ -16,10 +16,14 @@ eleventyExcludeFromCollections: false
   <meta property="og:url" content="{{ site.siteUrl }}">
   <meta property="og:type" content="website">
 
+  {# SEO: a home (autoatendimento) NÃO deve indexar no Google.
+     Mantemos acessível para tráfego direto (ex.: anúncios/Facebook), mas com noindex.
+     Em production: noindex,follow para permitir descoberta de links internos.
+  #}
   {% if publish.mode != "production" %}
     <meta name="robots" content="noindex,nofollow" />
   {% else %}
-    <meta name="robots" content="index,follow" />
+    <meta name="robots" content="noindex,follow" />
   {% endif %}
 
   <style>

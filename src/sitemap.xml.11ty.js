@@ -19,7 +19,7 @@ module.exports = class {
     // As páginas de cidade são geradas via pagination e o Eleventy não inclui todas as páginas paginadas em collections.all por padrão.
     // Resultado: sitemap incompleto (apenas a primeira cidade). Por isso, usamos a mesma fonte canônica do `site_manifest.json`.
     const urls = [];
-    urls.push("/");
+    // SEO: a home é autoatendimento (não é foco orgânico), então não listamos no sitemap.
     urls.push("/cidades/");
     urls.push("/politica-de-privacidade.html");
     urls.push("/termos-de-uso.html");

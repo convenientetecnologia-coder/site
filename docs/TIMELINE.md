@@ -9,6 +9,18 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SEO] Home (`/`) fora do Google: `noindex` + removida do sitemap
+
+- **O que**:
+  - A home (`/`) é uma página de **autoatendimento** usada para tráfego direto (ex.: Facebook), então foi marcada como **`noindex,follow`** em production.
+  - A URL `/` foi removida do `sitemap.xml` (mantendo `/cidades/`, páginas legais e todas as páginas de cidade).
+- **Por quê**: evitar que o Google use a home como “porta de entrada” orgânica e concentrar crawl/indexação nas páginas de cidade.
+- **Evidência**:
+  - `src/index.njk` (meta robots da home)
+  - `src/sitemap.xml.11ty.js` (remoção da home do sitemap)
+
+---
+
 #### 2026-02-11 — [SITE] Vitória da Conquista (BA): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Vitória da Conquista com sistema 100% GPT:
