@@ -20968,5 +20968,329 @@
     "type": "urgente",
     "ts": 1770776957769,
     "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_01",
+    "text": "Minha mudança em Vila Velha foi bem tranquila. Chegaram no horário e embalaram tudo com cuidado.",
+    "author": "Mariana",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_02",
+    "text": "Equipe educada e organizada. Passaram confiança do começo ao fim da mudança.",
+    "author": "Rafael",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_03",
+    "text": "Tinha móveis grandes e achei que ia dar dor de cabeça, mas resolveram rapidinho e sem bagunça.",
+    "author": "Camila",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_04",
+    "text": "Gostei da comunicação: combinaram tudo certinho e foram atualizando durante o trajeto.",
+    "author": "Bruno",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_05",
+    "text": "Cuidaram bem das caixas e dos eletros. No final, nada quebrado e tudo no lugar.",
+    "author": "Fernanda",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_06",
+    "text": "Preço justo e serviço caprichado. A mudança foi mais leve do que eu imaginava.",
+    "author": "Diego",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_07",
+    "text": "Pontuais e bem preparados. Até ajudaram a proteger as paredes na hora de tirar os móveis.",
+    "author": "Juliana",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_08",
+    "text": "Respondeu rápido no orçamento e cumpriu o combinado. Recomendo pra quem vai se mudar em Vila Velha.",
+    "author": "Lucas",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_09",
+    "text": "Fizeram a desmontagem e montagem direitinho. Deu tudo certo e sem estresse.",
+    "author": "Patricia",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_10",
+    "text": "Eu estava com pouco tempo e eles agilizaram tudo. Atendimento bem atencioso.",
+    "author": "Gustavo",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_11",
+    "text": "Vieram com materiais pra embalar e isso ajudou demais. Serviço bem cuidadoso.",
+    "author": "Aline",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_mudancas_12",
+    "text": "Mudança de apartamento com escada e foi bem mais fácil do que eu esperava. Pessoal experiente.",
+    "author": "Renato",
+    "citySlug": "vila-velha",
+    "type": "mudancas",
+    "ts": 1770778178306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_01",
+    "text": "Resposta rápida no WhatsApp e preço bem justo. A mudança foi bem mais tranquila.",
+    "author": "Lucas",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_02",
+    "text": "Precisava levar um móvel e eles vieram no mesmo dia. Tudo bem embalado e sem dor de cabeça.",
+    "author": "Renata",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_03",
+    "text": "Gostei da pontualidade e do cuidado pra subir com as coisas. Atendimento bem educado.",
+    "author": "Diego",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_04",
+    "text": "O motorista foi bem paciente e ajudou a organizar no caminhão. Chegou tudo certinho.",
+    "author": "Camila",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_05",
+    "text": "Fechamos o valor antes e não teve surpresa. Serviço simples e bem feito.",
+    "author": "Bruno",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_06",
+    "text": "Fizeram o frete de eletrodomésticos com bastante cuidado. Recomendo pra quem quer evitar estresse.",
+    "author": "Patricia",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_07",
+    "text": "Tive que remarcar o horário e foi bem tranquilo. Atendimento flexível e rápido.",
+    "author": "Rafael",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_08",
+    "text": "Chegaram, carregaram tudo direitinho e foram bem ágeis. Pra mim valeu muito.",
+    "author": "Juliana",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_09",
+    "text": "Usei pra buscar uma compra grande e funcionou perfeito. Comunicação clara do começo ao fim.",
+    "author": "Thiago",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_10",
+    "text": "O frete foi cuidadoso com minhas plantas e itens frágeis. Achei bem caprichado.",
+    "author": "Aline",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_11",
+    "text": "Gostei porque avisaram quando estavam a caminho. Deu pra me organizar sem correria.",
+    "author": "Fernando",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_fretes_12",
+    "text": "Carregaram e descarregaram com atenção, sem arrastar os móveis. Serviço bem respeitoso.",
+    "author": "Beatriz",
+    "citySlug": "vila-velha",
+    "type": "fretes",
+    "ts": 1770778341959,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_01",
+    "text": "Precisava do frete pra ontem e deu tudo certo. Chegou rápido e sem dor de cabeça.",
+    "author": "Marina",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_02",
+    "text": "Responderam na hora e já combinaram a coleta. Serviço bem ágil e organizado.",
+    "author": "Bruno",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_03",
+    "text": "Foi um frete urgente e me salvaram no prazo. Motorista educado e cuidadoso com as caixas.",
+    "author": "Camila",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_04",
+    "text": "Gostei da comunicação, foi tudo bem alinhado. Entrega rápida e sem enrolação.",
+    "author": "Diego",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_05",
+    "text": "Chamei em cima da hora e conseguiram encaixar. Chegou certinho e sem danos.",
+    "author": "Aline",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_06",
+    "text": "Atendimento direto ao ponto e preço combinado. Para urgência, funcionou muito bem.",
+    "author": "Rafael",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_07",
+    "text": "Precisava enviar umas coisas com pressa e foi tranquilo. Atualizaram o andamento e entregaram rápido.",
+    "author": "Juliana",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_08",
+    "text": "O frete foi rápido e o cuidado com a carga me deixou mais tranquilo. Recomendo pra quem tá com urgência.",
+    "author": "Fernando",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_09",
+    "text": "Chegaram no horário combinado e resolveram meu aperto. Bem prático do início ao fim.",
+    "author": "Patricia",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_10",
+    "text": "Tive uma emergência e eles deram conta. Agilidade sem bagunça, gostei bastante.",
+    "author": "Gustavo",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_11",
+    "text": "Pedi frete urgente e não demorou pra confirmarem. Entrega rápida e atendimento simpático.",
+    "author": "Larissa",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vila-velha_urgente_12",
+    "text": "Foi tudo bem rápido: orçamento, coleta e entrega. Me passou confiança.",
+    "author": "Henrique",
+    "citySlug": "vila-velha",
+    "type": "urgente",
+    "ts": 1770778358355,
+    "source": "cliente"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-11T02:39:36.608Z",
+  "generatedAt": "2026-02-11T02:53:11.004Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -587,6 +587,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-uberlandia/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-uberlandia/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-uberlandia/"
+      }
+    },
+    {
+      "slug": "vila-velha",
+      "name": "Vila Velha",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-vila-velha/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-vila-velha/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-vila-velha/"
       }
     }
   ]
