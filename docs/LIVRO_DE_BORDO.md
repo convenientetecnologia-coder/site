@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Vila Velha (ES)** — publicado em 2026-02-11
+  - `/fretes-em-vila-velha/` (~2982 palavras)
+  - `/mudancas-em-vila-velha/` (~3199 palavras)
+  - `/frete-urgente-em-vila-velha/` (~3271 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `6864c23`
+
 - **Uberlândia (MG)** — publicado em 2026-02-11
   - `/fretes-em-uberlandia/` (~3087 palavras)
   - `/mudancas-em-uberlandia/` (~3227 palavras)

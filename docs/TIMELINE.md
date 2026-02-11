@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] Vila Velha (ES): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Vila Velha com sistema 100% GPT:
+  - `/fretes-em-vila-velha/` (~2982 palavras)
+  - `/mudancas-em-vila-velha/` (~3199 palavras)
+  - `/frete-urgente-em-vila-velha/` (~3271 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (8 títulos duplicados ajustados em `vila-velha.json`; depoimentos normalizados para 12/12/12)
+- **Por quê**: expandir cobertura orgânica no ES seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `6864c23` (repo `site`)
+  - `src/_data/city_content/vila-velha.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (vila-velha habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `vila-velha` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] Uberlândia (MG): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Uberlândia com sistema 100% GPT:
