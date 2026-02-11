@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] Uberlândia (MG): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Uberlândia com sistema 100% GPT:
+  - `/fretes-em-uberlandia/` (~3087 palavras)
+  - `/mudancas-em-uberlandia/` (~3227 palavras)
+  - `/frete-urgente-em-uberlandia/` (~3091 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (6 títulos duplicados ajustados em `uberlandia.json` + correção de encoding “Uberlândia”)
+- **Por quê**: expandir cobertura orgânica em MG seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `da02a6c` (repo `site`)
+  - `src/_data/city_content/uberlandia.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (uberlandia habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `uberlandia` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] Teresina (PI): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Teresina com sistema 100% GPT:

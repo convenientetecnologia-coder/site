@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Uberlândia (MG)** — publicado em 2026-02-11
+  - `/fretes-em-uberlandia/` (~3087 palavras)
+  - `/mudancas-em-uberlandia/` (~3227 palavras)
+  - `/frete-urgente-em-uberlandia/` (~3091 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `da02a6c`
+
 - **Teresina (PI)** — publicado em 2026-02-11
   - `/fretes-em-teresina/` (~3203 palavras)
   - `/mudancas-em-teresina/` (~3139 palavras)
