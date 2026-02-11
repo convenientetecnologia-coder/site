@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] São José dos Campos (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de São José dos Campos com sistema 100% GPT:
+  - `/fretes-em-sao-jose-dos-campos/` (~2908 palavras)
+  - `/mudancas-em-sao-jose-dos-campos/` (~2793 palavras)
+  - `/frete-urgente-em-sao-jose-dos-campos/` (~3304 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (7 títulos duplicados ajustados em `sao-jose-dos-campos.json`)
+- **Por quê**: expandir cobertura orgânica na RMVale/SP seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `5ad307d` (repo `site`)
+  - `src/_data/city_content/sao-jose-dos-campos.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (sao-jose-dos-campos habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `sao-jose-dos-campos` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] São José do Rio Preto (SP): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de São José do Rio Preto com sistema 100% GPT:

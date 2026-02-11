@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **São José dos Campos (SP)** — publicado em 2026-02-11
+  - `/fretes-em-sao-jose-dos-campos/` (~2908 palavras)
+  - `/mudancas-em-sao-jose-dos-campos/` (~2793 palavras)
+  - `/frete-urgente-em-sao-jose-dos-campos/` (~3304 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `5ad307d`
+
 - **São José do Rio Preto (SP)** — publicado em 2026-02-11
   - `/fretes-em-sao-jose-do-rio-preto/` (~2874 palavras)
   - `/mudancas-em-sao-jose-do-rio-preto/` (~3234 palavras)
