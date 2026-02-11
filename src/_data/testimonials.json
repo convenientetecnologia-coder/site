@@ -19024,5 +19024,329 @@
     "type": "urgente",
     "ts": 1770770495730,
     "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_01",
+    "text": "Minha mudança em São Luís foi bem organizada e sem correria. Chegaram no horário combinado e cuidaram bem dos móveis.",
+    "author": "Camila",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_02",
+    "text": "Gostei da atenção com as caixas e com a geladeira, tudo veio direitinho. O orçamento foi claro e sem surpresas.",
+    "author": "Rafael",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_03",
+    "text": "Equipe educada e ágil, ajudou até a posicionar os móveis no final. Deu tudo certo do começo ao fim.",
+    "author": "Juliana",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_04",
+    "text": "Respondeu rápido no WhatsApp e tirou minhas dúvidas antes do dia. A mudança foi tranquila e bem combinada.",
+    "author": "Bruno",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_05",
+    "text": "Eu estava com medo de quebrar coisas, mas embalaram bem e foram cuidadosos. Chegou tudo inteiro.",
+    "author": "Mariana",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_06",
+    "text": "Pontuais e organizados, carregaram e descarregaram sem bagunça. Achei o serviço bem profissional.",
+    "author": "Diego",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_07",
+    "text": "A mudança foi mais rápida do que eu esperava, sem pressa exagerada. Tratamento ótimo com meus móveis.",
+    "author": "Larissa",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_08",
+    "text": "Fizeram a desmontagem e montagem com calma e capricho. Isso me salvou bastante no dia da mudança.",
+    "author": "Renato",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_09",
+    "text": "Mesmo com chuva leve, eles se viraram e protegeram tudo. Chegou seco e sem danos.",
+    "author": "Patricia",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_10",
+    "text": "Gostei porque mantiveram tudo organizado por cômodo e ficou fácil de conferir. Atendimento bem atencioso.",
+    "author": "Felipe",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_11",
+    "text": "Preço justo pelo que entregaram e comunicação simples. Recomendo pra quem quer evitar dor de cabeça.",
+    "author": "Aline",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_mudancas_12",
+    "text": "Tinha item pesado e eles deram conta com cuidado, sem arranhar paredes. Serviço bem feito.",
+    "author": "Gustavo",
+    "citySlug": "sao-luis",
+    "type": "mudancas",
+    "ts": 1770771246567,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_01",
+    "text": "Precisei de um frete urgente e deu tudo certo. Responderam rápido e a entrega foi bem mais ágil do que eu esperava.",
+    "author": "Mariana",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_02",
+    "text": "Atendimento bem direto e sem enrolação. Pegaram a encomenda rápido e me atualizaram durante o trajeto.",
+    "author": "Rafael",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_03",
+    "text": "Tava com prazo apertado e o frete resolveu. Chegou no mesmo dia e o combinado foi cumprido.",
+    "author": "Camila",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_04",
+    "text": "Gostei da agilidade e do cuidado com as caixas. Foi um alívio ver que chegou tudo certinho.",
+    "author": "Bruno",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_05",
+    "text": "Solicitei em cima da hora e mesmo assim conseguiram atender. Comunicação fácil e entrega tranquila.",
+    "author": "Aline",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_06",
+    "text": "Preço justo pelo serviço urgente e sem surpresas. O motorista foi educado e pontual na coleta.",
+    "author": "Diego",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_07",
+    "text": "Eu precisava mandar uns documentos com urgência e foi bem rápido. Me passaram o prazo e cumpriram.",
+    "author": "Fernanda",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_08",
+    "text": "Serviço prático: pedi, confirmaram e já vieram buscar. Chegou no destino dentro do horário combinado.",
+    "author": "Lucas",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_09",
+    "text": "Foi a primeira vez que usei e me passou confiança. Resolveram meu frete urgente sem complicação.",
+    "author": "Juliana",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_10",
+    "text": "A entrega era urgente e eu tava preocupado, mas foi tudo bem organizado. Avisaram quando saiu e quando chegou.",
+    "author": "Gustavo",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_11",
+    "text": "Atenderam rápido e foram bem cuidadosos com o pacote. Chegou direitinho e dentro do prazo que falaram.",
+    "author": "Patricia",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_urgente_12",
+    "text": "Precisava de agilidade pra não perder uma entrega importante. O serviço foi rápido e o atendimento bem atencioso.",
+    "author": "Thiago",
+    "citySlug": "sao-luis",
+    "type": "urgente",
+    "ts": 1770771257335,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_01",
+    "text": "Combinei o frete pelo Whats e chegou no horário certinho. Motorista educado e cuidadoso com as caixas.",
+    "author": "Mariana",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_02",
+    "text": "Precisava levar uns móveis e foi tudo bem organizado. A equipe carregou com cuidado e sem pressa.",
+    "author": "Rafael",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_03",
+    "text": "Preço justo e comunicação fácil. Me avisaram quando estavam chegando e deu tudo certo.",
+    "author": "Camila",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_04",
+    "text": "Fiz o frete de última hora e conseguiram encaixar. Atendimento rápido e bem tranquilo.",
+    "author": "Bruno",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_05",
+    "text": "Gostei da pontualidade e do cuidado pra não riscar nada. Recomendo pra quem precisa de frete na cidade.",
+    "author": "Aline",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_06",
+    "text": "Levaram minhas coisas com bastante atenção e amarraram tudo direitinho. Chegou tudo intacto.",
+    "author": "Diego",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_07",
+    "text": "Foi bem combinado do começo ao fim. Sem enrolação e com atualização durante o trajeto.",
+    "author": "Larissa",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_08",
+    "text": "Contratei pra transportar eletros e deu certo. Vieram preparados e manusearam com cuidado.",
+    "author": "Felipe",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_09",
+    "text": "Serviço simples e eficiente. Cumpriram o que foi combinado e ajudaram na organização do carregamento.",
+    "author": "Juliana",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_10",
+    "text": "O frete saiu no horário e a entrega foi rápida. Gostei da atenção nos detalhes.",
+    "author": "Gustavo",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_11",
+    "text": "Tinha medo de quebrar minhas coisas, mas foi tudo bem protegido. Chegou sem danos.",
+    "author": "Patrícia",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_sao-luis_fretes_12",
+    "text": "Atendimento bem de boa e direto. Resolveram meu transporte sem complicação.",
+    "author": "Renan",
+    "citySlug": "sao-luis",
+    "type": "fretes",
+    "ts": 1770771507170,
+    "source": "cliente"
   }
 ]
