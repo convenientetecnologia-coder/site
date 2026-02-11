@@ -21292,5 +21292,329 @@
     "type": "urgente",
     "ts": 1770778358355,
     "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. O pessoal foi cuidadoso com as caixas e facilitou bastante minha mudança.",
+    "author": "Mariana",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_02",
+    "text": "Resposta rápida no Whats e preço bem justo. Deu tudo certo do início ao fim, sem dor de cabeça.",
+    "author": "Lucas",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_03",
+    "text": "Precisava levar uns móveis e eles foram bem organizados na hora de carregar. Chegou tudo inteiro.",
+    "author": "Fernanda",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_04",
+    "text": "Gostei da pontualidade e do cuidado com a embalagem. O frete foi tranquilo e bem combinado.",
+    "author": "Rafael",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_05",
+    "text": "Atendimento simples e direto, sem enrolação. Resolveram meu frete no mesmo dia e foi bem prático.",
+    "author": "Camila",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_06",
+    "text": "Transportaram minha geladeira com bastante cuidado. Foram educados e deixaram tudo no lugar certinho.",
+    "author": "Diego",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_07",
+    "text": "Fiz o orçamento e já alinharam os detalhes rapidinho. Chegaram no horário e trabalharam com atenção.",
+    "author": "Aline",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_08",
+    "text": "Tinha medo de arranhar os móveis, mas eles protegeram bem. No final, ficou tudo ok.",
+    "author": "Bruno",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_09",
+    "text": "O motorista foi paciente e ajudou a organizar a carga. Frete sem estresse, do jeito que eu precisava.",
+    "author": "Patricia",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_10",
+    "text": "Levaram minhas coisas com cuidado e sem pressa exagerada. Gostei da comunicação durante o serviço.",
+    "author": "João",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_11",
+    "text": "Combinei o horário e cumpriram direitinho. A equipe foi ágil e cuidadosa na descarga.",
+    "author": "Juliana",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_fretes_12",
+    "text": "Frete para poucas coisas, mas me atenderam mesmo assim. Foi rápido, bem feito e com bom custo.",
+    "author": "Gustavo",
+    "citySlug": "vitoria-da-conquista",
+    "type": "fretes",
+    "ts": 1770778982256,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_01",
+    "text": "A equipe chegou no horário e cuidou bem dos móveis. A mudança foi bem mais tranquila do que eu esperava.",
+    "author": "Mariana",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_02",
+    "text": "Responderam rápido e combinaram tudo direitinho. Nada quebrou e entregaram tudo organizado.",
+    "author": "Rafael",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_03",
+    "text": "Gostei do cuidado com as caixas e com a geladeira. Foram educados e trabalharam sem enrolação.",
+    "author": "Camila",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_04",
+    "text": "Preço justo e serviço bem feito. Me passaram confiança do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_05",
+    "text": "Eu estava preocupada com a escada do prédio, mas eles resolveram com calma e sem danos. Recomendo.",
+    "author": "Aline",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_06",
+    "text": "Pontuais e bem organizados. A desmontagem e montagem dos móveis foi bem feita.",
+    "author": "Diego",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_07",
+    "text": "Atendimento simples e direto, sem complicação. A mudança saiu no tempo combinado.",
+    "author": "Fernanda",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_08",
+    "text": "Cuidaram bem do sofá e dos itens frágeis. Deu tudo certo e sem estresse.",
+    "author": "Juliana",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_09",
+    "text": "Achei a equipe bem cuidadosa e respeitosa. Foram avisando cada etapa e isso ajudou muito.",
+    "author": "Lucas",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_10",
+    "text": "Tinha muita coisa e mesmo assim organizaram tudo no caminhão direitinho. Chegou tudo inteiro.",
+    "author": "Patricia",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_11",
+    "text": "Gostei da comunicação, tiraram minhas dúvidas antes e durante. Serviço bem combinado e eficiente.",
+    "author": "Gustavo",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_mudancas_12",
+    "text": "Fizeram a mudança do apartamento sem bagunça e com cuidado. No final, deixaram tudo no lugar que pedi.",
+    "author": "Renata",
+    "citySlug": "vitoria-da-conquista",
+    "type": "mudancas",
+    "ts": 1770778991509,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_01",
+    "text": "Precisava do frete pra ontem e deu tudo certo. Responderam rápido e combinaram o horário direitinho.",
+    "author": "Camila",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_02",
+    "text": "Chamei em cima da hora e mesmo assim atenderam. A entrega foi bem ágil e sem dor de cabeça.",
+    "author": "Rafael",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_03",
+    "text": "Serviço de frete urgente bem organizado. Chegou no prazo que me passaram e com boa comunicação.",
+    "author": "Juliana",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_04",
+    "text": "Eu estava com pressa e eles foram bem pontuais. Gostei da atenção do começo ao fim.",
+    "author": "Marcos",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_05",
+    "text": "Resolveram meu frete urgente num dia corrido. Foi tudo bem combinado e sem enrolação.",
+    "author": "Aline",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_06",
+    "text": "Atenderam minha solicitação rapidinho e já foram buscar. Entrega rápida e cuidadosa.",
+    "author": "Bruno",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_07",
+    "text": "Precisava mandar umas caixas com urgência e deu certo. Preço ok e atendimento bem direto.",
+    "author": "Fernanda",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_08",
+    "text": "O retorno foi quase imediato e já acertamos a coleta. Chegou certinho, sem atrasar.",
+    "author": "Diego",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_09",
+    "text": "Fiquei com receio por ser urgente, mas foi tranquilo. Foram claros no prazo e cumpriram.",
+    "author": "Larissa",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_10",
+    "text": "Solicitei o frete no mesmo dia e me atenderam super bem. A entrega foi rápida e sem complicação.",
+    "author": "Gustavo",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_11",
+    "text": "Precisava de agilidade e eles ajudaram muito. Comunicação boa e cuidado na hora de transportar.",
+    "author": "Patricia",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_vitoria-da-conquista_urgente_12",
+    "text": "Chamei para um frete urgente e fui bem atendido. Chegaram no horário combinado e entregaram direitinho.",
+    "author": "Renato",
+    "citySlug": "vitoria-da-conquista",
+    "type": "urgente",
+    "ts": 1770779000557,
+    "source": "cliente"
   }
 ]

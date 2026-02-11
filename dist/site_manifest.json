@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-11T02:53:11.004Z",
+  "generatedAt": "2026-02-11T03:10:40.494Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -596,6 +596,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-vila-velha/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-vila-velha/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-vila-velha/"
+      }
+    },
+    {
+      "slug": "vitoria-da-conquista",
+      "name": "Vitória da Conquista",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-vitoria-da-conquista/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-vitoria-da-conquista/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-vitoria-da-conquista/"
       }
     }
   ]
