@@ -19996,5 +19996,329 @@
     "type": "urgente",
     "ts": 1770773575120,
     "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. Motorista educado e cuidadoso com as caixas.",
+    "author": "Mariana",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_02",
+    "text": "Precisei de frete de última hora e me responderam rápido. Deu tudo certo e sem dor de cabeça.",
+    "author": "Carlos",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_03",
+    "text": "Levaram meus móveis com bastante cuidado e amarraram tudo direitinho. Chegou tudo inteiro.",
+    "author": "Fernanda",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_04",
+    "text": "Preço justo pelo serviço e comunicação bem clara do começo ao fim. Recomendo pra quem precisa de frete.",
+    "author": "Rafael",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_05",
+    "text": "Gostei porque foram pontuais e organizados na hora de carregar. Foi bem tranquilo.",
+    "author": "Aline",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_06",
+    "text": "Fiz frete de eletros e veio tudo bem protegido. Atendimento simples e eficiente.",
+    "author": "Bruno",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_07",
+    "text": "Chegaram, carregaram rápido e entregaram sem atrasar. Serviço honesto e bem combinado.",
+    "author": "Patricia",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_08",
+    "text": "Tinha medo de riscar os móveis, mas cuidaram bem e foram bem atentos. Valeu a ajuda.",
+    "author": "Diego",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_09",
+    "text": "Agendamento fácil e sem enrolação. O frete foi direto ao ponto e com cuidado.",
+    "author": "Camila",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_10",
+    "text": "Usei pra levar mercadoria e foi tudo certinho, com boa comunicação durante o trajeto.",
+    "author": "Lucas",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_11",
+    "text": "Gostei da atenção na hora de organizar as coisas no veículo. Entrega rápida e sem bagunça.",
+    "author": "Juliana",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_fretes_12",
+    "text": "Precisava transportar umas caixas pesadas e eles deram conta numa boa. Atendimento cordial e prático.",
+    "author": "Renato",
+    "citySlug": "taubate",
+    "type": "fretes",
+    "ts": 1770774592128,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_01",
+    "text": "Fiz minha mudança em Taubaté e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Marina",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_02",
+    "text": "Equipe educada e rápida. Embalaram as coisas com cuidado e a mudança terminou sem estresse.",
+    "author": "Gustavo",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_03",
+    "text": "Gostei da comunicação do começo ao fim. Foram transparentes no combinado e entregaram tudo certinho.",
+    "author": "Camila",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_04",
+    "text": "Tinha coisa frágil e fiquei com receio, mas deu tudo certo. Manusearam com atenção e sem correria.",
+    "author": "Renato",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_05",
+    "text": "Preço justo e serviço caprichado. A desmontagem e montagem dos móveis ajudou muito.",
+    "author": "Juliana",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_06",
+    "text": "Responderam rápido e marcaram a mudança sem complicação. No dia, foi tudo bem tranquilo.",
+    "author": "Diego",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_07",
+    "text": "Mudança de apartamento com elevador pequeno e eles tiveram paciência. Não teve dano nem bagunça.",
+    "author": "Patricia",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_08",
+    "text": "Chegaram com tudo preparado e protegendo bem os itens. Achei o atendimento bem profissional, sem ser engessado.",
+    "author": "Bruno",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_09",
+    "text": "Eu estava com prazo apertado e eles se organizaram direitinho. Cumpriram o que foi combinado.",
+    "author": "Larissa",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_10",
+    "text": "A equipe foi cuidadosa com caixas e eletros. No final conferimos tudo e estava completo.",
+    "author": "Felipe",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_11",
+    "text": "Gostei porque explicaram o processo e tiraram minhas dúvidas. A mudança em Taubaté foi mais leve do que eu imaginava.",
+    "author": "Aline",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_mudancas_12",
+    "text": "Trataram meus móveis como se fossem deles. Serviço bem feito e sem surpresas no valor.",
+    "author": "Thiago",
+    "citySlug": "taubate",
+    "type": "mudancas",
+    "ts": 1770774602369,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_01",
+    "text": "Precisava do frete pra ontem e eles resolveram rapidinho. Chegou no prazo combinado e sem dor de cabeça.",
+    "author": "Mariana",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_02",
+    "text": "Atendimento bem ágil e direto. O frete urgente saiu no mesmo dia e deu tudo certo.",
+    "author": "Rafael",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_03",
+    "text": "Fiquei com medo de atrasar, mas responderam rápido e organizaram a coleta na hora. Recomendo pra emergências.",
+    "author": "Camila",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_04",
+    "text": "Serviço bem combinado do começo ao fim. Entrega rápida e com cuidado com as caixas.",
+    "author": "Bruno",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_05",
+    "text": "Chamei em cima da hora e mesmo assim encaixaram meu frete urgente. Comunicação clara e sem enrolação.",
+    "author": "Aline",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_06",
+    "text": "O motorista foi pontual e a entrega foi bem mais rápida do que eu esperava. Salvou meu dia.",
+    "author": "Diego",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_07",
+    "text": "Tinha um prazo apertado e eles deram conta. Atualizaram o andamento e isso passou confiança.",
+    "author": "Fernanda",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_08",
+    "text": "Frete urgente com preço justo e atendimento bem humano. Chegou certinho e sem avarias.",
+    "author": "Gustavo",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_09",
+    "text": "Resolveram minha urgência sem complicar. Combinei pelo chat e já vieram buscar.",
+    "author": "Juliana",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_10",
+    "text": "Gostei da rapidez na resposta e na entrega. Tudo bem organizado, mesmo sendo em cima da hora.",
+    "author": "Paulo",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_11",
+    "text": "Precisava enviar umas peças com urgência e foi tranquilo. Cuidaram bem e entregaram no horário.",
+    "author": "Larissa",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_taubate_urgente_12",
+    "text": "Equipe bem prestativa e rápida. O frete urgente foi eficiente e me manteve informado até finalizar.",
+    "author": "Renato",
+    "citySlug": "taubate",
+    "type": "urgente",
+    "ts": 1770774611304,
+    "source": "cliente"
   }
 ]
