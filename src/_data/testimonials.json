@@ -17728,5 +17728,329 @@
     "type": "urgente",
     "ts": 1770767423255,
     "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_01",
+    "text": "Combinei o frete e chegou no horário certinho. Motorista educado e ajudou a organizar as caixas.",
+    "author": "Mariana",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_02",
+    "text": "Resposta rápida no orçamento e tudo bem explicado. A mudança pequena foi bem tranquila.",
+    "author": "Rafael",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_03",
+    "text": "Precisava levar um móvel e deu tudo certo. Cuidaram bem e entregaram sem arranhões.",
+    "author": "Camila",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_04",
+    "text": "Gostei da pontualidade e do cuidado com a embalagem. Serviço bem combinado do começo ao fim.",
+    "author": "Bruno",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_05",
+    "text": "Fizeram o frete no mesmo dia que pedi, sem correria. Preço justo e atendimento simples.",
+    "author": "Aline",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_06",
+    "text": "Tinha medo de atrasar por causa do trânsito, mas foi bem organizado. Chegou dentro do prazo combinado.",
+    "author": "Diego",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_07",
+    "text": "O motorista foi atencioso e esperou eu conferir tudo. Transporte seguro e sem dor de cabeça.",
+    "author": "Juliana",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_08",
+    "text": "Levaram minhas coisas com cuidado e sem bagunça. Comunicação boa pelo chat, bem prático.",
+    "author": "Fernando",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_09",
+    "text": "Frete para poucas caixas e um eletrodoméstico, bem rápido. Gostei da agilidade e da educação.",
+    "author": "Patricia",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_10",
+    "text": "Chegaram no horário combinado e fizeram a carga com calma. Deu pra confiar e recomendo.",
+    "author": "Lucas",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_11",
+    "text": "Orçamento sem enrolação e serviço caprichado. A entrega foi tranquila e sem surpresas.",
+    "author": "Renata",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_fretes_12",
+    "text": "Precisava de cuidado com um item frágil e eles foram bem cuidadosos. Tudo chegou inteiro.",
+    "author": "Gustavo",
+    "citySlug": "santos",
+    "type": "fretes",
+    "ts": 1770768125870,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_01",
+    "text": "Fiz minha mudança em Santos e foi tudo bem organizado. Chegaram no horário e cuidaram bem dos móveis.",
+    "author": "Mariana",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_02",
+    "text": "Equipe bem prática e educada. Embalaram as coisas com cuidado e a mudança terminou sem estresse.",
+    "author": "Rafael",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_03",
+    "text": "Gostei da comunicação desde o orçamento. No dia, deu tudo certo e nada chegou danificado.",
+    "author": "Camila",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_04",
+    "text": "Mudança rápida e bem combinada. Eles foram atentos com os itens mais frágeis.",
+    "author": "Bruno",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_05",
+    "text": "Eu estava com medo da bagunça, mas foi bem tranquilo. Montaram os móveis principais direitinho.",
+    "author": "Fernanda",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_06",
+    "text": "Atendimento simples e direto, sem enrolação. O valor foi justo e o serviço bem caprichado.",
+    "author": "Diego",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_07",
+    "text": "Precisava de uma mudança pequena e me atenderam super bem. Foram cuidadosos e rápidos.",
+    "author": "Aline",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_08",
+    "text": "Pontuais e organizados. A equipe ajudou a acomodar as caixas no novo apê do jeito que pedi.",
+    "author": "Gustavo",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_09",
+    "text": "Tudo correu bem do começo ao fim. Gostei que avisaram cada etapa e foram bem cuidadosos.",
+    "author": "Juliana",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_10",
+    "text": "Tinha móveis pesados e eles resolveram sem drama. Trabalho bem feito e com atenção.",
+    "author": "Thiago",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_11",
+    "text": "Orçamento rápido e sem surpresa depois. A mudança foi tranquila e o pessoal foi bem respeitoso.",
+    "author": "Patricia",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_mudancas_12",
+    "text": "Levaram minhas coisas com bastante cuidado e paciência. No final ficou tudo no lugar certinho.",
+    "author": "Leonardo",
+    "citySlug": "santos",
+    "type": "mudancas",
+    "ts": 1770768136758,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_01",
+    "text": "Precisava de frete urgente e eles responderam rapidinho. Coletaram e entregaram no mesmo dia, tudo bem combinado.",
+    "author": "Marina",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_02",
+    "text": "Serviço bem ágil em Santos. O motorista avisou quando estava chegando e a entrega foi tranquila.",
+    "author": "Bruno",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_03",
+    "text": "Chamamos em cima da hora e deu certo. Preço combinado antes e sem surpresa no final.",
+    "author": "Camila",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_04",
+    "text": "Frete urgente que realmente ajudou numa emergência. Comunicação clara e cuidado com as caixas.",
+    "author": "Diego",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_05",
+    "text": "Atendimento rápido e direto. Pegaram a encomenda e levaram sem enrolação.",
+    "author": "Fernanda",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_06",
+    "text": "Eu estava com pressa e resolveram tudo pelo Whats. Chegou dentro do prazo que falaram.",
+    "author": "Lucas",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_07",
+    "text": "Precisei mandar um item urgente e fiquei tranquilo. Me passaram atualização durante o trajeto.",
+    "author": "Paula",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_08",
+    "text": "Coleta rápida e equipe educada. Para frete urgente em Santos, foi uma mão na roda.",
+    "author": "Renato",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_09",
+    "text": "Tinha horário apertado e eles se organizaram bem. Entrega feita sem estresse.",
+    "author": "Juliana",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_10",
+    "text": "Gostei da agilidade e do cuidado na hora de carregar. Chegou tudo certinho.",
+    "author": "Gustavo",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_11",
+    "text": "Pedi um frete urgente e atenderam na hora. Bem prático e sem burocracia.",
+    "author": "Aline",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_santos_urgente_12",
+    "text": "Resolveram meu envio de última hora com muita rapidez. Atendimento simples e eficiente.",
+    "author": "Thiago",
+    "citySlug": "santos",
+    "type": "urgente",
+    "ts": 1770768145883,
+    "source": "cliente"
   }
 ]

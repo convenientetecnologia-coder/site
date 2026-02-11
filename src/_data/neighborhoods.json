@@ -5181,5 +5181,88 @@
       "maxPerPage": 15,
       "maxTotal": 45
     }
+  },
+  "santos": {
+    "city": "Santos",
+    "state": "SP",
+    "all": [
+      "Centro",
+      "Valongo",
+      "Paquetá",
+      "Vila Nova",
+      "Chico de Paula",
+      "Alemoa",
+      "Saboó",
+      "Morro da Nova Cintra",
+      "Morro do São Bento",
+      "Morro da Penha",
+      "Morro do Pacheco",
+      "Morro do Jabaquara",
+      "Morro do Marapé",
+      "Morro Santa Maria",
+      "Morro José Menino",
+      "Jabaquara",
+      "Macuco",
+      "Campo Grande",
+      "Vila Belmiro",
+      "Marapé",
+      "Encruzilhada",
+      "Aparecida",
+      "Embaré",
+      "Boqueirão",
+      "Gonzaga",
+      "Pompéia",
+      "José Menino",
+      "Caneleira",
+      "Bom Retiro",
+      "Rádio Clube",
+      "Santa Maria"
+    ],
+    "blocks": {
+      "fretes": [
+        "Centro",
+        "Valongo",
+        "Paquetá",
+        "Vila Nova",
+        "Chico de Paula",
+        "Alemoa",
+        "Saboó",
+        "Morro da Nova Cintra",
+        "Morro do São Bento",
+        "Morro da Penha"
+      ],
+      "mudancas": [
+        "Morro do Pacheco",
+        "Morro do Jabaquara",
+        "Morro do Marapé",
+        "Morro Santa Maria",
+        "Morro José Menino",
+        "Jabaquara",
+        "Macuco",
+        "Campo Grande",
+        "Vila Belmiro",
+        "Marapé"
+      ],
+      "urgente": [
+        "Encruzilhada",
+        "Aparecida",
+        "Embaré",
+        "Boqueirão",
+        "Gonzaga",
+        "Pompéia",
+        "José Menino",
+        "Caneleira",
+        "Bom Retiro",
+        "Rádio Clube",
+        "Santa Maria"
+      ]
+    },
+    "meta": {
+      "source": "openai",
+      "model": "gpt-5.2",
+      "ts": "2026-02-11T00:01:56.156Z",
+      "maxPerPage": 15,
+      "maxTotal": 45
+    }
   }
 }
