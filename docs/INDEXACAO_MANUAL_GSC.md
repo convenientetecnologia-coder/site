@@ -51,6 +51,8 @@ Colunas:
 | 2026-02-11 | Balneário Camboriú (SC) | fretes | https://www.fretesoumudancas.com.br/fretes-em-balneario-camboriu/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
 | 2026-02-11 | Balneário Camboriú (SC) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-balneario-camboriu/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
 | 2026-02-11 | Balneário Camboriú (SC) | urgente | https://www.fretesoumudancas.com.br/frete-urgente-em-balneario-camboriu/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
+| 2026-02-11 | Aracaju (SE) | fretes | https://www.fretesoumudancas.com.br/fretes-em-aracaju/ | **Indexada (confirmado na Inspeção de URL)** | Detecção via sitemap; rastreada por Googlebot Smartphone |
+| 2026-02-11 | Aracaju (SE) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-aracaju/ | **Indexada (confirmado na Inspeção de URL)** | Detecção via sitemap; rastreada por Googlebot Smartphone |
 
 ---
 
