@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mode": "production",
-  "generatedAt": "2026-02-11T00:59:04.824Z",
+  "generatedAt": "2026-02-11T01:22:15.560Z",
   "siteUrl": "https://www.fretesoumudancas.com.br",
   "cities": [
     {
@@ -542,6 +542,15 @@
         "fretes": "https://www.fretesoumudancas.com.br/fretes-em-sao-paulo/",
         "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-sao-paulo/",
         "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-sao-paulo/"
+      }
+    },
+    {
+      "slug": "serra",
+      "name": "Serra",
+      "links": {
+        "fretes": "https://www.fretesoumudancas.com.br/fretes-em-serra/",
+        "mudancas": "https://www.fretesoumudancas.com.br/mudancas-em-serra/",
+        "urgente": "https://www.fretesoumudancas.com.br/frete-urgente-em-serra/"
       }
     }
   ]

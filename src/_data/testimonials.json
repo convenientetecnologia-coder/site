@@ -19348,5 +19348,329 @@
     "type": "fretes",
     "ts": 1770771507170,
     "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_01",
+    "text": "Combinei o horário e chegou certinho. O frete foi rápido e minhas caixas vieram bem cuidadas.",
+    "author": "Mariana",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_02",
+    "text": "Precisei de um frete de última hora e me atenderam numa boa. Preço justo e sem enrolação.",
+    "author": "Carlos",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_03",
+    "text": "O motorista foi educado e ajudou a organizar tudo no carro. Chegou tudo inteiro, bem tranquilo.",
+    "author": "Fernanda",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_04",
+    "text": "Respondeu rápido no orçamento e cumpriu o combinado. Serviço simples e eficiente.",
+    "author": "Rafael",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_05",
+    "text": "Fiz frete de alguns móveis e deu tudo certo. Pontualidade e cuidado na hora de carregar.",
+    "author": "Juliana",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_06",
+    "text": "Gostei da comunicação, foi fácil de acertar os detalhes. O transporte foi bem feito e sem correria.",
+    "author": "Bruno",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_07",
+    "text": "Levaram minhas coisas com atenção, sem arrastar ou bater. Chegou tudo do jeito que saiu.",
+    "author": "Aline",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_08",
+    "text": "Tinha medo de atrasar, mas foi bem organizado. Chegou no horário combinado e resolveu meu dia.",
+    "author": "Patricia",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_09",
+    "text": "Fui bem atendido desde o primeiro contato. O frete foi direto e não tive dor de cabeça.",
+    "author": "Diego",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_10",
+    "text": "O valor ficou claro desde o início e não teve surpresa. Recomendo pra quem quer praticidade.",
+    "author": "Camila",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_11",
+    "text": "Precisava transportar materiais e foi tudo certinho. Cuidado no carregamento e entrega rápida.",
+    "author": "Lucas",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_fretes_12",
+    "text": "Chegaram no horário, carregaram com cuidado e finalizaram rápido. Atendimento bem profissional, mas de boa.",
+    "author": "Renata",
+    "citySlug": "serra",
+    "type": "fretes",
+    "ts": 1770772117306,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_01",
+    "text": "Minha mudança em Serra foi bem organizada e sem correria. A equipe foi cuidadosa com os móveis e cumpriu o combinado.",
+    "author": "Camila",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_02",
+    "text": "Responderam rápido e já marcaram a data certinho. Chegou tudo inteiro e bem acomodado no caminhão.",
+    "author": "Rafael",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_03",
+    "text": "Gostei da atenção com as caixas e com a geladeira, tudo bem protegido. No fim, foi mais tranquilo do que eu esperava.",
+    "author": "Juliana",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_04",
+    "text": "Foram pontuais e trabalharam com calma, sem empurrar as coisas. A mudança em Serra saiu do jeito que combinamos.",
+    "author": "Bruno",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_05",
+    "text": "Equipe educada e prática, ajudou até a organizar as caixas no novo lugar. Serviço bem feito e sem estresse.",
+    "author": "Aline",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_06",
+    "text": "Achei o preço justo pelo cuidado que tiveram. Nada riscado e tudo chegou certinho.",
+    "author": "Diego",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_07",
+    "text": "Tinha móvel pesado e fiquei com medo, mas eles manusearam com cuidado. Foi rápido e bem coordenado.",
+    "author": "Fernanda",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_08",
+    "text": "Combinei pelo WhatsApp e deu tudo certo no dia. Foram bem transparentes e não teve surpresa no final.",
+    "author": "Marcos",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_09",
+    "text": "Levaram minhas coisas com atenção, principalmente itens frágeis. Chegou tudo ok e dentro do horário.",
+    "author": "Patricia",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_10",
+    "text": "A equipe foi super organizada na carga e na descarga. Deu para ver que têm experiência com mudança.",
+    "author": "Gustavo",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_11",
+    "text": "Gostei porque foram cuidadosos com portas e paredes na hora de passar os móveis. Mudança tranquila e bem combinada.",
+    "author": "Larissa",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_mudancas_12",
+    "text": "Precisava de agilidade e eles deram conta sem bagunça. Atendimento bom do começo ao fim.",
+    "author": "Renato",
+    "citySlug": "serra",
+    "type": "mudancas",
+    "ts": 1770772126880,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_01",
+    "text": "Precisei de frete urgente e deu tudo certo. Responderam rápido e combinaram direitinho o horário.",
+    "author": "Mariana",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_02",
+    "text": "Cheguei em cima da hora e mesmo assim conseguiram encaixar a coleta. Entrega rápida e sem estresse.",
+    "author": "Rafael",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_03",
+    "text": "Atendimento bem direto e eficiente. O frete urgente em Serra me salvou no dia.",
+    "author": "Camila",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_04",
+    "text": "Gostei porque foram claros no valor e no prazo. A entrega chegou dentro do combinado.",
+    "author": "Bruno",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_05",
+    "text": "Eu estava com pressa e eles agilizaram tudo. Motorista educado e cuidadoso com as caixas.",
+    "author": "Aline",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_06",
+    "text": "Solicitei de manhã e resolveram ainda no mesmo dia. Comunicação boa do começo ao fim.",
+    "author": "Diego",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_07",
+    "text": "Frete urgente bem organizado, sem enrolação. Me avisaram quando estavam chegando e facilitou muito.",
+    "author": "Juliana",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_08",
+    "text": "Tinha um prazo apertado e deu certo. Pegaram e entregaram rápido, do jeito que eu precisava.",
+    "author": "Felipe",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_09",
+    "text": "Achei prático de contratar e o retorno foi imediato. Serviço ágil e com cuidado no transporte.",
+    "author": "Renata",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_10",
+    "text": "Foi minha primeira vez usando frete urgente e gostei. Passaram confiança e cumpriram o combinado.",
+    "author": "Gustavo",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_11",
+    "text": "Resolveram uma entrega de última hora pra mim. Tudo bem alinhado, sem surpresa no final.",
+    "author": "Patrícia",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
+  },
+  {
+    "id": "dep_serra_urgente_12",
+    "text": "Precisava que chegasse rápido e eles deram conta. Atendimento simples e eficiente, recomendo sem exagero.",
+    "author": "Lucas",
+    "citySlug": "serra",
+    "type": "urgente",
+    "ts": 1770772135183,
+    "source": "cliente"
   }
 ]
