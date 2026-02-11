@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Vitória da Conquista (BA)** — publicado em 2026-02-11
+  - `/fretes-em-vitoria-da-conquista/` (~3023 palavras)
+  - `/mudancas-em-vitoria-da-conquista/` (~3113 palavras)
+  - `/frete-urgente-em-vitoria-da-conquista/` (~3404 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `fe6445e`
+
 - **Vila Velha (ES)** — publicado em 2026-02-11
   - `/fretes-em-vila-velha/` (~2982 palavras)
   - `/mudancas-em-vila-velha/` (~3199 palavras)

@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] Vitória da Conquista (BA): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de Vitória da Conquista com sistema 100% GPT:
+  - `/fretes-em-vitoria-da-conquista/` (~3023 palavras)
+  - `/mudancas-em-vitoria-da-conquista/` (~3113 palavras)
+  - `/frete-urgente-em-vitoria-da-conquista/` (~3404 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (4 títulos duplicados ajustados em `vitoria-da-conquista.json`; encoding corrigido “Vitória”)
+- **Por quê**: expandir cobertura orgânica no sudoeste da BA seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `fe6445e` (repo `site`)
+  - `src/_data/city_content/vitoria-da-conquista.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (vitoria-da-conquista habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `vitoria-da-conquista` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] Vila Velha (ES): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Vila Velha com sistema 100% GPT:
