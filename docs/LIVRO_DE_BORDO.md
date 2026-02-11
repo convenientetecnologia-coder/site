@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **Teresina (PI)** — publicado em 2026-02-11
+  - `/fretes-em-teresina/` (~3203 palavras)
+  - `/mudancas-em-teresina/` (~3139 palavras)
+  - `/frete-urgente-em-teresina/` (~3162 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `4c759df`
+
 - **Taubaté (SP)** — publicado em 2026-02-11
   - `/fretes-em-taubate/` (~2998 palavras)
   - `/mudancas-em-taubate/` (~2900 palavras)
