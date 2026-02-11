@@ -9,6 +9,28 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-11 — [SITE] São José do Rio Preto (SP): 3 páginas publicadas em production (sistema 100% GPT)
+
+- **O que**: criadas e publicadas as 3 páginas de São José do Rio Preto com sistema 100% GPT:
+  - `/fretes-em-sao-jose-do-rio-preto/` (~2874 palavras)
+  - `/mudancas-em-sao-jose-do-rio-preto/` (~3234 palavras)
+  - `/frete-urgente-em-sao-jose-do-rio-preto/` (~3098 palavras)
+  - Conteúdo GPT 100% único: `sectionTitles`, `sectionDescriptions`, `demands`, `whenYes`, `whenNo`, `common`, `types`, `services`, `checklist`
+  - Bairros: 45 divididos em 3 blocos (15/15/15)
+  - Depoimentos: 36 (12 por tipo)
+  - Validação anti-duplicação passou (5 títulos duplicados ajustados em `sao-jose-do-rio-preto.json`)
+- **Por quê**: expandir cobertura orgânica no interior de SP seguindo protocolo ultra enterprise (unicidade 100% + gates de qualidade).
+- **Evidência**:
+  - Commit: `ffdb21d` (repo `site`)
+  - `src/_data/city_content/sao-jose-do-rio-preto.json`
+  - `src/_data/neighborhoods.json`
+  - `src/_data/testimonials.json`
+  - `src/_data/publish_config.json` (sao-jose-do-rio-preto habilitado em production)
+- **Impacto**: +3 URLs indexáveis (via sitemap) para expansão de cobertura orgânica.
+- **Rollback**: desabilitar `sao-jose-do-rio-preto` no `publish_config.json` e fazer deploy.
+
+---
+
 #### 2026-02-11 — [SITE] São Gonçalo (RJ): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de São Gonçalo com sistema 100% GPT:

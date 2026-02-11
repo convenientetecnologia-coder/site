@@ -38,6 +38,15 @@ Regras:
 
 ### Cidades publicadas (production)
 
+- **São José do Rio Preto (SP)** — publicado em 2026-02-11
+  - `/fretes-em-sao-jose-do-rio-preto/` (~2874 palavras)
+  - `/mudancas-em-sao-jose-do-rio-preto/` (~3234 palavras)
+  - `/frete-urgente-em-sao-jose-do-rio-preto/` (~3098 palavras)
+  - Conteúdo GPT 100% único (sectionTitles, sectionDescriptions, demands, whenYes, whenNo, common, types, services, checklist)
+  - 45 bairros divididos em 3 blocos (15/15/15)
+  - 36 depoimentos (12 por tipo)
+  - Commit: `ffdb21d`
+
 - **São Gonçalo (RJ)** — publicado em 2026-02-11
   - `/fretes-em-sao-goncalo/` (~3070 palavras)
   - `/mudancas-em-sao-goncalo/` (~3139 palavras)
