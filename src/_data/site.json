@@ -10,6 +10,6 @@
     "urgente": "Olá! Preciso de frete urgente em {CITY} (atendimento hoje/agora, se possível)."
   },
   "trackingEndpoint": "https://c0nv3n13nt3t3cn0l0g14jesus.sa.ngrok.io/convenientetecnologia/api/site/event",
-  "defaultOgImage": "/assets/og-default.svg"
+  "defaultOgImage": "/assets/og-default.jpg"
 }
 

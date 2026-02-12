@@ -12,7 +12,9 @@ eleventyExcludeFromCollections: false
   <title>{{ site.brandName }}</title>
   <meta property="og:title" content="{{ site.brandName }}">
   <meta property="og:description" content="Serviço de fretes e mudanças rápido e seguro.">
-  <meta property="og:image" content="https://i.imgur.com/4JLgWQN.png">
+  {# og:image precisa ser absoluta; remove barra final para evitar '//' #}
+  {% set _siteAbs = (site.siteUrl | replace(r/\/*$/, "")) %}
+  <meta property="og:image" content="{{ _siteAbs }}{{ site.defaultOgImage }}">
   <meta property="og:url" content="{{ site.siteUrl }}">
   <meta property="og:type" content="website">
 
@@ -229,7 +231,7 @@ eleventyExcludeFromCollections: false
   </script>
   <div class="loading" id="loading">
     <div class="truck-animation">
-      <img src="https://i.imgur.com/4JLgWQN.png" alt="Carregando">
+      <img src="{{ site.defaultOgImage }}" alt="Carregando">
     </div>
   </div>
   <div class="progress-bar" id="progress-bar"></div>
