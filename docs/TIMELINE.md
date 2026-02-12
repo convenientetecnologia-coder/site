@@ -21,6 +21,20 @@ Regra: toda mudança relevante entra aqui com:
 
 ---
 
+#### 2026-02-12 — [SEO] Ícone nas SERPs: favicons PNG (48/192) + apple-touch-icon
+
+- **O que**:
+  - Gerados e publicados ícones PNG em `/favicon-48.png` e `/favicon-192.png` + `apple-touch-icon.png` (a partir do `src/assets/favicon.svg`).
+  - Adicionados links `<link rel="icon"...>` e `<link rel="apple-touch-icon"...>` no layout global (`base.njk`) e na home (`index.njk`).
+  - `og:image` agora sai em URL absoluta (melhor compatibilidade com crawlers/preview).
+- **Por quê**: reduzir ocorrência do “globo branco” no Google e aumentar consistência de branding nos resultados.
+- **Evidência**:
+  - `scripts/generate_favicons.js`
+  - `src/static/favicon-48.png`, `src/static/favicon-192.png`, `src/static/apple-touch-icon.png`
+  - `src/_includes/base.njk`, `src/index.njk`
+
+---
+
 #### 2026-02-11 — [SITE] Vitória da Conquista (BA): 3 páginas publicadas em production (sistema 100% GPT)
 
 - **O que**: criadas e publicadas as 3 páginas de Vitória da Conquista com sistema 100% GPT:

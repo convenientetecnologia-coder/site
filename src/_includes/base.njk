@@ -27,8 +27,10 @@
       <meta name="robots" content="index,follow" />
     {% endif %}
 
-    {# favicon: Google/browsers frequentemente pedem /favicon.ico; .htaccess redireciona para SVG #}
-    <link rel="icon" href="/favicon.ico" />
+    {# favicon (SERP): Google costuma preferir PNG/ICO. Publicamos PNG em / (src/static → /). #}
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/assets/site.css" />
   </head>
