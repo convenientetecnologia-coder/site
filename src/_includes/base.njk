@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
@@ -14,7 +14,7 @@
     {# og:image: prefer URL absoluta (melhor compatibilidade com crawlers) #}
     {% set _og = (seo.ogImage or site.defaultOgImage) %}
     {% if _og and (_og | slice(0,1)) == "/" %}
-      {# site.siteUrl já é canônico e sem "/" no final neste projeto #}
+      {# site.siteUrl jÃ¡ Ã© canÃ´nico e sem "/" no final neste projeto #}
       {% set _ogAbs = site.siteUrl ~ _og %}
     {% else %}
       {% set _ogAbs = _og %}
@@ -26,9 +26,9 @@
     {% else %}
       <meta name="robots" content="index,follow" />
     {% endif %}
-
-    {# favicon (SERP): Google costuma preferir PNG/ICO. Publicamos PNG em / (src/static → /). #}
+    {# favicon (SERP): Google costuma preferir PNG/ICO. Publicamos PNG em / (src/static -> /). #}
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+    <link rel="icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
@@ -58,7 +58,7 @@
     <footer class="footer" id="contato">
       <div class="wrap">
         <div class="footerRow">
-          <div class="muted">© {{ ("" | toISODate) | slice(0,4) }} {{ site.brandName }}.</div>
+          <div class="muted">Â© {{ ("" | toISODate) | slice(0,4) }} {{ site.brandName }}.</div>
           <nav class="footerNav" aria-label="Links do site">
             <a href="/cidades/">Cidades</a>
             <a href="/termos-de-uso.html">Termos</a>
@@ -80,7 +80,7 @@
       (() => {
         try {
           // ===== UX wiring (sempre) =====
-          // âncora contato: scroll suave e previsível
+          // Ã¢ncora contato: scroll suave e previsÃ­vel
           try {
             document.addEventListener("click", (ev) => {
               const a = ev && ev.target && ev.target.closest ? ev.target.closest("a[href='#contato']") : null;
@@ -91,7 +91,7 @@
             });
           } catch {}
 
-          // força topbar/dock a usar o melhor link WA da página (com mensagem automática)
+          // forÃ§a topbar/dock a usar o melhor link WA da pÃ¡gina (com mensagem automÃ¡tica)
           function bestWhatsHref() {
             const best = document.querySelector("a[data-ct-wa='1'][data-wa-kind='fretes'], a[data-ct-wa='1'][data-wa-kind='mudancas'], a[data-ct-wa='1'][data-wa-kind='urgente'], a[data-ct-wa='1']");
             const href = best && best.getAttribute ? (best.getAttribute("href") || "") : "";
@@ -108,7 +108,7 @@
             }
           } catch {}
 
-          // ===== Tracking (somente se endpoint válido) =====
+          // ===== Tracking (somente se endpoint vÃ¡lido) =====
           const endpoint = "{{ site.trackingEndpoint }}";
           if (!endpoint || !/^https?:\/\//i.test(endpoint)) return;
 
@@ -141,7 +141,7 @@
             } catch {}
           }
 
-          // pageview (sem bloquear a navegação)
+          // pageview (sem bloquear a navegaÃ§Ã£o)
           beacon("pageview");
 
           // whatsapp click (captura)
@@ -158,4 +158,11 @@
     </script>
   </body>
 </html>
+
+
+
+
+
+
+
 
