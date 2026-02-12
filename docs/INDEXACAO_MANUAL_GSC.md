@@ -57,8 +57,8 @@ Colunas:
 | 2026-02-11 | Balneário Camboriú (SC) | urgente | https://www.fretesoumudancas.com.br/frete-urgente-em-balneario-camboriu/ | **Indexada (confirmado na Inspeção de URL)** | Detecção via sitemap |
 | 2026-02-11 | Balneário Camboriú (SC) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-balneario-camboriu/ | **Ainda não indexada (na Inspeção de URL)** | URL 200 OK + robots index + canonical OK + no sitemap; aguardar reprocessamento do Google |
 | 2026-02-11 | Anápolis (GO) | urgente | https://www.fretesoumudancas.com.br/frete-urgente-em-anapolis/ | Testar URL publicada OK → Solicitar indexação (fila) | Re-solicitado após ajustes de favicon (normal; não “quebra” nada) |
-| 2026-02-11 | Bauru (SP) | fretes | https://www.fretesoumudancas.com.br/fretes-em-bauru/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
-| 2026-02-11 | Bauru (SP) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-bauru/ | Testar URL publicada OK → Solicitar indexação (fila) | Solicitação manual (controle do humano) |
+| 2026-02-11 | Bauru (SP) | fretes | https://www.fretesoumudancas.com.br/fretes-em-bauru/ | **Indexada (confirmado na Inspeção de URL)** | Solicitado manualmente; indexou rápido |
+| 2026-02-11 | Bauru (SP) | mudancas | https://www.fretesoumudancas.com.br/mudancas-em-bauru/ | **Indexada (confirmado na Inspeção de URL)** | Solicitado manualmente; indexou rápido |
 | 2026-02-11 | Bauru (SP) | urgente | https://www.fretesoumudancas.com.br/frete-urgente-em-bauru/ | **Não solicitado (cota diária atingida)** | Tentar amanhã (GSC mostra limite; comportamento esperado) |
 
 ---
