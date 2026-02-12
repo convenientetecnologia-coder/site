@@ -11,7 +11,15 @@
     <meta property="og:title" content="{{ seo.ogTitle or seo.title }}" />
     <meta property="og:description" content="{{ seo.ogDescription or seo.description }}" />
     <meta property="og:url" content="{{ seo.canonical }}" />
-    <meta property="og:image" content="{{ seo.ogImage or site.defaultOgImage }}" />
+    {# og:image: prefer URL absoluta (melhor compatibilidade com crawlers) #}
+    {% set _og = (seo.ogImage or site.defaultOgImage) %}
+    {% if _og and (_og | slice(0,1)) == "/" %}
+      {# site.siteUrl já é canônico e sem "/" no final neste projeto #}
+      {% set _ogAbs = site.siteUrl ~ _og %}
+    {% else %}
+      {% set _ogAbs = _og %}
+    {% endif %}
+    <meta property="og:image" content="{{ _ogAbs }}" />
 
     {% if publish.mode != "production" %}
       <meta name="robots" content="noindex,nofollow" />
@@ -19,6 +27,8 @@
       <meta name="robots" content="index,follow" />
     {% endif %}
 
+    {# favicon: Google/browsers frequentemente pedem /favicon.ico; .htaccess redireciona para SVG #}
+    <link rel="icon" href="/favicon.ico" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/assets/site.css" />
   </head>
